@@ -92,7 +92,7 @@ onBeforeUnmount(() => connection.destroy())
   <main class="remote-page">
     <div class="handset">
       <header>
-        <RouterLink to="/" class="brand">Positive Player</RouterLink>
+        <RouterLink to="/" class="brand">1988.in</RouterLink>
         <span class="device-label">Remote / 01</span>
       </header>
       <template v-if="!paired">

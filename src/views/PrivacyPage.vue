@@ -6,13 +6,13 @@ import LegalDocument from '../components/LegalDocument.vue'
   <main>
     <LegalDocument title="Privacy Policy" updated="8 September 2026">
       <p>
-        Positive Player is an always-on CRT-style television that plays publicly available YouTube
+        1988.in is an always-on CRT-style television that plays publicly available YouTube
         videos. This Privacy Policy explains what information we access, collect, store, use, and
-        share. <strong>Positive Player uses YouTube API Services</strong> (the YouTube Data API and
+        share. <strong>1988.in uses YouTube API Services</strong> (the YouTube Data API and
         the YouTube IFrame Player API) to find and play those videos.
       </p>
       <p>
-        By using Positive Player you also agree to our
+        By using 1988.in you also agree to our
         <RouterLink to="/terms">Terms of Service</RouterLink>. Google’s handling of data through
         YouTube API Services is described in the
         <a href="http://www.google.com/policies/privacy" rel="noopener noreferrer" target="_blank"
@@ -25,7 +25,7 @@ import LegalDocument from '../components/LegalDocument.vue'
 
       <h2>Information we collect</h2>
       <p>
-        Positive Player does not request access to your Google or YouTube account. We do not use
+        1988.in does not request access to your Google or YouTube account. We do not use
         OAuth, we do not receive Authorized Data from Google, and we do not see your Google
         password, channel, subscriptions, or watch history.
       </p>
@@ -92,13 +92,13 @@ import LegalDocument from '../components/LegalDocument.vue'
         personal information. We do not share your data with other advertisers or data brokers.
       </p>
       <p>
-        Positive Player allows a third party — YouTube / Google — to serve content, including
+        1988.in allows a third party — YouTube / Google — to serve content, including
         advertisements, through the embedded player.
       </p>
 
       <h2>Cookies and similar technologies</h2>
       <p>
-        Positive Player itself uses browser storage — local storage and session storage — as
+        1988.in itself uses browser storage — local storage and session storage — as
         described above. It does not set first-party advertising cookies.
       </p>
       <p>
@@ -115,7 +115,7 @@ import LegalDocument from '../components/LegalDocument.vue'
       <h2>Advertisements</h2>
       <p>
         Videos play in YouTube’s player. YouTube may show advertisements. Those ads are served by
-        Google/YouTube, not by Positive Player. We do not control their content or targeting.
+        Google/YouTube, not by 1988.in. We do not control their content or targeting.
       </p>
 
       <h2>Retention, deletion, and Google permissions</h2>
@@ -125,13 +125,13 @@ import LegalDocument from '../components/LegalDocument.vue'
         browser tab and the in-memory server session.
       </p>
       <p>
-        To delete data stored by Positive Player, clear this site’s cookies and site data in your
+        To delete data stored by 1988.in, clear this site’s cookies and site data in your
         browser, or use your browser’s site settings. That removes local preferences, catalog cache,
         consent, and tab-specific remote credentials.
       </p>
       <p>
-        Because Positive Player does not request access to your Google or YouTube account, there is
-        no Positive Player grant to revoke at Google. If you use other applications that do access
+        Because 1988.in does not request access to your Google or YouTube account, there is
+        no 1988.in grant to revoke at Google. If you use other applications that do access
         your Google Account, you can review and revoke those apps at the
         <a
           href="https://security.google.com/settings/security/permissions"
@@ -143,7 +143,7 @@ import LegalDocument from '../components/LegalDocument.vue'
 
       <h2>Children</h2>
       <p>
-        Positive Player is not directed at children under 13. Channel catalogs come from public
+        1988.in is not directed at children under 13. Channel catalogs come from public
         YouTube playlists, and YouTube still determines which videos play and what ads appear. Do
         not use the service if you cannot agree to the YouTube Terms of Service.
       </p>

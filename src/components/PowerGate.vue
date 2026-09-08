@@ -30,7 +30,7 @@ function power() {
         <label class="agree" for="legal-consent">
           <input id="legal-consent" v-model="agreed" type="checkbox" />
           <span>
-            I agree to the Privacy Policy and Terms of Service. Positive Player uses YouTube API
+            I agree to the Privacy Policy and Terms of Service. 1988.in uses YouTube API
             Services. I also agree to the YouTube Terms of Service.
           </span>
         </label>

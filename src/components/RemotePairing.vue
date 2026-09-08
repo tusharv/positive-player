@@ -83,7 +83,7 @@ function closeDialog() {
     @keydown.stop
   >
     <button class="close" type="button" aria-label="Close pairing" @click="closeDialog">×</button>
-    <p class="eyebrow">Positive Player · Remote</p>
+    <p class="eyebrow">1988.in · Remote</p>
     <h1 id="pair-title">Your phone. Your remote.</h1>
     <template v-if="remote.paired.value">
       <p role="status">

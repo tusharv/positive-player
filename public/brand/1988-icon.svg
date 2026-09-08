@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>1988.in</title><rect width="64" height="64" rx="14" fill="#183b9b"/><g transform="translate(5 20) scale(.19)">  <g stroke="#fffdf5" stroke-width="15" stroke-linecap="square" stroke-linejoin="round">
+    <path d="M15 30 36 14V99M17 99H55"/>
+    <path d="M124 56H94Q76 56 76 37V33Q76 14 95 14H106Q125 14 125 33V78Q125 99 104 99H84"/>
+    <path d="M168 55Q150 55 150 37V33Q150 14 169 14H181Q200 14 200 33V37Q200 55 181 55ZM169 55Q149 55 149 76V79Q149 99 169 99H181Q201 99 201 79V76Q201 55 181 55"/>
+    <path d="M244 55Q226 55 226 37V33Q226 14 245 14H257Q276 14 276 33V37Q276 55 257 55ZM245 55Q225 55 225 76V79Q225 99 245 99H257Q277 99 277 79V76Q277 55 257 55"/>
+  </g>
+</g></svg>

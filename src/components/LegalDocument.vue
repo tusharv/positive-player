@@ -8,15 +8,15 @@ defineProps<{
 <template>
   <div class="legal">
     <header class="masthead">
-      <RouterLink class="callsign" to="/">Positive Player</RouterLink>
-      <p class="station-id">Station notice · PP-01</p>
+      <RouterLink class="callsign" to="/">1988.in</RouterLink>
+      <p class="station-id">Station notice · 1988.in</p>
       <nav aria-label="Legal">
         <RouterLink to="/privacy">Privacy Policy</RouterLink>
         <RouterLink to="/terms">Terms of Service</RouterLink>
         <a href="https://www.youtube.com/t/terms" rel="noopener noreferrer" target="_blank"
           >YouTube Terms of Service</a
         >
-        <RouterLink to="/">Back to TV</RouterLink>
+        <RouterLink to="/watch">Back to TV</RouterLink>
       </nav>
     </header>
     <article>
