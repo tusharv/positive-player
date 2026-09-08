@@ -1,0 +1,30 @@
+:root {
+  --crt-bg: #080605;
+  --crt-bezel: #16120e;
+  --crt-phosphor: #8fd9a4;
+  --crt-cream: #f3ead4;
+  --crt-dim: rgba(143, 217, 164, 0.35);
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  min-height: 100dvh;
+  background: var(--crt-bg);
+  color: var(--crt-cream);
+}
+
+body {
+  font-family: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+button {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .crt-grain {
+    animation: none !important;
+  }
+}
