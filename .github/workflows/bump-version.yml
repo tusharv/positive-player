@@ -1,0 +1,115 @@
+name: Bump package.json version
+
+on:
+    push:
+        branches:
+            - main
+    workflow_dispatch:
+        inputs:
+            release_type:
+                description: "Semver release type"
+                required: true
+                default: patch
+                type: choice
+                options:
+                    - patch
+                    - minor
+                    - major
+    issues:
+        types: [closed]
+
+permissions:
+    contents: write
+
+jobs:
+    bump-version:
+        if: |
+            github.event_name == 'workflow_dispatch' ||
+            github.event_name == 'issues' ||
+            (github.event_name == 'push' && !startsWith(github.event.head_commit.message, 'chore(release):'))
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "20"
+
+            - name: Configure git user
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git config user.email "358703+tusharv@users.noreply.github.com"
+
+            - name: Determine release type from commits (push)
+              if: github.event_name == 'push'
+              id: push_semver
+              run: |
+                  RANGE="HEAD"
+                  if git describe --tags --abbrev=0 >/dev/null 2>&1; then
+                    RANGE="$(git describe --tags --abbrev=0)..HEAD"
+                  fi
+                  LOG=$(git log "$RANGE" --pretty=format:'%s%n%b')
+                  TYPE="patch"
+                  if echo "$LOG" | grep -qiE 'BREAKING CHANGE|!:|^[^[:space:]]*!\('; then
+                    TYPE="major"
+                  elif echo "$LOG" | grep -qiE '^feat(\(|:|!)'; then
+                    TYPE="minor"
+                  fi
+                  echo "type=$TYPE" >> "$GITHUB_OUTPUT"
+
+            - name: Determine release type and branch
+              if: github.event_name != 'push'
+              id: semver
+              uses: actions/github-script@v7
+              with:
+                  script: |
+                      const inputType = core.getInput('release_type');
+                      const eventName = context.eventName;
+                      let type = inputType || 'patch';
+                      let branch = (context.payload.repository && context.payload.repository.default_branch) || 'main';
+
+                      if (eventName === 'issues') {
+                        const labels = (context.payload.issue.labels || []).map(l =>
+                          (typeof l === 'string' ? l : l.name).toLowerCase()
+                        );
+                        if (labels.some(l => l.includes('breaking-change') || l === 'major')) type = 'major';
+                        else if (labels.some(l => l.includes('enhancement') || l.includes('feat'))) type = 'minor';
+                        else type = 'patch';
+                      }
+
+                      core.setOutput('type', type);
+                      core.setOutput('branch', branch);
+
+            - name: Bump version and update CHANGELOG.md
+              env:
+                  TYPE: ${{ github.event_name == 'push' && steps.push_semver.outputs.type || steps.semver.outputs.type }}
+              run: |
+                  if git describe --tags --abbrev=0 >/dev/null 2>&1; then
+                    npm version "$TYPE" -m "chore(release): %s"
+                    npx --yes conventional-changelog-cli@4 -p angular -i CHANGELOG.md -s
+                    git add CHANGELOG.md
+                    git diff --staged --quiet || git commit --amend --no-edit
+                  else
+                    npm version "$TYPE" --no-git-tag-version
+                    NEW_VERSION=$(npm pkg get version | tr -d '"')
+                    npx --yes conventional-changelog-cli@4 -p angular -i CHANGELOG.md -s -r 0
+                    git add package.json CHANGELOG.md
+                    git commit -m "chore(release): ${NEW_VERSION}"
+                    git tag "v${NEW_VERSION}"
+                  fi
+
+            - name: Push commit and tags
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              run: |
+                  CURRENT_BRANCH="${GITHUB_REF_NAME:-$(git rev-parse --abbrev-ref HEAD)}"
+                  if [ "${{ github.event_name }}" = "issues" ]; then
+                    CURRENT_BRANCH="${{ steps.semver.outputs.branch }}"
+                    git checkout "$CURRENT_BRANCH"
+                  fi
+                  git push origin "$CURRENT_BRANCH"
+                  git push origin --tags
