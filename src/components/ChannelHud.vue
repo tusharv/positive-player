@@ -10,14 +10,9 @@ const props = defineProps<{
   visible: boolean
 }>()
 
-const emit = defineEmits<{
-  'channel-step': [delta: number]
-  'volume-step': [delta: number]
-}>()
-
 const ticks = computed(() => {
-  const filled = props.muted ? 0 : Math.round(props.volume / 10)
-  return Array.from({ length: 10 }, (_, i) => i < filled)
+  const filled = props.muted ? 0 : Math.round(props.volume / 5)
+  return Array.from({ length: 20 }, (_, i) => i < filled)
 })
 
 const displayLabel = computed(() => {
@@ -28,22 +23,20 @@ const displayLabel = computed(() => {
 
 <template>
   <div class="hud" :class="{ fade: !visible }">
-    <div class="cluster left">
-      <button type="button" @click="emit('volume-step', 5)">VOL +</button>
-      <button type="button" @click="emit('volume-step', -5)">VOL −</button>
-    </div>
-
-    <div class="readout">
-      <p class="label">{{ displayLabel }}</p>
+    <p class="channel-label">{{ displayLabel }}</p>
+    <div
+      class="volume-display"
+      role="meter"
+      aria-label="Volume"
+      :aria-valuenow="muted ? 0 : volume"
+      :aria-valuemin="0"
+      :aria-valuemax="100"
+      :aria-valuetext="muted ? 'Muted' : `${volume}%`"
+    >
+      <p class="volume-label">{{ muted ? 'MUTE' : 'VOLUME' }}</p>
       <div class="bar" aria-hidden="true">
         <span v-for="(on, i) in ticks" :key="i" class="tick" :class="{ on }" />
       </div>
-      <p v-if="muted" class="mute">MUTE</p>
-    </div>
-
-    <div class="cluster right">
-      <button type="button" @click="emit('channel-step', 1)">CH +</button>
-      <button type="button" @click="emit('channel-step', -1)">CH −</button>
     </div>
   </div>
 </template>
@@ -53,83 +46,58 @@ const displayLabel = computed(() => {
   position: absolute;
   inset: 0;
   z-index: 3;
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: start;
-  padding: 1.1rem 1.3rem;
   pointer-events: none;
   transition: opacity 0.4s ease;
 }
-
 .hud.fade {
   opacity: 0.18;
 }
-
-.cluster {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  pointer-events: auto;
-}
-
-.cluster.right {
-  align-items: end;
-}
-
-button {
-  border: 0;
-  background: rgba(0, 0, 0, 0.45);
-  color: var(--crt-phosphor);
-  letter-spacing: 0.12em;
-  font-size: 0.7rem;
-  padding: 0.28rem 0.5rem;
-  cursor: pointer;
-}
-
-button:focus-visible {
-  outline: 1px solid var(--crt-phosphor);
-}
-
-button:active {
-  transform: scale(0.98);
-}
-
-.readout {
-  justify-self: start;
-  padding-left: 0.4rem;
-}
-
-.label,
-.mute {
+.channel-label {
+  position: absolute;
+  top: max(5.5rem, 18%);
+  right: 6%;
+  left: 6%;
   margin: 0;
+  text-align: right;
+  overflow-wrap: anywhere;
   color: var(--crt-phosphor);
-  letter-spacing: 0.16em;
-  text-shadow: 0 0 8px rgba(80, 200, 120, 0.45);
+  font-size: clamp(1.4rem, 4vw, 3rem);
+  line-height: 1.15;
+  letter-spacing: 0.08em;
+  text-shadow:
+    0 2px 4px #000,
+    0 0 8px rgba(80, 200, 120, 0.45);
 }
-
-.label {
-  font-size: 0.82rem;
+.volume-display {
+  position: absolute;
+  bottom: max(5.5rem, 16%);
+  left: 8%;
+  color: #fff;
+  filter: drop-shadow(0 1px 2px #000);
 }
-
-.mute {
-  margin-top: 0.25rem;
-  font-size: 0.65rem;
-  opacity: 0.8;
+.volume-label {
+  margin: 0 0 0.4rem;
+  font-size: clamp(0.85rem, 1.8vw, 1.15rem);
+  line-height: 1;
 }
-
 .bar {
   display: flex;
-  gap: 3px;
-  margin-top: 0.4rem;
+  align-items: center;
+  gap: clamp(3px, 0.5vw, 6px);
+  height: 12px;
 }
-
 .tick {
-  width: 8px;
-  height: 6px;
-  background: var(--crt-dim);
+  width: clamp(4px, 0.6vw, 7px);
+  height: 2px;
+  background: currentColor;
 }
-
 .tick.on {
-  background: var(--crt-phosphor);
+  width: clamp(3px, 0.4vw, 5px);
+  height: 12px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hud {
+    transition: none;
+  }
 }
 </style>

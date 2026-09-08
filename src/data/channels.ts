@@ -9,6 +9,7 @@ export type Channel = {
   playlistId?: string
   blurb?: string
   mood?: ChannelMood
+  tags: string[]
   category?: string
 }
 
@@ -18,6 +19,7 @@ type LineupRow = {
   blurb: string
   mood: ChannelMood
   category: string
+  tags?: string[]
 }
 
 const LINEUP: LineupRow[] = [
@@ -141,12 +143,18 @@ const LINEUP: LineupRow[] = [
   { name: 'Puppets', query: 'puppet theatre performance traditional world', blurb: 'Small figures with large lives.', mood: 'warm', category: 'World' },
   { name: 'Kindness', query: 'random acts of kindness compilation hopeful', blurb: 'Strangers being good on purpose.', mood: 'warm', category: 'World' },
   { name: 'Lakes', query: 'calm lake scenery reflections 4k nature', blurb: 'Still water holding the sky.', mood: 'calm', category: 'Earth' },
+  { name: 'DD Classics', query: 'Doordarshan classic serials Ramayan Mahabharat Jungle Book Shaktimaan Hindi full episodes', blurb: 'Ramayan, Mahabharat, Jungle Book, and Shaktimaan from the DD era.', mood: 'warm', category: 'Classic TV', tags: ['DD Era', 'Hindi', 'Nostalgia', 'Classic TV'] },
+  { name: 'Ramayan', query: 'Ramayan Ramanand Sagar original Hindi full episode', blurb: 'Ramanand Sagar’s original Ramayan, in Hindi.', mood: 'warm', category: 'Classic TV', tags: ['DD Era', 'Hindi', 'Mythology', 'Drama'] },
+  { name: 'Mahabharat', query: 'Mahabharat B R Chopra original Hindi full episode', blurb: 'B. R. Chopra’s classic telling of the Mahabharat.', mood: 'curious', category: 'Classic TV', tags: ['DD Era', 'Hindi', 'Mythology', 'Drama'] },
+  { name: 'Jungle Book', query: 'Jungle Book Mowgli Doordarshan original Hindi full episode cartoon', blurb: 'Mowgli and friends in the Hindi animated classic.', mood: 'bright', category: 'Classic TV', tags: ['DD Era', 'Hindi', 'Animation', 'Adventure'] },
+  { name: 'Shaktimaan', query: 'Shaktimaan Mukesh Khanna original Hindi full episode', blurb: 'Mukesh Khanna’s superhero adventures from the DD era.', mood: 'bright', category: 'Classic TV', tags: ['DD Era', 'Hindi', 'Superhero', 'Adventure'] },
 ]
 
 export const CHANNELS: Channel[] = LINEUP.map((row, index) => ({
   number: index + 1,
   kind: 'search',
   ...row,
+  tags: row.tags ?? [row.category, row.mood[0]!.toUpperCase() + row.mood.slice(1)],
 }))
 
 export const CHANNEL_COUNT = CHANNELS.length

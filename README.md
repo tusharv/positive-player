@@ -4,6 +4,12 @@ Always-on CRT television that plays YouTube through the IFrame Player API. Flip 
 
 The TV remembers the last selected channel and sound settings in this browser across reloads and restarts, including channel changes made from a paired phone. Turn it on to return to that channel's current broadcast. Clearing browser storage resets these preferences; an unavailable saved channel falls back to the first channel.
 
+## Channel guide
+
+After turning on the TV, choose **Guide** in the lower-left corner. Search by channel name, number, description, or tag, and combine the search with a tag filter. Select a channel to tune in; press Escape or Close to return to the TV. Each channel has category and mood tags, with additional tags for classic shows.
+
+Channels 121–125 are **DD Classics**, **Ramayan**, **Mahabharat**, **Jungle Book**, and **Shaktimaan**. Choose the **DD Era** tag to find them together. They use YouTube searches aimed at original Hindi episodes; results and availability can vary, and the mixed channel does not guarantee a rotation of all four shows. Existing channel numbers are unchanged.
+
 ## YouTube API compliance
 
 Google’s YouTube API review needs public, no-login URLs. After you deploy, paste these into the API project:

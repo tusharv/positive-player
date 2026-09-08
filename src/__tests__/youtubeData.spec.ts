@@ -11,6 +11,7 @@ const nature: Channel = {
   number: 1,
   name: 'Nature',
   kind: 'search',
+  tags: ['Earth', 'Calm'],
   query: 'peaceful nature scenery',
 }
 

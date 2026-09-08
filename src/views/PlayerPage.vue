@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { onBeforeUnmount, onMounted } from 'vue'
+import ChannelGuide from '../components/ChannelGuide.vue'
 import ChannelHud from '../components/ChannelHud.vue'
 import ChannelZap from '../components/ChannelZap.vue'
 import CrtShell from '../components/CrtShell.vue'
@@ -94,9 +95,8 @@ onBeforeUnmount(() => {
         :volume="tv.volume.volume"
         :muted="tv.volume.muted"
         :visible="tv.hudVisible"
-        @channel-step="tv.channelStep"
-        @volume-step="tv.volumeStep"
       />
+      <ChannelGuide v-if="tv.poweredOn" :current-channel="tv.channelNumber" @tune="tv.setChannel" />
       <RemotePairing />
       <PowerGate v-if="!tv.poweredOn" @power="tv.powerOn()" />
     </CrtShell>

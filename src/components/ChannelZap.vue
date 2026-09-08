@@ -41,7 +41,6 @@ onBeforeUnmount(() => {
 <template>
   <div class="zap" :class="{ still: reduceMotion }" aria-hidden="true">
     <canvas ref="canvas" class="snow" />
-    <div class="tear" />
     <div class="hold" />
   </div>
 </template>
@@ -54,33 +53,17 @@ onBeforeUnmount(() => {
   overflow: hidden;
   pointer-events: none;
   background: #111;
-  animation: zap-roll 0.42s steps(4) both;
 }
 
 .snow {
   position: absolute;
-  inset: -8%;
-  width: 116%;
-  height: 116%;
+  inset: 0;
+  width: 100%;
+  height: 100%;
   image-rendering: pixelated;
   opacity: 0.92;
   mix-blend-mode: screen;
   filter: contrast(1.8) brightness(1.15);
-}
-
-.tear {
-  position: absolute;
-  inset: 18% -10% auto;
-  height: 14%;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(255, 255, 255, 0.55) 46%,
-    rgba(80, 180, 255, 0.35) 50%,
-    rgba(255, 70, 70, 0.28) 54%,
-    transparent
-  );
-  animation: zap-tear 0.42s linear both;
 }
 
 .hold {
@@ -94,35 +77,8 @@ onBeforeUnmount(() => {
   background: #1a1a1a;
 }
 
-.still .snow,
-.still .tear {
+.still .snow {
   display: none;
-}
-
-@keyframes zap-roll {
-  0% {
-    transform: translateY(-8%) skewX(-4deg);
-    filter: contrast(2);
-  }
-  35% {
-    transform: translateY(6%) skewX(3deg);
-  }
-  70% {
-    transform: translateY(-2%) skewX(-1deg);
-  }
-  100% {
-    transform: none;
-    filter: none;
-  }
-}
-
-@keyframes zap-tear {
-  0% {
-    transform: translateY(-80%);
-  }
-  100% {
-    transform: translateY(220%);
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -130,8 +86,7 @@ onBeforeUnmount(() => {
     animation: none;
   }
 
-  .snow,
-  .tear {
+  .snow {
     display: none;
   }
 }

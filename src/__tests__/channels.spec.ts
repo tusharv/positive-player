@@ -39,3 +39,19 @@ describe('channel lineup', () => {
     )
   })
 })
+
+it('tags every channel and appends the DD lineup without moving old channels', () => {
+  for (const channel of CHANNELS) {
+    expect(channel.tags.length).toBeGreaterThanOrEqual(2)
+    expect(new Set(channel.tags).size).toBe(channel.tags.length)
+  }
+  expect(channelByNumber(120)?.name).toBe('Lakes')
+  expect(CHANNELS.slice(120).map((channel) => channel.name)).toEqual([
+    'DD Classics',
+    'Ramayan',
+    'Mahabharat',
+    'Jungle Book',
+    'Shaktimaan',
+  ])
+  expect(CHANNELS.slice(120).every((channel) => channel.tags.includes('DD Era'))).toBe(true)
+})
