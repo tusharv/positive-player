@@ -5,6 +5,8 @@ export type RemoteCommand =
   | { action: 'volumeStep'; value: -5 | 5 }
   | { action: 'digit'; value: string }
   | { action: 'mute' }
+  | { action: 'powerOff' }
+  | { action: 'powerToggle' }
 
 export type TvSnapshot = {
   poweredOn: boolean
@@ -24,6 +26,8 @@ export function isCommand(value: unknown): value is RemoteCommand {
       return command.value === -5 || command.value === 5
     case 'digit':
       return typeof command.value === 'string' && /^[0-9]$/.test(command.value)
+    case 'powerToggle':
+    case 'powerOff':
     case 'mute':
       return true
     default:

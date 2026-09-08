@@ -6,7 +6,7 @@ The TV remembers the last selected channel and sound settings in this browser ac
 
 ## Channel guide
 
-After turning on the TV, choose **Guide** in the lower-left corner. Search by channel name, number, description, or tag, and combine the search with a tag filter. Select a channel to tune in; press Escape or Close to return to the TV. Each channel has category and mood tags, with additional tags for classic shows.
+After turning on the TV, choose **Guide** in the lower-left corner. Search by channel name, number, description, or tag, and combine the search with a tag filter. Select a channel to tune in; press Escape or Back to TV to return to the TV. The guide fills the CRT screen within its bezel. Each channel has category and mood tags, with additional tags for classic shows.
 
 Channels 121–125 are **DD Classics**, **Ramayan**, **Mahabharat**, **Jungle Book**, and **Shaktimaan**. Choose the **DD Era** tag to find them together. They use YouTube searches aimed at original Hindi episodes; results and availability can vary, and the mixed channel does not guarantee a rotation of all four shows. Existing channel numbers are unchanged.
 
@@ -32,7 +32,7 @@ Do not commit `.env`.
 3. Turn on the desktop TV, then choose **Connect remote** in the lower-right corner.
 4. Scan the QR code on your phone, or open `/remote` at the same address and enter the eight-character code.
 
-The phone controls channels, volume, and mute. The number pad follows the current channel lineup; shorter numbers commit after a brief pause. The desktop sends its actual state back to the phone, including changes made with its own controls. Video and sound stay on the desktop. Power-on still requires a desktop gesture for browser playback permissions.
+The phone controls power, channels, volume, and mute. The number pad follows the current channel lineup; shorter numbers commit after a brief pause. The desktop sends its actual state back to the phone, including changes made with its own controls. Video and sound stay on the desktop. After accepting the station notice on the desktop, the remote’s Power button toggles the TV on and off while keeping the phone paired. Browser autoplay restrictions may still require a desktop interaction to resume sound.
 
 One phone can pair with each TV. Pairing invitations expire after five minutes and are consumed on first use. Either device can disconnect. Refreshing or briefly losing connection resumes using credentials stored only for that browser tab; offline button presses are not queued. A disconnected desktop has two minutes to reconnect. Sessions expire after twelve hours, and restarting the server requires pairing again.
 

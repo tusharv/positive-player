@@ -155,3 +155,27 @@ test('rejects socket upgrades from another origin', async (t) => {
     ws.on('error', () => {})
   })
 })
+
+test('relays power off and keeps the paired remote informed of standby', async (t) => {
+  const app = await fixture(t)
+  const { host, remote } = await pair(app)
+  remote.send({ type: 'command', command: { action: 'powerOff' } })
+  assert.deepEqual((await host.next('command')).command, { action: 'powerOff' })
+  host.send({ type: 'state', state: { ...state, poweredOn: false } })
+  assert.equal((await remote.next('state')).state.poweredOn, false)
+  host.send({ type: 'state', state })
+  assert.equal((await remote.next('state')).state.poweredOn, true)
+})
+
+test('allows the power toggle in standby but blocks other controls', async (t) => {
+  const app = await fixture(t)
+  const { host, remote } = await pair(app)
+  remote.send({ type: 'command', command: { action: 'powerToggle' } })
+  assert.deepEqual((await host.next('command')).command, { action: 'powerToggle' })
+  host.send({ type: 'state', state: { ...state, poweredOn: false } })
+  await remote.next('state')
+  remote.send({ type: 'command', command: { action: 'mute' } })
+  assert.equal((await remote.next('error')).code, 'tv-off')
+  remote.send({ type: 'command', command: { action: 'powerToggle' } })
+  assert.deepEqual((await host.next('command')).command, { action: 'powerToggle' })
+})

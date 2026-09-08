@@ -1,5 +1,5 @@
 import { computed, ref } from 'vue'
-import { defineStore } from 'pinia'
+import { acceptHMRUpdate, defineStore } from 'pinia'
 import { CHANNELS, channelByNumber, formatChannelLabel } from '../data/channels'
 import { pickBroadcast, type BroadcastSlot, type CatalogItem } from '../lib/broadcastClock'
 import { CHANNEL_ZAP_MS, channelZapNeeded } from '../lib/channelZap'
@@ -19,7 +19,7 @@ import {
 
 const VOLUME_KEY = 'pp-volume'
 const CHANNEL_KEY = 'pp-channel'
-const HUD_MS = 3000
+const HUD_MS = 5000
 const BRIEF_MS = 2000
 const RETRY_MS = 8000
 
@@ -45,7 +45,11 @@ function readVolume(): VolumeState {
 }
 
 function writeVolume(state: VolumeState) {
-  localStorage.setItem(VOLUME_KEY, JSON.stringify(state))
+  try {
+    localStorage.setItem(VOLUME_KEY, JSON.stringify(state))
+  } catch {
+    // Sound controls and their readout must work even when preferences cannot be saved.
+  }
 }
 
 function catalogStorage() {
@@ -76,6 +80,7 @@ export const useTvStore = defineStore('tv', () => {
   const channelNumber = ref(readChannel())
   const volume = ref(readVolume())
   const hudVisible = ref(true)
+  const volumeVisible = ref(false)
   const interruption = ref<'none' | 'brief' | 'hold'>('none')
   const interruptionChannelNumber = ref(channelNumber.value)
   const catalogs = ref<Record<number, CatalogItem[]>>({})
@@ -86,6 +91,7 @@ export const useTvStore = defineStore('tv', () => {
   const zapping = ref(false)
 
   let hudTimer = 0
+  let volumeTimer = 0
   let briefTimer = 0
   let retryTimer = 0
   let zapTimer = 0
@@ -101,6 +107,14 @@ export const useTvStore = defineStore('tv', () => {
     window.clearTimeout(hudTimer)
     hudTimer = window.setTimeout(() => {
       hudVisible.value = false
+    }, HUD_MS)
+  }
+
+  function showVolume() {
+    volumeVisible.value = true
+    window.clearTimeout(volumeTimer)
+    volumeTimer = window.setTimeout(() => {
+      volumeVisible.value = false
     }, HUD_MS)
   }
 
@@ -133,7 +147,6 @@ export const useTvStore = defineStore('tv', () => {
 
     loading.value = true
     interruptionChannelNumber.value = channel
-    showHud()
 
     try {
       let catalog = catalogs.value[channel]
@@ -179,6 +192,24 @@ export const useTvStore = defineStore('tv', () => {
     poweredOn.value = true
     showHud()
     void loadChannel(channelNumber.value)
+  }
+
+  function powerOff() {
+    poweredOn.value = false
+    volumeVisible.value = false
+    hudVisible.value = false
+    window.clearTimeout(volumeTimer)
+    ++requestId
+    clearRetry()
+    window.clearTimeout(hudTimer)
+    window.clearTimeout(briefTimer)
+    window.clearTimeout(zapTimer)
+    currentSlot.value = null
+    loading.value = false
+    zapping.value = false
+    interruption.value = 'none'
+    pendingDigits.value = ''
+    digitState = createDigitState()
   }
 
   function startZap() {
@@ -235,13 +266,13 @@ export const useTvStore = defineStore('tv', () => {
   function volumeStep(delta: number) {
     volume.value = stepVolume(volume.value, delta)
     persistVolume()
-    showHud()
+    showVolume()
   }
 
   function muteToggle() {
     volume.value = toggleMute(volume.value)
     persistVolume()
-    showHud()
+    showVolume()
   }
 
   function playFromClock(extraExclude: string[] = []) {
@@ -292,6 +323,7 @@ export const useTvStore = defineStore('tv', () => {
     channelNumber,
     volume,
     hudVisible,
+    volumeVisible,
     interruption,
     interruptionChannelNumber,
     currentSlot,
@@ -302,6 +334,7 @@ export const useTvStore = defineStore('tv', () => {
     channelLabel,
     CHANNELS,
     powerOn,
+    powerOff,
     setChannel,
     channelStep,
     typeDigit,
@@ -315,3 +348,7 @@ export const useTvStore = defineStore('tv', () => {
     skipCurrent,
   }
 })
+
+if (import.meta.hot) {
+  import.meta.hot.accept(acceptHMRUpdate(useTvStore, import.meta.hot))
+}

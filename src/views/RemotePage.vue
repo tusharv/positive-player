@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import RemoteIcon from '../components/RemoteIcon.vue'
 import { CHANNELS, CHANNEL_COUNT, CHANNEL_DIGITS, formatChannelNumber } from '../data/channels'
 import { RemoteConnection, remoteErrors, type ConnectionStatus } from '../lib/remoteConnection'
 import { isSnapshot, type RemoteCommand, type TvSnapshot } from '../lib/remoteProtocol'
@@ -11,13 +12,16 @@ const state = ref<TvSnapshot | null>(null)
 const code = ref('')
 const error = ref('')
 const channel = computed(() => CHANNELS.find((item) => item.number === state.value?.channelNumber))
+const canControl = computed(
+  () => status.value === 'connected' && hostOnline.value && state.value !== null,
+)
 const enabled = computed(
   () => status.value === 'connected' && hostOnline.value && state.value?.poweredOn === true,
 )
 const connectionLabel = computed(() => {
   if (status.value !== 'connected') return 'Reconnecting…'
   if (!hostOnline.value) return 'Waiting for the TV…'
-  if (!state.value?.poweredOn) return 'Turn on the TV on your desktop'
+  if (!state.value?.poweredOn) return 'TV is off · Press Power to turn on'
   return 'Connected to your TV'
 })
 const connection = new RemoteConnection('remote', {
@@ -61,7 +65,7 @@ function join() {
   connection.start({ type: 'join', code: code.value.trim() })
 }
 function command(value: RemoteCommand) {
-  if (!enabled.value) return
+  if (!canControl.value || (!enabled.value && value.action !== 'powerToggle')) return
   error.value = ''
   if (!connection.send({ type: 'command', command: value }))
     error.value = 'Connection interrupted. Try again when the TV reconnects.'
@@ -128,6 +132,16 @@ onBeforeUnmount(() => connection.destroy())
         <p class="help">Your video stays on the big screen.</p>
       </template>
       <template v-else>
+        <button
+          class="power-button"
+          type="button"
+          :aria-label="state?.poweredOn ? 'Turn off TV' : 'Turn on TV'"
+          :aria-pressed="state?.poweredOn ?? false"
+          :disabled="!canControl"
+          @click="command({ action: 'powerToggle' })"
+        >
+          <RemoteIcon name="power" /> Power
+        </button>
         <section class="display" aria-label="TV status">
           <p class="status" role="status">
             <span class="dot" :class="{ online: enabled }" />{{ connectionLabel }}
@@ -161,15 +175,15 @@ onBeforeUnmount(() => connection.destroy())
                 aria-label="Next channel"
                 @click="command({ action: 'channelStep', value: 1 })"
               >
-                +
+                <RemoteIcon name="plus" />
               </button>
-              <span>Channel</span>
+              <span><RemoteIcon name="tv" /> Channel</span>
               <button
                 type="button"
                 aria-label="Previous channel"
                 @click="command({ action: 'channelStep', value: -1 })"
               >
-                −
+                <RemoteIcon name="minus" />
               </button>
             </div>
             <div class="rocker">
@@ -178,15 +192,15 @@ onBeforeUnmount(() => connection.destroy())
                 aria-label="Volume up"
                 @click="command({ action: 'volumeStep', value: 5 })"
               >
-                +
+                <RemoteIcon name="plus" />
               </button>
-              <span>Volume</span>
+              <span><RemoteIcon name="volume" /> Volume</span>
               <button
                 type="button"
                 aria-label="Volume down"
                 @click="command({ action: 'volumeStep', value: -5 })"
               >
-                −
+                <RemoteIcon name="minus" />
               </button>
             </div>
           </div>
@@ -196,6 +210,7 @@ onBeforeUnmount(() => connection.destroy())
             :aria-pressed="state?.muted ?? false"
             @click="command({ action: 'mute' })"
           >
+            <RemoteIcon :name="state?.muted ? 'volume' : 'mute'" />
             {{ state?.muted ? 'Unmute sound' : 'Mute sound' }}
           </button>
           <div class="keypad" aria-label="Channel number pad">
@@ -243,6 +258,38 @@ onBeforeUnmount(() => connection.destroy())
 </template>
 
 <style scoped>
+.power-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 0 0 20px auto;
+  min-height: 48px;
+  padding: 0 20px;
+  border: 1px solid #b86758;
+  border-radius: 24px;
+  background: #5d2824;
+  color: #ffe2d9;
+}
+.power-button:disabled {
+  opacity: 0.4;
+}
+.power-button[aria-pressed='true'] {
+  border-color: var(--crt-phosphor);
+}
+.rocker button,
+.rocker span,
+.mute-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.rocker span :deep(svg) {
+  width: 14px;
+  height: 14px;
+}
+
 .remote-page {
   min-height: 100dvh;
   box-sizing: border-box;

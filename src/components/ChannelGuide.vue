@@ -1,10 +1,22 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, nextTick, ref } from 'vue'
 import { CHANNELS, formatChannelNumber } from '../data/channels'
 
 defineProps<{ currentChannel: number }>()
 const emit = defineEmits<{ tune: [number: number] }>()
-const dialog = ref<HTMLDialogElement | null>(null)
+const isOpen = ref(false)
+const launch = ref<HTMLButtonElement | null>(null)
+const searchInput = ref<HTMLInputElement | null>(null)
+async function openGuide() {
+  isOpen.value = true
+  await nextTick()
+  searchInput.value?.focus()
+}
+async function closeGuide() {
+  isOpen.value = false
+  await nextTick()
+  launch.value?.focus()
+}
 const search = ref('')
 const tag = ref('')
 const tags = [...new Set(CHANNELS.flatMap((channel) => channel.tags))].sort()
@@ -21,25 +33,40 @@ const matches = computed(() => {
 })
 function tune(number: number) {
   emit('tune', number)
-  dialog.value?.close()
+  void closeGuide()
 }
 </script>
 
 <template>
-  <button type="button" class="guide-launch" @click="dialog?.showModal()">Guide</button>
-  <dialog ref="dialog" class="guide" aria-labelledby="guide-title" @keydown.stop>
+  <button
+    ref="launch"
+    type="button"
+    class="guide-launch"
+    :aria-expanded="isOpen"
+    aria-controls="channel-guide"
+    @click="openGuide"
+  >
+    Guide
+  </button>
+  <section
+    v-if="isOpen"
+    id="channel-guide"
+    class="guide"
+    aria-labelledby="guide-title"
+    @keydown.stop
+    @keydown.esc.prevent="closeGuide"
+  >
     <header>
       <div>
         <p class="eyebrow">POSITIVE PLAYER / CHANNEL DIRECTORY</p>
         <h1 id="guide-title">Channel guide</h1>
       </div>
-      <button type="button" aria-label="Close channel guide" @click="dialog?.close()">
-        Close ×
-      </button>
+      <button type="button" aria-label="Close channel guide" @click="closeGuide">Back to TV</button>
     </header>
     <div class="filters">
       <label
         >Find a channel<input
+          ref="searchInput"
           v-model="search"
           type="search"
           placeholder="Name, number, or tag"
@@ -80,7 +107,7 @@ function tune(number: number) {
         No channels found. Try another search or choose All tags.
       </p>
     </div>
-  </dialog>
+  </section>
 </template>
 
 <style scoped>
@@ -107,16 +134,28 @@ header button {
   padding: 0.6rem 0.85rem;
 }
 .guide {
-  color: #c9dfca;
-  background: #0c140f;
-  border: 1px solid #42634b;
-  padding: clamp(1rem, 3vw, 2rem);
-  width: min(48rem, calc(100vw - 2rem));
-  max-height: 85dvh;
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  color: var(--crt-phosphor);
+  background: #08110b;
+  padding: clamp(1.5rem, 4vw, 3.5rem);
   box-sizing: border-box;
+  overflow: auto;
+  text-shadow: 0 0 5px rgba(80, 200, 120, 0.3);
 }
-.guide::backdrop {
-  background: rgb(0 0 0 / 75%);
+.channels {
+  min-height: 5rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-color: #42634b #08110b;
+}
+header,
+.filters,
+.count {
+  flex-shrink: 0;
 }
 header {
   display: flex;
@@ -182,7 +221,7 @@ select {
   gap: 0.5rem;
 }
 .name {
-  color: #e0eee1;
+  color: var(--crt-phosphor);
 }
 small {
   font-size: 0.6rem;

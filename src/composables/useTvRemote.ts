@@ -1,6 +1,7 @@
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { RemoteConnection, remoteErrors, type ConnectionStatus } from '../lib/remoteConnection'
 import { isCommand, type TvSnapshot } from '../lib/remoteProtocol'
+import { hasLegalConsent } from '../lib/legalConsent'
 import { useTvStore } from '../stores/tv'
 
 export function useTvRemote() {
@@ -40,7 +41,11 @@ export function useTvRemote() {
           code.value = ''
         }
       }
-      if (message.type === 'command' && isCommand(message.command) && tv.poweredOn) {
+      if (
+        message.type === 'command' &&
+        isCommand(message.command) &&
+        (tv.poweredOn || message.command.action === 'powerToggle')
+      ) {
         const command = message.command
         switch (command.action) {
           case 'channelStep':
@@ -51,6 +56,13 @@ export function useTvRemote() {
             break
           case 'digit':
             tv.typeDigit(command.value)
+            break
+          case 'powerToggle':
+            if (tv.poweredOn) tv.powerOff()
+            else if (hasLegalConsent()) tv.powerOn()
+            break
+          case 'powerOff':
+            tv.powerOff()
             break
           case 'mute':
             tv.muteToggle()

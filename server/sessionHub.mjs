@@ -205,14 +205,14 @@ export function createSessionHub({ now = Date.now, maxSessions = 1000 } = {}) {
           error(socket, 'tv-offline')
           return
         }
-        if (!session.state.poweredOn) {
+        if (!session.state.poweredOn && msg.command.action !== 'powerToggle') {
           error(socket, 'tv-off')
           return
         }
         const { action, value } = msg.command
         send(session.host, {
           type: 'command',
-          command: action === 'mute' ? { action } : { action, value },
+          command: action === 'mute' || action === 'powerOff' || action === 'powerToggle' ? { action } : { action, value },
         })
         return
       }

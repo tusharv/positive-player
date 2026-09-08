@@ -8,6 +8,7 @@ const props = defineProps<{
   volume: number
   muted: boolean
   visible: boolean
+  volumeVisible: boolean
 }>()
 
 const ticks = computed(() => {
@@ -22,9 +23,10 @@ const displayLabel = computed(() => {
 </script>
 
 <template>
-  <div class="hud" :class="{ fade: !visible }">
-    <p class="channel-label">{{ displayLabel }}</p>
+  <div class="hud">
+    <p v-if="visible" class="channel-label">{{ displayLabel }}</p>
     <div
+      v-if="volumeVisible"
       class="volume-display"
       role="meter"
       aria-label="Volume"
@@ -49,14 +51,15 @@ const displayLabel = computed(() => {
   pointer-events: none;
   transition: opacity 0.4s ease;
 }
-.hud.fade {
-  opacity: 0.18;
-}
 .channel-label {
   position: absolute;
-  top: max(5.5rem, 18%);
-  right: 6%;
-  left: 6%;
+  top: 1rem;
+  right: 1rem;
+  max-width: calc(100% - 2rem);
+  box-sizing: border-box;
+  padding: 0.65rem 1rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 0.25rem;
   margin: 0;
   text-align: right;
   overflow-wrap: anywhere;

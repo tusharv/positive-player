@@ -6,11 +6,18 @@ import { useTvRemote } from '../composables/useTvRemote'
 const remote = useTvRemote()
 const dialog = ref<HTMLDialogElement | null>(null)
 const qr = ref('')
+let autoCloseTimer = 0
+function clearAutoClose() {
+  window.clearTimeout(autoCloseTimer)
+}
 const now = ref(Date.now())
 const timer = window.setInterval(() => {
   now.value = Date.now()
 }, 1000)
-onBeforeUnmount(() => window.clearInterval(timer))
+onBeforeUnmount(() => {
+  window.clearInterval(timer)
+  clearAutoClose()
+})
 const remaining = computed(() =>
   Math.max(0, Math.ceil((remote.expiresAt.value - now.value) / 1000)),
 )
@@ -40,11 +47,20 @@ watch(
   },
   { immediate: true },
 )
+function scheduleAutoClose() {
+  clearAutoClose()
+  if (dialog.value?.open && remote.paired.value && remote.remoteOnline.value) {
+    autoCloseTimer = window.setTimeout(() => dialog.value?.close(), 5000)
+  }
+}
+watch([remote.paired, remote.remoteOnline], scheduleAutoClose)
 function open() {
   dialog.value?.showModal()
+  scheduleAutoClose()
   if (remote.status.value === 'idle' && !remote.paired.value) remote.connect()
 }
 function closeDialog() {
+  clearAutoClose()
   dialog.value?.close()
   if (!remote.paired.value) remote.disconnect()
 }
@@ -59,10 +75,14 @@ function closeDialog() {
     />
     {{ remote.paired.value ? 'Phone remote' : 'Connect remote' }}
   </button>
-  <dialog ref="dialog" class="pair-dialog" aria-labelledby="pair-title" @keydown.stop>
-    <button class="close" type="button" aria-label="Close pairing" @click="closeDialog">
-      ×
-    </button>
+  <dialog
+    ref="dialog"
+    class="pair-dialog"
+    aria-labelledby="pair-title"
+    @close="clearAutoClose"
+    @keydown.stop
+  >
+    <button class="close" type="button" aria-label="Close pairing" @click="closeDialog">×</button>
     <p class="eyebrow">Positive Player · Remote</p>
     <h1 id="pair-title">Your phone. Your remote.</h1>
     <template v-if="remote.paired.value">
@@ -119,9 +139,7 @@ function closeDialog() {
       v-else-if="remote.status.value === 'connecting' || remote.status.value === 'reconnecting'"
     >
       <p role="status">Connecting to the remote service…</p>
-      <p class="note">
-        If this takes a while, check your connection. The TV tab must stay open.
-      </p>
+      <p class="note">If this takes a while, check your connection. The TV tab must stay open.</p>
       <button class="text-action" type="button" @click="remote.disconnect">Cancel</button>
     </template>
     <template v-else>

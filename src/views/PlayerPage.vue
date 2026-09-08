@@ -28,8 +28,6 @@ function onKey(event: KeyboardEvent) {
     return
   }
 
-  tv.showHud()
-
   if (event.key === 'ArrowUp' || event.key === 'ArrowRight') {
     event.preventDefault()
     tv.channelStep(1)
@@ -71,7 +69,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <main class="page" @mousemove="tv.showHud()">
+  <main class="page">
     <CrtShell>
       <YoutubeStage
         v-if="tv.poweredOn && tv.currentSlot"
@@ -95,6 +93,7 @@ onBeforeUnmount(() => {
         :volume="tv.volume.volume"
         :muted="tv.volume.muted"
         :visible="tv.hudVisible"
+        :volume-visible="tv.volumeVisible"
       />
       <ChannelGuide v-if="tv.poweredOn" :current-channel="tv.channelNumber" @tune="tv.setChannel" />
       <RemotePairing />
