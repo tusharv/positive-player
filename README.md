@@ -4,6 +4,15 @@ Always-on CRT television that plays YouTube through the IFrame Player API. Flip 
 
 The TV remembers the last selected channel and sound settings in this browser across reloads and restarts, including channel changes made from a paired phone. Turn it on to return to that channel's current broadcast. Clearing browser storage resets these preferences; an unavailable saved channel falls back to the first channel.
 
+## YouTube API compliance
+
+Google’s YouTube API review needs public, no-login URLs. After you deploy, paste these into the API project:
+
+- Privacy Policy: `https://positive-player.vercel.app/privacy`
+- Terms of Service: `https://positive-player.vercel.app/terms`
+
+The power-on screen requires agreement to both, plus a link to the [YouTube Terms of Service](https://www.youtube.com/t/terms), before the Data API or IFrame Player run.
+
 ## YouTube API key
 
 Copy `.env.example` to `.env` and set `VITE_YOUTUBE_API_KEY`. Enable YouTube Data API v3 on the key and restrict it by HTTP referrer to your origin. Without a key, the set turns on and shows the interruption card.

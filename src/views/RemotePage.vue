@@ -228,7 +228,16 @@ onBeforeUnmount(() => connection.destroy())
         <button class="quiet-button" type="button" @click="disconnect">Disconnect from TV</button>
       </template>
       <p v-if="error" class="error" role="alert">{{ error }}</p>
-      <footer>Good things. One channel at a time.</footer>
+      <footer>
+        Good things. One channel at a time.
+        <nav class="legal-links" aria-label="Legal">
+          <RouterLink to="/privacy">Privacy Policy</RouterLink>
+          <RouterLink to="/terms">Terms of Service</RouterLink>
+          <a href="https://www.youtube.com/t/terms" rel="noopener noreferrer" target="_blank"
+            >YouTube Terms of Service</a
+          >
+        </nav>
+      </footer>
     </div>
   </main>
 </template>
@@ -512,6 +521,16 @@ footer {
   color: #b0a38f;
   font-size: 0.54rem;
   line-height: 1.5;
+}
+.legal-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 14px;
+  margin-top: 10px;
+}
+.legal-links a {
+  color: #c0b5a2;
 }
 @media (max-width: 360px) {
   .handset {

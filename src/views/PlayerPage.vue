@@ -7,17 +7,22 @@ import InterruptionCard from '../components/InterruptionCard.vue'
 import PowerGate from '../components/PowerGate.vue'
 import RemotePairing from '../components/RemotePairing.vue'
 import YoutubeStage from '../components/YoutubeStage.vue'
+import { hasLegalConsent } from '../lib/legalConsent'
 import { useTvStore } from '../stores/tv'
 
 const tv = useTvStore()
 let digitTicker = 0
 
 function onKey(event: KeyboardEvent) {
-  if (event.target instanceof HTMLElement && event.target.closest('input, textarea, select, dialog, [contenteditable="true"]')) return
+  if (
+    event.target instanceof HTMLElement &&
+    event.target.closest('input, textarea, select, dialog, [contenteditable="true"]')
+  )
+    return
   if (!tv.poweredOn) {
     if (event.key === 'Enter' || event.key === ' ') {
       event.preventDefault()
-      tv.powerOn()
+      if (hasLegalConsent()) tv.powerOn()
     }
     return
   }
