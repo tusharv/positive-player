@@ -11,6 +11,7 @@ export const remoteErrors: Record<string, string> = {
   'tv-offline': 'The TV is reconnecting. Try again when it is back.',
   'tv-off': 'Turn on the TV on your desktop first.',
   replaced: 'This remote was opened in another tab.',
+  'service-unavailable': 'Could not connect to the remote service. Please try again in a moment.',
 }
 
 export class RemoteConnection {
@@ -18,6 +19,7 @@ export class RemoteConnection {
   private retry = 0
   private handshakeTimer = 0
   private attempt = 0
+  private failures = 0
   private active = false
   private authenticated = false
   private credentials: Credentials | null = null
@@ -70,6 +72,7 @@ export class RemoteConnection {
     window.addEventListener('offline', this.offline)
     window.addEventListener('online', this.online)
     this.attempt = 0
+    this.failures = 0
     this.connect()
   }
   private connect() {
@@ -117,6 +120,7 @@ export class RemoteConnection {
         }
         this.authenticated = true
         this.attempt = 0
+        this.failures = 0
         window.clearTimeout(this.handshakeTimer)
         this.callbacks.status('connected')
       }
@@ -142,6 +146,7 @@ export class RemoteConnection {
     socket.onclose = (event) => {
       if (this.socket !== socket) return
       window.clearTimeout(this.handshakeTimer)
+      const hadSession = this.authenticated
       this.authenticated = false
       this.socket = null
       if (!this.active) return
@@ -152,6 +157,11 @@ export class RemoteConnection {
           type: 'error',
           code: event.code === 4001 ? 'replaced' : 'rate-limited',
         })
+        return
+      }
+      if (!hadSession && ++this.failures >= 4) {
+        this.destroy()
+        this.callbacks.message({ type: 'error', code: 'service-unavailable' })
         return
       }
       this.callbacks.status('reconnecting')

@@ -86,6 +86,20 @@ describe('remote connection', () => {
     expect(Socket.instances).toHaveLength(1)
     expect(sessionStorage.getItem('pp-remote-remote')).toBeNull()
   })
+  it('gives up when the remote service never answers', () => {
+    const message = vi.fn()
+    const connection = new RemoteConnection('host', { message, status: vi.fn() })
+    connection.start()
+    for (let i = 0; i < 4; i++) {
+      Socket.instances[Socket.instances.length - 1]!.close()
+      vi.advanceTimersByTime(20000)
+    }
+    expect(message).toHaveBeenCalledWith({ type: 'error', code: 'service-unavailable' })
+    const attempts = Socket.instances.length
+    vi.advanceTimersByTime(30000)
+    expect(Socket.instances).toHaveLength(attempts)
+    connection.destroy()
+  })
 })
 
 it('accepts only supported commands and valid TV state', () => {

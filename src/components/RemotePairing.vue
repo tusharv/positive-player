@@ -44,6 +44,10 @@ function open() {
   dialog.value?.showModal()
   if (remote.status.value === 'idle' && !remote.paired.value) remote.connect()
 }
+function closeDialog() {
+  dialog.value?.close()
+  if (!remote.paired.value) remote.disconnect()
+}
 </script>
 
 <template>
@@ -56,7 +60,7 @@ function open() {
     {{ remote.paired.value ? 'Phone remote' : 'Connect remote' }}
   </button>
   <dialog ref="dialog" class="pair-dialog" aria-labelledby="pair-title" @keydown.stop>
-    <button class="close" type="button" aria-label="Close pairing" @click="dialog?.close()">
+    <button class="close" type="button" aria-label="Close pairing" @click="closeDialog">
       ×
     </button>
     <p class="eyebrow">Positive Player · Remote</p>
@@ -116,7 +120,7 @@ function open() {
     >
       <p role="status">Connecting to the remote service…</p>
       <p class="note">
-        If this takes a while, check your connection and that the TV server is running.
+        If this takes a while, check your connection. The TV tab must stay open.
       </p>
       <button class="text-action" type="button" @click="remote.disconnect">Cancel</button>
     </template>
