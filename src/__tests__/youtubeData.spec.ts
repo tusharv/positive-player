@@ -124,4 +124,115 @@ describe('fetchChannelCatalog', () => {
     ).rejects.toBeInstanceOf(QuotaExceededError)
     expect(fetchFn).toHaveBeenCalledTimes(1)
   })
+
+  it('still loads playlists after search quota is exhausted', async () => {
+    const fetchFn = vi
+      .fn()
+      .mockImplementationOnce(() => quotaResponse())
+      .mockImplementation((input: RequestInfo | URL) => {
+        const url = String(input)
+        if (url.includes('playlistItems')) {
+          return jsonResponse({ items: [{ contentDetails: { videoId: 'keys' } }] })
+        }
+        return jsonResponse({
+          items: [
+            {
+              id: 'keys',
+              status: { embeddable: true },
+              contentDetails: { duration: 'PT2M' },
+            },
+          ],
+        })
+      })
+    const memory = new Map<string, string>()
+    await expect(
+      fetchChannelCatalog(nature, { apiKey: 'key', fetchFn, storage: mapStorage(memory) }),
+    ).rejects.toBeInstanceOf(QuotaExceededError)
+
+    const piano: Channel = {
+      number: 8,
+      name: 'Piano',
+      kind: 'playlist',
+      tags: ['Music', 'Calm'],
+      playlistId: 'UUtestUploads1234567890',
+    }
+    const catalog = await fetchChannelCatalog(piano, {
+      apiKey: 'key',
+      fetchFn: fetchFn as typeof fetch,
+      storage: mapStorage(memory),
+    })
+    expect(catalog).toEqual([{ videoId: 'keys', durationSeconds: 120 }])
+  })
+
+  it('loads playlist channels without calling YouTube search', async () => {
+    const piano: Channel = {
+      number: 8,
+      name: 'Piano',
+      kind: 'playlist',
+      tags: ['Music', 'Calm'],
+      playlistId: 'UUtestUploads1234567890',
+    }
+    const fetchFn = vi.fn((input: RequestInfo | URL) => {
+      const url = String(input)
+      if (url.includes('playlistItems')) {
+        return jsonResponse({ items: [{ contentDetails: { videoId: 'keys' } }] })
+      }
+      return jsonResponse({
+        items: [
+          {
+            id: 'keys',
+            status: { embeddable: true },
+            contentDetails: { duration: 'PT2M' },
+          },
+        ],
+      })
+    })
+
+    const catalog = await fetchChannelCatalog(piano, {
+      apiKey: 'key',
+      fetchFn: fetchFn as typeof fetch,
+      storage: mapStorage(new Map()),
+    })
+    expect(catalog).toEqual([{ videoId: 'keys', durationSeconds: 120 }])
+    expect(fetchFn.mock.calls.map(([input]) => String(input)).join('\n')).not.toContain('/search')
+  })
+
+  it('drops shorts from a playlist catalog', async () => {
+    const piano: Channel = {
+      number: 8,
+      name: 'Piano',
+      kind: 'playlist',
+      tags: ['Music', 'Calm'],
+      playlistId: 'UUtestUploads1234567890',
+    }
+    const fetchFn = vi.fn((input: RequestInfo | URL) => {
+      const url = String(input)
+      if (url.includes('playlistItems')) {
+        return jsonResponse({
+          items: [{ contentDetails: { videoId: 'short' } }, { contentDetails: { videoId: 'long' } }],
+        })
+      }
+      return jsonResponse({
+        items: [
+          {
+            id: 'short',
+            status: { embeddable: true },
+            contentDetails: { duration: 'PT20S' },
+          },
+          {
+            id: 'long',
+            status: { embeddable: true },
+            contentDetails: { duration: 'PT3M' },
+          },
+        ],
+      })
+    })
+
+    const catalog = await fetchChannelCatalog(piano, {
+      apiKey: 'key',
+      fetchFn: fetchFn as typeof fetch,
+      storage: mapStorage(new Map()),
+    })
+    expect(catalog).toEqual([{ videoId: 'long', durationSeconds: 180 }])
+  })
 })

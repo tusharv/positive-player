@@ -158,10 +158,10 @@ export async function fetchChannelCatalog(
   const cached = readCached(options.storage?.getItem(key) ?? null)
   const fresh = cached && Date.now() - cached.fetchedAt < CACHE_TTL_MS
   if (fresh) return cached.items
-  if (cached && quotaBlocked(options.storage)) return cached.items
+  if (cached && quotaBlocked(options.storage) && channel.kind !== 'playlist') return cached.items
 
   try {
-    if (quotaBlocked(options.storage)) throw new QuotaExceededError()
+    if (channel.kind !== 'playlist' && quotaBlocked(options.storage)) throw new QuotaExceededError()
 
     const ids = await collectVideoIds(channel, options.apiKey, options.fetchFn)
     if (ids.length === 0) return cached?.items ?? []
@@ -176,7 +176,7 @@ export async function fetchChannelCatalog(
     for (const item of data.items ?? []) {
       if (!item.id || item.status?.embeddable === false) continue
       const durationSeconds = parseIsoDuration(item.contentDetails?.duration ?? '')
-      if (durationSeconds <= 0) continue
+      if (durationSeconds < 60) continue
       catalog.push({ videoId: item.id, durationSeconds })
     }
 

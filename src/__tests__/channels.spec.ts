@@ -17,14 +17,14 @@ describe('channel lineup', () => {
     )
   })
 
-  it('gives every channel a unique name, search query, blurb, mood, and category', () => {
+  it('gives every channel a unique name, playlist, blurb, mood, and category', () => {
     const names = CHANNELS.map((channel) => channel.name)
-    const queries = CHANNELS.map((channel) => channel.query)
+    const playlists = CHANNELS.map((channel) => channel.playlistId)
     expect(new Set(names).size).toBe(CHANNEL_COUNT)
-    expect(new Set(queries).size).toBe(CHANNEL_COUNT)
+    expect(new Set(playlists).size).toBe(CHANNEL_COUNT)
     for (const channel of CHANNELS) {
-      expect(channel.kind).toBe('search')
-      expect(channel.query?.length).toBeGreaterThan(8)
+      expect(channel.kind).toBe('playlist')
+      expect(channel.playlistId).toMatch(/^(PL|UU)[\w-]{10,}$/)
       expect(channel.blurb?.length).toBeGreaterThan(12)
       expect(['calm', 'warm', 'bright', 'curious']).toContain(channel.mood)
       expect(channel.category?.length).toBeGreaterThan(2)

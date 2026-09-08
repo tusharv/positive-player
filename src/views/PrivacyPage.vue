@@ -57,9 +57,9 @@ import LegalDocument from '../components/LegalDocument.vue'
 
       <h2>YouTube API Services and API data</h2>
       <p>
-        When you turn the set on, the browser calls YouTube API Services with our API key to search
-        or list public, embeddable videos for the built-in channel lineup, and to read public
-        duration and embeddability metadata. The IFrame Player then loads the chosen video from
+        When you turn the set on, the browser calls YouTube API Services with our API key to list
+        public playlist items for the built-in channel lineup, and to read public duration and
+        embeddability metadata. The IFrame Player then loads the chosen video from
         YouTube. That API Data is public video metadata (identifiers and durations), not information
         about your Google account.
       </p>
@@ -87,7 +87,7 @@ import LegalDocument from '../components/LegalDocument.vue'
       <h2>How we share information</h2>
       <p>
         We share requests needed to operate the service with YouTube and Google as providers of
-        YouTube API Services (search/list metadata and video playback). If you use a phone remote,
+        YouTube API Services (playlist and video metadata, and video playback). If you use a phone remote,
         pairing traffic goes through our relay so the phone can control the TV. We do not sell
         personal information. We do not share your data with other advertisers or data brokers.
       </p>
@@ -143,9 +143,9 @@ import LegalDocument from '../components/LegalDocument.vue'
 
       <h2>Children</h2>
       <p>
-        Positive Player is not directed at children under 13. Channel searches use YouTube’s strict
-        safe-search filter, but YouTube still determines which videos are returned and what ads
-        appear. Do not use the service if you cannot agree to the YouTube Terms of Service.
+        Positive Player is not directed at children under 13. Channel catalogs come from public
+        YouTube playlists, and YouTube still determines which videos play and what ads appear. Do
+        not use the service if you cannot agree to the YouTube Terms of Service.
       </p>
 
       <h2>Contact</h2>

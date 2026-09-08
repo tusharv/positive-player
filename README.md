@@ -8,7 +8,7 @@ The TV remembers the last selected channel and sound settings in this browser ac
 
 After turning on the TV, choose **Guide** in the lower-left corner. Search by channel name, number, description, or tag, and combine the search with a tag filter. Select a channel to tune in; press Escape or Back to TV to return to the TV. The guide fills the CRT screen within its bezel. Each channel has category and mood tags, with additional tags for classic shows.
 
-Channels 121–125 are **DD Classics**, **Ramayan**, **Mahabharat**, **Jungle Book**, and **Shaktimaan**. Choose the **DD Era** tag to find them together. They use YouTube searches aimed at original Hindi episodes; results and availability can vary, and the mixed channel does not guarantee a rotation of all four shows. Existing channel numbers are unchanged.
+Channels 121–125 are **DD Classics**, **Ramayan**, **Mahabharat**, **Jungle Book**, and **Shaktimaan**. Choose the **DD Era** tag to find them together. Each channel loads a public YouTube uploads playlist rather than a Search query, so the lineup does not spend the daily Search Queries quota. Results still depend on what those channels have published. Existing channel numbers are unchanged.
 
 ## YouTube API compliance
 
@@ -22,6 +22,8 @@ The power-on screen requires agreement to both, plus a link to the [YouTube Term
 ## YouTube API key
 
 Copy `.env.example` to `.env` and set `VITE_YOUTUBE_API_KEY`. Enable YouTube Data API v3 on the key and restrict it by HTTP referrer to your origin. Without a key, the set turns on and shows the interruption card.
+
+Channel catalogs use `playlistItems.list` and `videos.list` (1 unit each). They do not call `search.list`, which is capped at 100 requests per day on a default project.
 
 Do not commit `.env`.
 
