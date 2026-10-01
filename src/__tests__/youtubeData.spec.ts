@@ -60,10 +60,7 @@ describe('fetchChannelCatalog', () => {
       const url = String(input)
       if (url.includes('search')) {
         return jsonResponse({
-          items: [
-            { id: { videoId: 'good' } },
-            { id: { videoId: 'bad' } },
-          ],
+          items: [{ id: { videoId: 'good' } }, { id: { videoId: 'bad' } }],
         })
       }
       return jsonResponse({
@@ -95,7 +92,7 @@ describe('fetchChannelCatalog', () => {
     const fetchFn = () => quotaResponse()
     const memory = new Map<string, string>([
       [
-        'pp-catalog-1',
+        'pp-catalog-1-search-peaceful%20nature%20scenery',
         JSON.stringify({
           items: [{ videoId: 'stale', durationSeconds: 50 }],
           fetchedAt: 0,
@@ -209,7 +206,10 @@ describe('fetchChannelCatalog', () => {
       const url = String(input)
       if (url.includes('playlistItems')) {
         return jsonResponse({
-          items: [{ contentDetails: { videoId: 'short' } }, { contentDetails: { videoId: 'long' } }],
+          items: [
+            { contentDetails: { videoId: 'short' } },
+            { contentDetails: { videoId: 'long' } },
+          ],
         })
       }
       return jsonResponse({
@@ -235,4 +235,51 @@ describe('fetchChannelCatalog', () => {
     })
     expect(catalog).toEqual([{ videoId: 'long', durationSeconds: 180 }])
   })
+})
+
+it('does not reuse a catalog after its playlist changes or from the legacy number-only cache', async () => {
+  const channel: Channel = { ...nature, kind: 'playlist', playlistId: 'PLold' }
+  const memory = new Map<string, string>([
+    [
+      'pp-catalog-1',
+      JSON.stringify({
+        items: [{ videoId: 'unrelated', durationSeconds: 100 }],
+        fetchedAt: Date.now(),
+      }),
+    ],
+  ])
+  const fetchFn: typeof fetch = (input) => {
+    const url = new URL(String(input))
+    if (url.pathname.endsWith('/playlistItems'))
+      return jsonResponse({
+        items: [{ contentDetails: { videoId: url.searchParams.get('playlistId') } }],
+      })
+    return jsonResponse({
+      items: [
+        {
+          id: url.searchParams.get('id'),
+          status: { embeddable: true },
+          contentDetails: { duration: 'PT20M' },
+        },
+      ],
+    })
+  }
+  const options = { apiKey: 'key', fetchFn, storage: mapStorage(memory) }
+  expect(await fetchChannelCatalog(channel, options)).toEqual([
+    { videoId: 'PLold', durationSeconds: 1200 },
+  ])
+  expect(await fetchChannelCatalog({ ...channel, playlistId: 'PLnew' }, options)).toEqual([
+    { videoId: 'PLnew', durationSeconds: 1200 },
+  ])
+  expect(
+    await fetchChannelCatalog(
+      { ...channel, playlistId: 'PLnew' },
+      {
+        ...options,
+        fetchFn: () => {
+          throw new Error('cached catalog should be used')
+        },
+      },
+    ),
+  ).toEqual([{ videoId: 'PLnew', durationSeconds: 1200 }])
 })

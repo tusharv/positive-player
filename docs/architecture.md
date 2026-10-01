@@ -84,7 +84,7 @@ flowchart TB
 
   subgraph crt [PlayerPage layers back to front]
     YT[YoutubeStage iframe]
-    Shell[CrtShell scanlines grain]
+    Shell[CrtShell scanlines grain — desktop only]
     Card[InterruptionCard]
     HUD[ChannelHud CH and VOL]
     Zap[ChannelZap snow]
@@ -266,6 +266,7 @@ flowchart TB
     tuner[lib/tuner.ts]
     volume[lib/volume.ts]
     zap[lib/channelZap.ts]
+    plane[lib/hardwareVideoPlane.ts]
     consent[lib/legalConsent.ts]
     proto[lib/remoteProtocol.ts]
     conn[lib/remoteConnection.ts]
@@ -296,6 +297,7 @@ flowchart TB
 | `src/data/channels.ts` | Lineup, tags, `playlistId` |
 | `src/lib/youtubeData.ts` | Data API, cache, quota, duration parse |
 | `src/lib/broadcastClock.ts` | UTC slot picker |
+| `src/components/CrtShell.vue` | Bezel, scanlines, grain. No picture overlays on Tizen/webOS |
 | `src/components/YoutubeStage.vue` | IFrame Player only |
 | `src/composables/useTvRemote.ts` | Host side of pairing |
 | `server/sessionHub.mjs` | Pairing, relay, rate limits |
@@ -315,7 +317,8 @@ flowchart TB
 8. **Do not send video over the remote WebSocket.** Commands and snapshots only. Payload cap 4 KB.
 9. **Interruption copy stays Hindi + English** on the card. No official Doordarshan wordmark.
 10. **`prefers-reduced-motion: reduce`:** still scanlines, no grain motion, zap becomes a brief dark frame.
-11. **Tests:** `npm run test:unit -- --run`, `npm run test:server`, `npm run build`. Playback tests mock YouTube and must not spend quota.
+11. **Hardware video plane (Samsung Tizen, LG webOS, similar TV browsers):** YouTube paints on a separate plane. CSS overlays, `mix-blend-mode`, `filter`, `overflow: hidden`, and `border-radius` clipping on the iframe hide the picture while audio keeps playing. `hasHardwareVideoPlane()` in `src/lib/hardwareVideoPlane.ts` turns off scanlines/grain/vignette, drops screen clipping, and replaces analog snow with a dark frame. Do not put a full-screen transparent layer over the iframe on those sets.
+12. **Tests:** `npm run test:unit -- --run`, `npm run test:server`, `npm run build`. Playback tests mock YouTube and must not spend quota.
 
 ---
 

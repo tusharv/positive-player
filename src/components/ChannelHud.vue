@@ -23,33 +23,29 @@ const displayLabel = computed(() => {
 </script>
 
 <template>
-  <div class="hud">
-    <p v-if="visible" class="channel-label">{{ displayLabel }}</p>
-    <div
-      v-if="volumeVisible"
-      class="volume-display"
-      role="meter"
-      aria-label="Volume"
-      :aria-valuenow="muted ? 0 : volume"
-      :aria-valuemin="0"
-      :aria-valuemax="100"
-      :aria-valuetext="muted ? 'Muted' : `${volume}%`"
-    >
-      <p class="volume-label">{{ muted ? 'MUTE' : 'VOLUME' }}</p>
-      <div class="bar" aria-hidden="true">
-        <span v-for="(on, i) in ticks" :key="i" class="tick" :class="{ on }" />
-      </div>
+  <p v-if="visible" class="channel-label">{{ displayLabel }}</p>
+  <div
+    v-if="volumeVisible"
+    class="volume-display"
+    role="meter"
+    aria-label="Volume"
+    :aria-valuenow="muted ? 0 : volume"
+    :aria-valuemin="0"
+    :aria-valuemax="100"
+    :aria-valuetext="muted ? 'Muted' : `${volume}%`"
+  >
+    <p class="volume-label">{{ muted ? 'MUTE' : 'VOLUME' }}</p>
+    <div class="bar" aria-hidden="true">
+      <span v-for="(on, i) in ticks" :key="i" class="tick" :class="{ on }" />
     </div>
   </div>
 </template>
 
 <style scoped>
-.hud {
-  position: absolute;
-  inset: 0;
+.channel-label,
+.volume-display {
   z-index: 3;
   pointer-events: none;
-  transition: opacity 0.4s ease;
 }
 .channel-label {
   position: absolute;
@@ -76,7 +72,7 @@ const displayLabel = computed(() => {
   bottom: max(5.5rem, 16%);
   left: 8%;
   color: #fff;
-  filter: drop-shadow(0 1px 2px #000);
+  text-shadow: 0 1px 2px #000;
 }
 .volume-label {
   margin: 0 0 0.4rem;
@@ -97,10 +93,5 @@ const displayLabel = computed(() => {
 .tick.on {
   width: clamp(3px, 0.4vw, 5px);
   height: 12px;
-}
-@media (prefers-reduced-motion: reduce) {
-  .hud {
-    transition: none;
-  }
 }
 </style>

@@ -55,7 +55,8 @@ export function parseIsoDuration(iso: string): number {
 }
 
 function cacheKey(channel: Channel): string {
-  return `pp-catalog-${channel.number}`
+  const source = channel.kind === 'playlist' ? channel.playlistId : channel.query
+  return `pp-catalog-${channel.number}-${channel.kind}-${encodeURIComponent(source ?? '')}`
 }
 
 function readCached(raw: string | null): CachedCatalog | null {

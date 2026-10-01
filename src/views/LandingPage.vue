@@ -11,6 +11,10 @@ const featured = featuredNames.flatMap((name) => {
 <template>
   <div class="landing">
     <a class="skip-link" href="#main">Skip to content</a>
+    <div class="web-titlebar" aria-hidden="true">
+      <span>1988.in — Your television on the World Wide Web</span>
+      <span class="window-marks">― &nbsp; □ &nbsp; ×</span>
+    </div>
     <header class="header">
       <RouterLink to="/" class="brand" aria-label="1988.in home">
         <img src="/brand/1988-logo.svg" alt="1988.in" width="144" height="48" />
@@ -23,6 +27,11 @@ const featured = featuredNames.flatMap((name) => {
         >
       </nav>
     </header>
+    <aside class="web-notice" aria-label="What's new">
+      <strong>NEW!</strong>
+      <span>The remote is now on your phone.</span>
+      <a href="#how">Here's how it works »</a>
+    </aside>
 
     <main id="main">
       <section class="hero" aria-labelledby="hero-title">
@@ -38,6 +47,9 @@ const featured = featuredNames.flatMap((name) => {
           >
         </div>
         <div class="hero-picture">
+          <div class="picture-caption">
+            <span>The family television</span><span aria-hidden="true">[ 1988 ]</span>
+          </div>
           <img
             src="/brand/1988-living-room.webp"
             alt="A wooden television with a lace cover and colour bars in an imagined 1980s Indian living room"
@@ -92,7 +104,7 @@ const featured = featuredNames.flatMap((name) => {
         </p>
       </section>
 
-      <section class="how" aria-labelledby="how-title">
+      <section id="how" class="how" aria-labelledby="how-title">
         <div class="how-title">
           <h2 id="how-title">
             Same ritual.<br />
@@ -134,6 +146,21 @@ const featured = featuredNames.flatMap((name) => {
         <RouterLink to="/privacy">Privacy</RouterLink><RouterLink to="/terms">Terms</RouterLink
         ><RouterLink to="/remote">Phone remote</RouterLink>
       </nav>
+      <div class="web-footer">
+        <div class="channel-counter" :aria-label="`${CHANNEL_COUNT} channels to explore`">
+          <span class="counter-label">CHANNELS TO EXPLORE</span>
+          <span class="counter-digits">{{ String(CHANNEL_COUNT).padStart(4, '0') }}</span>
+        </div>
+        <div class="web-buttons" aria-label="About this website">
+          <span class="web-badge"
+            ><b>1988</b><span>INDIA<br />ON SCREEN</span></span
+          >
+          <span class="web-badge"
+            ><b>WWW</b><span>MADE FOR<br />THE WEB</span></span
+          >
+        </div>
+        <a href="#main">Back to top ↑</a>
+      </div>
       <p class="footnote">
         An independent nostalgia project. Not affiliated with Doordarshan or Prasar Bharati. Videos
         play through YouTube. 1988 is our inspiration; programmes span different years.
@@ -606,6 +633,194 @@ h2 {
   }
   .watch-button:hover {
     transform: none;
+  }
+}
+</style>
+
+<style scoped>
+/* Early personal-web details: tiled paper, browser chrome and raised controls. */
+.landing {
+  background-color: #efeee5;
+  background-image:
+    repeating-linear-gradient(0deg, transparent 0 7px, #183b9b06 7px 8px),
+    repeating-linear-gradient(90deg, transparent 0 7px, #183b9b06 7px 8px);
+}
+.web-titlebar {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 7px 16px;
+  background: #183b9b;
+  color: #fffdf5;
+  border: 2px outset #9daacf;
+  font:
+    11px/1.4 'IBM Plex Mono',
+    monospace;
+}
+.window-marks {
+  white-space: nowrap;
+}
+.header nav a,
+.footer nav a {
+  color: #183b9b;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.web-notice {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px 14px;
+  padding: 11px 20px;
+  border-top: 1px solid #a6adc0;
+  border-bottom: 3px double #a6adc0;
+  background: #fffce3;
+  color: #28304c;
+  font:
+    12px/1.5 'IBM Plex Mono',
+    monospace;
+}
+.web-notice strong {
+  color: #9b2424;
+  font-style: italic;
+}
+.web-notice a {
+  color: #183b9b;
+  text-underline-offset: 3px;
+}
+.hero {
+  background-image: radial-gradient(#ffffff12 0.7px, transparent 0.7px);
+  background-size: 6px 6px;
+}
+.hero-picture {
+  padding: 5px;
+  background: #c5c5c5;
+  border: 3px outset #e8e8e8;
+  box-shadow: 7px 7px 0 #0a205d;
+}
+.picture-caption {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 7px 9px;
+  background: #112c78;
+  color: #fffdf5;
+  font:
+    11px/1.4 'IBM Plex Mono',
+    monospace;
+}
+.hero-picture img {
+  border-radius: 0;
+  border: 2px inset #e8e8e8;
+}
+.watch-button {
+  border: 3px outset #ffffff;
+  border-radius: 0;
+  background: #e5e5e5;
+  box-shadow: 3px 3px 0 #0b225e;
+  font-family: 'IBM Plex Mono', monospace;
+  transition: background 0.15s;
+}
+.watch-button:hover {
+  transform: none;
+  background: #fffdf5;
+}
+.watch-button:active {
+  border-style: inset;
+  box-shadow: none;
+}
+.channel-list {
+  border: 3px ridge #b9bfd0;
+  padding: 0 18px;
+  background: #ffffff55;
+}
+.channel-row:last-child {
+  border-bottom: 0;
+}
+.web-footer {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 22px 0 4px;
+  border-top: 3px double #a6adc0;
+  font:
+    11px/1.5 'IBM Plex Mono',
+    monospace;
+}
+.channel-counter {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.counter-label {
+  max-width: 85px;
+  font-size: 9px;
+}
+.counter-digits {
+  background: #15213b;
+  color: #fffdf5;
+  border: 3px inset #bcc3d0;
+  padding: 3px 5px 3px 9px;
+  font:
+    22px/1 'IBM Plex Mono',
+    monospace;
+  letter-spacing: 5px;
+}
+.web-buttons {
+  display: flex;
+  gap: 10px;
+}
+.web-badge {
+  display: flex;
+  width: 102px;
+  height: 34px;
+  border: 2px outset #fff;
+  background: #dedede;
+  color: #142347;
+}
+.web-badge b {
+  display: grid;
+  place-items: center;
+  padding: 0 5px;
+  background: #183b9b;
+  color: white;
+  font-size: 11px;
+}
+.web-badge > span {
+  padding: 4px;
+  font:
+    bold 8px/1.25 Arial,
+    sans-serif;
+}
+@media (max-width: 767px) {
+  .web-titlebar {
+    font-size: 9px;
+    padding: 6px 10px;
+  }
+  .window-marks {
+    display: none;
+  }
+  .web-notice {
+    font-size: 10px;
+    gap: 5px 8px;
+    padding: 9px 16px;
+  }
+  .picture-caption {
+    font-size: 9px;
+  }
+  .channel-list {
+    padding: 0 12px;
+  }
+  .channel-row {
+    gap: 10px;
+    grid-template-columns: 55px 1fr;
+  }
+  .web-footer {
+    gap: 20px;
   }
 }
 </style>

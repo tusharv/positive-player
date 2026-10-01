@@ -1,5 +1,8 @@
-import { describe, it, expect } from 'vitest'
+import { afterEach, describe, expect, it, vi } from 'vitest'
+import { mount } from '@vue/test-utils'
+import ChannelZap from '../components/ChannelZap.vue'
 import { channelZapNeeded, CHANNEL_ZAP_MS } from '../lib/channelZap'
+import * as hardwareVideoPlane from '../lib/hardwareVideoPlane'
 
 describe('channelZapNeeded', () => {
   it('zaps when the set is on and the channel actually changes', () => {
@@ -16,5 +19,18 @@ describe('channelZapNeeded', () => {
 
   it('keeps the burst long enough to read as analog snow', () => {
     expect(CHANNEL_ZAP_MS).toBeGreaterThanOrEqual(300)
+  })
+})
+
+describe('ChannelZap', () => {
+  afterEach(() => {
+    vi.restoreAllMocks()
+  })
+
+  it('does not composite analog snow over a hardware video plane', () => {
+    vi.spyOn(hardwareVideoPlane, 'hasHardwareVideoPlane').mockReturnValue(true)
+    const wrapper = mount(ChannelZap)
+    expect(wrapper.find('canvas').exists()).toBe(false)
+    expect(wrapper.classes()).toContain('still')
   })
 })

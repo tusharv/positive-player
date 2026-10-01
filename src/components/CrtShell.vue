@@ -1,15 +1,21 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { hasHardwareVideoPlane } from '../lib/hardwareVideoPlane'
+
+const videoPlane = hasHardwareVideoPlane()
+</script>
 
 <template>
-  <div class="crt">
+  <div class="crt" :class="{ 'crt--plane': videoPlane }">
     <div class="crt-bezel">
       <div class="crt-screen">
         <div class="crt-stage">
           <slot />
         </div>
-        <div class="crt-scan" aria-hidden="true" />
-        <div class="crt-grain" aria-hidden="true" />
-        <div class="crt-vignette" aria-hidden="true" />
+        <template v-if="!videoPlane">
+          <div class="crt-scan" aria-hidden="true" />
+          <div class="crt-grain" aria-hidden="true" />
+          <div class="crt-vignette" aria-hidden="true" />
+        </template>
       </div>
     </div>
   </div>
@@ -100,6 +106,21 @@
       max(0.6rem, env(safe-area-inset-left));
     border-radius: 0;
   }
+}
 
+.crt--plane .crt-bezel {
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  background: #000;
+}
+
+.crt--plane .crt-screen {
+  overflow: visible;
+  border-radius: 0;
+  box-shadow: none;
 }
 </style>

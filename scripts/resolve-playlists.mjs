@@ -139,10 +139,6 @@ const HANDLES = {
   Kindness: ['SoulPancake'],
   Lakes: ['CalmLakes'],
   'DD Classics': ['DoordarshanNational'],
-  Ramayan: ['Rajshri'],
-  Mahabharat: ['SETIndia'],
-  'Jungle Book': ['CartoonNetworkIndia'],
-  Shaktimaan: ['Shemaroo'],
 }
 
 async function resolveHandle(handle) {
@@ -170,7 +166,13 @@ async function resolveHandle(handle) {
 }
 
 const used = new Set()
-const results = {}
+// Series channels must use dedicated episode playlists, never publisher upload feeds.
+const results = {
+  Ramayan: { playlistId: 'PLFPJRCFRDARSfz9y9YPMG_tCTSeYeGNA3' },
+  Mahabharat: { playlistId: 'PLa6CHPhFNfadNcnVZRXa6csHL5sFdkwmV' },
+  'Jungle Book': { playlistId: 'PL65eurRkEvghrieaRGNpneAZmZoUeM5Kc' },
+  Shaktimaan: { playlistId: 'PLJHHPzufWhurTWga4uBzL-M3F79A71p2Z' },
+}
 const failures = []
 
 for (const [name, handles] of Object.entries(HANDLES)) {

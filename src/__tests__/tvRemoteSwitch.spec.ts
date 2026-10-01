@@ -53,11 +53,11 @@ it('cancels an old channel retry when a remote channel change is loading', async
 
 it('does not skip a newly selected channel because the previous video failed', async () => {
   sessionStorage.setItem(
-    'pp-catalog-1',
+    'pp-catalog-1-playlist-UUwmZiChSryoWQCZMIQezgTg',
     JSON.stringify([{ videoId: 'first', durationSeconds: 100 }]),
   )
   sessionStorage.setItem(
-    'pp-catalog-2',
+    'pp-catalog-2-playlist-UUFXww6CrLAHhyZQCDnJ2g2A',
     JSON.stringify([{ videoId: 'second', durationSeconds: 100 }]),
   )
   const tv = useTvStore()

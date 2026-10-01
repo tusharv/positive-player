@@ -1,8 +1,11 @@
 <script setup lang="ts">
 import { onBeforeUnmount, onMounted, ref } from 'vue'
+import { hasHardwareVideoPlane } from '../lib/hardwareVideoPlane'
 
 const canvas = ref<HTMLCanvasElement | null>(null)
-const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false
+const still =
+  (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false) ||
+  hasHardwareVideoPlane()
 let frame = 0
 
 function paint() {
@@ -30,7 +33,7 @@ function paint() {
 }
 
 onMounted(() => {
-  if (!reduceMotion) paint()
+  if (!still) paint()
 })
 
 onBeforeUnmount(() => {
@@ -39,8 +42,8 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="zap" :class="{ still: reduceMotion }" aria-hidden="true">
-    <canvas ref="canvas" class="snow" />
+  <div class="zap" :class="{ still }" aria-hidden="true">
+    <canvas v-if="!still" ref="canvas" class="snow" />
     <div class="hold" />
   </div>
 </template>

@@ -27,7 +27,7 @@ it('restores the latest selected channel in a fresh TV instance and plays it on 
   setActivePinia(createPinia())
   const restored = useTvStore()
   expect(restored.channelNumber).toBe(11)
-  sessionStorage.setItem('pp-catalog-11', JSON.stringify([{ videoId: 'last-channel-video', durationSeconds: 100 }]))
+  sessionStorage.setItem('pp-catalog-11-playlist-UUq-Fj5jknLsUf-MWSy4_brA', JSON.stringify([{ videoId: 'last-channel-video', durationSeconds: 100 }]))
   restored.powerOn()
   await flushPromises()
   expect(restored.currentSlot?.videoId).toBe('last-channel-video')
