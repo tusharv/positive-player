@@ -283,3 +283,103 @@ it('does not reuse a catalog after its playlist changes or from the legacy numbe
     ),
   ).toEqual([{ videoId: 'PLnew', durationSeconds: 1200 }])
 })
+
+it('recovers an empty cached playlist by looking beyond a page of shorts', async () => {
+  const channel: Channel = { ...nature, kind: 'playlist', playlistId: 'PLshorts' }
+  const memory = new Map([
+    ['pp-catalog-1-playlist-PLshorts', JSON.stringify({ items: [], fetchedAt: Date.now() })],
+  ])
+  const fetchFn: typeof fetch = (input) => {
+    const url = new URL(String(input))
+    if (url.pathname.endsWith('/playlistItems'))
+      return jsonResponse(
+        url.searchParams.has('pageToken')
+          ? { items: [{ contentDetails: { videoId: 'long' } }] }
+          : { items: [{ contentDetails: { videoId: 'short' } }], nextPageToken: 'page-two' },
+      )
+    return jsonResponse({
+      items: [
+        {
+          id: url.searchParams.get('id'),
+          status: { embeddable: true },
+          contentDetails: { duration: url.searchParams.get('id') === 'short' ? 'PT20S' : 'PT10M' },
+        },
+      ],
+    })
+  }
+  expect(
+    await fetchChannelCatalog(channel, { apiKey: 'key', fetchFn, storage: mapStorage(memory) }),
+  ).toEqual([{ videoId: 'long', durationSeconds: 600 }])
+})
+
+it('uses another source in the same category when the primary playlist is unavailable', async () => {
+  const channel: Channel = { ...nature, kind: 'playlist', playlistId: 'missing', category: 'Earth' }
+  const fetchFn: typeof fetch = (input) => {
+    const url = new URL(String(input))
+    if (url.searchParams.get('playlistId') === 'missing')
+      return Promise.resolve({ ok: false, status: 404, json: async () => ({}) } as Response)
+    if (url.pathname.endsWith('/playlistItems'))
+      return jsonResponse({ items: [{ contentDetails: { videoId: 'backup' } }] })
+    return jsonResponse({
+      items: [
+        { id: 'backup', status: { embeddable: true }, contentDetails: { duration: 'PT10M' } },
+      ],
+    })
+  }
+  expect(await fetchChannelCatalog(channel, { apiKey: 'key', fetchFn })).toEqual([
+    { videoId: 'backup', durationSeconds: 600 },
+  ])
+})
+
+it('uses a backup when all primary videos have already failed playback', async () => {
+  const channel: Channel = { ...nature, kind: 'playlist', playlistId: 'broken', category: 'Earth' }
+  const memory = new Map([
+    [
+      'pp-catalog-1-playlist-broken',
+      JSON.stringify({ items: [{ videoId: 'bad', durationSeconds: 120 }], fetchedAt: Date.now() }),
+    ],
+  ])
+  const fetchFn: typeof fetch = (input) =>
+    String(input).includes('playlistItems')
+      ? jsonResponse({ items: [{ contentDetails: { videoId: 'backup' } }] })
+      : jsonResponse({
+          items: [
+            { id: 'backup', status: { embeddable: true }, contentDetails: { duration: 'PT10M' } },
+          ],
+        })
+  expect(
+    await fetchChannelCatalog(channel, {
+      apiKey: 'key',
+      fetchFn,
+      storage: mapStorage(memory),
+      excludeIds: ['bad'],
+    }),
+  ).toEqual([{ videoId: 'backup', durationSeconds: 600 }])
+})
+
+it('bounds pagination and does not cache an empty result', async () => {
+  const channel: Channel = { ...nature, kind: 'playlist', playlistId: 'PLempty' }
+  const memory = new Map<string, string>()
+  let pages = 0
+  const fetchFn: typeof fetch = async () => {
+    pages++
+    return { ok: true, json: async () => ({ items: [], nextPageToken: String(pages) }) } as Response
+  }
+  expect(
+    await fetchChannelCatalog(channel, { apiKey: 'key', fetchFn, storage: mapStorage(memory) }),
+  ).toEqual([])
+  expect(pages).toBe(3)
+  expect(memory.size).toBe(0)
+})
+
+it('stops after the bounded backup sources are exhausted', async () => {
+  const channel: Channel = { ...nature, kind: 'playlist', playlistId: 'missing', category: 'Earth' }
+  const requested: string[] = []
+  const fetchFn: typeof fetch = async (input) => {
+    requested.push(new URL(String(input)).searchParams.get('playlistId')!)
+    return { ok: false, status: 404, json: async () => ({}) } as Response
+  }
+  expect(await fetchChannelCatalog(channel, { apiKey: 'key', fetchFn })).toEqual([])
+  expect(requested).toHaveLength(3)
+  expect(new Set(requested).size).toBe(3)
+})

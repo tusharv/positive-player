@@ -1,6 +1,7 @@
 import { afterEach, beforeEach, expect, it, vi } from 'vitest'
 import { createPinia, setActivePinia } from 'pinia'
 import { flushPromises } from '@vue/test-utils'
+import { channelByNumber } from '../data/channels'
 import { useTvStore } from '../stores/tv'
 import { CatalogFetchError } from '../lib/youtubeData'
 
@@ -53,11 +54,11 @@ it('cancels an old channel retry when a remote channel change is loading', async
 
 it('does not skip a newly selected channel because the previous video failed', async () => {
   sessionStorage.setItem(
-    'pp-catalog-1-playlist-UUwmZiChSryoWQCZMIQezgTg',
+    `pp-catalog-1-playlist-${channelByNumber(1)!.playlistId}`,
     JSON.stringify([{ videoId: 'first', durationSeconds: 100 }]),
   )
   sessionStorage.setItem(
-    'pp-catalog-2-playlist-UUFXww6CrLAHhyZQCDnJ2g2A',
+    `pp-catalog-2-playlist-${channelByNumber(2)!.playlistId}`,
     JSON.stringify([{ videoId: 'second', durationSeconds: 100 }]),
   )
   const tv = useTvStore()
@@ -89,7 +90,10 @@ it('powers off without retrying or committing pending channel digits', async () 
 })
 
 it('hides channel and volume readouts independently after five seconds', async () => {
-  vi.stubGlobal('fetch', vi.fn(() => new Promise(() => {})))
+  vi.stubGlobal(
+    'fetch',
+    vi.fn(() => new Promise(() => {})),
+  )
   const tv = useTvStore()
   tv.powerOn()
   expect(tv.hudVisible).toBe(true)
@@ -108,4 +112,51 @@ it('hides channel and volume readouts independently after five seconds', async (
   tv.channelStep(1)
   expect(tv.hudVisible).toBe(true)
   expect(tv.volumeVisible).toBe(false)
+})
+
+it('keeps a one-video channel playing when its video ends', async () => {
+  sessionStorage.setItem(
+    `pp-catalog-1-playlist-${channelByNumber(1)!.playlistId}`,
+    JSON.stringify([{ videoId: 'only-video', durationSeconds: 100 }]),
+  )
+  const tv = useTvStore()
+  tv.powerOn()
+  await flushPromises()
+  tv.onPlayerEnded()
+  expect(tv.currentSlot?.videoId).toBe('only-video')
+  expect(tv.interruption).toBe('none')
+})
+
+it('loads a category backup after all current videos fail instead of retrying the exhausted list', async () => {
+  sessionStorage.setItem(
+    `pp-catalog-1-playlist-${channelByNumber(1)!.playlistId}`,
+    JSON.stringify([{ videoId: 'broken', durationSeconds: 100 }]),
+  )
+  vi.stubGlobal(
+    'fetch',
+    vi.fn(async (input: RequestInfo | URL) => ({
+      ok: true,
+      json: async () =>
+        String(input).includes('playlistItems')
+          ? { items: [{ contentDetails: { videoId: 'backup' } }] }
+          : {
+              items: [
+                {
+                  id: 'backup',
+                  status: { embeddable: true },
+                  contentDetails: { duration: 'PT10M' },
+                },
+              ],
+            },
+    })),
+  )
+  const tv = useTvStore()
+  tv.powerOn()
+  await flushPromises()
+  tv.onPlayerError()
+  await vi.advanceTimersByTimeAsync(2100)
+  await flushPromises()
+  expect(tv.currentSlot?.videoId).toBe('backup')
+  expect(tv.channelNumber).toBe(1)
+  expect(tv.interruption).toBe('none')
 })

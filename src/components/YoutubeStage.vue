@@ -7,6 +7,7 @@ type YtPlayer = {
   mute: () => void
   unMute: () => void
   destroy: () => void
+  unloadModule?: (module: string) => void
 }
 
 const props = defineProps<{
@@ -14,6 +15,7 @@ const props = defineProps<{
   startSeconds: number
   volume: number
   muted: boolean
+  playbackRevision?: number
 }>()
 
 const emit = defineEmits<{
@@ -25,6 +27,12 @@ const emit = defineEmits<{
 const host = ref<HTMLDivElement | null>(null)
 let player: YtPlayer | null = null
 let destroyed = false
+
+function disableCaptions() {
+  // YouTube exposes this at runtime, but does not document a force-off API.
+  // Keep playback working if the optional method is unavailable.
+  player?.unloadModule?.('captions')
+}
 
 function applySound() {
   if (!player) return
@@ -52,8 +60,15 @@ function createPlayer() {
       origin: window.location.origin,
     },
     events: {
-      onReady: () => applySound(),
+      onReady: () => {
+        applySound()
+        disableCaptions()
+      },
+      onApiChange: disableCaptions,
       onStateChange: (event: { data: number }) => {
+        // Caption tracks can finish loading after onApiChange during startup.
+        // Reapply once playback begins, including after each channel change.
+        if (event.data === window.YT?.PlayerState.PLAYING) disableCaptions()
         if (event.data === window.YT?.PlayerState.ENDED) emit('ended')
       },
       onError: () => emit('error'),
@@ -88,7 +103,7 @@ onMounted(async () => {
 })
 
 watch(
-  () => [props.videoId, props.startSeconds] as const,
+  () => [props.videoId, props.startSeconds, props.playbackRevision] as const,
   ([videoId, startSeconds]) => {
     player?.loadVideoById({ videoId, startSeconds: Math.floor(startSeconds) })
   },

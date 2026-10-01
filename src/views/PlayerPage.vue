@@ -75,6 +75,7 @@ onBeforeUnmount(() => {
         v-if="tv.poweredOn && tv.currentSlot"
         :video-id="tv.currentSlot.videoId"
         :start-seconds="tv.currentSlot.startSeconds"
+        :playback-revision="tv.playbackRevision"
         :volume="tv.volume.volume"
         :muted="tv.volume.muted"
         @ended="tv.onPlayerEnded()"

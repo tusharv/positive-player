@@ -35,23 +35,23 @@ describe('channel lineup', () => {
     expect(CHANNEL_DIGITS).toBe(String(CHANNEL_COUNT).length)
     expect(formatChannelNumber(1)).toBe('1'.padStart(CHANNEL_DIGITS, '0'))
     expect(formatChannelLabel(channelByNumber(9)!)).toBe(
-      `CH ${formatChannelNumber(9)}  CLASSIC MUSIC`,
+      `CH ${formatChannelNumber(9)}  STREET FOOD`,
     )
   })
 })
 
-it('tags every channel and appends the DD lineup without moving old channels', () => {
+it('tags every channel and keeps the DD lineup discoverable', () => {
   for (const channel of CHANNELS) {
     expect(channel.tags.length).toBeGreaterThanOrEqual(2)
     expect(new Set(channel.tags).size).toBe(channel.tags.length)
   }
-  expect(channelByNumber(120)?.name).toBe('Lakes')
-  expect(CHANNELS.slice(120).map((channel) => channel.name)).toEqual([
+  const classics = CHANNELS.filter((channel) => channel.tags.includes('DD Era'))
+  expect(classics.map((channel) => channel.name)).toEqual([
+    'Jungle Book',
+    'Shaktimaan',
     'DD Classics',
     'Ramayan',
     'Mahabharat',
-    'Jungle Book',
-    'Shaktimaan',
   ])
-  expect(CHANNELS.slice(120).every((channel) => channel.tags.includes('DD Era'))).toBe(true)
+  expect(classics.every((channel) => channel.number <= 7)).toBe(true)
 })

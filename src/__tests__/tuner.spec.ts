@@ -26,7 +26,7 @@ describe('digit entry', () => {
     expect(typed.channel).toBe(3)
   })
 
-  it('tunes 011 as Bollywood', () => {
+  it('tunes 011 as channel 11', () => {
     expect(typeDigits('011').channel).toBe(11)
   })
 

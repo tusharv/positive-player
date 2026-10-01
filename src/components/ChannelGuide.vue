@@ -7,6 +7,35 @@ const emit = defineEmits<{ tune: [number: number] }>()
 const isOpen = ref(false)
 const launch = ref<HTMLButtonElement | null>(null)
 const searchInput = ref<HTMLInputElement | null>(null)
+const channelList = ref<HTMLDivElement | null>(null)
+function navigateChannels(event: KeyboardEvent) {
+  if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return
+  const target = event.target
+  const fromSearch = target === searchInput.value
+  const fromChannel = target instanceof HTMLElement && target.matches('.channel')
+  if (!fromSearch && !fromChannel) return
+  const forward = event.key === 'ArrowDown' || (!fromSearch && event.key === 'ArrowRight')
+  const backward = event.key === 'ArrowUp' || (!fromSearch && event.key === 'ArrowLeft')
+  if (!forward && !backward) return
+  const buttons = Array.from(
+    channelList.value?.querySelectorAll<HTMLButtonElement>('.channel') ?? [],
+  )
+  if (!buttons.length) return
+  event.preventDefault()
+  const index = buttons.indexOf(target as HTMLButtonElement)
+  if (fromChannel && index === 0 && backward) {
+    searchInput.value?.focus()
+    return
+  }
+  const nextIndex = fromSearch
+    ? forward
+      ? 0
+      : buttons.length - 1
+    : Math.min(buttons.length - 1, index + (forward ? 1 : -1))
+  const button = buttons[nextIndex]
+  button?.focus({ preventScroll: true })
+  button?.scrollIntoView?.({ block: 'nearest' })
+}
 async function openGuide() {
   isOpen.value = true
   await nextTick()
@@ -53,7 +82,7 @@ function tune(number: number) {
     id="channel-guide"
     class="guide"
     aria-labelledby="guide-title"
-    @keydown.stop
+    @keydown.stop="navigateChannels"
     @keydown.esc.prevent="closeGuide"
   >
     <header>
@@ -79,8 +108,10 @@ function tune(number: number) {
         </select></label
       >
     </div>
-    <p class="count" role="status">{{ matches.length }} channels · Select to tune in</p>
-    <div class="channels">
+    <p class="count" role="status">
+      {{ matches.length }} channels · Arrow keys to browse · Enter to tune · Esc to close
+    </p>
+    <div ref="channelList" class="channels">
       <button
         v-for="channel in matches"
         :key="channel.number"
@@ -207,6 +238,7 @@ select {
   background: transparent;
 }
 .channel:hover,
+.channel:focus-visible,
 .channel[aria-current] {
   background: #17291d;
 }

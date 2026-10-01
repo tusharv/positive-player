@@ -1,4 +1,4 @@
-import type { Channel } from '../data/channels'
+import { channelByNumber, type Channel } from '../data/channels'
 import type { CatalogItem } from './broadcastClock'
 
 export class MissingApiKeyError extends Error {
@@ -31,6 +31,7 @@ export type FetchCatalogOptions = {
   apiKey: string
   fetchFn: typeof fetch
   storage?: CatalogStorage
+  excludeIds?: string[]
 }
 
 const SEARCH_URL = 'https://www.googleapis.com/youtube/v3/search'
@@ -104,6 +105,7 @@ async function readJson(fetchFn: typeof fetch, url: string): Promise<unknown> {
 }
 
 type SearchResponse = {
+  nextPageToken?: string
   items?: Array<{ id?: { videoId?: string }; contentDetails?: { videoId?: string } }>
 }
 
@@ -119,21 +121,26 @@ async function collectVideoIds(
   channel: Channel,
   apiKey: string,
   fetchFn: typeof fetch,
-): Promise<string[]> {
+  pageToken?: string,
+): Promise<{ ids: string[]; nextPageToken?: string }> {
   if (channel.kind === 'playlist') {
-    if (!channel.playlistId) return []
+    if (!channel.playlistId) return { ids: [] }
     const url = new URL(PLAYLIST_URL)
     url.searchParams.set('part', 'contentDetails')
-    url.searchParams.set('maxResults', '25')
+    url.searchParams.set('maxResults', '50')
     url.searchParams.set('playlistId', channel.playlistId)
+    if (pageToken) url.searchParams.set('pageToken', pageToken)
     url.searchParams.set('key', apiKey)
     const data = (await readJson(fetchFn, url.toString())) as SearchResponse
-    return (data.items ?? [])
-      .map((item) => item.contentDetails?.videoId)
-      .filter((id): id is string => Boolean(id))
+    return {
+      ids: (data.items ?? [])
+        .map((item) => item.contentDetails?.videoId)
+        .filter((id): id is string => Boolean(id)),
+      nextPageToken: data.nextPageToken,
+    }
   }
 
-  if (!channel.query) return []
+  if (!channel.query) return { ids: [] }
   const url = new URL(SEARCH_URL)
   url.searchParams.set('part', 'snippet')
   url.searchParams.set('type', 'video')
@@ -144,12 +151,14 @@ async function collectVideoIds(
   url.searchParams.set('q', channel.query)
   url.searchParams.set('key', apiKey)
   const data = (await readJson(fetchFn, url.toString())) as SearchResponse
-  return (data.items ?? [])
-    .map((item) => item.id?.videoId)
-    .filter((id): id is string => Boolean(id))
+  return {
+    ids: (data.items ?? [])
+      .map((item) => item.id?.videoId)
+      .filter((id): id is string => Boolean(id)),
+  }
 }
 
-export async function fetchChannelCatalog(
+async function fetchSourceCatalog(
   channel: Channel,
   options: FetchCatalogOptions,
 ): Promise<CatalogItem[]> {
@@ -157,29 +166,39 @@ export async function fetchChannelCatalog(
 
   const key = cacheKey(channel)
   const cached = readCached(options.storage?.getItem(key) ?? null)
-  const fresh = cached && Date.now() - cached.fetchedAt < CACHE_TTL_MS
+  const fresh = cached?.items.length && Date.now() - cached.fetchedAt < CACHE_TTL_MS
   if (fresh) return cached.items
   if (cached && quotaBlocked(options.storage) && channel.kind !== 'playlist') return cached.items
 
   try {
     if (channel.kind !== 'playlist' && quotaBlocked(options.storage)) throw new QuotaExceededError()
 
-    const ids = await collectVideoIds(channel, options.apiKey, options.fetchFn)
-    if (ids.length === 0) return cached?.items ?? []
-
-    const url = new URL(VIDEOS_URL)
-    url.searchParams.set('part', 'contentDetails,status')
-    url.searchParams.set('id', ids.join(','))
-    url.searchParams.set('key', options.apiKey)
-    const data = (await readJson(options.fetchFn, url.toString())) as VideosResponse
-
     const catalog: CatalogItem[] = []
-    for (const item of data.items ?? []) {
-      if (!item.id || item.status?.embeddable === false) continue
-      const durationSeconds = parseIsoDuration(item.contentDetails?.duration ?? '')
-      if (durationSeconds < 60) continue
-      catalog.push({ videoId: item.id, durationSeconds })
+    let pageToken: string | undefined
+    // Look past Shorts-heavy pages, but cap requests for empty/unavailable feeds.
+    for (let page = 0; page < 3; page++) {
+      const result = await collectVideoIds(channel, options.apiKey, options.fetchFn, pageToken)
+      if (result.ids.length) {
+        const url = new URL(VIDEOS_URL)
+        url.searchParams.set('part', 'contentDetails,status')
+        url.searchParams.set('id', result.ids.join(','))
+        url.searchParams.set('key', options.apiKey)
+        const data = (await readJson(options.fetchFn, url.toString())) as VideosResponse
+        for (const item of data.items ?? []) {
+          if (!item.id || item.status?.embeddable === false) continue
+          const durationSeconds = parseIsoDuration(item.contentDetails?.duration ?? '')
+          if (durationSeconds < 60 || catalog.some((video) => video.videoId === item.id)) continue
+          catalog.push({ videoId: item.id, durationSeconds })
+        }
+      }
+      pageToken = result.nextPageToken
+      if (
+        catalog.filter((item) => !options.excludeIds?.includes(item.videoId)).length >= 5 ||
+        !pageToken
+      )
+        break
     }
+    if (!catalog.length) return cached?.items ?? []
 
     options.storage?.setItem(key, JSON.stringify({ items: catalog, fetchedAt: Date.now() }))
     return catalog
@@ -188,4 +207,42 @@ export async function fetchChannelCatalog(
     if (cached) return cached.items
     throw error
   }
+}
+
+// Verified, broad sources within each station category. No search quota is used.
+const BACKUP_CHANNELS: Record<string, number[]> = {
+  Earth: [1, 13],
+  Animals: [3, 26],
+  Music: [35, 39],
+  Ideas: [5, 6],
+  Food: [7, 65],
+  Making: [8, 66],
+  World: [119, 115],
+  Play: [100, 12],
+  Places: [73, 79],
+  Body: [85, 86],
+  'Classic TV': [121, 122],
+}
+
+export async function fetchChannelCatalog(
+  channel: Channel,
+  options: FetchCatalogOptions,
+): Promise<CatalogItem[]> {
+  const backups = (BACKUP_CHANNELS[channel.category ?? ''] ?? [])
+    .map(channelByNumber)
+    .filter(
+      (source): source is Channel => Boolean(source) && source!.playlistId !== channel.playlistId,
+    )
+  for (const source of [channel, ...backups]) {
+    try {
+      const catalog = await fetchSourceCatalog(source, options)
+      const playable = catalog.filter((item) => !options.excludeIds?.includes(item.videoId))
+      if (playable.length) return playable
+    } catch (error) {
+      // A missing playlist is source-specific. Auth, quota and network failures
+      // affect every source: do not multiply requests or hide those failures.
+      if (!(error instanceof CatalogFetchError) || error.message !== 'HTTP 404') throw error
+    }
+  }
+  return []
 }

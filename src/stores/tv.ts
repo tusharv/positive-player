@@ -4,12 +4,7 @@ import { CHANNELS, channelByNumber, formatChannelLabel } from '../data/channels'
 import { pickBroadcast, type BroadcastSlot, type CatalogItem } from '../lib/broadcastClock'
 import { CHANNEL_ZAP_MS, channelZapNeeded } from '../lib/channelZap'
 import { createDigitState, flushDigits, pushDigit, wrapChannel } from '../lib/tuner'
-import {
-  createVolumeState,
-  stepVolume,
-  toggleMute,
-  type VolumeState,
-} from '../lib/volume'
+import { createVolumeState, stepVolume, toggleMute, type VolumeState } from '../lib/volume'
 import {
   CatalogFetchError,
   fetchChannelCatalog,
@@ -86,6 +81,7 @@ export const useTvStore = defineStore('tv', () => {
   const catalogs = ref<Record<number, CatalogItem[]>>({})
   const skipped = ref<Record<number, string[]>>({})
   const currentSlot = ref<BroadcastSlot | null>(null)
+  const playbackRevision = ref(0)
   const pendingDigits = ref('')
   const loading = ref(false)
   const zapping = ref(false)
@@ -150,21 +146,18 @@ export const useTvStore = defineStore('tv', () => {
 
     try {
       let catalog = catalogs.value[channel]
-      if (!catalog) {
+      if (!catalog?.some((item) => !(skipped.value[channel] ?? []).includes(item.videoId))) {
         catalog = await fetchChannelCatalog(meta, {
           apiKey: apiKey.value,
           fetchFn: fetch,
           storage: catalogStorage(),
+          excludeIds: skipped.value[channel] ?? [],
         })
         if (mine !== requestId) return
         catalogs.value = { ...catalogs.value, [channel]: catalog }
       }
 
-      const slot = pickBroadcast(
-        catalog,
-        Date.now() / 1000,
-        skipped.value[channel] ?? [],
-      )
+      const slot = pickBroadcast(catalog, Date.now() / 1000, skipped.value[channel] ?? [])
       if (mine !== requestId) return
 
       if (!slot) {
@@ -279,13 +272,19 @@ export const useTvStore = defineStore('tv', () => {
     const channel = channelNumber.value
     const catalog = catalogs.value[channel] ?? []
     const exclude = [...(skipped.value[channel] ?? []), ...extraExclude]
-    const next = pickBroadcast(catalog, Date.now() / 1000, exclude)
+    const next =
+      pickBroadcast(catalog, Date.now() / 1000, exclude) ??
+      (extraExclude.length
+        ? pickBroadcast(catalog, Date.now() / 1000, skipped.value[channel] ?? [])
+        : null)
     if (!next) {
-      hold(channel)
+      currentSlot.value = null
+      void loadChannel(channel)
       return
     }
     interruption.value = 'none'
     currentSlot.value = next
+    playbackRevision.value++
   }
 
   function skipCurrent() {
@@ -327,6 +326,7 @@ export const useTvStore = defineStore('tv', () => {
     interruption,
     interruptionChannelNumber,
     currentSlot,
+    playbackRevision,
     pendingDigits,
     loading,
     zapping,

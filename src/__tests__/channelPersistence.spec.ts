@@ -1,7 +1,7 @@
 import { afterEach, beforeEach, expect, it, vi } from 'vitest'
 import { createPinia, setActivePinia } from 'pinia'
 import { flushPromises } from '@vue/test-utils'
-import { CHANNEL_COUNT } from '../data/channels'
+import { CHANNEL_COUNT, channelByNumber } from '../data/channels'
 import { useTvStore } from '../stores/tv'
 
 beforeEach(() => {
@@ -27,7 +27,7 @@ it('restores the latest selected channel in a fresh TV instance and plays it on 
   setActivePinia(createPinia())
   const restored = useTvStore()
   expect(restored.channelNumber).toBe(11)
-  sessionStorage.setItem('pp-catalog-11-playlist-UUq-Fj5jknLsUf-MWSy4_brA', JSON.stringify([{ videoId: 'last-channel-video', durationSeconds: 100 }]))
+  sessionStorage.setItem(`pp-catalog-11-playlist-${channelByNumber(11)!.playlistId}`, JSON.stringify([{ videoId: 'last-channel-video', durationSeconds: 100 }]))
   restored.powerOn()
   await flushPromises()
   expect(restored.currentSlot?.videoId).toBe('last-channel-video')

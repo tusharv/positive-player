@@ -120,7 +120,7 @@ sequenceDiagram
   alt localStorage catalog younger than 7 days
     Data-->>Store: cached items
   else miss or stale playlist
-    Data->>YT: playlistItems.list max 25
+    Data->>YT: playlistItems.list max 50 (up to 3 pages)
     Data->>YT: videos.list durations + embeddable
     Data-->>Store: catalog videoId + durationSeconds
   end
@@ -139,7 +139,7 @@ sequenceDiagram
 
 Lineup: `src/data/channels.ts`. Contiguous numbers `1..CHANNEL_COUNT` (125). Channels 121–125 are DD Era (DD Classics, Ramayan, Mahabharat, Jungle Book, Shaktimaan). Do not renumber existing channels.
 
-**Current lineup kind is `playlist`.** Each row has a YouTube uploads playlist id (`UU…`, derived from a channel id `UC…`). Individual video ids are not hardcoded. The station is fixed; the latest ~25 uploads are fetched at runtime.
+**Current lineup kind is `playlist`.** Each row has a YouTube uploads playlist id (`UU…`, derived from a channel id `UC…`). Individual video ids are not hardcoded. Fetch up to 50 uploads per page, continuing for at most 3 pages when fewer than 5 usable videos remain. Empty catalogs are never cached as fresh results.
 
 `kind: 'search'` still exists in `fetchChannelCatalog` for compatibility. **Do not put search channels back on the lineup.** Default YouTube projects allow **100 `search.list` calls per day** (quota metric “Search Queries”). 125 search channels exhaust that in one flip-through. `playlistItems.list` and `videos.list` cost 1 unit each from the general 10,000-unit pool and do not use the Search Queries bucket.
 
@@ -165,7 +165,9 @@ flowchart TD
 
 Quota cooldown (`pp-youtube-quota-until`, 12 hours) applies to **search only**. A Search 429 must not block playlist fetches. The TV store does not retry `QuotaExceededError` every 8 seconds; other catalog failures retry.
 
-Catalog cache key is `pp-catalog-${channel.number}`. Cache is per browser, not shared across viewers.
+Catalog cache keys include channel number, source kind, and playlist ID or query: `pp-catalog-${channel.number}-${channel.kind}-${encodeURIComponent(source)}`. Cache is per browser, not shared across viewers. Nonempty stale catalogs remain usable during fetch failures.
+
+Missing playlists (HTTP 404), empty catalogs, and catalogs exhausted by playback failures use up to two backup channels from the same category, defined in `youtubeData.ts`. Backups reuse their own source cache and never call search. The requested channel number remains unchanged; backup programming may cover a broader topic within its category. Authentication, network, and quota errors do not fan out into requests to more sources.
 
 To retarget a station, change `playlistId` in `src/data/channels.ts`. Regenerating ids from YouTube handles: `node scripts/resolve-playlists.mjs` (needs `.env.local` and a referrer-allowed key). Keep playlist ids unique across the lineup.
 
@@ -185,7 +187,7 @@ flowchart LR
   Walk --> Slot["slot = videoId + startSeconds"]
 ```
 
-On `ended`, run the clock again at `now`. On player error: show the interruption card for 2 seconds, skip that `videoId` for the rest of the tab session, run the clock on what remains. Hold the card if the catalog is empty.
+On `ended`, run the clock again at `now`. On player error: show the interruption card for 2 seconds, skip that `videoId` for the rest of the tab session, run the clock on what remains. If all videos fail, resolve the category backups before holding the card. A normally ended video is only temporarily excluded: if it is the only usable video, replay it. `playbackRevision` forces the iframe to reload even when the selected video ID and start time are unchanged.
 
 ---
 

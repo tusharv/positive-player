@@ -8,7 +8,7 @@ The TV remembers the last selected channel and sound settings in this browser ac
 
 After turning on the TV, choose **Guide** in the lower-left corner. Search by channel name, number, description, or tag, and combine the search with a tag filter. Select a channel to tune in; press Escape or Back to TV to return to the TV. The guide fills the CRT screen within its bezel. Each channel has category and mood tags, with additional tags for classic shows.
 
-Channels 121–125 are **DD Classics**, **Ramayan**, **Mahabharat**, **Jungle Book**, and **Shaktimaan**. Choose the **DD Era** tag to find them together. Each channel loads a public YouTube uploads playlist rather than a Search query, so the lineup does not spend the daily Search Queries quota. Results still depend on what those channels have published. Existing channel numbers are unchanged.
+The lineup opens with **001 Bollywood**, **002 Cricket**, **003 Jungle Book**, **004 Shaktimaan**, **005 DD Classics**, **006 Ramayan**, and **007 Mahabharat**, followed by animals, food, space, sport, and travel. Quieter scenery and ambient channels follow the opening selection. Choose the **DD Era** tag to find the five classic TV channels together. Each channel loads a public YouTube playlist rather than a Search query, so the lineup does not spend the daily Search Queries quota. Results still depend on what those channels have published. Channel numbers have changed; saved preferences still recall a channel number, which may now point to different programming.
 
 ## YouTube API compliance
 
