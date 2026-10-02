@@ -82,9 +82,25 @@ export class RemoteConnection {
       this.callbacks.status('reconnecting')
       return
     }
-    const url = new URL('/remote-ws', window.location.href)
-    url.protocol = url.protocol === 'https:' ? 'wss:' : 'ws:'
-    const socket = new WebSocket(url)
+    let socket: WebSocket
+    try {
+      const configured = import.meta.env.VITE_REMOTE_WS_URL?.trim()
+      const url = new URL(configured || '/remote-ws', window.location.href)
+      if (!configured) url.protocol = url.protocol === 'https:' ? 'wss:' : 'ws:'
+      if (
+        !['ws:', 'wss:'].includes(url.protocol) ||
+        (window.location.protocol === 'https:' && url.protocol !== 'wss:') ||
+        url.username ||
+        url.password ||
+        url.hash
+      )
+        throw new Error('Invalid remote service URL')
+      socket = new WebSocket(url)
+    } catch {
+      this.destroy()
+      this.callbacks.message({ type: 'error', code: 'service-unavailable' })
+      return
+    }
     this.socket = socket
     this.handshakeTimer = window.setTimeout(() => socket.close(), 10000)
     socket.onopen = () => {
@@ -125,15 +141,26 @@ export class RemoteConnection {
         this.callbacks.status('connected')
       }
       if (
+        message.type === 'error' &&
+        ['rate-limited', 'server-busy'].includes(String(message.code))
+      ) {
+        // Capacity errors are temporary. Keep credentials and the pending invitation.
+        window.clearTimeout(this.handshakeTimer)
+        this.authenticated = false
+        this.socket = null
+        socket.close()
+        this.callbacks.status('reconnecting')
+        const requested = Number(message.retryAfterMs)
+        const delay = Number.isFinite(requested)
+          ? Math.max(1000, Math.min(requested, 60000))
+          : 60000
+        this.retry = window.setTimeout(() => this.connect(), delay + Math.random() * 1000)
+        return
+      }
+      if (
         message.type === 'ended' ||
         (message.type === 'error' &&
-          [
-            'invalid-pairing',
-            'session-ended',
-            'rate-limited',
-            'server-busy',
-            'not-paired',
-          ].includes(String(message.code)))
+          ['invalid-pairing', 'session-ended', 'not-paired'].includes(String(message.code)))
       ) {
         this.forget()
         this.destroy()
@@ -159,13 +186,13 @@ export class RemoteConnection {
         })
         return
       }
-      if (!hadSession && ++this.failures >= 4) {
+      if (!hadSession && !this.credentials && ++this.failures >= 4) {
         this.destroy()
         this.callbacks.message({ type: 'error', code: 'service-unavailable' })
         return
       }
       this.callbacks.status('reconnecting')
-      const delay = Math.min(1000 * 2 ** this.attempt++, 10000)
+      const delay = Math.min(1000 * 2 ** this.attempt++, 10000) + Math.random() * 500
       this.retry = window.setTimeout(() => this.connect(), delay)
     }
   }

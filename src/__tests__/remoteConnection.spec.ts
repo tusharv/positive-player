@@ -11,7 +11,7 @@ class Socket {
   onclose: ((event: { code: number }) => void) | null = null
   onmessage: ((event: { data: string }) => void) | null = null
   onerror: (() => void) | null = null
-  constructor() {
+  constructor(public url: string | URL) {
     Socket.instances.push(this)
   }
   send(data: string) {
@@ -39,9 +39,33 @@ beforeEach(() => {
 afterEach(() => {
   vi.useRealTimers()
   vi.unstubAllGlobals()
+  vi.unstubAllEnvs()
 })
 
 describe('remote connection', () => {
+  it('uses the configured persistent relay for both devices', () => {
+    vi.stubEnv('VITE_REMOTE_WS_URL', 'wss://remote.example.com/remote-ws')
+    const host = new RemoteConnection('host', { message: vi.fn(), status: vi.fn() })
+    const phone = new RemoteConnection('remote', { message: vi.fn(), status: vi.fn() })
+    host.start()
+    phone.start({ type: 'join', code: 'ABCDEFGH' })
+    expect(Socket.instances.map((socket) => String(socket.url))).toEqual([
+      'wss://remote.example.com/remote-ws',
+      'wss://remote.example.com/remote-ws',
+    ])
+    host.destroy()
+    phone.destroy()
+  })
+  it('rejects an insecure relay on an HTTPS website without throwing', () => {
+    vi.stubEnv('VITE_REMOTE_WS_URL', 'ws://remote.example.com/remote-ws')
+    vi.stubGlobal('location', new URL('https://tv.example.com'))
+    const message = vi.fn()
+    const connection = new RemoteConnection('host', { message, status: vi.fn() })
+    connection.start()
+    expect(Socket.instances).toHaveLength(0)
+    expect(message).toHaveBeenCalledWith({ type: 'error', code: 'service-unavailable' })
+    connection.destroy()
+  })
   it('resumes credentials and never queues offline commands', () => {
     const connection = new RemoteConnection('remote', { message: vi.fn(), status: vi.fn() })
     connection.start({ type: 'join', code: 'ABCDEFGH' })
@@ -85,6 +109,60 @@ describe('remote connection', () => {
     vi.advanceTimersByTime(30000)
     expect(Socket.instances).toHaveLength(1)
     expect(sessionStorage.getItem('pp-remote-remote')).toBeNull()
+  })
+  it.each(['rate-limited', 'server-busy'])(
+    'retries %s without losing pairing credentials',
+    (code) => {
+      const credentials = { role: 'remote', id: 'id', token: 'secret' }
+      sessionStorage.setItem('pp-remote-remote', JSON.stringify(credentials))
+      const status = vi.fn()
+      const connection = new RemoteConnection('remote', { message: vi.fn(), status })
+      connection.start()
+      const first = Socket.instances[0]!
+      first.open()
+      first.message({ type: 'error', code, retryAfterMs: 60000 })
+      expect(connection.canResume).toBe(true)
+      expect(JSON.parse(sessionStorage.getItem('pp-remote-remote')!)).toEqual(credentials)
+      expect(status).toHaveBeenLastCalledWith('reconnecting')
+      expect(connection.send({ type: 'command', command: { action: 'mute' } })).toBe(false)
+      vi.advanceTimersByTime(59000)
+      expect(Socket.instances).toHaveLength(1)
+      vi.advanceTimersByTime(6000)
+      const returning = Socket.instances[1]!
+      returning.open()
+      expect(returning.sent).toEqual([{ type: 'resume', ...credentials }])
+      returning.message({ type: 'session', ...credentials })
+      expect(status).toHaveBeenLastCalledWith('connected')
+      expect(returning.sent).toHaveLength(1)
+      connection.destroy()
+    },
+  )
+  it('cancels a rate-limit retry when disconnected explicitly', () => {
+    const connection = new RemoteConnection('host', { message: vi.fn(), status: vi.fn() })
+    connection.start()
+    Socket.instances[0]!.open()
+    Socket.instances[0]!.message({ type: 'error', code: 'rate-limited' })
+    connection.end()
+    vi.advanceTimersByTime(120000)
+    expect(Socket.instances).toHaveLength(1)
+  })
+  it('keeps resuming through a minute of rejected WebSocket upgrades', () => {
+    const credentials = { role: 'remote', id: 'id', token: 'secret' }
+    sessionStorage.setItem('pp-remote-remote', JSON.stringify(credentials))
+    const message = vi.fn()
+    const connection = new RemoteConnection('remote', { message, status: vi.fn() })
+    connection.start()
+    for (let i = 0; i < 8; i++) {
+      Socket.instances[Socket.instances.length - 1]!.close()
+      vi.advanceTimersByTime(11000)
+    }
+    const returning = Socket.instances[Socket.instances.length - 1]!
+    expect(returning.readyState).toBe(0)
+    returning.open()
+    expect(returning.sent).toEqual([{ type: 'resume', ...credentials }])
+    returning.message({ type: 'session', ...credentials })
+    expect(message).not.toHaveBeenCalledWith({ type: 'error', code: 'service-unavailable' })
+    connection.destroy()
   })
   it('gives up when the remote service never answers', () => {
     const message = vi.fn()

@@ -14,16 +14,18 @@ Living source of truth for agents. Dated specs under `docs/superpowers/` are his
 flowchart LR
   Viewer[Viewer browser<br/>the TV]
   Phone[Phone browser<br/>the remote]
-  Origin[App origin<br/>SPA + optional /remote-ws]
+  Origin[App origin<br/>SPA]
+  Relay[Persistent Node relay<br/>one instance]
   YTData[YouTube Data API v3]
   YTPlay[YouTube IFrame Player]
 
   Viewer -->|HTTPS| Origin
-  Phone -->|HTTPS + WSS| Origin
+  Phone -->|HTTPS| Origin
+  Viewer <-->|WSS| Relay
+  Phone <-->|WSS| Relay
   Viewer -->|playlistItems + videos.list<br/>API key from VITE_YOUTUBE_API_KEY| YTData
   Viewer -->|embedded playback<br/>no Data API quota| YTPlay
-  Phone -.->|commands only<br/>no video| Origin
-  Origin -.->|relays commands and TV state| Phone
+
 ```
 
 Video bytes never pass through this origin. The remote never talks to YouTube.
@@ -44,8 +46,10 @@ flowchart TB
 
   subgraph prod [Production]
     Static[Vite dist<br/>static SPA]
-    Fn["api/remote-ws.mjs<br/>Vercel Function"]
-    Static -->|rewrite /remote-ws| Fn
+    Relay["Persistent Node server<br/>Dockerfile.remote / server/index.mjs"]
+    Browsers[TV and phone browsers]
+    Browsers -->|HTTPS| Static
+    Browsers <-->|VITE_REMOTE_WS_URL / WSS| Relay
   end
 
   subgraph selfhost [Self-hosted Node]
@@ -56,17 +60,19 @@ flowchart TB
 | Environment | Command | Remote |
 | --- | --- | --- |
 | Dev | `npm run dev` | Vite proxies `/remote-ws` to `127.0.0.1:8787` |
-| Vercel | Git deploy | `vercel.json` rewrites `/remote-ws` to `api/remote-ws.mjs`; SPA fallback to `index.html` |
+| Vercel website | Git deploy with `VITE_REMOTE_WS_URL` | TV and phone connect directly to one persistent relay; SPA fallback to `index.html` |
+| Persistent relay | Deploy `Dockerfile.remote` | One always-on replica serves `/remote-ws` and `/healthz`; no website build needed |
 | Self-host | `npm run build` then `npm start` | Same Node process serves `dist` and WebSocket |
 
-Vercel Function `includeFiles` must keep `server/**`, `src/lib/remoteProtocol.ts`, and `src/data/channels.ts` (the hub validates channel numbers against `CHANNEL_COUNT`).
+Vercel builds require a secure `VITE_REMOTE_WS_URL`. The legacy `/remote-ws` route returns 503; it must not host an in-memory hub. The separate relay package includes `server/index.mjs`, `server/sessionHub.mjs`, `src/lib/remoteProtocol.ts`, and `src/data/channels.ts`. Run one replica without scale-to-zero. Restarting the relay loses pairing; deploying the website does not. See [deployment instructions](deployment/remote-relay.md).
 
 Env:
 
 | Name | Where | Purpose |
 | --- | --- | --- |
 | `VITE_YOUTUBE_API_KEY` | Build / `.env.local` | Browser Data API key. Restrict by HTTP referrer. Never commit. |
-| `PUBLIC_ORIGIN` | Node server | Exact public origin for WebSocket origin checks |
+| `VITE_REMOTE_WS_URL` | Website build | Public `wss://` relay URL; required on Vercel, omitted for same-origin local/self-hosted mode |
+| `PUBLIC_ORIGIN` | Node server | Exact website origin for WebSocket origin checks; production `https://1988-in.vercel.app` |
 | `TRUST_PROXY` | Node server | `1` only behind a trusted proxy that sets `X-Forwarded-For` |
 | `PORT` | Node server | Overrides `8787` |
 
@@ -227,7 +233,8 @@ Pairing rules agents must keep:
 - Disconnected host has 2 minutes to reconnect; sessions die after 12 hours
 - In-memory hub, max 1,000 TVs; multiple replicas cannot share sessions
 - `powerToggle` from the remote works in standby only after the desktop has accepted the station notice
-- Origin check on WebSocket upgrade; rate limits on pairing and messages
+- Origin check on WebSocket upgrade; up to 600 upgrades and 600 pairing/resume requests per IP per minute, plus per-socket message limits
+- Temporary capacity errors preserve credentials and retry with a delay and jitter; saved sessions continue reconnecting through rejected upgrades
 
 ---
 
@@ -277,7 +284,7 @@ flowchart TB
   subgraph server [server]
     hub[server/sessionHub.mjs]
     node[server/index.mjs]
-    api[api/remote-ws.mjs]
+    api[api/remote-ws.mjs — retired route, 503]
   end
 
   PlayerPage --> tv
@@ -289,7 +296,6 @@ flowchart TB
   tv --> volume
   yt --> channels
   hub --> proto
-  api --> hub
   node --> hub
 ```
 

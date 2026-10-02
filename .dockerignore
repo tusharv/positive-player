@@ -1,0 +1,12 @@
+**
+!package.json
+!package-lock.json
+!server
+!server/index.mjs
+!server/sessionHub.mjs
+!src
+!src/lib
+!src/lib/remoteProtocol.ts
+!src/data
+!src/data/channels.ts
+!Dockerfile.remote

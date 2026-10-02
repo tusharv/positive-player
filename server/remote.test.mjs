@@ -8,8 +8,10 @@ async function fixture(t, options = {}) {
   await new Promise((resolve) => app.server.listen(0, '127.0.0.1', resolve))
   const origin = `http://127.0.0.1:${app.server.address().port}`
   t.after(() => app.close())
-  async function client() {
-    const ws = new WebSocket(origin.replace('http:', 'ws:') + '/remote-ws', { origin })
+  async function client(clientOrigin = origin) {
+    const ws = new WebSocket(origin.replace('http:', 'ws:') + '/remote-ws', {
+      origin: clientOrigin,
+    })
     const queue = []
     const listeners = []
     ws.on('message', (data) => {
@@ -178,4 +180,50 @@ test('allows the power toggle in standby but blocks other controls', async (t) =
   assert.equal((await remote.next('error')).code, 'tv-off')
   remote.send({ type: 'command', command: { action: 'powerToggle' } })
   assert.deepEqual((await host.next('command')).command, { action: 'powerToggle' })
+})
+
+test('100 TV and phone pairs sharing one address can pair and control independently', async (t) => {
+  const app = await fixture(t)
+  const pairs = []
+  for (let i = 0; i < 100; i++) pairs.push(await pair(app))
+  // A network recovery should not invalidate any of the 100 pairings.
+  for (const pair of pairs) {
+    const host = await app.client()
+    host.send({ type: 'resume', role: 'host', id: pair.session.id, token: pair.session.token })
+    assert.equal((await host.next('session')).id, pair.session.id)
+    host.send({ type: 'state', state })
+    const remote = await app.client()
+    remote.send({
+      type: 'resume',
+      role: 'remote',
+      id: pair.credentials.id,
+      token: pair.credentials.token,
+    })
+    assert.equal((await remote.next('session')).id, pair.session.id)
+    await remote.next('state')
+    pair.host = host
+    pair.remote = remote
+  }
+  await Promise.all(
+    pairs.map(async ({ host, remote }, i) => {
+      const value = i % 2 ? 5 : -5
+      remote.send({ type: 'command', command: { action: 'volumeStep', value } })
+      assert.deepEqual((await host.next('command')).command, { action: 'volumeStep', value })
+      host.send({ type: 'state', state: { ...state, volume: i } })
+      assert.equal((await remote.next('state')).state.volume, i)
+    }),
+  )
+})
+
+test('a separate relay accepts the configured website origin and serves health checks', async (t) => {
+  const app = await fixture(t, { publicOrigin: 'https://tv.example.com' })
+  const host = await app.client('https://tv.example.com')
+  host.send({ type: 'create' })
+  const session = await host.next('session')
+  const remote = await app.client('https://tv.example.com')
+  remote.send({ type: 'join', code: session.code })
+  assert.equal((await remote.next('session')).id, session.id)
+  const health = await fetch(app.origin + '/healthz')
+  assert.equal(health.status, 200)
+  assert.deepEqual(await health.json(), { status: 'ok' })
 })

@@ -2,6 +2,7 @@
 
 interface ImportMetaEnv {
   readonly VITE_YOUTUBE_API_KEY: string
+  readonly VITE_REMOTE_WS_URL?: string
 }
 
 interface ImportMeta {

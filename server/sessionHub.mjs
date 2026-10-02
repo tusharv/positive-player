@@ -10,7 +10,12 @@ const send = (socket, message) => {
   if (socket?.readyState === 1 && socket.bufferedAmount < 65536)
     socket.send(JSON.stringify(message))
 }
-const error = (socket, code) => send(socket, { type: 'error', code })
+const error = (socket, code) =>
+  send(socket, {
+    type: 'error',
+    code,
+    ...(['rate-limited', 'server-busy'].includes(code) ? { retryAfterMs: 60000 } : {}),
+  })
 
 export function createSessionHub({ now = Date.now, maxSessions = 1000 } = {}) {
   const sessions = new Map()
@@ -65,7 +70,8 @@ export function createSessionHub({ now = Date.now, maxSessions = 1000 } = {}) {
       limit = { count: 0, start: now() }
       attempts.set(address, limit)
     }
-    return ++limit.count <= 20
+    // Allow 100 TV/phone pairs and a simultaneous reconnect on shared Wi-Fi.
+    return ++limit.count <= 600
   }
   function attach(socket, address = 'unknown') {
     const authenticationTimer = setTimeout(() => {
@@ -212,7 +218,10 @@ export function createSessionHub({ now = Date.now, maxSessions = 1000 } = {}) {
         const { action, value } = msg.command
         send(session.host, {
           type: 'command',
-          command: action === 'mute' || action === 'powerOff' || action === 'powerToggle' ? { action } : { action, value },
+          command:
+            action === 'mute' || action === 'powerOff' || action === 'powerToggle'
+              ? { action }
+              : { action, value },
         })
         return
       }

@@ -1,11 +1,5 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "functions": {
-    "api/remote-ws.mjs": {
-      "maxDuration": 300,
-      "includeFiles": "{server/**,src/lib/remoteProtocol.ts,src/data/channels.ts}"
-    }
-  },
   "rewrites": [
     {
       "source": "/remote-ws",

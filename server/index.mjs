@@ -2,16 +2,24 @@ import { createServer } from 'node:http'
 import { fileURLToPath } from 'node:url'
 import { resolve } from 'node:path'
 import { isIP } from 'node:net'
+import { existsSync } from 'node:fs'
 import sirv from 'sirv'
 import { WebSocketServer } from 'ws'
 import { createSessionHub } from './sessionHub.mjs'
 
 export function createRemoteServer(options = {}) {
   const hub = createSessionHub(options)
-  const serve = sirv(fileURLToPath(new URL('../dist', import.meta.url)), { single: true })
+  const dist = fileURLToPath(new URL('../dist', import.meta.url))
+  const serve = existsSync(dist) ? sirv(dist, { single: true }) : (_req, _res, next) => next()
   const server = createServer((req, res) => {
     res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin')
     res.setHeader('X-Content-Type-Options', 'nosniff')
+    if (req.method === 'GET' && req.url === '/healthz') {
+      res.setHeader('Content-Type', 'application/json')
+      res.setHeader('Cache-Control', 'no-store')
+      res.end(JSON.stringify({ status: 'ok' }))
+      return
+    }
     serve(req, res, () => {
       res.statusCode = 404
       res.end('Build the app first with npm run build.')
@@ -45,7 +53,7 @@ export function createRemoteServer(options = {}) {
     const previous = upgrades.get(address)
     const limit = previous && now - previous.start < 60000 ? previous : { start: now, count: 0 }
     upgrades.set(address, limit)
-    if (++limit.count > 60 || wss.clients.size >= 2000 || upgrades.size > 10000) {
+    if (++limit.count > 600 || wss.clients.size >= 2000 || upgrades.size > 10000) {
       socket.end('HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\n\r\n')
       return
     }
