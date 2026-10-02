@@ -11,6 +11,8 @@ export const remoteErrors: Record<string, string> = {
   'tv-offline': 'The TV is reconnecting. Try again when it is back.',
   'tv-off': 'Turn on the TV on your desktop first.',
   replaced: 'This remote was opened in another tab.',
+  'service-not-configured':
+    'Remote control is not set up on this website yet. Please contact the site owner.',
   'service-unavailable': 'Could not connect to the remote service. Please try again in a moment.',
 }
 
@@ -86,6 +88,15 @@ export class RemoteConnection {
     try {
       const configured = import.meta.env.VITE_REMOTE_WS_URL?.trim()
       const url = new URL(configured || '/remote-ws', window.location.href)
+      if (
+        url.hostname === window.location.hostname &&
+        url.hostname.endsWith('.vercel.app') &&
+        ['/remote-ws', '/api/remote-ws'].includes(url.pathname)
+      ) {
+        this.destroy()
+        this.callbacks.message({ type: 'error', code: 'service-not-configured' })
+        return
+      }
       if (!configured) url.protocol = url.protocol === 'https:' ? 'wss:' : 'ws:'
       if (
         !['ws:', 'wss:'].includes(url.protocol) ||

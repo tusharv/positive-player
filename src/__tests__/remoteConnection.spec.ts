@@ -43,6 +43,24 @@ afterEach(() => {
 })
 
 describe('remote connection', () => {
+  it('explains missing relay setup instead of retrying the retired Vercel endpoint', () => {
+    vi.stubEnv('VITE_REMOTE_WS_URL', 'wss://1988-in.vercel.app/remote-ws')
+    vi.stubGlobal('location', new URL('https://1988-in.vercel.app/remote'))
+    sessionStorage.setItem(
+      'pp-remote-remote',
+      JSON.stringify({ role: 'remote', id: 'id', token: 'secret' }),
+    )
+    const message = vi.fn()
+    const status = vi.fn()
+    const connection = new RemoteConnection('remote', { message, status })
+    connection.start()
+    expect(Socket.instances).toHaveLength(0)
+    expect(message).toHaveBeenCalledWith({ type: 'error', code: 'service-not-configured' })
+    expect(status).toHaveBeenLastCalledWith('idle')
+    vi.advanceTimersByTime(120000)
+    expect(Socket.instances).toHaveLength(0)
+    connection.destroy()
+  })
   it('uses the configured persistent relay for both devices', () => {
     vi.stubEnv('VITE_REMOTE_WS_URL', 'wss://remote.example.com/remote-ws')
     const host = new RemoteConnection('host', { message: vi.fn(), status: vi.fn() })

@@ -13,13 +13,21 @@ export default defineConfig(({ mode }) => {
     let valid = false
     try {
       const url = new URL(relay ?? '')
-      valid = url.protocol === 'wss:' && !url.username && !url.password && !url.hash
+      const websiteHosts = [
+        env.VERCEL_URL,
+        env.VERCEL_BRANCH_URL,
+        env.VERCEL_PROJECT_PRODUCTION_URL,
+      ]
+      const retiredRoute =
+        websiteHosts.includes(url.host) && ['/remote-ws', '/api/remote-ws'].includes(url.pathname)
+      valid =
+        url.protocol === 'wss:' && !url.username && !url.password && !url.hash && !retiredRoute
     } catch {
       /* Missing or malformed relay configuration. */
     }
     if (!valid)
       throw new Error(
-        'Set VITE_REMOTE_WS_URL to the persistent relay wss:// address before deploying to Vercel.',
+        'Set VITE_REMOTE_WS_URL to the separate persistent relay wss:// address, not this Vercel website, before deploying.',
       )
   }
   return {
