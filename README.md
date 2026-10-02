@@ -6,7 +6,13 @@ The TV remembers the last selected channel and sound settings in this browser ac
 
 ## Channel guide
 
-After turning on the TV, choose **Guide** in the lower-left corner. Search by channel name, number, description, or tag, and combine the search with a tag filter. Select a channel to tune in; press Escape or Back to TV to return to the TV. The guide fills the CRT screen within its bezel. Each channel has category and mood tags, with additional tags for classic shows.
+After turning on the TV, choose **Channels** in the on-screen controls. Search by channel name, number, description, or tag, and combine the search with a tag filter. Select a channel to tune in; press Escape or Back to TV to return to the TV. The guide fills the CRT screen within its bezel. Each channel has category and mood tags, with additional tags for classic shows.
+
+Use **CH − / CH +** to change channels without pairing a phone. Arrow keys move between focused controls; Enter selects one. Use **VOL − / VOL +** for 5% volume steps and **Mute / Unmute** to toggle sound and restore the previous volume. Number keys, volume (+/−), and M for mute still work while a control is focused.
+
+The HUD and controls fade away after four seconds of inactivity. Move the mouse, tap the picture, or use the keyboard/TV remote to reveal them. The first tap, arrow, or OK press wakes hidden controls without selecting a channel. The Channels guide and phone-pairing dialog stay visible while open. Reduced-motion preferences disable the animation.
+
+Choose **Fullscreen** to expand the player, including its channel controls. Use **Exit fullscreen**, Escape, or the TV Back key to return. If the browser cannot enter native fullscreen, a message explains that the player fills the browser window while its toolbar may remain visible.
 
 The lineup opens with **001 Bollywood**, **002 Cricket**, **003 Jungle Book**, **004 Shaktimaan**, **005 DD Classics**, **006 Ramayan**, and **007 Mahabharat**, followed by animals, food, space, sport, and travel. Quieter scenery and ambient channels follow the opening selection. Choose the **DD Era** tag to find the five classic TV channels together. Each channel loads a public YouTube playlist rather than a Search query, so the lineup does not spend the daily Search Queries quota. Results still depend on what those channels have published. Channel numbers have changed; saved preferences still recall a channel number, which may now point to different programming.
 

@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import { hasHardwareVideoPlane } from '../lib/hardwareVideoPlane'
 
+defineProps<{ expanded?: boolean }>()
+
 const videoPlane = hasHardwareVideoPlane()
 </script>
 
 <template>
-  <div class="crt" :class="{ 'crt--plane': videoPlane }">
+  <div class="crt" :class="{ 'crt--plane': videoPlane, 'crt--expanded': expanded }">
     <div class="crt-bezel">
       <div class="crt-screen">
         <div class="crt-stage">
@@ -26,8 +28,7 @@ const videoPlane = hasHardwareVideoPlane()
   min-height: 100dvh;
   display: grid;
   place-items: center;
-  background:
-    radial-gradient(ellipse at 50% 20%, #2a2118 0%, var(--crt-bg) 58%);
+  background: radial-gradient(ellipse at 50% 20%, #2a2118 0%, var(--crt-bg) 58%);
 }
 
 .crt-bezel {
@@ -47,6 +48,7 @@ const videoPlane = hasHardwareVideoPlane()
   height: 100%;
   border-radius: clamp(1.25rem, 4vmin, 3rem) / clamp(1rem, 3vmin, 2rem);
   overflow: hidden;
+  overflow: clip;
   background: #050505;
   box-shadow: inset 0 0 0 3px #111;
 }
@@ -67,16 +69,16 @@ const videoPlane = hasHardwareVideoPlane()
 }
 
 .crt-scan {
-  background: repeating-linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.32) 0 1px,
-    transparent 1px 3px
-  );
+  background: repeating-linear-gradient(to bottom, rgba(0, 0, 0, 0.32) 0 1px, transparent 1px 3px);
 }
 
 .crt-grain {
   inset: -20%;
-  background-image: repeating-radial-gradient(circle at 18% 30%, #fff 0 0.45px, transparent 0.8px 3px);
+  background-image: repeating-radial-gradient(
+    circle at 18% 30%,
+    #fff 0 0.45px,
+    transparent 0.8px 3px
+  );
   opacity: 0.1;
   mix-blend-mode: overlay;
   animation: crt-grain 0.18s steps(2) infinite;
@@ -99,15 +101,13 @@ const videoPlane = hasHardwareVideoPlane()
   .crt-bezel {
     width: 100vw;
     height: 100dvh;
-    padding:
-      max(0.6rem, env(safe-area-inset-top))
-      max(0.6rem, env(safe-area-inset-right))
-      max(0.6rem, env(safe-area-inset-bottom))
-      max(0.6rem, env(safe-area-inset-left));
+    padding: max(0.6rem, env(safe-area-inset-top)) max(0.6rem, env(safe-area-inset-right))
+      max(0.6rem, env(safe-area-inset-bottom)) max(0.6rem, env(safe-area-inset-left));
     border-radius: 0;
   }
 }
 
+.crt--expanded .crt-bezel,
 .crt--plane .crt-bezel {
   width: 100vw;
   height: 100vh;
@@ -118,9 +118,12 @@ const videoPlane = hasHardwareVideoPlane()
   background: #000;
 }
 
+.crt--expanded .crt-screen,
 .crt--plane .crt-screen {
-  overflow: visible;
   border-radius: 0;
   box-shadow: none;
+}
+.crt--plane .crt-screen {
+  overflow: visible;
 }
 </style>

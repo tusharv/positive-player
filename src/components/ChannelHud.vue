@@ -23,22 +23,26 @@ const displayLabel = computed(() => {
 </script>
 
 <template>
-  <p v-if="visible" class="channel-label">{{ displayLabel }}</p>
-  <div
-    v-if="volumeVisible"
-    class="volume-display"
-    role="meter"
-    aria-label="Volume"
-    :aria-valuenow="muted ? 0 : volume"
-    :aria-valuemin="0"
-    :aria-valuemax="100"
-    :aria-valuetext="muted ? 'Muted' : `${volume}%`"
-  >
-    <p class="volume-label">{{ muted ? 'MUTE' : 'VOLUME' }}</p>
-    <div class="bar" aria-hidden="true">
-      <span v-for="(on, i) in ticks" :key="i" class="tick" :class="{ on }" />
+  <Transition name="hud">
+    <p v-if="visible" class="channel-label">{{ displayLabel }}</p>
+  </Transition>
+  <Transition name="hud">
+    <div
+      v-if="volumeVisible"
+      class="volume-display"
+      role="meter"
+      aria-label="Volume"
+      :aria-valuenow="muted ? 0 : volume"
+      :aria-valuemin="0"
+      :aria-valuemax="100"
+      :aria-valuetext="muted ? 'Muted' : `${volume}%`"
+    >
+      <p class="volume-label">{{ muted ? 'MUTE' : 'VOLUME' }}</p>
+      <div class="bar" aria-hidden="true">
+        <span v-for="(on, i) in ticks" :key="i" class="tick" :class="{ on }" />
+      </div>
     </div>
-  </div>
+  </Transition>
 </template>
 
 <style scoped>
@@ -93,5 +97,26 @@ const displayLabel = computed(() => {
 .tick.on {
   width: clamp(3px, 0.4vw, 5px);
   height: 12px;
+}
+.hud-enter-active,
+.hud-leave-active {
+  transition:
+    opacity 200ms ease,
+    transform 200ms ease;
+}
+.hud-enter-from,
+.hud-leave-to {
+  opacity: 0;
+  transform: translateY(6px);
+}
+@media (prefers-reduced-motion: reduce) {
+  .hud-enter-active,
+  .hud-leave-active {
+    transition: none;
+  }
+  .hud-enter-from,
+  .hud-leave-to {
+    transform: none;
+  }
 }
 </style>

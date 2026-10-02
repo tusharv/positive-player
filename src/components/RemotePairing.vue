@@ -3,6 +3,7 @@ import { computed, onBeforeUnmount, ref, watch } from 'vue'
 import QRCode from 'qrcode'
 import { useTvRemote } from '../composables/useTvRemote'
 
+const emit = defineEmits<{ 'open-change': [open: boolean] }>()
 const remote = useTvRemote()
 const dialog = ref<HTMLDialogElement | null>(null)
 const qr = ref('')
@@ -56,8 +57,13 @@ function scheduleAutoClose() {
 watch([remote.paired, remote.remoteOnline], scheduleAutoClose)
 function open() {
   dialog.value?.showModal()
+  emit('open-change', true)
   scheduleAutoClose()
   if (remote.status.value === 'idle' && !remote.paired.value) remote.connect()
+}
+function onDialogClose() {
+  clearAutoClose()
+  emit('open-change', false)
 }
 function closeDialog() {
   clearAutoClose()
@@ -79,7 +85,7 @@ function closeDialog() {
     ref="dialog"
     class="pair-dialog"
     aria-labelledby="pair-title"
-    @close="clearAutoClose"
+    @close="onDialogClose"
     @keydown.stop
   >
     <button class="close" type="button" aria-label="Close pairing" @click="closeDialog">×</button>

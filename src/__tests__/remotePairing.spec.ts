@@ -23,9 +23,13 @@ it('waits for connection, cancels on connection loss, and closes five seconds af
   const wrapper = mount(RemotePairing)
   const dialog = wrapper.get('dialog').element as HTMLDialogElement
   dialog.showModal = () => dialog.setAttribute('open', '')
-  dialog.close = () => dialog.removeAttribute('open')
+  dialog.close = () => {
+    dialog.removeAttribute('open')
+    dialog.dispatchEvent(new Event('close'))
+  }
   try {
     await wrapper.get('.remote-launch').trigger('click')
+    expect(wrapper.emitted('open-change')?.slice(-1)[0]).toEqual([true])
     await vi.advanceTimersByTimeAsync(10000)
     expect(dialog.open).toBe(true)
     remote.paired.value = true
@@ -42,6 +46,7 @@ it('waits for connection, cancels on connection loss, and closes five seconds af
     expect(dialog.open).toBe(true)
     await vi.advanceTimersByTimeAsync(1)
     expect(dialog.open).toBe(false)
+    expect(wrapper.emitted('open-change')?.slice(-1)[0]).toEqual([false])
     expect(remote.disconnect).not.toHaveBeenCalled()
     await wrapper.get('.remote-launch').trigger('click')
     await vi.advanceTimersByTimeAsync(5000)

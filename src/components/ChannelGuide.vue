@@ -3,7 +3,7 @@ import { computed, nextTick, ref } from 'vue'
 import { CHANNELS, formatChannelNumber } from '../data/channels'
 
 defineProps<{ currentChannel: number }>()
-const emit = defineEmits<{ tune: [number: number] }>()
+const emit = defineEmits<{ tune: [number: number]; 'open-change': [open: boolean] }>()
 const isOpen = ref(false)
 const launch = ref<HTMLButtonElement | null>(null)
 const searchInput = ref<HTMLInputElement | null>(null)
@@ -24,7 +24,7 @@ function navigateChannels(event: KeyboardEvent) {
   event.preventDefault()
   const index = buttons.indexOf(target as HTMLButtonElement)
   if (fromChannel && index === 0 && backward) {
-    searchInput.value?.focus()
+    searchInput.value?.focus({ preventScroll: true })
     return
   }
   const nextIndex = fromSearch
@@ -38,13 +38,15 @@ function navigateChannels(event: KeyboardEvent) {
 }
 async function openGuide() {
   isOpen.value = true
+  emit('open-change', true)
   await nextTick()
-  searchInput.value?.focus()
+  searchInput.value?.focus({ preventScroll: true })
 }
 async function closeGuide() {
   isOpen.value = false
+  emit('open-change', false)
   await nextTick()
-  launch.value?.focus()
+  launch.value?.focus({ preventScroll: true })
 }
 const search = ref('')
 const tag = ref('')
@@ -75,7 +77,7 @@ function tune(number: number) {
     aria-controls="channel-guide"
     @click="openGuide"
   >
-    Guide
+    Channels
   </button>
   <section
     v-if="isOpen"
