@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { onBeforeUnmount, onMounted, ref, watch } from 'vue'
+import { hasHardwareVideoPlane } from '../lib/hardwareVideoPlane'
 
 type YtPlayer = {
   loadVideoById: (opts: { videoId: string; startSeconds: number }) => void
@@ -8,6 +9,7 @@ type YtPlayer = {
   unMute: () => void
   destroy: () => void
   unloadModule?: (module: string) => void
+  getIframe?: () => HTMLIFrameElement
 }
 
 const props = defineProps<{
@@ -41,6 +43,30 @@ function applySound() {
   else player.unMute()
 }
 
+function releaseYoutubeFocus() {
+  // Samsung and other TV browsers leave the iframe focused. YouTube then
+  // treats the player as active and keeps the center pause icon up. Desktop
+  // drops that icon once the pointer goes idle.
+  if (!hasHardwareVideoPlane()) return
+  const iframe = player?.getIframe?.()
+  if (!iframe) return
+  iframe.tabIndex = -1
+  iframe.style.pointerEvents = 'none'
+  if (document.activeElement !== iframe) return
+  iframe.blur()
+  const channel = document.querySelector<HTMLButtonElement>(
+    '.player-controls:not([inert]) [aria-label="Next channel"]',
+  )
+  const wake = document.querySelector<HTMLButtonElement>('[aria-label="Show player controls"]')
+  const page = document.querySelector<HTMLElement>('main.page')
+  ;(channel ?? wake ?? page)?.focus({ preventScroll: true })
+}
+
+function onFocusIn(event: FocusEvent) {
+  const iframe = player?.getIframe?.()
+  if (iframe && event.target === iframe) releaseYoutubeFocus()
+}
+
 function createPlayer() {
   if (!host.value || !window.YT?.Player || destroyed) return
   player = new window.YT.Player(host.value, {
@@ -58,17 +84,24 @@ function createPlayer() {
       playsinline: 1,
       start: Math.floor(props.startSeconds),
       origin: window.location.origin,
+      // Legacy TV player builds still hide the control bar with this.
+      // Current desktop players ignore it.
+      ...(hasHardwareVideoPlane() ? { autohide: 1 } : {}),
     },
     events: {
       onReady: () => {
         applySound()
         disableCaptions()
+        releaseYoutubeFocus()
       },
       onApiChange: disableCaptions,
       onStateChange: (event: { data: number }) => {
         // Caption tracks can finish loading after onApiChange during startup.
         // Reapply once playback begins, including after each channel change.
-        if (event.data === window.YT?.PlayerState.PLAYING) disableCaptions()
+        if (event.data === window.YT?.PlayerState.PLAYING) {
+          disableCaptions()
+          releaseYoutubeFocus()
+        }
         if (event.data === window.YT?.PlayerState.ENDED) emit('ended')
       },
       onError: () => emit('error'),
@@ -94,6 +127,7 @@ function loadApi(): Promise<void> {
 }
 
 onMounted(async () => {
+  document.addEventListener('focusin', onFocusIn)
   try {
     await loadApi()
     createPlayer()
@@ -113,6 +147,7 @@ watch(() => [props.volume, props.muted], applySound)
 
 onBeforeUnmount(() => {
   destroyed = true
+  document.removeEventListener('focusin', onFocusIn)
   player?.destroy()
   player = null
 })
@@ -144,5 +179,8 @@ onBeforeUnmount(() => {
   width: 100%;
   height: 100%;
   border: 0;
+  /* Hit-testing skips descendants of pointer-events: none, but TV browsers
+     still deliver the remote to a focused iframe. Keep the iframe itself out. */
+  pointer-events: none;
 }
 </style>
