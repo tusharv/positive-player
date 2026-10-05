@@ -12,7 +12,7 @@ const featured = featuredNames.flatMap((name) => {
   <div class="landing">
     <a class="skip-link" href="#main">Skip to content</a>
     <div class="web-titlebar" aria-hidden="true">
-      <span>1988.in — Your television on the World Wide Web</span>
+      <span>1988.in — Feel 1988. No skip.</span>
       <span class="window-marks">― &nbsp; □ &nbsp; ×</span>
     </div>
     <header class="header">
@@ -36,11 +36,11 @@ const featured = featuredNames.flatMap((name) => {
     <main id="main">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow">A little bit of then. Right here.</p>
-          <h1 id="hero-title">Ghar aao.<br />TV lagao.</h1>
+          <p class="eyebrow">Instead of reels</p>
+          <h1 id="hero-title">Feel 1988.<br />No skip.</h1>
           <p class="intro">
-            The familiar glow. The favourite shows. A little corner of the internet that feels like
-            home.
+            A CRT in the browser. The programme is already on, and the glass has no skip button.
+            Change the channel, or stay with it.
           </p>
           <RouterLink to="/watch" class="watch-button"
             ><span class="play" aria-hidden="true">▶</span> Watch TV</RouterLink
@@ -61,19 +61,20 @@ const featured = featuredNames.flatMap((name) => {
       </section>
 
       <section id="story" class="story" aria-labelledby="story-title">
-        <p class="hindi" lang="hi">वही टीवी वाली बात।</p>
+        <p class="hindi" lang="hi">रील नहीं। टेलीविजन।</p>
         <h2 id="story-title">
-          Remember when watching TV<br class="desktop-break" />
-          was a plan in itself?
+          A CRT from 1988,<br class="desktop-break" />
+          with nothing to skip.
         </h2>
         <div class="story-copy">
           <p>
-            Someone adjusted the antenna. Someone called everyone into the room. And for a while, we
-            all watched the same thing.
+            You arrive in the middle of a broadcast. Scanlines stay on the glass. There is no
+            progress bar and no next clip waiting under your thumb.
           </p>
           <p>
-            1988.in brings back a little of that feeling. A television in your browser, with old
-            favourites and good things to discover. Turn it on. See what's playing.
+            1988.in is that set. Bollywood, cricket, the old serials, then quieter channels after
+            them. Tune to another number if you want a different picture. The one you are on keeps
+            playing.
           </p>
         </div>
         <div class="colour-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
@@ -119,7 +120,7 @@ const featured = featuredNames.flatMap((name) => {
           </li>
           <li>
             <h3>Find your channel.</h3>
-            <p>Use the arrow keys or open the channel guide. Something is already playing.</p>
+            <p>Open the guide or press a number. You join the broadcast already in progress.</p>
           </li>
           <li>
             <h3>Pass the remote.</h3>
@@ -129,8 +130,8 @@ const featured = featuredNames.flatMap((name) => {
       </section>
 
       <section class="closing" aria-labelledby="closing-title">
-        <p lang="hi">चलो, टीवी देखते हैं।</p>
-        <h2 id="closing-title">Your seat is still there.</h2>
+        <p lang="hi">देखते रहो।</p>
+        <h2 id="closing-title">Stay with the picture.</h2>
         <RouterLink to="/watch" class="watch-button"
           ><span class="play" aria-hidden="true">▶</span> Watch TV</RouterLink
         >
@@ -140,7 +141,7 @@ const featured = featuredNames.flatMap((name) => {
     <footer class="footer">
       <div>
         <img src="/brand/1988-logo.svg" alt="1988.in" width="120" height="40" />
-        <p>Inspired by the India we watched TV in.</p>
+        <p>A CRT you stay with. 1988 is the year on the glass.</p>
       </div>
       <nav aria-label="Footer navigation">
         <RouterLink to="/privacy">Privacy</RouterLink><RouterLink to="/terms">Terms</RouterLink

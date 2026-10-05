@@ -1,6 +1,8 @@
 # positive-player
 
-Always-on CRT television that plays YouTube through the IFrame Player API. Flip channels. Volume lives on the glass.
+A CRT television for anyone done with reels. It plays YouTube in the browser, already in the middle of a programme, with the player controls hidden so there is nothing to skip. Change the channel, or stay with the picture. Volume lives on the glass.
+
+Live at [https://1988-in.vercel.app/](https://1988-in.vercel.app/).
 
 The TV remembers the last selected channel and sound settings in this browser across reloads and restarts, including channel changes made from a paired phone. Turn it on to return to that channel's current broadcast. Clearing browser storage resets these preferences; an unavailable saved channel falls back to the first channel.
 
@@ -20,8 +22,8 @@ The lineup opens with **001 Bollywood**, **002 Cricket**, **003 Jungle Book**, *
 
 Google’s YouTube API review needs public, no-login URLs. After you deploy, paste these into the API project:
 
-- Privacy Policy: `https://positive-player.vercel.app/privacy`
-- Terms of Service: `https://positive-player.vercel.app/terms`
+- Privacy Policy: `https://1988-in.vercel.app/privacy`
+- Terms of Service: `https://1988-in.vercel.app/terms`
 
 The power-on screen requires agreement to both, plus a link to the [YouTube Terms of Service](https://www.youtube.com/t/terms), before the Data API or IFrame Player run.
 
