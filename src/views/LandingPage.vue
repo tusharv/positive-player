@@ -111,20 +111,26 @@ const featured = featuredNames.flatMap((name) => {
             Same ritual.<br />
             New remote.
           </h2>
-          <p>Settle in. We'll bring the television.</p>
+          <p>The picture stays on your computer. Your phone becomes the remote.</p>
         </div>
         <ol>
           <li>
-            <h3>Switch it on.</h3>
-            <p>Open the TV, accept the station notice, and press the power button.</p>
+            <h3>Open the watch page.</h3>
+            <p>On your computer, click “Connect remote”. A QR code and a short code appear.</p>
           </li>
           <li>
-            <h3>Find your channel.</h3>
-            <p>Open the guide or press a number. You join the broadcast already in progress.</p>
+            <h3>Scan it, or type it.</h3>
+            <p>
+              Scan the code with your phone. Or open
+              <RouterLink to="/remote">/remote</RouterLink> and enter the code shown on the TV.
+            </p>
           </li>
           <li>
-            <h3>Pass the remote.</h3>
-            <p>Choose “Connect remote” on the TV and scan the QR code with your phone.</p>
+            <h3>Your phone takes the controls.</h3>
+            <p>
+              The <RouterLink to="/remote">/remote</RouterLink> page on your phone connects to the
+              TV on your desktop.
+            </p>
           </li>
         </ol>
       </section>
@@ -522,6 +528,13 @@ h2 {
   color: var(--muted);
   line-height: 1.65;
   margin: 0;
+}
+.how li a {
+  color: var(--blue);
+  text-underline-offset: 3px;
+}
+.how li a:hover {
+  color: var(--ink);
 }
 .support {
   max-width: 1440px;

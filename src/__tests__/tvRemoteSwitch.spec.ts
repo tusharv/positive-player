@@ -55,11 +55,11 @@ it('cancels an old channel retry when a remote channel change is loading', async
 it('does not skip a newly selected channel because the previous video failed', async () => {
   sessionStorage.setItem(
     `pp-catalog-1-playlist-${channelByNumber(1)!.playlistId}`,
-    JSON.stringify([{ videoId: 'first', durationSeconds: 100 }]),
+    JSON.stringify({ items: [{ videoId: 'first', durationSeconds: 100 }], fetchedAt: Date.now() }),
   )
   sessionStorage.setItem(
     `pp-catalog-2-playlist-${channelByNumber(2)!.playlistId}`,
-    JSON.stringify([{ videoId: 'second', durationSeconds: 100 }]),
+    JSON.stringify({ items: [{ videoId: 'second', durationSeconds: 100 }], fetchedAt: Date.now() }),
   )
   const tv = useTvStore()
   tv.powerOn()
@@ -117,20 +117,24 @@ it('hides channel and volume readouts independently after five seconds', async (
 it('keeps a one-video channel playing when its video ends', async () => {
   sessionStorage.setItem(
     `pp-catalog-1-playlist-${channelByNumber(1)!.playlistId}`,
-    JSON.stringify([{ videoId: 'only-video', durationSeconds: 100 }]),
+    JSON.stringify({
+      items: [{ videoId: 'only-video', durationSeconds: 100 }],
+      fetchedAt: Date.now(),
+    }),
   )
   const tv = useTvStore()
   tv.powerOn()
   await flushPromises()
   tv.onPlayerEnded()
+  await flushPromises()
   expect(tv.currentSlot?.videoId).toBe('only-video')
   expect(tv.interruption).toBe('none')
 })
 
-it('loads a category backup after all current videos fail instead of retrying the exhausted list', async () => {
+it('shows an interruption when all station videos fail instead of playing another channel', async () => {
   sessionStorage.setItem(
     `pp-catalog-1-playlist-${channelByNumber(1)!.playlistId}`,
-    JSON.stringify([{ videoId: 'broken', durationSeconds: 100 }]),
+    JSON.stringify({ items: [{ videoId: 'broken', durationSeconds: 100 }], fetchedAt: Date.now() }),
   )
   vi.stubGlobal(
     'fetch',
@@ -156,7 +160,7 @@ it('loads a category backup after all current videos fail instead of retrying th
   tv.onPlayerError()
   await vi.advanceTimersByTimeAsync(2100)
   await flushPromises()
-  expect(tv.currentSlot?.videoId).toBe('backup')
+  expect(tv.currentSlot).toBeNull()
   expect(tv.channelNumber).toBe(1)
-  expect(tv.interruption).toBe('none')
+  expect(tv.interruption).toBe('hold')
 })

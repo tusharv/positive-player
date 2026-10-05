@@ -138,7 +138,6 @@ const HANDLES = {
   Puppets: ['TheMuppetsStudio'],
   Kindness: ['SoulPancake'],
   Lakes: ['CalmLakes'],
-  'DD Classics': ['DoordarshanNational'],
 }
 
 async function resolveHandle(handle) {
@@ -166,10 +165,11 @@ async function resolveHandle(handle) {
 }
 
 const used = new Set()
-// Series channels must use dedicated episode playlists, never publisher upload feeds.
+// Series sources are curated; publisher uploads need an explicit topic filter.
 const results = {
   Ramayan: { playlistId: 'PLFPJRCFRDARSfz9y9YPMG_tCTSeYeGNA3' },
-  Mahabharat: { playlistId: 'PLa6CHPhFNfadNcnVZRXa6csHL5sFdkwmV' },
+  Mahabharat: { playlistId: 'UUHKGDg0GJKBsA9mFraDOLHA', titleTerms: ['mahabharat', 'महाभारत'] },
+  'DD Classics': { playlistId: 'PLY-qGtGftCjm1_tDxT2TsDAXXC2p-iutt' },
   'Jungle Book': { playlistId: 'PL65eurRkEvghrieaRGNpneAZmZoUeM5Kc' },
   Shaktimaan: { playlistId: 'PLJHHPzufWhurTWga4uBzL-M3F79A71p2Z' },
 }

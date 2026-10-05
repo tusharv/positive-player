@@ -9,7 +9,7 @@ describe('channel guide', () => {
   it('navigates filtered channels with arrows and returns to search at the top', async () => {
     const wrapper = mount(ChannelGuide, { props: { currentChannel: 1 }, attachTo: document.body })
     await wrapper.get('.guide-launch').trigger('click')
-    await wrapper.get('input').setValue('ramayan')
+    await wrapper.get('input').setValue('mythology')
     const channels = wrapper.findAll<HTMLButtonElement>('[data-channel]')
     await wrapper.get('input').trigger('keydown', { key: 'ArrowDown' })
     expect(document.activeElement).toBe(channels[0]!.element)
@@ -79,7 +79,7 @@ describe('channel guide', () => {
     await wrapper.get('select').setValue('DD Era')
     expect(wrapper.findAll('[data-channel]')).toHaveLength(5)
     await wrapper.get('input').setValue('  RAMAYAN  ')
-    expect(wrapper.findAll('[data-channel]')).toHaveLength(2)
+    expect(wrapper.findAll('[data-channel]')).toHaveLength(1)
     await wrapper.get('[data-channel="6"]').trigger('click')
     expect(wrapper.emitted('tune')).toEqual([[6]])
     expect(wrapper.find('#channel-guide').exists()).toBe(false)

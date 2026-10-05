@@ -17,9 +17,11 @@ describe('channel lineup', () => {
     )
   })
 
-  it('gives every channel a unique name, playlist, blurb, mood, and category', () => {
+  it('gives every channel a unique name and source policy, plus a blurb, mood, and category', () => {
     const names = CHANNELS.map((channel) => channel.name)
-    const playlists = CHANNELS.map((channel) => channel.playlistId)
+    const playlists = CHANNELS.map((channel) =>
+      JSON.stringify([channel.playlistId, channel.titleTerms ?? []]),
+    )
     expect(new Set(names).size).toBe(CHANNEL_COUNT)
     expect(new Set(playlists).size).toBe(CHANNEL_COUNT)
     for (const channel of CHANNELS) {

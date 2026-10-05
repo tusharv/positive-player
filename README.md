@@ -18,6 +18,14 @@ Choose **Fullscreen** to expand the player, including its channel controls. Use 
 
 The lineup opens with **001 Bollywood**, **002 Cricket**, **003 Jungle Book**, **004 Shaktimaan**, **005 DD Classics**, **006 Ramayan**, and **007 Mahabharat**, followed by animals, food, space, sport, and travel. Quieter scenery and ambient channels follow the opening selection. Choose the **DD Era** tag to find the five classic TV channels together. Each channel loads a public YouTube playlist rather than a Search query, so the lineup does not spend the daily Search Queries quota. Results still depend on what those channels have published. Channel numbers have changed; saved preferences still recall a channel number, which may now point to different programming.
 
+## Content rotation and source checks
+
+Each station uses its own playlist. If that source has no playable videos, the TV shows an interruption instead of silently substituting another channel. Topic filters keep mixed publisher feeds relevant where configured; changing a source or filter also changes its cache key.
+
+Catalogs refresh after 24 hours, including on the next programme transition in a TV session left open. Each fetch scans up to ten playlist pages, aiming for at least 250 playable videos (the final page can take it above that). The UTC date rotates the starting programme (an already-playing programme finishes before adopting the new day’s schedule), so a short catalog no longer always repeats the same daily timetable. Videos still repeat once a finite catalog is exhausted; this does not guarantee seven days of unique programming. If a refresh fails, the same station's cached catalog remains available.
+
+Public playlists can contain private, deleted, short, or non-embeddable videos. The loader checks individual video metadata before scheduling them. A live source audit is a point-in-time check, not a guarantee of future availability or playback in every region.
+
 ## YouTube API compliance
 
 Google’s YouTube API review needs public, no-login URLs. After you deploy, paste these into the API project:

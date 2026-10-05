@@ -136,7 +136,7 @@ export const useTvStore = defineStore('tv', () => {
     if (retry) scheduleRetry(channel)
   }
 
-  async function loadChannel(channel: number) {
+  async function loadChannel(channel: number, extraExclude: string[] = []) {
     const mine = ++requestId
     const meta = channelByNumber(channel)
     if (!meta) return
@@ -145,19 +145,20 @@ export const useTvStore = defineStore('tv', () => {
     interruptionChannelNumber.value = channel
 
     try {
-      let catalog = catalogs.value[channel]
-      if (!catalog?.some((item) => !(skipped.value[channel] ?? []).includes(item.videoId))) {
-        catalog = await fetchChannelCatalog(meta, {
-          apiKey: apiKey.value,
-          fetchFn: fetch,
-          storage: catalogStorage(),
-          excludeIds: skipped.value[channel] ?? [],
-        })
-        if (mine !== requestId) return
-        catalogs.value = { ...catalogs.value, [channel]: catalog }
-      }
-
-      const slot = pickBroadcast(catalog, Date.now() / 1000, skipped.value[channel] ?? [])
+      // Consult the persisted timestamp on every tune/programme boundary;
+      // reading an old cache must not grant it another 24 hours of freshness.
+      const catalog = await fetchChannelCatalog(meta, {
+        apiKey: apiKey.value,
+        fetchFn: fetch,
+        storage: catalogStorage(),
+        excludeIds: skipped.value[channel] ?? [],
+      })
+      if (mine !== requestId) return
+      catalogs.value = { ...catalogs.value, [channel]: catalog }
+      const excluded = skipped.value[channel] ?? []
+      const slot =
+        pickBroadcast(catalog, Date.now() / 1000, [...excluded, ...extraExclude]) ??
+        pickBroadcast(catalog, Date.now() / 1000, excluded)
       if (mine !== requestId) return
 
       if (!slot) {
@@ -168,6 +169,7 @@ export const useTvStore = defineStore('tv', () => {
       clearRetry()
       interruption.value = 'none'
       currentSlot.value = slot
+      playbackRevision.value++
     } catch (error) {
       if (mine !== requestId) return
       if (error instanceof MissingApiKeyError) {
@@ -220,6 +222,7 @@ export const useTvStore = defineStore('tv', () => {
     if (channelZapNeeded(channelNumber.value, next, poweredOn.value)) {
       startZap()
     }
+    if (channelNumber.value !== next) currentSlot.value = null
     channelNumber.value = next
     try {
       localStorage.setItem(CHANNEL_KEY, String(next))
@@ -301,7 +304,7 @@ export const useTvStore = defineStore('tv', () => {
 
   function onPlayerEnded() {
     const endedId = currentSlot.value?.videoId
-    playFromClock(endedId ? [endedId] : [])
+    void loadChannel(channelNumber.value, endedId ? [endedId] : [])
   }
 
   function onPlayerError() {

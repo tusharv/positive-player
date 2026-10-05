@@ -312,7 +312,7 @@ it('recovers an empty cached playlist by looking beyond a page of shorts', async
   ).toEqual([{ videoId: 'long', durationSeconds: 600 }])
 })
 
-it('uses another source in the same category when the primary playlist is unavailable', async () => {
+it('does not substitute another channel when the primary playlist is unavailable', async () => {
   const channel: Channel = { ...nature, kind: 'playlist', playlistId: 'missing', category: 'Earth' }
   const fetchFn: typeof fetch = (input) => {
     const url = new URL(String(input))
@@ -326,12 +326,10 @@ it('uses another source in the same category when the primary playlist is unavai
       ],
     })
   }
-  expect(await fetchChannelCatalog(channel, { apiKey: 'key', fetchFn })).toEqual([
-    { videoId: 'backup', durationSeconds: 600 },
-  ])
+  expect(await fetchChannelCatalog(channel, { apiKey: 'key', fetchFn })).toEqual([])
 })
 
-it('uses a backup when all primary videos have already failed playback', async () => {
+it('does not substitute another channel when all primary videos have failed', async () => {
   const channel: Channel = { ...nature, kind: 'playlist', playlistId: 'broken', category: 'Earth' }
   const memory = new Map([
     [
@@ -354,7 +352,7 @@ it('uses a backup when all primary videos have already failed playback', async (
       storage: mapStorage(memory),
       excludeIds: ['bad'],
     }),
-  ).toEqual([{ videoId: 'backup', durationSeconds: 600 }])
+  ).toEqual([])
 })
 
 it('bounds pagination and does not cache an empty result', async () => {
@@ -368,11 +366,11 @@ it('bounds pagination and does not cache an empty result', async () => {
   expect(
     await fetchChannelCatalog(channel, { apiKey: 'key', fetchFn, storage: mapStorage(memory) }),
   ).toEqual([])
-  expect(pages).toBe(3)
+  expect(pages).toBe(10)
   expect(memory.size).toBe(0)
 })
 
-it('stops after the bounded backup sources are exhausted', async () => {
+it('does not request backups for a missing playlist', async () => {
   const channel: Channel = { ...nature, kind: 'playlist', playlistId: 'missing', category: 'Earth' }
   const requested: string[] = []
   const fetchFn: typeof fetch = async (input) => {
@@ -380,6 +378,97 @@ it('stops after the bounded backup sources are exhausted', async () => {
     return { ok: false, status: 404, json: async () => ({}) } as Response
   }
   expect(await fetchChannelCatalog(channel, { apiKey: 'key', fetchFn })).toEqual([])
-  expect(requested).toHaveLength(3)
-  expect(new Set(requested).size).toBe(3)
+  expect(requested).toHaveLength(1)
+  expect(new Set(requested).size).toBe(1)
+})
+
+it('loads beyond five playable videos to build a varied catalog', async () => {
+  const channel: Channel = { ...nature, kind: 'playlist', playlistId: 'PLvariety' }
+  const fetchFn: typeof fetch = async (input) => {
+    const url = new URL(String(input))
+    if (url.pathname.endsWith('/playlistItems')) {
+      const second = url.searchParams.has('pageToken')
+      return jsonResponse({
+        items: (second ? ['f', 'g'] : ['a', 'b', 'c', 'd', 'e']).map((videoId) => ({
+          contentDetails: { videoId },
+        })),
+        ...(second ? {} : { nextPageToken: 'second' }),
+      })
+    }
+    return jsonResponse({
+      items: url.searchParams
+        .get('id')!
+        .split(',')
+        .map((id) => ({
+          id,
+          status: { embeddable: true },
+          contentDetails: { duration: 'PT10M' },
+        })),
+    })
+  }
+  expect(
+    (await fetchChannelCatalog(channel, { apiKey: 'key', fetchFn })).map((v) => v.videoId),
+  ).toEqual(['a', 'b', 'c', 'd', 'e', 'f', 'g'])
+})
+
+it('refreshes yesterday’s catalog to include new uploads', async () => {
+  const memory = new Map([
+    [
+      'pp-catalog-1-search-peaceful%20nature%20scenery',
+      JSON.stringify({
+        items: [{ videoId: 'yesterday', durationSeconds: 600 }],
+        fetchedAt: Date.now() - 25 * 3600_000,
+      }),
+    ],
+  ])
+  const fetchFn: typeof fetch = async (input) =>
+    String(input).includes('/search')
+      ? jsonResponse({ items: [{ id: { videoId: 'today' } }] })
+      : jsonResponse({
+          items: [
+            { id: 'today', status: { embeddable: true }, contentDetails: { duration: 'PT10M' } },
+          ],
+        })
+  expect(
+    await fetchChannelCatalog(nature, { apiKey: 'key', fetchFn, storage: mapStorage(memory) }),
+  ).toEqual([{ videoId: 'today', durationSeconds: 600 }])
+})
+
+it('filters mixed publisher uploads to the station topic before caching', async () => {
+  const channel: Channel = {
+    ...nature,
+    kind: 'playlist',
+    playlistId: 'PLmixed',
+    titleTerms: ['kyoto', '京都'],
+  }
+  const memory = new Map<string, string>()
+  const fetchFn: typeof fetch = async (input) =>
+    String(input).includes('playlistItems')
+      ? jsonResponse({
+          items: ['kyoto', 'tokyo', 'unknown'].map((videoId) => ({ contentDetails: { videoId } })),
+        })
+      : jsonResponse({
+          items: [
+            {
+              id: 'kyoto',
+              snippet: { title: 'A walk in KYOTO' },
+              status: { embeddable: true },
+              contentDetails: { duration: 'PT1H' },
+            },
+            {
+              id: 'tokyo',
+              snippet: { title: 'Tokyo streets' },
+              status: { embeddable: true },
+              contentDetails: { duration: 'PT1H' },
+            },
+            { id: 'unknown', status: { embeddable: true }, contentDetails: { duration: 'PT1H' } },
+          ],
+        })
+  const options = { apiKey: 'key', fetchFn, storage: mapStorage(memory) }
+  expect(await fetchChannelCatalog(channel, options)).toEqual([
+    { videoId: 'kyoto', durationSeconds: 3600 },
+  ])
+  expect(await fetchChannelCatalog({ ...channel, titleTerms: ['tokyo'] }, options)).toEqual([
+    { videoId: 'tokyo', durationSeconds: 3600 },
+  ])
 })

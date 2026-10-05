@@ -28,3 +28,17 @@ describe('pickBroadcast', () => {
     expect(pickBroadcast(catalog, 10, ['a'])).toEqual({ videoId: 'b', startSeconds: 10 })
   })
 })
+
+it('varies the same viewing time across next week even when the catalog loop divides a day', () => {
+  const videos = Array.from({ length: 12 }, (_, i) => ({
+    videoId: String(i),
+    durationSeconds: 600,
+  }))
+  const monday = Date.UTC(2026, 9, 12, 18) / 1000
+  const slots = Array.from(
+    { length: 7 },
+    (_, day) => pickBroadcast(videos, monday + day * 86400)!.videoId,
+  )
+  expect(new Set(slots).size).toBe(7)
+  expect(pickBroadcast(videos, monday)).toEqual(pickBroadcast(videos, monday))
+})
