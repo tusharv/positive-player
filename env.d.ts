@@ -2,6 +2,8 @@
 
 interface ImportMetaEnv {
   readonly VITE_YOUTUBE_API_KEY: string
+  /** Google Tag Manager container ID, for example GTM-XXXX. Empty omits the tag. */
+  readonly VITE_GTM_ID: string
 }
 
 interface ImportMeta {

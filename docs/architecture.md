@@ -66,6 +66,7 @@ Env:
 | Name | Where | Purpose |
 | --- | --- | --- |
 | `VITE_YOUTUBE_API_KEY` | Build / `.env.local` | Browser Data API key. Restrict by HTTP referrer. Never commit. |
+| `VITE_GTM_ID` | Build / `.env.local` | Google Tag Manager container ID. Public. Empty omits the tag. |
 | `PUBLIC_ORIGIN` | Node server | Exact public origin for WebSocket origin checks |
 | `TRUST_PROXY` | Node server | `1` only behind a trusted proxy that sets `X-Forwarded-For` |
 | `PORT` | Node server | Overrides `8787` |

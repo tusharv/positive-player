@@ -29,7 +29,7 @@ The power-on screen requires agreement to both, plus a link to the [YouTube Term
 
 ## YouTube API key
 
-Copy `.env.example` to `.env` and set `VITE_YOUTUBE_API_KEY`. Enable YouTube Data API v3 on the key and restrict it by HTTP referrer to your origin. Without a key, the set turns on and shows the interruption card.
+Copy `.env.example` to `.env` and set `VITE_YOUTUBE_API_KEY`. Enable YouTube Data API v3 on the key and restrict it by HTTP referrer to your origin. Without a key, the set turns on and shows the interruption card. Set `VITE_GTM_ID` to the Google Tag Manager container ID; leave it blank to omit the tag. Vite inlines that ID at build time, so production and preview deploys need the same variable in the host environment.
 
 Channel catalogs use `playlistItems.list` and `videos.list` (1 unit each). They do not call `search.list`, which is capped at 100 requests per day on a default project.
 
