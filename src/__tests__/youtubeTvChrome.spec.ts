@@ -22,6 +22,7 @@ async function setup() {
   document.body.append(iframe, page)
   const player = {
     loadVideoById: vi.fn(),
+    getVideoUrl: () => 'https://www.youtube.com/watch?v=first-video',
     setVolume: vi.fn(),
     mute: vi.fn(),
     unMute: vi.fn(),

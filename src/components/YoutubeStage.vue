@@ -4,6 +4,8 @@ import { hasHardwareVideoPlane } from '../lib/hardwareVideoPlane'
 
 type YtPlayer = {
   loadVideoById: (opts: { videoId: string; startSeconds: number }) => void
+  stopVideo: () => void
+  getVideoUrl: () => string
   setVolume: (n: number) => void
   mute: () => void
   unMute: () => void
@@ -13,7 +15,7 @@ type YtPlayer = {
 }
 
 const props = defineProps<{
-  videoId: string
+  videoId: string | null
   startSeconds: number
   volume: number
   muted: boolean
@@ -30,6 +32,41 @@ const emit = defineEmits<{
 const host = ref<HTMLDivElement | null>(null)
 let player: YtPlayer | null = null
 let destroyed = false
+let apiReady = false
+let ready = false
+let loadedRequest = ''
+
+function requestKey() {
+  return JSON.stringify([props.videoId, props.startSeconds, props.playbackRevision])
+}
+
+function syncVideo() {
+  if (destroyed || !apiReady) return
+  if (!player) {
+    createPlayer()
+    return
+  }
+  if (!ready || loadedRequest === requestKey()) return
+  loadedRequest = requestKey()
+  if (!props.videoId) {
+    // Stop the old station while its replacement catalog loads, but retain the iframe.
+    player.stopVideo()
+    return
+  }
+  player.loadVideoById({ videoId: props.videoId, startSeconds: Math.floor(props.startSeconds) })
+}
+
+function currentVideoId(): string | null {
+  if (destroyed || !props.videoId || !player) return null
+  // Callback data has no video ID. Read the player's actual video instead of
+  // labelling an old event with the latest requested channel's props.
+  try {
+    const videoId = new URL(player.getVideoUrl()).searchParams.get('v')
+    return videoId === props.videoId ? videoId : null
+  } catch {
+    return null
+  }
+}
 
 function disableCaptions() {
   // YouTube exposes this at runtime, but does not document a force-off API.
@@ -38,7 +75,7 @@ function disableCaptions() {
 }
 
 function applySound() {
-  if (!player) return
+  if (!player || !ready) return
   player.setVolume(props.volume)
   if (props.muted || props.volume === 0) player.mute()
   else player.unMute()
@@ -69,7 +106,8 @@ function onFocusIn(event: FocusEvent) {
 }
 
 function createPlayer() {
-  if (!host.value || !window.YT?.Player || destroyed) return
+  if (!host.value || !window.YT?.Player || destroyed || player || !props.videoId) return
+  loadedRequest = requestKey()
   player = new window.YT.Player(host.value, {
     width: '100%',
     height: '100%',
@@ -91,24 +129,29 @@ function createPlayer() {
     },
     events: {
       onReady: () => {
+        if (destroyed) return
+        ready = true
+        syncVideo()
         applySound()
         disableCaptions()
         releaseYoutubeFocus()
       },
       onApiChange: disableCaptions,
       onStateChange: (event: { data: number }) => {
-        if (destroyed) return
+        const videoId = currentVideoId()
+        if (!videoId) return
         // Caption tracks can finish loading after onApiChange during startup.
         // Reapply once playback begins, including after each channel change.
         if (event.data === window.YT?.PlayerState.PLAYING) {
           disableCaptions()
           releaseYoutubeFocus()
-          emit('playing', props.videoId)
+          emit('playing', videoId)
         }
         if (event.data === window.YT?.PlayerState.ENDED) emit('ended')
       },
       onError: (event: { data: number }) => {
-        if (!destroyed) emit('error', event.data, props.videoId)
+        const videoId = currentVideoId()
+        if (videoId) emit('error', event.data, videoId)
       },
     },
   }) as YtPlayer
@@ -135,18 +178,14 @@ onMounted(async () => {
   document.addEventListener('focusin', onFocusIn)
   try {
     await loadApi()
-    createPlayer()
+    apiReady = true
+    syncVideo()
   } catch {
     if (!destroyed) emit('script-error')
   }
 })
 
-watch(
-  () => [props.videoId, props.startSeconds, props.playbackRevision] as const,
-  ([videoId, startSeconds]) => {
-    player?.loadVideoById({ videoId, startSeconds: Math.floor(startSeconds) })
-  },
-)
+watch(() => [props.videoId, props.startSeconds, props.playbackRevision] as const, syncVideo)
 
 watch(() => [props.volume, props.muted], applySound)
 

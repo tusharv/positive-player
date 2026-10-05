@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import WatchIcon from './WatchIcon.vue'
 import { computed, nextTick, ref } from 'vue'
 import { CHANNELS, formatChannelNumber } from '../data/channels'
 
@@ -77,7 +78,8 @@ function tune(number: number) {
     aria-controls="channel-guide"
     @click="openGuide"
   >
-    Channels
+    <WatchIcon name="channels" />
+    <span>Channels</span>
   </button>
   <section
     v-if="isOpen"

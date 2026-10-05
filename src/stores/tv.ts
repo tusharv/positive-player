@@ -8,6 +8,7 @@ import { createVolumeState, stepVolume, toggleMute, type VolumeState } from '../
 import {
   CatalogFetchError,
   fetchChannelCatalog,
+  readChannelCatalog,
   MissingApiKeyError,
   QuotaExceededError,
 } from '../lib/youtubeData'
@@ -23,6 +24,7 @@ const CHANNEL_KEY = 'pp-channel'
 const HUD_MS = 5000
 const BRIEF_MS = 2000
 const RETRY_MS = 8000
+const TUNE_TIMEOUT_MS = 20000
 
 function readChannel(): number {
   try {
@@ -91,6 +93,8 @@ export const useTvStore = defineStore('tv', () => {
   const pendingDigits = ref('')
   const loading = ref(false)
   const zapping = ref(false)
+  const waitingForPlayback = ref(false)
+  let tuneTimer = 0
 
   let hudTimer = 0
   let volumeTimer = 0
@@ -112,7 +116,9 @@ export const useTvStore = defineStore('tv', () => {
     trackChannel('channel_error', currentChannel.value, details)
   }
   function onPlayerPlaying(videoId: string) {
-    if (!poweredOn.value || videoId !== currentSlot.value?.videoId || playedThisTune) return
+    if (!poweredOn.value || videoId !== currentSlot.value?.videoId) return
+    finishWaiting()
+    if (playedThisTune) return
     playedThisTune = true
     trackChannel('channel_play', currentChannel.value, { video_id: videoId })
   }
@@ -156,49 +162,80 @@ export const useTvStore = defineStore('tv', () => {
   }
 
   function hold(channel: number, retry = true) {
+    finishWaiting()
     interruption.value = 'hold'
     interruptionChannelNumber.value = channel
     currentSlot.value = null
     if (retry) scheduleRetry(channel)
   }
 
-  async function loadChannel(channel: number, extraExclude: string[] = []) {
+  function finishWaiting() {
+    window.clearTimeout(tuneTimer)
+    waitingForPlayback.value = false
+  }
+
+  function waitForPlayback(channel: number, request: number) {
+    finishWaiting()
+    waitingForPlayback.value = true
+    tuneTimer = window.setTimeout(() => {
+      if (!poweredOn.value || request !== requestId) return
+      reportFailure({
+        failure_stage: currentSlot.value ? 'player' : 'catalog',
+        failure_reason: 'tune_timeout',
+      })
+      ++requestId
+      loading.value = false
+      hold(channel)
+    }, TUNE_TIMEOUT_MS)
+  }
+
+  async function loadChannel(channel: number, extraExclude: string[] = [], useCached = true) {
     const mine = ++requestId
     const meta = channelByNumber(channel)
     if (!meta) return
 
     loading.value = true
     interruptionChannelNumber.value = channel
+    interruption.value = 'none'
+    waitForPlayback(channel, mine)
+    let started = false
+    const storage = catalogStorage()
+    const excluded = skipped.value[channel] ?? []
+    function start(catalog: CatalogItem[]) {
+      if (started || mine !== requestId || !poweredOn.value) return
+      const slot =
+        pickBroadcast(catalog, Date.now() / 1000, [...excluded, ...extraExclude]) ??
+        pickBroadcast(catalog, Date.now() / 1000, excluded)
+      if (!slot) return
+      started = true
+      clearRetry()
+      catalogs.value = { ...catalogs.value, [channel]: catalog }
+      interruption.value = 'none'
+      currentSlot.value = slot
+      playbackRevision.value++
+    }
 
     try {
+      if (useCached) start(readChannelCatalog(meta, storage))
       // Consult the persisted timestamp on every tune/programme boundary;
       // reading an old cache must not grant it another 24 hours of freshness.
       const catalog = await fetchChannelCatalog(meta, {
         apiKey: apiKey.value,
         fetchFn: fetch,
-        storage: catalogStorage(),
-        excludeIds: skipped.value[channel] ?? [],
+        storage,
+        excludeIds: excluded,
+        onPlayable: start,
       })
       if (mine !== requestId) return
       catalogs.value = { ...catalogs.value, [channel]: catalog }
-      const excluded = skipped.value[channel] ?? []
-      const slot =
-        pickBroadcast(catalog, Date.now() / 1000, [...excluded, ...extraExclude]) ??
-        pickBroadcast(catalog, Date.now() / 1000, excluded)
-      if (mine !== requestId) return
-
-      if (!slot) {
+      start(catalog)
+      if (!started) {
         reportFailure({ failure_stage: 'catalog', failure_reason: 'catalog_empty' })
         hold(channel)
         return
       }
-
-      clearRetry()
-      interruption.value = 'none'
-      currentSlot.value = slot
-      playbackRevision.value++
     } catch (error) {
-      if (mine !== requestId) return
+      if (mine !== requestId || started) return
       if (error instanceof MissingApiKeyError) {
         console.info('VITE_YOUTUBE_API_KEY is missing')
       } else if (!(error instanceof CatalogFetchError)) {
@@ -230,6 +267,7 @@ export const useTvStore = defineStore('tv', () => {
   }
 
   function powerOff() {
+    finishWaiting()
     poweredOn.value = false
     volumeVisible.value = false
     hudVisible.value = false
@@ -328,6 +366,7 @@ export const useTvStore = defineStore('tv', () => {
       return
     }
     interruption.value = 'none'
+    waitForPlayback(channel, requestId)
     currentSlot.value = next
     playbackRevision.value++
   }
@@ -346,11 +385,12 @@ export const useTvStore = defineStore('tv', () => {
 
   function onPlayerEnded() {
     const endedId = currentSlot.value?.videoId
-    void loadChannel(channelNumber.value, endedId ? [endedId] : [])
+    void loadChannel(channelNumber.value, endedId ? [endedId] : [], false)
   }
 
   function onPlayerError(code?: number, videoId?: string) {
     if (videoId && videoId !== currentSlot.value?.videoId) return
+    finishWaiting()
     reportFailure({
       failure_stage: 'player',
       failure_reason: playerFailureReason(code),
@@ -383,6 +423,7 @@ export const useTvStore = defineStore('tv', () => {
     pendingDigits,
     loading,
     zapping,
+    waitingForPlayback,
     currentChannel,
     channelLabel,
     CHANNELS,

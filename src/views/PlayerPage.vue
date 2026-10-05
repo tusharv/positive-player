@@ -3,6 +3,8 @@ import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { storeToRefs } from 'pinia'
 import { usePlayerActivity } from '../composables/usePlayerActivity'
 import { usePlayerFullscreen } from '../composables/usePlayerFullscreen'
+import WatchIcon from '../components/WatchIcon.vue'
+import ChannelTuning from '../components/ChannelTuning.vue'
 import ChannelGuide from '../components/ChannelGuide.vue'
 import ChannelHud from '../components/ChannelHud.vue'
 import ChannelZap from '../components/ChannelZap.vue'
@@ -196,10 +198,10 @@ onBeforeUnmount(() => {
   >
     <CrtShell :expanded="fullscreen.active.value">
       <YoutubeStage
-        :key="`${tv.channelNumber}:${tv.currentSlot.videoId}`"
-        v-if="tv.poweredOn && tv.currentSlot"
-        :video-id="tv.currentSlot.videoId"
-        :start-seconds="tv.currentSlot.startSeconds"
+        v-if="tv.poweredOn"
+        v-show="tv.currentSlot"
+        :video-id="tv.currentSlot?.videoId ?? null"
+        :start-seconds="tv.currentSlot?.startSeconds ?? 0"
         :playback-revision="tv.playbackRevision"
         :volume="tv.volume.volume"
         :muted="tv.volume.muted"
@@ -208,9 +210,10 @@ onBeforeUnmount(() => {
         @playing="tv.onPlayerPlaying"
         @script-error="tv.onScriptError()"
       />
-      <ChannelZap v-if="tv.zapping" />
+      <ChannelZap v-if="tv.waitingForPlayback" />
+      <ChannelTuning v-if="tv.waitingForPlayback" :label="tv.channelLabel" />
       <InterruptionCard
-        v-if="tv.poweredOn && tv.interruption !== 'none' && !tv.zapping"
+        v-if="tv.poweredOn && tv.interruption !== 'none'"
         :channel-number="tv.interruptionChannelNumber"
       />
       <ChannelHud
@@ -242,23 +245,30 @@ onBeforeUnmount(() => {
         <div class="control-row" role="group" aria-label="TV controls">
           <template v-if="tv.poweredOn">
             <button type="button" aria-label="Previous channel" @click="tv.channelStep(-1)">
-              CH −
+              <WatchIcon name="channel-down" /><span>CH −</span>
             </button>
-            <button type="button" aria-label="Next channel" @click="tv.channelStep(1)">CH +</button>
+            <button type="button" aria-label="Next channel" @click="tv.channelStep(1)">
+              <WatchIcon name="channel-up" /><span>CH +</span>
+            </button>
             <ChannelGuide
               :current-channel="tv.channelNumber"
               @tune="tv.setChannel"
               @open-change="guideOpen = $event"
             />
-            <button type="button" aria-label="Volume down" @click="tv.volumeStep(-5)">VOL −</button>
-            <button type="button" aria-label="Volume up" @click="tv.volumeStep(5)">VOL +</button>
+            <button type="button" aria-label="Volume down" @click="tv.volumeStep(-5)">
+              <WatchIcon name="volume-down" /><span>VOL −</span>
+            </button>
+            <button type="button" aria-label="Volume up" @click="tv.volumeStep(5)">
+              <WatchIcon name="volume-up" /><span>VOL +</span>
+            </button>
             <button
               type="button"
               :aria-label="tv.volume.muted ? 'Unmute' : 'Mute'"
               :aria-pressed="tv.volume.muted"
               @click="tv.muteToggle()"
             >
-              {{ tv.volume.muted ? 'Unmute' : 'Mute' }}
+              <WatchIcon :name="tv.volume.muted ? 'mute' : 'sound'" />
+              <span>{{ tv.volume.muted ? 'Unmute' : 'Mute' }}</span>
             </button>
           </template>
           <button
@@ -267,7 +277,8 @@ onBeforeUnmount(() => {
             :aria-pressed="fullscreen.active.value"
             @click="fullscreen.toggle"
           >
-            {{ fullscreen.active.value ? 'Exit fullscreen' : 'Fullscreen' }}
+            <WatchIcon :name="fullscreen.active.value ? 'restore' : 'fullscreen'" />
+            <span>{{ fullscreen.active.value ? 'Exit fullscreen' : 'Fullscreen' }}</span>
           </button>
           <RemotePairing @open-change="pairingOpen = $event" />
         </div>
@@ -309,7 +320,7 @@ onBeforeUnmount(() => {
   flex-direction: column;
   justify-content: flex-end;
   padding: max(1rem, env(safe-area-inset-top)) max(1rem, env(safe-area-inset-right))
-    max(1rem, env(safe-area-inset-bottom)) max(1rem, env(safe-area-inset-left));
+    max(1.75rem, calc(env(safe-area-inset-bottom) + 0.75rem)) max(1rem, env(safe-area-inset-left));
   box-sizing: border-box;
   pointer-events: none;
   opacity: 1;
@@ -333,27 +344,90 @@ onBeforeUnmount(() => {
   pointer-events: none;
 }
 .control-row {
+  box-sizing: border-box;
+  flex-shrink: 0;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 0.4rem;
+  align-self: center;
+  max-width: 100%;
+  padding: 0.65rem;
+  border: 1px solid #55594e;
+  border-radius: 9px;
+  background: linear-gradient(#30332e, #171c18);
+  box-shadow:
+    inset 0 1px #777a68,
+    0 4px 0 #090d0a,
+    0 8px 24px #0009;
 }
 .control-row > button,
 .control-row :deep(.guide-launch),
 .control-row :deep(.remote-launch) {
-  position: static;
-  min-height: 44px;
+  position: relative;
+  inset: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  min-height: 66px;
   min-width: 44px;
   padding: 0.45rem 0.65rem;
-  border: 1px solid #42634b;
-  border-radius: 5px;
-  background: #08110bf2;
+  border: 1px solid #4c6150;
+  border-bottom-color: #080c09;
+  border-radius: 4px;
+  background: linear-gradient(#26352b, #101b14);
+  box-shadow:
+    inset 0 1px #81917b55,
+    inset 1px 0 #81917b22,
+    0 3px 0 #070b08;
   color: var(--crt-phosphor);
   font: inherit;
-  font-size: clamp(0.75rem, 1vw, 0.95rem);
+  font-size: clamp(0.6rem, 0.85vw, 0.75rem);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
   cursor: pointer;
   pointer-events: auto;
+}
+.control-row :deep(.watch-icon) {
+  flex-shrink: 0;
+  filter: drop-shadow(0 0 3px #8fd9a455);
+}
+.control-row > button:hover,
+.control-row :deep(.guide-launch:hover),
+.control-row :deep(.remote-launch:hover) {
+  color: #c6ffd1;
+  background: linear-gradient(#354e3a, #192b1e);
+}
+.control-row > button:active,
+.control-row :deep(.guide-launch:active),
+.control-row :deep(.remote-launch:active) {
+  transform: translateY(2px);
+  box-shadow: inset 0 2px 4px #0009;
+}
+.control-row > button[aria-pressed='true'] {
+  color: #f0c779;
+  border-color: #9a7942;
+}
+.control-row :deep(.connection-dot) {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+}
+@media (max-width: 480px) {
+  .control-row {
+    gap: 0.35rem;
+    padding: 0.45rem;
+  }
+  .control-row > button,
+  .control-row :deep(.guide-launch),
+  .control-row :deep(.remote-launch) {
+    flex: 1 0 19%;
+    min-height: 60px;
+    padding: 0.35rem;
+  }
 }
 .control-row :deep(button:focus-visible) {
   outline: 3px solid var(--crt-cream);

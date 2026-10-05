@@ -32,6 +32,7 @@ export type FetchCatalogOptions = {
   fetchFn: typeof fetch
   storage?: CatalogStorage
   excludeIds?: string[]
+  onPlayable?: (items: CatalogItem[]) => void
 }
 
 const SEARCH_URL = 'https://www.googleapis.com/youtube/v3/search'
@@ -77,6 +78,12 @@ function readCached(raw: string | null): CachedCatalog | null {
     /* Ignore broken cache rows and fetch again. */
   }
   return null
+}
+
+// A stale but playable station catalog can start a tune immediately while
+// fetchChannelCatalog refreshes it. Never extend its persisted freshness here.
+export function readChannelCatalog(channel: Channel, storage: CatalogStorage): CatalogItem[] {
+  return readCached(storage.getItem(cacheKey(channel)))?.items ?? []
 }
 
 function quotaBlocked(storage?: CatalogStorage, now = Date.now()): boolean {
@@ -176,6 +183,7 @@ async function fetchSourceCatalog(
 
     const catalog: CatalogItem[] = []
     let pageToken: string | undefined
+    let notified = false
     // Look past Shorts-heavy pages, but cap requests for empty/unavailable feeds.
     for (let page = 0; page < 10; page++) {
       const result = await collectVideoIds(channel, options.apiKey, options.fetchFn, pageToken)
@@ -198,6 +206,10 @@ async function fetchSourceCatalog(
           if (durationSeconds < 60 || catalog.some((video) => video.videoId === item.id)) continue
           catalog.push({ videoId: item.id, durationSeconds })
         }
+      }
+      if (!notified && catalog.some((item) => !options.excludeIds?.includes(item.videoId))) {
+        notified = true
+        options.onPlayable?.(catalog.filter((item) => !options.excludeIds?.includes(item.videoId)))
       }
       pageToken = result.nextPageToken
       if (

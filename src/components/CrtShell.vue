@@ -45,6 +45,7 @@ const videoPlane = hasHardwareVideoPlane()
 
 .crt-screen {
   position: relative;
+  isolation: isolate;
   height: 100%;
   border-radius: clamp(1.25rem, 4vmin, 3rem) / clamp(1rem, 3vmin, 2rem);
   overflow: hidden;
@@ -56,7 +57,7 @@ const videoPlane = hasHardwareVideoPlane()
 .crt-stage {
   position: absolute;
   inset: 0;
-  z-index: 0;
+  /* Let controls sit above the CRT effects without trapping them in this layer. */
 }
 
 .crt-scan,
@@ -65,7 +66,7 @@ const videoPlane = hasHardwareVideoPlane()
   position: absolute;
   inset: 0;
   pointer-events: none;
-  z-index: 1;
+  z-index: 3;
 }
 
 .crt-scan {

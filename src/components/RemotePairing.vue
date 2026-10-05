@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import WatchIcon from './WatchIcon.vue'
 import { computed, onBeforeUnmount, ref, watch } from 'vue'
 import QRCode from 'qrcode'
 import { useTvRemote } from '../composables/useTvRemote'
@@ -79,7 +80,8 @@ function closeDialog() {
       :class="{ online: remote.remoteOnline.value }"
       aria-hidden="true"
     />
-    {{ remote.paired.value ? 'Phone remote' : 'Connect remote' }}
+    <WatchIcon name="remote" />
+    <span>{{ remote.paired.value ? 'Phone remote' : 'Connect remote' }}</span>
   </button>
   <dialog
     ref="dialog"

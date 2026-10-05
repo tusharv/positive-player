@@ -138,6 +138,9 @@ it('does not attribute a previous player error to its replacement programme', as
         callbacks.push(options.events)
       }
       loadVideoById() {}
+      getVideoUrl() {
+        return 'https://www.youtube.com/watch?v=video'
+      }
       destroy() {}
       setVolume() {}
       mute() {}

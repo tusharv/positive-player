@@ -8,6 +8,7 @@ async function setup(withCaptionApi = true) {
   let options: Record<string, unknown> = {}
   const player = {
     loadVideoById: vi.fn(),
+    getVideoUrl: () => `https://www.youtube.com/watch?v=${wrapper.props('videoId')}`,
     setVolume: vi.fn(),
     mute: vi.fn(),
     unMute: vi.fn(),
@@ -88,8 +89,9 @@ describe('YouTube caption suppression', () => {
 })
 
 it('reloads a repeated single-video broadcast even when its video and start time are unchanged', async () => {
-  const { wrapper, player } = await setup()
+  const { wrapper, player, events } = await setup()
   try {
+    events.onReady!()
     await wrapper.setProps({ playbackRevision: 1 })
     expect(player.loadVideoById).toHaveBeenCalledWith({ videoId: 'first-video', startSeconds: 0 })
   } finally {
