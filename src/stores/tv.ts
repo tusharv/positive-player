@@ -185,7 +185,13 @@ export const useTvStore = defineStore('tv', () => {
       })
       ++requestId
       loading.value = false
-      hold(channel)
+      // A silent player failure must not tune the same video on every retry.
+      excludeCurrent()
+      if (pickBroadcast(catalogs.value[channel] ?? [], Date.now() / 1000, skipped.value[channel])) {
+        playFromClock()
+      } else {
+        hold(channel)
+      }
     }, TUNE_TIMEOUT_MS)
   }
 
@@ -371,7 +377,7 @@ export const useTvStore = defineStore('tv', () => {
     playbackRevision.value++
   }
 
-  function skipCurrent() {
+  function excludeCurrent() {
     const slot = currentSlot.value
     const channel = channelNumber.value
     if (slot) {
@@ -380,6 +386,10 @@ export const useTvStore = defineStore('tv', () => {
         [channel]: [...(skipped.value[channel] ?? []), slot.videoId],
       }
     }
+  }
+
+  function skipCurrent() {
+    excludeCurrent()
     playFromClock()
   }
 

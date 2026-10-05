@@ -1,3 +1,6 @@
+// Keep these playlist/retry fixtures independent of the curated channel lineup.
+vi.mock('../data/curatedPrograms', () => ({ CURATED_PROGRAMS: {} }))
+
 import { afterEach, beforeEach, expect, it, vi } from 'vitest'
 import { createPinia, setActivePinia, getActivePinia } from 'pinia'
 import { flushPromises, mount } from '@vue/test-utils'
@@ -125,5 +128,31 @@ it('leaves tuning with an interruption message if the catalog or video never sta
   await flushPromises()
   await vi.advanceTimersByTimeAsync(20000)
   expect(tv.interruption).toBe('hold')
+  tv.powerOff()
+})
+
+it('skips a football video that never starts and plays another from the same channel', async () => {
+  const football = channelByNumber(11)!
+  localStorage.setItem('pp-channel', '11')
+  localStorage.setItem(
+    `pp-catalog-11-playlist-${football.playlistId}`,
+    JSON.stringify({
+      items: [
+        { videoId: 'match-a', durationSeconds: 600 },
+        { videoId: 'match-b', durationSeconds: 600 },
+      ],
+      fetchedAt: Date.now(),
+    }),
+  )
+  const tv = useTvStore()
+  tv.powerOn()
+  await flushPromises()
+  const stalled = tv.currentSlot!.videoId
+  await vi.advanceTimersByTimeAsync(20000)
+  expect(tv.currentSlot?.videoId).toBe(stalled === 'match-a' ? 'match-b' : 'match-a')
+  expect(tv.channelNumber).toBe(11)
+  tv.onPlayerPlaying(tv.currentSlot!.videoId)
+  expect(tv.waitingForPlayback).toBe(false)
+  expect(tv.interruption).toBe('none')
   tv.powerOff()
 })

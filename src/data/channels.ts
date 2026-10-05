@@ -1,10 +1,14 @@
-export type ChannelKind = 'search' | 'playlist'
+import type { CatalogItem } from '../lib/broadcastClock'
+import { CURATED_PROGRAMS } from './curatedPrograms'
+
+export type ChannelKind = 'search' | 'playlist' | 'curated'
 export type ChannelMood = 'calm' | 'warm' | 'bright' | 'curious'
 
 export type Channel = {
   number: number
   name: string
   kind: ChannelKind
+  curatedCatalog?: CatalogItem[]
   query?: string
   playlistId?: string
   titleTerms?: string[]
@@ -26,17 +30,17 @@ type LineupRow = {
 }
 
 const LINEUP: LineupRow[] = [
-  { name: 'Bollywood', playlistId: 'UUq-Fj5jknLsUf-MWSy4_brA', query: 'bollywood songs picturization classic hits', blurb: 'Film songs and bright picturizations.', mood: 'bright', category: 'Music' },
-  { name: 'Cricket', playlistId: 'UUt2JXOLNxqry7B_4rRZME3Q', query: 'cricket match highlights classic innings', blurb: 'Classic innings and bright shots.', mood: 'bright', category: 'Play' },
+  { name: 'Bollywood', playlistId: 'PL9bw4S5ePsEEgvwzsXt7OT1WjndTTrF7q', query: 'bollywood songs dance hits video jukebox', blurb: 'Bollywood songs, dance hits, and video jukeboxes.', mood: 'bright', category: 'Music' },
+  { name: 'Cricket', playlistId: 'PLEpeKf7U6gmZf6x8KdOaZ4nfEBJw_xlWz', query: 'Sachin Tendulkar Rahul Dravid MS Dhoni Sunil Gavaskar best innings cricket legends', blurb: 'Sachin, Dravid, Dhoni, Gavaskar, and the legends at their best.', mood: 'bright', category: 'Play' },
   { name: 'Jungle Book', playlistId: 'PL65eurRkEvghrieaRGNpneAZmZoUeM5Kc', query: 'Jungle Book Mowgli Doordarshan original Hindi full episode cartoon', blurb: 'Mowgli and friends in the Hindi animated classic.', mood: 'bright', category: 'Classic TV', tags: ['DD Era', 'Hindi', 'Animation', 'Adventure'] },
   { name: 'Shaktimaan', playlistId: 'PLJHHPzufWhurTWga4uBzL-M3F79A71p2Z', query: 'Shaktimaan Mukesh Khanna original Hindi full episode', blurb: 'Mukesh Khanna’s superhero adventures from the DD era.', mood: 'bright', category: 'Classic TV', tags: ['DD Era', 'Hindi', 'Superhero', 'Adventure'] },
   { name: 'DD Classics', playlistId: 'PLY-qGtGftCjm1_tDxT2TsDAXXC2p-iutt', query: 'Chanakya 1991 Doordarshan classic Hindi full episodes', blurb: 'Chanakya and historical storytelling from the DD era.', mood: 'warm', category: 'Classic TV', tags: ['DD Era', 'Hindi', 'Nostalgia', 'Classic TV'] },
   { name: 'Ramayan', playlistId: 'PLFPJRCFRDARSfz9y9YPMG_tCTSeYeGNA3', query: 'Ramayan Ramanand Sagar original Hindi full episode', blurb: 'Ramanand Sagar’s original Ramayan, in Hindi.', mood: 'warm', category: 'Classic TV', tags: ['DD Era', 'Hindi', 'Mythology', 'Drama'] },
   { name: 'Mahabharat', playlistId: 'UUHKGDg0GJKBsA9mFraDOLHA', titleTerms: ['mahabharat', 'महाभारत'], query: 'Mahabharat B R Chopra Hindi episodes and scenes', blurb: 'Episodes and scenes from B. R. Chopra’s Mahabharat.', mood: 'curious', category: 'Classic TV', tags: ['DD Era', 'Hindi', 'Mythology', 'Drama'] },
-  { name: 'Animals', playlistId: 'UURZPkuHwaoKwTP3CYPdVldg', query: 'cute animals peaceful wildlife companions', blurb: 'Gentle creatures keeping you company.', mood: 'warm', category: 'Animals' },
+  { name: 'Animals', playlistId: 'UURZPkuHwaoKwTP3CYPdVldg', query: 'cute animals peaceful wildlife companions', blurb: 'Bears, elephants, big cats, and remarkable wildlife stories.', mood: 'warm', category: 'Animals' },
   { name: 'Street Food', playlistId: 'UUcAd5Np7fO8SeejB1FVKcYw', query: 'street food around the world markets', blurb: 'Night markets and open grills.', mood: 'bright', category: 'Food' },
-  { name: 'Space', playlistId: 'UULA_DiR1FfKNvjuUpBHmylQ', query: 'space documentary calm cosmos universe', blurb: 'Quiet films about the cosmos.', mood: 'curious', category: 'Ideas' },
-  { name: 'Football', playlistId: 'UUpcTrCXblq78GZrTUTLWeBw', query: 'football soccer goals highlights beautiful play', blurb: 'Goals worth standing up for.', mood: 'bright', category: 'Play' },
+  { name: 'Space', playlistId: 'UULA_DiR1FfKNvjuUpBHmylQ', query: 'space documentary calm cosmos universe', blurb: 'Explore the planets, stars, and wonders of the universe.', mood: 'curious', category: 'Ideas' },
+  { name: 'Football', playlistId: 'PL3uJGozO1imeLG35XsHLeJD4r4nZCHuwF', query: 'classic Bundesliga football full matches', blurb: 'Classic Bundesliga matches and unforgettable goals.', mood: 'bright', category: 'Play' },
   { name: 'Tokyo', playlistId: 'UUAcsAE1tpLuP3y7UhxUoWpQ', titleTerms: ["tokyo", "東京"], query: 'tokyo night walk ambient city 4k no talking', blurb: 'Neon rain and midnight trains.', mood: 'curious', category: 'Places' },
   { name: 'Kindness', playlistId: 'UUaDVcGDMkvcRb4qGARkWlyg', query: 'random acts of kindness compilation hopeful', blurb: 'Strangers being good on purpose.', mood: 'warm', category: 'World' },
   { name: 'Dogs', playlistId: 'UUINb0wqPz-A0dV9nARjJlOQ', titleTerms: ["dog", "puppy", "puppies"], query: 'happy dogs compilation golden retriever cute', blurb: 'Dogs glad to see you anyway.', mood: 'bright', category: 'Animals' },
@@ -155,8 +159,9 @@ const LINEUP: LineupRow[] = [
 
 export const CHANNELS: Channel[] = LINEUP.map((row, index) => ({
   number: index + 1,
-  kind: 'playlist',
   ...row,
+  kind: CURATED_PROGRAMS[row.name] ? 'curated' : 'playlist',
+  ...(CURATED_PROGRAMS[row.name] ? { curatedCatalog: CURATED_PROGRAMS[row.name] } : {}),
   tags: row.tags ?? [row.category, row.mood[0]!.toUpperCase() + row.mood.slice(1)],
 }))
 

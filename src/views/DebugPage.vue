@@ -210,11 +210,13 @@ onBeforeUnmount(() => {
               <span class="channel-number">CH {{ formatChannelNumber(row.channel.number) }}</span
               ><strong>{{ row.channel.name }}</strong
               ><a
-                v-if="row.channel.playlistId"
+                v-if="row.channel.kind !== 'curated' && row.channel.playlistId"
                 :href="`https://www.youtube.com/playlist?list=${encodeURIComponent(row.channel.playlistId)}`"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Source playlist ↗</a
+              >
+              <small v-else-if="row.channel.kind === 'curated'">Curated selection</small
               ><small v-else>{{ row.channel.query }}</small>
             </th>
             <td>

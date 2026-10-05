@@ -28,8 +28,6 @@ const HANDLES = {
   Craft: ['ILikeToMakeStuff'],
   'Classic Music': ['SmithsonianFolkways'],
   'Good News': ['thehappybroadcast'],
-  Bollywood: ['TSeries'],
-  Cricket: ['icc'],
   Rain: ['RelaxingWhiteNoise'],
   Fireplace: ['TheFireplace4K'],
   Forest: ['NomadicAmbience'],
@@ -115,7 +113,6 @@ const HANDLES = {
   Trains: ['RailCowGirl'],
   Sailing: ['SailingLaVagabonde'],
   Tennis: ['ATPTour'],
-  Football: ['FIFA'],
   Formula: ['Formula1'],
   Olympics: ['Olympics'],
   Hoops: ['NBA'],
@@ -167,6 +164,9 @@ async function resolveHandle(handle) {
 const used = new Set()
 // Series sources are curated; publisher uploads need an explicit topic filter.
 const results = {
+  Football: { playlistId: 'PL3uJGozO1imeLG35XsHLeJD4r4nZCHuwF' },
+  Bollywood: { playlistId: 'PL9bw4S5ePsEEgvwzsXt7OT1WjndTTrF7q' },
+  Cricket: { playlistId: 'PLEpeKf7U6gmZf6x8KdOaZ4nfEBJw_xlWz' },
   Ramayan: { playlistId: 'PLFPJRCFRDARSfz9y9YPMG_tCTSeYeGNA3' },
   Mahabharat: { playlistId: 'UUHKGDg0GJKBsA9mFraDOLHA', titleTerms: ['mahabharat', 'महाभारत'] },
   'DD Classics': { playlistId: 'PLY-qGtGftCjm1_tDxT2TsDAXXC2p-iutt' },

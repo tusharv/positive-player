@@ -1,3 +1,6 @@
+// Keep these playlist/retry fixtures independent of the curated channel lineup.
+vi.mock('../data/curatedPrograms', () => ({ CURATED_PROGRAMS: {} }))
+
 import { afterEach, beforeEach, expect, it, vi } from 'vitest'
 import { flushPromises, mount } from '@vue/test-utils'
 import { createMemoryHistory, createRouter } from 'vue-router'

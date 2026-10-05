@@ -329,7 +329,7 @@ it('does not substitute another channel when the primary playlist is unavailable
   expect(await fetchChannelCatalog(channel, { apiKey: 'key', fetchFn })).toEqual([])
 })
 
-it('does not substitute another channel when all primary videos have failed', async () => {
+it('refreshes the same playlist when every cached video has failed', async () => {
   const channel: Channel = { ...nature, kind: 'playlist', playlistId: 'broken', category: 'Earth' }
   const memory = new Map([
     [
@@ -352,7 +352,7 @@ it('does not substitute another channel when all primary videos have failed', as
       storage: mapStorage(memory),
       excludeIds: ['bad'],
     }),
-  ).toEqual([])
+  ).toEqual([{ videoId: 'backup', durationSeconds: 600 }])
 })
 
 it('bounds pagination and does not cache an empty result', async () => {
@@ -471,4 +471,127 @@ it('filters mixed publisher uploads to the station topic before caching', async 
   expect(await fetchChannelCatalog({ ...channel, titleTerms: ['tokyo'] }, options)).toEqual([
     { videoId: 'tokyo', durationSeconds: 3600, title: 'Tokyo streets' },
   ])
+})
+
+it.each(['unchanged', 'empty', 'error'])(
+  'backs off an exhausted playlist after an %s response, then permits recovery',
+  async (response) => {
+    const now = vi.spyOn(Date, 'now').mockReturnValue(1_800_000_000_000)
+    try {
+      const channel: Channel = { ...nature, kind: 'playlist', playlistId: 'PLfailed' }
+      const memory = new Map([
+        [
+          'pp-catalog-1-playlist-PLfailed',
+          JSON.stringify({
+            items: [{ videoId: 'failed', durationSeconds: 600 }],
+            fetchedAt: Date.now(),
+          }),
+        ],
+      ])
+      let videoId = 'failed'
+      const fetchFn = vi.fn((input: RequestInfo | URL) => {
+        if (videoId === 'failed' && response === 'error')
+          return Promise.reject(new Error('offline'))
+        if (videoId === 'failed' && response === 'empty') return jsonResponse({ items: [] })
+        return String(input).includes('playlistItems')
+          ? jsonResponse({ items: [{ contentDetails: { videoId } }] })
+          : jsonResponse({
+              items: [
+                {
+                  id: videoId,
+                  status: { embeddable: true },
+                  contentDetails: { duration: 'PT10M' },
+                },
+              ],
+            })
+      })
+      const options = {
+        apiKey: 'key',
+        fetchFn,
+        storage: mapStorage(memory),
+        excludeIds: ['failed'],
+      }
+      expect(await fetchChannelCatalog(channel, options)).toEqual([])
+      now.mockReturnValue(1_800_000_008_000)
+      expect(await fetchChannelCatalog(channel, options)).toEqual([])
+      expect(fetchFn).toHaveBeenCalledTimes(response === 'unchanged' ? 2 : 1)
+      now.mockReturnValue(1_800_000_301_000)
+      videoId = 'recovered'
+      expect(await fetchChannelCatalog(channel, options)).toEqual([
+        { videoId: 'recovered', durationSeconds: 600 },
+      ])
+    } finally {
+      now.mockRestore()
+    }
+  },
+)
+
+const curated: Channel = {
+  number: 200,
+  name: 'Cricket legends',
+  kind: 'curated',
+  tags: ['Cricket'],
+  curatedCatalog: [
+    { videoId: 'sachin', title: 'Sachin classic', durationSeconds: 600 },
+    { videoId: 'dhoni', title: 'Dhoni finish', durationSeconds: 500 },
+  ],
+}
+
+it('can start a curated station without an API key', async () => {
+  expect(await fetchChannelCatalog(curated, { apiKey: '', fetchFn: vi.fn() })).toEqual(
+    curated.curatedCatalog,
+  )
+})
+
+it('validates curated IDs directly without letting publisher uploads change the programming', async () => {
+  const fetchFn = vi.fn((input: RequestInfo | URL) => {
+    const url = new URL(String(input))
+    expect(url.pathname).toBe('/youtube/v3/videos')
+    expect(url.searchParams.get('id')).toBe('sachin,dhoni')
+    return jsonResponse({
+      items: [
+        {
+          id: 'sachin',
+          snippet: { title: 'Sachin classic' },
+          status: { embeddable: true },
+          contentDetails: { duration: 'PT10M' },
+        },
+        { id: 'dhoni', status: { embeddable: false }, contentDetails: { duration: 'PT8M20S' } },
+      ],
+    })
+  })
+  expect(await fetchChannelCatalog(curated, { apiKey: 'key', fetchFn })).toEqual([
+    curated.curatedCatalog![0],
+  ])
+})
+
+it('keeps curated programming available during API outages while respecting failed video exclusions', async () => {
+  expect(
+    await fetchChannelCatalog(curated, {
+      apiKey: 'key',
+      fetchFn: async () => {
+        throw new Error('offline')
+      },
+      excludeIds: ['sachin'],
+    }),
+  ).toEqual([curated.curatedCatalog![1]])
+})
+
+it('does not revive curated videos that YouTube has confirmed are unavailable', async () => {
+  const storage = mapStorage(new Map())
+  const fetchFn = vi.fn(() => jsonResponse({ items: [] }))
+  expect(await fetchChannelCatalog(curated, { apiKey: 'key', fetchFn, storage })).toEqual([])
+  expect(await fetchChannelCatalog(curated, { apiKey: 'key', fetchFn, storage })).toEqual([])
+  expect(fetchFn).toHaveBeenCalledTimes(1)
+})
+
+it('backs off after an API outage even when an exhausted curated station has never been cached', async () => {
+  const storage = mapStorage(new Map())
+  const fetchFn = vi.fn(async () => {
+    throw new Error('offline')
+  })
+  const options = { apiKey: 'key', storage, fetchFn, excludeIds: ['sachin', 'dhoni'] }
+  expect(await fetchChannelCatalog(curated, options)).toEqual([])
+  expect(await fetchChannelCatalog(curated, options)).toEqual([])
+  expect(fetchFn).toHaveBeenCalledTimes(1)
 })

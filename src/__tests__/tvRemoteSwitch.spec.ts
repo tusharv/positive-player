@@ -1,3 +1,6 @@
+// Keep these playlist/retry fixtures independent of the curated channel lineup.
+vi.mock('../data/curatedPrograms', () => ({ CURATED_PROGRAMS: {} }))
+
 import { afterEach, beforeEach, expect, it, vi } from 'vitest'
 import { createPinia, setActivePinia } from 'pinia'
 import { flushPromises } from '@vue/test-utils'
@@ -136,24 +139,25 @@ it('shows an interruption when all station videos fail instead of playing anothe
     `pp-catalog-1-playlist-${channelByNumber(1)!.playlistId}`,
     JSON.stringify({ items: [{ videoId: 'broken', durationSeconds: 100 }], fetchedAt: Date.now() }),
   )
-  vi.stubGlobal(
-    'fetch',
-    vi.fn(async (input: RequestInfo | URL) => ({
+  vi.stubGlobal('fetch', async (input: RequestInfo | URL) => {
+    const url = new URL(String(input))
+    const primary = url.searchParams.get('playlistId') === channelByNumber(1)!.playlistId
+    return {
       ok: true,
       json: async () =>
-        String(input).includes('playlistItems')
-          ? { items: [{ contentDetails: { videoId: 'backup' } }] }
+        url.pathname.endsWith('/playlistItems')
+          ? { items: [{ contentDetails: { videoId: primary ? 'broken' : 'backup' } }] }
           : {
               items: [
                 {
-                  id: 'backup',
+                  id: url.searchParams.get('id'),
                   status: { embeddable: true },
                   contentDetails: { duration: 'PT10M' },
                 },
               ],
             },
-    })),
-  )
+    }
+  })
   const tv = useTvStore()
   tv.powerOn()
   await flushPromises()

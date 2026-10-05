@@ -25,7 +25,7 @@ describe('channel lineup', () => {
     expect(new Set(names).size).toBe(CHANNEL_COUNT)
     expect(new Set(playlists).size).toBe(CHANNEL_COUNT)
     for (const channel of CHANNELS) {
-      expect(channel.kind).toBe('playlist')
+      expect(['playlist', 'curated']).toContain(channel.kind)
       expect(channel.playlistId).toMatch(/^(PL|UU)[\w-]{10,}$/)
       expect(channel.blurb?.length).toBeGreaterThan(12)
       expect(['calm', 'warm', 'bright', 'curious']).toContain(channel.mood)
