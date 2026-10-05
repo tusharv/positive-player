@@ -47,6 +47,12 @@ Channel catalogs use `playlistItems.list` and `videos.list` (1 unit each). They 
 
 Do not commit `.env`.
 
+## Channel debug
+
+Open the internal page at `/debug` directly to inspect each channel's scheduled video, YouTube link, clock offset, duration, and catalog status. Search by channel name, number, category, video title, or ID. Cached schedules appear immediately and update every second; use **Load / refresh** for one channel or **Load / refresh all catalogs** for the lineup.
+
+This is read-only debugging: it reads existing TV caches but keeps fetched catalogs and quota cooldowns in memory for this page visit only. It never writes browser storage or changes TV settings or playback. Loading uses the same API key and 24-hour cache policy as the TV, with up to three channel requests running at once. Missing or expired catalogs use YouTube API quota; failed refreshes may reuse an older catalog. Older cached entries may have no title until refreshed. The page shows schedules, not confirmed playback from another tab or device; skipped videos and different cached catalogs can change what a viewer sees.
+
 ## Use your phone as a remote
 
 1. Run `npm run dev`. This starts the TV on port 5173 and its remote service on port 8787.

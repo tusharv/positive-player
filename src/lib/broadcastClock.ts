@@ -1,5 +1,6 @@
 export type CatalogItem = {
   videoId: string
+  title?: string
   durationSeconds: number
 }
 

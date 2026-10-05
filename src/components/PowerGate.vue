@@ -54,7 +54,8 @@ function power() {
 .gate {
   position: absolute;
   inset: 0;
-  z-index: 4;
+  /* The power screen belongs under the CRT scanlines, grain and vignette. */
+  z-index: 2;
   display: grid;
   place-content: center;
   justify-items: center;

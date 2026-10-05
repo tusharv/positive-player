@@ -466,9 +466,9 @@ it('filters mixed publisher uploads to the station topic before caching', async 
         })
   const options = { apiKey: 'key', fetchFn, storage: mapStorage(memory) }
   expect(await fetchChannelCatalog(channel, options)).toEqual([
-    { videoId: 'kyoto', durationSeconds: 3600 },
+    { videoId: 'kyoto', durationSeconds: 3600, title: 'A walk in KYOTO' },
   ])
   expect(await fetchChannelCatalog({ ...channel, titleTerms: ['tokyo'] }, options)).toEqual([
-    { videoId: 'tokyo', durationSeconds: 3600 },
+    { videoId: 'tokyo', durationSeconds: 3600, title: 'Tokyo streets' },
   ])
 })

@@ -204,7 +204,11 @@ async function fetchSourceCatalog(
             continue
           const durationSeconds = parseIsoDuration(item.contentDetails?.duration ?? '')
           if (durationSeconds < 60 || catalog.some((video) => video.videoId === item.id)) continue
-          catalog.push({ videoId: item.id, durationSeconds })
+          catalog.push({
+            videoId: item.id,
+            durationSeconds,
+            ...(item.snippet?.title ? { title: item.snippet.title } : {}),
+          })
         }
       }
       if (!notified && catalog.some((item) => !options.excludeIds?.includes(item.videoId))) {
