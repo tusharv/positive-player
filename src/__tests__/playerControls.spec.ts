@@ -16,13 +16,13 @@ afterEach(() => {
   vi.restoreAllMocks()
   vi.unstubAllGlobals()
 })
-function setup() {
+function setup(stubPairing = true) {
   const pinia = createPinia()
   const tv = useTvStore(pinia)
   tv.poweredOn = true
   wrapper = mount(PlayerPage, {
     attachTo: document.body,
-    global: { plugins: [pinia], stubs: { RemotePairing: true, YoutubeStage: true } },
+    global: { plugins: [pinia], stubs: { RemotePairing: stubPairing, YoutubeStage: true } },
   })
   return tv
 }
@@ -232,4 +232,96 @@ it('supports remote navigation from the channel guide to volume controls', async
   await wrapper.get('[aria-label="Volume down"]').trigger('keydown', { key: 'Enter' })
   expect(tv.volume.volume).toBe(75)
   expect(tv.channelNumber).toBe(1)
+})
+
+it('uses bracket shortcuts while a HUD button has focus and reveals hidden controls', async () => {
+  const tv = setup()
+  await vi.advanceTimersByTimeAsync(4000)
+  window.dispatchEvent(new KeyboardEvent('keydown', { key: ']', cancelable: true }))
+  await wrapper.vm.$nextTick()
+  expect(tv.channelNumber).toBe(2)
+  expect(wrapper.get('.player-controls').attributes('aria-hidden')).toBe('false')
+  await wrapper.get('[aria-label="Next channel"]').trigger('keydown', { key: '[' })
+  expect(tv.channelNumber).toBe(1)
+})
+
+it('opens the guide and share menu and toggles fullscreen using letter shortcuts', async () => {
+  setup()
+  window.dispatchEvent(new KeyboardEvent('keydown', { key: 'C' }))
+  await wrapper.vm.$nextTick()
+  expect(wrapper.find('#channel-guide').exists()).toBe(true)
+  await wrapper.get('[aria-label="Close channel guide"]').trigger('click')
+  const dialog = wrapper.get('.share-dialog').element as HTMLDialogElement
+  dialog.showModal = () => {
+    dialog.open = true
+  }
+  dialog.close = () => {
+    dialog.open = false
+    dialog.dispatchEvent(new Event('close'))
+  }
+  window.dispatchEvent(new KeyboardEvent('keydown', { key: 's' }))
+  await wrapper.vm.$nextTick()
+  expect(dialog.open).toBe(true)
+  await wrapper.get('[aria-label="Close sharing"]').trigger('click')
+  window.dispatchEvent(new KeyboardEvent('keydown', { key: 'f' }))
+  await wrapper.vm.$nextTick()
+  expect(wrapper.get('.crt').classes()).toContain('crt--expanded')
+  window.dispatchEvent(new KeyboardEvent('keydown', { key: 'f', repeat: true }))
+  await wrapper.vm.$nextTick()
+  expect(wrapper.get('.crt').classes()).toContain('crt--expanded')
+  window.dispatchEvent(new KeyboardEvent('keydown', { key: 'f' }))
+  await wrapper.vm.$nextTick()
+  expect(wrapper.get('.crt').classes()).not.toContain('crt--expanded')
+})
+
+it('does not hijack modified keys, text entry, composition, or an open guide', async () => {
+  const tv = setup()
+  window.dispatchEvent(new KeyboardEvent('keydown', { key: 'm', ctrlKey: true }))
+  window.dispatchEvent(new KeyboardEvent('keydown', { key: '-', metaKey: true }))
+  window.dispatchEvent(new KeyboardEvent('keydown', { key: ']', altKey: true }))
+  window.dispatchEvent(new KeyboardEvent('keydown', { key: 'm', isComposing: true }))
+  expect(tv.volume.muted).toBe(false)
+  expect(tv.volume.volume).toBe(80)
+  expect(tv.channelNumber).toBe(1)
+  await wrapper.get('.guide-launch').trigger('click')
+  await wrapper.get('input').trigger('keydown', { key: 'm' })
+  window.dispatchEvent(new KeyboardEvent('keydown', { key: ']' }))
+  expect(tv.channelNumber).toBe(1)
+  expect(tv.volume.muted).toBe(false)
+})
+
+it('advertises the shortcut on every player HUD action', () => {
+  setup()
+  for (const selector of [
+    '[aria-label="Previous channel"]',
+    '[aria-label="Next channel"]',
+    '.guide-launch',
+    '[aria-label="Volume down"]',
+    '[aria-label="Volume up"]',
+    '[aria-label="Mute"]',
+    '.share-launch',
+    '[aria-label="Enter fullscreen"]',
+  ]) {
+    const button = wrapper.get(selector)
+    expect(button.attributes('data-shortcut')).toBeTruthy()
+    expect(button.attributes('aria-keyshortcuts')).toBeTruthy()
+  }
+})
+
+it('opens phone pairing with R and shows its key hint', async () => {
+  vi.stubGlobal(
+    'WebSocket',
+    class {
+      close() {}
+    },
+  )
+  setup(false)
+  const dialog = wrapper.get('.pair-dialog').element as HTMLDialogElement
+  dialog.showModal = () => {
+    dialog.open = true
+  }
+  window.dispatchEvent(new KeyboardEvent('keydown', { key: 'r' }))
+  await wrapper.vm.$nextTick()
+  expect(dialog.open).toBe(true)
+  expect(wrapper.get('.remote-launch').attributes('data-shortcut')).toContain('R')
 })

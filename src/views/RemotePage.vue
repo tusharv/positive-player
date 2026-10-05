@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import ChannelShare from '../components/ChannelShare.vue'
 import RemoteIcon from '../components/RemoteIcon.vue'
 import { CHANNELS, CHANNEL_COUNT, CHANNEL_DIGITS, formatChannelNumber } from '../data/channels'
 import { RemoteConnection, remoteErrors, type ConnectionStatus } from '../lib/remoteConnection'
@@ -167,6 +168,12 @@ onBeforeUnmount(() => connection.destroy())
             Signal interrupted · Try another channel
           </p>
         </section>
+        <ChannelShare
+          v-if="channel"
+          class="remote-share"
+          :channel-number="channel.number"
+          :disabled="!enabled"
+        />
         <fieldset :disabled="!enabled" class="controls" aria-label="TV controls">
           <div class="rockers">
             <div class="rocker">
@@ -258,6 +265,10 @@ onBeforeUnmount(() => connection.destroy())
 </template>
 
 <style scoped>
+.handset :deep(.remote-share) {
+  width: 100%;
+  margin-top: 18px;
+}
 .power-button {
   display: flex;
   align-items: center;

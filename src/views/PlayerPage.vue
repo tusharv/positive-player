@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { storeToRefs } from 'pinia'
+import { useRoute } from 'vue-router'
+import { channelByNumber } from '../data/channels'
+import ChannelShare from '../components/ChannelShare.vue'
 import { usePlayerActivity } from '../composables/usePlayerActivity'
 import { usePlayerFullscreen } from '../composables/usePlayerFullscreen'
 import WatchIcon from '../components/WatchIcon.vue'
@@ -17,12 +20,25 @@ import { hasLegalConsent } from '../lib/legalConsent'
 import { useTvStore } from '../stores/tv'
 
 const tv = useTvStore()
+const route = useRoute()
+watch(
+  () => route?.query.channel,
+  (value) => {
+    if (typeof value !== 'string' || !/^\d+$/.test(value)) return
+    const number = Number(value)
+    if (!channelByNumber(number)) return
+    if (tv.poweredOn) tv.setChannel(number)
+    else tv.channelNumber = number
+  },
+  { immediate: true },
+)
 const page = ref<HTMLElement | null>(null)
 const controls = ref<HTMLElement | null>(null)
 const fullscreen = usePlayerFullscreen(page)
 const guideOpen = ref(false)
 const pairingOpen = ref(false)
-const pinned = computed(() => guideOpen.value || pairingOpen.value)
+const shareOpen = ref(false)
+const pinned = computed(() => guideOpen.value || pairingOpen.value || shareOpen.value)
 const { poweredOn } = storeToRefs(tv)
 const { visible: hudVisible, reveal } = usePlayerActivity(poweredOn, pinned)
 let lastControl: HTMLElement | null = null
@@ -78,7 +94,10 @@ function wakeOnKey(event: KeyboardEvent) {
 watch(
   () => tv.poweredOn,
   async (on) => {
-    if (!on) guideOpen.value = false
+    if (!on) {
+      guideOpen.value = false
+      shareOpen.value = false
+    }
     if (on) {
       await nextTick()
       controls.value
@@ -114,7 +133,9 @@ function navigateControls(event: KeyboardEvent) {
 }
 
 function onKey(event: KeyboardEvent) {
-  if (event.defaultPrevented) return
+  if (event.defaultPrevented || event.altKey || event.ctrlKey || event.metaKey || event.isComposing)
+    return
+  if (pinned.value) return
   if (
     (event.key === 'Escape' || event.key === 'GoBack' || event.keyCode === 10009) &&
     fullscreen.active.value
@@ -138,6 +159,24 @@ function onKey(event: KeyboardEvent) {
     if (event.key === 'Enter' || event.key === ' ') {
       event.preventDefault()
       if (hasLegalConsent()) tv.powerOn()
+    }
+    return
+  }
+
+  const key = event.key.toLowerCase()
+  const shortcutTargets: Record<string, string> = {
+    '[': '[aria-label="Previous channel"]',
+    ']': '[aria-label="Next channel"]',
+    c: '.guide-launch',
+    s: '.share-launch',
+    f: '[data-hud-action="fullscreen"]',
+    r: '.remote-launch',
+  }
+  const selector = shortcutTargets[key]
+  if (selector) {
+    event.preventDefault()
+    if (!event.repeat || key === '[' || key === ']') {
+      controls.value?.querySelector<HTMLButtonElement>(selector)?.click()
     }
     return
   }
@@ -167,7 +206,8 @@ function onKey(event: KeyboardEvent) {
     return
   }
   if (event.key === 'm' || event.key === 'M') {
-    tv.muteToggle()
+    event.preventDefault()
+    if (!event.repeat) tv.muteToggle()
   }
 }
 
@@ -244,43 +284,84 @@ onBeforeUnmount(() => {
       >
         <div class="control-row" role="group" aria-label="TV controls">
           <template v-if="tv.poweredOn">
-            <button type="button" aria-label="Previous channel" @click="tv.channelStep(-1)">
+            <button
+              type="button"
+              aria-label="Previous channel"
+              aria-keyshortcuts="["
+              data-shortcut="Previous channel · ["
+              @click="tv.channelStep(-1)"
+            >
               <WatchIcon name="channel-down" /><span>CH −</span>
             </button>
-            <button type="button" aria-label="Next channel" @click="tv.channelStep(1)">
+            <button
+              type="button"
+              aria-label="Next channel"
+              aria-keyshortcuts="]"
+              data-shortcut="Next channel · ]"
+              @click="tv.channelStep(1)"
+            >
               <WatchIcon name="channel-up" /><span>CH +</span>
             </button>
             <ChannelGuide
+              aria-keyshortcuts="C"
+              data-shortcut="Channel guide · C"
               :current-channel="tv.channelNumber"
               @tune="tv.setChannel"
               @open-change="guideOpen = $event"
             />
-            <button type="button" aria-label="Volume down" @click="tv.volumeStep(-5)">
+            <button
+              type="button"
+              aria-label="Volume down"
+              aria-keyshortcuts="-"
+              data-shortcut="Volume down · −"
+              @click="tv.volumeStep(-5)"
+            >
               <WatchIcon name="volume-down" /><span>VOL −</span>
             </button>
-            <button type="button" aria-label="Volume up" @click="tv.volumeStep(5)">
+            <button
+              type="button"
+              aria-label="Volume up"
+              aria-keyshortcuts="Plus ="
+              data-shortcut="Volume up · +"
+              @click="tv.volumeStep(5)"
+            >
               <WatchIcon name="volume-up" /><span>VOL +</span>
             </button>
             <button
               type="button"
               :aria-label="tv.volume.muted ? 'Unmute' : 'Mute'"
+              aria-keyshortcuts="M"
+              :data-shortcut="`${tv.volume.muted ? 'Unmute' : 'Mute'} · M`"
               :aria-pressed="tv.volume.muted"
               @click="tv.muteToggle()"
             >
               <WatchIcon :name="tv.volume.muted ? 'mute' : 'sound'" />
               <span>{{ tv.volume.muted ? 'Unmute' : 'Mute' }}</span>
             </button>
+            <ChannelShare
+              aria-keyshortcuts="S"
+              data-shortcut="Share channel · S"
+              :channel-number="tv.channelNumber"
+              @open-change="shareOpen = $event"
+            />
           </template>
           <button
             type="button"
             :aria-label="fullscreen.active.value ? 'Exit fullscreen' : 'Enter fullscreen'"
+            data-hud-action="fullscreen"
+            aria-keyshortcuts="F"
+            :data-shortcut="`${fullscreen.active.value ? 'Exit fullscreen' : 'Fullscreen'} · F`"
             :aria-pressed="fullscreen.active.value"
             @click="fullscreen.toggle"
           >
             <WatchIcon :name="fullscreen.active.value ? 'restore' : 'fullscreen'" />
             <span>{{ fullscreen.active.value ? 'Exit fullscreen' : 'Fullscreen' }}</span>
           </button>
-          <RemotePairing @open-change="pairingOpen = $event" />
+          <RemotePairing
+            aria-keyshortcuts="R"
+            data-shortcut="Phone remote · R"
+            @open-change="pairingOpen = $event"
+          />
         </div>
         <p v-if="fullscreen.message.value" class="fullscreen-message" role="status">
           {{ fullscreen.message.value }}
@@ -320,7 +401,7 @@ onBeforeUnmount(() => {
   flex-direction: column;
   justify-content: flex-end;
   padding: max(1rem, env(safe-area-inset-top)) max(1rem, env(safe-area-inset-right))
-    max(1.75rem, calc(env(safe-area-inset-bottom) + 0.75rem)) max(1rem, env(safe-area-inset-left));
+    max(24px, calc(env(safe-area-inset-bottom) + 12px)) max(1rem, env(safe-area-inset-left));
   box-sizing: border-box;
   pointer-events: none;
   opacity: 1;
@@ -350,13 +431,15 @@ onBeforeUnmount(() => {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 0.4rem;
+  gap: 0.3rem;
   align-self: center;
   max-width: 100%;
-  padding: 0.65rem;
+  padding: 0.4rem;
   border: 1px solid #55594e;
   border-radius: 9px;
-  background: linear-gradient(#30332e, #171c18);
+  background:
+    repeating-linear-gradient(to bottom, #0003 0 1px, transparent 1px 3px),
+    linear-gradient(#30332e, #171c18);
   box-shadow:
     inset 0 1px #777a68,
     0 4px 0 #090d0a,
@@ -364,6 +447,7 @@ onBeforeUnmount(() => {
 }
 .control-row > button,
 .control-row :deep(.guide-launch),
+.control-row :deep(.share-launch),
 .control-row :deep(.remote-launch) {
   position: relative;
   inset: auto;
@@ -371,10 +455,10 @@ onBeforeUnmount(() => {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.35rem;
-  min-height: 66px;
+  gap: 0.2rem;
+  min-height: 50px;
   min-width: 44px;
-  padding: 0.45rem 0.65rem;
+  padding: 0.3rem 0.5rem;
   border: 1px solid #4c6150;
   border-bottom-color: #080c09;
   border-radius: 4px;
@@ -385,24 +469,82 @@ onBeforeUnmount(() => {
     0 3px 0 #070b08;
   color: var(--crt-phosphor);
   font: inherit;
-  font-size: clamp(0.6rem, 0.85vw, 0.75rem);
+  font-size: clamp(0.55rem, 0.7vw, 0.65rem);
   text-transform: uppercase;
   letter-spacing: 0.06em;
   cursor: pointer;
   pointer-events: auto;
 }
+.control-row > button::after,
+.control-row :deep(.guide-launch)::after,
+.control-row :deep(.share-launch)::after,
+.control-row :deep(.remote-launch)::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: repeating-linear-gradient(to bottom, #0003 0 1px, transparent 1px 3px);
+  box-shadow: inset 0 0 10px #0003;
+  pointer-events: none;
+}
+.control-row :deep(button[data-shortcut])::before {
+  content: attr(data-shortcut);
+  position: absolute;
+  bottom: calc(100% + 10px);
+  left: 50%;
+  z-index: 10;
+  transform: translateX(var(--shortcut-offset, -50%)) translateY(3px);
+  padding: 0.45rem 0.6rem;
+  border: 1px solid #65836b;
+  border-radius: 4px;
+  background: #08110bf5;
+  color: var(--crt-cream);
+  font-size: 0.7rem;
+  line-height: 1.3;
+  letter-spacing: 0;
+  text-transform: none;
+  white-space: nowrap;
+  box-shadow: 0 3px 10px #0008;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity 120ms ease,
+    transform 120ms ease;
+}
+.control-row :deep(button[data-shortcut]:hover)::before,
+.control-row :deep(button[data-shortcut]:focus-visible)::before {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(var(--shortcut-offset, -50%));
+}
+.control-row > button:first-child::before {
+  --shortcut-offset: 0%;
+  left: 0;
+  transform: none;
+}
+.control-row :deep(.remote-launch)::before {
+  --shortcut-offset: 0%;
+  left: auto;
+  right: 0;
+  transform: none;
+}
 .control-row :deep(.watch-icon) {
+  width: 20px;
+  height: 20px;
   flex-shrink: 0;
   filter: drop-shadow(0 0 3px #8fd9a455);
 }
 .control-row > button:hover,
 .control-row :deep(.guide-launch:hover),
+.control-row :deep(.share-launch:hover),
 .control-row :deep(.remote-launch:hover) {
   color: #c6ffd1;
   background: linear-gradient(#354e3a, #192b1e);
 }
 .control-row > button:active,
 .control-row :deep(.guide-launch:active),
+.control-row :deep(.share-launch:active),
 .control-row :deep(.remote-launch:active) {
   transform: translateY(2px);
   box-shadow: inset 0 2px 4px #0009;
@@ -418,15 +560,22 @@ onBeforeUnmount(() => {
 }
 @media (max-width: 480px) {
   .control-row {
-    gap: 0.35rem;
-    padding: 0.45rem;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    width: min(100%, 340px);
+    gap: 0.25rem;
+    padding: 0.35rem;
   }
   .control-row > button,
   .control-row :deep(.guide-launch),
+  .control-row :deep(.share-launch),
   .control-row :deep(.remote-launch) {
-    flex: 1 0 19%;
-    min-height: 60px;
-    padding: 0.35rem;
+    min-height: 50px;
+    min-width: 44px;
+    padding: 0.25rem 0.1rem;
+    font-size: 0.5rem;
+    letter-spacing: 0;
+    overflow-wrap: anywhere;
   }
 }
 .control-row :deep(button:focus-visible) {
@@ -447,7 +596,8 @@ onBeforeUnmount(() => {
 }
 @media (prefers-reduced-motion: reduce) {
   .player-controls,
-  .control-row {
+  .control-row,
+  .control-row :deep(button[data-shortcut])::before {
     transition: none;
   }
   .player-controls--hidden {

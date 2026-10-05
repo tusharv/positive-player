@@ -4,6 +4,8 @@ import { computed, onBeforeUnmount, ref, watch } from 'vue'
 import QRCode from 'qrcode'
 import { useTvRemote } from '../composables/useTvRemote'
 
+defineOptions({ inheritAttrs: false })
+
 const emit = defineEmits<{ 'open-change': [open: boolean] }>()
 const remote = useTvRemote()
 const dialog = ref<HTMLDialogElement | null>(null)
@@ -74,7 +76,7 @@ function closeDialog() {
 </script>
 
 <template>
-  <button class="remote-launch" type="button" @click="open">
+  <button v-bind="$attrs" class="remote-launch" type="button" @click="open">
     <span
       class="connection-dot"
       :class="{ online: remote.remoteOnline.value }"

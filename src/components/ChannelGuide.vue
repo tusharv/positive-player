@@ -4,6 +4,8 @@ import { computed, nextTick, ref } from 'vue'
 import { CHANNELS, formatChannelNumber } from '../data/channels'
 
 defineProps<{ currentChannel: number }>()
+defineOptions({ inheritAttrs: false })
+
 const emit = defineEmits<{ tune: [number: number]; 'open-change': [open: boolean] }>()
 const isOpen = ref(false)
 const launch = ref<HTMLButtonElement | null>(null)
@@ -71,6 +73,7 @@ function tune(number: number) {
 
 <template>
   <button
+    v-bind="$attrs"
     ref="launch"
     type="button"
     class="guide-launch"

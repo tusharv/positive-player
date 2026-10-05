@@ -3,7 +3,7 @@
   "functions": {
     "api/remote-ws.mjs": {
       "maxDuration": 300,
-      "includeFiles": "{server/**,src/lib/remoteProtocol.ts,src/data/channels.ts}"
+      "includeFiles": "{server/**,src/lib/remoteProtocol.ts,src/data/**}"
     }
   },
   "rewrites": [

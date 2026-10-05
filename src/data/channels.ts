@@ -1,5 +1,5 @@
 import type { CatalogItem } from '../lib/broadcastClock'
-import { CURATED_PROGRAMS } from './curatedPrograms'
+import { CURATED_PROGRAMS } from './curatedPrograms.ts'
 
 export type ChannelKind = 'search' | 'playlist' | 'curated'
 export type ChannelMood = 'calm' | 'warm' | 'bright' | 'curious'
