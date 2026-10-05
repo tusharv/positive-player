@@ -129,6 +129,63 @@ const featured = featuredNames.flatMap((name) => {
         </ol>
       </section>
 
+      <section id="support" class="support" aria-labelledby="support-title">
+        <div class="support-copy">
+          <h2 id="support-title">Support this project.</h2>
+          <p>Upvote it on Peerlist, or star the source on GitHub.</p>
+        </div>
+        <div class="support-actions">
+          <a
+            class="peerlist"
+            href="https://peerlist.io/tusharv/project/feel-1988-no-skip"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://peerlist.io/api/v1/projects/embed/PRJH6A7QME7NEPMLR3G8PK6NNPQGL8?showUpvote=true&theme=dark"
+              alt="Feel 1988. No skip."
+            />
+          </a>
+          <a
+            class="github-link"
+            href="https://github.com/tusharv/positive-player"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg class="github-mark" viewBox="0 0 16 16" aria-hidden="true">
+              <path
+                fill="currentColor"
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+              />
+            </svg>
+            <span class="github-copy">
+              <span class="github-title">Star on GitHub</span>
+              <span class="github-repo">tusharv/positive-player</span>
+            </span>
+          </a>
+        </div>
+        <div class="failure">
+          <a
+            class="failure-mark"
+            href="https://www.failure.company/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/brand/failure-company.png" alt="Failure Company" width="64" height="64" />
+          </a>
+          <div class="failure-copy">
+            <p class="failure-kicker">A Failure Company project</p>
+            <p>
+              <a href="https://www.failure.company/" target="_blank" rel="noopener noreferrer"
+                >Failure Company</a
+              >
+              is a community of developers making useful things with what they have. The ambition is
+              useful work and a sustainable living — community first.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section class="closing" aria-labelledby="closing-title">
         <p lang="hi">देखते रहो।</p>
         <h2 id="closing-title">Stay with the picture.</h2>
@@ -286,6 +343,19 @@ h1 {
 }
 .play {
   font-size: 13px;
+}
+.peerlist {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  line-height: 0;
+  text-decoration: none;
+}
+.peerlist img {
+  display: block;
+  width: auto;
+  height: 72px;
+  max-width: 100%;
 }
 .hero-picture {
   width: 100%;
@@ -453,6 +523,110 @@ h2 {
   line-height: 1.65;
   margin: 0;
 }
+.support {
+  max-width: 1440px;
+  margin: auto;
+  padding: 72px 8%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px 70px;
+  align-items: center;
+}
+.support-copy p {
+  max-width: 420px;
+  margin: 16px 0 0;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.7;
+}
+.support-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+.support .github-link {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 296px;
+  max-width: 100%;
+  height: 72px;
+  padding: 0 18px;
+  background: #182645;
+  color: #fffdf5;
+  border: 3px outset #8b97b3;
+  box-shadow: 4px 4px 0 #0b225e;
+  font-family: 'IBM Plex Mono', monospace;
+  text-decoration: none;
+}
+.github-mark {
+  width: 34px;
+  height: 34px;
+  flex: none;
+}
+.github-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  line-height: 1.1;
+}
+.github-title {
+  font-size: 15px;
+  font-weight: 700;
+}
+.support .github-repo {
+  font-size: 11px;
+  color: #c9d3ea;
+}
+.support .github-link:hover {
+  background: var(--blue);
+  color: #fffdf5;
+}
+.support .github-link:active {
+  border-style: inset;
+  box-shadow: none;
+}
+.failure {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  padding-top: 28px;
+  border-top: 3px double #a6adc0;
+}
+.failure-mark {
+  flex: none;
+  line-height: 0;
+  text-decoration: none;
+}
+.failure-mark img {
+  display: block;
+  width: 64px;
+  height: 64px;
+}
+.failure-copy .failure-kicker {
+  margin: 2px 0 8px;
+  color: var(--blue);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.failure-copy p {
+  max-width: 640px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.7;
+}
+.support .failure-copy a {
+  color: var(--blue);
+  font-weight: 700;
+  text-underline-offset: 3px;
+}
 .closing {
   padding: 66px 24px 72px;
   background: var(--blue);
@@ -609,6 +783,22 @@ h2 {
   }
   .how h2 {
     max-width: 300px;
+  }
+  .support {
+    grid-template-columns: 1fr;
+    padding: 48px 24px;
+    gap: 24px;
+  }
+  .failure {
+    gap: 14px;
+    padding-top: 22px;
+  }
+  .failure-mark img {
+    width: 56px;
+    height: 56px;
+  }
+  .failure-copy p {
+    font-size: 15px;
   }
   .closing {
     padding: 50px 24px;
