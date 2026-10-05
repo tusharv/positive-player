@@ -12,6 +12,12 @@ import {
   QuotaExceededError,
 } from '../lib/youtubeData'
 
+import {
+  trackChannel,
+  playerFailureReason,
+  type ChannelEventDetails,
+} from '../lib/channelAnalytics'
+
 const VOLUME_KEY = 'pp-volume'
 const CHANNEL_KEY = 'pp-channel'
 const HUD_MS = 5000
@@ -91,6 +97,26 @@ export const useTvStore = defineStore('tv', () => {
   let briefTimer = 0
   let retryTimer = 0
   let zapTimer = 0
+  let playedThisTune = false
+  const reportedFailures = new Set<string>()
+  function beginTune() {
+    playedThisTune = false
+    reportedFailures.clear()
+    trackChannel('channel_select', currentChannel.value)
+  }
+  function reportFailure(details: ChannelEventDetails) {
+    if (!poweredOn.value) return
+    const key = JSON.stringify(details)
+    if (reportedFailures.has(key)) return
+    reportedFailures.add(key)
+    trackChannel('channel_error', currentChannel.value, details)
+  }
+  function onPlayerPlaying(videoId: string) {
+    if (!poweredOn.value || videoId !== currentSlot.value?.videoId || playedThisTune) return
+    playedThisTune = true
+    trackChannel('channel_play', currentChannel.value, { video_id: videoId })
+  }
+
   let requestId = 0
   let digitState = createDigitState()
 
@@ -162,6 +188,7 @@ export const useTvStore = defineStore('tv', () => {
       if (mine !== requestId) return
 
       if (!slot) {
+        reportFailure({ failure_stage: 'catalog', failure_reason: 'catalog_empty' })
         hold(channel)
         return
       }
@@ -177,6 +204,17 @@ export const useTvStore = defineStore('tv', () => {
       } else if (!(error instanceof CatalogFetchError)) {
         console.info(error)
       }
+      reportFailure({
+        failure_stage: 'catalog',
+        failure_reason:
+          error instanceof MissingApiKeyError
+            ? 'missing_api_key'
+            : error instanceof QuotaExceededError
+              ? 'quota_exceeded'
+              : error instanceof CatalogFetchError
+                ? 'catalog_fetch'
+                : 'network_error',
+      })
       hold(channel, !(error instanceof QuotaExceededError))
     } finally {
       if (mine === requestId) loading.value = false
@@ -184,7 +222,9 @@ export const useTvStore = defineStore('tv', () => {
   }
 
   function powerOn() {
+    if (poweredOn.value) return
     poweredOn.value = true
+    beginTune()
     showHud()
     void loadChannel(channelNumber.value)
   }
@@ -222,8 +262,10 @@ export const useTvStore = defineStore('tv', () => {
     if (channelZapNeeded(channelNumber.value, next, poweredOn.value)) {
       startZap()
     }
-    if (channelNumber.value !== next) currentSlot.value = null
+    const changed = channelNumber.value !== next
+    if (changed) currentSlot.value = null
     channelNumber.value = next
+    if (changed && poweredOn.value) beginTune()
     try {
       localStorage.setItem(CHANNEL_KEY, String(next))
     } catch {
@@ -307,7 +349,14 @@ export const useTvStore = defineStore('tv', () => {
     void loadChannel(channelNumber.value, endedId ? [endedId] : [])
   }
 
-  function onPlayerError() {
+  function onPlayerError(code?: number, videoId?: string) {
+    if (videoId && videoId !== currentSlot.value?.videoId) return
+    reportFailure({
+      failure_stage: 'player',
+      failure_reason: playerFailureReason(code),
+      error_code: code === undefined ? '' : String(code),
+      video_id: currentSlot.value?.videoId ?? '',
+    })
     interruption.value = 'brief'
     interruptionChannelNumber.value = channelNumber.value
     window.clearTimeout(briefTimer)
@@ -317,6 +366,7 @@ export const useTvStore = defineStore('tv', () => {
   }
 
   function onScriptError() {
+    reportFailure({ failure_stage: 'script', failure_reason: 'iframe_script_failed' })
     hold(channelNumber.value)
   }
 
@@ -345,6 +395,7 @@ export const useTvStore = defineStore('tv', () => {
     volumeStep,
     muteToggle,
     showHud,
+    onPlayerPlaying,
     onPlayerEnded,
     onPlayerError,
     onScriptError,

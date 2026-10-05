@@ -26,6 +26,10 @@ Catalogs refresh after 24 hours, including on the next programme transition in a
 
 Public playlists can contain private, deleted, short, or non-embeddable videos. The loader checks individual video metadata before scheduling them. A live source audit is a point-in-time check, not a guarantee of future availability or playback in every region.
 
+## Channel analytics
+
+Channel selections, confirmed playback starts, and deduplicated failures are available to Google Analytics through the existing GTM container and to Microsoft Clarity. Follow [the channel analytics setup guide](docs/channel-analytics.md) to connect the events and create Popular channels and Channel failures reports. The code alone does not publish your analytics tags or configure reports in your accounts.
+
 ## YouTube API compliance
 
 Google’s YouTube API review needs public, no-login URLs. After you deploy, paste these into the API project:

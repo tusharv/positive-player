@@ -196,6 +196,7 @@ onBeforeUnmount(() => {
   >
     <CrtShell :expanded="fullscreen.active.value">
       <YoutubeStage
+        :key="`${tv.channelNumber}:${tv.currentSlot.videoId}`"
         v-if="tv.poweredOn && tv.currentSlot"
         :video-id="tv.currentSlot.videoId"
         :start-seconds="tv.currentSlot.startSeconds"
@@ -203,7 +204,8 @@ onBeforeUnmount(() => {
         :volume="tv.volume.volume"
         :muted="tv.volume.muted"
         @ended="tv.onPlayerEnded()"
-        @error="tv.onPlayerError()"
+        @error="tv.onPlayerError"
+        @playing="tv.onPlayerPlaying"
         @script-error="tv.onScriptError()"
       />
       <ChannelZap v-if="tv.zapping" />

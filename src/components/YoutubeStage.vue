@@ -22,7 +22,8 @@ const props = defineProps<{
 
 const emit = defineEmits<{
   ended: []
-  error: []
+  playing: [videoId: string]
+  error: [code?: number, videoId?: string]
   'script-error': []
 }>()
 
@@ -96,15 +97,19 @@ function createPlayer() {
       },
       onApiChange: disableCaptions,
       onStateChange: (event: { data: number }) => {
+        if (destroyed) return
         // Caption tracks can finish loading after onApiChange during startup.
         // Reapply once playback begins, including after each channel change.
         if (event.data === window.YT?.PlayerState.PLAYING) {
           disableCaptions()
           releaseYoutubeFocus()
+          emit('playing', props.videoId)
         }
         if (event.data === window.YT?.PlayerState.ENDED) emit('ended')
       },
-      onError: () => emit('error'),
+      onError: (event: { data: number }) => {
+        if (!destroyed) emit('error', event.data, props.videoId)
+      },
     },
   }) as YtPlayer
 }
@@ -132,7 +137,7 @@ onMounted(async () => {
     await loadApi()
     createPlayer()
   } catch {
-    emit('script-error')
+    if (!destroyed) emit('script-error')
   }
 })
 

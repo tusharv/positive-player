@@ -4,7 +4,7 @@ import LegalDocument from '../components/LegalDocument.vue'
 
 <template>
   <main>
-    <LegalDocument title="Privacy Policy" updated="8 September 2026">
+    <LegalDocument title="Privacy Policy" updated="5 October 2026">
       <p>
         1988.in is an always-on CRT-style television that plays publicly available YouTube
         videos. This Privacy Policy explains what information we access, collect, store, use, and
@@ -53,6 +53,24 @@ import LegalDocument from '../components/LegalDocument.vue'
       <p>
         We do not collect your name, email address, payment details, or precise location. We do not
         ask you to create an account with us.
+      </p>
+
+      <h2>Channel analytics</h2>
+      <p>
+        When analytics is enabled, we send channel selections, successful playback starts, and
+        playback failures to Google Analytics through Google Tag Manager and to Microsoft Clarity.
+        These events include the channel name, number, category, and, where relevant, the public
+        video identifier and a technical failure code. We use them to understand popular channels
+        and identify broken playback. These events do not include pairing codes, remote tokens,
+        names, email addresses, or your YouTube account history.
+      </p>
+      <p>
+        Microsoft Clarity may also record interactions with the site when its tracking tag is
+        enabled. See the
+        <a href="https://privacy.microsoft.com/privacystatement" rel="noopener noreferrer" target="_blank">Microsoft Privacy Statement</a>
+        and the
+        <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">Google Privacy Policy</a>
+        for how these providers handle information.
       </p>
 
       <h2>YouTube API Services and API data</h2>

@@ -23,12 +23,21 @@ async function setup(withCaptionApi = true) {
     },
     PlayerState: { ENDED: 0, PLAYING: 1 },
   })
+  const onPlaying = vi.fn()
+  const onError = vi.fn()
   const wrapper = mount(YoutubeStage, {
-    props: { videoId: 'first-video', startSeconds: 0, volume: 50, muted: false },
+    props: {
+      videoId: 'first-video',
+      startSeconds: 0,
+      volume: 50,
+      muted: false,
+      onPlaying,
+      onError,
+    },
   })
   await flushPromises()
   const events = options.events as Record<string, (event?: { data: number }) => void>
-  return { wrapper, player, events }
+  return { wrapper, player, events, onPlaying, onError }
 }
 
 describe('YouTube caption suppression', () => {
@@ -86,4 +95,19 @@ it('reloads a repeated single-video broadcast even when its video and start time
   } finally {
     wrapper.unmount()
   }
+})
+
+it('reports real playback and YouTube error codes, ignoring a destroyed player', async () => {
+  const { wrapper, events, onPlaying, onError } = await setup()
+  events.onStateChange!({ data: 3 })
+  expect(wrapper.emitted('playing')).toBeUndefined()
+  events.onStateChange!({ data: 1 })
+  expect(wrapper.emitted('playing')).toEqual([['first-video']])
+  events.onError!({ data: 101 })
+  expect(wrapper.emitted('error')).toEqual([[101, 'first-video']])
+  wrapper.unmount()
+  events.onStateChange!({ data: 1 })
+  events.onError!({ data: 150 })
+  expect(onPlaying).toHaveBeenCalledTimes(1)
+  expect(onError).toHaveBeenCalledTimes(1)
 })

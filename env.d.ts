@@ -11,6 +11,9 @@ interface ImportMeta {
 }
 
 interface Window {
+  dataLayer?: Array<Record<string, unknown>>
+  clarity?: ((...args: unknown[]) => void) & { q?: unknown[][] }
+
   YT?: {
     Player: new (element: HTMLElement | string, options: Record<string, unknown>) => unknown
     PlayerState: { ENDED: number; PLAYING: number }
