@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "bundle:programs": "node --experimental-strip-types scripts/bundle-programs.mjs",
     "dev": "run-p dev:tv dev:remote",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",

@@ -9,14 +9,14 @@ import {
 } from '../data/channels'
 
 describe('channel lineup', () => {
-  it('uses a curated Formula schedule instead of the failing uploads feed', () => {
+  it('uses a curated Formula schedule instead of the failing uploads feed', async () => {
     const formula = CHANNELS.find((channel) => channel.name === 'Formula')!
     expect(formula.kind).toBe('curated')
-    expect(formula.curatedCatalog?.length).toBeGreaterThanOrEqual(3)
+    expect((await formula.loadCuratedCatalog!()).length).toBeGreaterThanOrEqual(3)
   })
   it('sources football across competitions instead of a single league playlist', () => {
     const football = CHANNELS.find((channel) => channel.name === 'Football')!
-    expect(football.kind).toBe('search')
+    expect(football.kind).toBe('curated')
     expect(football.playlistId).toBeUndefined()
     expect(football.query).toContain('club international')
   })
@@ -37,7 +37,7 @@ describe('channel lineup', () => {
     expect(new Set(playlists).size).toBe(CHANNEL_COUNT)
     for (const channel of CHANNELS) {
       expect(['playlist', 'curated', 'search']).toContain(channel.kind)
-      if (channel.kind === 'search') {
+      if (!channel.playlistId) {
         expect(channel.query?.length).toBeGreaterThan(0)
       } else {
         expect(channel.playlistId).toMatch(/^(PL|UU)[\w-]{10,}$/)

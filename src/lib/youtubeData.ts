@@ -1,4 +1,4 @@
-import { type Channel } from '../data/channels'
+import type { Channel } from '../data/channels'
 import type { CatalogItem } from './broadcastClock'
 
 export class MissingApiKeyError extends Error {
@@ -61,7 +61,7 @@ export function parseIsoDuration(iso: string): number {
 export function channelCatalogKey(channel: Channel): string {
   const source =
     channel.kind === 'curated'
-      ? channel.curatedCatalog?.map((item) => item.videoId).join(',')
+      ? (channel.curatedVersion ?? channel.curatedCatalog?.map((item) => item.videoId).join(','))
       : channel.kind === 'playlist'
         ? channel.playlistId
         : channel.query
@@ -303,6 +303,26 @@ export async function fetchChannelCatalog(
   options: FetchCatalogOptions,
 ): Promise<CatalogItem[]> {
   try {
+    if (channel.kind === 'curated' && channel.loadCuratedCatalog && !channel.curatedCatalog) {
+      try {
+        channel = { ...channel, curatedCatalog: await channel.loadCuratedCatalog() }
+      } catch (error) {
+        const cached = readCached(options.storage?.getItem(channelCatalogKey(channel)) ?? null)
+        if (cached)
+          return cached.items.filter((item) => !options.excludeIds?.includes(item.videoId))
+        throw error
+      }
+      // Start as soon as this station's bundle arrives, even if the API is stalled.
+      // Respect a cached validation (including an empty catalog) over bundled data.
+      const initial = readChannelCatalog(
+        channel,
+        options.storage ?? {
+          getItem: () => null,
+          setItem: () => {},
+        },
+      ).filter((item) => !options.excludeIds?.includes(item.videoId))
+      if (initial.length) options.onPlayable?.(initial)
+    }
     const catalog = await fetchSourceCatalog(channel, options)
     return catalog.filter((item) => !options.excludeIds?.includes(item.videoId))
   } catch (error) {

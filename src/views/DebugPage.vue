@@ -183,9 +183,9 @@ onBeforeUnmount(() => {
       </button>
     </div>
     <p class="help">
-      Cached catalogs appear immediately. Load a channel below, or load all. Fresh catalogs are
-      reused for 24 hours; loading missing or expired catalogs uses YouTube API quota. If refresh
-      fails, the TV may fall back to a cached catalog.
+      Cached catalogs appear immediately. Load a channel below to download only its bundled list, or
+      load all. Bundled lists work without an API key. When a key is configured, optional
+      availability checks use YouTube API quota and are reused for 24 hours.
     </p>
     <div class="summary" role="status">
       <span>{{ available }} / {{ CHANNELS.length }} catalogs available</span

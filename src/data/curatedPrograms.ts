@@ -1,688 +1,513 @@
 import type { CatalogItem } from '../lib/broadcastClock'
 
-// Hand-picked evergreen programmes, checked against YouTube on 2026-10-05.
-// Keep IDs and durations here so these stations can start without the Data API.
-// Availability is refreshed at runtime; failed videos are skipped by the player.
-export const CURATED_PROGRAMS: Partial<Record<string, CatalogItem[]>> = {
-  // Formula uploads can report embeddable while refusing actual iframe playback.
-  // These alternatives were checked in the embedded player on 2026-10-06.
-  Formula: [
-    {
-      videoId: '-KykzjQiKC0',
-      title: '1978 F1 Season Review - Rare Film',
-      durationSeconds: 1323,
-    },
-    {
-      videoId: 'LBmogpW2T9U',
-      title: 'Monza F1 Circuit History, Crashes and Onboard (FULL Layout)',
-      durationSeconds: 3539,
-    },
-    {
-      videoId: 'Tt7QQWF8Yu0',
-      title: 'Charade (Clermont-Ferrand) F1 Circuit History, Crashes and Onboard',
-      durationSeconds: 2460,
-    },
-  ],
-  Bollywood: [
-    {
-      videoId: 'Kf1Rg9kIHr4',
-      title: 'THE BOLLYWOOD DANCE PARTY 2025 | NONSTOP 2 HOUR JUKEBOX | DIWALI DHAMAKA 2025💥',
-      durationSeconds: 7306,
-    },
-    {
-      videoId: 'I0b88L53Gbg',
-      title: 'Best Of Bollywood Dance Hits 8K (Video Jukebox) | Non Stop Bollywood Dance Songs',
-      durationSeconds: 4203,
-    },
-    {
-      videoId: 'GFC6J3nbdtw',
-      title:
-        'Ultimate Bollywood Dance Celebration Mix😍 | Non Stop Party Songs | Kedrock | T-Series',
-      durationSeconds: 566,
-    },
-    {
-      videoId: 'QwZxq5cGiDk',
-      title:
-        'New Year Party Mashup🔥 | Non Stop Dance Hits | Bollywood Party Songs | DJ Kunal Mahato, DJ Star',
-      durationSeconds: 240,
-    },
-    {
-      videoId: 'EFUkIyQ8p_Y',
-      title:
-        'Non Stop Bollywood Dance Hits | Bollywood Dance Mashup | Non Stop Party Songs | T-Series',
-      durationSeconds: 2777,
-    },
-    {
-      videoId: 'Usn1TnQm0jE',
-      title: 'The Wedding Dance Bollywood Mix | Non Stop Bollywood Party Hits | Kedrock | T-Series',
-      durationSeconds: 494,
-    },
-    {
-      videoId: 'vzJvFkf2i6Y',
-      title:
-        'NON STOP DANCE (MEGA PARTY MIX)🔥| ULTIMATE NEW YEAR PARTY MASHUP | BOLLYWOOD NON STOP DANCE SONGS',
-      durationSeconds: 2251,
-    },
-    {
-      videoId: 'tl-iR79fZ5c',
-      title: 'BOLLYWOOD NON STOP DANCE😍 - CLUB VIBES MIX | NEW YEAR PARTY MASHUP | DJ BASQUE',
-      durationSeconds: 284,
-    },
-    {
-      videoId: 'tp2XCLXD6MY',
-      title:
-        'Bidai Lofi Non-Stop Mix | Bollywood Lofi Love Songs | Chill & Relax Beats | DJ Sunny Singh UK',
-      durationSeconds: 904,
-    },
-    {
-      videoId: '2aj41K0ORcE',
-      title:
-        'Shaadi Waali Raat Non Stop Mix | Ultimate Wedding Dance Hits | Shagna Di Raat | Dj Buddha Dubai',
-      durationSeconds: 1331,
-    },
-    {
-      videoId: 'GlXSwebD2PM',
-      title:
-        'MEHENDI WALI RAAT😍 MASHUP | BOLLYWOOD NON STOP DANCE HITS | SHAGNA DI RAAT | DJ ALEX | DJ STAR',
-      durationSeconds: 1040,
-    },
-    {
-      videoId: 'FS8aZu0-Nbo',
-      title:
-        'BACHELOR PARTY 😍🔥45 Mins+ NONSTOP MIX | WEDDING DANCE SONGS | SHAGNA DI RAAT | DJ SUNNY SINGH UK',
-      durationSeconds: 2773,
-    },
-    {
-      videoId: 'B7oYsb30UmI',
-      title:
-        'THE KING KHAN SPECIAL 🔥 SHAH RUKH KHAN HITS | 2 HRS NON-STOP BOLLYWOOD DANCE SONGS | SRK BIRTHDAY',
-      durationSeconds: 7099,
-    },
-    {
-      videoId: 'BI3_CwthQ8Q',
-      title:
-        'Bollywood Dandiya Mix Mashup | Navratri Garba Dance Songs | Non-Stop Navratri Dance Hits | T-Series',
-      durationSeconds: 282,
-    },
-    {
-      videoId: 'kzLArKaU5M0',
-      title:
-        'Emraan Hashmi Mashup | Non Stop Hits | Kedrock | Himesh Reshammiya | Arijit Singh | K.K. | Mithoon',
-      durationSeconds: 371,
-    },
-    {
-      videoId: 'nFhkE2p62p8',
-      title:
-        'PROMISE OF LOVE (Mashup) 2025 | Arijit Singh, Sachet-Parampara | Non-Stop Bollywood Hits | Kedrock',
-      durationSeconds: 788,
-    },
-  ],
-  Cricket: [
-    {
-      videoId: '3PqrnU1EVCg',
-      title: 'From the Vault: Super Sachin steers India to victory in tri-series final',
-      durationSeconds: 314,
-    },
-    {
-      videoId: 'zqwXo74klfU',
-      title: 'Rahul Dravid Hits 217 at The Oval | England v India 2002 - Highlights',
-      durationSeconds: 605,
-    },
-    {
-      videoId: 'o_lvEkwuI0M',
-      title: 'MS Dhoni - Master Finisher | England v India 2011 - Highlights',
-      durationSeconds: 177,
-    },
-    {
-      videoId: 'tr01vxyCT2U',
-      title: "From the vault: Sunil Gavaskar's highest Test score against Australia",
-      durationSeconds: 287,
-    },
-    {
-      videoId: 'bbZdkBLYcak',
-      title: 'From the Vault: Lara makes history with 226 in Adelaide',
-      durationSeconds: 395,
-    },
-    {
-      videoId: 's_P8fpLsi-A',
-      title: "241 runs - with no cover drives! Sachin's SCG epic",
-      durationSeconds: 303,
-    },
-    {
-      videoId: 'n4zpUCrcGic',
-      title: 'Dravid & Laxman dominate Aussies in 303 run stand | From the Vault',
-      durationSeconds: 822,
-    },
-    {
-      videoId: 'KApjf4TCJcc',
-      title: 'Highlights - Sam Billings 93, MS Dhoni 68* - India A v England',
-      durationSeconds: 670,
-    },
-    {
-      videoId: 'cJjYRvlPWqY',
-      title:
-        "The ORIGINAL Little Master goes BANG! Best of Gavaskar's ODIs in Australia | From the Vault",
-      durationSeconds: 563,
-    },
-    {
-      videoId: 'Shnvxd533T0',
-      title: 'From the Vault: Kapil Dev cleans up',
-      durationSeconds: 280,
-    },
-    {
-      videoId: 'ypd-s37SKWA',
-      title: "Sachin's Sydney love-affair continues with majestic 154no",
-      durationSeconds: 389,
-    },
-    {
-      videoId: 'UYKJM2Gttv4',
-      title: "The Wall Gets on the Board! Rahul Dravid's 103* | England v India 2011 | Lord's",
-      durationSeconds: 275,
-    },
-    {
-      videoId: 'bejn1Mjg4kc',
-      title:
-        'Dhoni Fireworks and Pietersen At His Best! | England v India Greatest Moments - Part 3',
-      durationSeconds: 1042,
-    },
-    {
-      videoId: '-ogpk3QumaA',
-      title: 'From the Vault: Sir Viv smashes ODI century at the MCG',
-      durationSeconds: 363,
-    },
-    {
-      videoId: 'sArP2GSvzM8',
-      title: "Through the gate! The best of Warne's flipper",
-      durationSeconds: 372,
-    },
-    {
-      videoId: 'O4e6k8_oAJk',
-      title: 'From the Vault: Insane spell of 7-1 as Ambrose wreaks havoc',
-      durationSeconds: 333,
-    },
-    {
-      videoId: 'J_Qa02WIe-o',
-      title: 'Legends DOMINATE Australia-India ODI classic | From the Vault',
-      durationSeconds: 1431,
-    },
-    {
-      videoId: 'gJXgTYeFvtk',
-      title:
-        'Dhoni, KP & Collingwood Impress in Another England India Final! | Classic ODI | England v India 2007',
-      durationSeconds: 776,
-    },
-  ],
-  'Jungle Book': [
-    {
-      videoId: 'odvVf3ch64E',
-      title: 'The Jungle Book Hindi Episode 01 | Mowgli Comes to the Jungle',
-      durationSeconds: 1297,
-    },
-    {
-      videoId: 'agHoNRTL_Ks',
-      title: 'The Jungle Book Hindi Episode 02 | The Birth of Wolf Boy Mowgli',
-      durationSeconds: 1351,
-    },
-    {
-      videoId: '9HYE0zyvNa0',
-      title: "The Jungle Book Hindi Episode 03 | Moti's Son",
-      durationSeconds: 1297,
-    },
-    {
-      videoId: 'vumSKwmyMwA',
-      title: 'The Jungle Book Hindi Episode 04 | The Jungle Law',
-      durationSeconds: 1295,
-    },
-    {
-      videoId: 'D1IpMgi_AdY',
-      title: 'The Jungle Book Hindi Episode 05 | A New Friend',
-      durationSeconds: 1296,
-    },
-    {
-      videoId: 'tvbITfFc1JY',
-      title: 'The Jungle Book Hindi Episode 06 | Pappu is Alone',
-      durationSeconds: 1296,
-    },
-    {
-      videoId: 'IjVRuVi2OpE',
-      title: 'The Jungle Book Hindi Episode 07 | The Cold Fang',
-      durationSeconds: 1295,
-    },
-    {
-      videoId: 'noE4RYrZlWE',
-      title: 'The Jungle Book Hindi Episode 08 | Sorry Bhaloo!',
-      durationSeconds: 1297,
-    },
-    {
-      videoId: '-oRcXfOhQBg',
-      title: 'The Jungle Book Hindi Episode 09 | More Precious than the Law',
-      durationSeconds: 1297,
-    },
-    {
-      videoId: 'kcV5qCOIFd4',
-      title: 'The Jungle Book Hindi Episode 10 | An Old Wolf Visits',
-      durationSeconds: 1297,
-    },
-    {
-      videoId: 'yWKOCigDGcg',
-      title: 'The Jungle Book Hindi Episode 11 | The Devil in the Mind',
-      durationSeconds: 1296,
-    },
-    {
-      videoId: 'i2CRc_lvP9c',
-      title: 'The Jungle Book Hindi Episode 12 | Adventurous Journey',
-      durationSeconds: 1297,
-    },
-  ],
-  Shaktimaan: [
-    {
-      videoId: 'uOleNIC8Spg',
-      title: 'Shaktimaan Hindi – Best Superhero Tv Series - Full Episode 1 - शक्तिमान - एपिसोड १',
-      durationSeconds: 2632,
-    },
-    {
-      videoId: 'TjXcAWSa7vQ',
-      title: 'Shaktimaan Hindi – Best Superhero Tv Series - Full Episode 2 - शक्तिमान - एपिसोड २',
-      durationSeconds: 2546,
-    },
-    {
-      videoId: 'DQuDVLm5QXc',
-      title: 'Shaktimaan Hindi – Best Superhero Tv Series - Full Episode 3 - शक्तिमान - एपिसोड ३',
-      durationSeconds: 2414,
-    },
-    {
-      videoId: 'ilF-4DbczNk',
-      title: 'Shaktimaan Hindi – Best Superhero Tv Series - Full Episode 4 - शक्तिमान - एपिसोड ४',
-      durationSeconds: 2587,
-    },
-    {
-      videoId: '_qPQ4qEcxwI',
-      title: 'Shaktimaan Hindi – Best Superhero Tv Series - Full Episode 5 - शक्तिमान - एपिसोड ५',
-      durationSeconds: 2381,
-    },
-    {
-      videoId: '9Lza8ZTTICw',
-      title: 'Shaktimaan Hindi – Best Superhero Tv Series - Full Episode 6 - शक्तिमान - एपिसोड ६',
-      durationSeconds: 2341,
-    },
-    {
-      videoId: 'u5XlPxQpt64',
-      title: 'Shaktimaan Hindi – Best Superhero Tv Series - Full Episode 7 - शक्तिमान - एपिसोड ७',
-      durationSeconds: 2418,
-    },
-    {
-      videoId: '8KFqk0M2yfk',
-      title:
-        'Shaktimaan Hindi – Santa Claus in Best Superhero Tv Series - Full Episode 8 - शक्तिमान - एपिसोड ८',
-      durationSeconds: 2593,
-    },
-    {
-      videoId: 'sCyoe3GCXFY',
-      title: 'Shaktimaan Hindi – Best Superhero Tv Series - Full Episode 9 - शक्तिमान - एपिसोड ९',
-      durationSeconds: 2526,
-    },
-    {
-      videoId: 'hDmsAlEzxOg',
-      title: 'Shaktimaan Hindi – Best Superhero Tv Series - Full Episode 10 - शक्तिमान - एपिसोड १०',
-      durationSeconds: 2357,
-    },
-    {
-      videoId: 'PClSnuMD5SU',
-      title: 'Shaktimaan Hindi – Best Superhero Tv Series - Full Episode 11 - शक्तिमान - एपिसोड ११',
-      durationSeconds: 2490,
-    },
-    {
-      videoId: 'irWZgxE--Lg',
-      title: 'Shaktimaan Hindi – Best Superhero Tv Series - Full Episode 12 - शक्तिमान - एपिसोड १२',
-      durationSeconds: 2475,
-    },
-  ],
-  'DD Classics': [
-    {
-      videoId: 'qW4LZh2O4r8',
-      title: 'चाणक्य Official | Episode 1 | Directed & Acted by Dr. Chandraprakash Dwivedi',
-      durationSeconds: 2594,
-    },
-    {
-      videoId: '-QFDB4xnp8Y',
-      title:
-        'चाणक्य Official | Episode 2 | Directed & Acted by Dr. Chandraprakash Dwivedi #chanakya #chanakyaniti',
-      durationSeconds: 2538,
-    },
-    {
-      videoId: 'OsdW37oJkRU',
-      title:
-        'चाणक्य Official | Episode 7 | Directed & Acted by Dr. Chandraprakash Dwivedi #chanakya #chanakyaniti',
-      durationSeconds: 2824,
-    },
-    {
-      videoId: '7EgHk75-XBk',
-      title:
-        'चाणक्य Official | Episode 8 | Directed & Acted by Dr. Chandraprakash Dwivedi #chanakya #chanakyaniti',
-      durationSeconds: 2733,
-    },
-    {
-      videoId: 'dHd8CmRrMXE',
-      title:
-        'चाणक्य Official | Episode 9 | Directed & Acted by Dr. Chandraprakash Dwivedi #chanakya #chanakyaniti',
-      durationSeconds: 3003,
-    },
-    {
-      videoId: 'n9LpWyWj-7E',
-      title:
-        'चाणक्य Official | Episode 12 | Directed & Acted by Dr.Chandraprakash Dwivedi #chanakya #chanakyaniti',
-      durationSeconds: 2820,
-    },
-    {
-      videoId: 'invcVNqmJNA',
-      title:
-        'चाणक्य Official | Episode 3 | Directed & Acted by Dr. Chandraprakash Dwivedi #chanakya #chanakyaniti',
-      durationSeconds: 2436,
-    },
-    {
-      videoId: '_-4SSGEtH08',
-      title:
-        'चाणक्य Official | Episode 4 | Directed & Acted by Dr. Chandraprakash Dwivedi #chanakya #chanakyaniti',
-      durationSeconds: 2482,
-    },
-    {
-      videoId: 'm5Er1dLMi9U',
-      title: 'चाणक्य Official | Full Episode 6 | Directed & Acted by Dr. Chandraprakash Dwivedi',
-      durationSeconds: 2536,
-    },
-    {
-      videoId: 'vnswwBMTokk',
-      title: 'चाणक्य Official | Episode 5 | Directed & Acted by Dr. Chandraprakash Dwivedi',
-      durationSeconds: 2508,
-    },
-    {
-      videoId: '_OhmmPnEIac',
-      title:
-        'चाणक्य Official | Episode 6 | Part -2| Directed & Acted by Dr. Chandraprakash Dwivedi',
-      durationSeconds: 1513,
-    },
-    {
-      videoId: 'cg3VI8ebgJ0',
-      title: 'चाणक्य Official | Episode 7 | Part -1| Directed & Acted by Dr. Chandraprakash',
-      durationSeconds: 1247,
-    },
-  ],
-  Ramayan: [
-    {
-      videoId: 'vIh99bkSc_w',
-      title: 'रामायण - EP 1 - राजा दशरथ का पुत्रेष्टि यज्ञ व श्री राम का जन्म',
-      durationSeconds: 2097,
-    },
-    {
-      videoId: 'h8TcpbMra3Y',
-      title: 'रामायण - EP 2 - राजा दशरथ के चारों पुत्र का गुरुकुल को प्रस्थान',
-      durationSeconds: 1941,
-    },
-    {
-      videoId: 'nLYKT3RNOCY',
-      title: 'रामायण - EP 3 - महर्षि वशिष्ठ के आश्रम में अयोध्या के राजकुमारों की दीक्षा।',
-      durationSeconds: 2174,
-    },
-    {
-      videoId: 'hcP-XeE3EVg',
-      title: 'रामायण - EP 4 -  अयोध्या में चारों राजकुमारों का आगमन। श्रीराम द्वारा ताड़का वध',
-      durationSeconds: 2227,
-    },
-    {
-      videoId: 'ywJB4qgAB1M',
-      title: 'रामायण - EP 5 - विश्वामित्र के यज्ञ की रक्षा, अहिल्या उद्धार',
-      durationSeconds: 2193,
-    },
-    {
-      videoId: 'fSCCYtaFu9c',
-      title:
-        'रामायण - EP 6 - राम लक्ष्मण और विश्वामित्र का जनकपुर आगमन। पुष्पवाटिका में राम सीता दर्शन।',
-      durationSeconds: 2187,
-    },
-    {
-      videoId: 't1T8Wt6PjcI',
-      title: 'रामायण - EP 7 - सीता स्वयंवर। राजाओं से धनुष न उठना। जनक की निराशाजनक वाणी।',
-      durationSeconds: 2210,
-    },
-    {
-      videoId: 'DTS68H8OV9I',
-      title: 'रामायण - EP 8 - श्री राम द्वारा धनुष भंग। सीता द्वारा जयमाल। परशुराम लक्ष्मण संवाद।',
-      durationSeconds: 2168,
-    },
-    {
-      videoId: '9tmTzNr84AI',
-      title: 'रामायण - EP 9 - राजा जनक का राजा दशरथ को सन्देश। राम बारात का मिथिला में आगमन।',
-      durationSeconds: 2093,
-    },
-    {
-      videoId: 'MaeAIcLXfzs',
-      title: 'रामायण - EP 10 - श्री राम सीता विवाह',
-      durationSeconds: 2139,
-    },
-    {
-      videoId: 'S8s4KW6tuio',
-      title:
-        'रामायण - EP 11 - राम बारात की विदाई। अयोध्या में सीता का स्वागत और राम का एक पत्नीव्रत।',
-      durationSeconds: 2151,
-    },
-    {
-      videoId: 'kvOASD0wqGg',
-      title:
-        'रामायण - EP 12 - भरत-शत्रुघ्न ननिहाल जाते हैं । दशरथ राम के राज्याभिषेक का निर्णय लेते हैं।',
-      durationSeconds: 2103,
-    },
-  ],
-  Mahabharat: [
-    {
-      videoId: 'RSqZbTn2wj4',
-      title: 'नीति या शकुनि का कपट? | Mahabharat Scene | B R Chopra | Pen Bhakti',
-      durationSeconds: 539,
-    },
-    {
-      videoId: 'ZmxvB3ySN2s',
-      title: 'शकुनि की कूटनीति का रहस्य क्या था? | Mahabharat Scene | B R Chopra | Pen Bhakti',
-      durationSeconds: 539,
-    },
-    {
-      videoId: 'k99GbpMECi8',
-      title:
-        'धृतराष्ट्र और गांधारी क्यों व्याकुल हुए? | Mahabharat Scene | B R Chopra | Pen Bhakti',
-      durationSeconds: 375,
-    },
-    {
-      videoId: '1mWg5Y-ijso',
-      title:
-        'षड्यंत्र सफल होने पर दुर्योधन क्यों मुस्कुराया? | Mahabharat Scene | B R Chopra | Pen Bhakti',
-      durationSeconds: 421,
-    },
-    {
-      videoId: 'etTmIlXbf4M',
-      title: 'पांडवों की सुरक्षा बढ़ाई गई | Mahabharat Scene | B R Chopra | Pen Bhakti',
-      durationSeconds: 301,
-    },
-    {
-      videoId: 'baZMuemRxYs',
-      title: 'वारणावत में पांडवों का भव्य स्वागत | Mahabharat Scene | B R Chopra | Pen Bhakti',
-      durationSeconds: 399,
-    },
-    {
-      videoId: '0V3QD2F9Fu4',
-      title: 'युधिष्ठिर ने बनाई गुप्त रणनीति | Mahabharat Scene | B R Chopra | Pen Bhakti',
-      durationSeconds: 217,
-    },
-    {
-      videoId: 'b7s6eLXuxfA',
-      title: 'युधिष्ठिर–विदुर का रहस्यमय संवाद | Mahabharat Scene | B R Chopra | Pen Bhakti',
-      durationSeconds: 359,
-    },
-    {
-      videoId: 'k0S2EwMUjyE',
-      title: 'दुर्योधन और शकुनि की गुप्त चर्चा | Mahabharat Scene | B R Chopra | Pen Bhakti',
-      durationSeconds: 181,
-    },
-    {
-      videoId: 'Y4kAjoYGD50',
-      title: 'युधिष्ठिर ने धृतराष्ट्र से क्या माँगा? | Mahabharat Scene | B R Chopra | Pen Bhakti',
-      durationSeconds: 251,
-    },
-    {
-      videoId: 'OvAaL8NE0xI',
-      title: 'भीम और पांडवों की गंभीर चर्चा | Mahabharat Scene | B R Chopra | Pen Bhakti',
-      durationSeconds: 257,
-    },
-    {
-      videoId: 'Xaa9r5X6dII',
-      title: 'गांधारी ने की दुर्योधन की प्रशंसा | Mahabharat Scene | B R Chopra | Pen Bhakti',
-      durationSeconds: 318,
-    },
-  ],
-  Animals: [
-    {
-      videoId: 'RN8pSJ3hOrc',
-      title: 'Happy Beginnings: Orphan Bear Cubs Unite | Cub Camp 102',
-      durationSeconds: 3001,
-    },
-    {
-      videoId: '2VogebnpKYs',
-      title: 'The Largest Coral Reef in the WORLD! | Pacific 102',
-      durationSeconds: 2828,
-    },
-    {
-      videoId: '6z6gbo0SpD8',
-      title: 'Secrets of the Elephants | Season 1 MEGA EPISODE | Nat Geo Animals',
-      durationSeconds: 9755,
-    },
-    {
-      videoId: '4zxAxbBuz8s',
-      title: 'Wildlife | Episode 5: Elephants of Africa & Asia | Free Documentary Nature',
-      durationSeconds: 3120,
-    },
-    {
-      videoId: 'FwOoC0QdeG4',
-      title: 'Elephants Being Elephants | BBC Earth',
-      durationSeconds: 2300,
-    },
-    {
-      videoId: '3-QqmQ_MIe4',
-      title: 'A Journey Across Africa | BBC Earth',
-      durationSeconds: 2983,
-    },
-    {
-      videoId: 'dXRRLQEd5r4',
-      title:
-        'Rare Wildlife of China’s Mountains (Full Episode) | The Hidden Kingdoms of China | Nat Geo Animals',
-      durationSeconds: 2665,
-    },
-    {
-      videoId: 'D6_e6yKH26Q',
-      title: 'Clan of the North (Full Episode) | Kingdom of the Polar Bears',
-      durationSeconds: 2665,
-    },
-    {
-      videoId: 'oo9c9HC-pmM',
-      title: 'The Incredible Wildlife of Hidden Forests | BBC Earth',
-      durationSeconds: 5346,
-    },
-    {
-      videoId: 'UiFjONQDHNM',
-      title:
-        'Wildlife | Episode 1: Tiger, Lion, Leopard & Jaguar - The Four Big Cats | Free Documentary Nature',
-      durationSeconds: 3120,
-    },
-  ],
-  'Street Food': [
-    {
-      videoId: 'HUl5OEWx0zc',
-      title: 'The Food Bhutan is Hiding From the World!!',
-      durationSeconds: 6058,
-    },
-    {
-      videoId: '--Fjm1dSE8w',
-      title: 'Eating with a Somali Pirate in Somalia!!',
-      durationSeconds: 1382,
-    },
-    {
-      videoId: 'xLP-d7kRIb0',
-      title: "Mega Rats and Poison Snakes — Inside Asia's Bizarre Farms!!",
-      durationSeconds: 6329,
-    },
-    {
-      videoId: '5rhQGVR3HgI',
-      title: "Surviving Somalia's Extreme Street Food!!",
-      durationSeconds: 1685,
-    },
-    {
-      videoId: 'mDyMc5-ri-o',
-      title: 'Minnesota Man Goes to Somalia!!',
-      durationSeconds: 1589,
-    },
-    {
-      videoId: 'x0kRwgik1cU',
-      title: "After This, I'm Quitting Youtube",
-      durationSeconds: 800,
-    },
-    {
-      videoId: 'QPR-Q5ysXtA',
-      title: 'Eating Every Asian Fried Chicken!!',
-      durationSeconds: 1551,
-    },
-    {
-      videoId: '3esVCX2vXjc',
-      title: 'How Japan is Destroying American Burgers!!',
-      durationSeconds: 1597,
-    },
-    {
-      videoId: 'f6MqooV8mAY',
-      title: 'Iraq Street Food from Baghdad to Kurdistan!! from $1 to $1000!!',
-      durationSeconds: 6484,
-    },
-    {
-      videoId: 'h90E1Cp05Qw',
-      title: 'JAPANified Pizza!! Why are they doing this!?!?',
-      durationSeconds: 1536,
-    },
-    {
-      videoId: 'rYaj4u4wU6Q',
-      title: 'What is Japan Doing To Sandwiches?!?!',
-      durationSeconds: 1272,
-    },
-    {
-      videoId: 'sxQkWt0Pg_c',
-      title: 'How Japan is DESTROYING American Breakfast!!',
-      durationSeconds: 1641,
-    },
-  ],
-  Space: [
-    {
-      videoId: 'wkQuOrsgVGY',
-      title: 'Eight Wonders Of Our Solar System | The Planets | BBC Earth Science',
-      durationSeconds: 3930,
-    },
-    {
-      videoId: 'KNoJBAxoTk0',
-      title: 'Explore Our Solar System’s Secrets 🪐 How the Universe Works | Science Channel',
-      durationSeconds: 3838,
-    },
-    {
-      videoId: 'iqJjTeYv5-M',
-      title: 'Everything You Want to Know About Planets | How the Universe Works | Science Channel',
-      durationSeconds: 3509,
-    },
-    {
-      videoId: '31g2MOcanBU',
-      title: 'The Age of Hubble 4K',
-      durationSeconds: 2741,
-    },
-    {
-      videoId: 'uBJeOvWqNkg',
-      title:
-        "The Mysteries Behind Our Solar System's Majestic Planets | The Planets | BBC Earth Science",
-      durationSeconds: 3915,
-    },
-    {
-      videoId: 'SLmWY_ycFUA',
-      title: 'Uncovering the Secrets of the Sun (Full Episode) | National Geographic',
-      durationSeconds: 2665,
-    },
-  ],
+// Generated by npm run bundle:programs. Only the selected channel's import is invoked.
+export const CURATED_PROGRAMS: Partial<
+  Record<
+    string,
+    {
+      version: string
+      load: () => Promise<CatalogItem[]>
+    }
+  >
+> = {
+  Bollywood: {
+    version: 'd3b570fe2aa9cf03',
+    load: () => import('./programs/001.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Cricket: {
+    version: '6cf5b97c40f8d87c',
+    load: () => import('./programs/002.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  'Jungle Book': {
+    version: '5a824e951510e176',
+    load: () => import('./programs/003.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Shaktimaan: {
+    version: '4c70820c7dc17273',
+    load: () => import('./programs/004.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  'DD Classics': {
+    version: '959d17a04f2d7651',
+    load: () => import('./programs/005.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Ramayan: {
+    version: '47e4bf2bb6cf0a96',
+    load: () => import('./programs/006.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Mahabharat: {
+    version: '2aee0d1f8283010a',
+    load: () => import('./programs/007.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Animals: {
+    version: '20318201c325e5d0',
+    load: () => import('./programs/008.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  'Street Food': {
+    version: 'b2bea6094d0aa21a',
+    load: () => import('./programs/009.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Space: {
+    version: 'd3b6c7e39e919e01',
+    load: () => import('./programs/010.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Football: {
+    version: 'f9aa9ee18aff9845',
+    load: () => import('./programs/011.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Tokyo: {
+    version: '1e4ff7cf0eb9ac3e',
+    load: () => import('./programs/012.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Kindness: {
+    version: '7d79026a3f3ce107',
+    load: () => import('./programs/013.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Dogs: {
+    version: '3b4375c95d56dc91',
+    load: () => import('./programs/014.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Kitchen: {
+    version: 'e30330081934d59c',
+    load: () => import('./programs/015.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Formula: {
+    version: '3e35cb84f299ff08',
+    load: () => import('./programs/016.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Craft: {
+    version: 'f18f03a9daa763e6',
+    load: () => import('./programs/017.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  'Good News': {
+    version: '94d35be4bd3c7e31',
+    load: () => import('./programs/018.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Safari: {
+    version: '447ba3b85dcdde9a',
+    load: () => import('./programs/019.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Dance: {
+    version: '61a02919c9664256',
+    load: () => import('./programs/020.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Olympics: {
+    version: '175d63876c13cd28',
+    load: () => import('./programs/021.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Talks: {
+    version: 'bce8347875e284c3',
+    load: () => import('./programs/022.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Cats: {
+    version: '50f9ded52f635bf1',
+    load: () => import('./programs/023.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Circus: {
+    version: 'e9296d4562e00942',
+    load: () => import('./programs/024.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Nature: {
+    version: '0831627b69d10d92',
+    load: () => import('./programs/025.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Ocean: {
+    version: 'c5c324ecfb0fa3af',
+    load: () => import('./programs/026.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Lofi: {
+    version: '898b9371fc0533f4',
+    load: () => import('./programs/027.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  'Classic Music': {
+    version: 'd46d35fda2e24552',
+    load: () => import('./programs/028.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Rain: {
+    version: 'c20d49ab0a62a765',
+    load: () => import('./programs/029.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Fireplace: {
+    version: '30b154e7d03337ca',
+    load: () => import('./programs/030.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Forest: {
+    version: '97b1c602078d6334',
+    load: () => import('./programs/031.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Mountains: {
+    version: '1adca808d053b75b',
+    load: () => import('./programs/032.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Desert: {
+    version: 'b1bf44fc58b4e093',
+    load: () => import('./programs/033.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  River: {
+    version: '13cd39ac56295923',
+    load: () => import('./programs/034.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Falls: {
+    version: '0210571b759d93e4',
+    load: () => import('./programs/035.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Snow: {
+    version: '293b8d8897172b2e',
+    load: () => import('./programs/036.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Aurora: {
+    version: '4a31ef3758fe3761',
+    load: () => import('./programs/037.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Clouds: {
+    version: '04f2318938bc8c8e',
+    load: () => import('./programs/038.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Stars: {
+    version: '726bc5f3cfde2b7b',
+    load: () => import('./programs/039.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Aquarium: {
+    version: '584089c71f7d140c',
+    load: () => import('./programs/040.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Birds: {
+    version: '1657b1c39a8bae6d',
+    load: () => import('./programs/041.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Whales: {
+    version: '9fe5bdc706de1a17',
+    load: () => import('./programs/042.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Horses: {
+    version: '7a6b5a6ef38b9cc9',
+    load: () => import('./programs/043.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Pandas: {
+    version: '6ac63fa736b75bd6',
+    load: () => import('./programs/044.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Bees: {
+    version: '3cdc6c44b88d78ce',
+    load: () => import('./programs/045.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Farm: {
+    version: 'eea9cb1751a5c628',
+    load: () => import('./programs/046.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Reef: {
+    version: '9e6d2015513288cf',
+    load: () => import('./programs/047.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Piano: {
+    version: '299c8de5748f9a5a',
+    load: () => import('./programs/048.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Guitar: {
+    version: 'c33962dd3569554d',
+    load: () => import('./programs/049.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Violin: {
+    version: '29cb726ce4d7ef18',
+    load: () => import('./programs/050.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Choir: {
+    version: '940a557b189839eb',
+    load: () => import('./programs/051.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Ambient: {
+    version: '83035b1fb6b3bc94',
+    load: () => import('./programs/052.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Soul: {
+    version: '49a1b697b2e325e4',
+    load: () => import('./programs/053.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Blues: {
+    version: '5347b1a6c4160b5f',
+    load: () => import('./programs/054.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Reggae: {
+    version: '2e866d55605e8b76',
+    load: () => import('./programs/055.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Bossa: {
+    version: '413acd79352c3db7',
+    load: () => import('./programs/056.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Flamenco: {
+    version: '83f96ee33011d9db',
+    load: () => import('./programs/057.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Gospel: {
+    version: '4da659057a715a26',
+    load: () => import('./programs/058.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Disco: {
+    version: 'edba70c873ce2a66',
+    load: () => import('./programs/059.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Funk: {
+    version: 'f006ad03fab78218',
+    load: () => import('./programs/060.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Score: {
+    version: '750c360ab5fd679e',
+    load: () => import('./programs/061.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Celtic: {
+    version: 'e514b0b2dcd6f1e0',
+    load: () => import('./programs/062.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Sitar: {
+    version: 'ef5ebca4b2f9023d',
+    load: () => import('./programs/063.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Kora: {
+    version: 'ca61163b6e1452c2',
+    load: () => import('./programs/064.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Fado: {
+    version: '2733f93d41802278',
+    load: () => import('./programs/065.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Gagaku: {
+    version: 'a5e34b41cbea6206',
+    load: () => import('./programs/066.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Mariachi: {
+    version: 'f588ad3e645a6fa3',
+    load: () => import('./programs/067.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Highlife: {
+    version: '5ec6d4f7abe5d791',
+    load: () => import('./programs/068.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Gamelan: {
+    version: '0c9817e5f137c6a9',
+    load: () => import('./programs/069.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Opera: {
+    version: '758bf4e9bbf68956',
+    load: () => import('./programs/070.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Harp: {
+    version: 'a3865ffe2201169b',
+    load: () => import('./programs/071.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Flute: {
+    version: 'b2fef06b133b4d58',
+    load: () => import('./programs/072.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Organ: {
+    version: '8ae739d809026a45',
+    load: () => import('./programs/073.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Baking: {
+    version: 'ff41af26cedffb74',
+    load: () => import('./programs/074.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Coffee: {
+    version: '3a88e5808bb32740',
+    load: () => import('./programs/075.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Tea: {
+    version: 'd050f2b2371631d4',
+    load: () => import('./programs/076.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Pasta: {
+    version: '28d363c2f5430f94',
+    load: () => import('./programs/077.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Clay: {
+    version: 'c6fd4adbcf209876',
+    load: () => import('./programs/078.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Wood: {
+    version: '1fd519b33d0b9b49',
+    load: () => import('./programs/079.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Glass: {
+    version: 'c6bb9ec9321ebf26',
+    load: () => import('./programs/080.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Ink: {
+    version: 'bdf223ee678086fd',
+    load: () => import('./programs/081.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Paint: {
+    version: 'a210086d4fe4bb22',
+    load: () => import('./programs/082.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Yarn: {
+    version: '6581645590c2f8f7',
+    load: () => import('./programs/083.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Paper: {
+    version: '9c0287d59823f2f5',
+    load: () => import('./programs/084.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Paris: {
+    version: '61761302b30c66e9',
+    load: () => import('./programs/085.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Venice: {
+    version: 'b94590255cabf614',
+    load: () => import('./programs/086.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Kyoto: {
+    version: '6511a9ccdec4b304',
+    load: () => import('./programs/087.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Marrakech: {
+    version: '3199f539c6e93cc9',
+    load: () => import('./programs/088.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Havana: {
+    version: 'e9e10d36b31dfc7f',
+    load: () => import('./programs/089.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Seoul: {
+    version: '934c033a4052ef8d',
+    load: () => import('./programs/090.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Cairo: {
+    version: '7b6d8fa3d4ee400d',
+    load: () => import('./programs/091.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Andes: {
+    version: '33a8005315c4ecdc',
+    load: () => import('./programs/092.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Iceland: {
+    version: 'f0de49bb9021ca76',
+    load: () => import('./programs/093.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Kerala: {
+    version: '382874e6fd27510e',
+    load: () => import('./programs/094.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Lisbon: {
+    version: '3af8e67fc3e7e84e',
+    load: () => import('./programs/095.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Yoga: {
+    version: '87fd3835435910db',
+    load: () => import('./programs/096.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Still: {
+    version: '053266e7b26df0f2',
+    load: () => import('./programs/097.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  'Tai Chi': {
+    version: '24ab5768a867760a',
+    load: () => import('./programs/098.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Museum: {
+    version: '22f6ed1d0626889e',
+    load: () => import('./programs/099.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Buildings: {
+    version: 'f1ae40dabeb34bf6',
+    load: () => import('./programs/100.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  History: {
+    version: '1786dc122fb260cd',
+    load: () => import('./programs/101.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Rocks: {
+    version: 'c3922dfacc80439c',
+    load: () => import('./programs/102.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Words: {
+    version: '4ea923d5ff45f47b',
+    load: () => import('./programs/103.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Chess: {
+    version: 'cb1858f513c5566d',
+    load: () => import('./programs/104.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Gardens: {
+    version: '781d9931c27ae0b1',
+    load: () => import('./programs/105.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Trains: {
+    version: 'de51759684dd7094',
+    load: () => import('./programs/106.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Sailing: {
+    version: '1f75f2909908bb88',
+    load: () => import('./programs/107.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Tennis: {
+    version: '7363652c2376aade',
+    load: () => import('./programs/108.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Hoops: {
+    version: '55a7c48183f15fd9',
+    load: () => import('./programs/109.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Peloton: {
+    version: '678ecca0f1142b7d',
+    load: () => import('./programs/110.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Ice: {
+    version: '5e01ed68f2a3db2d',
+    load: () => import('./programs/111.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Surf: {
+    version: '051d1bb06050f35a',
+    load: () => import('./programs/112.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Trail: {
+    version: '8b9c7529f5d1accf',
+    load: () => import('./programs/113.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Camp: {
+    version: 'd1495f082f43c2ac',
+    load: () => import('./programs/114.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Library: {
+    version: 'cfffe5e3c84725e3',
+    load: () => import('./programs/115.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Bookshop: {
+    version: 'dcecd9dda1b9dbfe',
+    load: () => import('./programs/116.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Vinyl: {
+    version: '95d77ec7a9cc0e69',
+    load: () => import('./programs/117.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Dawn: {
+    version: '2d80a9c03cf0364c',
+    load: () => import('./programs/118.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Dusk: {
+    version: '0ab4c0b0c8c7f575',
+    load: () => import('./programs/119.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Storm: {
+    version: '2a0e84efec437914',
+    load: () => import('./programs/120.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Wind: {
+    version: '76c2d19a31e676fb',
+    load: () => import('./programs/121.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Market: {
+    version: '7b3d435816e7f71a',
+    load: () => import('./programs/122.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Festival: {
+    version: '956cebf17c3f8ecf',
+    load: () => import('./programs/123.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Puppets: {
+    version: 'ff5ecf7e2ab651a5',
+    load: () => import('./programs/124.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
+  Lakes: {
+    version: '8f8c926b95caf480',
+    load: () => import('./programs/125.json', { with: { type: 'json' } }).then((m) => m.default),
+  },
 }

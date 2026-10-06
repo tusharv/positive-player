@@ -9,6 +9,8 @@ export type Channel = {
   name: string
   kind: ChannelKind
   curatedCatalog?: CatalogItem[]
+  curatedVersion?: string
+  loadCuratedCatalog?: () => Promise<CatalogItem[]>
   query?: string
   playlistId?: string
   titleTerms?: string[]
@@ -161,7 +163,12 @@ export const CHANNELS: Channel[] = LINEUP.map((row, index) => ({
   number: index + 1,
   ...row,
   kind: CURATED_PROGRAMS[row.name] ? 'curated' : row.playlistId ? 'playlist' : 'search',
-  ...(CURATED_PROGRAMS[row.name] ? { curatedCatalog: CURATED_PROGRAMS[row.name] } : {}),
+  ...(CURATED_PROGRAMS[row.name]
+    ? {
+        curatedVersion: CURATED_PROGRAMS[row.name]!.version,
+        loadCuratedCatalog: CURATED_PROGRAMS[row.name]!.load,
+      }
+    : {}),
   tags: row.tags ?? [row.category, row.mood[0]!.toUpperCase() + row.mood.slice(1)],
 }))
 

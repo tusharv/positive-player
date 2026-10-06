@@ -235,6 +235,10 @@ select {
   margin: 1.2rem 0 0.6rem;
 }
 .channel {
+  /* Keep every station searchable and keyboard-accessible without laying out
+     off-screen descriptions and tags when the guide opens. */
+  content-visibility: auto;
+  contain-intrinsic-size: auto 120px;
   display: flex;
   width: 100%;
   text-align: left;
