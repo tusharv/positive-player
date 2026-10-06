@@ -57,8 +57,14 @@ it('invalidates cached programmes when the bundle version changes', () => {
 it('reuses a fresh saved catalog without downloading its bundle or calling the API', async () => {
   const items = [{ videoId: 'saved-video', durationSeconds: 600 }]
   const channel: Channel = {
-    number: 1, name: 'One', tags: [], kind: 'curated', curatedVersion: 'v1',
-    loadCuratedCatalog: vi.fn(async () => { throw new Error('unnecessary download') }),
+    number: 1,
+    name: 'One',
+    tags: [],
+    kind: 'curated',
+    curatedVersion: 'v1',
+    loadCuratedCatalog: vi.fn(async () => {
+      throw new Error('unnecessary download')
+    }),
   }
   const fetchFn = vi.fn()
   const storage = {
@@ -73,9 +79,17 @@ it('reuses a fresh saved catalog without downloading its bundle or calling the A
 it('keeps a stale saved catalog if its lazy file cannot be downloaded', async () => {
   const items = [{ videoId: 'saved-video', durationSeconds: 600 }]
   const channel: Channel = {
-    number: 1, name: 'One', tags: [], kind: 'curated', curatedVersion: 'v1',
-    loadCuratedCatalog: async () => { throw new Error('Network unavailable') },
+    number: 1,
+    name: 'One',
+    tags: [],
+    kind: 'curated',
+    curatedVersion: 'v1',
+    loadCuratedCatalog: async () => {
+      throw new Error('Network unavailable')
+    },
   }
   const storage = { getItem: () => JSON.stringify({ items, fetchedAt: 0 }), setItem: () => {} }
-  expect(await fetchChannelCatalog(channel, { apiKey: 'key', fetchFn: vi.fn(), storage })).toEqual(items)
+  expect(await fetchChannelCatalog(channel, { apiKey: 'key', fetchFn: vi.fn(), storage })).toEqual(
+    items,
+  )
 })

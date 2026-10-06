@@ -304,10 +304,18 @@ export async function fetchChannelCatalog(
 ): Promise<CatalogItem[]> {
   try {
     if (channel.kind === 'curated' && channel.loadCuratedCatalog && !channel.curatedCatalog) {
+      const cached = readCached(options.storage?.getItem(channelCatalogKey(channel)) ?? null)
+      if (
+        cached &&
+        (!options.apiKey ||
+          (Date.now() - cached.fetchedAt < CATALOG_TTL_MS &&
+            cached.items.some((item) => !options.excludeIds?.includes(item.videoId))))
+      ) {
+        return cached.items.filter((item) => !options.excludeIds?.includes(item.videoId))
+      }
       try {
         channel = { ...channel, curatedCatalog: await channel.loadCuratedCatalog() }
       } catch (error) {
-        const cached = readCached(options.storage?.getItem(channelCatalogKey(channel)) ?? null)
         if (cached)
           return cached.items.filter((item) => !options.excludeIds?.includes(item.videoId))
         throw error
