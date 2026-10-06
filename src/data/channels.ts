@@ -20,7 +20,7 @@ export type Channel = {
 
 type LineupRow = {
   name: string
-  playlistId: string
+  playlistId?: string
   titleTerms?: string[]
   query: string
   blurb: string
@@ -40,12 +40,12 @@ const LINEUP: LineupRow[] = [
   { name: 'Animals', playlistId: 'UURZPkuHwaoKwTP3CYPdVldg', query: 'cute animals peaceful wildlife companions', blurb: 'Bears, elephants, big cats, and remarkable wildlife stories.', mood: 'warm', category: 'Animals' },
   { name: 'Street Food', playlistId: 'UUcAd5Np7fO8SeejB1FVKcYw', query: 'street food around the world markets', blurb: 'Night markets and open grills.', mood: 'bright', category: 'Food' },
   { name: 'Space', playlistId: 'UULA_DiR1FfKNvjuUpBHmylQ', query: 'space documentary calm cosmos universe', blurb: 'Explore the planets, stars, and wonders of the universe.', mood: 'curious', category: 'Ideas' },
-  { name: 'Football', playlistId: 'PL3uJGozO1imeLG35XsHLeJD4r4nZCHuwF', query: 'classic Bundesliga football full matches', blurb: 'Classic Bundesliga matches and unforgettable goals.', mood: 'bright', category: 'Play' },
+  { name: 'Football', query: 'classic football soccer club international matches highlights goals', blurb: 'Classic matches, memorable goals, and highlights from club and international football around the world.', mood: 'bright', category: 'Play' },
   { name: 'Tokyo', playlistId: 'UUAcsAE1tpLuP3y7UhxUoWpQ', titleTerms: ["tokyo", "東京"], query: 'tokyo night walk ambient city 4k no talking', blurb: 'Neon rain and midnight trains.', mood: 'curious', category: 'Places' },
   { name: 'Kindness', playlistId: 'UUaDVcGDMkvcRb4qGARkWlyg', query: 'random acts of kindness compilation hopeful', blurb: 'Strangers being good on purpose.', mood: 'warm', category: 'World' },
   { name: 'Dogs', playlistId: 'UUINb0wqPz-A0dV9nARjJlOQ', titleTerms: ["dog", "puppy", "puppies"], query: 'happy dogs compilation golden retriever cute', blurb: 'Dogs glad to see you anyway.', mood: 'bright', category: 'Animals' },
   { name: 'Kitchen', playlistId: 'UUJHA_jMfCvEnv-3kRjTCQXw', query: 'comfort cooking home kitchen unhurried', blurb: 'Unhurried home cooking.', mood: 'warm', category: 'Food' },
-  { name: 'Formula', playlistId: 'UUB_qr75-ydFVKSF9Dmo6izg', query: 'formula 1 highlights onboard racing', blurb: 'Color and speed on a Sunday.', mood: 'bright', category: 'Play' },
+  { name: 'Formula', playlistId: 'UUB_qr75-ydFVKSF9Dmo6izg', query: 'formula 1 highlights onboard racing', blurb: 'Classic Formula 1, legendary circuits, and racing history.', mood: 'bright', category: 'Play' },
   { name: 'Craft', playlistId: 'UU6x7GwJxuoABSosgVXDYtTw', query: 'pottery woodworking process handmade studio', blurb: 'Hands making something slowly.', mood: 'warm', category: 'Making' },
   { name: 'Good News', playlistId: 'PLJzm9BhU_wL8u0sJS0XZm1NkloJW5-us4', query: 'positive news stories hopeful journalism', blurb: 'Headlines that leave the light on.', mood: 'bright', category: 'World' },
   { name: 'Safari', playlistId: 'UUyfZleh4w7buTzi0WfY8WqA', query: 'african savanna wildlife documentary calm', blurb: 'Open grassland and long light.', mood: 'curious', category: 'Animals' },
@@ -160,7 +160,7 @@ const LINEUP: LineupRow[] = [
 export const CHANNELS: Channel[] = LINEUP.map((row, index) => ({
   number: index + 1,
   ...row,
-  kind: CURATED_PROGRAMS[row.name] ? 'curated' : 'playlist',
+  kind: CURATED_PROGRAMS[row.name] ? 'curated' : row.playlistId ? 'playlist' : 'search',
   ...(CURATED_PROGRAMS[row.name] ? { curatedCatalog: CURATED_PROGRAMS[row.name] } : {}),
   tags: row.tags ?? [row.category, row.mood[0]!.toUpperCase() + row.mood.slice(1)],
 }))

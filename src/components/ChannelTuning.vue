@@ -1,12 +1,27 @@
 <script setup lang="ts">
-defineProps<{ label: string }>()
+defineProps<{ label: string; description?: string }>()
 </script>
 
 <template>
   <div class="tuning" role="status" data-testid="channel-tuning">
     <div class="tuning-card">
+      <svg
+        class="antenna"
+        viewBox="0 0 80 64"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        aria-hidden="true"
+      >
+        <path d="M40 38v18m-14 4h28M32 56h16" />
+        <g class="antenna-head">
+          <path d="M40 38V12m-20 8h40M25 28h30M30 36h20" />
+          <circle cx="40" cy="9" r="3" />
+        </g>
+      </svg>
       <p class="station">{{ label }}</p>
-      <div class="frequency" aria-hidden="true"><span /></div>
+      <p v-if="description" class="description">{{ description }}</p>
       <p class="message">Tuning in…</p>
     </div>
   </div>
@@ -36,21 +51,37 @@ defineProps<{ label: string }>()
   font-size: clamp(0.9rem, 2.5vw, 1.4rem);
   letter-spacing: 0.08em;
 }
-.frequency {
-  position: relative;
-  height: 1.5rem;
-  margin: 1.5rem 0;
-  border-bottom: 1px solid #65836b;
-  background: repeating-linear-gradient(90deg, #65836b 0 1px, transparent 1px 12px);
+.antenna {
+  display: block;
+  width: 64px;
+  height: 52px;
+  margin: 0 auto;
+  filter: drop-shadow(0 0 5px #8fd9a455);
 }
-.frequency span {
-  position: absolute;
-  left: 50%;
-  top: -0.35rem;
-  bottom: -0.35rem;
-  width: 3px;
-  background: #e8c56b;
-  box-shadow: 0 0 10px #e8c56b66;
+.antenna-head {
+  transform-origin: 40px 38px;
+  animation: antenna-tune 2.4s ease-in-out infinite;
+}
+@keyframes antenna-tune {
+  0%,
+  100% {
+    transform: rotate(-25deg);
+  }
+  50% {
+    transform: rotate(25deg);
+  }
+}
+.description {
+  margin: 0.75rem 0 0;
+  color: var(--crt-cream);
+  font-size: clamp(0.75rem, 1.5vw, 0.9rem);
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+@media (prefers-reduced-motion: reduce) {
+  .antenna-head {
+    animation: none;
+  }
 }
 .message {
   font-size: 0.8rem;

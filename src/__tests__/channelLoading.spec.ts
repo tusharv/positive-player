@@ -6,6 +6,7 @@ import { createPinia, setActivePinia, getActivePinia } from 'pinia'
 import { flushPromises, mount } from '@vue/test-utils'
 import { useTvStore } from '../stores/tv'
 import { channelByNumber } from '../data/channels'
+import { channelCatalogKey } from '../lib/youtubeData'
 import PlayerPage from '../views/PlayerPage.vue'
 import YoutubeStage from '../components/YoutubeStage.vue'
 
@@ -135,7 +136,7 @@ it('skips a football video that never starts and plays another from the same cha
   const football = channelByNumber(11)!
   localStorage.setItem('pp-channel', '11')
   localStorage.setItem(
-    `pp-catalog-11-playlist-${football.playlistId}`,
+    channelCatalogKey(football),
     JSON.stringify({
       items: [
         { videoId: 'match-a', durationSeconds: 600 },

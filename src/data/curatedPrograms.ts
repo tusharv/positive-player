@@ -4,6 +4,25 @@ import type { CatalogItem } from '../lib/broadcastClock'
 // Keep IDs and durations here so these stations can start without the Data API.
 // Availability is refreshed at runtime; failed videos are skipped by the player.
 export const CURATED_PROGRAMS: Partial<Record<string, CatalogItem[]>> = {
+  // Formula uploads can report embeddable while refusing actual iframe playback.
+  // These alternatives were checked in the embedded player on 2026-10-06.
+  Formula: [
+    {
+      videoId: '-KykzjQiKC0',
+      title: '1978 F1 Season Review - Rare Film',
+      durationSeconds: 1323,
+    },
+    {
+      videoId: 'LBmogpW2T9U',
+      title: 'Monza F1 Circuit History, Crashes and Onboard (FULL Layout)',
+      durationSeconds: 3539,
+    },
+    {
+      videoId: 'Tt7QQWF8Yu0',
+      title: 'Charade (Clermont-Ferrand) F1 Circuit History, Crashes and Onboard',
+      durationSeconds: 2460,
+    },
+  ],
   Bollywood: [
     {
       videoId: 'Kf1Rg9kIHr4',

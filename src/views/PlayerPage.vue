@@ -251,7 +251,11 @@ onBeforeUnmount(() => {
         @script-error="tv.onScriptError()"
       />
       <ChannelZap v-if="tv.waitingForPlayback" />
-      <ChannelTuning v-if="tv.waitingForPlayback" :label="tv.channelLabel" />
+      <ChannelTuning
+        v-if="tv.waitingForPlayback"
+        :label="tv.channelLabel"
+        :description="tv.currentChannel.blurb"
+      />
       <InterruptionCard
         v-if="tv.poweredOn && tv.interruption !== 'none'"
         :channel-number="tv.interruptionChannelNumber"
@@ -490,6 +494,7 @@ onBeforeUnmount(() => {
 .control-row :deep(button[data-shortcut])::before {
   content: attr(data-shortcut);
   position: absolute;
+  width: max-content;
   bottom: calc(100% + 10px);
   left: 50%;
   z-index: 10;
@@ -523,7 +528,7 @@ onBeforeUnmount(() => {
   left: 0;
   transform: none;
 }
-.control-row :deep(.remote-launch)::before {
+.control-row :deep(button.remote-launch[data-shortcut])::before {
   --shortcut-offset: 0%;
   left: auto;
   right: 0;

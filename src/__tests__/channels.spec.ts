@@ -9,6 +9,17 @@ import {
 } from '../data/channels'
 
 describe('channel lineup', () => {
+  it('uses a curated Formula schedule instead of the failing uploads feed', () => {
+    const formula = CHANNELS.find((channel) => channel.name === 'Formula')!
+    expect(formula.kind).toBe('curated')
+    expect(formula.curatedCatalog?.length).toBeGreaterThanOrEqual(3)
+  })
+  it('sources football across competitions instead of a single league playlist', () => {
+    const football = CHANNELS.find((channel) => channel.name === 'Football')!
+    expect(football.kind).toBe('search')
+    expect(football.playlistId).toBeUndefined()
+    expect(football.query).toContain('club international')
+  })
   it('has at least 100 contiguous channels', () => {
     expect(CHANNEL_COUNT).toBeGreaterThanOrEqual(100)
     expect(CHANNELS).toHaveLength(CHANNEL_COUNT)
@@ -20,13 +31,17 @@ describe('channel lineup', () => {
   it('gives every channel a unique name and source policy, plus a blurb, mood, and category', () => {
     const names = CHANNELS.map((channel) => channel.name)
     const playlists = CHANNELS.map((channel) =>
-      JSON.stringify([channel.playlistId, channel.titleTerms ?? []]),
+      JSON.stringify([channel.playlistId ?? channel.query, channel.titleTerms ?? []]),
     )
     expect(new Set(names).size).toBe(CHANNEL_COUNT)
     expect(new Set(playlists).size).toBe(CHANNEL_COUNT)
     for (const channel of CHANNELS) {
-      expect(['playlist', 'curated']).toContain(channel.kind)
-      expect(channel.playlistId).toMatch(/^(PL|UU)[\w-]{10,}$/)
+      expect(['playlist', 'curated', 'search']).toContain(channel.kind)
+      if (channel.kind === 'search') {
+        expect(channel.query?.length).toBeGreaterThan(0)
+      } else {
+        expect(channel.playlistId).toMatch(/^(PL|UU)[\w-]{10,}$/)
+      }
       expect(channel.blurb?.length).toBeGreaterThan(12)
       expect(['calm', 'warm', 'bright', 'curious']).toContain(channel.mood)
       expect(channel.category?.length).toBeGreaterThan(2)
