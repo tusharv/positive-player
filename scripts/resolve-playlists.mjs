@@ -133,7 +133,6 @@ const HANDLES = {
   Dance: ['DanceOn'],
   Circus: ['CirqueDuSoleil'],
   Puppets: ['TheMuppetsStudio'],
-  Kindness: ['SoulPancake'],
   Lakes: ['CalmLakes'],
 }
 
@@ -169,7 +168,8 @@ const results = {
   Cricket: { playlistId: 'PLEpeKf7U6gmZf6x8KdOaZ4nfEBJw_xlWz' },
   Ramayan: { playlistId: 'PLFPJRCFRDARSfz9y9YPMG_tCTSeYeGNA3' },
   Mahabharat: { playlistId: 'UUHKGDg0GJKBsA9mFraDOLHA', titleTerms: ['mahabharat', 'महाभारत'] },
-  'DD Classics': { playlistId: 'PLY-qGtGftCjm1_tDxT2TsDAXXC2p-iutt' },
+  'DD Classics': { kind: 'curated', catalog: 'src/data/programs/005.json' },
+  'Vintage India': { kind: 'curated', catalog: 'src/data/programs/013.json' },
   'Jungle Book': { playlistId: 'PL65eurRkEvghrieaRGNpneAZmZoUeM5Kc' },
   Shaktimaan: { playlistId: 'PLJHHPzufWhurTWga4uBzL-M3F79A71p2Z' },
 }

@@ -42,3 +42,24 @@ it('varies the same viewing time across next week even when the catalog loop div
   expect(new Set(slots).size).toBe(7)
   expect(pickBroadcast(videos, monday)).toEqual(pickBroadcast(videos, monday))
 })
+
+it('plays a multi-day catalogue continuously across midnight and wraps only at its end', () => {
+  const month = Array.from({ length: 720 }, (_, i) => ({
+    videoId: `hour-${i}`,
+    durationSeconds: 3600,
+  }))
+  expect(pickBroadcast(month, 86399)).toEqual({ videoId: 'hour-23', startSeconds: 3599 })
+  expect(pickBroadcast(month, 86400)).toEqual({ videoId: 'hour-24', startSeconds: 0 })
+  expect(pickBroadcast(month, 29 * 86400)).toEqual({ videoId: 'hour-696', startSeconds: 0 })
+  expect(pickBroadcast(month, 30 * 86400)).toEqual({ videoId: 'hour-0', startSeconds: 0 })
+})
+
+it('advances past a just-ended video without compressing a multi-day schedule', () => {
+  const month = Array.from({ length: 720 }, (_, i) => ({
+    videoId: `hour-${i}`,
+    durationSeconds: 3600,
+  }))
+  // The player can finish just before the wall-clock second ticks over.
+  expect(pickBroadcast(month, 7199, [], ['hour-1'])).toEqual({ videoId: 'hour-2', startSeconds: 0 })
+  expect(pickBroadcast(month, 7200, [], ['hour-1'])).toEqual({ videoId: 'hour-2', startSeconds: 0 })
+})

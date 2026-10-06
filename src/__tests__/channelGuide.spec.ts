@@ -77,7 +77,7 @@ describe('channel guide', () => {
     const wrapper = mount(ChannelGuide, { props: { currentChannel: 1 } })
     await wrapper.get('.guide-launch').trigger('click')
     await wrapper.get('select').setValue('DD Era')
-    expect(wrapper.findAll('[data-channel]')).toHaveLength(5)
+    expect(wrapper.findAll('[data-channel]')).toHaveLength(6)
     await wrapper.get('input').setValue('  RAMAYAN  ')
     expect(wrapper.findAll('[data-channel]')).toHaveLength(1)
     await wrapper.get('[data-channel="6"]').trigger('click')

@@ -209,9 +209,7 @@ export const useTvStore = defineStore('tv', () => {
     const excluded = skipped.value[channel] ?? []
     function start(catalog: CatalogItem[]) {
       if (started || mine !== requestId || !poweredOn.value) return
-      const slot =
-        pickBroadcast(catalog, Date.now() / 1000, [...excluded, ...extraExclude]) ??
-        pickBroadcast(catalog, Date.now() / 1000, excluded)
+      const slot = pickBroadcast(catalog, Date.now() / 1000, excluded, extraExclude)
       if (!slot) return
       started = true
       clearRetry()
@@ -360,12 +358,12 @@ export const useTvStore = defineStore('tv', () => {
   function playFromClock(extraExclude: string[] = []) {
     const channel = channelNumber.value
     const catalog = catalogs.value[channel] ?? []
-    const exclude = [...(skipped.value[channel] ?? []), ...extraExclude]
-    const next =
-      pickBroadcast(catalog, Date.now() / 1000, exclude) ??
-      (extraExclude.length
-        ? pickBroadcast(catalog, Date.now() / 1000, skipped.value[channel] ?? [])
-        : null)
+    const next = pickBroadcast(
+      catalog,
+      Date.now() / 1000,
+      skipped.value[channel] ?? [],
+      extraExclude,
+    )
     if (!next) {
       currentSlot.value = null
       void loadChannel(channel)

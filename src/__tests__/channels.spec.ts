@@ -69,6 +69,60 @@ it('tags every channel and keeps the DD lineup discoverable', () => {
     'DD Classics',
     'Ramayan',
     'Mahabharat',
+    'Vintage India',
   ])
-  expect(classics.every((channel) => channel.number <= 7)).toBe(true)
+  expect(classics.map((channel) => channel.number)).toEqual([3, 4, 5, 6, 7, 13])
+})
+
+it('gives DD Classics a month of distinct programming across the requested shows', async () => {
+  const channel = channelByNumber(5)!
+  const items = await channel.loadCuratedCatalog!()
+  expect(items.reduce((seconds, item) => seconds + item.durationSeconds, 0)).toBeGreaterThanOrEqual(
+    30 * 86400,
+  )
+  expect(new Set(items.map((item) => item.videoId)).size).toBe(items.length)
+  for (const series of [
+    'Surabhi',
+    'Vikram Aur Betaal',
+    'Shri Krishna',
+    'Malgudi Days',
+    'Dekh Bhai Dekh',
+    'Flop Show',
+    'Wagle Ki Duniya',
+    'Byomkesh Bakshi',
+    'Fauji',
+    'Circus',
+    'Bharat Ek Khoj',
+    'Alice in Wonderland',
+    'Potli Baba Ki',
+    'Vintage ads',
+  ]) {
+    expect(
+      items.some((item) => item.title?.startsWith(`${series} —`)),
+      series,
+    ).toBe(true)
+  }
+})
+
+it('replaces Channel 013 with a curated mix of vintage ads and public-service interludes', async () => {
+  const channel = channelByNumber(13)!
+  expect(channel.name).toBe('Vintage India')
+  expect(channel.kind).toBe('curated')
+  expect(channel.playlistId).toBeUndefined()
+  const items = await channel.loadCuratedCatalog!()
+  expect(items.length).toBeGreaterThan(100)
+  expect(new Set(items.map((item) => item.videoId)).size).toBe(items.length)
+  for (const category of [
+    'Public service & broadcast',
+    'Transport, clothing & electronics',
+    'Food & drink',
+    'Household, personal care & health',
+  ]) {
+    expect(
+      items.some((item) => item.title?.startsWith(`${category} —`)),
+      category,
+    ).toBe(true)
+  }
+  expect(items.some((item) => item.durationSeconds < 60)).toBe(true)
+  expect(items.some((item) => /SoulPancake|Rainn Wilson/.test(item.title ?? ''))).toBe(false)
 })

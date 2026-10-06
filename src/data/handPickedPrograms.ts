@@ -1,4 +1,6 @@
 import type { CatalogItem } from '../lib/broadcastClock'
+import ddClassicsPrograms from './programs/005.json' with { type: 'json' }
+import vintageIndiaPrograms from './programs/013.json' with { type: 'json' }
 
 // Hand-picked evergreen programmes, checked against YouTube on 2026-10-05.
 // Keep IDs and durations here so these stations can start without the Data API.
@@ -337,76 +339,10 @@ export const HAND_PICKED_PROGRAMS: Partial<Record<string, CatalogItem[]>> = {
       durationSeconds: 2475,
     },
   ],
-  'DD Classics': [
-    {
-      videoId: 'qW4LZh2O4r8',
-      title: 'चाणक्य Official | Episode 1 | Directed & Acted by Dr. Chandraprakash Dwivedi',
-      durationSeconds: 2594,
-    },
-    {
-      videoId: '-QFDB4xnp8Y',
-      title:
-        'चाणक्य Official | Episode 2 | Directed & Acted by Dr. Chandraprakash Dwivedi #chanakya #chanakyaniti',
-      durationSeconds: 2538,
-    },
-    {
-      videoId: 'OsdW37oJkRU',
-      title:
-        'चाणक्य Official | Episode 7 | Directed & Acted by Dr. Chandraprakash Dwivedi #chanakya #chanakyaniti',
-      durationSeconds: 2824,
-    },
-    {
-      videoId: '7EgHk75-XBk',
-      title:
-        'चाणक्य Official | Episode 8 | Directed & Acted by Dr. Chandraprakash Dwivedi #chanakya #chanakyaniti',
-      durationSeconds: 2733,
-    },
-    {
-      videoId: 'dHd8CmRrMXE',
-      title:
-        'चाणक्य Official | Episode 9 | Directed & Acted by Dr. Chandraprakash Dwivedi #chanakya #chanakyaniti',
-      durationSeconds: 3003,
-    },
-    {
-      videoId: 'n9LpWyWj-7E',
-      title:
-        'चाणक्य Official | Episode 12 | Directed & Acted by Dr.Chandraprakash Dwivedi #chanakya #chanakyaniti',
-      durationSeconds: 2820,
-    },
-    {
-      videoId: 'invcVNqmJNA',
-      title:
-        'चाणक्य Official | Episode 3 | Directed & Acted by Dr. Chandraprakash Dwivedi #chanakya #chanakyaniti',
-      durationSeconds: 2436,
-    },
-    {
-      videoId: '_-4SSGEtH08',
-      title:
-        'चाणक्य Official | Episode 4 | Directed & Acted by Dr. Chandraprakash Dwivedi #chanakya #chanakyaniti',
-      durationSeconds: 2482,
-    },
-    {
-      videoId: 'm5Er1dLMi9U',
-      title: 'चाणक्य Official | Full Episode 6 | Directed & Acted by Dr. Chandraprakash Dwivedi',
-      durationSeconds: 2536,
-    },
-    {
-      videoId: 'vnswwBMTokk',
-      title: 'चाणक्य Official | Episode 5 | Directed & Acted by Dr. Chandraprakash Dwivedi',
-      durationSeconds: 2508,
-    },
-    {
-      videoId: '_OhmmPnEIac',
-      title:
-        'चाणक्य Official | Episode 6 | Part -2| Directed & Acted by Dr. Chandraprakash Dwivedi',
-      durationSeconds: 1513,
-    },
-    {
-      videoId: 'cg3VI8ebgJ0',
-      title: 'चाणक्य Official | Episode 7 | Part -1| Directed & Acted by Dr. Chandraprakash',
-      durationSeconds: 1247,
-    },
-  ],
+  // DD Classics is curated directly in its month-long bundle; preserve it on refresh.
+  'DD Classics': ddClassicsPrograms,
+  // Preserve the four-category vintage selection when refreshing other stations.
+  'Vintage India': vintageIndiaPrograms,
   Ramayan: [
     {
       videoId: 'vIh99bkSc_w',

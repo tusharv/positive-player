@@ -225,10 +225,17 @@ async function fetchSourceCatalog(
       options.storage?.setItem(key, JSON.stringify(cached))
     }
     const catalog: CatalogItem[] = []
+    const curatedTitles = new Map(
+      channel.kind === 'curated'
+        ? channel.curatedCatalog?.map((item) => [item.videoId, item.title])
+        : [],
+    )
     let pageToken: string | undefined
     let notified = false
     // Look past Shorts-heavy pages, but cap requests for empty/unavailable feeds.
-    for (let page = 0; page < 10; page++) {
+    const pageLimit =
+      channel.kind === 'curated' ? Math.ceil((channel.curatedCatalog?.length ?? 0) / 50) : 10
+    for (let page = 0; page < pageLimit; page++) {
       const result = await collectVideoIds(channel, options.apiKey, options.fetchFn, pageToken)
       if (result.ids.length) {
         const url = new URL(VIDEOS_URL)
@@ -236,7 +243,14 @@ async function fetchSourceCatalog(
         url.searchParams.set('id', result.ids.join(','))
         url.searchParams.set('key', options.apiKey)
         const data = (await readJson(options.fetchFn, url.toString())) as VideosResponse
-        for (const item of data.items ?? []) {
+        const videos = data.items ?? []
+        if (channel.kind === 'curated') {
+          const order = new Map(result.ids.map((id, index) => [id, index]))
+          videos.sort(
+            (a, b) => (order.get(a.id ?? '') ?? Infinity) - (order.get(b.id ?? '') ?? Infinity),
+          )
+        }
+        for (const item of videos) {
           if (!item.id || item.status?.embeddable === false) continue
           if (
             channel.titleTerms?.length &&
@@ -246,11 +260,18 @@ async function fetchSourceCatalog(
           )
             continue
           const durationSeconds = parseIsoDuration(item.contentDetails?.duration ?? '')
-          if (durationSeconds < 60 || catalog.some((video) => video.videoId === item.id)) continue
+          // Short vintage ad spots are intentional in a curated schedule.
+          const minimumDuration = channel.kind === 'curated' ? 1 : 60
+          if (
+            durationSeconds < minimumDuration ||
+            catalog.some((video) => video.videoId === item.id)
+          )
+            continue
+          const title = curatedTitles.get(item.id) ?? item.snippet?.title
           catalog.push({
             videoId: item.id,
             durationSeconds,
-            ...(item.snippet?.title ? { title: item.snippet.title } : {}),
+            ...(title ? { title } : {}),
           })
         }
       }
@@ -260,7 +281,8 @@ async function fetchSourceCatalog(
       }
       pageToken = result.nextPageToken
       if (
-        catalog.filter((item) => !options.excludeIds?.includes(item.videoId)).length >= 250 ||
+        (channel.kind !== 'curated' &&
+          catalog.filter((item) => !options.excludeIds?.includes(item.videoId)).length >= 250) ||
         !pageToken
       )
         break

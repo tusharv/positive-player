@@ -595,3 +595,86 @@ it('backs off after an API outage even when an exhausted curated station has nev
   expect(await fetchChannelCatalog(curated, options)).toEqual([])
   expect(fetchFn).toHaveBeenCalledTimes(1)
 })
+
+it('retains the whole month-long curated catalogue when validating and caching it', async () => {
+  const items = Array.from({ length: 1501 }, (_, i) => ({
+    videoId: `episode-${i}`,
+    durationSeconds: 1800,
+  }))
+  const station: Channel = { ...curated, curatedCatalog: items, curatedVersion: 'month' }
+  const memory = new Map<string, string>()
+  const fetchFn: typeof fetch = (input) => {
+    const ids = new URL(String(input)).searchParams.get('id')!.split(',')
+    return jsonResponse({
+      items: ids.map((id) => ({
+        id,
+        status: { embeddable: true },
+        contentDetails: { duration: 'PT30M' },
+      })),
+    })
+  }
+  const storage = mapStorage(memory)
+  const result = await fetchChannelCatalog(station, { apiKey: 'key', fetchFn, storage })
+  expect(result).toEqual(items)
+  expect(await fetchChannelCatalog(station, { apiKey: '', fetchFn, storage })).toEqual(items)
+})
+
+it('keeps curated vintage ad spots shorter than a minute while rejecting zero-length entries', async () => {
+  const station: Channel = {
+    ...curated,
+    curatedCatalog: [
+      { videoId: 'retro-ad', durationSeconds: 30 },
+      { videoId: 'unavailable', durationSeconds: 0 },
+    ],
+  }
+  const fetchFn: typeof fetch = () =>
+    jsonResponse({
+      items: [
+        { id: 'retro-ad', status: { embeddable: true }, contentDetails: { duration: 'PT30S' } },
+        { id: 'unavailable', status: { embeddable: true }, contentDetails: { duration: 'PT0S' } },
+      ],
+    })
+  expect(await fetchChannelCatalog(station, { apiKey: 'key', fetchFn })).toEqual([
+    { videoId: 'retro-ad', durationSeconds: 30 },
+  ])
+})
+
+it('preserves curated theme and excerpt labels when an upload has a misleading episode title', async () => {
+  const station: Channel = {
+    ...curated,
+    curatedCatalog: [
+      {
+        videoId: 'theme',
+        title: 'Alice in Wonderland — Hindi opening theme (not a full episode)',
+        durationSeconds: 90,
+      },
+    ],
+  }
+  const fetchFn: typeof fetch = () =>
+    jsonResponse({
+      items: [
+        {
+          id: 'theme',
+          snippet: { title: 'Alice Episode 1' },
+          status: { embeddable: true },
+          contentDetails: { duration: 'PT1M30S' },
+        },
+      ],
+    })
+  expect(await fetchChannelCatalog(station, { apiKey: 'key', fetchFn })).toEqual(
+    station.curatedCatalog,
+  )
+})
+
+it('keeps curated episode order even when validation returns videos in another order', async () => {
+  const fetchFn: typeof fetch = () =>
+    jsonResponse({
+      items: [
+        { id: 'dhoni', status: { embeddable: true }, contentDetails: { duration: 'PT8M20S' } },
+        { id: 'sachin', status: { embeddable: true }, contentDetails: { duration: 'PT10M' } },
+      ],
+    })
+  expect(await fetchChannelCatalog(curated, { apiKey: 'key', fetchFn })).toEqual(
+    curated.curatedCatalog,
+  )
+})

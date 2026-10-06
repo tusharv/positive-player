@@ -11,7 +11,9 @@ it('can schedule every station without an API key or browser cache', async () =>
     expect(new Set(catalog.map((item) => item.videoId)).size).toBe(catalog.length)
     for (const item of catalog) {
       expect(item.videoId).toMatch(/^[\w-]{11}$/)
-      expect(item.durationSeconds).toBeGreaterThanOrEqual(60)
+      const isShortVintageSpot =
+        channel.number === 13 || (channel.number === 5 && item.title?.startsWith('Vintage ads —'))
+      expect(item.durationSeconds).toBeGreaterThanOrEqual(isShortVintageSpot ? 1 : 60)
       expect(item.title?.length).toBeGreaterThan(0)
     }
   }

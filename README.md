@@ -16,7 +16,7 @@ The HUD and controls fade away after four seconds of inactivity. Move the mouse,
 
 Choose **Fullscreen** to expand the player, including its channel controls. Use **Exit fullscreen**, Escape, or the TV Back key to return. If the browser cannot enter native fullscreen, a message explains that the player fills the browser window while its toolbar may remain visible.
 
-The lineup opens with **001 Bollywood**, **002 Cricket**, **003 Jungle Book**, **004 Shaktimaan**, **005 DD Classics**, **006 Ramayan**, and **007 Mahabharat**, followed by animals, food, space, sport, and travel. Quieter scenery and ambient channels follow the opening selection. Choose the **DD Era** tag to find the five classic TV channels together. Every channel has bundled video IDs, titles, and durations. Hand-picked selections in `src/data/handPickedPrograms.ts` take precedence over generated, source-specific lists. Each channel has its own file in `src/data/programs/`; `src/data/curatedPrograms.ts` is a lightweight index of versions and lazy loaders. The player downloads only the selected channel’s list and reuses it on later visits. The home page, channel guide, and remote do not load programme lists. Playback never needs Search Queries quota. Cricket rotates memorable innings and performances from Sachin Tendulkar, Rahul Dravid, MS Dhoni, Sunil Gavaskar, and other legends. Channel numbers have changed; saved preferences still recall a channel number, which may now point to different programming.
+The lineup opens with **001 Bollywood**, **002 Cricket**, **003 Jungle Book**, **004 Shaktimaan**, **005 DD Classics**, **006 Ramayan**, and **007 Mahabharat**, followed by animals, food, space, sport, and travel. Quieter scenery and ambient channels follow the opening selection. Choose the **DD Era** tag to find the classic TV channels and **013 Vintage India**, a curated selection of vintage ads, public-service films, and broadcast interludes. Every channel has bundled video IDs, titles, and durations. Hand-picked selections in `src/data/handPickedPrograms.ts` take precedence over generated, source-specific lists. Each channel has its own file in `src/data/programs/`; `src/data/curatedPrograms.ts` is a lightweight index of versions and lazy loaders. The player downloads only the selected channel’s list and reuses it on later visits. The home page, channel guide, and remote do not load programme lists. Playback never needs Search Queries quota. Cricket rotates memorable innings and performances from Sachin Tendulkar, Rahul Dravid, MS Dhoni, Sunil Gavaskar, and other legends. Channel numbers have changed; saved preferences still recall a channel number, which may now point to different programming.
 
 ## Content rotation and source checks
 
@@ -126,3 +126,11 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+### DD Classics (Channel 005)
+
+Channel 005 has a curated 34-day rotation of DD serials, comedy, culture, and vintage advertisements. See the [content audit](docs/dd-classics-catalogue.md) and [complete ordered catalogue](docs/dd-classics-catalogue.csv) for sources, durations, and availability gaps. Its bundle is also its hand-picked source, so catalogue regeneration preserves the mixed selection. Multi-day catalogues play continuously across midnight; shorter catalogues keep their daily rotation. Curated validation checks the whole selection and retains short ad spots and editorial labels.
+
+### Vintage India (Channel 013)
+
+Replaces Kindness with 198 curated videos across public-service films and broadcast atmosphere; transport, clothing and electronics ads; food and drink ads; and household, personal-care and health ads. The selection runs for 2 hours 50 minutes and preserves original short spots. See the [content audit](docs/vintage-india-catalogue.md) and [full ordered catalogue](docs/vintage-india-catalogue.csv). Its hand-picked source preserves the selection during regeneration.

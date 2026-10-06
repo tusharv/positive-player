@@ -12,502 +12,502 @@ export const CURATED_PROGRAMS: Partial<
 > = {
   Bollywood: {
     version: 'd3b570fe2aa9cf03',
-    load: () => import('./programs/001.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/001.json').then((m) => m.default),
   },
   Cricket: {
     version: '6cf5b97c40f8d87c',
-    load: () => import('./programs/002.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/002.json').then((m) => m.default),
   },
   'Jungle Book': {
     version: '5a824e951510e176',
-    load: () => import('./programs/003.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/003.json').then((m) => m.default),
   },
   Shaktimaan: {
     version: '4c70820c7dc17273',
-    load: () => import('./programs/004.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/004.json').then((m) => m.default),
   },
   'DD Classics': {
-    version: '959d17a04f2d7651',
-    load: () => import('./programs/005.json', { with: { type: 'json' } }).then((m) => m.default),
+    version: '394d01b83b897adc',
+    load: () => import('./programs/005.json').then((m) => m.default),
   },
   Ramayan: {
     version: '47e4bf2bb6cf0a96',
-    load: () => import('./programs/006.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/006.json').then((m) => m.default),
   },
   Mahabharat: {
     version: '2aee0d1f8283010a',
-    load: () => import('./programs/007.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/007.json').then((m) => m.default),
   },
   Animals: {
     version: '20318201c325e5d0',
-    load: () => import('./programs/008.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/008.json').then((m) => m.default),
   },
   'Street Food': {
     version: 'b2bea6094d0aa21a',
-    load: () => import('./programs/009.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/009.json').then((m) => m.default),
   },
   Space: {
     version: 'd3b6c7e39e919e01',
-    load: () => import('./programs/010.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/010.json').then((m) => m.default),
   },
   Football: {
     version: 'f9aa9ee18aff9845',
-    load: () => import('./programs/011.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/011.json').then((m) => m.default),
   },
   Tokyo: {
     version: '1e4ff7cf0eb9ac3e',
-    load: () => import('./programs/012.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/012.json').then((m) => m.default),
   },
-  Kindness: {
-    version: '7d79026a3f3ce107',
-    load: () => import('./programs/013.json', { with: { type: 'json' } }).then((m) => m.default),
+  'Vintage India': {
+    version: '44f196d03e657592',
+    load: () => import('./programs/013.json').then((m) => m.default),
   },
   Dogs: {
     version: '3b4375c95d56dc91',
-    load: () => import('./programs/014.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/014.json').then((m) => m.default),
   },
   Kitchen: {
     version: 'e30330081934d59c',
-    load: () => import('./programs/015.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/015.json').then((m) => m.default),
   },
   Formula: {
     version: '3e35cb84f299ff08',
-    load: () => import('./programs/016.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/016.json').then((m) => m.default),
   },
   Craft: {
     version: 'f18f03a9daa763e6',
-    load: () => import('./programs/017.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/017.json').then((m) => m.default),
   },
   'Good News': {
     version: '94d35be4bd3c7e31',
-    load: () => import('./programs/018.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/018.json').then((m) => m.default),
   },
   Safari: {
     version: '447ba3b85dcdde9a',
-    load: () => import('./programs/019.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/019.json').then((m) => m.default),
   },
   Dance: {
     version: '61a02919c9664256',
-    load: () => import('./programs/020.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/020.json').then((m) => m.default),
   },
   Olympics: {
     version: '175d63876c13cd28',
-    load: () => import('./programs/021.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/021.json').then((m) => m.default),
   },
   Talks: {
     version: 'bce8347875e284c3',
-    load: () => import('./programs/022.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/022.json').then((m) => m.default),
   },
   Cats: {
     version: '50f9ded52f635bf1',
-    load: () => import('./programs/023.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/023.json').then((m) => m.default),
   },
   Circus: {
     version: 'e9296d4562e00942',
-    load: () => import('./programs/024.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/024.json').then((m) => m.default),
   },
   Nature: {
     version: '0831627b69d10d92',
-    load: () => import('./programs/025.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/025.json').then((m) => m.default),
   },
   Ocean: {
     version: 'c5c324ecfb0fa3af',
-    load: () => import('./programs/026.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/026.json').then((m) => m.default),
   },
   Lofi: {
     version: '898b9371fc0533f4',
-    load: () => import('./programs/027.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/027.json').then((m) => m.default),
   },
   'Classic Music': {
     version: 'd46d35fda2e24552',
-    load: () => import('./programs/028.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/028.json').then((m) => m.default),
   },
   Rain: {
     version: 'c20d49ab0a62a765',
-    load: () => import('./programs/029.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/029.json').then((m) => m.default),
   },
   Fireplace: {
     version: '30b154e7d03337ca',
-    load: () => import('./programs/030.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/030.json').then((m) => m.default),
   },
   Forest: {
     version: '97b1c602078d6334',
-    load: () => import('./programs/031.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/031.json').then((m) => m.default),
   },
   Mountains: {
     version: '1adca808d053b75b',
-    load: () => import('./programs/032.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/032.json').then((m) => m.default),
   },
   Desert: {
     version: 'b1bf44fc58b4e093',
-    load: () => import('./programs/033.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/033.json').then((m) => m.default),
   },
   River: {
     version: '13cd39ac56295923',
-    load: () => import('./programs/034.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/034.json').then((m) => m.default),
   },
   Falls: {
     version: '0210571b759d93e4',
-    load: () => import('./programs/035.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/035.json').then((m) => m.default),
   },
   Snow: {
     version: '293b8d8897172b2e',
-    load: () => import('./programs/036.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/036.json').then((m) => m.default),
   },
   Aurora: {
     version: '4a31ef3758fe3761',
-    load: () => import('./programs/037.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/037.json').then((m) => m.default),
   },
   Clouds: {
     version: '04f2318938bc8c8e',
-    load: () => import('./programs/038.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/038.json').then((m) => m.default),
   },
   Stars: {
     version: '726bc5f3cfde2b7b',
-    load: () => import('./programs/039.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/039.json').then((m) => m.default),
   },
   Aquarium: {
     version: '584089c71f7d140c',
-    load: () => import('./programs/040.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/040.json').then((m) => m.default),
   },
   Birds: {
     version: '1657b1c39a8bae6d',
-    load: () => import('./programs/041.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/041.json').then((m) => m.default),
   },
   Whales: {
     version: '9fe5bdc706de1a17',
-    load: () => import('./programs/042.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/042.json').then((m) => m.default),
   },
   Horses: {
     version: '7a6b5a6ef38b9cc9',
-    load: () => import('./programs/043.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/043.json').then((m) => m.default),
   },
   Pandas: {
     version: '6ac63fa736b75bd6',
-    load: () => import('./programs/044.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/044.json').then((m) => m.default),
   },
   Bees: {
     version: '3cdc6c44b88d78ce',
-    load: () => import('./programs/045.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/045.json').then((m) => m.default),
   },
   Farm: {
     version: 'eea9cb1751a5c628',
-    load: () => import('./programs/046.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/046.json').then((m) => m.default),
   },
   Reef: {
     version: '9e6d2015513288cf',
-    load: () => import('./programs/047.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/047.json').then((m) => m.default),
   },
   Piano: {
     version: '299c8de5748f9a5a',
-    load: () => import('./programs/048.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/048.json').then((m) => m.default),
   },
   Guitar: {
     version: 'c33962dd3569554d',
-    load: () => import('./programs/049.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/049.json').then((m) => m.default),
   },
   Violin: {
     version: '29cb726ce4d7ef18',
-    load: () => import('./programs/050.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/050.json').then((m) => m.default),
   },
   Choir: {
     version: '940a557b189839eb',
-    load: () => import('./programs/051.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/051.json').then((m) => m.default),
   },
   Ambient: {
     version: '83035b1fb6b3bc94',
-    load: () => import('./programs/052.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/052.json').then((m) => m.default),
   },
   Soul: {
     version: '49a1b697b2e325e4',
-    load: () => import('./programs/053.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/053.json').then((m) => m.default),
   },
   Blues: {
     version: '5347b1a6c4160b5f',
-    load: () => import('./programs/054.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/054.json').then((m) => m.default),
   },
   Reggae: {
     version: '2e866d55605e8b76',
-    load: () => import('./programs/055.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/055.json').then((m) => m.default),
   },
   Bossa: {
     version: '413acd79352c3db7',
-    load: () => import('./programs/056.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/056.json').then((m) => m.default),
   },
   Flamenco: {
     version: '83f96ee33011d9db',
-    load: () => import('./programs/057.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/057.json').then((m) => m.default),
   },
   Gospel: {
     version: '4da659057a715a26',
-    load: () => import('./programs/058.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/058.json').then((m) => m.default),
   },
   Disco: {
     version: 'edba70c873ce2a66',
-    load: () => import('./programs/059.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/059.json').then((m) => m.default),
   },
   Funk: {
     version: 'f006ad03fab78218',
-    load: () => import('./programs/060.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/060.json').then((m) => m.default),
   },
   Score: {
     version: '750c360ab5fd679e',
-    load: () => import('./programs/061.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/061.json').then((m) => m.default),
   },
   Celtic: {
     version: 'e514b0b2dcd6f1e0',
-    load: () => import('./programs/062.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/062.json').then((m) => m.default),
   },
   Sitar: {
     version: 'ef5ebca4b2f9023d',
-    load: () => import('./programs/063.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/063.json').then((m) => m.default),
   },
   Kora: {
     version: 'ca61163b6e1452c2',
-    load: () => import('./programs/064.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/064.json').then((m) => m.default),
   },
   Fado: {
     version: '2733f93d41802278',
-    load: () => import('./programs/065.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/065.json').then((m) => m.default),
   },
   Gagaku: {
     version: 'a5e34b41cbea6206',
-    load: () => import('./programs/066.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/066.json').then((m) => m.default),
   },
   Mariachi: {
     version: 'f588ad3e645a6fa3',
-    load: () => import('./programs/067.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/067.json').then((m) => m.default),
   },
   Highlife: {
     version: '5ec6d4f7abe5d791',
-    load: () => import('./programs/068.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/068.json').then((m) => m.default),
   },
   Gamelan: {
     version: '0c9817e5f137c6a9',
-    load: () => import('./programs/069.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/069.json').then((m) => m.default),
   },
   Opera: {
     version: '758bf4e9bbf68956',
-    load: () => import('./programs/070.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/070.json').then((m) => m.default),
   },
   Harp: {
     version: 'a3865ffe2201169b',
-    load: () => import('./programs/071.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/071.json').then((m) => m.default),
   },
   Flute: {
     version: 'b2fef06b133b4d58',
-    load: () => import('./programs/072.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/072.json').then((m) => m.default),
   },
   Organ: {
     version: '8ae739d809026a45',
-    load: () => import('./programs/073.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/073.json').then((m) => m.default),
   },
   Baking: {
     version: 'ff41af26cedffb74',
-    load: () => import('./programs/074.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/074.json').then((m) => m.default),
   },
   Coffee: {
     version: '3a88e5808bb32740',
-    load: () => import('./programs/075.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/075.json').then((m) => m.default),
   },
   Tea: {
     version: 'd050f2b2371631d4',
-    load: () => import('./programs/076.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/076.json').then((m) => m.default),
   },
   Pasta: {
     version: '28d363c2f5430f94',
-    load: () => import('./programs/077.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/077.json').then((m) => m.default),
   },
   Clay: {
     version: 'c6fd4adbcf209876',
-    load: () => import('./programs/078.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/078.json').then((m) => m.default),
   },
   Wood: {
     version: '1fd519b33d0b9b49',
-    load: () => import('./programs/079.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/079.json').then((m) => m.default),
   },
   Glass: {
     version: 'c6bb9ec9321ebf26',
-    load: () => import('./programs/080.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/080.json').then((m) => m.default),
   },
   Ink: {
     version: 'bdf223ee678086fd',
-    load: () => import('./programs/081.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/081.json').then((m) => m.default),
   },
   Paint: {
     version: 'a210086d4fe4bb22',
-    load: () => import('./programs/082.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/082.json').then((m) => m.default),
   },
   Yarn: {
     version: '6581645590c2f8f7',
-    load: () => import('./programs/083.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/083.json').then((m) => m.default),
   },
   Paper: {
     version: '9c0287d59823f2f5',
-    load: () => import('./programs/084.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/084.json').then((m) => m.default),
   },
   Paris: {
     version: '61761302b30c66e9',
-    load: () => import('./programs/085.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/085.json').then((m) => m.default),
   },
   Venice: {
     version: 'b94590255cabf614',
-    load: () => import('./programs/086.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/086.json').then((m) => m.default),
   },
   Kyoto: {
     version: '6511a9ccdec4b304',
-    load: () => import('./programs/087.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/087.json').then((m) => m.default),
   },
   Marrakech: {
     version: '3199f539c6e93cc9',
-    load: () => import('./programs/088.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/088.json').then((m) => m.default),
   },
   Havana: {
     version: 'e9e10d36b31dfc7f',
-    load: () => import('./programs/089.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/089.json').then((m) => m.default),
   },
   Seoul: {
     version: '934c033a4052ef8d',
-    load: () => import('./programs/090.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/090.json').then((m) => m.default),
   },
   Cairo: {
     version: '7b6d8fa3d4ee400d',
-    load: () => import('./programs/091.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/091.json').then((m) => m.default),
   },
   Andes: {
     version: '33a8005315c4ecdc',
-    load: () => import('./programs/092.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/092.json').then((m) => m.default),
   },
   Iceland: {
     version: 'f0de49bb9021ca76',
-    load: () => import('./programs/093.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/093.json').then((m) => m.default),
   },
   Kerala: {
     version: '382874e6fd27510e',
-    load: () => import('./programs/094.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/094.json').then((m) => m.default),
   },
   Lisbon: {
     version: '3af8e67fc3e7e84e',
-    load: () => import('./programs/095.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/095.json').then((m) => m.default),
   },
   Yoga: {
     version: '87fd3835435910db',
-    load: () => import('./programs/096.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/096.json').then((m) => m.default),
   },
   Still: {
     version: '053266e7b26df0f2',
-    load: () => import('./programs/097.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/097.json').then((m) => m.default),
   },
   'Tai Chi': {
     version: '24ab5768a867760a',
-    load: () => import('./programs/098.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/098.json').then((m) => m.default),
   },
   Museum: {
     version: '22f6ed1d0626889e',
-    load: () => import('./programs/099.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/099.json').then((m) => m.default),
   },
   Buildings: {
     version: 'f1ae40dabeb34bf6',
-    load: () => import('./programs/100.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/100.json').then((m) => m.default),
   },
   History: {
     version: '1786dc122fb260cd',
-    load: () => import('./programs/101.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/101.json').then((m) => m.default),
   },
   Rocks: {
     version: 'c3922dfacc80439c',
-    load: () => import('./programs/102.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/102.json').then((m) => m.default),
   },
   Words: {
     version: '4ea923d5ff45f47b',
-    load: () => import('./programs/103.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/103.json').then((m) => m.default),
   },
   Chess: {
     version: 'cb1858f513c5566d',
-    load: () => import('./programs/104.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/104.json').then((m) => m.default),
   },
   Gardens: {
     version: '781d9931c27ae0b1',
-    load: () => import('./programs/105.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/105.json').then((m) => m.default),
   },
   Trains: {
     version: 'de51759684dd7094',
-    load: () => import('./programs/106.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/106.json').then((m) => m.default),
   },
   Sailing: {
     version: '1f75f2909908bb88',
-    load: () => import('./programs/107.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/107.json').then((m) => m.default),
   },
   Tennis: {
     version: '7363652c2376aade',
-    load: () => import('./programs/108.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/108.json').then((m) => m.default),
   },
   Hoops: {
     version: '55a7c48183f15fd9',
-    load: () => import('./programs/109.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/109.json').then((m) => m.default),
   },
   Peloton: {
     version: '678ecca0f1142b7d',
-    load: () => import('./programs/110.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/110.json').then((m) => m.default),
   },
   Ice: {
     version: '5e01ed68f2a3db2d',
-    load: () => import('./programs/111.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/111.json').then((m) => m.default),
   },
   Surf: {
     version: '051d1bb06050f35a',
-    load: () => import('./programs/112.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/112.json').then((m) => m.default),
   },
   Trail: {
     version: '8b9c7529f5d1accf',
-    load: () => import('./programs/113.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/113.json').then((m) => m.default),
   },
   Camp: {
     version: 'd1495f082f43c2ac',
-    load: () => import('./programs/114.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/114.json').then((m) => m.default),
   },
   Library: {
     version: 'cfffe5e3c84725e3',
-    load: () => import('./programs/115.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/115.json').then((m) => m.default),
   },
   Bookshop: {
     version: 'dcecd9dda1b9dbfe',
-    load: () => import('./programs/116.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/116.json').then((m) => m.default),
   },
   Vinyl: {
     version: '95d77ec7a9cc0e69',
-    load: () => import('./programs/117.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/117.json').then((m) => m.default),
   },
   Dawn: {
     version: '2d80a9c03cf0364c',
-    load: () => import('./programs/118.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/118.json').then((m) => m.default),
   },
   Dusk: {
     version: '0ab4c0b0c8c7f575',
-    load: () => import('./programs/119.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/119.json').then((m) => m.default),
   },
   Storm: {
     version: '2a0e84efec437914',
-    load: () => import('./programs/120.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/120.json').then((m) => m.default),
   },
   Wind: {
     version: '76c2d19a31e676fb',
-    load: () => import('./programs/121.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/121.json').then((m) => m.default),
   },
   Market: {
     version: '7b3d435816e7f71a',
-    load: () => import('./programs/122.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/122.json').then((m) => m.default),
   },
   Festival: {
     version: '956cebf17c3f8ecf',
-    load: () => import('./programs/123.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/123.json').then((m) => m.default),
   },
   Puppets: {
     version: 'ff5ecf7e2ab651a5',
-    load: () => import('./programs/124.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/124.json').then((m) => m.default),
   },
   Lakes: {
     version: '8f8c926b95caf480',
-    load: () => import('./programs/125.json', { with: { type: 'json' } }).then((m) => m.default),
+    load: () => import('./programs/125.json').then((m) => m.default),
   },
 }
