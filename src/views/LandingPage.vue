@@ -138,7 +138,7 @@ const featured = featuredNames.flatMap((name) => {
       <section id="support" class="support" aria-labelledby="support-title">
         <div class="support-copy">
           <h2 id="support-title">Support this project.</h2>
-          <p>Upvote it on Product Hunt or Peerlist, or star the source on GitHub.</p>
+          <p>Upvote it on Product Hunt, Peerlist, or PeerPush, or star the source on GitHub.</p>
         </div>
         <div class="support-actions">
           <a
@@ -164,6 +164,14 @@ const featured = featuredNames.flatMap((name) => {
               src="https://peerlist.io/api/v1/projects/embed/PRJH6A7QME7NEPMLR3G8PK6NNPQGL8?showUpvote=true&theme=dark"
               alt="Feel 1988. No skip."
             />
+          </a>
+          <a
+            class="peerpush"
+            href="https://peerpush.com/p/1988in"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="https://peerpush.com/p/1988in/badge.png" alt="1988.in on PeerPush" />
           </a>
           <a
             class="github-link"
@@ -364,19 +372,28 @@ h1 {
   font-size: 13px;
 }
 .producthunt,
-.peerlist {
+.peerlist,
+.peerpush {
   display: block;
   width: 100%;
+  min-width: 0;
+  max-width: 100%;
   line-height: 0;
   text-decoration: none;
 }
 .producthunt img,
-.peerlist img {
+.peerlist img,
+.peerpush img {
   display: block;
   width: 100%;
+  max-width: 100%;
   height: auto;
   aspect-ratio: 296 / 72;
   object-fit: fill;
+}
+.peerpush img {
+  aspect-ratio: 460 / 130;
+  object-fit: contain;
 }
 .hero-picture {
   width: 100%;
