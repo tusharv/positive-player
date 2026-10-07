@@ -105,72 +105,87 @@ YouTube Data API and the IFrame Player must not run until the viewer has agreed 
 
 ## 4. Runtime data flow on the TV
 
+Power-on and channel changes call `loadChannel` for the tuned station only.
+
 ```mermaid
 sequenceDiagram
   actor User
-  participant Gate as PowerGate
   participant Store as Pinia tv store
   participant Data as youtubeData.ts
+  participant Bundle as programs JSON
   participant YT as YouTube Data API
   participant Clock as broadcastClock
   participant Stage as YoutubeStage
 
-  User->>Gate: agree + press to turn on
-  Gate->>Store: powerOn()
-  Store->>Data: fetchChannelCatalog(current channel)
-  alt localStorage catalog younger than 7 days
-    Data-->>Store: cached items
-  else miss or stale playlist
-    Data->>YT: playlistItems.list max 50 (up to 3 pages)
-    Data->>YT: videos.list durations + embeddable
-    Data-->>Store: catalog videoId + durationSeconds
+  User->>Store: powerOn or setChannel
+  Note over Store: loadChannel for this station only
+  Store->>Data: readChannelCatalog
+  alt cached items
+    Store->>Clock: pickBroadcast
+    Clock-->>Store: videoId and startSeconds
+    Store->>Stage: load iframe
   end
-  Store->>Clock: pickBroadcast(catalog, utcSeconds)
-  Clock-->>Store: videoId + startSeconds
-  Store->>Stage: load IFrame at startSeconds
-  Stage-->>Store: ended / error
-  Store->>Clock: pickBroadcast again exclude broken id
+  Store->>Data: fetchChannelCatalog
+  alt fresh playable cache, or any cache without an API key
+    Data-->>Store: cached items
+  else bundle not in memory
+    Data->>Bundle: lazy-load this channel JSON
+    Data-->>Store: onPlayable
+    Store->>Clock: pickBroadcast if not already started
+    Store->>Stage: load iframe
+    opt API key
+      Data->>YT: videos.list embeddable and duration
+      YT-->>Data: validated items
+      Data-->>Store: catalog and 24 hour cache
+      Note over Store: keep the slot already playing
+    end
+  end
+  alt nothing playable
+    Store->>Store: hold interruption and retry in 8 seconds
+  end
 ```
 
 `src/stores/tv.ts` is the only place that owns power, channel, volume, interruption, and the current slot. Components render; they do not fetch YouTube.
+
+A cached catalog, including a stale one, can start playback before the network returns. `onPlayable` can start from the station’s bundle before `videos.list` finishes. The first slot wins for that tune; a later validated catalog is stored and used at the next programme boundary. API failure falls back to that same station’s bundle. An empty catalog holds the interruption card and retries in 8 seconds. `QuotaExceededError` does not retry. Another station is never substituted.
 
 ---
 
 ## 5. Channels and catalogs
 
-Lineup: `src/data/channels.ts`. Contiguous numbers `1..CHANNEL_COUNT` (125). Channels 121–125 are DD Era (DD Classics, Ramayan, Mahabharat, Jungle Book, Shaktimaan). Do not renumber existing channels.
+Lineup: `src/data/channels.ts`. Contiguous numbers `1..CHANNEL_COUNT`. Do not renumber existing channels; append new ones. DD Era is 003 Jungle Book, 004 Shaktimaan, 005 DD Classics, 006 Ramayan, 007 Mahabharat, and 013 Vintage India.
 
-**Current lineup kind is `playlist`.** Each row has a YouTube uploads playlist id (`UU…`, derived from a channel id `UC…`). Individual video ids are not hardcoded. Fetch up to 50 uploads per page, continuing for at most 3 pages when fewer than 5 usable videos remain. Empty catalogs are never cached as fresh results.
+**Current lineup kind is `curated`.** Each station lazy-loads its own bundled list from `src/data/programs/` through `src/data/curatedPrograms.ts`. The home page, channel guide, and remote do not load those lists. Playback never needs `search.list`.
 
-`kind: 'search'` still exists in `fetchChannelCatalog` for compatibility. **Do not put search channels back on the lineup.** Default YouTube projects allow **100 `search.list` calls per day** (quota metric “Search Queries”). 125 search channels exhaust that in one flip-through. `playlistItems.list` and `videos.list` cost 1 unit each from the general 10,000-unit pool and do not use the Search Queries bucket.
+`kind: 'search'` and `kind: 'playlist'` still exist in `fetchChannelCatalog` for compatibility. **Do not put search channels back on the lineup.** Default YouTube projects allow **100 `search.list` calls per day** (quota metric “Search Queries”). `videos.list` costs 1 unit from the general 10,000-unit pool and does not use the Search Queries bucket.
 
 ```mermaid
 flowchart TD
   Start[fetchChannelCatalog]
-  Start --> Key{API key present?}
-  Key -->|no| Missing[throw MissingApiKeyError]
-  Key -->|yes| Cache{localStorage pp-catalog-N<br/>younger than 7 days?}
-  Cache -->|yes| Return[return cached items]
-  Cache -->|no| Kind{channel.kind}
-  Kind -->|playlist| PL[playlistItems.list]
-  Kind -->|search| QBlock{search quota cooldown?}
-  QBlock -->|yes, have stale cache| Stale[return stale cache]
-  QBlock -->|yes, no cache| QErr[throw QuotaExceededError]
-  QBlock -->|no| Search[search.list — avoid on lineup]
-  PL --> Vids[videos.list]
-  Search --> Vids
-  Vids --> Filter[drop not embeddable<br/>drop duration under 60s]
-  Filter --> Write[write pp-catalog-N]
+  Start --> Fresh{"fresh playable cache, or any cache and no API key?"}
+  Fresh -->|yes| Return[return cached items]
+  Fresh -->|no| Bundle["lazy-load programs JSON"]
+  Bundle --> Play[onPlayable so the store can start]
+  Play --> Key{API key present?}
+  Key -->|no| Same[return cache or this station bundle]
+  Key -->|yes| Cool{"all ids skipped and 5 minute cooldown?"}
+  Cool -->|yes| Same
+  Cool -->|no| Vids["videos.list in pages of 50"]
+  Vids --> Filter["drop not embeddable and too short"]
+  Filter --> Write["write cache with fetchedAt now"]
   Write --> Return
+  Vids -->|error and cache exists| Same
+  Vids -->|error and curated with no cache| BundleBack["store bundle with fetchedAt 0"]
+  BundleBack --> Return
 ```
 
-Quota cooldown (`pp-youtube-quota-until`, 12 hours) applies to **search only**. A Search 429 must not block playlist fetches. The TV store does not retry `QuotaExceededError` every 8 seconds; other catalog failures retry.
+Quota cooldown (`pp-youtube-quota-until`, 12 hours) applies to **search only**. A Search 429 must not block curated validation. The TV store does not retry `QuotaExceededError` every 8 seconds; other catalog failures retry.
 
-Catalog cache keys include channel number, source kind, and playlist ID or query: `pp-catalog-${channel.number}-${channel.kind}-${encodeURIComponent(source)}`. Cache is per browser, not shared across viewers. Nonempty stale catalogs remain usable during fetch failures.
+Catalog cache keys include channel number, kind, and source: `pp-catalog-${channel.number}-${channel.kind}-${encodeURIComponent(source)}`, plus topic terms when the station has them. For a curated station, `source` is `curatedVersion`. Cache is per browser, not shared across viewers. Nonempty stale catalogs remain usable while a refresh fails. An empty validation is remembered only for the 5-minute exhausted cooldown, not as a fresh 24-hour catalog.
 
-Missing playlists (HTTP 404), empty catalogs, and catalogs exhausted by playback failures use up to two backup channels from the same category, defined in `youtubeData.ts`. Backups reuse their own source cache and never call search. The requested channel number remains unchanged; backup programming may cover a broader topic within its category. Authentication, network, and quota errors do not fan out into requests to more sources.
+Curated items shorter than 1 second are dropped; other kinds still drop anything under 60 seconds. Title terms, when set, drop videos whose titles do not match. HTTP 404 yields an empty catalog. If every remaining id has failed playback, one refresh is allowed, then the same items are reused until the 5-minute cooldown ends. There is no backup station: an empty or failed catalog holds the interruption card on the requested channel.
 
-To retarget a station, change `playlistId` in `src/data/channels.ts`. Regenerating ids from YouTube handles: `node scripts/resolve-playlists.mjs` (needs `.env.local` and a referrer-allowed key). Keep playlist ids unique across the lineup.
+To change what a station plays, edit `src/data/handPickedPrograms.ts` or regenerate with `npm run bundle:programs`. Hand-picked selections take precedence over generated lists. A changed bundle version changes the cache key.
 
 ---
 
@@ -179,16 +194,40 @@ To retarget a station, change `playlistId` in `src/data/channels.ts`. Regenerati
 Same channel + same UTC second => same `{ videoId, startSeconds }` for every viewer with the same catalog. That is the “always-on TV” contract. Do not randomize per session.
 
 ```mermaid
-flowchart LR
-  C[catalog durations]
-  C --> Sum[loopLength = sum of seconds]
-  Now[floor utcSeconds] --> Mod["offset = utcSeconds mod loopLength"]
-  Sum --> Mod
-  Mod --> Walk[walk items until offset falls inside one]
-  Walk --> Slot["slot = videoId + startSeconds"]
+flowchart TD
+  Catalog[catalog] --> Drop["drop zero duration and session-skipped ids"]
+  Drop --> Sum["loopLength = sum of seconds"]
+  Sum --> Long{"loopLength > 86400?"}
+  Long -->|no| Rotate["first programme = UTC day mod count"]
+  Rotate --> DayWalk["offset = seconds since UTC midnight mod loopLength"]
+  Long -->|yes| Cont["offset = floor utcSeconds mod loopLength"]
+  DayWalk --> Walk[walk items]
+  Cont --> Walk
+  Walk --> Hit{offset inside this video?}
+  Hit -->|no| Advance[subtract duration and continue]
+  Advance --> Walk
+  Hit -->|yes and just ended| Next["next video at startSeconds 0"]
+  Hit -->|yes| Slot["slot = videoId + startSeconds"]
 ```
 
-On `ended`, run the clock again at `now`. On player error: show the interruption card for 2 seconds, skip that `videoId` for the rest of the tab session, run the clock on what remains. If all videos fail, resolve the category backups before holding the card. A normally ended video is only temporarily excluded: if it is the only usable video, replay it. `playbackRevision` forces the iframe to reload even when the selected video ID and start time are unchanged.
+A short loop rotates its starting programme each UTC day and walks only that day’s elapsed seconds, so the same daily timetable does not repeat forever. A loop longer than 24 hours walks continuously from the Unix epoch, so midnight does not jump backward through a multi-day catalogue. An ended video keeps its duration in that walk. Skipping it selects the next video at `startSeconds` 0. If it is the only usable video, it is replayed at the clock offset.
+
+```mermaid
+flowchart TD
+  Slot[currentSlot plus playbackRevision]
+  Slot --> Iframe["loadVideoById at floor startSeconds"]
+  Iframe --> Playing[playing]
+  Iframe --> Ended[ended]
+  Iframe --> Error[player error]
+  Iframe --> Timeout[20s tune timeout]
+  Ended --> Refresh["loadChannel again, ended id only for this pick, skip cache"]
+  Error --> Brief["interruption card 2s, then skip id for this tab"]
+  Timeout --> SkipOrHold{another playable slot?}
+  SkipOrHold -->|yes| Clock[playFromClock]
+  SkipOrHold -->|no| Hold[hold and retry in 8s]
+```
+
+`playbackRevision` forces the iframe to reload even when the selected video id and start time are unchanged. A normally ended video is excluded only for that next pick (`useCached` is false, so it is not restarted from the cache before the fetch). A player error stays in `skipped` for the rest of the tab. The 20-second tune timeout treats the current video as skipped, then either takes the next clock slot or holds the card.
 
 ---
 
@@ -310,12 +349,12 @@ flowchart TB
 
 ## 10. Invariants for future changes
 
-1. **Do not call `search.list` for the built-in lineup.** Playlists only. Search remaining in code is a last-resort path, not a product default.
+1. **Do not call `search.list` for the built-in lineup.** The lineup is curated bundles. Search remaining in code is a last-resort path, not a product default.
 2. **Do not prefetch every channel** on power-on. Fetch the tuned channel only.
 3. **Do not proxy, cache, or rehost video files.** IFrame Player only. Data API is metadata (ids, duration, embeddable).
 4. **Do not run Data API or IFrame API before legal consent + power-on.**
 5. **Keep the broadcast clock deterministic** from UTC and the catalog. Same catalog + same UTC second = same slot.
-6. **Do not renumber existing channels.** Append new ones. DD Era stays 121–125.
+6. **Do not renumber existing channels.** Append new ones. DD Era is 003 Jungle Book, 004 Shaktimaan, 005 DD Classics, 006 Ramayan, 007 Mahabharat, and 013 Vintage India.
 7. **Do not commit `.env` / `.env.local` or API keys.** Restrict the browser key by HTTP referrer.
 8. **Do not send video over the remote WebSocket.** Commands and snapshots only. Payload cap 4 KB.
 9. **Interruption copy stays Hindi + English** on the card. No official Doordarshan wordmark.
@@ -325,7 +364,35 @@ flowchart TB
 
 ---
 
-## 11. Historical docs
+## 11. Future work
+
+Section 10 still wins. These items are unfinished. Shipping one of them updates this section in the same PR.
+
+Two roadmaps. Both keep the broadcast clock, the iframe-only player, and the DD Era numbers.
+
+```mermaid
+flowchart LR
+  subgraph programme [Programme]
+    Audit["Play current bundles in the player"]
+    Audit --> Depth["Lengthen loops shorter than one UTC day"]
+  end
+  subgraph pairing [Phone remote]
+    One["One process, in-memory sessions"]
+    One --> Store[Shared session store]
+    Store --> Replicas["Same pair on more than one replica"]
+  end
+```
+
+### TODO
+
+- [ ] Re-audit the curated lineup in the real player. [docs/content-audit-2026-10-05.md](content-audit-2026-10-05.md) checked metadata for the previous 125-channel scan and did not play every video. A video can pass `videos.list` and still fail in the iframe for a region.
+- [ ] Lengthen generated stations whose loop finishes inside one UTC day. `npm run bundle:programs` keeps up to 50 metadata-checked videos per generated channel. Hand-picked selections in `src/data/handPickedPrograms.ts` stay in front. Regeneration stays a maintainer command, not a build step.
+- [ ] Replace the in-memory remote hub with a shared session store and message routing. One process holds at most 1,000 TVs. A restart or a second replica drops the pair. Commands stay at or under 4 KB and still carry no video.
+- [ ] Publish the GA4 dimensions and reports in [docs/channel-analytics.md](channel-analytics.md). The player already emits the events. This repo does not create the container or the reports.
+
+---
+
+## 12. Historical docs
 
 | File | Status |
 | --- | --- |
