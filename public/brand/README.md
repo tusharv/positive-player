@@ -1,9 +1,9 @@
 # 1988.in identity
 
-- `1988-logo.svg`: primary blue wordmark; outlined numerals and letters, no font dependency.
-- `1988-logo-light.svg`: ivory version for dark or blue backgrounds.
-- `1988-icon.svg`: compact full-year mark for the browser favicon.
-- `1988-logo.png`: transparent raster wordmark for sharing.
+- `1988-logo.svg`: wordmark on the broadcast colour-bar plate; outlined numerals and letters, no font dependency.
+- `1988-logo-light.svg`: ivory version for dark or blue backgrounds, without the plate.
+- `1988-icon.svg`: compact full-year mark for the browser favicon, on the same colour-bar plate.
+- `1988-logo.png`: raster of the colour-bar wordmark for sharing.
 - `1988-living-room.webp`: original generated hero image, optimized for the website.
 
 Use the wordmark without stretching. Leave at least the height of the lowercase “in” around it. The small icon uses the year without the domain suffix for legibility.

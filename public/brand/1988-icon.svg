@@ -1,7 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>1988.in</title><rect width="64" height="64" rx="14" fill="#183b9b"/><g transform="translate(5 20) scale(.19)">  <g stroke="#fffdf5" stroke-width="15" stroke-linecap="square" stroke-linejoin="round">
-    <path d="M15 30 36 14V99M17 99H55"/>
-    <path d="M124 56H94Q76 56 76 37V33Q76 14 95 14H106Q125 14 125 33V78Q125 99 104 99H84"/>
-    <path d="M168 55Q150 55 150 37V33Q150 14 169 14H181Q200 14 200 33V37Q200 55 181 55ZM169 55Q149 55 149 76V79Q149 99 169 99H181Q201 99 201 79V76Q201 55 181 55"/>
-    <path d="M244 55Q226 55 226 37V33Q226 14 245 14H257Q276 14 276 33V37Q276 55 257 55ZM245 55Q225 55 225 76V79Q225 99 245 99H257Q277 99 277 79V76Q277 55 257 55"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>1988.in</title>
+  <defs>
+    <clipPath id="tile">
+      <rect width="64" height="64" rx="14" />
+    </clipPath>
+    <pattern id="scan" width="1" height="2" patternUnits="userSpaceOnUse">
+      <rect width="1" height="1" fill="#000" fill-opacity="0.22" />
+    </pattern>
+  </defs>
+  <g clip-path="url(#tile)">
+    <rect width="9.15" height="64" fill="#b4b4b4" />
+    <rect x="9.15" width="9.14" height="64" fill="#b4b410" />
+    <rect x="18.29" width="9.14" height="64" fill="#10b4b4" />
+    <rect x="27.43" width="9.14" height="64" fill="#10b410" />
+    <rect x="36.57" width="9.14" height="64" fill="#b410b4" />
+    <rect x="45.71" width="9.15" height="64" fill="#b41010" />
+    <rect x="54.86" width="9.14" height="64" fill="#1010b4" />
+    <rect width="64" height="64" fill="url(#scan)" />
+    <g transform="translate(5 20) scale(.19)" fill="none" stroke="#101010" stroke-width="32" stroke-linecap="square" stroke-linejoin="round">
+      <path d="M15 30 36 14V99M17 99H55" />
+      <path d="M124 56H94Q76 56 76 37V33Q76 14 95 14H106Q125 14 125 33V78Q125 99 104 99H84" />
+      <path d="M168 55Q150 55 150 37V33Q150 14 169 14H181Q200 14 200 33V37Q200 55 181 55ZM169 55Q149 55 149 76V79Q149 99 169 99H181Q201 99 201 79V76Q201 55 181 55" />
+      <path d="M244 55Q226 55 226 37V33Q226 14 245 14H257Q276 14 276 33V37Q276 55 257 55ZM245 55Q225 55 225 76V79Q225 99 245 99H257Q277 99 277 79V76Q277 55 257 55" />
+    </g>
+    <g transform="translate(5 20) scale(.19)" stroke="#fffdf5" stroke-width="15" stroke-linecap="square" stroke-linejoin="round">
+      <path d="M15 30 36 14V99M17 99H55" />
+      <path d="M124 56H94Q76 56 76 37V33Q76 14 95 14H106Q125 14 125 33V78Q125 99 104 99H84" />
+      <path d="M168 55Q150 55 150 37V33Q150 14 169 14H181Q200 14 200 33V37Q200 55 181 55ZM169 55Q149 55 149 76V79Q149 99 169 99H181Q201 99 201 79V76Q201 55 181 55" />
+      <path d="M244 55Q226 55 226 37V33Q226 14 245 14H257Q276 14 276 33V37Q276 55 257 55ZM245 55Q225 55 225 76V79Q225 99 245 99H257Q277 99 277 79V76Q277 55 257 55" />
+    </g>
   </g>
-</g></svg>
+</svg>
