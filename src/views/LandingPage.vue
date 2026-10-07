@@ -138,9 +138,22 @@ const featured = featuredNames.flatMap((name) => {
       <section id="support" class="support" aria-labelledby="support-title">
         <div class="support-copy">
           <h2 id="support-title">Support this project.</h2>
-          <p>Upvote it on Peerlist, or star the source on GitHub.</p>
+          <p>Upvote it on Product Hunt or Peerlist, or star the source on GitHub.</p>
         </div>
         <div class="support-actions">
+          <a
+            class="producthunt"
+            href="https://www.producthunt.com/products/1988-in-feel-1988-no-skip?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-1988-in-feel-1988-no-skip"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              alt="1988.in — Feel 1988. No skip. - Experience the 1988 era of Doordarshan. | Product Hunt"
+              width="250"
+              height="54"
+              src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1272302&theme=light&t=1791354371718"
+            />
+          </a>
           <a
             class="peerlist"
             href="https://peerlist.io/tusharv/project/feel-1988-no-skip"
@@ -350,18 +363,20 @@ h1 {
 .play {
   font-size: 13px;
 }
+.producthunt,
 .peerlist {
   display: block;
-  width: fit-content;
-  max-width: 100%;
+  width: 100%;
   line-height: 0;
   text-decoration: none;
 }
+.producthunt img,
 .peerlist img {
   display: block;
-  width: auto;
-  height: 72px;
-  max-width: 100%;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 296 / 72;
+  object-fit: fill;
 }
 .hero-picture {
   width: 100%;
@@ -555,21 +570,24 @@ h2 {
 .support-actions {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 14px;
+  align-items: stretch;
+  gap: 12px;
+  width: 296px;
+  max-width: 100%;
 }
 .support .github-link {
   display: flex;
   align-items: center;
   gap: 14px;
-  width: 296px;
-  max-width: 100%;
-  height: 72px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 296 / 72;
   padding: 0 18px;
   background: #182645;
   color: #fffdf5;
-  border: 3px outset #8b97b3;
-  box-shadow: 4px 4px 0 #0b225e;
+  border: 0;
+  border-radius: 18px;
+  box-shadow: none;
   font-family: 'IBM Plex Mono', monospace;
   text-decoration: none;
 }
@@ -598,8 +616,7 @@ h2 {
   color: #fffdf5;
 }
 .support .github-link:active {
-  border-style: inset;
-  box-shadow: none;
+  background: #10192e;
 }
 .failure {
   grid-column: 1 / -1;
