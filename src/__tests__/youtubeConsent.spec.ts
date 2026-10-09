@@ -40,16 +40,14 @@ describe('YouTube API consent gate', () => {
     const wrapper = await mountPlayer()
     const power = wrapper.get('button.power')
 
-    expect(power.attributes('disabled')).toBeDefined()
+    expect(wrapper.text()).toMatch(/By turning on/i)
     expect(wrapper.text()).toMatch(/Privacy Policy/)
     expect(wrapper.text()).toMatch(/Terms of Service/)
     expect(wrapper.find('a[href="/privacy"]').exists()).toBe(true)
     expect(wrapper.find('a[href="/terms"]').exists()).toBe(true)
     expect(wrapper.find('a[href="https://www.youtube.com/t/terms"]').exists()).toBe(true)
     expect(wrapper.find('.smpte').exists()).toBe(true)
-
-    await wrapper.get('input[type="checkbox"]').setValue(true)
-    expect(power.attributes('disabled')).toBeUndefined()
+    expect(wrapper.findComponent(PowerGate).exists()).toBe(true)
 
     await power.trigger('click')
     expect(wrapper.findComponent(PowerGate).exists()).toBe(false)
@@ -60,26 +58,21 @@ describe('YouTube API consent gate', () => {
     const wrapper = await mountPlayer()
     window.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter' }))
     await wrapper.vm.$nextTick()
-    expect(wrapper.findComponent(PowerGate).exists()).toBe(true)
-
-    await wrapper.get('input[type="checkbox"]').setValue(true)
-    window.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter' }))
-    await wrapper.vm.$nextTick()
     expect(wrapper.findComponent(PowerGate).exists()).toBe(false)
+    expect(localStorage.getItem(CONSENT_KEY)).toBe(CONSENT_VERSION)
   })
 
-  it('hides the consent card after a current agreement and lets returning viewers turn the set on', async () => {
+  it('hides the consent disclaimer after a current agreement and lets returning viewers turn the set on', async () => {
     localStorage.setItem(CONSENT_KEY, CONSENT_VERSION)
     const wrapper = await mountPlayer()
     const power = wrapper.get('button.power')
     expect(power.attributes('disabled')).toBeUndefined()
-    expect(wrapper.find('input[type="checkbox"]').exists()).toBe(false)
-    expect(wrapper.find('#consent-title').exists()).toBe(false)
+    expect(wrapper.find('.disclaimer').exists()).toBe(false)
   })
 
-  it('shows a titled consent card the first time', async () => {
+  it('shows an inline consent disclaimer the first time', async () => {
     const wrapper = await mountPlayer()
-    expect(wrapper.get('#consent-title').text()).toMatch(/station notice/i)
-    expect(wrapper.get('fieldset.consent').classes()).toContain('consent')
+    expect(wrapper.get('.disclaimer').text()).toMatch(/by turning on/i)
+    expect(wrapper.find('input[type="checkbox"]').exists()).toBe(false)
   })
 })

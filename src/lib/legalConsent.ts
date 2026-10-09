@@ -17,7 +17,7 @@ export function grantLegalConsent(): void {
   try {
     localStorage.setItem(CONSENT_KEY, CONSENT_VERSION)
   } catch {
-    /* Playback still requires the in-session agreement on the power gate. */
+    /* Playback still requires turning the set on at the power gate. */
   }
 }
 

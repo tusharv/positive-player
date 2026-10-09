@@ -16,7 +16,7 @@ import InterruptionCard from '../components/InterruptionCard.vue'
 import PowerGate from '../components/PowerGate.vue'
 import RemotePairing from '../components/RemotePairing.vue'
 import YoutubeStage from '../components/YoutubeStage.vue'
-import { hasLegalConsent } from '../lib/legalConsent'
+import { grantLegalConsent } from '../lib/legalConsent'
 import { useTvStore } from '../stores/tv'
 
 const tv = useTvStore()
@@ -158,7 +158,8 @@ function onKey(event: KeyboardEvent) {
   if (!tv.poweredOn) {
     if (event.key === 'Enter' || event.key === ' ') {
       event.preventDefault()
-      if (hasLegalConsent()) tv.powerOn()
+      grantLegalConsent()
+      tv.powerOn()
     }
     return
   }

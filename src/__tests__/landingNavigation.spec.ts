@@ -19,7 +19,7 @@ describe('landing page navigation', () => {
     await watch.trigger('click')
     await expect.poll(() => router.currentRoute.value.path).toBe('/watch')
     await flushPromises()
-    expect(wrapper.find('input[type="checkbox"]').exists()).toBe(true)
+    expect(wrapper.text()).toMatch(/by turning on/i)
     expect(wrapper.text()).toContain('Press to turn on')
   })
 })
