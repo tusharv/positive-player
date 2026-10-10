@@ -2,6 +2,7 @@ import { afterEach, beforeEach, expect, it, vi } from 'vitest'
 import { flushPromises, mount } from '@vue/test-utils'
 import { createPinia } from 'pinia'
 import { createMemoryHistory, createRouter } from 'vue-router'
+import { channelByNumber, formatChannelNumber } from '../data/channels'
 import PlayerPage from '../views/PlayerPage.vue'
 import { useTvStore } from '../stores/tv'
 
@@ -29,6 +30,46 @@ it('opens a shared channel ahead of the saved channel without starting playback'
   expect(tv.channelNumber).toBe(12)
   wrapper.unmount()
 })
+
+it('keeps the address and the tab title on the tuned channel without reloading', async () => {
+  const pinia = createPinia()
+  const router = createRouter({
+    history: createMemoryHistory(),
+    routes: [
+      { path: '/watch', component: PlayerPage },
+      { path: '/privacy', component: {} },
+      { path: '/terms', component: {} },
+    ],
+  })
+  await router.push('/watch')
+  document.title = '1988.in — Feel 1988. No skip.'
+  const wrapper = mount(PlayerPage, { global: { plugins: [pinia, router] } })
+  const tv = useTvStore(pinia)
+  await flushPromises()
+  expect(router.currentRoute.value.fullPath).toBe('/watch?channel=1')
+  expect(document.title).toBe(channelTitle(1))
+
+  tv.poweredOn = true
+  tv.setChannel(12)
+  await flushPromises()
+  expect(router.currentRoute.value.fullPath).toBe('/watch?channel=12')
+  expect(document.title).toBe(channelTitle(12))
+  expect(wrapper.get('[aria-label="Next channel"]').exists()).toBe(true)
+
+  await router.push('/watch?channel=6')
+  await flushPromises()
+  expect(tv.channelNumber).toBe(6)
+  expect(router.currentRoute.value.fullPath).toBe('/watch?channel=6')
+  expect(document.title).toBe(channelTitle(6))
+
+  wrapper.unmount()
+  expect(document.title).toBe('1988.in — Feel 1988. No skip.')
+})
+
+function channelTitle(number: number) {
+  const channel = channelByNumber(number)!
+  return `CH ${formatChannelNumber(channel.number)} ${channel.name} - 1988.in`
+}
 
 it('offers sharing from the HUD and keeps the menu open while controls would fade', async () => {
   vi.useFakeTimers()

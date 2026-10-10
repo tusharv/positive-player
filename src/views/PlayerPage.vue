@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { storeToRefs } from 'pinia'
-import { useRoute } from 'vue-router'
-import { channelByNumber } from '../data/channels'
+import { useRoute, useRouter } from 'vue-router'
+import { channelByNumber, formatChannelNumber } from '../data/channels'
 import ChannelShare from '../components/ChannelShare.vue'
 import { usePlayerActivity } from '../composables/usePlayerActivity'
 import { usePlayerFullscreen } from '../composables/usePlayerFullscreen'
@@ -21,17 +21,35 @@ import { useTvStore } from '../stores/tv'
 
 const tv = useTvStore()
 const route = useRoute()
+const router = useRouter()
+const standbyTitle = typeof document === 'undefined' ? '' : document.title
+
 watch(
   () => route?.query.channel,
   (value) => {
     if (typeof value !== 'string' || !/^\d+$/.test(value)) return
     const number = Number(value)
-    if (!channelByNumber(number)) return
+    if (!channelByNumber(number) || number === tv.channelNumber) return
     if (tv.poweredOn) tv.setChannel(number)
     else tv.channelNumber = number
   },
   { immediate: true },
 )
+
+function publishChannel(number: number) {
+  const channel = channelByNumber(number)
+  if (channel) {
+    document.title = `CH ${formatChannelNumber(channel.number)} ${channel.name} - 1988.in`
+  }
+  const next = String(number)
+  if (!router || route?.query.channel === next) return
+  void router.replace({
+    query: { ...route.query, channel: next },
+    hash: route.hash,
+  })
+}
+
+watch(() => tv.channelNumber, publishChannel)
 const page = ref<HTMLElement | null>(null)
 const controls = ref<HTMLElement | null>(null)
 const fullscreen = usePlayerFullscreen(page)
@@ -213,12 +231,14 @@ function onKey(event: KeyboardEvent) {
 }
 
 onMounted(() => {
+  publishChannel(tv.channelNumber)
   window.addEventListener('keydown', wakeOnKey, true)
   window.addEventListener('keydown', onKey)
   digitTicker = window.setInterval(() => tv.tickDigits(), 200)
 })
 
 onBeforeUnmount(() => {
+  document.title = standbyTitle
   window.removeEventListener('keydown', wakeOnKey, true)
   window.removeEventListener('keydown', onKey)
   window.clearInterval(digitTicker)
