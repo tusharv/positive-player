@@ -21,7 +21,7 @@ function power() {
       <div class="power-panel" :class="{ 'power-panel--returning': alreadyAccepted }">
         <button class="power" type="button" @click="power">
           <span class="power-dot" aria-hidden="true" />
-          Press to turn on
+          <span class="power-label">Press to turn on</span>
         </button>
         <template v-if="!alreadyAccepted">
           <p class="disclaimer">
@@ -117,6 +117,11 @@ function power() {
   letter-spacing: 0.16em;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.power-label {
+  white-space: nowrap;
+  text-align: center;
 }
 
 .power-panel--returning .power {
