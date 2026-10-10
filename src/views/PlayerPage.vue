@@ -69,6 +69,18 @@ watch(
   ],
   reveal,
 )
+watch(
+  () => tv.currentSlot?.videoId,
+  (next, previous) => {
+    if (next && previous && next !== previous) reveal()
+  },
+)
+watch(
+  () => tv.sleepNoticeVisible,
+  (visible) => {
+    if (visible) reveal()
+  },
+)
 
 function pointerActivity(event: PointerEvent) {
   // Touch movement can be scrolling; a tap on the wake surface reveals controls.
@@ -169,6 +181,7 @@ function onKey(event: KeyboardEvent) {
     '[': '[aria-label="Previous channel"]',
     ']': '[aria-label="Next channel"]',
     c: '.guide-launch',
+    l: '[aria-label="Last channel"]',
     s: '.share-launch',
     f: '[data-hud-action="fullscreen"]',
     r: '.remote-launch',
@@ -264,11 +277,15 @@ onBeforeUnmount(() => {
       <ChannelHud
         v-if="tv.poweredOn"
         :label="tv.channelLabel"
+        :programme-title="tv.programmeTitle"
         :pending-digits="tv.pendingDigits"
         :volume="tv.volume.volume"
         :muted="tv.volume.muted"
         :visible="hudVisible"
         :volume-visible="tv.volumeVisible && hudVisible"
+        :sleep-minutes="tv.sleepMinutes"
+        :sleep-notice="tv.sleepNotice"
+        :sleep-notice-visible="tv.sleepNoticeVisible && hudVisible"
       />
       <button
         v-if="tv.poweredOn && !hudVisible"
@@ -307,6 +324,16 @@ onBeforeUnmount(() => {
             >
               <WatchIcon name="channel-up" /><span>CH +</span>
             </button>
+            <button
+              type="button"
+              aria-label="Last channel"
+              aria-keyshortcuts="L"
+              data-shortcut="Last channel · L"
+              :disabled="!tv.canRecall"
+              @click="tv.recallChannel()"
+            >
+              <WatchIcon name="last" /><span>Last</span>
+            </button>
             <ChannelGuide
               aria-keyshortcuts="C"
               data-shortcut="Channel guide · C"
@@ -342,6 +369,10 @@ onBeforeUnmount(() => {
             >
               <WatchIcon :name="tv.volume.muted ? 'mute' : 'sound'" />
               <span>{{ tv.volume.muted ? 'Unmute' : 'Mute' }}</span>
+            </button>
+            <button type="button" aria-label="Sleep timer" @click="tv.cycleSleep()">
+              <WatchIcon name="sleep" />
+              <span>{{ tv.sleepMinutes ? `Sleep ${tv.sleepMinutes}` : 'Sleep' }}</span>
             </button>
             <ChannelShare
               aria-keyshortcuts="S"
@@ -540,6 +571,9 @@ onBeforeUnmount(() => {
   height: 20px;
   flex-shrink: 0;
   filter: drop-shadow(0 0 3px #8fd9a455);
+}
+.control-row > button:disabled {
+  opacity: 0.4;
 }
 .control-row > button:hover,
 .control-row :deep(.guide-launch:hover),

@@ -167,6 +167,30 @@ test('relays power off and keeps the paired remote informed of standby', async (
   assert.equal((await remote.next('state')).state.poweredOn, true)
 })
 
+test('relays last-channel and sleep commands and keeps the programme snapshot', async (t) => {
+  const app = await fixture(t)
+  const { host, remote } = await pair(app)
+  remote.send({ type: 'command', command: { action: 'recall' } })
+  assert.deepEqual((await host.next('command')).command, { action: 'recall' })
+  remote.send({ type: 'command', command: { action: 'sleep', value: 30 } })
+  assert.deepEqual((await host.next('command')).command, { action: 'sleep' })
+  const until = Date.now() + 30 * 60 * 1000
+  host.send({
+    type: 'state',
+    state: {
+      ...state,
+      programmeTitle: '  Evening raga  ',
+      sleepUntil: until,
+      privateNote: 'do not relay',
+    },
+  })
+  assert.deepEqual((await remote.next('state')).state, {
+    ...state,
+    programmeTitle: 'Evening raga',
+    sleepUntil: until,
+  })
+})
+
 test('allows the power toggle in standby but blocks other controls', async (t) => {
   const app = await fixture(t)
   const { host, remote } = await pair(app)

@@ -1,6 +1,8 @@
 import { afterEach, beforeEach, expect, it, vi } from 'vitest'
 import { flushPromises, mount, type VueWrapper } from '@vue/test-utils'
 import { createPinia } from 'pinia'
+import { channelByNumber } from '../data/channels'
+import { channelCatalogKey } from '../lib/youtubeData'
 import PlayerPage from '../views/PlayerPage.vue'
 import { useTvStore } from '../stores/tv'
 
@@ -11,6 +13,7 @@ beforeEach(() => {
 })
 afterEach(() => {
   wrapper?.unmount()
+  sessionStorage.clear()
   vi.clearAllTimers()
   vi.useRealTimers()
   vi.restoreAllMocks()
@@ -26,6 +29,44 @@ function setup(stubPairing = true) {
   })
   return tv
 }
+it('recalls the previous channel and cycles the sleep timer', async () => {
+  const tv = setup()
+  expect(wrapper.get('[aria-label="Last channel"]').attributes('disabled')).toBeDefined()
+  await wrapper.get('[aria-label="Next channel"]').trigger('click')
+  expect(tv.channelNumber).toBe(2)
+  window.dispatchEvent(new KeyboardEvent('keydown', { key: 'l' }))
+  await wrapper.vm.$nextTick()
+  expect(tv.channelNumber).toBe(1)
+  await wrapper.get('[aria-label="Last channel"]').trigger('click')
+  expect(tv.channelNumber).toBe(2)
+  await wrapper.get('[aria-label="Sleep timer"]').trigger('click')
+  expect(tv.sleepMinutes).toBe(30)
+  expect(wrapper.get('.sleep-notice').text()).toBe('SLEEP 30')
+  expect(wrapper.get('.sleep-mark').text()).toBe('SLEEP 30')
+  await vi.advanceTimersByTimeAsync(4000)
+  expect(wrapper.find('.sleep-notice').exists()).toBe(false)
+  expect(wrapper.get('.sleep-mark').text()).toBe('SLEEP 30')
+})
+it('shows the programme title on the glass until the controls fade', async () => {
+  sessionStorage.setItem(
+    channelCatalogKey(channelByNumber(1)!),
+    JSON.stringify({
+      items: [{ videoId: 'show', title: '  Evening raga  ', durationSeconds: 5000 }],
+      fetchedAt: Date.now(),
+    }),
+  )
+  const pinia = createPinia()
+  const tv = useTvStore(pinia)
+  wrapper = mount(PlayerPage, {
+    attachTo: document.body,
+    global: { plugins: [pinia], stubs: { RemotePairing: true, YoutubeStage: true } },
+  })
+  tv.powerOn()
+  await flushPromises()
+  expect(wrapper.get('.programme-title').text()).toBe('Evening raga')
+  await vi.advanceTimersByTimeAsync(4000)
+  expect(wrapper.find('.programme-title').exists()).toBe(false)
+})
 it('changes channels with on-screen controls without a paired phone', async () => {
   const tv = setup()
   await wrapper.get('[aria-label="Next channel"]').trigger('click')

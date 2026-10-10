@@ -107,6 +107,8 @@ it('accepts only supported commands and valid TV state', () => {
   expect(isCommand({ action: 'volumeStep', value: 500 })).toBe(false)
   expect(isCommand({ action: 'digit', value: '12' })).toBe(false)
   expect(isCommand({ action: 'loadUrl', value: 'https://example.com' })).toBe(false)
+  expect(isCommand({ action: 'recall' })).toBe(true)
+  expect(isCommand({ action: 'sleep' })).toBe(true)
   expect(
     isSnapshot({
       poweredOn: true,
@@ -132,6 +134,37 @@ it('accepts only supported commands and valid TV state', () => {
       volume: 80,
       muted: false,
       interruption: 'none',
+    }),
+  ).toBe(false)
+  expect(
+    isSnapshot({
+      poweredOn: true,
+      channelNumber: 1,
+      volume: 80,
+      muted: false,
+      interruption: 'none',
+      programmeTitle: 'Evening raga',
+      sleepUntil: null,
+    }),
+  ).toBe(true)
+  expect(
+    isSnapshot({
+      poweredOn: true,
+      channelNumber: 1,
+      volume: 80,
+      muted: false,
+      interruption: 'none',
+      programmeTitle: 'x'.repeat(81),
+    }),
+  ).toBe(false)
+  expect(
+    isSnapshot({
+      poweredOn: true,
+      channelNumber: 1,
+      volume: 80,
+      muted: false,
+      interruption: 'none',
+      sleepUntil: Number.NaN,
     }),
   ).toBe(false)
 })

@@ -12,6 +12,8 @@ defineProps<{
     | 'restore'
     | 'remote'
     | 'share'
+    | 'last'
+    | 'sleep'
 }>()
 </script>
 
@@ -53,6 +55,13 @@ defineProps<{
       <path d="M3 6h26v21H3z" opacity=".45" />
       <path v-if="name === 'fullscreen'" d="M7 14v-4h5m8 0h5v4M7 19v4h5m8 0h5v-4" />
       <path v-else d="M12 10v5H7m13-5v5h5M7 19h5v4m8 0v-4h5" />
+    </template>
+    <template v-else-if="name === 'last'">
+      <path d="M6 16h12M6 16l5-5M6 16l5 5M22 6v20" />
+    </template>
+    <template v-else-if="name === 'sleep'">
+      <circle cx="16" cy="16" r="9" />
+      <path d="M16 10v7l4 2" />
     </template>
     <template v-else-if="name === 'share'">
       <circle cx="24" cy="6" r="4" />

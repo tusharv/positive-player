@@ -19,6 +19,8 @@ export function useTvRemote() {
     volume: tv.volume.volume,
     muted: tv.volume.muted,
     interruption: tv.interruption,
+    sleepUntil: tv.sleepUntil,
+    ...(tv.programmeTitle ? { programmeTitle: tv.programmeTitle } : {}),
   }))
   const connection = new RemoteConnection('host', {
     status: (next) => {
@@ -66,6 +68,12 @@ export function useTvRemote() {
             break
           case 'mute':
             tv.muteToggle()
+            break
+          case 'recall':
+            tv.recallChannel()
+            break
+          case 'sleep':
+            tv.cycleSleep()
             break
         }
       }

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-defineProps<{ name: 'power' | 'plus' | 'minus' | 'tv' | 'volume' | 'mute' }>()
+defineProps<{ name: 'power' | 'plus' | 'minus' | 'tv' | 'volume' | 'mute' | 'last' | 'sleep' }>()
 </script>
 
 <template>
@@ -21,6 +21,14 @@ defineProps<{ name: 'power' | 'plus' | 'minus' | 'tv' | 'volume' | 'mute' }>()
     <template v-else-if="name === 'tv'">
       <rect x="3" y="6" width="18" height="14" rx="2" />
       <path d="m8 2 4 4 4-4" />
+    </template>
+    <template v-else-if="name === 'last'">
+      <path d="M9 12H4v5" />
+      <path d="M4 12a8 8 0 1 1 2 5.3" />
+    </template>
+    <template v-else-if="name === 'sleep'">
+      <circle cx="12" cy="12" r="8" />
+      <path d="M12 8v5l3 2" />
     </template>
     <template v-else>
       <path d="m11 4-6 5H2v6h3l6 5z" />

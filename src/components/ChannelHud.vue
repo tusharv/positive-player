@@ -2,14 +2,26 @@
 import { computed } from 'vue'
 import { CHANNEL_DIGITS } from '../data/channels'
 
-const props = defineProps<{
-  label: string
-  pendingDigits: string
-  volume: number
-  muted: boolean
-  visible: boolean
-  volumeVisible: boolean
-}>()
+const props = withDefaults(
+  defineProps<{
+    label: string
+    pendingDigits: string
+    volume: number
+    muted: boolean
+    visible: boolean
+    volumeVisible: boolean
+    programmeTitle?: string
+    sleepMinutes?: number
+    sleepNotice?: string
+    sleepNoticeVisible?: boolean
+  }>(),
+  {
+    programmeTitle: '',
+    sleepMinutes: 0,
+    sleepNotice: '',
+    sleepNoticeVisible: false,
+  },
+)
 
 const ticks = computed(() => {
   const filled = props.muted ? 0 : Math.round(props.volume / 5)
@@ -24,8 +36,15 @@ const displayLabel = computed(() => {
 
 <template>
   <Transition name="hud">
-    <p v-if="visible" class="channel-label">{{ displayLabel }}</p>
+    <p v-if="visible" class="channel-label">
+      {{ displayLabel }}
+      <span v-if="programmeTitle && !pendingDigits" class="programme-title">{{
+        programmeTitle
+      }}</span>
+      <span v-if="sleepNoticeVisible && sleepNotice" class="sleep-notice">{{ sleepNotice }}</span>
+    </p>
   </Transition>
+  <p v-if="sleepMinutes" class="sleep-mark">SLEEP {{ sleepMinutes }}</p>
   <Transition name="hud">
     <div
       v-if="volumeVisible"
@@ -47,9 +66,40 @@ const displayLabel = computed(() => {
 
 <style scoped>
 .channel-label,
-.volume-display {
+.volume-display,
+.sleep-mark {
   z-index: 3;
   pointer-events: none;
+}
+.programme-title,
+.sleep-notice {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: clamp(0.85rem, 2vw, 1.25rem);
+  letter-spacing: 0.04em;
+  line-height: 1.3;
+}
+.programme-title {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.sleep-mark {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  margin: 0;
+  padding: 0.35rem 0.55rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 0.25rem;
+  color: var(--crt-phosphor);
+  font-size: clamp(0.75rem, 1.6vw, 0.95rem);
+  letter-spacing: 0.12em;
+  line-height: 1;
+  text-shadow:
+    0 2px 4px #000,
+    0 0 8px rgba(80, 200, 120, 0.45);
 }
 .channel-label {
   position: absolute;

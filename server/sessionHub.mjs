@@ -1,5 +1,5 @@
 import { randomBytes, randomInt } from 'node:crypto'
-import { isCommand, isSnapshot } from '../src/lib/remoteProtocol.ts'
+import { clipProgrammeTitle, isCommand, isSnapshot } from '../src/lib/remoteProtocol.ts'
 
 const token = () => randomBytes(24).toString('base64url')
 const codeAlphabet = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'
@@ -11,6 +11,23 @@ const send = (socket, message) => {
     socket.send(JSON.stringify(message))
 }
 const error = (socket, code) => send(socket, { type: 'error', code })
+
+function publishedSnapshot(state) {
+  const published = {
+    poweredOn: state.poweredOn,
+    channelNumber: state.channelNumber,
+    volume: state.volume,
+    muted: state.muted,
+    interruption: state.interruption,
+  }
+  if (typeof state.programmeTitle === 'string') {
+    const title = clipProgrammeTitle(state.programmeTitle)
+    if (title) published.programmeTitle = title
+  }
+  if (Object.prototype.hasOwnProperty.call(state, 'sleepUntil'))
+    published.sleepUntil = state.sleepUntil
+  return published
+}
 
 export function createSessionHub({ now = Date.now, maxSessions = 1000 } = {}) {
   const sessions = new Map()
@@ -194,8 +211,7 @@ export function createSessionHub({ now = Date.now, maxSessions = 1000 } = {}) {
       }
       if (msg.type === 'state' && role === 'host' && isSnapshot(msg.state)) {
         // Pick only the public playback fields; never relay arbitrary host data.
-        const { poweredOn, channelNumber, volume, muted, interruption } = msg.state
-        session.state = { poweredOn, channelNumber, volume, muted, interruption }
+        session.state = publishedSnapshot(msg.state)
         send(session.remote, { type: 'state', state: session.state })
         presence(session)
         return
@@ -210,9 +226,15 @@ export function createSessionHub({ now = Date.now, maxSessions = 1000 } = {}) {
           return
         }
         const { action, value } = msg.command
+        const bare =
+          action === 'mute' ||
+          action === 'powerOff' ||
+          action === 'powerToggle' ||
+          action === 'recall' ||
+          action === 'sleep'
         send(session.host, {
           type: 'command',
-          command: action === 'mute' || action === 'powerOff' || action === 'powerToggle' ? { action } : { action, value },
+          command: bare ? { action } : { action, value },
         })
         return
       }

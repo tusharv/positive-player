@@ -13,6 +13,13 @@ const state = ref<TvSnapshot | null>(null)
 const code = ref('')
 const error = ref('')
 const channel = computed(() => CHANNELS.find((item) => item.number === state.value?.channelNumber))
+const now = ref(Date.now())
+const sleepStatus = computed(() => {
+  const until = state.value?.sleepUntil
+  if (until == null || until <= now.value) return ''
+  const minutes = Math.ceil((until - now.value) / 60_000)
+  return `Sleep ${minutes}`
+})
 const canControl = computed(
   () => status.value === 'connected' && hostOnline.value && state.value !== null,
 )
@@ -44,6 +51,7 @@ const connection = new RemoteConnection('remote', {
     if (message.type === 'presence') hostOnline.value = message.hostOnline === true
     if (message.type === 'state' && isSnapshot(message.state)) {
       state.value = message.state
+      now.value = Date.now()
       error.value = ''
     }
     if (message.type === 'ended') {
@@ -78,7 +86,11 @@ function disconnect() {
   code.value = ''
   error.value = ''
 }
+let clock = 0
 onMounted(() => {
+  clock = window.setInterval(() => {
+    now.value = Date.now()
+  }, 15000)
   const invite = new URLSearchParams(window.location.hash.slice(1)).get('invite')
   if (invite) connection.start({ type: 'join', invite })
   else if (connection.canResume) {
@@ -86,7 +98,10 @@ onMounted(() => {
     connection.start()
   }
 })
-onBeforeUnmount(() => connection.destroy())
+onBeforeUnmount(() => {
+  window.clearInterval(clock)
+  connection.destroy()
+})
 </script>
 
 <template>
@@ -154,6 +169,7 @@ onBeforeUnmount(() => connection.destroy())
             }}</span>
           </p>
           <h1>{{ channel?.name ?? 'Your TV' }}</h1>
+          <p v-if="state?.programmeTitle" class="programme">{{ state.programmeTitle }}</p>
           <p v-if="channel?.blurb" class="blurb">{{ channel.blurb }}</p>
           <div class="volume-readout">
             <span>{{ state?.muted ? 'Muted' : `Volume ${state?.volume ?? '—'}` }}</span>
@@ -220,6 +236,14 @@ onBeforeUnmount(() => connection.destroy())
             <RemoteIcon :name="state?.muted ? 'volume' : 'mute'" />
             {{ state?.muted ? 'Unmute sound' : 'Mute sound' }}
           </button>
+          <div class="rituals">
+            <button type="button" aria-label="Last channel" @click="command({ action: 'recall' })">
+              <RemoteIcon name="last" /> Last
+            </button>
+            <button type="button" aria-label="Sleep timer" @click="command({ action: 'sleep' })">
+              <RemoteIcon name="sleep" /> {{ sleepStatus || 'Sleep' }}
+            </button>
+          </div>
           <div class="keypad" aria-label="Channel number pad">
             <button
               v-for="digit in ['1', '2', '3', '4', '5', '6', '7', '8', '9']"
@@ -444,6 +468,12 @@ button:disabled {
   letter-spacing: 0.08em;
   font-size: 1rem;
 }
+.programme {
+  margin: -4px 0 10px;
+  color: #d5e7d1;
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
 .blurb {
   margin: 0 0 20px;
   color: #b7c9b4;
@@ -524,6 +554,24 @@ button:disabled {
 .mute-button[aria-pressed='true'] {
   border-color: var(--crt-phosphor);
   color: var(--crt-phosphor);
+}
+.rituals {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 0 0 18px;
+}
+.rituals button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  border: 1px solid #6b604e;
+  border-radius: 20px;
+  background: #24221b;
+  color: #e3d7c3;
+  font-size: 0.75rem;
 }
 .keypad {
   display: grid;

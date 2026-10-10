@@ -18,10 +18,14 @@ import {
   playerFailureReason,
   type ChannelEventDetails,
 } from '../lib/channelAnalytics'
+import { clipProgrammeTitle } from '../lib/remoteProtocol'
 
 const VOLUME_KEY = 'pp-volume'
 const CHANNEL_KEY = 'pp-channel'
+const PREVIOUS_CHANNEL_KEY = 'pp-previous-channel'
 const HUD_MS = 5000
+const SLEEP_STEPS = [0, 30, 60, 90] as const
+type SleepStep = (typeof SLEEP_STEPS)[number]
 const BRIEF_MS = 2000
 const RETRY_MS = 8000
 const TUNE_TIMEOUT_MS = 20000
@@ -34,6 +38,24 @@ function readChannel(): number {
     // Storage can be disabled; the TV still works for this visit.
   }
   return CHANNELS[0]!.number
+}
+
+function readPreviousChannel(): number | null {
+  try {
+    const saved = Number(localStorage.getItem(PREVIOUS_CHANNEL_KEY))
+    if (Number.isInteger(saved) && channelByNumber(saved)) return saved
+  } catch {
+    // Recall is optional. A blocked store still tunes the current channel.
+  }
+  return null
+}
+
+function writePreviousChannel(channel: number) {
+  try {
+    localStorage.setItem(PREVIOUS_CHANNEL_KEY, String(channel))
+  } catch {
+    // The in-memory previous channel still recalls for this visit.
+  }
 }
 
 function readVolume(): VolumeState {
@@ -91,6 +113,11 @@ export const useTvStore = defineStore('tv', () => {
   const currentSlot = ref<BroadcastSlot | null>(null)
   const playbackRevision = ref(0)
   const pendingDigits = ref('')
+  const previousChannel = ref<number | null>(readPreviousChannel())
+  const sleepMinutes = ref<SleepStep>(0)
+  const sleepUntil = ref<number | null>(null)
+  const sleepNotice = ref('')
+  const sleepNoticeVisible = ref(false)
   const loading = ref(false)
   const zapping = ref(false)
   const waitingForPlayback = ref(false)
@@ -101,6 +128,8 @@ export const useTvStore = defineStore('tv', () => {
   let briefTimer = 0
   let retryTimer = 0
   let zapTimer = 0
+  let sleepTimer = 0
+  let sleepNoticeTimer = 0
   let playedThisTune = false
   const reportedFailures = new Set<string>()
   function beginTune() {
@@ -128,6 +157,17 @@ export const useTvStore = defineStore('tv', () => {
 
   const currentChannel = computed(() => channelByNumber(channelNumber.value) ?? CHANNELS[0]!)
   const channelLabel = computed(() => formatChannelLabel(currentChannel.value))
+  const programmeTitle = computed(() => {
+    const videoId = currentSlot.value?.videoId
+    if (!videoId) return ''
+    const title = catalogs.value[channelNumber.value]?.find(
+      (item) => item.videoId === videoId,
+    )?.title
+    return title ? clipProgrammeTitle(title) : ''
+  })
+  const canRecall = computed(
+    () => previousChannel.value != null && previousChannel.value !== channelNumber.value,
+  )
   const apiKey = computed(() => import.meta.env.VITE_YOUTUBE_API_KEY ?? '')
 
   function showHud() {
@@ -143,6 +183,29 @@ export const useTvStore = defineStore('tv', () => {
     window.clearTimeout(volumeTimer)
     volumeTimer = window.setTimeout(() => {
       volumeVisible.value = false
+    }, HUD_MS)
+  }
+
+  function commitSlot(slot: BroadcastSlot) {
+    const previousId = currentSlot.value?.videoId
+    currentSlot.value = slot
+    playbackRevision.value++
+    if (poweredOn.value && previousId && slot.videoId !== previousId) showHud()
+  }
+
+  function clearSleep() {
+    window.clearTimeout(sleepTimer)
+    sleepTimer = 0
+    sleepMinutes.value = 0
+    sleepUntil.value = null
+  }
+
+  function showSleepNotice(label: string) {
+    sleepNotice.value = label
+    sleepNoticeVisible.value = true
+    window.clearTimeout(sleepNoticeTimer)
+    sleepNoticeTimer = window.setTimeout(() => {
+      sleepNoticeVisible.value = false
     }, HUD_MS)
   }
 
@@ -215,8 +278,7 @@ export const useTvStore = defineStore('tv', () => {
       clearRetry()
       catalogs.value = { ...catalogs.value, [channel]: catalog }
       interruption.value = 'none'
-      currentSlot.value = slot
-      playbackRevision.value++
+      commitSlot(slot)
     }
 
     try {
@@ -272,6 +334,10 @@ export const useTvStore = defineStore('tv', () => {
 
   function powerOff() {
     finishWaiting()
+    clearSleep()
+    sleepNotice.value = ''
+    sleepNoticeVisible.value = false
+    window.clearTimeout(sleepNoticeTimer)
     poweredOn.value = false
     volumeVisible.value = false
     hudVisible.value = false
@@ -305,7 +371,11 @@ export const useTvStore = defineStore('tv', () => {
       startZap()
     }
     const changed = channelNumber.value !== next
-    if (changed) currentSlot.value = null
+    if (changed) {
+      previousChannel.value = channelNumber.value
+      writePreviousChannel(channelNumber.value)
+      currentSlot.value = null
+    }
     channelNumber.value = next
     if (changed && poweredOn.value) beginTune()
     try {
@@ -321,6 +391,30 @@ export const useTvStore = defineStore('tv', () => {
 
   function channelStep(delta: number) {
     setChannel(wrapChannel(channelNumber.value, delta))
+  }
+
+  function recallChannel() {
+    const previous = previousChannel.value
+    if (previous == null || previous === channelNumber.value || !channelByNumber(previous)) return
+    setChannel(previous)
+  }
+
+  function cycleSleep() {
+    const next =
+      SLEEP_STEPS[(SLEEP_STEPS.indexOf(sleepMinutes.value) + 1) % SLEEP_STEPS.length] ?? 0
+    window.clearTimeout(sleepTimer)
+    sleepTimer = 0
+    if (next === 0) {
+      clearSleep()
+      showSleepNotice('SLEEP OFF')
+      return
+    }
+    sleepMinutes.value = next
+    sleepUntil.value = Date.now() + next * 60_000
+    sleepTimer = window.setTimeout(() => {
+      powerOff()
+    }, next * 60_000)
+    showSleepNotice(`SLEEP ${next}`)
   }
 
   function applyDigitResult(channel: number | null, digits: string) {
@@ -371,8 +465,7 @@ export const useTvStore = defineStore('tv', () => {
     }
     interruption.value = 'none'
     waitForPlayback(channel, requestId)
-    currentSlot.value = next
-    playbackRevision.value++
+    commitSlot(next)
   }
 
   function excludeCurrent() {
@@ -434,11 +527,19 @@ export const useTvStore = defineStore('tv', () => {
     waitingForPlayback,
     currentChannel,
     channelLabel,
+    programmeTitle,
+    canRecall,
+    sleepMinutes,
+    sleepUntil,
+    sleepNotice,
+    sleepNoticeVisible,
     CHANNELS,
     powerOn,
     powerOff,
     setChannel,
     channelStep,
+    recallChannel,
+    cycleSleep,
     typeDigit,
     tickDigits,
     volumeStep,

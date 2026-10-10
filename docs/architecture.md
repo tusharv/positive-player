@@ -233,7 +233,7 @@ flowchart TD
 
 ## 7. Remote control
 
-Video stays on the desktop. The phone is a second screen for power, channel, volume, mute.
+Video stays on the desktop. The phone is a second screen for power, channel, last channel, volume, mute, and sleep.
 
 ```mermaid
 sequenceDiagram
@@ -256,7 +256,9 @@ sequenceDiagram
   Hub-->>Phone: new state
 ```
 
-Protocol: `src/lib/remoteProtocol.ts` (shared with the Node hub via type stripping). Commands: `channelStep`, `volumeStep`, `digit`, `mute`, `powerOff`, `powerToggle`. Host is authoritative. Remote cannot write volume/channel except by command.
+Protocol: `src/lib/remoteProtocol.ts` (shared with the Node hub via type stripping). Commands: `channelStep`, `volumeStep`, `digit`, `mute`, `powerOff`, `powerToggle`, `recall`, `sleep`. `recall` tunes the previous channel. `sleep` cycles 30, 60, 90 minutes, then off; the host turns itself off at the deadline. Host is authoritative. Remote cannot write volume/channel except by command.
+
+Snapshots may include `programmeTitle` (at most 80 characters, omitted when the tuned video has no title) and `sleepUntil` (epoch milliseconds, or `null` when sleep is off). The hub copies those fields and still drops anything else. The programme title is the catalog title for the current slot. It fades with the channel label, including when the next programme starts on the same channel. There is no progress bar. Sleep is not written to storage, so a reload cannot turn the set off later. `powerOff` cancels a pending sleep timer.
 
 Pairing rules agents must keep:
 
@@ -277,6 +279,7 @@ Pairing rules agents must keep:
 | --- | --- | --- |
 | `pp-legal-consent` | localStorage | Consent version string |
 | `pp-channel` | localStorage | Last channel number |
+| `pp-previous-channel` | localStorage | Channel number Last returns to |
 | `pp-volume` | localStorage | `{ volume, muted, lastNonZero }` |
 | `pp-catalog-N` | localStorage, sessionStorage fallback | `{ items, fetchedAt }` |
 | `pp-youtube-quota-until` | localStorage | Search cooldown timestamp |
@@ -382,6 +385,8 @@ flowchart LR
     Store --> Replicas["Same pair on more than one replica"]
   end
 ```
+
+Now playing, last channel, and sleep are part of the player. They are not open work.
 
 ### TODO
 

@@ -1,5 +1,7 @@
 import { CHANNEL_COUNT } from '../data/channels.ts'
 
+export const PROGRAMME_TITLE_LIMIT = 80
+
 export type RemoteCommand =
   | { action: 'channelStep'; value: -1 | 1 }
   | { action: 'volumeStep'; value: -5 | 5 }
@@ -7,6 +9,8 @@ export type RemoteCommand =
   | { action: 'mute' }
   | { action: 'powerOff' }
   | { action: 'powerToggle' }
+  | { action: 'recall' }
+  | { action: 'sleep' }
 
 export type TvSnapshot = {
   poweredOn: boolean
@@ -14,6 +18,14 @@ export type TvSnapshot = {
   volume: number
   muted: boolean
   interruption: 'none' | 'brief' | 'hold'
+  programmeTitle?: string
+  sleepUntil?: number | null
+}
+
+export function clipProgrammeTitle(title: string): string {
+  const trimmed = title.trim().replace(/\s+/g, ' ')
+  if (trimmed.length <= PROGRAMME_TITLE_LIMIT) return trimmed
+  return `${trimmed.slice(0, PROGRAMME_TITLE_LIMIT - 1).trimEnd()}…`
 }
 
 export function isCommand(value: unknown): value is RemoteCommand {
@@ -29,6 +41,8 @@ export function isCommand(value: unknown): value is RemoteCommand {
     case 'powerToggle':
     case 'powerOff':
     case 'mute':
+    case 'recall':
+    case 'sleep':
       return true
     default:
       return false
@@ -47,6 +61,12 @@ export function isSnapshot(value: unknown): value is TvSnapshot {
     Number.isInteger(state.volume) &&
     state.volume >= 0 &&
     state.volume <= 100 &&
-    ['none', 'brief', 'hold'].includes(state.interruption)
+    ['none', 'brief', 'hold'].includes(state.interruption) &&
+    (state.programmeTitle === undefined ||
+      (typeof state.programmeTitle === 'string' &&
+        state.programmeTitle.length <= PROGRAMME_TITLE_LIMIT)) &&
+    (state.sleepUntil === undefined ||
+      state.sleepUntil === null ||
+      (typeof state.sleepUntil === 'number' && Number.isFinite(state.sleepUntil)))
   )
 }
