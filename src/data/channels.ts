@@ -32,7 +32,7 @@ type LineupRow = {
 }
 
 const LINEUP: LineupRow[] = [
-  { name: 'Bollywood', playlistId: 'PL9bw4S5ePsEEgvwzsXt7OT1WjndTTrF7q', query: 'bollywood songs dance hits video jukebox', blurb: 'Bollywood songs, dance hits, and video jukeboxes.', mood: 'bright', category: 'Music' },
+  { name: 'Bollywood', playlistId: 'PL9bw4S5ePsEEgvwzsXt7OT1WjndTTrF7q', query: 'bollywood full video songs video jukebox -audio -lyrical', blurb: 'Bollywood video songs, dance scenes, and video jukeboxes.', mood: 'bright', category: 'Music' },
   { name: 'Cricket', playlistId: 'PLEpeKf7U6gmZf6x8KdOaZ4nfEBJw_xlWz', query: 'Sachin Tendulkar Rahul Dravid MS Dhoni Sunil Gavaskar best innings cricket legends', blurb: 'Sachin, Dravid, Dhoni, Gavaskar, and the legends at their best.', mood: 'bright', category: 'Play' },
   { name: 'Jungle Book', playlistId: 'PL65eurRkEvghrieaRGNpneAZmZoUeM5Kc', query: 'Jungle Book Mowgli Doordarshan original Hindi full episode cartoon', blurb: 'Mowgli and friends in the Hindi animated classic.', mood: 'bright', category: 'Classic TV', tags: ['DD Era', 'Hindi', 'Animation', 'Adventure'] },
   { name: 'Shaktimaan', playlistId: 'PLJHHPzufWhurTWga4uBzL-M3F79A71p2Z', query: 'Shaktimaan Mukesh Khanna original Hindi full episode', blurb: 'Mukesh Khanna’s superhero adventures from the DD era.', mood: 'bright', category: 'Classic TV', tags: ['DD Era', 'Hindi', 'Superhero', 'Adventure'] },

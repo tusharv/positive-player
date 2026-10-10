@@ -1,7 +1,9 @@
-import { writeFileSync } from 'node:fs'
+import { fileURLToPath } from 'node:url'
+import { readFileSync, writeFileSync } from 'node:fs'
 import { CHANNELS } from '../src/data/channels.ts'
 import { HAND_PICKED_PROGRAMS } from '../src/data/handPickedPrograms.ts'
 import { writeProgramBundles } from './write-program-bundles.mjs'
+import { archiveCatalogs, mergeCatalog } from './weekly-catalog.mjs'
 import { fetchChannelCatalog } from '../src/lib/youtubeData.ts'
 
 // Run explicitly to refresh the checked-in lists; never runs during a site build.
@@ -13,7 +15,21 @@ try {
 const apiKey = process.env.VITE_YOUTUBE_API_KEY
 if (!apiKey) throw new Error('Set VITE_YOUTUBE_API_KEY before generating catalogs')
 const referer = process.env.YOUTUBE_REFERER ?? 'https://www.1988.in/'
-const catalogs = { ...HAND_PICKED_PROGRAMS }
+const previous = Object.fromEntries(
+  CHANNELS.map((channel) => [
+    channel.name,
+    JSON.parse(
+      readFileSync(
+        new URL(
+          `../src/data/programs/${String(channel.number).padStart(3, '0')}.json`,
+          import.meta.url,
+        ),
+        'utf8',
+      ),
+    ),
+  ]),
+)
+const catalogs = { ...previous }
 const failures = []
 let requests = 0
 const fetchFn = (url) => {
@@ -31,7 +47,7 @@ async function collect(channel) {
       items = await fetchChannelCatalog({ ...source, kind: 'search' }, { apiKey, fetchFn })
     }
     if (items.length < 3) throw new Error(`Only ${items.length} playable programmes`)
-    catalogs[channel.name] = items.slice(0, 50)
+    catalogs[channel.name] = mergeCatalog(previous[channel.name], items)
     console.log(`${channel.number} ${channel.name}: ${catalogs[channel.name].length}`)
   } catch (error) {
     failures.push(`${channel.name}: ${error.message}`)
@@ -53,5 +69,11 @@ if (failures.length) {
   )
   throw new Error(`Bundle unchanged. ${failures.join('; ')}`)
 }
+archiveCatalogs(
+  fileURLToPath(new URL('../docs/content-history/', import.meta.url)),
+  new Date().toISOString().replace(/[:.]/g, '-'),
+  CHANNELS,
+  previous,
+)
 writeProgramBundles(CHANNELS, catalogs, new URL('../src/data/', import.meta.url))
 console.log(`Bundled ${Object.keys(catalogs).length} stations; ${requests} API requests.`)

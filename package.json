@@ -19,7 +19,9 @@
     "dev:tv": "vite --host 0.0.0.0",
     "dev:remote": "node --experimental-strip-types --watch server/index.mjs",
     "start": "node --experimental-strip-types server/index.mjs",
-    "test:server": "node --experimental-strip-types --test server/*.test.mjs"
+    "test:server": "node --experimental-strip-types --test server/*.test.mjs",
+    "audit:content": "node --experimental-strip-types scripts/audit-weekly-programs.mjs",
+    "refresh:weekly": "node --experimental-strip-types scripts/refresh-weekly-programs.mjs"
   },
   "dependencies": {
     "@fontsource/ibm-plex-mono": "^5.3.0",

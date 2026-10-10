@@ -1,252 +1,1107 @@
 [
   {
+    "videoId": "VbsUQU3Hq8Q",
+    "title": "Walking backstreet of Garosu-gil│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 548
+  },
+  {
+    "videoId": "FoAEcZ9TZis",
+    "title": "Nightlife of Gangnam backstreet│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 312
+  },
+  {
+    "videoId": "dy1LDdQdRPE",
+    "title": "Walking rainy Garosu-gil│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 301
+  },
+  {
+    "videoId": "UK9DDid5MEY",
+    "title": "Walking around Gangnam│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 441
+  },
+  {
+    "videoId": "VOoywKCelME",
+    "title": "Walking around Yeonnam│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 327
+  },
+  {
+    "videoId": "69W3NOxgg8Q",
+    "title": "Walking around the secret palace│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 660
+  },
+  {
+    "videoId": "qiOeRIkZjQs",
+    "title": "Backstreet of Myeongdong│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 643
+  },
+  {
+    "videoId": "jlmLVWCPDzw",
+    "title": "Roaming Euljiro after work│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 609
+  },
+  {
+    "videoId": "ZdAG1OHhL6Y",
+    "title": "Walking IFC mall│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 614
+  },
+  {
+    "videoId": "z3wCZ03lFSE",
+    "title": "Wandering Hongdae district│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 607
+  },
+  {
+    "videoId": "NU2CPAMZgx0",
+    "title": "Walking through the park near Hongdae│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 611
+  },
+  {
+    "videoId": "unaJitY2zt0",
+    "title": "Walking around Hongdae on weekends│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 606
+  },
+  {
+    "videoId": "4BVsWcYzys8",
+    "title": "Korean street soul food truck│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 614
+  },
+  {
+    "videoId": "29ecO0SrmuM",
+    "title": "Walking empty street Myeongdong│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 635
+  },
+  {
+    "videoId": "vIvg2NGQu0M",
+    "title": "Night walk around Myeongdong│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 613
+  },
+  {
+    "videoId": "d85QyHZ06qE",
+    "title": "Night walk around Hongdae│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 323
+  },
+  {
+    "videoId": "bd0Gy4GHU4A",
+    "title": "Nightwalk to Apple Store Garosu-Gil│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 638
+  },
+  {
+    "videoId": "288clwsqK74",
+    "title": "Walking around Yonsei university│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 612
+  },
+  {
+    "videoId": "Ixo7whoiRb0",
+    "title": "Walking to the palace Gyeongbokgung│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 645
+  },
+  {
+    "videoId": "ya-dDyjdhl4",
+    "title": "Walking to Square Gwanghwamun│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 851
+  },
+  {
+    "videoId": "1kRoinfyrw0",
+    "title": "Walking street Itaewon at night│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 641
+  },
+  {
+    "videoId": "d51zEhhgpvk",
+    "title": "[4K] City driving around city hall│Seoul, Korea",
+    "durationSeconds": 1159
+  },
+  {
+    "videoId": "a7_YhbIUkDI",
+    "title": "[4K] Walking saturday night fever and youth street Jonggak│Seoul, Korea",
+    "durationSeconds": 846
+  },
+  {
+    "videoId": "SDTO-la3wnI",
+    "title": "[4K] Nightwalk bustling open-air pub street of hipsters│Seoul, Korea",
+    "durationSeconds": 509
+  },
+  {
+    "videoId": "Z9scCSueWDU",
+    "title": "[4K] Night walking through Euljiro 3-ga street│Seoul, Korea",
+    "durationSeconds": 486
+  },
+  {
+    "videoId": "79p1ritLM78",
+    "title": "[4K] Midnight Hongdae narrow alleys│Seoul, Korea",
+    "durationSeconds": 658
+  },
+  {
+    "videoId": "wbhhJhVbaZ8",
+    "title": "[4K] Walking Cheongdam to Apgujeong│Seoul, Korea",
+    "durationSeconds": 848
+  },
+  {
+    "videoId": "lcJ19pV3Ns0",
+    "title": "[4K] Nightlife of rainy day Jongno backstreet│Seoul, Korea",
+    "durationSeconds": 581
+  },
+  {
+    "videoId": "1cPpPHyq048",
+    "title": "[4K] Walking Han river park Yeouido│Seoul, Korea",
+    "durationSeconds": 502
+  },
+  {
+    "videoId": "eJNpmyVKGN8",
+    "title": "[4K] Walking Starfield Goyang the biggest multiplex│Seoul, Korea",
+    "durationSeconds": 1045
+  },
+  {
+    "videoId": "Qd1cVh_zjAM",
+    "title": "[4K] Nightwalk Bukchangdong backstreets│Seoul, Korea",
+    "durationSeconds": 778
+  },
+  {
+    "videoId": "mgPRSctEAoU",
+    "title": "[4K] Walking around Apgujeong rodeo street│Seoul, Korea",
+    "durationSeconds": 722
+  },
+  {
+    "videoId": "Hm8jZNhHt-0",
+    "title": "[4K] Walking Hongdae downhill road│Seoul, Korea",
+    "durationSeconds": 420
+  },
+  {
+    "videoId": "9iu37u1sSrA",
+    "title": "[4K] Walking Yeonnam narrow alleys(near Hongdae)│Seoul, Korea",
+    "durationSeconds": 531
+  },
+  {
+    "videoId": "vWT6RnCCb88",
+    "title": "[4K] Wandering Itaewon backstreets│Seoul, Korea",
+    "durationSeconds": 552
+  },
+  {
+    "videoId": "wiVDcBrvebk",
+    "title": "[4K] Arc'N Book brand new fancy bookstore│Seoul, Korea",
+    "durationSeconds": 399
+  },
+  {
+    "videoId": "Kt4oOxHVrYo",
+    "title": "[4K] Midnight walking through Hongdae backstreet│Seoul, Korea",
+    "durationSeconds": 597
+  },
+  {
+    "videoId": "97Jt6zsH2fE",
+    "title": "[4K] Nightlife of Hongdae: Subscriber's Request│Seoul, Korea",
+    "durationSeconds": 563
+  },
+  {
+    "videoId": "RVLBIifGJvw",
+    "title": "[4K] Walking through Seochon food street│Seoul, Korea",
+    "durationSeconds": 362
+  },
+  {
+    "videoId": "_MaxqKo714A",
+    "title": "[4K] Walk hidden alleys and residential area of Garosugil│Seoul, Korea",
+    "durationSeconds": 547
+  },
+  {
+    "videoId": "a6Z9CudT5cQ",
+    "title": "[4K] Night walk around Samcheongdong│Seoul, Korea",
+    "durationSeconds": 720
+  },
+  {
+    "videoId": "Qkqf1i2aI6s",
+    "title": "[4K] Walking Garosugil TGIF│Seoul, Korea",
+    "durationSeconds": 456
+  },
+  {
+    "videoId": "2-zwCw4zKws",
+    "title": "[4K] Night walk central area of city│Seoul, Korea",
+    "durationSeconds": 751
+  },
+  {
+    "videoId": "5nUmjScGnno",
+    "title": "[4K] Walking the most popular market Gwangjang│Seoul, Korea",
+    "durationSeconds": 586
+  },
+  {
+    "videoId": "1bz11Z2p1b0",
+    "title": "[4K] Walking backstreet of Hongdae secret alley│Seoul, Korea",
+    "durationSeconds": 541
+  },
+  {
+    "videoId": "VM2nBlyL848",
+    "title": "[4K] Walking through Hongdae main street│Seoul, Korea",
+    "durationSeconds": 632
+  },
+  {
+    "videoId": "VLBN9VRdge4",
+    "title": "[4K] Wandering backstreet alley of Dongdaemun│Seoul, Korea",
+    "durationSeconds": 654
+  },
+  {
+    "videoId": "ItByWFZu5VM",
+    "title": "[4K] Traveling to a Bukhansan valley│Seoul, Korea",
+    "durationSeconds": 142
+  },
+  {
+    "videoId": "t_ykktwr2ZQ",
+    "title": "[4K] Nightwalk Cyberpunk District DDP Dongdaemun│Seoul, Korea",
+    "durationSeconds": 620
+  },
+  {
+    "videoId": "D1Of-v8IWYw",
+    "title": "Walking backstreet of Insadong│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 535
+  },
+  {
+    "videoId": "mFfq6FqJLsA",
+    "title": "Walking around Insadong main street│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 637
+  },
+  {
+    "videoId": "tvIkOqKyhB0",
+    "title": "Walking calm and peaceful street in a city│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 614
+  },
+  {
+    "videoId": "s55Kn5MH8vM",
+    "title": "Walking through food street Gwanghwamun│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 451
+  },
+  {
+    "videoId": "1oJZuGxL_bg",
+    "title": "Walking around D Tower near City Hall│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 525
+  },
+  {
+    "videoId": "PKUnEDdbJKE",
+    "title": "Walking around Hapjeong street near Hongdae│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 478
+  },
+  {
+    "videoId": "IipbxIu3QZA",
+    "title": "Roaming around residential area Itaewon│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 718
+  },
+  {
+    "videoId": "BItNBMaQBIo",
+    "title": "Walking backstreet of Itaewon(feat. PIPIT Burger)│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 1042
+  },
+  {
+    "videoId": "voiH6xU9QcQ",
+    "title": "Going to premium food market SSG Cheongdam│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 394
+  },
+  {
+    "videoId": "fmKQ-yIOcMo",
+    "title": "Visiting a suburb Ilsan city│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 633
+  },
+  {
+    "videoId": "5XNKt6tqHmw",
+    "title": "Going to a pharmacy near Yangjae│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 429
+  },
+  {
+    "videoId": "T2sKZRopPKU",
+    "title": "Walking around flower market Yangjae│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 412
+  },
+  {
+    "videoId": "lFsYEDtVqiY",
+    "title": "Roaming butcher's street Jongno│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 609
+  },
+  {
+    "videoId": "LbgYUDmCJS4",
+    "title": "Walking hipster's place Ikseon-dong hanok village│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 661
+  },
+  {
+    "videoId": "KFfEdIKH9Qk",
+    "title": "Wandering department store myeongdong│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 640
+  },
+  {
+    "videoId": "RbEdLefqoOM",
+    "title": "Going to CVS near home│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 486
+  },
+  {
+    "videoId": "RTkDre1GJw0",
+    "title": "Walking Teheran road Gangnam│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 639
+  },
+  {
+    "videoId": "SeX5CDXd6sU",
+    "title": "Nightwalk hidden alley of Hongdae│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 654
+  },
+  {
+    "videoId": "LWHU6gryGw8",
+    "title": "Walking late night Sangsu district│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 723
+  },
+  {
+    "videoId": "0ntGWdli2-c",
+    "title": "Media facade art of Seoul Square│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 208
+  },
+  {
+    "videoId": "te_emaYHa0w",
+    "title": "NYC Highline inspired Seoul city│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 618
+  },
+  {
+    "videoId": "qJlDarz6g7Y",
+    "title": "Walking urban market Namdaemun│Seoul in Korea│4K 60fps POV",
+    "durationSeconds": 472
+  },
+  {
+    "videoId": "3r5HBT_93LI",
+    "title": "[4K] Walk from river park to Daejeon station│Daejeon, Korea",
+    "durationSeconds": 1401
+  },
+  {
+    "videoId": "dAFJ8dU8oGI",
+    "title": "[4K] Walking to Yeoksam station in Gangnam│Seoul, Korea",
+    "durationSeconds": 1416
+  },
+  {
+    "videoId": "7d2pcZ4y74I",
+    "title": "[4K] Gangnam station to Yangjae street│Seoul, Korea",
+    "durationSeconds": 840
+  },
+  {
+    "videoId": "SsBYlHJzymQ",
+    "title": "[4K] Walk around Samsong station on a peaceful Saturday│Seoul, Korea",
+    "durationSeconds": 871
+  },
+  {
+    "videoId": "GfYlnT77sUw",
+    "title": "[4K] Backstreets of Yeongdeungpo station at night│Seoul, Korea",
+    "durationSeconds": 1222
+  },
+  {
+    "videoId": "bjgH-tch59c",
+    "title": "[4K] Walking an ordinary outlet mall in Ilsan city│Seoul, Korea",
+    "durationSeconds": 906
+  },
+  {
+    "videoId": "PyJJRlJWDUM",
+    "title": "[4K] Visit the most famous bookstore Kyobo at Gwanghwamun plaza│Seoul, Korea",
+    "durationSeconds": 601
+  },
+  {
+    "videoId": "N2NRkAKeyvw",
+    "title": "[4K] Night walk to local festival Jeongdong│Seoul, Korea",
+    "durationSeconds": 547
+  },
+  {
+    "videoId": "FDEx5Roqao4",
+    "title": "[4K] Walking to Mapo Jokbal food street alleys│Seoul, Korea",
+    "durationSeconds": 991
+  },
+  {
+    "videoId": "k5VLIeC7dt0",
+    "title": "[4K] Times Square mall Yeongdeungpo night walk│Seoul, Korea",
+    "durationSeconds": 1058
+  },
+  {
+    "videoId": "NptLC2n0aPE",
+    "title": "[4K] Walking around the playground of Hongdae│Seoul, Korea",
+    "durationSeconds": 578
+  },
+  {
+    "videoId": "TW8fH7ly9qs",
+    "title": "[4K] Walking lake park of Ilsan city│Seoul, Korea",
+    "durationSeconds": 1593
+  },
+  {
+    "videoId": "u0NPrd9ZUWw",
+    "title": "[4K] Somewhere in Hongdae narrow alleys at night│Seoul, Korea",
+    "durationSeconds": 686
+  },
+  {
+    "videoId": "6-rd1Uqp66s",
+    "title": "[4K] Visiting local cafe coffee break Myeongdong│Seoul, Korea",
+    "durationSeconds": 622
+  },
+  {
+    "videoId": "CFrJ5YjGnxM",
+    "title": "[4K] Walking around a normal mart inside view│Seoul, Korea",
+    "durationSeconds": 541
+  },
+  {
+    "videoId": "5cP2rIpMPAU",
+    "title": "[4K] Walking around Seoul station│Seoul, Korea",
+    "durationSeconds": 621
+  },
+  {
+    "videoId": "sn_77H2VAVo",
+    "title": "[4K] Walking around Sindang backstreet alleys│Seoul, Korea",
+    "durationSeconds": 722
+  },
+  {
+    "videoId": "MQJ7g5Imt58",
+    "title": "[4K] Walking through Dongdaemun ddp design plaza│Seoul, Korea",
+    "durationSeconds": 773
+  },
+  {
+    "videoId": "QAkZMEFSR8k",
+    "title": "[4K] Walking around Mangwon street market│Seoul, Korea",
+    "durationSeconds": 946
+  },
+  {
+    "videoId": "rlInh4t4WSw",
+    "title": "[4K] Walking Yeonnamdong backstreet alleys│Seoul, Korea",
+    "durationSeconds": 1016
+  },
+  {
+    "videoId": "Ms1-s_H0Hpg",
+    "title": "[4K] Walking through Insadong main street│Seoul, Korea",
+    "durationSeconds": 606
+  },
+  {
+    "videoId": "d6pAwx4oUew",
+    "title": "[4K] Walking Gwanghwamun to Insadong│Seoul, Korea",
+    "durationSeconds": 818
+  },
+  {
+    "videoId": "_jzwD5JEOyg",
+    "title": "[4K] Walk Bukhansan hanok village tour│Seoul, Korea",
+    "durationSeconds": 319
+  },
+  {
+    "videoId": "rGrVTNdqzsw",
+    "title": "[4K] Walking along Hongdae night market│Seoul, Korea",
+    "durationSeconds": 723
+  },
+  {
+    "videoId": "-DP-xcObQlY",
+    "title": "[4K] Walking cyberpunk Myeongdong│Seoul, Korea",
+    "durationSeconds": 994
+  },
+  {
+    "videoId": "SzJna7fPgWE",
+    "title": "[4K] Hongdae funny busking live on Friday│Seoul, Korea",
+    "durationSeconds": 665
+  },
+  {
+    "videoId": "RiZfyLxbWAA",
+    "title": "[4K] Night walk around Sungnyemun gate│Seoul, Korea",
+    "durationSeconds": 739
+  },
+  {
+    "videoId": "ShChrHBOfJo",
+    "title": "[4K] Walking around Myeongdong food street│Seoul, Korea",
+    "durationSeconds": 631
+  },
+  {
+    "videoId": "9xPjBFzQXN4",
+    "title": "[4K] Walking the most luxurious house in Bukchon hanok village│Seoul, Korea",
+    "durationSeconds": 381
+  },
+  {
+    "videoId": "1SwCSU9AKbw",
+    "title": "[4K] Nightwalk to the southwest of Hongdae│Seoul, Korea",
+    "durationSeconds": 895
+  },
+  {
+    "videoId": "udlgDwQ7H9E",
+    "title": "[4K] Walking the middle of Hongdae street at night│Seoul, Korea",
+    "durationSeconds": 631
+  },
+  {
+    "videoId": "dVwwznl0pEg",
+    "title": "[4K] Walking around Mugyo street near Myeongdong│Seoul, Korea",
+    "durationSeconds": 456
+  },
+  {
+    "videoId": "2BBysU4cmvg",
+    "title": "[4K] COEX Starfield mall: Gangnam style landmark tour│Seoul, Korea",
+    "durationSeconds": 796
+  },
+  {
+    "videoId": "8FYHaV4KOcw",
+    "title": "[4K] Walking Gasan digital complex: a normal lunchtime of workers│Seoul, Korea",
+    "durationSeconds": 879
+  },
+  {
+    "videoId": "UqLzWtAaR6E",
+    "title": "[4K] Walking Chungmuro Pildong: beautiful village alleys│Seoul, Korea",
+    "durationSeconds": 992
+  },
+  {
+    "videoId": "qINU25yoPP4",
+    "title": "[4K] Hongdae never sleeps: night walk across the main street│Seoul, Korea",
+    "durationSeconds": 1414
+  },
+  {
+    "videoId": "eOcYzKZFm7k",
+    "title": "[4K] Walking Itaewon Hannam street alleys│Seoul, Korea",
+    "durationSeconds": 937
+  },
+  {
+    "videoId": "zdEJmk8Ljw8",
+    "title": "[4K] Walking raw ordinary Gangnam backstreet│Seoul, Korea",
+    "durationSeconds": 627
+  },
+  {
+    "videoId": "K1dmnqnl35E",
+    "title": "[4K] Walking Itaewon backstreet alleys at midnight│Seoul, Korea",
+    "durationSeconds": 699
+  },
+  {
+    "videoId": "OZUgwH6R0HI",
+    "title": "[4K] Nightwalk to Mapo Gongdeok food street│Seoul, Korea",
+    "durationSeconds": 723
+  },
+  {
+    "videoId": "DLT_dsSHGVU",
+    "title": "[4K] Walking Garosugil: the most fashionable shopping street│Seoul, Korea",
+    "durationSeconds": 639
+  },
+  {
+    "videoId": "j3UwZO8wjmA",
+    "title": "[4K] Walking Hanyang university street of youth│Seoul, Korea",
+    "durationSeconds": 662
+  },
+  {
+    "videoId": "WVrD19josM8",
+    "title": "[4K] Night walking Wangsimni: old town food street│Seoul, Korea",
+    "durationSeconds": 697
+  },
+  {
+    "videoId": "Ap1DYTdZDzE",
+    "title": "[4K] Nightwalk to Hongdae on an ordinary night│Seoul, Korea",
+    "durationSeconds": 692
+  },
+  {
+    "videoId": "Z4RwFNc089w",
+    "title": "[4K] Walking around Ilsan shopping arcade street│Ilsan, Korea",
+    "durationSeconds": 671
+  },
+  {
+    "videoId": "-y8KEqMZgOU",
+    "title": "[4K] Walking backstreet of Gangnam station│Seoul, Korea",
+    "durationSeconds": 655
+  },
+  {
+    "videoId": "3hA3jVpEuo8",
+    "title": "[4K] Walking along the shopping arcade and streets│Seoul, Korea",
+    "durationSeconds": 1207
+  },
+  {
+    "videoId": "hpfxK0sCYWA",
+    "title": "[4K] Walking Cheonggyecheon: riverside park│Seoul, Korea",
+    "durationSeconds": 482
+  },
+  {
+    "videoId": "vCELOjX-OP0",
+    "title": "[4K] Walking Myeongdong hot summer shopping street│Seoul, Korea",
+    "durationSeconds": 924
+  },
+  {
+    "videoId": "mq5CZUC8WKs",
+    "title": "[4K] Walking Gangnam station club street│Seoul, Korea",
+    "durationSeconds": 705
+  },
+  {
+    "videoId": "jKEaftVJIcw",
+    "title": "[4K] Walk to Sinsadong Gangnam backstreets : Seoul's new cases fall to single digits for first time",
+    "durationSeconds": 840
+  },
+  {
+    "videoId": "oK_fsVac-Ec",
+    "title": "[4K] Spring walk in Yeonnamdong : Election day 2020 of South Korea 선거날 연남동 걷기",
+    "durationSeconds": 1116
+  },
+  {
+    "videoId": "ZjlJhRephRk",
+    "title": "[4K] Walk to Han river park Jamwon district : Spring has come in Seoul 잠원 한강공원 산책",
+    "durationSeconds": 660
+  },
+  {
+    "videoId": "4J_MGzjLL9s",
+    "title": "[4K] Walk in Bukchon Hanok Village Gyedong : What is there to do in Bukchon? :  북촌 한옥마을 걷기",
+    "durationSeconds": 1051
+  },
+  {
+    "videoId": "2kM5n7DZWas",
+    "title": "[4K] A MUST place where Koreans take foreign friends : Walk in Ikseon-dong in Seoul. 익선동 산책하기",
+    "durationSeconds": 900
+  },
+  {
+    "videoId": "3_Zl6wTs0Os",
+    "title": "[4K] Where do celebrities and idols live in South Korea? Walk in UN Village in Seoul. 유엔빌리지 걸어보기",
+    "durationSeconds": 1500
+  },
+  {
+    "videoId": "NaryFYRA75g",
+    "title": "[4K] How are Koreans living under COVID-19 crisis : night walk to Jongno in Seoul city 종로 시가지 걷기",
+    "durationSeconds": 861
+  },
+  {
+    "videoId": "UsSyayR1cJc",
+    "title": "[4K] Walk to Myeongdong Cathedral from nearest subway station│Seoul, Korea",
+    "durationSeconds": 916
+  },
+  {
+    "videoId": "S1H0SVntN04",
+    "title": "[4K] Walk to Dosan park avenue in Gangnam│Seoul, Korea",
+    "durationSeconds": 820
+  },
+  {
+    "videoId": "chniXJNjaWA",
+    "title": "[4K] Walk in Myeongdong business district│Seoul, Korea",
+    "durationSeconds": 689
+  },
+  {
+    "videoId": "JiRnFERCc4I",
+    "title": "[4K] Walk in Paju city local commercial area│Seoul, Korea",
+    "durationSeconds": 610
+  },
+  {
+    "videoId": "IMVtjKNI2Ec",
+    "title": "[4K] Seoul City Vibe 01 : One fine day (BGM : Wall st.)",
+    "durationSeconds": 189
+  },
+  {
+    "videoId": "Ud7WLOrjwB8",
+    "title": "[4K] Cheongdam down hill and grab a taxi│Seoul, Korea",
+    "durationSeconds": 471
+  },
+  {
+    "videoId": "fMNgPhWcG2k",
+    "title": "[4K] Walk Seochon petit shop street and Hanok village│Seoul, Korea",
+    "durationSeconds": 1067
+  },
+  {
+    "videoId": "3jw86GAnDRg",
+    "title": "[4K] Rare mood and scene of Hongdae : Quiet streets ever│Seoul, Korea",
+    "durationSeconds": 793
+  },
+  {
+    "videoId": "tJP5tMJ-3fY",
+    "title": "[4K] Walk express bus terminal arcade : under corona virus condition│Seoul, Korea",
+    "durationSeconds": 622
+  },
+  {
+    "videoId": "kWtTnJNHd60",
+    "title": "[4K] Walk old town road Apgujeong : ambient vibe of maze alleys│Seoul, Korea",
+    "durationSeconds": 1213
+  },
+  {
+    "videoId": "aEhXuokDAno",
+    "title": "[4K] Snow walk in Myeongdong bustling ambient mood│Seoul, Korea",
+    "durationSeconds": 741
+  },
+  {
+    "videoId": "0LOQ33l0WKw",
+    "title": "[4K] Visit Seoul Arts Center Exhibition : Achille Castiglioni│Seoul, Korea",
+    "durationSeconds": 550
+  },
+  {
+    "videoId": "9GuwZV0q2g4",
+    "title": "[4K] Walk along Seongnam Bundang satellite city│Seoul, Korea",
+    "durationSeconds": 644
+  },
+  {
+    "videoId": "iYUlCNtJyh0",
+    "title": "[4K] Walk Cheongdam Gangnam with first snow│Seoul, Korea",
+    "durationSeconds": 1010
+  },
+  {
+    "videoId": "zmKOMZNOfpY",
+    "title": "[4K] Walk backstreets of Garosugil Sinsa area│Seoul, Korea",
+    "durationSeconds": 1102
+  },
+  {
+    "videoId": "UEWOtRPdxr0",
+    "title": "[4K] W hotel Bali poolside Seminyak with Woobar│Bali, Indonesia",
+    "durationSeconds": 486
+  },
+  {
+    "videoId": "4SX-DMbOe3w",
+    "title": "[4K] Korean new year's day walk around Gyeongbokgung│Seoul, Korea",
+    "durationSeconds": 966
+  },
+  {
+    "videoId": "CcIHTdxoCKQ",
+    "title": "[4K] Walk to Hongdae subway station : Happy new year!│Seoul, Korea",
+    "durationSeconds": 960
+  },
+  {
+    "videoId": "QZxQX3c8qiY",
+    "title": "[4K] Hello Insadong walking down the street│Seoul, Korea",
+    "durationSeconds": 882
+  },
+  {
+    "videoId": "ITK3iitBeYY",
+    "title": "[4K] Night vibe of Gangnam Station : comeback special│Seoul, Korea",
+    "durationSeconds": 882
+  },
+  {
+    "videoId": "8HeUhnwGQ6E",
+    "title": "[4K] Top 3 Best Beach Club in Bali : Finns, Potato Head, Mrs Sippy",
+    "durationSeconds": 1336
+  },
+  {
+    "videoId": "DF0t3NMRUK4",
+    "title": "[4K] Walk monkey forest streets at late night│Bali, Indonesia",
+    "durationSeconds": 706
+  },
+  {
+    "videoId": "7_RWyPQTejY",
+    "title": "[4K] The modern and cozy pool villa in Ubud│Bali, Indonesia",
+    "durationSeconds": 190
+  },
+  {
+    "videoId": "9Sx0Rif-XmM",
+    "title": "[4K] Night walk to starbucks Ubud in Bali│Bali, Indonesia",
+    "durationSeconds": 1018
+  },
+  {
+    "videoId": "lLQlnBSqt1Y",
+    "title": "[4K] Walk Bali main street : Kuta district│Bali, Indonesia",
+    "durationSeconds": 1392
+  },
+  {
+    "videoId": "m4y3fzFvYV0",
+    "title": "[4K] Walk Bali Kuta beach│Bali, Indonesia",
+    "durationSeconds": 319
+  },
+  {
+    "videoId": "M_x3-jUCYpk",
+    "title": "[4K] Walk Incheon international airport to gateway lane│Incheon, Korea",
+    "durationSeconds": 480
+  },
+  {
+    "videoId": "BJkwf8YeqpM",
+    "title": "[4K] Myeongdong night life bustling vibe│Seoul, Korea",
+    "durationSeconds": 801
+  },
+  {
+    "videoId": "kLyZjevx0A8",
+    "title": "[4K] Christmas vibe and mood of Hongdae walking│Seoul, Korea",
+    "durationSeconds": 821
+  },
+  {
+    "videoId": "rLE_68eFo8g",
+    "title": "[4K] Year-end vibe of Garosugil Gangnam│Seoul, Korea",
+    "durationSeconds": 901
+  },
+  {
+    "videoId": "CNaNffi8nDM",
+    "title": "[4K] Night walk Gangnam Samseong dong COEX│Seoul, Korea",
+    "durationSeconds": 781
+  },
+  {
+    "videoId": "0JGt5DGQ5jU",
+    "title": "[4K] Local satellite city life on Saturday night│Seoul, Korea",
+    "durationSeconds": 956
+  },
+  {
+    "videoId": "7mZwSrgup6M",
+    "title": "[4K] Hongdae station winter walk: bustling vibe│Seoul, Korea",
+    "durationSeconds": 901
+  },
+  {
+    "videoId": "1qNbMalpwys",
+    "title": "[4K] Korean daily life of weekend: Seoul Arts Center│Seoul, Korea",
+    "durationSeconds": 527
+  },
+  {
+    "videoId": "l8G1VriPHeE",
+    "title": "[4K] Walk around Sinchon station: near Yeonsei univ.│Seoul, Korea",
+    "durationSeconds": 611
+  },
+  {
+    "videoId": "jylAtrNklAw",
+    "title": "[4K] Walk around Gangnam COEX Samseong station│Seoul, Korea",
+    "durationSeconds": 1354
+  },
+  {
+    "videoId": "4xm0meQOMUA",
+    "title": "[4K] Walk Mangwon station to residential area│Seoul, Korea",
+    "durationSeconds": 850
+  },
+  {
+    "videoId": "F13FfeLmAuo",
+    "title": "[4K] Walk Cheongdam to Garosugil Gangnam main street view│Seoul, Korea",
+    "durationSeconds": 1585
+  },
+  {
+    "videoId": "tn3veNf75E8",
+    "title": "[4K] Walk Itaewon hidden alleys│Seoul, Korea",
+    "durationSeconds": 666
+  },
+  {
+    "videoId": "Ffh-DRFkTOo",
+    "title": "[4K] Walk Yeonnamdong backstreet at night│Seoul, Korea",
+    "durationSeconds": 1051
+  },
+  {
+    "videoId": "NeuvM-pY0Wk",
+    "title": "[4K] Hike Gangnam early in the morning│Seoul, Korea",
+    "durationSeconds": 681
+  },
+  {
+    "videoId": "5WL00kclsZU",
+    "title": "[4K] Walk premium outlets in Paju city│Seoul, Korea",
+    "durationSeconds": 1190
+  },
+  {
+    "videoId": "cNs_t-ITvt4",
+    "title": "[4K] Sinsa sataion to Garosugil autumn has come│Seoul, Korea",
+    "durationSeconds": 1402
+  },
+  {
     "videoId": "HvSIFrC3X2I",
-    "durationSeconds": 600,
-    "title": "[4K] Walk to Dosan Apgujeong Rodeo alleys : with the most trendy restaurants in Seoul"
+    "title": "[4K] Walk to Dosan Apgujeong Rodeo alleys : with the most trendy restaurants in Seoul",
+    "durationSeconds": 600
   },
   {
     "videoId": "e-TrZMBug24",
-    "durationSeconds": 630,
-    "title": "[4K] Walk to Blue House road Hyoja-dong near Kyungbokgung"
+    "title": "[4K] Walk to Blue House road Hyoja-dong near Kyungbokgung",
+    "durationSeconds": 630
   },
   {
     "videoId": "eSbSKwsIgqU",
-    "durationSeconds": 658,
-    "title": "[4K] Walk back to Dosan Park in Apgujeong-dong : Long time no see my friends"
+    "title": "[4K] Walk back to Dosan Park in Apgujeong-dong : Long time no see my friends",
+    "durationSeconds": 658
   },
   {
     "videoId": "RJICtPM8_2E",
-    "durationSeconds": 600,
-    "title": "[4K] Walk to Songpa-gu Seokchon village : What a lovely day!"
+    "title": "[4K] Walk to Songpa-gu Seokchon village : What a lovely day!",
+    "durationSeconds": 600
   },
   {
     "videoId": "S3cPNgzwE8Y",
-    "durationSeconds": 600,
-    "title": "[4K] Walk to the hill of Seoul city : One sunny day of Gangnam"
+    "title": "[4K] Walk to the hill of Seoul city : One sunny day of Gangnam",
+    "durationSeconds": 600
   },
   {
     "videoId": "um5FesyjTA0",
-    "durationSeconds": 751,
-    "title": "[4K] Walk to Seolleung Station in Gangnam Teheran-ro"
+    "title": "[4K] Walk to Seolleung Station in Gangnam Teheran-ro",
+    "durationSeconds": 751
   },
   {
     "videoId": "vePlcOcB12U",
-    "durationSeconds": 660,
-    "title": "[4K] Walk to Seongsu-dong backstreets : The most hipster's road in Seoul"
+    "title": "[4K] Walk to Seongsu-dong backstreets : The most hipster's road in Seoul",
+    "durationSeconds": 660
   },
   {
     "videoId": "erXNREhuedg",
-    "durationSeconds": 600,
-    "title": "[4K] Walk to Sharosu-gil : Seoul National University playground"
+    "title": "[4K] Walk to Sharosu-gil : Seoul National University playground",
+    "durationSeconds": 600
   },
   {
     "videoId": "SNavqJPMrF8",
-    "durationSeconds": 760,
-    "title": "[4K] Walk to Jamsil Songpa-gu Songridan-gil : fall has come in Korea"
+    "title": "[4K] Walk to Jamsil Songpa-gu Songridan-gil : fall has come in Korea",
+    "durationSeconds": 760
   },
   {
     "videoId": "zD3uE_jreWQ",
-    "durationSeconds": 914,
-    "title": "[4K] Walk to Garosugil a favorite place for celebrities on weekends in Seoul"
+    "title": "[4K] Walk to Garosugil a favorite place for celebrities on weekends in Seoul",
+    "durationSeconds": 914
   },
   {
     "videoId": "qWMOj6gSChU",
-    "durationSeconds": 840,
-    "title": "[4K] Walk to sunset Myeongdong on the weekend : via Cathedral and shopping center"
+    "title": "[4K] Walk to sunset Myeongdong on the weekend : via Cathedral and shopping center",
+    "durationSeconds": 840
   },
   {
     "videoId": "IXKAy498T3E",
-    "durationSeconds": 800,
-    "title": "[4K] Walk to Itaewon old town alleys : nostalgic streets are here in Seoul"
+    "title": "[4K] Walk to Itaewon old town alleys : nostalgic streets are here in Seoul",
+    "durationSeconds": 800
   },
   {
     "videoId": "suiWjQmzXtk",
-    "durationSeconds": 1010,
-    "title": "[4K] Walk to Hongdae night streets fever : Longtime no see my friends"
+    "title": "[4K] Walk to Hongdae night streets fever : Longtime no see my friends",
+    "durationSeconds": 1010
   },
   {
     "videoId": "X9wi4tApDL4",
-    "durationSeconds": 680,
-    "title": "[4K] Walk into the normal life of Korea : Late night after work (BGM : Sighwalk by Min Kang)"
+    "title": "[4K] Walk into the normal life of Korea : Late night after work (BGM : Sighwalk by Min Kang)",
+    "durationSeconds": 680
   },
   {
     "videoId": "QTw4Hoe563g",
-    "durationSeconds": 901,
-    "title": "[4K] Walk to Yeonsinnae rodeo street at night : Festival-like backstreets"
+    "title": "[4K] Walk to Yeonsinnae rodeo street at night : Festival-like backstreets",
+    "durationSeconds": 901
   },
   {
     "videoId": "tvUFm2u_KVI",
-    "durationSeconds": 935,
-    "title": "[4K] Night walk to Ehwa womans university main street : What a beautiful night"
+    "title": "[4K] Night walk to Ehwa womans university main street : What a beautiful night",
+    "durationSeconds": 935
   },
   {
     "videoId": "UP9YlA5TSbo",
-    "durationSeconds": 900,
-    "title": "[4K] Walk to Myeongdong at late summer night : Again crisis rise up"
+    "title": "[4K] Walk to Myeongdong at late summer night : Again crisis rise up",
+    "durationSeconds": 900
   },
   {
     "videoId": "8velH4aE7ro",
-    "durationSeconds": 801,
-    "title": "[4K] Walk to the king's secret route : Inside Deoksugung palace stonewall"
+    "title": "[4K] Walk to the king's secret route : Inside Deoksugung palace stonewall",
+    "durationSeconds": 801
   },
   {
     "videoId": "qhT-Qb1LqCk",
-    "durationSeconds": 768,
-    "title": "[4K] Walk through the rainy day of Seoul city Jung-gu : After heavy rain drop"
+    "title": "[4K] Walk through the rainy day of Seoul city Jung-gu : After heavy rain drop",
+    "durationSeconds": 768
   },
   {
     "videoId": "OWgQCGFtPCc",
-    "durationSeconds": 900,
-    "title": "[4K] Walk to Seoul subway station at rush hour : How well do Koreans wear masks?"
+    "title": "[4K] Walk to Seoul subway station at rush hour : How well do Koreans wear masks?",
+    "durationSeconds": 900
   },
   {
     "videoId": "EDD81jJXz1w",
-    "durationSeconds": 795,
-    "title": "[4K] Walk to Gangnam station at rush hour in Seoul city"
+    "title": "[4K] Walk to Gangnam station at rush hour in Seoul city",
+    "durationSeconds": 795
   },
   {
     "videoId": "2EDdubZMNtQ",
-    "durationSeconds": 791,
-    "title": "[4K] Gloomy Seoul city night walk around city hall : shameful tragedy"
+    "title": "[4K] Gloomy Seoul city night walk around city hall : shameful tragedy",
+    "durationSeconds": 791
   },
   {
     "videoId": "ULU-LGTz0ck",
-    "durationSeconds": 900,
-    "title": "[4K] Walk to the old town of Seoul city : Insa-dong and Jongno district"
+    "title": "[4K] Walk to the old town of Seoul city : Insa-dong and Jongno district",
+    "durationSeconds": 900
   },
   {
     "videoId": "h3vKGMHNH6w",
-    "durationSeconds": 930,
-    "title": "[4K] Late night walk through Hongdae Sangsu area : Seoul city nightlife"
+    "title": "[4K] Late night walk through Hongdae Sangsu area : Seoul city nightlife",
+    "durationSeconds": 930
   },
   {
     "videoId": "cP2Mzqf9Z_4",
-    "durationSeconds": 900,
-    "title": "[4K] Walk to Namdaemun at night : Nightlife of backstreets of Seoul city"
+    "title": "[4K] Walk to Namdaemun at night : Nightlife of backstreets of Seoul city",
+    "durationSeconds": 900
   },
   {
     "videoId": "oyYqtnT-Z4A",
-    "durationSeconds": 893,
-    "title": "[4K] Walk to Mokdong main streets : From department store to residential area"
+    "title": "[4K] Walk to Mokdong main streets : From department store to residential area",
+    "durationSeconds": 893
   },
   {
     "videoId": "XpaCj8frn7k",
-    "durationSeconds": 747,
-    "title": "[4K] Walk to hot summer Gangnam subway station backstreets"
+    "title": "[4K] Walk to hot summer Gangnam subway station backstreets",
+    "durationSeconds": 747
   },
   {
     "videoId": "OVrNdC8U3EI",
-    "durationSeconds": 780,
-    "title": "[4K] Walk to Seonjeongneung subway station district : Royal tombs in Seoul city"
+    "title": "[4K] Walk to Seonjeongneung subway station district : Royal tombs in Seoul city",
+    "durationSeconds": 780
   },
   {
     "videoId": "-Lk8KA7fKVs",
-    "durationSeconds": 801,
-    "title": "[4K] Walk to Misa new town city : Suburb life of Seoul city riverside"
+    "title": "[4K] Walk to Misa new town city : Suburb life of Seoul city riverside",
+    "durationSeconds": 801
   },
   {
     "videoId": "_z8DQqJjrFQ",
-    "durationSeconds": 729,
-    "title": "[4K] Walk to Samseong station COEX mall in Seoul : near SM Town"
+    "title": "[4K] Walk to Samseong station COEX mall in Seoul : near SM Town",
+    "durationSeconds": 729
   },
   {
     "videoId": "9T0jKCnniUc",
-    "durationSeconds": 930,
-    "title": "[4K] Walk to Paju Yadang station : Nightlife of suburban of Seoul city"
+    "title": "[4K] Walk to Paju Yadang station : Nightlife of suburban of Seoul city",
+    "durationSeconds": 930
   },
   {
     "videoId": "natmOg3HxEQ",
-    "durationSeconds": 900,
-    "title": "[4K] Night walk to Hongdae backstreets with small rain drop"
+    "title": "[4K] Night walk to Hongdae backstreets with small rain drop",
+    "durationSeconds": 900
   },
   {
     "videoId": "g_ciiND8gTU",
-    "durationSeconds": 904,
-    "title": "[4K] Walk to the best hipster's place 2020 : Seun Sangga, Euljiro"
+    "title": "[4K] Walk to the best hipster's place 2020 : Seun Sangga, Euljiro",
+    "durationSeconds": 904
   },
   {
     "videoId": "VKA3TANer_c",
-    "durationSeconds": 780,
-    "title": "[4K] Walk to bustling night streets and central riverside park : the day of Buddha's coming"
+    "title": "[4K] Walk to bustling night streets and central riverside park : the day of Buddha's coming",
+    "durationSeconds": 780
   },
   {
     "videoId": "u7goluBC-fI",
-    "durationSeconds": 900,
-    "title": "[4K] Walk to Myeongdong to feel an abnormal nightlife : South Korea sees alarming spike"
+    "title": "[4K] Walk to Myeongdong to feel an abnormal nightlife : South Korea sees alarming spike",
+    "durationSeconds": 900
   },
   {
     "videoId": "07On6ZvBWyQ",
-    "durationSeconds": 245,
-    "title": "[4K] 100 cats live mukbang : What an adorable kitty mukbang ever"
+    "title": "[4K] 100 cats live mukbang : What an adorable kitty mukbang ever",
+    "durationSeconds": 245
   },
   {
     "videoId": "SYiBggdkeO8",
-    "durationSeconds": 860,
-    "title": "[4K] Walk to Songpa-gu Jamsil Munjeong-dong main street : Relaxing mood of office district"
+    "title": "[4K] Walk to Songpa-gu Jamsil Munjeong-dong main street : Relaxing mood of office district",
+    "durationSeconds": 860
   },
   {
     "videoId": "UuKsRvxNqSI",
-    "durationSeconds": 982,
-    "title": "[4K] Walk to the Korean drama shooting scene in Hongdae Yeonnamdong"
+    "title": "[4K] Walk to the Korean drama shooting scene in Hongdae Yeonnamdong",
+    "durationSeconds": 982
   },
   {
     "videoId": "6jJ_fpG_awk",
-    "durationSeconds": 782,
-    "title": "[4K] Walk to YG Ent. headquarter Hapjeong-dong Hongdae : How to get to YG office"
+    "title": "[4K] Walk to YG Ent. headquarter Hapjeong-dong Hongdae : How to get to YG office",
+    "durationSeconds": 782
   },
   {
     "videoId": "lboBRdluqfo",
-    "durationSeconds": 897,
-    "title": "[4K] Night walk to Myeongdong office backstreet alleys : Nightlife-related outbreak continues"
+    "title": "[4K] Night walk to Myeongdong office backstreet alleys : Nightlife-related outbreak continues",
+    "durationSeconds": 897
   },
   {
     "videoId": "1IWq6hzehTU",
-    "durationSeconds": 900,
-    "title": "[4K] Walk to Hyehwa Daehakro : South Korea's most famous and classic dating course"
+    "title": "[4K] Walk to Hyehwa Daehakro : South Korea's most famous and classic dating course",
+    "durationSeconds": 900
   },
   {
     "videoId": "Jy2u_IvXHcI",
-    "durationSeconds": 1014,
-    "title": "[4K] Walk to Paju amusement park of Imjingak : South Korea's early wins dim after rash of new cases"
+    "title": "[4K] Walk to Paju amusement park of Imjingak : South Korea's early wins dim after rash of new cases",
+    "durationSeconds": 1014
   },
   {
     "videoId": "Qf1ACiRixtM",
-    "durationSeconds": 1310,
-    "title": "[4K] Rain walk through Gangnam main street : Seoul shuts down more than 2100 nightclubs"
+    "title": "[4K] Rain walk through Gangnam main street : Seoul shuts down more than 2100 nightclubs",
+    "durationSeconds": 1310
   },
   {
     "videoId": "AsoEBCn-i1Y",
-    "durationSeconds": 1033,
-    "title": "[4K] Night walk around Hongik University(A.K.A. Hongdae) : Is tragedy really over in South Korea?"
+    "title": "[4K] Night walk around Hongik University(A.K.A. Hongdae) : Is tragedy really over in South Korea?",
+    "durationSeconds": 1033
   },
   {
     "videoId": "kJdCsrPV24k",
-    "durationSeconds": 916,
-    "title": "[4K] Walk to BTS bus stop Jumunjin beach"
+    "title": "[4K] Walk to BTS bus stop Jumunjin beach",
+    "durationSeconds": 916
   },
   {
     "videoId": "4tZ-vTBwzsg",
-    "durationSeconds": 900,
-    "title": "[4K] Night walk to Ilsan city downtown energetic mood : South Korea records no new local cases"
+    "title": "[4K] Night walk to Ilsan city downtown energetic mood : South Korea records no new local cases",
+    "durationSeconds": 900
   },
   {
     "videoId": "tJ1bewOxmQs",
-    "durationSeconds": 1020,
-    "title": "[4K] Walk to Seodaemun local market : South Korea's prescription ‘Work smart, eat out fast'"
+    "title": "[4K] Walk to Seodaemun local market : South Korea's prescription ‘Work smart, eat out fast'",
+    "durationSeconds": 1020
   },
   {
     "videoId": "5dd4ZsIjtiU",
-    "durationSeconds": 966,
-    "title": "[4K] Walk from Myeongdong to Namsan park avenue : What can the world learn from South Korea?"
+    "title": "[4K] Walk from Myeongdong to Namsan park avenue : What can the world learn from South Korea?",
+    "durationSeconds": 966
   },
   {
     "videoId": "VgPl8-Le6WY",
-    "durationSeconds": 630,
-    "title": "[4K] Walk to Gangnam intersection : South Korea as an ‘exit strategy’ to recover from pandemic"
+    "title": "[4K] Walk to Gangnam intersection : South Korea as an ‘exit strategy’ to recover from pandemic",
+    "durationSeconds": 630
   },
   {
     "videoId": "TJh7WrmoUdE",
-    "durationSeconds": 900,
-    "title": "[4K] Walk to Samseongdong Gangnam : South Koreans return to work as social distancing rules ease"
+    "title": "[4K] Walk to Samseongdong Gangnam : South Koreans return to work as social distancing rules ease",
+    "durationSeconds": 900
   }
 ]

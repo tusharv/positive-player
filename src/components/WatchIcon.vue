@@ -12,6 +12,7 @@ defineProps<{
     | 'restore'
     | 'remote'
     | 'share'
+    | 'info'
 }>()
 </script>
 
@@ -59,6 +60,10 @@ defineProps<{
       <circle cx="8" cy="16" r="4" />
       <circle cx="24" cy="26" r="4" />
       <path d="m11.5 14 9-6m-9 10 9 6" />
+    </template>
+    <template v-else-if="name === 'info'">
+      <circle cx="16" cy="16" r="12" />
+      <path d="M16 14v9M16 9v1" />
     </template>
     <template v-else>
       <path

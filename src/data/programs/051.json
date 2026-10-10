@@ -1,252 +1,2497 @@
 [
   {
+    "videoId": "DVa4S3Db7jE",
+    "title": "Grey Coat Foundation.mov",
+    "durationSeconds": 157
+  },
+  {
+    "videoId": "Y3likCg5wYg",
+    "title": "Japan La Folle Journee.mov",
+    "durationSeconds": 171
+  },
+  {
+    "videoId": "Uq8ojePcm5U",
+    "title": "VOCES8: This Marriage",
+    "durationSeconds": 162
+  },
+  {
+    "videoId": "ddamvZ6TkoM",
+    "title": "Spandex Ballet.mov",
+    "durationSeconds": 164
+  },
+  {
+    "videoId": "n7uh4Z7trnE",
+    "title": "VOCES SKI - Vail",
+    "durationSeconds": 276
+  },
+  {
+    "videoId": "UMcEBDzPxog",
+    "title": "La Folle Journee",
+    "durationSeconds": 207
+  },
+  {
+    "videoId": "oQv73S_WZl4",
+    "title": "VOCES8 Xmas Greeting 2",
+    "durationSeconds": 138
+  },
+  {
+    "videoId": "kfGmNIEDSQs",
+    "title": "VOCES8: Bach Promo",
+    "durationSeconds": 370
+  },
+  {
+    "videoId": "g8hXJ0nTvJ8",
+    "title": "VOCES8 in France with INECC 2010.mpg",
+    "durationSeconds": 352
+  },
+  {
+    "videoId": "UTRKBW8O2Qk",
+    "title": "VOCES8 - Magnificat Primi Toni",
+    "durationSeconds": 260
+  },
+  {
+    "videoId": "3jlaO9Komuk",
+    "title": "VOCES8 in St Cloud.mpg",
+    "durationSeconds": 186
+  },
+  {
+    "videoId": "OUuqPNlagic",
+    "title": "Peculiar Productions Short Clip 1",
+    "durationSeconds": 70
+  },
+  {
+    "videoId": "uxjnzU2TN30",
+    "title": "VOCES8 - Fever",
+    "durationSeconds": 241
+  },
+  {
+    "videoId": "4Tb-RmPx-4M",
+    "title": "VOCES8 - Straighten Up and Fly Right",
+    "durationSeconds": 214
+  },
+  {
+    "videoId": "9iDLXQp8naU",
+    "title": "Street Cries of London intro",
+    "durationSeconds": 325
+  },
+  {
+    "videoId": "othtcLPdX64",
+    "title": "VOCES8 - I Got Rhythm",
+    "durationSeconds": 249
+  },
+  {
+    "videoId": "l7rL5hjlnfY",
+    "title": "VOCES8 - The Luckiest",
+    "durationSeconds": 292
+  },
+  {
+    "videoId": "4HWeo_eV_zA",
+    "title": "Maria",
+    "durationSeconds": 255
+  },
+  {
+    "videoId": "syaCcK_bkLE",
+    "title": "I Got Rhythm",
+    "durationSeconds": 200
+  },
+  {
+    "videoId": "tCSGAgE2LOY",
+    "title": "Frohlocket ihr Volker auf Erden - Felix Mendelsohn",
+    "durationSeconds": 83
+  },
+  {
+    "videoId": "oO1dTDX8am4",
+    "title": "I'm a Train",
+    "durationSeconds": 150
+  },
+  {
+    "videoId": "OdKC48k5p_Y",
+    "title": "Let's do it!",
+    "durationSeconds": 180
+  },
+  {
+    "videoId": "kM97xF41izs",
+    "title": "Il est bel et bon",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "wseAUsLb2Og",
+    "title": "Voces8 - Mack the Knife",
+    "durationSeconds": 170
+  },
+  {
+    "videoId": "awqwoCghqdw",
+    "title": "Voces8 - O Clap Your Hands",
+    "durationSeconds": 276
+  },
+  {
+    "videoId": "aNWbK0oo-NM",
+    "title": "Voces8 - Opera Medley",
+    "durationSeconds": 220
+  },
+  {
+    "videoId": "sLXbUKoumsM",
+    "title": "Voces8 - Steal Away",
+    "durationSeconds": 264
+  },
+  {
+    "videoId": "ZViZUoJwH-w",
+    "title": "Voces8 - The Lamb",
+    "durationSeconds": 214
+  },
+  {
+    "videoId": "perqXobrgso",
+    "title": "Voces8",
+    "durationSeconds": 389
+  },
+  {
+    "videoId": "4N3vqknnBRo",
+    "title": "VOCES8 US Tour 2012 - Day 35",
+    "durationSeconds": 154
+  },
+  {
+    "videoId": "ChtJD-T1iDQ",
+    "title": "VOCES8 US Tour 2012 - Day 34",
+    "durationSeconds": 194
+  },
+  {
+    "videoId": "rrQU7WSNRqc",
+    "title": "VOCES8 US Tour 2012 - Day 33",
+    "durationSeconds": 137
+  },
+  {
+    "videoId": "acsWWqs8qR4",
+    "title": "VOCES8 US Tour 2012 - Day 32",
+    "durationSeconds": 295
+  },
+  {
+    "videoId": "l_pRK-rKlHw",
+    "title": "VOCES8 US Tour 2012 - Day 31",
+    "durationSeconds": 140
+  },
+  {
+    "videoId": "JHdxiZgewR4",
+    "title": "VOCES8: US Tour 2012 Day 30",
+    "durationSeconds": 257
+  },
+  {
+    "videoId": "Z9OXHkr4x7o",
+    "title": "VOCES8: US Tour 2012 Day 29",
+    "durationSeconds": 222
+  },
+  {
+    "videoId": "8_UWFJZknBk",
+    "title": "VOCES8: US Tour 2012 Day 28",
+    "durationSeconds": 238
+  },
+  {
+    "videoId": "aW6Di6lsbUA",
+    "title": "VOCES8: US Tour 2012 Day 27",
+    "durationSeconds": 207
+  },
+  {
+    "videoId": "D3fJjJBBUVA",
+    "title": "VOCES8: US Tour 2012 Day 26",
+    "durationSeconds": 259
+  },
+  {
+    "videoId": "0p_Ple5WLB0",
+    "title": "VOCES8: US TOur 2012 Day 25",
+    "durationSeconds": 251
+  },
+  {
+    "videoId": "4O38chYTw2k",
+    "title": "VOCES8: US Tour 2012 Day 24",
+    "durationSeconds": 176
+  },
+  {
+    "videoId": "DcQ2RVULHxY",
+    "title": "VOCES8: US Tour 2012 Day 23",
+    "durationSeconds": 266
+  },
+  {
+    "videoId": "s-T_W8LoKFA",
+    "title": "VOCES8: US Tour 2012 Day 22",
+    "durationSeconds": 210
+  },
+  {
+    "videoId": "t3P0FIyLMRQ",
+    "title": "VOCES8: US Tour 2012 Day 19 - with sound!",
+    "durationSeconds": 138
+  },
+  {
+    "videoId": "0H8_y2BBv7c",
+    "title": "VOCES8: US Tour 2012 Day 19",
+    "durationSeconds": 138
+  },
+  {
+    "videoId": "CNg9kSFrvsw",
+    "title": "VOCES8 US Tour 2012 Day 21",
+    "durationSeconds": 202
+  },
+  {
+    "videoId": "WDX6RxPii4c",
+    "title": "VOCES8 US Tour 2012 Day 20",
+    "durationSeconds": 206
+  },
+  {
+    "videoId": "gxgr9odmtwY",
+    "title": "VOCES8 US Tour 2012 Day 18",
+    "durationSeconds": 191
+  },
+  {
+    "videoId": "ghdQyx7q_eA",
+    "title": "VOCES8 US Tour 2012 Day 17",
+    "durationSeconds": 193
+  },
+  {
+    "videoId": "Z-vdeE52qms",
+    "title": "VOCES8 US Tour 2012 Day 16",
+    "durationSeconds": 209
+  },
+  {
+    "videoId": "d4Btp-ZTtnk",
+    "title": "VOCES8 US Tour 2012 Day 14",
+    "durationSeconds": 184
+  },
+  {
+    "videoId": "ZjV8TL7iyIw",
+    "title": "VOCES8: US Tour 2012 Day 15",
+    "durationSeconds": 156
+  },
+  {
+    "videoId": "pBaWcBNvqO4",
+    "title": "VOCES8 US Tour 2012 Day 13",
+    "durationSeconds": 334
+  },
+  {
+    "videoId": "GYcoHsnPWCU",
+    "title": "VOCES8 US Tour 2012 Day 12",
+    "durationSeconds": 242
+  },
+  {
+    "videoId": "Y7w5iNhnffY",
+    "title": "VOCES8 Workshop Exercise 2",
+    "durationSeconds": 151
+  },
+  {
+    "videoId": "6uKLsOAFtr0",
+    "title": "VOCES8 Workshop Exercise 3",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "7S2ywLLEph4",
+    "title": "VOCES8 Workshop Exercise 1",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "3jg6wDrCiYw",
+    "title": "VOCES8: US Tour 2012 Day 11",
+    "durationSeconds": 265
+  },
+  {
+    "videoId": "nZ5nZBryOAo",
+    "title": "VOCES8: US Tour 2012 Day 10",
+    "durationSeconds": 246
+  },
+  {
+    "videoId": "sATB_Nn-bt0",
+    "title": "VOCES8: US Tour 2012 Day 9",
+    "durationSeconds": 211
+  },
+  {
+    "videoId": "LnNPQGDTzOM",
+    "title": "VOCES8: US Tour 2012 Day 8",
+    "durationSeconds": 211
+  },
+  {
+    "videoId": "k23IV4Jc3AQ",
+    "title": "VOCES8: Us Tour 2012 Day 7",
+    "durationSeconds": 232
+  },
+  {
+    "videoId": "wXVSjoeFO7E",
+    "title": "VOCES8: US Tour 2012 Day 6",
+    "durationSeconds": 188
+  },
+  {
+    "videoId": "uwWTj_HE6TA",
+    "title": "VOCES8: US Tour 2012 Day 5",
+    "durationSeconds": 205
+  },
+  {
+    "videoId": "pOvvDj_6-SU",
+    "title": "VOCES8: US Tour 2012 Day 4",
+    "durationSeconds": 219
+  },
+  {
+    "videoId": "Swmcj2xyylc",
+    "title": "VOCES8: US Tour 2012 Day 3",
+    "durationSeconds": 115
+  },
+  {
+    "videoId": "qJ1mzVAQvkk",
+    "title": "VOCES8: US Tour 2012 Day 2",
+    "durationSeconds": 193
+  },
+  {
+    "videoId": "333Sy5sYg6c",
+    "title": "VOCES8: US tour 2012 Day 1",
+    "durationSeconds": 144
+  },
+  {
+    "videoId": "r04rckhxXFw",
+    "title": "VOCES8: Tennis at The Broadmoor, Colorado Springs, USA",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "aGTd-GMT258",
+    "title": "VOCES8: Only You - Backstage at the Broadmoor",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "_9pYaYVHexE",
+    "title": "US Tour 2012 Trailer.m4v",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "awWY0TNL_I8",
+    "title": "VOCES8: In the Beginning EP - Promotional Film",
+    "durationSeconds": 197
+  },
+  {
+    "videoId": "sE_BLB9w_6Y",
+    "title": "Erin's Song - VOCES8, Thomas Hewitt Jones and Erin Duffy",
+    "durationSeconds": 412
+  },
+  {
+    "videoId": "UIpVqAGSBXk",
+    "title": "VOCES8: Waltz Carol",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "S3ewz0xn4Io",
+    "title": "VOCES8: Carol Spectacular",
+    "durationSeconds": 169
+  },
+  {
+    "videoId": "82It1ALwjzk",
+    "title": "VOCES8: What Child is This?",
+    "durationSeconds": 116
+  },
+  {
+    "videoId": "lBHmJt2at5o",
+    "title": "VOCES8: Singing in the Rain",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "SoKpQI-o7Vg",
+    "title": "VOCES8: Straighten Up and Fly Right",
+    "durationSeconds": 319
+  },
+  {
+    "videoId": "OrCre4NwP2g",
+    "title": "VOCES8: I've Got the World on a String",
+    "durationSeconds": 212
+  },
+  {
+    "videoId": "-rHqdVqALq8",
+    "title": "VOCES8: Maria durch ein Dornwald ging",
+    "durationSeconds": 152
+  },
+  {
+    "videoId": "zsXLu5R-EYw",
+    "title": "Paul Smith: An Introduction",
+    "durationSeconds": 124
+  },
+  {
+    "videoId": "fKUk2xuXqso",
+    "title": "VOCES8 Method Session at ACDA",
+    "durationSeconds": 260
+  },
+  {
+    "videoId": "d7QmShkIo_E",
+    "title": "VOCES8 - Stars",
+    "durationSeconds": 245
+  },
+  {
+    "videoId": "JnfJL-fFMbU",
+    "title": "VOCES8 - Ubi Caritas (Live) - Abbey Road x Decca Classics Sessions",
+    "durationSeconds": 243
+  },
+  {
+    "videoId": "RF9MiGJSqd4",
+    "title": "VOCES8: Jubilate Deo",
+    "durationSeconds": 299
+  },
+  {
+    "videoId": "ngrP3VUGxQw",
+    "title": "VOCES8: Slap that Bass",
+    "durationSeconds": 261
+  },
+  {
+    "videoId": "SjzKabI9yog",
+    "title": "VOCES8: Sing Joyfully",
+    "durationSeconds": 171
+  },
+  {
+    "videoId": "_L-BbLyT-FM",
+    "title": "VOCES8: Opera Medley",
+    "durationSeconds": 261
+  },
+  {
+    "videoId": "x2nRlVelF1U",
+    "title": "VOCES8: Fire! Fire!",
+    "durationSeconds": 173
+  },
+  {
+    "videoId": "C2tYw_4oRHo",
+    "title": "VOCES8: 59th Street Bridge Song/Feelin' Groovy",
+    "durationSeconds": 201
+  },
+  {
+    "videoId": "QF_o56tobps",
+    "title": "VOCES8: Bogoroditse Dyevo",
+    "durationSeconds": 215
+  },
+  {
+    "videoId": "yCgCoYSm3bA",
+    "title": "The VOCES8 Method - Stage 1",
+    "durationSeconds": 202
+  },
+  {
+    "videoId": "QHIDErzchuU",
+    "title": "The VOCES8 Method - Stage 2",
+    "durationSeconds": 333
+  },
+  {
+    "videoId": "6HgOAGIB8Mw",
+    "title": "The VOCES8 Method - Stage 3",
+    "durationSeconds": 82
+  },
+  {
+    "videoId": "UCioDJbYcJU",
+    "title": "The VOCES8 Method - Stage 4",
+    "durationSeconds": 167
+  },
+  {
+    "videoId": "9WuVAwbhMDA",
+    "title": "The VOCES8 Method - Stage 5",
+    "durationSeconds": 159
+  },
+  {
+    "videoId": "qEa0CPH4O-c",
+    "title": "The VOCES8 Method - Stage 6",
+    "durationSeconds": 120
+  },
+  {
+    "videoId": "Tp7mJpq7V9w",
+    "title": "The VOCES8 Method   Stage 7",
+    "durationSeconds": 106
+  },
+  {
+    "videoId": "iy8qQht_RTU",
+    "title": "The VOCES8 Method - Stage 8",
+    "durationSeconds": 238
+  },
+  {
+    "videoId": "nXuIFjHRvvU",
+    "title": "VOCES8: Albuquerque Residency 2013",
+    "durationSeconds": 817
+  },
+  {
+    "videoId": "SoKWeNJwzL8",
+    "title": "VOCES8 at La Folle Journee 2013 Day 3",
+    "durationSeconds": 190
+  },
+  {
+    "videoId": "7Xu-DJg8VZU",
+    "title": "VOCES8 at La Folle Journee 2013 Day 2",
+    "durationSeconds": 195
+  },
+  {
+    "videoId": "bIAti_1hevI",
+    "title": "VOCES8: US Tour 2013 Bermuda Golf Day",
+    "durationSeconds": 144
+  },
+  {
+    "videoId": "xr9oFNs5xek",
+    "title": "VOCES8: US Tour 2013 Valentine's Day",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "Pls6Q0sc2gQ",
+    "title": "VOCES8: US Tour 2013 Across New Mexico",
+    "durationSeconds": 152
+  },
+  {
+    "videoId": "caW2uzSZVQs",
+    "title": "VOCES8: US Tour 2013 - Bowling in Virginia",
+    "durationSeconds": 201
+  },
+  {
+    "videoId": "Lh1Dy6939ws",
+    "title": "VOCES8 US Tour 2013 - Harrisonburg, VA",
+    "durationSeconds": 254
+  },
+  {
+    "videoId": "0aVgxXsXQxk",
+    "title": "VOCES8 US Tour 2013: Niagara and Buffalo",
+    "durationSeconds": 255
+  },
+  {
+    "videoId": "xkPpV6vNJ-E",
+    "title": "VOCES8 in Albuquerque 2013",
+    "durationSeconds": 155
+  },
+  {
+    "videoId": "DxqoHaRLMzo",
+    "title": "VOCES8: La Folle Journée 2013 Day 1",
+    "durationSeconds": 171
+  },
+  {
+    "videoId": "mUxZ1BgCDRE",
+    "title": "The VOCES8 Method   Film 1",
+    "durationSeconds": 473
+  },
+  {
+    "videoId": "tIf-NZnzr2k",
+    "title": "APOLLO5 Leads Education Songs at the Royal Albert Hall 2012",
+    "durationSeconds": 327
+  },
+  {
+    "videoId": "7ZbGu8x2F4E",
+    "title": "VOCES8 and The Rose Ensemble - Miraculous Mass of Mary",
+    "durationSeconds": 400
+  },
+  {
+    "videoId": "7FirITEbam4",
+    "title": "VOCES8: Gladiator Soundscape",
+    "durationSeconds": 502
+  },
+  {
+    "videoId": "23X9nC3Sbmk",
+    "title": "VOCES8: Twist and Shout - Torino 2012",
+    "durationSeconds": 191
+  },
+  {
+    "videoId": "tCl1l5vbREA",
+    "title": "Maria from West Side Story in Nancy",
+    "durationSeconds": 246
+  },
+  {
+    "videoId": "dkvvkSJv-s4",
+    "title": "VOCES8 - Grey Coat Foundation Concert.m4v",
+    "durationSeconds": 300
+  },
+  {
+    "videoId": "2_1Oec-4WO8",
+    "title": "VOCES8 - Grey Coat Foundation Rehearsal.m4v",
+    "durationSeconds": 183
+  },
+  {
+    "videoId": "FeY_7l-0_6U",
+    "title": "VOCES8 Education 2012 Clips.m4v",
+    "durationSeconds": 202
+  },
+  {
+    "videoId": "ObbyK3frjFY",
+    "title": "VOCES8 - A Night of Film Music: Rehearsal Evening .m4v",
+    "durationSeconds": 192
+  },
+  {
+    "videoId": "szZB4KRQnRw",
+    "title": "VOCES8 US Tour 2012 - Day 40",
+    "durationSeconds": 98
+  },
+  {
+    "videoId": "N_QOZmDKhy4",
+    "title": "VOCES8 and Les Inventions: Bach Cantatas Rehearsal Day 1",
+    "durationSeconds": 319
+  },
+  {
+    "videoId": "qMCoYIBSqd0",
+    "title": "VOCES8 US Tour 2012 - Day 39",
+    "durationSeconds": 191
+  },
+  {
+    "videoId": "TuN1Stguc7w",
+    "title": "VOCES8 US Tour 2012 - Day 38",
+    "durationSeconds": 157
+  },
+  {
+    "videoId": "mCFoY70swh0",
+    "title": "VOCES8 US Tour 2012 - Day 37",
+    "durationSeconds": 144
+  },
+  {
+    "videoId": "XI_leHnvPrE",
+    "title": "VOCES8 US Tour 2012 - Day 36",
+    "durationSeconds": 214
+  },
+  {
+    "videoId": "5Op2HGPL31A",
+    "title": "Messiah by G. F Handel: Barnaby Smith Conductor Cam",
+    "durationSeconds": 5892
+  },
+  {
+    "videoId": "-Cz8nQAi2A4",
+    "title": "VOCES8, Sibéal - Traditional: Carrickfergus (Arr. Pacey)",
+    "durationSeconds": 271
+  },
+  {
+    "videoId": "eyvl3iqKJsU",
+    "title": "VCM Foundation: 'Old Abram Brown' creative improvisation with Paul Smith",
+    "durationSeconds": 286
+  },
+  {
+    "videoId": "Cte1DONjr24",
+    "title": "VOCES8 - Stopford: Lully, Lulla, Lullay",
+    "durationSeconds": 279
+  },
+  {
+    "videoId": "x7M5ZqFSynQ",
+    "title": "VOCES8 - May it Be (Enya/Lord of the Rings) - VOCES8 'Enchanted Isle'",
+    "durationSeconds": 225
+  },
+  {
+    "videoId": "PZjRonVvPk8",
+    "title": "Grace - Bobby McFerrin and Yo-Yo Ma, arr. Paul Smith for VOCES8",
+    "durationSeconds": 245
+  },
+  {
+    "videoId": "IKHqG1WVH5E",
+    "title": "VCM Foundation: 'Music on the waters' creative response by Paul Smith",
+    "durationSeconds": 346
+  },
+  {
+    "videoId": "MrMwOjGqYKM",
+    "title": "VCM Foundation: Creative response to Baiskeli with Paul Smith",
+    "durationSeconds": 284
+  },
+  {
+    "videoId": "sl9QXjS2kSk",
+    "title": "VOCES8: Maria from West Side Story",
+    "durationSeconds": 253
+  },
+  {
+    "videoId": "TdkyJzz8m4E",
+    "title": "VOCES8: Der Engel sprach zu den Hirten - Heinrich Schütz",
+    "durationSeconds": 149
+  },
+  {
+    "videoId": "J-AHYRrhdFs",
+    "title": "A New World: Love by Paul Smith",
+    "durationSeconds": 351
+  },
+  {
+    "videoId": "b58ICCYTQU4",
+    "title": "A New World: War by Paul Smith",
+    "durationSeconds": 138
+  },
+  {
+    "videoId": "W1KhW2xf4s8",
+    "title": "VCM Foundation: VOCES8 Method parts 1 and 2 with Paul Smith",
+    "durationSeconds": 89
+  },
+  {
+    "videoId": "NMxDpUvKpc4",
+    "title": "VOCES8 Foundation: Tuning a chord with Barnaby Smith",
+    "durationSeconds": 73
+  },
+  {
+    "videoId": "zlIss0OyXxg",
+    "title": "A New World: Lullaby by Paul Smith",
+    "durationSeconds": 186
+  },
+  {
+    "videoId": "aOxM4a6rf8I",
+    "title": "A New World: The Dream by Paul Smith",
+    "durationSeconds": 310
+  },
+  {
+    "videoId": "quVfy1f8ZzQ",
+    "title": "A New World: On History by Paul Smith",
+    "durationSeconds": 280
+  },
+  {
+    "videoId": "wLtW0F9QER8",
+    "title": "VOCES8: This Marriage by Ed Rex",
+    "durationSeconds": 195
+  },
+  {
+    "videoId": "MghKf39bc7E",
+    "title": "Singing Brussels - VOCES8 at BOZAR 2018",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "bjP9tOKJ8vE",
+    "title": "Rachel Podger and VOCES8: A Guardian Angel",
+    "durationSeconds": 385
+  },
+  {
+    "videoId": "sf6kS3uZj8s",
+    "title": "VOCES8: London By Night (Gene Puerling)",
+    "durationSeconds": 234
+  },
+  {
+    "videoId": "KXJNLb71VH4",
+    "title": "VOCES8: The Sound of Silence",
+    "durationSeconds": 283
+  },
+  {
+    "videoId": "gqulCHS4aGs",
+    "title": "VOCES8: Ring out wild bells - Jonathan Dove",
+    "durationSeconds": 276
+  },
+  {
+    "videoId": "ycAtH_b7PnI",
+    "title": "VOCES8: Ave Maria  - Franz Biebl",
+    "durationSeconds": 249
+  },
+  {
+    "videoId": "7RjAXOcTebI",
+    "title": "VOCES8: Es ist ein Ros entsprungen",
+    "durationSeconds": 245
+  },
+  {
+    "videoId": "BY1wqzMfcvw",
+    "title": "VOCES8: Making Equinox",
+    "durationSeconds": 383
+  },
+  {
+    "videoId": "hDfAhzaiy5A",
+    "title": "VOCES8: Maria durch ein Dornwald ging",
+    "durationSeconds": 144
+  },
+  {
+    "videoId": "L9zgq5qrNGw",
+    "title": "VOCES8: Beati Quorum Via - Charles Villiers Stanford",
+    "durationSeconds": 225
+  },
+  {
+    "videoId": "qV4ybOUb13s",
+    "title": "VOCES8 Singing Brussels",
+    "durationSeconds": 378
+  },
+  {
+    "videoId": "v5qzrwbvmXE",
+    "title": "VOCES8 at the Philharmonie, Paris, 2017 - final performance",
+    "durationSeconds": 270
+  },
+  {
+    "videoId": "DvmU-ppORGM",
+    "title": "VOCES8: Underneath the Stars by Kate Rusby",
+    "durationSeconds": 222
+  },
+  {
+    "videoId": "dNNWP8L2K9w",
+    "title": "VOCES8: Denn Er hat seinen Engeln befohlen über dir - Mendelssohn",
+    "durationSeconds": 204
+  },
+  {
+    "videoId": "VM2xHJG2uJk",
+    "title": "VOCES8: Lay a Garland - Robert Lucas Pearsall",
+    "durationSeconds": 192
+  },
+  {
+    "videoId": "kugCHcu7ynI",
+    "title": "VOCES8: Adoramus Te, Christe - Claudio Monteverdi",
+    "durationSeconds": 213
+  },
+  {
+    "videoId": "LE5TIQ8x-o8",
+    "title": "VOCES8 at the Philharmonie, Paris, 2017",
+    "durationSeconds": 181
+  },
+  {
+    "videoId": "TC7VlFXqGg4",
+    "title": "VOCES8 at BOZAR, 'Singing Brussels', part 2 2017",
+    "durationSeconds": 118
+  },
+  {
+    "videoId": "q4VorkOk5AQ",
+    "title": "VOCES8 at BOZAR, 'Singing Brussels' 2017",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "aReW0aBCGd8",
+    "title": "Jonathan Dove & VOCES8: 'The Passing of the Year'",
+    "durationSeconds": 98
+  },
+  {
+    "videoId": "MbhR93_U7BQ",
+    "title": "Jonathan Dove & VOCES8: 'The Passing of the Year'",
+    "durationSeconds": 103
+  },
+  {
+    "videoId": "wv9CSQjUPPQ",
+    "title": "VOCES8: The Luckiest - Ben Folds",
+    "durationSeconds": 330
+  },
+  {
+    "videoId": "icjcVr6j8gc",
+    "title": "VOCES8: Nunc Dimittis - Arvo Pärt",
+    "durationSeconds": 350
+  },
+  {
+    "videoId": "-Z0O8X26UIU",
+    "title": "VOCES8: A Hymn to the Virgin - Benjamin Britten",
+    "durationSeconds": 226
+  },
+  {
+    "videoId": "t8xbY9Iyxpo",
+    "title": "VOCES8: Shenandoah",
+    "durationSeconds": 234
+  },
+  {
+    "videoId": "uRu8ZUa5vBk",
+    "title": "VOCES8: 'Balulalow' by Francis Pott",
+    "durationSeconds": 192
+  },
+  {
+    "videoId": "IwdeqVmXlHk",
+    "title": "VOCES8: Lux Aeterna - Edward Elgar",
+    "durationSeconds": 234
+  },
+  {
+    "videoId": "gMzylnL6bWQ",
+    "title": "Voces8 - Winter (Rebecca Dale)",
+    "durationSeconds": 300
+  },
+  {
+    "videoId": "Ued6yNZNto0",
+    "title": "VOCES8: O Lord Make Thy Servant Elizabeth Our Queen - William Byrd",
+    "durationSeconds": 199
+  },
+  {
+    "videoId": "g4DrEByerT4",
+    "title": "VOCES8: It Don't Mean a Thing if it Ain't Got That Swing",
+    "durationSeconds": 218
+  },
+  {
+    "videoId": "12gsCREkIn0",
+    "title": "VOCES8: O Tannenbaum",
+    "durationSeconds": 145
+  },
+  {
+    "videoId": "BQsv5W4KXpM",
+    "title": "VOCES8 - A Hymn to the Virgin",
+    "durationSeconds": 220
+  },
+  {
+    "videoId": "R__Vk67p2Is",
+    "title": "VOCES8 - The Road Home",
+    "durationSeconds": 199
+  },
+  {
+    "videoId": "89eCOWfuJnI",
+    "title": "VOCES8: Cheek to Cheek",
+    "durationSeconds": 177
+  },
+  {
+    "videoId": "wPdh0loM2yM",
+    "title": "VOCES8: Nach dir, Herr, verlanget mich, BWV 150 - JS Bach",
+    "durationSeconds": 878
+  },
+  {
+    "videoId": "IUcK2R2ev_g",
+    "title": "VOCES8: Hallelujah Chorus (Singalong) - By G. F. Handel",
+    "durationSeconds": 222
+  },
+  {
+    "videoId": "lZTFLZiZUSo",
+    "title": "VOCES8: Drop, Drop, Slow Tears - Orlando Gibbons",
+    "durationSeconds": 111
+  },
+  {
+    "videoId": "M9xDt4oduYE",
+    "title": "VOCES8: Song Seven: 'Si Le Le' - Bobby McFerrin (Interactive Song)",
+    "durationSeconds": 467
+  },
+  {
+    "videoId": "-qZ4u_2ZAlc",
+    "title": "VOCES8: Earth Song - Frank Ticheli",
+    "durationSeconds": 257
+  },
+  {
+    "videoId": "TIqI3ENNWDk",
+    "title": "VOCES8: Mine - Phoebe Ryan arr. Blake Morgan (Interactive Video)",
+    "durationSeconds": 354
+  },
+  {
+    "videoId": "9BXo66MfKSs",
+    "title": "VOCES8: Regina Caeli Laetare - Tomás Luis de Victoria",
+    "durationSeconds": 208
+  },
+  {
+    "videoId": "yWRikKWiyQU",
+    "title": "VOCES8: Nyepi (Choral Version) - Ólafur Arnalds",
+    "durationSeconds": 239
+  },
+  {
+    "videoId": "n8BwsZqTyr0",
+    "title": "VOCES8: Spaséñiye, sodélal (Salvation is created) - Pavel Tschesnokoff",
+    "durationSeconds": 203
+  },
+  {
+    "videoId": "qdDGdOFKvSY",
+    "title": "VOCES8: Momentary (Choral Version) - Ólafur Arnalds",
+    "durationSeconds": 165
+  },
+  {
+    "videoId": "GLoncQ9Euik",
+    "title": "VOCES8: A Boy and a Girl - Eric Whitacre",
+    "durationSeconds": 290
+  },
+  {
+    "videoId": "e6JfcFhs9Y8",
+    "title": "VOCES8: Sing Joyfully by William Byrd",
+    "durationSeconds": 145
+  },
+  {
+    "videoId": "d5zCQvLZ4j8",
+    "title": "VOCES8: The Oxen - Jonathan Rathbone",
+    "durationSeconds": 207
+  },
+  {
+    "videoId": "j9naa5YvyDU",
+    "title": "VOCES8: Magnificat Primi Toni - Giovanni Pierluigi da Palestrina",
+    "durationSeconds": 285
+  },
+  {
+    "videoId": "skwx_n8DNXc",
+    "title": "VOCES8: Bring Us, O Lord God - William Harris",
+    "durationSeconds": 243
+  },
+  {
+    "videoId": "Ir3htl3UlBk",
+    "title": "VOCES8: The Deer's Cry - Arvo Pärt",
+    "durationSeconds": 262
+  },
+  {
+    "videoId": "tErRuCL8ZHg",
+    "title": "VOCES8: 'After Silence' Recording Introduction",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "Q-j5Wuavkgg",
+    "title": "VOCES8: A Nightingale Sang in Berkeley Square - Manning Sherwin",
+    "durationSeconds": 205
+  },
+  {
+    "videoId": "zh7HWBaJ35E",
+    "title": "Te Lucis Ante Terminum - Tomás Luis de Victoria",
+    "durationSeconds": 133
+  },
+  {
+    "videoId": "VT3VYJPVwEs",
+    "title": "In Manus Tuas - Tomás Luis de Victoria",
+    "durationSeconds": 110
+  },
+  {
+    "videoId": "KrG5TMjEHMM",
+    "title": "VOCES8: Johannes-Passion, BWV 245 - JS Bach",
+    "durationSeconds": 6706
+  },
+  {
+    "videoId": "2I9LAITt7as",
+    "title": "‘Ruht wohl, ihr heiligen Gebeine' from Johannes-Passion, BWV 245 - JS Bach",
+    "durationSeconds": 473
+  },
+  {
+    "videoId": "3G1iR_uzD7I",
+    "title": "'Herr, unser Herrscher' from Johannes-Passion, BWV 245 by JS Bach",
+    "durationSeconds": 564
+  },
+  {
+    "videoId": "Tuy0ztcRwcc",
+    "title": "Ave Regina Caelorum - Cipriano de Rore",
+    "durationSeconds": 405
+  },
+  {
+    "videoId": "gwj4f4ZGYdY",
+    "title": "Overture from The Magic Flute - Mozart",
+    "durationSeconds": 395
+  },
+  {
+    "videoId": "kSZubXsjUmI",
+    "title": "VOCES8: Edo Lullaby arr. Paul Smith",
+    "durationSeconds": 240
+  },
+  {
+    "videoId": "0QQuhvPYYqc",
+    "title": "VOCES8: Angelus Domini Descendit - Giovanni Gabrieli",
+    "durationSeconds": 177
+  },
+  {
+    "videoId": "58rsUKtg7fI",
+    "title": "VOCES8: Angelus Ad Pastores Ait - Hieronymous Praetorius",
+    "durationSeconds": 314
+  },
+  {
+    "videoId": "J3qb6tP7DLA",
+    "title": "VOCES8: Messiah by G. F. Handel",
+    "durationSeconds": 5631
+  },
+  {
+    "videoId": "qwyqJoTmPCM",
+    "title": "VOCES8: Nunc Dimittis - Paul Smith",
+    "durationSeconds": 251
+  },
+  {
+    "videoId": "o9al6HNOgSo",
+    "title": "VOCES8: Pie Jesu by Gabriel Fauré",
+    "durationSeconds": 211
+  },
+  {
+    "videoId": "49Og75MrkV8",
+    "title": "VOCES8: The Road Home - Stephen Paulus",
+    "durationSeconds": 202
+  },
+  {
+    "videoId": "ooSJLmQ6eII",
+    "title": "VOCES8: Homeward Bound by Simon and Garfunkel",
+    "durationSeconds": 202
+  },
+  {
+    "videoId": "GeLW43SqqbA",
+    "title": "VOCES8: Sleep by Eric Whitacre",
+    "durationSeconds": 308
+  },
+  {
+    "videoId": "-7qYeZcOioI",
+    "title": "VOCES8: Lully, Lulla, Lullay - Philip Stopford",
+    "durationSeconds": 278
+  },
+  {
+    "videoId": "d_UBxEzVWlU",
+    "title": "VOCES8: The Three Kings by Jonathan Dove",
+    "durationSeconds": 305
+  },
+  {
+    "videoId": "jS2osOLEe0U",
+    "title": "VOCES8: Worthy is the Lamb and Amen Chorus from 'Messiah' by G.F. Handel",
+    "durationSeconds": 527
+  },
+  {
+    "videoId": "k0-JIdRo2a0",
+    "title": "VOCES8: Hallelujah Chorus - G. F. Handel",
+    "durationSeconds": 223
+  },
+  {
+    "videoId": "Wo8qfyK9c3c",
+    "title": "VOCES8: 'Ne Irascaris Domine' & 'Civitas Sancti Tui' by William Byrd",
+    "durationSeconds": 619
+  },
+  {
+    "videoId": "74Q33UL7ugc",
+    "title": "VOCES8: Hear My Prayer, O Lord by Henry Purcell",
+    "durationSeconds": 151
+  },
+  {
+    "videoId": "zwfSBriGcpA",
+    "title": "VOCES8: Straighten Up and Fly Right - Nat 'King' Cole",
+    "durationSeconds": 174
+  },
+  {
+    "videoId": "29j1ZVochY4",
+    "title": "VOCES8: Live in Cambridge 2019 (2nd Half)",
+    "durationSeconds": 3140
+  },
+  {
+    "videoId": "9EP7id0WMw8",
+    "title": "VOCES8: Live in Cambridge 2019 (1st Half)",
+    "durationSeconds": 3197
+  },
+  {
+    "videoId": "5hftTNVoj7Y",
+    "title": "VOCES8 - Bernstein: West Side Story: Maria (Arr. Clements)",
+    "durationSeconds": 253
+  },
+  {
+    "videoId": "YIE9WtgcRMw",
+    "title": "VOCES8 - Fauré: Requiem, Op. 48: 4. Pie Jesu (Arr. Smith)",
+    "durationSeconds": 211
+  },
+  {
+    "videoId": "XLMAwh4Y9ME",
+    "title": "VCM Foundation - Creative improvisation with Paul Smith",
+    "durationSeconds": 223
+  },
+  {
+    "videoId": "ZSwPSd09tug",
+    "title": "Pyramid Song (Radiohead) String, Harp and Voices cover by VOCES8",
+    "durationSeconds": 275
+  },
+  {
+    "videoId": "xajaqX4a8eY",
+    "title": "Live From London Highlights (The Swingles)",
+    "durationSeconds": 351
+  },
+  {
+    "videoId": "FSTQbioA-Uw",
+    "title": "Live From London Highlights (Academy of Ancient Music)",
+    "durationSeconds": 256
+  },
+  {
+    "videoId": "Alss4PAU4-I",
+    "title": "Live From London Highlights (I Fagiolini)",
+    "durationSeconds": 270
+  },
+  {
+    "videoId": "H1Txq6Wgo70",
+    "title": "A Cappella Lego 11 (Interactive Video)",
+    "durationSeconds": 1166
+  },
+  {
+    "videoId": "130IqxRw9pM",
+    "title": "VOCES8: Live From London Highlights",
+    "durationSeconds": 242
+  },
+  {
+    "videoId": "iqApYKEV7as",
+    "title": "Live From London Preview Show (31st July 2020)",
+    "durationSeconds": 2051
+  },
+  {
+    "videoId": "jergyGpFj3s",
+    "title": "VOCES8: After Silence Album Launch Show",
+    "durationSeconds": 5713
+  },
+  {
+    "videoId": "tciSGdpj9go",
+    "title": "Live From London Preview Show (17th July 2020)",
+    "durationSeconds": 2151
+  },
+  {
+    "videoId": "ZUYEGaEqiSQ",
+    "title": "Live From London Preview Show (10th July 2020)",
+    "durationSeconds": 2577
+  },
+  {
+    "videoId": "svAmbCWJhZk",
+    "title": "Live From London Preview Show",
+    "durationSeconds": 2807
+  },
+  {
+    "videoId": "EjtvrYBPQqo",
+    "title": "A Cappella Lego 10 (Interactive Video)",
+    "durationSeconds": 1309
+  },
+  {
+    "videoId": "mKYLlszh83A",
+    "title": "Lullaby 'My sweet little baby' - William Byrd",
+    "durationSeconds": 326
+  },
+  {
+    "videoId": "H8x0bURsMrM",
+    "title": "LIVE From London Launch Party",
+    "durationSeconds": 5920
+  },
+  {
+    "videoId": "er0SsfWdhZc",
+    "title": "Live From London",
+    "durationSeconds": 129
+  },
+  {
+    "videoId": "SyXqmizavkw",
+    "title": "VOCES8: Le Plat Pays - Jacques Brel (arr. Blake Morgan)",
+    "durationSeconds": 220
+  },
+  {
+    "videoId": "t_ZUOcfic_U",
+    "title": "In Darkness Let Me Dwell - John Dowland",
+    "durationSeconds": 249
+  },
+  {
+    "videoId": "Hz0oh_2sgI4",
+    "title": "Corpus Christi Carol - Benjamin Britten arr. Buckley/Morgan",
+    "durationSeconds": 185
+  },
+  {
+    "videoId": "TQaLMoPGJzk",
+    "title": "VOCES8 - Drop, Drop, Slow Tears",
+    "durationSeconds": 112
+  },
+  {
+    "videoId": "4p8PYuzx5iM",
+    "title": "VOCES8 - Earth Song",
+    "durationSeconds": 258
+  },
+  {
+    "videoId": "aynHSTsYcUo",
+    "title": "VOCES8 - Sleep",
+    "durationSeconds": 309
+  },
+  {
+    "videoId": "QLw9EN94wDk",
+    "title": "VOCES8: Send in the Clowns - Stephen Sondheim (arr. Clements)",
+    "durationSeconds": 319
+  },
+  {
+    "videoId": "y33YiWSTL4o",
+    "title": "VOCES8 Live: Choral Chill Playlist (Part 2)",
+    "durationSeconds": 8653
+  },
+  {
+    "videoId": "WdaOYYK4zEs",
+    "title": "VOCES8 Live: Choral Chill Playlist (Part 1)",
+    "durationSeconds": 6066
+  },
+  {
+    "videoId": "DCqr1XQoIg8",
+    "title": "VOCES8 - Rathbone: The Oxen",
+    "durationSeconds": 208
+  },
+  {
+    "videoId": "kVI4Serxtqk",
+    "title": "VOCES8: Blake's Bossa (Interactive Song)",
+    "durationSeconds": 510
+  },
+  {
+    "videoId": "0x_kirk2bKY",
+    "title": "VOCES8: 'O Clap Your Hands' by Orlando Gibbons",
+    "durationSeconds": 289
+  },
+  {
+    "videoId": "x5sF28RN5r0",
+    "title": "VOCES8 Live: 'As Vesta was from Latmos hill descending' & 'Dessus le marché d'Arras'",
+    "durationSeconds": 354
+  },
+  {
+    "videoId": "T5Df7f_BLU8",
+    "title": "VOCES8: Jesus bleibet meine Freude - JS Bach",
+    "durationSeconds": 202
+  },
+  {
+    "videoId": "Lsx77qnzxQw",
+    "title": "VOCES8 - Regina Caeli Laetare a 8",
+    "durationSeconds": 208
+  },
+  {
+    "videoId": "41KBZsdC2dw",
+    "title": "VOCES8 - Biebl: Ave Maria (Angelus Domini)",
+    "durationSeconds": 240
+  },
+  {
+    "videoId": "hKgUxqXoc9M",
+    "title": "VOCES8 - Lux Aeterna (Nimrod)",
+    "durationSeconds": 224
+  },
+  {
+    "videoId": "qInyQUKMhdA",
+    "title": "VOCES8 - Smith: Nunc Dimittis",
+    "durationSeconds": 252
+  },
+  {
+    "videoId": "wedD1qsYLWI",
+    "title": "VOCES8 - Magnificat Primi Toni",
+    "durationSeconds": 286
+  },
+  {
+    "videoId": "j2vJn9WBdq0",
+    "title": "VOCES8 - Adoramus Te, Christe",
+    "durationSeconds": 204
+  },
+  {
+    "videoId": "cBZj_kMhjRI",
+    "title": "VOCES8 - Beati Quorum Via",
+    "durationSeconds": 216
+  },
+  {
+    "videoId": "6Cqd7qBH9sY",
+    "title": "VOCES8: There is an Old Belief (from 'Songs of Farewell') - C. H. Parry",
+    "durationSeconds": 288
+  },
+  {
+    "videoId": "vRcVB7ao_UQ",
+    "title": "VOCES8 - Rusby: Underneath the Stars (arr. Clements)",
+    "durationSeconds": 213
+  },
+  {
+    "videoId": "qW0EuC_nzJ0",
+    "title": "VOCES8 - A Nightingale Sang in Berkeley Square (arr. Clements)",
+    "durationSeconds": 206
+  },
+  {
+    "videoId": "ic4w1IRmUtA",
+    "title": "VOCES8 - Homeward Bound (arr. Crellin)",
+    "durationSeconds": 203
+  },
+  {
+    "videoId": "iEu2A9gXTU0",
+    "title": "VOCES8 - Pearsall: Lay a Garland",
+    "durationSeconds": 178
+  },
+  {
+    "videoId": "OISUntqbXvc",
+    "title": "VOCES8 - Purcell: Hear My Prayer, O Lord",
+    "durationSeconds": 152
+  },
+  {
+    "videoId": "d7Wt02gTwg8",
+    "title": "Academy of Ancient Music - Bach: Nach dir, Herr, verlanget mich, BWV 150",
+    "durationSeconds": 879
+  },
+  {
+    "videoId": "JV33O5aHjG0",
+    "title": "VOCES8: Big Ben - Blake Morgan  (Interactive Video)",
+    "durationSeconds": 392
+  },
+  {
+    "videoId": "xMs2KpllYW8",
+    "title": "VOCES8 - London By Night (arr. Puerling)",
+    "durationSeconds": 227
+  },
+  {
+    "videoId": "RvJbRXqJxqQ",
+    "title": "VOCES8 - Straighten Up and Fly Right (arr. Clements)",
+    "durationSeconds": 175
+  },
+  {
+    "videoId": "JRXhY5px9Hs",
+    "title": "VOCES8 - Maria Durch ein Dornwald ging (Arr. Stefan Claas)",
+    "durationSeconds": 141
+  },
+  {
+    "videoId": "FJO8V1-OH84",
+    "title": "VOCES8 - Shenandoah (arr. Hewitt-Jones)",
+    "durationSeconds": 235
+  },
+  {
+    "videoId": "XzmCVZx_Ws4",
+    "title": "VOCES8 - The Luckiest",
+    "durationSeconds": 321
+  },
+  {
+    "videoId": "F6mfi4GQ1Ks",
+    "title": "VOCES8 - The Sound of Silence",
+    "durationSeconds": 277
+  },
+  {
+    "videoId": "E_9m4KX_P9s",
+    "title": "VOCES8 - The Three Kings",
+    "durationSeconds": 305
+  },
+  {
+    "videoId": "vTqVCVgZbkg",
+    "title": "Live From London Spring Highlights - I Fagiolini & Tamsin Greig",
+    "durationSeconds": 589
+  },
+  {
+    "videoId": "7vAG4LyaysI",
+    "title": "VOCES8: 'Sanctus' from Fauré's Requiem",
+    "durationSeconds": 189
+  },
+  {
+    "videoId": "eXooDIWVRZs",
+    "title": "VOCES8: This Is My Song (Finlandia) - Jean Sibelius arr. Blake Morgan",
+    "durationSeconds": 264
+  },
+  {
+    "videoId": "dSg1DezYN40",
+    "title": "'Gloria' & 'Et in terra pax': Bach's Mass in B Minor (VOCES8, Academy of Ancient Music)",
+    "durationSeconds": 355
+  },
+  {
+    "videoId": "RHSd6zCZhMw",
+    "title": "Live From London Spring Highlights - Fauré's Requiem (VOCES8, English Chamber Orchestra)",
+    "durationSeconds": 628
+  },
+  {
+    "videoId": "G08GdMXOcg8",
+    "title": "Live From London Spring Highlights: Bach \"Mass in B Minor'",
+    "durationSeconds": 617
+  },
+  {
+    "videoId": "_Lpi_WusRJA",
+    "title": "Live From London Spring Highlights - Jason Max Ferdinand Singers 'New Beginnings'",
+    "durationSeconds": 479
+  },
+  {
+    "videoId": "hQyYZ_40_PQ",
+    "title": "Live From London Spring Highlights - Emma Kirkby & Friends 'Abiding Love'",
+    "durationSeconds": 468
+  },
+  {
+    "videoId": "r5_y5bBiAl0",
+    "title": "VOCES8: Singing London Workshop",
+    "durationSeconds": 4258
+  },
+  {
+    "videoId": "oVW0AREYl0o",
+    "title": "VOCES8 Singing London - lower voices session 2",
+    "durationSeconds": 3151
+  },
+  {
+    "videoId": "CDiUoPbi6ZE",
+    "title": "VOCES8 Singing London - lower voices session 1",
+    "durationSeconds": 4391
+  },
+  {
+    "videoId": "8w8H6oKRPi4",
+    "title": "VOCES8 with US Scholars & Sonos - 'Lovely Day' Live in Houston 2020 (arr. Blake Morgan)",
+    "durationSeconds": 231
+  },
+  {
+    "videoId": "bJ2wqimZqnk",
+    "title": "VOCES8 Singing London - Upper Voices session 2",
+    "durationSeconds": 4061
+  },
+  {
+    "videoId": "SJ6fD36jTq4",
+    "title": "Live From London Spring Highlights - Joanna MacGregor 'Soul of a Woman'",
+    "durationSeconds": 433
+  },
+  {
+    "videoId": "9aMYbGt37TY",
+    "title": "Live From London Spring Highlights - The Carducci Quartet",
+    "durationSeconds": 548
+  },
+  {
+    "videoId": "139R9lP-0WA",
+    "title": "Singing London session with Paul Smith - March 1st 2021",
+    "durationSeconds": 4039
+  },
+  {
+    "videoId": "WD5E1ravePA",
+    "title": "Live From London Spring Highlights - Stile Antico 'Miserere: Renaissance Lamentations'",
+    "durationSeconds": 406
+  },
+  {
+    "videoId": "6asaQlDw0FY",
+    "title": "VOCES8 Singing London  - Upper Voice session 1",
+    "durationSeconds": 3828
+  },
+  {
+    "videoId": "Mp_GvgKKzVg",
+    "title": "Live From London Spring Highlights - Apollo5 'Where All Roses Go'",
+    "durationSeconds": 443
+  },
+  {
+    "videoId": "Qy0DLIdRCfc",
+    "title": "Live From London Spring - VOCES8 & Jonathan Dove 'The Passing of the Year'",
+    "durationSeconds": 408
+  },
+  {
+    "videoId": "oNKZeXUNtyU",
+    "title": "VOCES8: Choral Question Time (1st February 2021)",
+    "durationSeconds": 4064
+  },
+  {
+    "videoId": "zwQB4FC25Ak",
+    "title": "LIVE From London - Spring",
+    "durationSeconds": 164
+  },
+  {
+    "videoId": "xjK1Vt2YUVQ",
+    "title": "Live From London Christmas Highlights: Bach for Christmas - Gabrieli & Paul McCreesh",
+    "durationSeconds": 1256
+  },
+  {
+    "videoId": "rUvXqYm39ZM",
+    "title": "Live From London Christmas Highlights - I Fagiolini",
+    "durationSeconds": 369
+  },
+  {
+    "videoId": "Fzn8_uBkrWk",
+    "title": "Live From London Christmas Highlights - Young Performer Spotlights",
+    "durationSeconds": 334
+  },
+  {
+    "videoId": "rAife9zRhQI",
+    "title": "Live From London Christmas Highlights - VOCES8 'Winter Tales'",
+    "durationSeconds": 335
+  },
+  {
+    "videoId": "K8jD0r2i1Xw",
+    "title": "Live From London Christmas Highlights - ANÚNA",
+    "durationSeconds": 317
+  },
+  {
+    "videoId": "0Jjz4a9fqOc",
+    "title": "Live From London Christmas Highlights - amarcord",
+    "durationSeconds": 299
+  },
+  {
+    "videoId": "4bPuIlel2Fg",
+    "title": "Live From London Christmas Highlights - The Choir of Westminster Abbey",
+    "durationSeconds": 336
+  },
+  {
+    "videoId": "KGwWXz9nVG8",
+    "title": "Live From London Christmas Highlights - London Adventist Chorale & TAKE 6",
+    "durationSeconds": 419
+  },
+  {
+    "videoId": "nT9OYPne9p0",
+    "title": "Live From London Christmas Highlights - The Tallis Scholars",
+    "durationSeconds": 311
+  },
+  {
+    "videoId": "mMDHE9jAnvU",
+    "title": "Live From London Christmas Highlights - Apollo5",
+    "durationSeconds": 321
+  },
+  {
+    "videoId": "xD7QZgWlO9M",
+    "title": "Live From London Christmas Highlights - VOCES8 & Roderick Williams and The Aeolians",
+    "durationSeconds": 424
+  },
+  {
+    "videoId": "bkG-sbzekmU",
+    "title": "Live From London Christmas Highlights: Rachel Podger & VOCES8",
+    "durationSeconds": 321
+  },
+  {
+    "videoId": "ViSQRzLk68s",
+    "title": "VOCES8: Hymn to St Cecilia - Benjamin Britten",
+    "durationSeconds": 668
+  },
+  {
+    "videoId": "DYFfiAt8zNo",
+    "title": "Introducing The VOCES8 Digital Academy",
+    "durationSeconds": 134
+  },
+  {
+    "videoId": "VqzlkFhRro4",
+    "title": "Choral Question Time interview with ANÚNA's Michael McGlynn",
+    "durationSeconds": 673
+  },
+  {
+    "videoId": "y8rOaPBnDzw",
+    "title": "VOCES8 Live: Choral Question Time",
+    "durationSeconds": 8272
+  },
+  {
+    "videoId": "NMTbCy4aaYg",
+    "title": "Live From London Highlights: English Chamber Orchestra",
+    "durationSeconds": 430
+  },
+  {
+    "videoId": "eGrWXWdE8E8",
+    "title": "Live From London: Christmas",
+    "durationSeconds": 64
+  },
+  {
+    "videoId": "jbqYdIfYwik",
+    "title": "Live From London Highlights: Chanticleer",
+    "durationSeconds": 497
+  },
+  {
+    "videoId": "RC9TkdkOGMc",
+    "title": "Live From London Highlights: Stile Antico",
+    "durationSeconds": 384
+  },
+  {
+    "videoId": "SblEXGntQVY",
+    "title": "Live From London Highlights: Harry Christophers & The Sixteen",
+    "durationSeconds": 327
+  },
+  {
+    "videoId": "X-V66_CYwq4",
+    "title": "Live From London Highlights: Apollo5",
+    "durationSeconds": 371
+  },
+  {
+    "videoId": "RfWm3HO-MWg",
+    "title": "Live From London: Straighten Up and Fly Right (VOCES8)",
+    "durationSeconds": 164
+  },
+  {
+    "videoId": "n2t0JMqNLAc",
+    "title": "Live From London Highlights: VOCES8",
+    "durationSeconds": 318
+  },
+  {
+    "videoId": "Jj8DqU3S7rs",
+    "title": "Live From London Highlights: The Gesualdo Six",
+    "durationSeconds": 401
+  },
+  {
+    "videoId": "BGrLL3T0ozE",
+    "title": "VOCES8: 'Hope is the Thing with Feathers' by Christopher Tin",
+    "durationSeconds": 250
+  },
+  {
+    "videoId": "pwFlCIpmRo0",
+    "title": "VOCES8: The Saddest Noise from 'The Lost Birds' by Christopher Tin",
+    "durationSeconds": 274
+  },
+  {
+    "videoId": "o4rt4-JIKbA",
+    "title": "VOCES8 & Jack Liebeck: The Lark Ascending - Ralph Vaughan Williams (arr. Paul Drayton)",
+    "durationSeconds": 958
+  },
+  {
+    "videoId": "8vfRVdcKWNI",
+    "title": "VOCES8: Nunc Dimittis by Orlando Gibbons",
+    "durationSeconds": 170
+  },
+  {
+    "videoId": "87uneCP4Cjc",
+    "title": "VOCES8 Scholars: Veni, Dilecte Mi by Sebastián de Vivanco",
+    "durationSeconds": 301
+  },
+  {
+    "videoId": "FAZIP2b-ihY",
+    "title": "VOCES8: Ave Maris Stella by Edvard Grieg",
+    "durationSeconds": 204
+  },
+  {
+    "videoId": "eWHOZPCWAlg",
+    "title": "VOCES8: Die Himmel erzählen die Ehre Gottes by Heinrich Schütz",
+    "durationSeconds": 229
+  },
+  {
+    "videoId": "udZCjXbwkzk",
+    "title": "VOCES8: 'Locus Iste' by Anton Bruckner",
+    "durationSeconds": 197
+  },
+  {
+    "videoId": "al2pXWN0UYg",
+    "title": "VOCES8: 'Du som gick före oss' by Sven-Erik Bäck",
+    "durationSeconds": 123
+  },
+  {
+    "videoId": "R3vuU7XAaUM",
+    "title": "VOCES8: 'Ave Verum' by William Byrd",
+    "durationSeconds": 261
+  },
+  {
+    "videoId": "E1e6xkcAv2w",
+    "title": "VOCES8: Pie Jesu from 'Requiem Novum' by Mårten Jansson",
+    "durationSeconds": 195
+  },
+  {
+    "videoId": "BtTbkfH9G2o",
+    "title": "VOCES8: 'Haec Dies' by William Byrd",
+    "durationSeconds": 131
+  },
+  {
+    "videoId": "vBkx8uHDRb0",
+    "title": "VOCES8: 'The Twelve' by William Walton - VOCES8, Apollo5, Peter Holder & Barnaby Smith",
+    "durationSeconds": 690
+  },
+  {
+    "videoId": "fwauy_MYZjk",
+    "title": "VOCES8: 'Faire is the Heaven' by William Harris - VOCES8, Apollo5, directed by Barnaby Smith",
+    "durationSeconds": 328
+  },
+  {
+    "videoId": "ox3eS_emYEo",
+    "title": "VOCES8 and Apollo5: 'Distant Earth Renewal' by Paul Smith",
+    "durationSeconds": 275
+  },
+  {
+    "videoId": "fp_2mfpZ2XE",
+    "title": "VOCES8: 'Laudibus in Sanctis' by William Byrd",
+    "durationSeconds": 306
+  },
+  {
+    "videoId": "aM1PvcV_JSw",
+    "title": "VOCES8: Silver Bells (arr. Blake Morgan)",
+    "durationSeconds": 240
+  },
+  {
+    "videoId": "ndiMcNYvfYI",
+    "title": "VOCES8: The Sleeping Child (Bob Chilcott)",
+    "durationSeconds": 207
+  },
+  {
+    "videoId": "Qac_VUxlE7o",
+    "title": "VOCES8:  'Hallelujah' from Messiah (G. F. Handel)",
+    "durationSeconds": 230
+  },
+  {
+    "videoId": "D50mHULNoag",
+    "title": "VOCES8: Santa Claus is Coming to Town",
+    "durationSeconds": 158
+  },
+  {
+    "videoId": "6eWKylmI5I4",
+    "title": "Live From London: Deck the Hall (The King's Singers)",
+    "durationSeconds": 146
+  },
+  {
+    "videoId": "UUooE1usEDI",
+    "title": "VOCES8: Nesciens Mater (Jean Mouton)",
+    "durationSeconds": 311
+  },
+  {
+    "videoId": "LDodhnk5lRg",
+    "title": "VOCES8: O Come, O Come, Emmanuel (arr. Taylor Scott Davis)",
+    "durationSeconds": 295
+  },
+  {
+    "videoId": "kyGlFisv7Ng",
+    "title": "VOCES8: Ave Maria, Virgo Serena (Josquin des Prez)",
+    "durationSeconds": 357
+  },
+  {
+    "videoId": "V4UVWseadoI",
+    "title": "VOCES8 & Apollo5: Listen -  Paul Smith",
+    "durationSeconds": 311
+  },
+  {
+    "videoId": "4AWMryoC4sw",
+    "title": "VOCES8: 'O Sacrum Convivium' by Kevin Allen",
+    "durationSeconds": 145
+  },
+  {
+    "videoId": "buK4Ts2chdA",
+    "title": "Ombra Mai Fu - G. F. Handel (Barnaby Smith)",
+    "durationSeconds": 239
+  },
+  {
+    "videoId": "jbMFhW-y1Ew",
+    "title": "VOCES8: Timshel by Mumford & Sons (arr. Jim Clements)",
+    "durationSeconds": 227
+  },
+  {
+    "videoId": "TSStTxoDbko",
+    "title": "VOCES8: Kyrie from 'Mass in E flat' by Josef Rheinberger",
+    "durationSeconds": 257
+  },
+  {
+    "videoId": "hvFoVGXVaxs",
+    "title": "VOCES8: ∞ Infinite Relaxation in Space to Calm and Destress",
+    "durationSeconds": 12476
+  },
+  {
+    "videoId": "p9dRmEKhvxM",
+    "title": "VOCES8, Eleanor Turner - Gjeilo: Still (Arr. Lawson) (Visualiser)",
+    "durationSeconds": 150
+  },
+  {
+    "videoId": "tDb7Oh24hGQ",
+    "title": "Live From London: Keeping Quiet - Donna McKevitt",
+    "durationSeconds": 417
+  },
+  {
+    "videoId": "kTLlMHKX7os",
+    "title": "'Più amabile belta' from Giulio Cesare in Egitto, HWV 17  - G. F. Händel",
+    "durationSeconds": 302
+  },
+  {
+    "videoId": "nfK5eZ1EfOY",
+    "title": "VOCES8 - Jóhannsson: A Pile of Dust (Arr. Rimmer) (Visualiser)",
+    "durationSeconds": 314
+  },
+  {
+    "videoId": "GrIvFl5zZmI",
+    "title": "VOCES8 - Jóhannsson: A Pile of Dust (Arr. Rimmer)",
+    "durationSeconds": 314
+  },
+  {
+    "videoId": "e9ggOxkg-uc",
+    "title": "VOCES8 & Chineke!: Deep River",
+    "durationSeconds": 261
+  },
+  {
+    "videoId": "-XVI0bLdkf8",
+    "title": "VOCES8: Find Our Way - Kelly Lee Owens & Sebastian Plano arr. Jim Clements",
+    "durationSeconds": 227
+  },
+  {
+    "videoId": "j-snryoqEGs",
+    "title": "VOCES8 - Sigurbjörnsson: Heyr himna smiður (Visualiser)",
+    "durationSeconds": 218
+  },
+  {
+    "videoId": "nT4lLBgijz4",
+    "title": "VOCES8, Gabriella Swallow - Owens, Plano: Find Our Way (Arr. Clements) (Visualiser)",
+    "durationSeconds": 228
+  },
+  {
+    "videoId": "YUumh6vgRhE",
+    "title": "VOCES8 & The King's Singers: Lullabye (Goodnight, My Angel) - Billy Joel (arr. Philip Lawson)",
+    "durationSeconds": 262
+  },
+  {
+    "videoId": "wi9Cojb1R_w",
+    "title": "VOCES8, Eleanor Turner - Hopkins: Scene Suspended (Arr. Lawson) (Visualiser)",
+    "durationSeconds": 239
+  },
+  {
+    "videoId": "_OqIEB_3iQo",
+    "title": "VOCES8, Elsa Bradley, Calie Hough - Slow Meadow: Helium Life Jacket (Arr. Lawson)",
+    "durationSeconds": 260
+  },
+  {
+    "videoId": "sLysBw8vY5Q",
+    "title": "VOCES8, Elsa Bradley, Calie Hough - Helium Life Jacket (Arr. Lawson) (Visualiser)",
+    "durationSeconds": 263
+  },
+  {
+    "videoId": "0yamC-NZTgE",
+    "title": "VOCES8: 'Vincent' by Don McLean (arr. Jim Clements)",
+    "durationSeconds": 298
+  },
+  {
+    "videoId": "osgqfOitQWo",
+    "title": "VOCES8 - Gjeilo: Still (Arr. Lawson)",
+    "durationSeconds": 149
+  },
+  {
+    "videoId": "sIOagJryMik",
+    "title": "VOCES8: 'Abendlied' by Josef Rheinberger",
+    "durationSeconds": 189
+  },
+  {
+    "videoId": "in8_u2pswdo",
+    "title": "VOCES8 - Sigurbjörnsson: Heyr himna smiður",
+    "durationSeconds": 220
+  },
+  {
+    "videoId": "5pk3vZwOhrs",
+    "title": "Live From London: Summer 2021 Trailer",
+    "durationSeconds": 172
+  },
+  {
+    "videoId": "x8QHjpwDIP4",
+    "title": "VOCES8 - Scene Suspended (Arr. Lawson)",
+    "durationSeconds": 240
+  },
+  {
+    "videoId": "nVV0os_Vidg",
+    "title": "VOCES8 announces Lyyra: 'Sicut Lilium' by Leonora d'Este",
+    "durationSeconds": 116
+  },
+  {
+    "videoId": "ykB8NzvJH4E",
+    "title": "VOCES8: The Blue Bird by Charles Villiers Stanford",
+    "durationSeconds": 226
+  },
+  {
+    "videoId": "5-MvH99bm-4",
+    "title": "VOCES8 & Lyyra: Time After Time arr. Blake Morgan",
+    "durationSeconds": 365
+  },
+  {
+    "videoId": "jFkwPRYcTQA",
+    "title": "VOCES8 announces Lyyra: Here there be Mermaids by Mars Smith",
+    "durationSeconds": 226
+  },
+  {
+    "videoId": "SnY9LjP6IBY",
+    "title": "VOCES8 announces Lyyra: Jhoro Jhoro arranged by Shabnam Abedi",
+    "durationSeconds": 239
+  },
+  {
+    "videoId": "B-50CeNelnA",
+    "title": "VOCES8: Ubi Caritas by Ola Gjeilo",
+    "durationSeconds": 237
+  },
+  {
+    "videoId": "PZTm51I0Mwg",
+    "title": "VOCES8 announces Lyyra: When the Earth Stands Still by Don Macdonald",
+    "durationSeconds": 245
+  },
+  {
+    "videoId": "s94Lo5B4tr8",
+    "title": "VOCES8: Backstage Pass 'Episode 1: Pilot - On the Road in the USA'",
+    "durationSeconds": 844
+  },
+  {
+    "videoId": "c5NBimSuVOM",
+    "title": "VOCES8: O Salutaris Hostia by William Byrd",
+    "durationSeconds": 208
+  },
+  {
+    "videoId": "4jRgKMiD9bY",
+    "title": "VOCES8: Mitt hjerte alltid vanker arr. Blake Morgan",
+    "durationSeconds": 290
+  },
+  {
+    "videoId": "qTcxAr1oYx8",
+    "title": "VOCES8: The Lamb by Luke Wenceslas Mayernik",
+    "durationSeconds": 276
+  },
+  {
+    "videoId": "eQzi6lG7ngU",
+    "title": "VOCES8: 'Es ist ein Ros entsprungen' arranged by John Rutter",
+    "durationSeconds": 219
+  },
+  {
+    "videoId": "8S9fqjDuu4g",
+    "title": "VOCES8: 'Jauchzet, frohlocket' by JS Bach",
+    "durationSeconds": 498
+  },
+  {
+    "videoId": "SD1pvwfsHW0",
+    "title": "VOCES8: I Was Glad by Henry Purcell",
+    "durationSeconds": 265
+  },
+  {
+    "videoId": "YzRahwicFa8",
+    "title": "VOCES8: Goin' Home by Antonin Dvorak",
+    "durationSeconds": 320
+  },
+  {
+    "videoId": "VLGLcwKouFY",
+    "title": "Handel: Joy to the World (Joy to the World (Arr. Taylor Scott Davis))",
+    "durationSeconds": 251
+  },
+  {
+    "videoId": "c-ZEDIe6IhY",
+    "title": "VOCES8: Cantate Domino by Claudio Monteverdi",
+    "durationSeconds": 119
+  },
+  {
+    "videoId": "iJovcH_CZ5Q",
+    "title": "Away in a Manger (Arr. Taylor Scott Davis)",
+    "durationSeconds": 241
+  },
+  {
+    "videoId": "1-dYNAmvbuc",
+    "title": "VOCES8: Slumber My Darling arr. Blake Morgan",
+    "durationSeconds": 340
+  },
+  {
+    "videoId": "KUNMZLqP9eI",
+    "title": "VOCES8 - Chilcott: The Sleeping Child",
+    "durationSeconds": 203
+  },
+  {
+    "videoId": "ZnAR2WKDYHU",
+    "title": "VOCES8: The Long Day Closes by Arthur Sullivan",
+    "durationSeconds": 273
+  },
+  {
+    "videoId": "OzbFBYB_dPM",
+    "title": "VOCES8: Meant To Be by James Heather",
+    "durationSeconds": 313
+  },
+  {
+    "videoId": "FmM1ATJgQE4",
+    "title": "VOCES8 & Ringmasters: Shall We Gather at the River? arr. Blake Morgan",
+    "durationSeconds": 288
+  },
+  {
+    "videoId": "AlH8eetg3ec",
+    "title": "VOCES8 & Ringmasters: Deus, Deus Meus á 10 by Giovanni Gabrieli",
+    "durationSeconds": 227
+  },
+  {
+    "videoId": "BwK_Ejypj30",
+    "title": "VOCES8 Scholars: Jubilate Deo by Giovanni Gabrieli",
+    "durationSeconds": 252
+  },
+  {
+    "videoId": "e9UhHNChNbU",
+    "title": "VOCES8: Go Lovely Rose by Eric Whitacre",
+    "durationSeconds": 279
+  },
+  {
+    "videoId": "BooY2_18Y_E",
+    "title": "VOCES8: Draw on, Sweet Night by John Wilbye",
+    "durationSeconds": 289
+  },
+  {
+    "videoId": "4-980lSbUH4",
+    "title": "VOCES8 & Eric Whitacre: 'Sing Gently' Singalong",
+    "durationSeconds": 3636
+  },
+  {
+    "videoId": "dU7k-hiiVjw",
+    "title": "VOCES8: Sicut Cervus by Giovanni Pierluigi da Palestrina",
+    "durationSeconds": 195
+  },
+  {
+    "videoId": "w03wtjjqTf8",
+    "title": "VOCES8: I Won't Dance by Jerome Kern (arr. Jim Clements)",
+    "durationSeconds": 169
+  },
+  {
+    "videoId": "g16zSj6Ynko",
+    "title": "VOCES8: Cantique de Jean Racine by Gabriel Fauré",
+    "durationSeconds": 321
+  },
+  {
+    "videoId": "4xZbnY5jQSk",
+    "title": "VOCES8: Requiem, Op. 48 by Gabriel Fauré",
+    "durationSeconds": 2104
+  },
+  {
+    "videoId": "cLtm0DqNPHM",
+    "title": "VOCES8: Miserere Mei, Deus by Gregorio Allegri",
+    "durationSeconds": 488
+  },
+  {
+    "videoId": "ZGD1uWyJ6lo",
+    "title": "VOCES8: Aftonen by Hugo Alfvén",
+    "durationSeconds": 241
+  },
+  {
+    "videoId": "TL7HkwnzENo",
+    "title": "VOCES8, Eric Whitacre, Christopher Glynn - Whitacre: The Seal Lullaby",
+    "durationSeconds": 277
+  },
+  {
+    "videoId": "xXBLMbao2BA",
+    "title": "VOCES8: Mass In B Minor, BWV 232: Credo: Et In Unum Dominum Jesum Christum",
+    "durationSeconds": 284
+  },
+  {
+    "videoId": "5l8VLFRFM1c",
+    "title": "VOCES8: Praise Our Lord by William Byrd",
+    "durationSeconds": 168
+  },
+  {
+    "videoId": "HWLWggZ2M8s",
+    "title": "Whitacre: The Sacred Veil: XII. Child of Wonder",
+    "durationSeconds": 284
+  },
+  {
+    "videoId": "n3fd4VLgs9A",
+    "title": "VOCES8 & the Stay At Home Choir: 'Caledonia' by Dougie MacLean, arr. Blake Morgan",
+    "durationSeconds": 490
+  },
+  {
+    "videoId": "tcXVsRvbEK0",
+    "title": "VOCES8: Liebe by Franz Schubert",
+    "durationSeconds": 163
+  },
+  {
+    "videoId": "7KLRwDUQGvg",
+    "title": "VOCES8: In the Stillness by Sally Beamish",
+    "durationSeconds": 143
+  },
+  {
+    "videoId": "WxjuRYD8N_o",
+    "title": "VOCES8: O Nata Lux by Thomas Tallis",
+    "durationSeconds": 128
+  },
+  {
+    "videoId": "gc33etDczqM",
+    "title": "VOCES8: Die Könige by Peter Cornelius",
+    "durationSeconds": 157
+  },
+  {
+    "videoId": "gQnuxaqbYx8",
+    "title": "VOCES8: Bethlehem Down by Peter Warlock",
+    "durationSeconds": 274
+  },
+  {
+    "videoId": "qSNBw_0gSU8",
+    "title": "VOCES8: The Wexford Carol arr. Timothy Noon",
+    "durationSeconds": 208
+  },
+  {
+    "videoId": "Ob0B5zlpR8A",
+    "title": "VOCES8: 'In Dulci Jubilo' arr. Robert Pearsall",
+    "durationSeconds": 200
+  },
+  {
+    "videoId": "7Tmy17Cb0iw",
+    "title": "VOCES8: Quelle est cette odeur agréable?",
+    "durationSeconds": 252
+  },
+  {
+    "videoId": "5MQSVXQkHKM",
+    "title": "VOCES8: 'Buccinate in Neomenia Tuba' by Giovanni Croce",
+    "durationSeconds": 168
+  },
+  {
+    "videoId": "-nvzoT6hf6U",
+    "title": "VOCES8: Come Fly With Me (to the Moon) arr. L'Estrange",
+    "durationSeconds": 209
+  },
+  {
+    "videoId": "ulEl9k9bZdc",
+    "title": "VOCES8: Selig sind die Toten by Heinrich Schütz",
+    "durationSeconds": 213
+  },
+  {
+    "videoId": "-uPDpbPblzw",
+    "title": "VOCES8: Corpus Christi Carol by Benjamin Britten arr. Harvey Brough",
+    "durationSeconds": 185
+  },
+  {
+    "videoId": "tZ-nuU-hda8",
+    "title": "VOCES8: O Magnum Mysterium by Morten Lauridsen",
+    "durationSeconds": 356
+  },
+  {
+    "videoId": "jx3FcSaNOQI",
+    "title": "VOCES8: Bogoroditse Devo by Sergei Rachmaninoff",
+    "durationSeconds": 216
+  },
+  {
+    "videoId": "BUkY1tPgq94",
+    "title": "VOCES8 & Ringmasters: Ave Maria (Angelus Domini) by Franz Biebl",
+    "durationSeconds": 443
+  },
+  {
+    "videoId": "ifNwczydLdM",
+    "title": "VOCES8 & Ringmasters: Det är en ros utsprungen (Michael Praetorius - arr. Jan Sandström)",
+    "durationSeconds": 232
+  },
+  {
+    "videoId": "wx1VWhpwNus",
+    "title": "VOCES8: Beatitudes by Jocelyn Hagen and Timothy C. Takach",
+    "durationSeconds": 271
+  },
+  {
+    "videoId": "OH0xMhMuwSE",
+    "title": "VOCES8: Te Lucis Ante Terminum (Ferial Tone) by Thomas Tallis",
+    "durationSeconds": 162
+  },
+  {
+    "videoId": "6SdE2PeJfXE",
+    "title": "VOCES8: Nachtlied by Max Reger",
+    "durationSeconds": 220
+  },
+  {
+    "videoId": "IpLYATcxJOc",
+    "title": "VOCES8: Libera Nos I & II by John Sheppard",
+    "durationSeconds": 310
+  },
+  {
+    "videoId": "oN4hVR3Ezx8",
+    "title": "VOCES8: The Masquerade is Over (arr. Blake Morgan)",
+    "durationSeconds": 263
+  },
+  {
+    "videoId": "jBHHfdPqisA",
+    "title": "VOCES8: Where I Sleep by Emeli Sandé",
+    "durationSeconds": 260
+  },
+  {
+    "videoId": "HgFqVj6EaVw",
+    "title": "VOCES8: Media Vita by Kerensa Briggs",
+    "durationSeconds": 215
+  },
+  {
+    "videoId": "eP_moPt0FIo",
+    "title": "VOCES8 & Voices of Singapore: Ashes to Dust by Darius Lim",
+    "durationSeconds": 266
+  },
+  {
+    "videoId": "Ha3GS6m8kE0",
+    "title": "VOCES8: Nunc Dimittis by Gustav Holst",
+    "durationSeconds": 203
+  },
+  {
+    "videoId": "D4YYQB9YW8g",
+    "title": "VOCES8: Good Night, Dear Heart by Dan Forrest",
+    "durationSeconds": 225
+  },
+  {
+    "videoId": "zPPTSL9dVwE",
+    "title": "VOCES8: Stardust by Taylor Scott Davis",
+    "durationSeconds": 339
+  },
+  {
+    "videoId": "XsQx8CUUooE",
+    "title": "VOCES8: Fljótavík by Sigur Rós",
+    "durationSeconds": 256
+  },
+  {
+    "videoId": "qBxgbA-CPxg",
+    "title": "VOCES8 Scholars: Surge, illuminare, Jerusalem by G. P. Palestrina",
+    "durationSeconds": 179
+  },
+  {
+    "videoId": "1A0dkJ77PBc",
+    "title": "VOCES8 & Chanticleer: Scarborough Fair (arr. Jared Graveley)",
+    "durationSeconds": 255
+  },
+  {
+    "videoId": "y-rZot9ovMI",
+    "title": "VOCES8: Zelda's Lullaby by Koji Kondo (arr. Jim Clements)",
+    "durationSeconds": 187
+  },
+  {
+    "videoId": "R2D4E3YkCsw",
+    "title": "VOCES8: Let My Love Be Heard by Jake Runestad",
+    "durationSeconds": 307
+  },
+  {
+    "videoId": "0LYnNEALm6o",
+    "title": "VOCES8: Agnus Dei by Samuel Barber",
+    "durationSeconds": 478
+  },
+  {
+    "videoId": "TkZlb9EsrTM",
+    "title": "VOCES8 announces Lyyra: Blue Skies by Irving Berlin",
+    "durationSeconds": 314
+  },
+  {
+    "videoId": "t0MiADobMxY",
+    "title": "VOCES8: Rejoice in the Lamb by Benjamin Britten (orchestrated by Imogen Holst)",
+    "durationSeconds": 1020
+  },
+  {
+    "videoId": "Yk08G_oWEMc",
+    "title": "VOCES8 Foundation Choir & Orchestra with Jack Liebeck: The Lark Ascending by Ralph Vaughan Williams",
+    "durationSeconds": 898
+  },
+  {
+    "videoId": "X8vDhuiF0N8",
+    "title": "VOCES8 Foundation Choir & Orchestra: Sleep by Eric Whitacre (orch. Jim Clements)",
+    "durationSeconds": 360
+  },
+  {
+    "videoId": "qbR5sytu__I",
+    "title": "VOCES8, VOCES8 US Scholars & Lyyra: Polaris by Blake Morgan",
+    "durationSeconds": 348
+  },
+  {
+    "videoId": "UPtA6X2c7Tw",
+    "title": "VOCES8 & Lyyra More Love by Taylor Scott Davis",
+    "durationSeconds": 209
+  },
+  {
     "videoId": "VZiRuGj-2oI",
-    "durationSeconds": 236,
-    "title": "VOCES8 Scholars: Tu Es Petrus - Giovanni Pierluigi da Palestrina"
+    "title": "VOCES8 Scholars: Tu Es Petrus - Giovanni Pierluigi da Palestrina",
+    "durationSeconds": 236
   },
   {
     "videoId": "6tosN3lHGEk",
-    "durationSeconds": 122,
-    "title": "Introducing our new Soprano: Virginia Grabovsky"
+    "title": "Introducing our new Soprano: Virginia Grabovsky",
+    "durationSeconds": 122
   },
   {
     "videoId": "qWaDnTQJ4qQ",
-    "durationSeconds": 341,
-    "title": "VOCES8: Only in Sleep by Ēriks Ešenvalds"
+    "title": "VOCES8: Only in Sleep by Ēriks Ešenvalds",
+    "durationSeconds": 341
   },
   {
     "videoId": "hcdU553PoSY",
-    "durationSeconds": 200,
-    "title": "VOCES8: Pilgrims' Hymn by Stephen Paulus"
+    "title": "VOCES8: Pilgrims' Hymn by Stephen Paulus",
+    "durationSeconds": 200
   },
   {
     "videoId": "y70AFDoqgrk",
-    "durationSeconds": 264,
-    "title": "VOCES8: Gloria from 'Missa Bell' Amfitrit' altera' by Orlando de Lassus"
+    "title": "VOCES8: Gloria from 'Missa Bell' Amfitrit' altera' by Orlando de Lassus",
+    "durationSeconds": 264
   },
   {
     "videoId": "EZaQ4jH9GuU",
-    "durationSeconds": 289,
-    "title": "VOCES8 & Ringmasters: Lux Aurumque by Eric Whitacre"
+    "title": "VOCES8 & Ringmasters: Lux Aurumque by Eric Whitacre",
+    "durationSeconds": 289
   },
   {
     "videoId": "M8wgX5DKhmc",
-    "durationSeconds": 61,
-    "title": "Gene Puerling: The Grandfather of Modern A Cappella"
+    "title": "Gene Puerling: The Grandfather of Modern A Cappella",
+    "durationSeconds": 61
   },
   {
     "videoId": "1lZUR4eALhE",
-    "durationSeconds": 61,
-    "title": "Introducing: Fool On The Hill"
+    "title": "Introducing: Fool On The Hill",
+    "durationSeconds": 61
   },
   {
     "videoId": "pqPTxFPwp5Q",
-    "durationSeconds": 216,
-    "title": "VOCES8: Quiet by Rob Redei"
+    "title": "VOCES8: Quiet by Rob Redei",
+    "durationSeconds": 216
   },
   {
     "videoId": "-GEetcBG_Pw",
-    "durationSeconds": 300,
-    "title": "VOCES8 & Ringmasters: The Fool on the Hill"
+    "title": "VOCES8 & Ringmasters: The Fool on the Hill",
+    "durationSeconds": 300
   },
   {
     "videoId": "0qLwSiZ_vaU",
-    "durationSeconds": 60,
-    "title": "A tender tribute from Bobby McFerrin"
+    "title": "A tender tribute from Bobby McFerrin",
+    "durationSeconds": 60
   },
   {
     "videoId": "Z3CAgaxwqFA",
-    "durationSeconds": 213,
-    "title": "VOCES8: The 23rd Psalm by Bobby McFerrin"
+    "title": "VOCES8: The 23rd Psalm by Bobby McFerrin",
+    "durationSeconds": 213
   },
   {
     "videoId": "PQJBMbNiUZ8",
-    "durationSeconds": 238,
-    "title": "VOCES8 & APOLLO5: Sanctus from 'Missa Papae Marcelli' by Giovanni Pierluigi da Palestrina"
+    "title": "VOCES8 & APOLLO5: Sanctus from 'Missa Papae Marcelli' by Giovanni Pierluigi da Palestrina",
+    "durationSeconds": 238
   },
   {
     "videoId": "WoK7Jil6ecA",
-    "durationSeconds": 423,
-    "title": "VOCES8 & Ringmasters: The Bells of Notre Dame & Out There"
+    "title": "VOCES8 & Ringmasters: The Bells of Notre Dame & Out There",
+    "durationSeconds": 423
   },
   {
     "videoId": "tV0Q7ItNkQM",
-    "durationSeconds": 285,
-    "title": "VOCES8 & Dan Forrest: Good Night Dear Heart by Dan Forrest"
+    "title": "VOCES8 & Dan Forrest: Good Night Dear Heart by Dan Forrest",
+    "durationSeconds": 285
   },
   {
     "videoId": "RSYOQ96YG_g",
-    "durationSeconds": 201,
-    "title": "VOCES8: April in Paris by Vernon Duke (arr. Jim Clements)"
+    "title": "VOCES8: April in Paris by Vernon Duke (arr. Jim Clements)",
+    "durationSeconds": 201
   },
   {
     "videoId": "y9ErINgmqds",
-    "durationSeconds": 252,
-    "title": "VOCES8: O Vos Omnes by Pablo Casals"
+    "title": "VOCES8: O Vos Omnes by Pablo Casals",
+    "durationSeconds": 252
   },
   {
     "videoId": "f2vjkxpRk80",
-    "durationSeconds": 305,
-    "title": "VOCES8: Idyll by Taylor Scott Davis"
+    "title": "VOCES8: Idyll by Taylor Scott Davis",
+    "durationSeconds": 305
   },
   {
     "videoId": "xojPexm3tIQ",
-    "durationSeconds": 237,
-    "title": "VOCES8 & Ingenium: Angelček varuh moj (arr. Blaž Strmole)"
+    "title": "VOCES8 & Ingenium: Angelček varuh moj (arr. Blaž Strmole)",
+    "durationSeconds": 237
   },
   {
     "videoId": "qedWHw9rxo4",
-    "durationSeconds": 60,
-    "title": "✨Music that sounds like light✨"
+    "title": "✨Music that sounds like light✨",
+    "durationSeconds": 60
   },
   {
     "videoId": "7JLRbOalScw",
-    "durationSeconds": 346,
-    "title": "VOCES8: Cantique de Jean Racine - Gabriel Fauré"
+    "title": "VOCES8: Cantique de Jean Racine - Gabriel Fauré",
+    "durationSeconds": 346
   },
   {
     "videoId": "33tD8BvHMpU",
-    "durationSeconds": 259,
-    "title": "VOCES8: O Nata Lux by Morten Lauridsen"
+    "title": "VOCES8: O Nata Lux by Morten Lauridsen",
+    "durationSeconds": 259
   },
   {
     "videoId": "9hP4TFWQBDU",
-    "durationSeconds": 353,
-    "title": "VOCES8: i carry your heart by Taylor Scott Davis"
+    "title": "VOCES8: i carry your heart by Taylor Scott Davis",
+    "durationSeconds": 353
   },
   {
     "videoId": "TPhp4UGee5U",
-    "durationSeconds": 278,
-    "title": "VOCES8 & Ingenium: Angel of God by Blaž Strmole"
+    "title": "VOCES8 & Ingenium: Angel of God by Blaž Strmole",
+    "durationSeconds": 278
   },
   {
     "videoId": "bhtNOA2t2Lc",
-    "durationSeconds": 235,
-    "title": "VOCES8: May You Walk Gently by Blake Morgan"
+    "title": "VOCES8: May You Walk Gently by Blake Morgan",
+    "durationSeconds": 235
   },
   {
     "videoId": "4QanQHqtbT4",
-    "durationSeconds": 60,
-    "title": "Silent Night: VOCES8 | Classic FM"
+    "title": "Silent Night: VOCES8 | Classic FM",
+    "durationSeconds": 60
   },
   {
     "videoId": "JrkEcfF5wM4",
-    "durationSeconds": 267,
-    "title": "VOCES8 | Classic FM: Silent Night"
+    "title": "VOCES8 | Classic FM: Silent Night",
+    "durationSeconds": 267
   },
   {
     "videoId": "78RHR_MQf18",
-    "durationSeconds": 191,
-    "title": "VOCES8 | Classic FM - Away in a Manger"
+    "title": "VOCES8 | Classic FM - Away in a Manger",
+    "durationSeconds": 191
   },
   {
     "videoId": "EAsLEYWtIkY",
-    "durationSeconds": 207,
-    "title": "VOCES8 & Classic FM - Gabriel's Message"
+    "title": "VOCES8 & Classic FM - Gabriel's Message",
+    "durationSeconds": 207
   },
   {
     "videoId": "HERuqBLAyEo",
-    "durationSeconds": 5855,
-    "title": "VOCES8 – over 90 minutes of timeless choral favourites"
+    "title": "VOCES8 – over 90 minutes of timeless choral favourites",
+    "durationSeconds": 5855
   },
   {
     "videoId": "jEQ7Q0YyQqE",
-    "durationSeconds": 150,
-    "title": "VOCES8: Sound the Trumpet by Henry Purcell"
+    "title": "VOCES8: Sound the Trumpet by Henry Purcell",
+    "durationSeconds": 150
   },
   {
     "videoId": "_tZ0r2A9ddA",
-    "durationSeconds": 260,
-    "title": "VOCES8: Effortlessly by Taylor Scott Davis"
+    "title": "VOCES8: Effortlessly by Taylor Scott Davis",
+    "durationSeconds": 260
   },
   {
     "videoId": "FgcZSiMLjlc",
-    "durationSeconds": 329,
-    "title": "VOCES8: Stopping by Woods on a Snowy Evening by Eric Whitacre"
+    "title": "VOCES8: Stopping by Woods on a Snowy Evening by Eric Whitacre",
+    "durationSeconds": 329
   },
   {
     "videoId": "nXW8H8FM7wU",
-    "durationSeconds": 337,
-    "title": "VOCES8 Scholars: Super flumina Babylonis by Philippe de Monte"
+    "title": "VOCES8 Scholars: Super flumina Babylonis by Philippe de Monte",
+    "durationSeconds": 337
   },
   {
     "videoId": "JdexxexY_J4",
-    "durationSeconds": 198,
-    "title": "VOCES8: O Salutaris Hostia by Ēriks Ešenvalds"
+    "title": "VOCES8: O Salutaris Hostia by Ēriks Ešenvalds",
+    "durationSeconds": 198
   },
   {
     "videoId": "sLkLhZXCmmo",
-    "durationSeconds": 577,
-    "title": "VOCES8: Stabat Mater by Giovanni Pierluigi da Palestrina"
+    "title": "VOCES8: Stabat Mater by Giovanni Pierluigi da Palestrina",
+    "durationSeconds": 577
   },
   {
     "videoId": "UPhb0OYVeGw",
-    "durationSeconds": 233,
-    "title": "VOCES8: The Cloths of Heaven by Rebecca Dale"
+    "title": "VOCES8: The Cloths of Heaven by Rebecca Dale",
+    "durationSeconds": 233
   },
   {
     "videoId": "X--30PoIohM",
-    "durationSeconds": 2993,
-    "title": "VOCES8: The Lost Birds by Christopher Tin"
+    "title": "VOCES8: The Lost Birds by Christopher Tin",
+    "durationSeconds": 2993
   },
   {
     "videoId": "Tag5UA35Oc8",
-    "durationSeconds": 480,
-    "title": "VOCES8 & Ringmasters: Loch Lomond - A Folk Fantasia by Blake Morgan"
+    "title": "VOCES8 & Ringmasters: Loch Lomond - A Folk Fantasia by Blake Morgan",
+    "durationSeconds": 480
   },
   {
     "videoId": "b1jVpGo3Upg",
-    "durationSeconds": 264,
-    "title": "VOCES8: Kyrie by Paul Smith"
+    "title": "VOCES8: Kyrie by Paul Smith",
+    "durationSeconds": 264
   },
   {
     "videoId": "fgxQcA9Ftt8",
-    "durationSeconds": 288,
-    "title": "VOCES8: Give Me Your Stars by Lucy Walker"
+    "title": "VOCES8: Give Me Your Stars by Lucy Walker",
+    "durationSeconds": 288
   },
   {
     "videoId": "aDfOnklRd7A",
-    "durationSeconds": 342,
-    "title": "VOCES8: Caledonia arr. Blake Morgan"
+    "title": "VOCES8: Caledonia arr. Blake Morgan",
+    "durationSeconds": 342
   },
   {
     "videoId": "yVnmBGVuPDo",
-    "durationSeconds": 226,
-    "title": "VOCES8: A Day May Come by Debbie Wiseman & Grahame Davies"
+    "title": "VOCES8: A Day May Come by Debbie Wiseman & Grahame Davies",
+    "durationSeconds": 226
   },
   {
     "videoId": "RorRJPhQfaM",
-    "durationSeconds": 264,
-    "title": "VOCES8: Danny Boy (arr. Joshua Pacey)"
+    "title": "VOCES8: Danny Boy (arr. Joshua Pacey)",
+    "durationSeconds": 264
   },
   {
     "videoId": "SIcag67fIks",
-    "durationSeconds": 374,
-    "title": "VOCES8: Windows, a Chimney, and I by Blake Morgan"
+    "title": "VOCES8: Windows, a Chimney, and I by Blake Morgan",
+    "durationSeconds": 374
   },
   {
     "videoId": "1TW4Pa3Uw0U",
-    "durationSeconds": 327,
-    "title": "VOCES8: Magnificat by Paul Smith"
+    "title": "VOCES8: Magnificat by Paul Smith",
+    "durationSeconds": 327
   },
   {
     "videoId": "NspOpsKs8vc",
-    "durationSeconds": 303,
-    "title": "VOCES8: Northern Lights by Ola Gjeilo"
+    "title": "VOCES8: Northern Lights by Ola Gjeilo",
+    "durationSeconds": 303
   },
   {
     "videoId": "y5IzSCw2cdk",
-    "durationSeconds": 262,
-    "title": "VOCES8 & Ringmasters: I'll Be There arr. Blake Morgan"
+    "title": "VOCES8 & Ringmasters: I'll Be There arr. Blake Morgan",
+    "durationSeconds": 262
   },
   {
     "videoId": "PxWjISRqhLs",
-    "durationSeconds": 238,
-    "title": "VOCES8: For Your Eyes Only & You Only Live Twice (arr. Jim Clements)"
+    "title": "VOCES8: For Your Eyes Only & You Only Live Twice (arr. Jim Clements)",
+    "durationSeconds": 238
   },
   {
     "videoId": "Hl_4W5sBSRk",
-    "durationSeconds": 266,
-    "title": "VOCES8: The Lamb by John Tavener"
+    "title": "VOCES8: The Lamb by John Tavener",
+    "durationSeconds": 266
   }
 ]

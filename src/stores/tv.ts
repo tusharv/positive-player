@@ -127,6 +127,12 @@ export const useTvStore = defineStore('tv', () => {
   let digitState = createDigitState()
 
   const currentChannel = computed(() => channelByNumber(channelNumber.value) ?? CHANNELS[0]!)
+  const currentProgramme = computed(
+    () =>
+      (catalogs.value[channelNumber.value] ?? []).find(
+        (item) => item.videoId === currentSlot.value?.videoId,
+      ) ?? null,
+  )
   const channelLabel = computed(() => formatChannelLabel(currentChannel.value))
   const apiKey = computed(() => import.meta.env.VITE_YOUTUBE_API_KEY ?? '')
 
@@ -427,6 +433,7 @@ export const useTvStore = defineStore('tv', () => {
     interruption,
     interruptionChannelNumber,
     currentSlot,
+    currentProgramme,
     playbackRevision,
     pendingDigits,
     loading,

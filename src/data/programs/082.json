@@ -1,252 +1,1932 @@
 [
   {
+    "videoId": "PGPVpil2UmE",
+    "title": "Bob Ross - Absolutely Autumn (Season 18 Episode 2)",
+    "durationSeconds": 1663
+  },
+  {
+    "videoId": "nU1zV93N-kI",
+    "title": "Bob Ross - Little Home in the Meadow (Season 24 Episode 4)",
+    "durationSeconds": 1613
+  },
+  {
+    "videoId": "5U3G61r35Mc",
+    "title": "Bob Ross - Hazy Day (Season 20 Episode 4)",
+    "durationSeconds": 1618
+  },
+  {
+    "videoId": "LE6agCR5iBw",
+    "title": "Bob Ross - Stormy Seas (Season 17 Episode 4)",
+    "durationSeconds": 1647
+  },
+  {
+    "videoId": "sBBBilrDuSw",
+    "title": "Bob Ross - Seascape Fantasy (Season 18 Episode 9)",
+    "durationSeconds": 1656
+  },
+  {
+    "videoId": "R7Y3izMFPbM",
+    "title": "Bob Ross - Crimson Oval (Season 18 Episode 4)",
+    "durationSeconds": 1671
+  },
+  {
+    "videoId": "lhpfaW0k6uM",
+    "title": "Bob Ross - Golden Mist Oval (Season 17 Episode 1)",
+    "durationSeconds": 1667
+  },
+  {
+    "videoId": "8f9CCnqJ_1Y",
+    "title": "Bob Ross - Reflections of Gold (Season 23 Episode 4)",
+    "durationSeconds": 1618
+  },
+  {
+    "videoId": "uJLK85uU5mA",
+    "title": "Bob Ross - Fisherman's Paradise (Season 25 Episode 11)",
+    "durationSeconds": 1625
+  },
+  {
+    "videoId": "JDa6JPcqy88",
+    "title": "Bob Ross - Country Creek (Season 22 Episode 12)",
+    "durationSeconds": 1644
+  },
+  {
+    "videoId": "GLkLO4KqTRs",
+    "title": "Bob Ross - Cabin at Trails End (Season 21 Episode 5)",
+    "durationSeconds": 1655
+  },
+  {
+    "videoId": "COsJUfPN2dA",
+    "title": "Bob Ross - Forest Down Oval (Season 15 Episode 10)",
+    "durationSeconds": 1640
+  },
+  {
+    "videoId": "nK-HebXL2uw",
+    "title": "Bob Ross - Spectacular Waterfall (Season 17 Episode 7)",
+    "durationSeconds": 1653
+  },
+  {
+    "videoId": "HWrvW-NgaOY",
+    "title": "Bob Ross - Autumn Palette (Season 25 Episode 7)",
+    "durationSeconds": 1619
+  },
+  {
+    "videoId": "2iNMoQB1Pe8",
+    "title": "Bob Ross - Back-Country Path (Season 24 Episode 7)",
+    "durationSeconds": 1617
+  },
+  {
+    "videoId": "6afHY2d9Lv8",
+    "title": "Bob Ross - Autumn Exhibition (Season 18 Episode 5)",
+    "durationSeconds": 1648
+  },
+  {
+    "videoId": "JjBZzKp_u5E",
+    "title": "Bob Ross - Winter Elegance (Season 19 Episode 11)",
+    "durationSeconds": 1658
+  },
+  {
+    "videoId": "uZyZW3tkCE0",
+    "title": "Bob Ross - Wintertime Discovery (Season 16 Episode 3)",
+    "durationSeconds": 1681
+  },
+  {
+    "videoId": "HklPkQ0lSKA",
+    "title": "Bob Ross - Enchanted Falls Oval (Season 25 Episode 2)",
+    "durationSeconds": 1618
+  },
+  {
+    "videoId": "crqmO3qDdco",
+    "title": "Bob Ross - Serenity (Season 21 Episode 4)",
+    "durationSeconds": 1619
+  },
+  {
+    "videoId": "cFi_fJl40BA",
+    "title": "Bob Ross - Toward Days End (Season 23 Episode 9)",
+    "durationSeconds": 1654
+  },
+  {
+    "videoId": "YcbaMqq_X8s",
+    "title": "Bob Ross - Splashes of Autumn (Season 25 Episode 4)",
+    "durationSeconds": 1631
+  },
+  {
+    "videoId": "ppzFgG2K2k4",
+    "title": "Bob Ross - Double Take (Season 20 Episode 13)",
+    "durationSeconds": 1604
+  },
+  {
+    "videoId": "4jAsLpJzjHM",
+    "title": "Bob Ross - Double Oval Fantasy (Season 16 Episode 5)",
+    "durationSeconds": 1689
+  },
+  {
+    "videoId": "WJF_qoQRPck",
+    "title": "Bob Ross - Winter Lace (Season 18 Episode 8)",
+    "durationSeconds": 1630
+  },
+  {
+    "videoId": "ivesI3rU7dU",
+    "title": "Bob Ross - The Property Line (Season 25 Episode 13)",
+    "durationSeconds": 1615
+  },
+  {
+    "videoId": "Hg5RKc6xiL4",
+    "title": "Bob Ross - Pathway to Autumn (Season 15 Episode 11)",
+    "durationSeconds": 1638
+  },
+  {
+    "videoId": "e_bt9rQoGN0",
+    "title": "Bob Ross - Country Time (Season 17 Episode 5)",
+    "durationSeconds": 1672
+  },
+  {
+    "videoId": "hdNH5axK4u0",
+    "title": "Bob Ross - Countryside Oval (Season 22 Episode 4)",
+    "durationSeconds": 1657
+  },
+  {
+    "videoId": "d83REwSGfGo",
+    "title": "Bob Ross - Riverside Escape Oval (Season 14 Episode 9)",
+    "durationSeconds": 1648
+  },
+  {
+    "videoId": "flCWS9LB4Ks",
+    "title": "Bob Ross - Rivers Peace (Season 23 Episode 6)",
+    "durationSeconds": 1630
+  },
+  {
+    "videoId": "SLQXlFLoqQc",
+    "title": "Bob Ross - Early Autumn (Season 26 Episode 8)",
+    "durationSeconds": 1493
+  },
+  {
+    "videoId": "Qccgam514ds",
+    "title": "Bob Ross - Haven in the Valley (Season 22 Episode 9)",
+    "durationSeconds": 1655
+  },
+  {
+    "videoId": "yInYwy6AsDQ",
+    "title": "Bob Ross - Winter Bliss (Season 23 Episode 13)",
+    "durationSeconds": 1608
+  },
+  {
+    "videoId": "dbMJVM4iL2Q",
+    "title": "Bob Ross - Wintertime Blues (Season 22 Episode 10)",
+    "durationSeconds": 1607
+  },
+  {
+    "videoId": "-XA2h17y3HU",
+    "title": "Bob Ross - Wooded Stream Oval (Season 16 Episode 13)",
+    "durationSeconds": 1648
+  },
+  {
+    "videoId": "Rh-jKrMrmOA",
+    "title": "Bob Ross - Just Before the Storm (Season 25 Episode 10)",
+    "durationSeconds": 1633
+  },
+  {
+    "videoId": "HFdTxqEznIk",
+    "title": "Bob Ross - At Dawn's Light (Season 23 Episode 7)",
+    "durationSeconds": 1627
+  },
+  {
+    "videoId": "lilbzLCNnDo",
+    "title": "Bob Ross - Majestic Peaks (Season 18 Episode 6)",
+    "durationSeconds": 1630
+  },
+  {
+    "videoId": "_TTdw3YnXuo",
+    "title": "Bob Ross - A Warm Winter (Season 28 Episode 2)",
+    "durationSeconds": 1497
+  },
+  {
+    "videoId": "chhCkmp0RG8",
+    "title": "Bob Ross - Trapper's Cabin (Season 29 Episode 8)",
+    "durationSeconds": 1486
+  },
+  {
+    "videoId": "wIZX57I4aDs",
+    "title": "Bob Ross - Quiet Woods (Season 4 Episode 10)",
+    "durationSeconds": 1583
+  },
+  {
+    "videoId": "1ZriQGhSFTM",
+    "title": "Bob Ross - Snowy Solitude (Season 14 Episode 4)",
+    "durationSeconds": 1642
+  },
+  {
+    "videoId": "8tHHBTK6wwc",
+    "title": "Bob Ross - By the Sea (Season 21 Episode 8)",
+    "durationSeconds": 1640
+  },
+  {
+    "videoId": "Kl5X3icOVvw",
+    "title": "Bob Ross - Around the Bend (Season 22 Episode 3)",
+    "durationSeconds": 1642
+  },
+  {
+    "videoId": "qg9c1SqdRko",
+    "title": "Bob Ross - Winter Stillness (Season 5 Episode 4)",
+    "durationSeconds": 1650
+  },
+  {
+    "videoId": "G7Etn7QMeO4",
+    "title": "Bob Ross - Countryside Barn (Season 29 Episode 5)",
+    "durationSeconds": 1536
+  },
+  {
+    "videoId": "JGzTg8fCj4w",
+    "title": "Bob Ross - Hidden Stream (Season 11 Episode 4)",
+    "durationSeconds": 1654
+  },
+  {
+    "videoId": "4abDq6Q-mlM",
+    "title": "Bob Ross - Tranquil Dawn (Season 21 Episode 2)",
+    "durationSeconds": 1634
+  },
+  {
+    "videoId": "uCAtI2IwEwk",
+    "title": "Bob Ross - Nature's Splendor (Season 17 Episode 12)",
+    "durationSeconds": 1656
+  },
+  {
+    "videoId": "n8HlFCQACYA",
+    "title": "Bob Ross - Old Country Mill (Season 17 Episode 10)",
+    "durationSeconds": 1644
+  },
+  {
+    "videoId": "JMPwj3u4ZTA",
+    "title": "Bob Ross - A Trace of Spring (Season 26 Episode 5)",
+    "durationSeconds": 1543
+  },
+  {
+    "videoId": "crWDcTvDmec",
+    "title": "Bob Ross - Daybreak (Season 27 Episode 8)",
+    "durationSeconds": 1492
+  },
+  {
+    "videoId": "gxd0MPX8c6I",
+    "title": "Bob Ross - Wilderness Falls (Season 27 Episode 4)",
+    "durationSeconds": 1518
+  },
+  {
+    "videoId": "VAdMkf-AAPM",
+    "title": "Bob Ross - Autumn Days (Season 4 Episode 12)",
+    "durationSeconds": 1590
+  },
+  {
+    "videoId": "DY1aBv8Z1SQ",
+    "title": "Bob Ross - Winter Paradise (Season 20 Episode 9)",
+    "durationSeconds": 1662
+  },
+  {
+    "videoId": "fcx1yUuSf3o",
+    "title": "Bob Ross - Woodgrain View (Season 30 Episode 2)",
+    "durationSeconds": 1501
+  },
+  {
+    "videoId": "uj5FE70BcB0",
+    "title": "Bob Ross - Waterside Way (Season 8 Episode 4)",
+    "durationSeconds": 1654
+  },
+  {
+    "videoId": "HqBhCibidNM",
+    "title": "Bob Ross - Oval Barn (Season 11 Episode 6)",
+    "durationSeconds": 1641
+  },
+  {
+    "videoId": "FnY7jDY5PsE",
+    "title": "Bob Ross - Valley of Tranquility (Season 19 Episode 13)",
+    "durationSeconds": 1643
+  },
+  {
+    "videoId": "lTb8DN6G6dE",
+    "title": "Bob Ross - Peaks of Majesty (Season 15 Episode 13)",
+    "durationSeconds": 1646
+  },
+  {
+    "videoId": "BQWJ3kqonpA",
+    "title": "Bob Ross - Shadow Pond (Season 14 Episode 11)",
+    "durationSeconds": 1621
+  },
+  {
+    "videoId": "vbPdQ0w8ylg",
+    "title": "Bob Ross - New Day's Dawn (Season 20 Episode 2)",
+    "durationSeconds": 1630
+  },
+  {
+    "videoId": "Cg3XAVhAas0",
+    "title": "Bob Ross - Island Paradise (Season 27 Episode 9)",
+    "durationSeconds": 1532
+  },
+  {
+    "videoId": "txAtX-VyVNc",
+    "title": "Bob Ross - Falls in the Glen (Season 23 Episode 10)",
+    "durationSeconds": 1635
+  },
+  {
+    "videoId": "Q4n90jsOUtY",
+    "title": "Bob Ross - View from the Park (Season 17 Episode 8)",
+    "durationSeconds": 1639
+  },
+  {
+    "videoId": "kN1DP_yqs-A",
+    "title": "Bob Ross - Tranquil Seas (Season 28 Episode 11)",
+    "durationSeconds": 1491
+  },
+  {
+    "videoId": "GWehiacnd1E",
+    "title": "Bob Ross - Wilderness Cabin (Season 21 Episode 7)",
+    "durationSeconds": 1629
+  },
+  {
+    "videoId": "p6Uy2qOLvGk",
+    "title": "Bob Ross - Cliffside (Season 20 Episode 6)",
+    "durationSeconds": 1619
+  },
+  {
+    "videoId": "XvnJBynSiT0",
+    "title": "Bob Ross - Rippling Waters (Season 18 Episode 13)",
+    "durationSeconds": 1669
+  },
+  {
+    "videoId": "HuHC1RqtvDA",
+    "title": "Bob Ross - Daisy Delight (Season 11 Episode 3)",
+    "durationSeconds": 1640
+  },
+  {
+    "videoId": "EHD9u-lo2wc",
+    "title": "Bob Ross - Storm's A Comin (Season 26 Episode 11)",
+    "durationSeconds": 1500
+  },
+  {
+    "videoId": "q7WXF_BSEXw",
+    "title": "Bob Ross - Oval Essence (Season 13 Episode 12)",
+    "durationSeconds": 1634
+  },
+  {
+    "videoId": "YQPEy3hYGo8",
+    "title": "Bob Ross - Evergreens at Sunset (Season 7 Episode 3)",
+    "durationSeconds": 1653
+  },
+  {
+    "videoId": "CP6_5cQVZvQ",
+    "title": "Bob Ross - Lakeside Cabin (Season 8 Episode 2)",
+    "durationSeconds": 1647
+  },
+  {
+    "videoId": "NJbzIftLLmU",
+    "title": "Bob Ross - Lone Mountain (Season 21 Episode 12)",
+    "durationSeconds": 1648
+  },
+  {
+    "videoId": "2XnIdinwot0",
+    "title": "Bob Ross - Autumn Oval (Season 29 Episode 2)",
+    "durationSeconds": 1481
+  },
+  {
+    "videoId": "JLnIUGOupOA",
+    "title": "Bob Ross - Portrait of Winter (Season 24 Episode 11)",
+    "durationSeconds": 1638
+  },
+  {
+    "videoId": "aE4nID1p-t0",
+    "title": "Bob Ross - Russet Winter (Season 22 Episode 5)",
+    "durationSeconds": 1654
+  },
+  {
+    "videoId": "rCHXqj4DHlM",
+    "title": "Bob Ross - Golden Morning Mist (Season 18 Episode 7)",
+    "durationSeconds": 1630
+  },
+  {
+    "videoId": "pSvgNkQdR2Y",
+    "title": "Bob Ross - Morning Walk (Season 17 Episode 11)",
+    "durationSeconds": 1645
+  },
+  {
+    "videoId": "nkDA_R-XmqA",
+    "title": "Bob Ross - Purple Mountain Range (Season 26 Episode 10)",
+    "durationSeconds": 1510
+  },
+  {
+    "videoId": "uY3fIry2tOE",
+    "title": "Bob Ross - Half-Oval Vignette (Season 18 Episode 1)",
+    "durationSeconds": 1674
+  },
+  {
+    "videoId": "bgI3_1quJ18",
+    "title": "Bob Ross - Mountain Exhibition (Season 13 Episode 8)",
+    "durationSeconds": 1630
+  },
+  {
+    "videoId": "_xkn0ceDreo",
+    "title": "Bob Ross - Winter Barn (Season 11 Episode 9)",
+    "durationSeconds": 1639
+  },
+  {
+    "videoId": "ddU9vQvSpw8",
+    "title": "Bob Ross - Misty Forest Oval (Season 14 Episode 12)",
+    "durationSeconds": 1639
+  },
+  {
+    "videoId": "uZWNvDFfbUk",
+    "title": "Bob Ross - Deep Wilderness Home (Season 22 Episode 8)",
+    "durationSeconds": 1626
+  },
+  {
+    "videoId": "l_HqMYquc08",
+    "title": "Bob Ross - Hide A Way Cove (Season 25 Episode 1)",
+    "durationSeconds": 1654
+  },
+  {
+    "videoId": "F4iPbH1OHsQ",
+    "title": "Bob Ross - Covered Bridge Oval (Season 19 Episode 7)",
+    "durationSeconds": 1653
+  },
+  {
+    "videoId": "P_aCan4cBwc",
+    "title": "Bob Ross - Black Seascape (Season 12 Episode 5)",
+    "durationSeconds": 1671
+  },
+  {
+    "videoId": "ZY0ofhdV_L0",
+    "title": "Bob Ross - Fall Stream (Season 15 Episode 8)",
+    "durationSeconds": 1650
+  },
+  {
+    "videoId": "aiK9xOIJtV8",
+    "title": "Bob Ross - Quiet Pond (Season 5 Episode 5)",
+    "durationSeconds": 1619
+  },
+  {
+    "videoId": "m6UM-rN2D6s",
+    "title": "Bob Ross - Horizons West (Season 6 Episode 8)",
+    "durationSeconds": 1602
+  },
+  {
+    "videoId": "fz0YjqtHW84",
+    "title": "Bob Ross - Blue Ridge Falls (Season 30 Episode 13)",
+    "durationSeconds": 1483
+  },
+  {
+    "videoId": "ODrV0dfQcNs",
+    "title": "Bob Ross - Woodman's Retreat (Season 29 Episode 13)",
+    "durationSeconds": 1483
+  },
+  {
+    "videoId": "67vdGbA3Xkg",
+    "title": "Bob Ross - Towering Glacier (Season 11 Episode 5)",
+    "durationSeconds": 1622
+  },
+  {
+    "videoId": "2bjFmSQjQrw",
+    "title": "Bob Ross - Deep Forest Lake (Season 15 Episode 12)",
+    "durationSeconds": 1626
+  },
+  {
+    "videoId": "y5k4GXw_-yI",
+    "title": "Bob Ross - Evening Seascape (Season 4 Episode 5)",
+    "durationSeconds": 1643
+  },
+  {
+    "videoId": "FdIUHudQABI",
+    "title": "Bob Ross - Cypress Swamp (Season 25 Episode 8)",
+    "durationSeconds": 1671
+  },
+  {
+    "videoId": "CY6sGFs209E",
+    "title": "Bob Ross - Seaside Harmony (Season 30 Episode 10)",
+    "durationSeconds": 1489
+  },
+  {
+    "videoId": "urHQRbRNuYI",
+    "title": "Bob Ross - Deep Forest Falls (Season 28 Episode 8)",
+    "durationSeconds": 1495
+  },
+  {
+    "videoId": "ZHUdS0wEaKk",
+    "title": "Bob Ross - Babbling Brook (Season 30 Episode 1)",
+    "durationSeconds": 1521
+  },
+  {
+    "videoId": "wDnLlywAL5I",
+    "title": "Bob Ross - Mountain Lake (Season 1 Episode 10)",
+    "durationSeconds": 1703
+  },
+  {
+    "videoId": "dafH8ks9Zww",
+    "title": "Bob Ross - High Chateau (Season 6 Episode 9)",
+    "durationSeconds": 1589
+  },
+  {
+    "videoId": "Ov5oIHTAa10",
+    "title": "Bob Ross - Meadow Brook Surprise (Season 14 Episode 2)",
+    "durationSeconds": 1624
+  },
+  {
+    "videoId": "Dkww2nHpuZw",
+    "title": "Bob Ross - Country Cabin (Season 11 Episode 2)",
+    "durationSeconds": 1648
+  },
+  {
+    "videoId": "Q03YvknOVe0",
+    "title": "Bob Ross - Winter Glow (Season 1 Episode 11)",
+    "durationSeconds": 1688
+  },
+  {
+    "videoId": "QbgPu5f2Vf8",
+    "title": "Bob Ross - Change of Seasons (Season 20 Episode 11)",
+    "durationSeconds": 1634
+  },
+  {
+    "videoId": "d50HkqB9JEM",
+    "title": "Bob Ross - Scenic Seclusion (Season 19 Episode 8)",
+    "durationSeconds": 1654
+  },
+  {
+    "videoId": "9wp8NRzCJnw",
+    "title": "Bob Ross - Country Charm (Season 9 Episode 10)",
+    "durationSeconds": 1652
+  },
+  {
+    "videoId": "6O4sfJd8G_M",
+    "title": "Bob Ross - Black River (Season 2 Episode 6)",
+    "durationSeconds": 1587
+  },
+  {
+    "videoId": "1yjGoJokbZg",
+    "title": "Bob Ross - Lakeside Path (Season 11 Episode 7)",
+    "durationSeconds": 1657
+  },
+  {
+    "videoId": "HQC5sPN9Xhc",
+    "title": "Bob Ross - Florida's Glory (Season 21 Episode 13)",
+    "durationSeconds": 1620
+  },
+  {
+    "videoId": "N_u6x7LeyTM",
+    "title": "Bob Ross - Not Quite Spring (Season 25 Episode 3)",
+    "durationSeconds": 1613
+  },
+  {
+    "videoId": "pYWiLm_-sXw",
+    "title": "Bob Ross - Winter Oval (Season 9 Episode 5)",
+    "durationSeconds": 1670
+  },
+  {
+    "videoId": "06W8GsWj2Yg",
+    "title": "Bob Ross - Meadow Brook (Season 13 Episode 3)",
+    "durationSeconds": 1646
+  },
+  {
+    "videoId": "oJvk7gPDHiE",
+    "title": "Bob Ross - Splendor of Winter (Season 15 Episode 1)",
+    "durationSeconds": 1668
+  },
+  {
+    "videoId": "7yU55PUls2c",
+    "title": "Bob Ross - Nature's Paradise (Season 9 Episode 11)",
+    "durationSeconds": 1641
+  },
+  {
+    "videoId": "mFOna_LN7Ys",
+    "title": "Bob Ross - Ebb Tide (Season 19 Episode 9)",
+    "durationSeconds": 1663
+  },
+  {
+    "videoId": "ZyPNzDaaDt8",
+    "title": "Bob Ross - Hidden Delight (Season 20 Episode 12)",
+    "durationSeconds": 1634
+  },
+  {
+    "videoId": "EVfPPJ5FUmA",
+    "title": "Bob Ross - Southwest Serenity (Season 18 Episode 12)",
+    "durationSeconds": 1663
+  },
+  {
+    "videoId": "P_DaqkFbnac",
+    "title": "Bob Ross - Hidden Lake (Season 3 Episode 12)",
+    "durationSeconds": 1613
+  },
+  {
+    "videoId": "2uXMx8Kjs8I",
+    "title": "Bob Ross - Indian Girl (Season 5 Episode 12)",
+    "durationSeconds": 1653
+  },
+  {
+    "videoId": "dN4HjAn8p5U",
+    "title": "Bob Ross - The Old Oak Tree (Season 20 Episode 8)",
+    "durationSeconds": 1620
+  },
+  {
+    "videoId": "ikR7UT9mVBw",
+    "title": "Bob Ross - Enchanted Forest (Season 18 Episode 11)",
+    "durationSeconds": 1650
+  },
+  {
+    "videoId": "i29frkR1T98",
+    "title": "Bob Ross - Mirrored Images (Season 24 Episode 6)",
+    "durationSeconds": 1633
+  },
+  {
+    "videoId": "dJfnAyDLwPY",
+    "title": "Bob Ross - Mountain View (Season 13 Episode 5)",
+    "durationSeconds": 1658
+  },
+  {
+    "videoId": "kbnXZRNMouM",
+    "title": "Bob Ross - Winter in Pastel (Season 20 Episode 3)",
+    "durationSeconds": 1627
+  },
+  {
+    "videoId": "NqfRLiv0SZ0",
+    "title": "Bob Ross - Soothing Vista (Season 17 Episode 3)",
+    "durationSeconds": 1657
+  },
+  {
+    "videoId": "mxJ2On9wyvY",
+    "title": "Bob Ross - Winter's Grace (Season 28 Episode 9)",
+    "durationSeconds": 1520
+  },
+  {
+    "videoId": "knOutsaiKfU",
+    "title": "Bob Ross - Natural Wonder (Season 14 Episode 13)",
+    "durationSeconds": 1656
+  },
+  {
+    "videoId": "gOGJYHWjXgE",
+    "title": "Bob Ross - Soft Mountain Glow (Season 12 Episode 11)",
+    "durationSeconds": 1646
+  },
+  {
+    "videoId": "H4VsmKU5T7g",
+    "title": "Bob Ross - Mountain Rhapsody (Season 21 Episode 6)",
+    "durationSeconds": 1642
+  },
+  {
+    "videoId": "Tnb2cXKKuWM",
+    "title": "Bob Ross - Cypress Creek (Season 29 Episode 7)",
+    "durationSeconds": 1489
+  },
+  {
+    "videoId": "9xG6IzcGotI",
+    "title": "Bob Ross - Sunset Oval (Season 11 Episode 8)",
+    "durationSeconds": 1652
+  },
+  {
+    "videoId": "vGsW_6BCukU",
+    "title": "Bob Ross - Wilderness Trail (Season 30 Episode 4)",
+    "durationSeconds": 1494
+  },
+  {
+    "videoId": "n9EsFFtwZnE",
+    "title": "Bob Ross - Snow Trail (Season 6 Episode 6)",
+    "durationSeconds": 1583
+  },
+  {
+    "videoId": "lSeRrm5ZK9c",
+    "title": "Bob Ross - Tranquil Wooded Stream (Season 26 Episode 9)",
+    "durationSeconds": 1535
+  },
+  {
+    "videoId": "VPfYRj4DDco",
+    "title": "Bob Ross - Winter Sun (Season 2 Episode 2)",
+    "durationSeconds": 1576
+  },
+  {
+    "videoId": "XlwfcXZ0AIU",
+    "title": "Bob Ross - Angler's Haven (Season 27 Episode 2)",
+    "durationSeconds": 1501
+  },
+  {
+    "videoId": "SrN4A9rVXj0",
+    "title": "Bob Ross - Through the Window (Season 30 Episode 7)",
+    "durationSeconds": 1484
+  },
+  {
+    "videoId": "x5CoQj9zr-c",
+    "title": "Bob Ross - Majestic Pine (Season 8 Episode 9)",
+    "durationSeconds": 1683
+  },
+  {
+    "videoId": "ZoJ2tcXWb7g",
+    "title": "Bob Ross - Purple Haze (Season 22 Episode 6)",
+    "durationSeconds": 1626
+  },
+  {
+    "videoId": "2zv_S_uVoVQ",
+    "title": "Bob Ross - Pot O' Posies (Season 29 Episode 10)",
+    "durationSeconds": 1479
+  },
+  {
+    "videoId": "QxcS7p1VHyQ",
+    "title": "Bob Ross - Seascape (Season 1 Episode 9)",
+    "durationSeconds": 1712
+  },
+  {
+    "videoId": "Xzv3iiWi1Wo",
+    "title": "Bob Ross - Winter's Peace (Season 30 Episode 3)",
+    "durationSeconds": 1502
+  },
+  {
+    "videoId": "kdlHV6ceI_g",
+    "title": "Bob Ross - Winter Cabin (Season 7 Episode 1)",
+    "durationSeconds": 1680
+  },
+  {
+    "videoId": "j20pZ96E_CE",
+    "title": "Bob Ross - Peaceful Haven (Season 13 Episode 7)",
+    "durationSeconds": 1627
+  },
+  {
+    "videoId": "vJpKhiXvXdA",
+    "title": "Bob Ross - Roadside Barn (Season 11 Episode 12)",
+    "durationSeconds": 1632
+  },
+  {
+    "videoId": "1enWTsRi16o",
+    "title": "Bob Ross - Snowfall Magic (Season 19 Episode 1)",
+    "durationSeconds": 1660
+  },
+  {
+    "videoId": "KvJmSrErm20",
+    "title": "Bob Ross - Lake in the Valley (Season 26 Episode 4)",
+    "durationSeconds": 1514
+  },
+  {
+    "videoId": "EVQcDEiJh2o",
+    "title": "Bob Ross - The Old Home Place (Season 17 Episode 2)",
+    "durationSeconds": 1647
+  },
+  {
+    "videoId": "46vI20697HI",
+    "title": "Bob Ross - Winter Mountain (Season 12 Episode 13)",
+    "durationSeconds": 1654
+  },
+  {
+    "videoId": "jq8bIbpW7DQ",
+    "title": "Bob Ross - A Cold Spring Day (Season 30 Episode 11)",
+    "durationSeconds": 1493
+  },
+  {
+    "videoId": "Me9Ietooq4w",
+    "title": "Bob Ross - Colors of Nature (Season 15 Episode 2)",
+    "durationSeconds": 1638
+  },
+  {
+    "videoId": "HOdS-G8p1KE",
+    "title": "Bob Ross - Light at the Summit (Season 29 Episode 4)",
+    "durationSeconds": 1496
+  },
+  {
+    "videoId": "K4aud_SpFDQ",
+    "title": "Bob Ross - Pastel Seascape (Season 22 Episode 11)",
+    "durationSeconds": 1634
+  },
+  {
+    "videoId": "4E35-8x_y04",
+    "title": "Bob Ross - Snow Fall (Season 1 Episode 12)",
+    "durationSeconds": 1700
+  },
+  {
+    "videoId": "aOJsKNzO3i8",
+    "title": "Bob Ross - Ebony Sea (Season 2 Episode 3)",
+    "durationSeconds": 1578
+  },
+  {
+    "videoId": "liR0gS0sZY0",
+    "title": "Bob Ross - Blue Winter (Season 21 Episode 10)",
+    "durationSeconds": 1628
+  },
+  {
+    "videoId": "2FpVyGanPwM",
+    "title": "Bob Ross - Wetlands (Season 4 Episode 8)",
+    "durationSeconds": 1614
+  },
+  {
+    "videoId": "c4b_B2F1eZg",
+    "title": "Bob Ross - Sunset over the Waves (Season 11 Episode 10)",
+    "durationSeconds": 1639
+  },
+  {
+    "videoId": "KsDPg5HZYNw",
+    "title": "Bob Ross - Downstream View (Season 25 Episode 9)",
+    "durationSeconds": 1654
+  },
+  {
+    "videoId": "BbYO579MmhA",
+    "title": "Bob Ross - A Mild Winter's Day (Season 17 Episode 6)",
+    "durationSeconds": 1657
+  },
+  {
+    "videoId": "XWQrP-WiLgc",
+    "title": "Bob Ross - Trail's End (Season 31 Episode 8)",
+    "durationSeconds": 1496
+  },
+  {
+    "videoId": "pA_2paUhBAQ",
+    "title": "Bob Ross - Storm on the Horizon (Season 29 Episode 9)",
+    "durationSeconds": 1535
+  },
+  {
+    "videoId": "GBN9AIw3Ao4",
+    "title": "Bob Ross - Warm Summer Day (Season 4 Episode 6)",
+    "durationSeconds": 1608
+  },
+  {
+    "videoId": "u0Bz6TNUK1Q",
+    "title": "Bob Ross - Ocean Sunrise (Season 5 Episode 6)",
+    "durationSeconds": 1612
+  },
+  {
+    "videoId": "rTTWw5Gd79I",
+    "title": "Bob Ross - Autumn Splendor (Season 2 Episode 5)",
+    "durationSeconds": 1619
+  },
+  {
+    "videoId": "Io4fwhacpEs",
+    "title": "Bob Ross - A Perfect Winter Day (Season 29 Episode 11)",
+    "durationSeconds": 1487
+  },
+  {
+    "videoId": "xdFCj6BzQio",
+    "title": "Bob Ross - Mountain Stream (Season 11 Episode 1)",
+    "durationSeconds": 1694
+  },
+  {
+    "videoId": "LeIVNKnWz7o",
+    "title": "Bob Ross - Winter at the Farm (Season 27 Episode 5)",
+    "durationSeconds": 1528
+  },
+  {
+    "videoId": "3q8Zi9480lw",
+    "title": "Bob Ross - Rustic Winter Woods (Season 27 Episode 3)",
+    "durationSeconds": 1492
+  },
+  {
+    "videoId": "CnMLKAGi0yM",
+    "title": "Bob Ross - Mountain River (Season 14 Episode 5)",
+    "durationSeconds": 1647
+  },
+  {
+    "videoId": "jwVz0uTLH1I",
+    "title": "Bob Ross - Two Seasons (Season 16 Episode 1)",
+    "durationSeconds": 1678
+  },
+  {
+    "videoId": "CigXQtT6BPM",
+    "title": "Bob Ross - Mountain Moonlight Oval (Season 14 Episode 3)",
+    "durationSeconds": 1647
+  },
+  {
+    "videoId": "UUNNXGVNTuI",
+    "title": "Bob Ross - Desert Hues (Season 25 Episode 12)",
+    "durationSeconds": 1618
+  },
+  {
+    "videoId": "l_jN9KN257M",
+    "title": "Bob Ross - Nestled Cabin (Season 16 Episode 2)",
+    "durationSeconds": 1656
+  },
+  {
+    "videoId": "lmKAwKrONmE",
+    "title": "Bob Ross - Winter Sawscape (Season 4 Episode 4)",
+    "durationSeconds": 1597
+  },
+  {
+    "videoId": "wKeemvioVrM",
+    "title": "Bob Ross - Snow Birch (Season 26 Episode 7)",
+    "durationSeconds": 1506
+  },
+  {
+    "videoId": "yxAMOdl6RJE",
+    "title": "Bob Ross - Hidden Winter Moon Oval (Season 15 Episode 5)",
+    "durationSeconds": 1662
+  },
+  {
+    "videoId": "8Zge88tVwjE",
+    "title": "Bob Ross - Distant Hills (Season 3 Episode 5)",
+    "durationSeconds": 1642
+  },
+  {
+    "videoId": "bSm3fmEyJ20",
+    "title": "Bob Ross - The Magic of Fall (Season 28 Episode 5)",
+    "durationSeconds": 1507
+  },
+  {
+    "videoId": "q48EWPrbzVs",
+    "title": "Bob Ross - Mountain Hideaway (Season 9 Episode 13)",
+    "durationSeconds": 1640
+  },
+  {
+    "videoId": "ov4YaCQB9co",
+    "title": "Bob Ross - Winter Solitude (Season 10 Episode 7)",
+    "durationSeconds": 1646
+  },
+  {
+    "videoId": "yTzlm_t0RmY",
+    "title": "Bob Ross - Autumn Glory (Season 5 Episode 11)",
+    "durationSeconds": 1635
+  },
+  {
+    "videoId": "NYUIIBFj0iQ",
+    "title": "Bob Ross - The Old Weathered Barn (Season 28 Episode 7)",
+    "durationSeconds": 1467
+  },
+  {
+    "videoId": "puGk2iFvvp0",
+    "title": "Bob Ross - Forest Edge (Season 23 Episode 2)",
+    "durationSeconds": 1617
+  },
+  {
+    "videoId": "wbZreRaE74k",
+    "title": "Bob Ross - Morning Mist (Season 6 Episode 3)",
+    "durationSeconds": 1595
+  },
+  {
+    "videoId": "9DU6bunvD_g",
+    "title": "Bob Ross - Northwest Majesty (Season 4 Episode 11)",
+    "durationSeconds": 1583
+  },
+  {
+    "videoId": "jfCsew_mz7A",
+    "title": "Bob Ross - Mountain Mirage Wood Shape (Season 16 Episode 4)",
+    "durationSeconds": 1682
+  },
+  {
+    "videoId": "rzYpa4XGSnA",
+    "title": "Bob Ross - Mountain Reflections (Season 12 Episode 2)",
+    "durationSeconds": 1646
+  },
+  {
+    "videoId": "Leiw-FtADZc",
+    "title": "Bob Ross - Quiet Mountains River (Season 12 Episode 7)",
+    "durationSeconds": 1643
+  },
+  {
+    "videoId": "kMgd6r6c4vE",
+    "title": "Bob Ross - Balmy Beach (Season 31 Episode 10)",
+    "durationSeconds": 1507
+  },
+  {
+    "videoId": "TyOO6WeP2AY",
+    "title": "Bob Ross - Cabin by the Pond (Season 15 Episode 7)",
+    "durationSeconds": 1635
+  },
+  {
+    "videoId": "mb-Gwx1S5Gs",
+    "title": "Bob Ross - Divine Elegance (Season 20 Episode 5)",
+    "durationSeconds": 1653
+  },
+  {
+    "videoId": "C-OSaHvt8ms",
+    "title": "Bob Ross - Hint of Springtime (Season 22 Episode 2)",
+    "durationSeconds": 1655
+  },
+  {
+    "videoId": "hfvhXOvg43w",
+    "title": "Bob Ross - Rowboat on the Beach (Season 24 Episode 10)",
+    "durationSeconds": 1605
+  },
+  {
+    "videoId": "_kkZcIgocBM",
+    "title": "Bob Ross - Daisies at Dawn (Season 27 Episode 6)",
+    "durationSeconds": 1496
+  },
+  {
+    "videoId": "wc_YVijYjT4",
+    "title": "Bob Ross - Mountain Serenity (Season 28 Episode 12)",
+    "durationSeconds": 1508
+  },
+  {
+    "videoId": "AE1GKcL3NuI",
+    "title": "Bob Ross - Silent Forest (Season 22 Episode 13)",
+    "durationSeconds": 1647
+  },
+  {
+    "videoId": "QyncJfL_HmU",
+    "title": "Bob Ross - Desert Glow (Season 21 Episode 11)",
+    "durationSeconds": 1616
+  },
+  {
+    "videoId": "HMx34Am6RFg",
+    "title": "Bob Ross - Autumn Images (Season 22 Episode 1)",
+    "durationSeconds": 1681
+  },
+  {
+    "videoId": "_MdMhQIOL1Y",
+    "title": "Bob Ross - Before the Snowfall (Season 31 Episode 2)",
+    "durationSeconds": 1491
+  },
+  {
+    "videoId": "cC5ozePVKGI",
+    "title": "Bob Ross - Misty Rolling Hills (Season 8 Episode 1)",
+    "durationSeconds": 1685
+  },
+  {
+    "videoId": "cIUBUc_ITBc",
+    "title": "Bob Ross - Foot of the Mountain (Season 8 Episode 8)",
+    "durationSeconds": 1656
+  },
+  {
+    "videoId": "rE5ZVs_YJfE",
+    "title": "Bob Ross - Deep Woods (Season 16 Episode 7)",
+    "durationSeconds": 1672
+  },
+  {
+    "videoId": "T2G5waMfQ-g",
+    "title": "Bob Ross - Seasonal Progression (Season 29 Episode 3)",
+    "durationSeconds": 1490
+  },
+  {
+    "videoId": "sDdpc8uisD0",
+    "title": "Bob Ross - Autumn Mountain (Season 1 Episode 7)",
+    "durationSeconds": 1707
+  },
+  {
+    "videoId": "uBRKVa7sy1Q",
+    "title": "Bob Ross - Waterfall in the Woods (Season 19 Episode 6)",
+    "durationSeconds": 1639
+  },
+  {
+    "videoId": "obSLZWXmDak",
+    "title": "Bob Ross - Snowbound Cabin (Season 24 Episode 13)",
+    "durationSeconds": 1611
+  },
+  {
+    "videoId": "FPW2FwK4IOo",
+    "title": "Bob Ross - Wayside Pond (Season 24 Episode 2)",
+    "durationSeconds": 1627
+  },
+  {
+    "videoId": "RulXVcpgpqw",
+    "title": "Bob Ross - Evening at the Falls (Season 26 Episode 13)",
+    "durationSeconds": 1496
+  },
+  {
+    "videoId": "IPPU49PyfEA",
+    "title": "Bob Ross - Grandpa's Barn (Season 15 Episode 3)",
+    "durationSeconds": 1638
+  },
+  {
+    "videoId": "Da4SPyh1ATM",
+    "title": "Bob Ross - Hunter's Haven (Season 8 Episode 5)",
+    "durationSeconds": 1687
+  },
+  {
+    "videoId": "U2_SKgM3f4A",
+    "title": "Bob Ross - Bubbling Mountain Brook (Season 8 Episode 6)",
+    "durationSeconds": 1658
+  },
+  {
+    "videoId": "hEyR2FDp-00",
+    "title": "Bob Ross - Splendor of Autumn (Season 28 Episode 10)",
+    "durationSeconds": 1505
+  },
+  {
+    "videoId": "cR9hTbSomx4",
+    "title": "Bob Ross - Quiet Cove (Season 23 Episode 5)",
+    "durationSeconds": 1651
+  },
+  {
+    "videoId": "fuFalEXVN0k",
+    "title": "Bob Ross - Bubbling Stream (Season 3 Episode 3)",
+    "durationSeconds": 1599
+  },
+  {
+    "videoId": "9jIt95PCFAA",
+    "title": "Bob Ross - Mountain Waterfall (Season 2 Episode 12)",
+    "durationSeconds": 1577
+  },
+  {
+    "videoId": "wJmi7-G9r-w",
+    "title": "Bob Ross - Barn in Snow Oval (Season 16 Episode 9)",
+    "durationSeconds": 1664
+  },
+  {
+    "videoId": "19oz9XHZNzA",
+    "title": "Bob Ross - Winter Hideaway (Season 8 Episode 7)",
+    "durationSeconds": 1670
+  },
+  {
+    "videoId": "3PZabdohLso",
+    "title": "Bob Ross - Secluded Mountain (Season 12 Episode 3)",
+    "durationSeconds": 1654
+  },
+  {
+    "videoId": "miJ19Kz_i3Y",
+    "title": "Bob Ross - Final Grace  (Season 2 Episode 13)",
+    "durationSeconds": 1574
+  },
+  {
+    "videoId": "7t6ue0pEcNE",
+    "title": "Bob Ross - Tranquility Cove (Season 31 Episode 4)",
+    "durationSeconds": 1511
+  },
+  {
+    "videoId": "BSjee-ond7w",
+    "title": "Bob Ross - A Copper Winter (Season 30 Episode 5)",
+    "durationSeconds": 1524
+  },
+  {
+    "videoId": "kQlFwTOkYzg",
+    "title": "Bob Ross - Peaceful Valley (Season 1 Episode 8)",
+    "durationSeconds": 1701
+  },
+  {
+    "videoId": "NjTlW2NL1Lo",
+    "title": "Bob Ross - Cabin Hideaway (Season 13 Episode 11)",
+    "durationSeconds": 1641
+  },
+  {
+    "videoId": "WGUcw_kFvzU",
+    "title": "Bob Ross - Secluded Beach (Season 9 Episode 6)",
+    "durationSeconds": 1640
+  },
+  {
+    "videoId": "5rfGa1_iJpw",
+    "title": "Bob Ross - In the Stillness of Morning (Season 26 Episode 1)",
+    "durationSeconds": 1534
+  },
+  {
+    "videoId": "aR-C3h5zURM",
+    "title": "Bob Ross - Bright Autumn Trees (Season 12 Episode 4)",
+    "durationSeconds": 1649
+  },
+  {
+    "videoId": "0mJqzzeWyXs",
+    "title": "Bob Ross - Twilight Beauty (Season 27 Episode 1)",
+    "durationSeconds": 1646
+  },
+  {
+    "videoId": "PMDyPrE0puo",
+    "title": "Bob Ross - Black and White Seascape (Season 2 Episode 9)",
+    "durationSeconds": 1616
+  },
+  {
+    "videoId": "H4GyGrT7lEQ",
+    "title": "Bob Ross - Rolling Hills (Season 13 Episode 1)",
+    "durationSeconds": 1672
+  },
+  {
+    "videoId": "_IREQ4SIcX8",
+    "title": "Bob Ross - High Tide (Season 16 Episode 8)",
+    "durationSeconds": 1692
+  },
+  {
+    "videoId": "rRjnHdr9DmU",
+    "title": "Bob Ross - Double Oval Stream (Season 18 Episode 10)",
+    "durationSeconds": 1659
+  },
+  {
+    "videoId": "enutOy-nsZk",
+    "title": "Bob Ross - Home in the Valley (Season 30 Episode 8)",
+    "durationSeconds": 1526
+  },
+  {
+    "videoId": "GhOGZMpPUSE",
+    "title": "Bob Ross - Mountain Splendor (Season 7 Episode 8)",
+    "durationSeconds": 1627
+  },
+  {
+    "videoId": "EBZKuVbRY54",
+    "title": "Bob Ross - Mountain Seclusion (Season 18 Episode 3)",
+    "durationSeconds": 1662
+  },
+  {
+    "videoId": "2OxSJcFvpoU",
+    "title": "Bob Ross - Secluded Lake (Season 7 Episode 2)",
+    "durationSeconds": 1650
+  },
+  {
+    "videoId": "cVqFG2pxK2A",
+    "title": "Bob Ross - Christmas Eve Snow (Season 15 Episode 9)",
+    "durationSeconds": 1657
+  },
+  {
+    "videoId": "e5JhYi_G-l0",
+    "title": "Bob Ross - Red Sunset (Season 9 Episode 3)",
+    "durationSeconds": 1647
+  },
+  {
+    "videoId": "gnp6WE7Ql-s",
+    "title": "Bob Ross - Contemplative Lady (Season 16 Episode 6)",
+    "durationSeconds": 1642
+  },
+  {
+    "videoId": "O6L5YPt9CeU",
+    "title": "Bob Ross - Winter Evergreens (Season 9 Episode 1)",
+    "durationSeconds": 1694
+  },
+  {
+    "videoId": "tayQX_ng-Nc",
+    "title": "Bob Ross - Waves of Wonder (Season 15 Episode 6)",
+    "durationSeconds": 1631
+  },
+  {
+    "videoId": "I4h6TC4CPJY",
+    "title": "Bob Ross - Teton Winter (Season 24 Episode 3)",
+    "durationSeconds": 1630
+  },
+  {
+    "videoId": "hP4GfMgsNVE",
+    "title": "Bob Ross - Purple Splendor (Season 4 Episode 1)",
+    "durationSeconds": 1662
+  },
+  {
+    "videoId": "KmoRz01bm0Y",
+    "title": "Bob Ross - Hidden Creek (Season 13 Episode 6)",
+    "durationSeconds": 1633
+  },
+  {
+    "videoId": "raAkJKeo0Sk",
+    "title": "Bob Ross - First Snow (Season 26 Episode 3)",
+    "durationSeconds": 1509
+  },
+  {
+    "videoId": "se7wOprxRGs",
+    "title": "Bob Ross - Blaze of Color (Season 6 Episode 13)",
+    "durationSeconds": 1585
+  },
+  {
+    "videoId": "loAzRUzx1wI",
+    "title": "Bob Ross - Winter Moon (Season 1 Episode 6)",
+    "durationSeconds": 1725
+  },
+  {
+    "videoId": "WJJwrnFhUUg",
+    "title": "Bob Ross - Rustic Barn (Season 3 Episode 11)",
+    "durationSeconds": 1618
+  },
+  {
+    "videoId": "a6Wil3OXNuI",
+    "title": "Bob Ross - Cabin at Sunset (Season 10 Episode 2)",
+    "durationSeconds": 1642
+  },
+  {
+    "videoId": "ubUXBqE6t0U",
+    "title": "Bob Ross - Royal Majesty (Season 21 Episode 3)",
+    "durationSeconds": 1649
+  },
+  {
+    "videoId": "DmYhNHVIdMI",
+    "title": "Bob Ross - Days Gone By (Season 20 Episode 10)",
+    "durationSeconds": 1631
+  },
+  {
+    "videoId": "0pwoixRikn4",
+    "title": "Bob Ross - Winter Mist (Season 1 Episode 4)",
+    "durationSeconds": 1700
+  },
+  {
+    "videoId": "loit61vLUMc",
+    "title": "Bob Ross - Blue Moon (Season 3 Episode 2)",
+    "durationSeconds": 1611
+  },
+  {
+    "videoId": "Vx6v47gHBWM",
+    "title": "Bob Ross - Brown Mountain (Season 2 Episode 7)",
+    "durationSeconds": 1586
+  },
+  {
+    "videoId": "lLunPQBzW6g",
+    "title": "Bob Ross - Emerald Waters (Season 13 Episode 9)",
+    "durationSeconds": 1659
+  },
+  {
+    "videoId": "7R9HcaDT9P4",
+    "title": "Bob Ross - A Spectacular View (Season 27 Episode 7)",
+    "durationSeconds": 1495
+  },
+  {
+    "videoId": "0uVe8T-vVVg",
+    "title": "Bob Ross - Graceful Mountains (Season 14 Episode 6)",
+    "durationSeconds": 1637
+  },
+  {
+    "videoId": "-O0Bs65eN5w",
+    "title": "Bob Ross - Golden Knoll (Season 12 Episode 1)",
+    "durationSeconds": 1664
+  },
+  {
+    "videoId": "hoimk4s8JoQ",
+    "title": "Bob Ross - Mountain Retreat (Season 3 Episode 1)",
+    "durationSeconds": 1636
+  },
+  {
+    "videoId": "l141Y0x8om0",
+    "title": "Bob Ross - Night Light (Season 3 Episode 8)",
+    "durationSeconds": 1602
+  },
+  {
+    "videoId": "u5VT_WGM0kg",
+    "title": "Bob Ross - Meadow Road (Season 9 Episode 4)",
+    "durationSeconds": 1647
+  },
+  {
+    "videoId": "qXElmiqzcI0",
+    "title": "Bob Ross - Golden Glow of Morning (Season 27 Episode 13)",
+    "durationSeconds": 1486
+  },
+  {
+    "videoId": "GARWowi0QXI",
+    "title": "Bob Ross - Meadow Lake (Season 2 Episode 1)",
+    "durationSeconds": 1613
+  },
+  {
+    "videoId": "6evqNlOO7Bw",
+    "title": "Bob Ross - Twilight Meadow (Season 5 Episode 2)",
+    "durationSeconds": 1599
+  },
+  {
+    "videoId": "fRK8_ioYWw4",
+    "title": "Bob Ross - Steep Mountains (Season 12 Episode 6)",
+    "durationSeconds": 1649
+  },
+  {
+    "videoId": "Bcqyzo85A1o",
+    "title": "Bob Ross - Nature's Edge (Season 6 Episode 2)",
+    "durationSeconds": 1628
+  },
+  {
+    "videoId": "22SiIDvyJeM",
+    "title": "Bob Ross - Home Before Nightfall (Season 28 Episode 13)",
+    "durationSeconds": 1496
+  },
+  {
+    "videoId": "e0VUprkc1n0",
+    "title": "Bob Ross - Mountain Path (Season 9 Episode 9)",
+    "durationSeconds": 1687
+  },
+  {
+    "videoId": "TLX1bmS8wBE",
+    "title": "Bob Ross - View from Clear Creek (Season 31 Episode 6)",
+    "durationSeconds": 1509
+  },
+  {
+    "videoId": "2gq2V6dCt2I",
+    "title": "Bob Ross - Quiet Mountain Lake (Season 19 Episode 2)",
+    "durationSeconds": 1662
+  },
+  {
+    "videoId": "GzSqjyQUPZQ",
+    "title": "Bob Ross - Black Waterfall (Season 2 Episode 11)",
+    "durationSeconds": 1585
+  },
+  {
+    "videoId": "JdXCoxkOdwQ",
+    "title": "Bob Ross - Splendor of a Snowy Winter (Season 27 Episode 11)",
+    "durationSeconds": 1490
+  },
+  {
+    "videoId": "v8Znj8bbmCQ",
+    "title": "Bob Ross - Oriental Falls (Season 25 Episode 6)",
+    "durationSeconds": 1633
+  },
+  {
+    "videoId": "7ZUQTXuDPaI",
+    "title": "Bob Ross - Evening at Sunset (Season 13 Episode 4)",
+    "durationSeconds": 1634
+  },
+  {
+    "videoId": "QDwd4pMYyuo",
+    "title": "Bob Ross - Winding Stream (Season 31 Episode 3)",
+    "durationSeconds": 1505
+  },
+  {
+    "videoId": "VqMbL00eZqw",
+    "title": "Bob Ross - Dark Waterfall (Season 7 Episode 13)",
+    "durationSeconds": 1611
+  },
+  {
+    "videoId": "tJRvBcqQd5A",
+    "title": "Bob Ross - Cool Waters (Season 4 Episode 9)",
+    "durationSeconds": 1675
+  },
+  {
+    "videoId": "sS-hNYgDUak",
+    "title": "Bob Ross - Grey Winter (Season 7 Episode 11)",
+    "durationSeconds": 1652
+  },
+  {
+    "videoId": "0M9pwLHRR2c",
+    "title": "Bob Ross - Mountain Glory (Season 7 Episode 10)",
+    "durationSeconds": 1653
+  },
+  {
+    "videoId": "OHSm8kLE7js",
+    "title": "Bob Ross - Covered Bridge (Season 3 Episode 6)",
+    "durationSeconds": 1611
+  },
+  {
+    "videoId": "pfWV8NkotvU",
+    "title": "Bob Ross - Indian Summer (Season 21 Episode 9)",
+    "durationSeconds": 1681
+  },
+  {
+    "videoId": "xj8xsTSkbUk",
+    "title": "Bob Ross - The Windmill (Season 5 Episode 10)",
+    "durationSeconds": 1607
+  },
+  {
+    "videoId": "9BHWlbjd95c",
+    "title": "Bob Ross - An Arctic Winter Day (Season 26 Episode 6)",
+    "durationSeconds": 1491
+  },
+  {
+    "videoId": "Ugiwi8uizpg",
+    "title": "Bob Ross - Marshlands (Season 6 Episode 12)",
+    "durationSeconds": 1588
+  },
+  {
+    "videoId": "1l_TsfCIb_I",
+    "title": "Bob Ross - Lakeside Cabin (Season 10 Episode 13)",
+    "durationSeconds": 1640
+  },
+  {
+    "videoId": "3CDg_9gL-5M",
+    "title": "Bob Ross - Little House by the Road (Season 9 Episode 8)",
+    "durationSeconds": 1650
+  },
+  {
+    "videoId": "vKyMU5Z8cDI",
+    "title": "Bob Ross - Autumn Woods (Season 10 Episode 6)",
+    "durationSeconds": 1654
+  },
+  {
+    "videoId": "LygUyAb78oY",
+    "title": "Bob Ross - Blue River (Season 6 Episode 1)",
+    "durationSeconds": 1614
+  },
+  {
+    "videoId": "RInDWhYceLU",
+    "title": "Bob Ross - Mt. McKinley (Season 1 Episode 2)",
+    "durationSeconds": 1713
+  },
+  {
+    "videoId": "GpA9UM7QGag",
+    "title": "Bob Ross - Distant Mountains (Season 14 Episode 1)",
+    "durationSeconds": 1658
+  },
+  {
+    "videoId": "kNZssD9zWlw",
+    "title": "Bob Ross - Frozen Solitude (Season 13 Episode 2)",
+    "durationSeconds": 1629
+  },
+  {
+    "videoId": "H15kV1wbDG4",
+    "title": "Bob Ross - Frozen Beauty in Vignette (Season 23 Episode 11)",
+    "durationSeconds": 1632
+  },
+  {
+    "videoId": "AGhXEPfp-W4",
+    "title": "Bob Ross - Waterfall Wonder (Season 16 Episode 11)",
+    "durationSeconds": 1652
+  },
+  {
+    "videoId": "WT6n0K2zGnA",
+    "title": "Bob Ross - Barn at Sunset (Season 7 Episode 7)",
+    "durationSeconds": 1651
+  },
+  {
+    "videoId": "DFQlu6eqrBo",
+    "title": "Bob Ross - Anatomy of a Wave (Season 5 Episode 9)",
+    "durationSeconds": 1679
+  },
+  {
+    "videoId": "iRMsb9Vf7GM",
+    "title": "Bob Ross - Aurora's Dance (Season 29 Episode 12)",
+    "durationSeconds": 1496
+  },
+  {
+    "videoId": "DqhzxdkdQS0",
+    "title": "Bob Ross - Mountain Waterfall (Season 5 Episode 1)",
+    "durationSeconds": 1621
+  },
+  {
+    "videoId": "VYcsYzzRae4",
+    "title": "Bob Ross - Valley Waterfall (Season 23 Episode 8)",
+    "durationSeconds": 1619
+  },
+  {
+    "videoId": "j8Jf7QVKLgQ",
+    "title": "Bob Ross - Country Life (Season 6 Episode 10)",
+    "durationSeconds": 1589
+  },
+  {
+    "videoId": "CiNDyckERXQ",
+    "title": "Bob Ross - Golden Sunset (Season 10 Episode 8)",
+    "durationSeconds": 1644
+  },
+  {
+    "videoId": "C34WAUgkAT0",
+    "title": "Bob Ross - Camper's Haven (Season 19 Episode 5)",
+    "durationSeconds": 1671
+  },
+  {
+    "videoId": "JUuP75RVZDI",
+    "title": "Bob Ross - Dimensions (Season 22 Episode 7)",
+    "durationSeconds": 1627
+  },
+  {
+    "videoId": "PbchoOWWCZs",
+    "title": "Bob Ross - Tranquil Valley (Season 4 Episode 2)",
+    "durationSeconds": 1581
+  },
+  {
+    "videoId": "wrbGlR22K0Q",
+    "title": "Bob Ross - Forest River (Season 27 Episode 12)",
+    "durationSeconds": 1498
+  },
+  {
+    "videoId": "zoTeyliLn5o",
+    "title": "Bob Ross - Triple View (Season 10 Episode 11)",
+    "durationSeconds": 1640
+  },
+  {
+    "videoId": "0FYfo94qefg",
+    "title": "Bob Ross - Reflections (Season 2 Episode 8)",
+    "durationSeconds": 1586
+  },
+  {
+    "videoId": "E3IAMvO8GyM",
+    "title": "Bob Ross - Mountain Cabin (Season 7 Episode 4)",
+    "durationSeconds": 1628
+  },
+  {
+    "videoId": "spFwCh2616s",
+    "title": "Bob Ross - Arizona Splendor (Season 5 Episode 8)",
+    "durationSeconds": 1607
+  },
+  {
+    "videoId": "lzODyJS2ZIg",
+    "title": "Bob Ross - Under Pastel Skies (Season 28 Episode 3)",
+    "durationSeconds": 1484
+  },
+  {
+    "videoId": "E3XW_Zp238U",
+    "title": "Bob Ross - Forest Hills (Season 9 Episode 7)",
+    "durationSeconds": 1665
+  },
+  {
+    "videoId": "ZKxFvyyOBPQ",
+    "title": "Bob Ross - Surf's Up (Season 9 Episode 2)",
+    "durationSeconds": 1663
+  },
+  {
+    "videoId": "fBh1nA4pMDY",
+    "title": "Bob Ross - Graceful Waterfall (Season 24 Episode 8)",
+    "durationSeconds": 1625
+  },
+  {
+    "videoId": "Y7SDU4i6Fco",
+    "title": "Bob Ross - Crimson Tide (Season 23 Episode 12)",
+    "durationSeconds": 1627
+  },
+  {
+    "videoId": "y6GVVjG4HMg",
+    "title": "Bob Ross - Windy Waves (Season 14 Episode 7)",
+    "durationSeconds": 1664
+  },
+  {
+    "videoId": "OFKFUJ9eDNs",
+    "title": "Bob Ross - The Old Mill (Season 3 Episode 9)",
+    "durationSeconds": 1636
+  },
+  {
+    "videoId": "Fw6odlNp7_8",
+    "title": "Bob Ross - Happy Accident (Season 11 Episode 13)",
+    "durationSeconds": 1664
+  },
+  {
+    "videoId": "KYlM2zJnNWY",
+    "title": "Bob Ross - Cabin in the Hollow (Season 31 Episode 5)",
+    "durationSeconds": 1520
+  },
+  {
+    "videoId": "UOziR7PoVco",
+    "title": "Bob Ross - Ebony Sunset (Season 1 Episode 3)",
+    "durationSeconds": 1503
+  },
+  {
+    "videoId": "aA8RhtaWACA",
+    "title": "Bob Ross - Golden Glow (Season 11 Episode 11)",
+    "durationSeconds": 1640
+  },
+  {
+    "videoId": "o2cjLA_wgIk",
+    "title": "Bob Ross - Mountain Challenge (Season 4 Episode 13)",
+    "durationSeconds": 1580
+  },
+  {
+    "videoId": "MTInkV5ODjk",
+    "title": "Bob Ross - Western Expanse (Season 6 Episode 11)",
+    "durationSeconds": 1597
+  },
+  {
+    "videoId": "LEz4UVL7POE",
+    "title": "Bob Ross - Misty Foothills (Season 30 Episode 6)",
+    "durationSeconds": 1471
+  },
+  {
+    "videoId": "so--opB-yuQ",
+    "title": "Bob Ross - Mountain by the Sea (Season 9 Episode 12)",
+    "durationSeconds": 1645
+  },
+  {
+    "videoId": "ReENCTH7MYI",
+    "title": "Bob Ross - Bridge to Autumn (Season 31 Episode 7)",
+    "durationSeconds": 1483
+  },
+  {
+    "videoId": "RqtDliGeyTg",
+    "title": "Bob Ross - The Footbridge (Season 24 Episode 12)",
+    "durationSeconds": 1620
+  },
+  {
+    "videoId": "RrBsbqO9aqI",
+    "title": "Bob Ross - Tropical Seascape (Season 12 Episode 9)",
+    "durationSeconds": 1684
+  },
+  {
+    "videoId": "HWedDS3p7XI",
+    "title": "Bob Ross - A Pretty Autumn Day (Season 24 Episode 5)",
+    "durationSeconds": 1650
+  },
+  {
+    "videoId": "9N5IWKzYIyU",
+    "title": "Bob Ross - Quiet Inlet (Season 3 Episode 7)",
+    "durationSeconds": 1611
+  },
+  {
+    "videoId": "9-ATP8xyDM0",
+    "title": "Bob Ross - Lost Lake (Season 13 Episode 13)",
+    "durationSeconds": 1646
+  },
+  {
+    "videoId": "MHJB0IBnuD4",
+    "title": "Bob Ross - Portrait of Sally (Season 7 Episode 5)",
+    "durationSeconds": 1604
+  },
+  {
+    "videoId": "81QKellPA70",
+    "title": "Bob Ross - Cabin in the Woods (Season 4 Episode 7)",
+    "durationSeconds": 1582
+  },
+  {
+    "videoId": "USkduOfwJok",
+    "title": "Bob Ross - Secluded Forest (Season 6 Episode 5)",
+    "durationSeconds": 1646
+  },
+  {
     "videoId": "lLWEXRAnQd0",
-    "durationSeconds": 1510,
-    "title": "Bob Ross - Island in the Wilderness (Season 29 Episode 1)"
+    "title": "Bob Ross - Island in the Wilderness (Season 29 Episode 1)",
+    "durationSeconds": 1510
   },
   {
     "videoId": "vrAMRxBB5KI",
-    "durationSeconds": 1648,
-    "title": "Bob Ross - Secluded Bridge (Season 10 Episode 4)"
+    "title": "Bob Ross - Secluded Bridge (Season 10 Episode 4)",
+    "durationSeconds": 1648
   },
   {
     "videoId": "1s58rW0_LN4",
-    "durationSeconds": 1683,
-    "title": "Bob Ross - Towering Peaks (Season 10 Episode 1)"
+    "title": "Bob Ross - Towering Peaks (Season 10 Episode 1)",
+    "durationSeconds": 1683
   },
   {
     "videoId": "qx2IsmrCs3c",
-    "durationSeconds": 1505,
-    "title": "Bob Ross - In the Midst of Winter (Season 31 Episode 12)"
+    "title": "Bob Ross - In the Midst of Winter (Season 31 Episode 12)",
+    "durationSeconds": 1505
   },
   {
     "videoId": "8satX-hLkuI",
-    "durationSeconds": 1665,
-    "title": "Bob Ross - Winter Frost (Season 10 Episode 12)"
+    "title": "Bob Ross - Winter Frost (Season 10 Episode 12)",
+    "durationSeconds": 1665
   },
   {
     "videoId": "8ysFkNYwhAE",
-    "durationSeconds": 1609,
-    "title": "Bob Ross - Winter Night (Season 3 Episode 4)"
+    "title": "Bob Ross - Winter Night (Season 3 Episode 4)",
+    "durationSeconds": 1609
   },
   {
     "videoId": "vgbMONXc9Cs",
-    "durationSeconds": 1640,
-    "title": "Bob Ross - Northern Lights (Season 8 Episode 13)"
+    "title": "Bob Ross - Northern Lights (Season 8 Episode 13)",
+    "durationSeconds": 1640
   },
   {
     "videoId": "L5bXkI0-pEg",
-    "durationSeconds": 1593,
-    "title": "Bob Ross - Campfire (Season 3 Episode 10)"
+    "title": "Bob Ross - Campfire (Season 3 Episode 10)",
+    "durationSeconds": 1593
   },
   {
     "videoId": "87MMbN1bQCs",
-    "durationSeconds": 1593,
-    "title": "Bob Ross - Meadow Stream (Season 5 Episode 13)"
+    "title": "Bob Ross - Meadow Stream (Season 5 Episode 13)",
+    "durationSeconds": 1593
   },
   {
     "videoId": "VlucWfTUo1A",
-    "durationSeconds": 1661,
-    "title": "Bob Ross - Mystic Mountain (Season 20 Episode 1)"
+    "title": "Bob Ross - Mystic Mountain (Season 20 Episode 1)",
+    "durationSeconds": 1661
   },
   {
     "videoId": "oh5p5f5_-7A",
-    "durationSeconds": 1682,
-    "title": "Bob Ross - A Walk in the Woods (Season 1 Episode 1)"
+    "title": "Bob Ross - A Walk in the Woods (Season 1 Episode 1)",
+    "durationSeconds": 1682
   },
   {
     "videoId": "kasGRkfkiPM",
-    "durationSeconds": 1667,
-    "title": "Bob Ross - Mountain Summit (Season 13 Episode 10)"
+    "title": "Bob Ross - Mountain Summit (Season 13 Episode 10)",
+    "durationSeconds": 1667
   },
   {
     "videoId": "4vXB2R8ybDE",
-    "durationSeconds": 1648,
-    "title": "Bob Ross - Mighty Mountain Lake (Season 16 Episode 12)"
+    "title": "Bob Ross - Mighty Mountain Lake (Season 16 Episode 12)",
+    "durationSeconds": 1648
   },
   {
     "videoId": "UQ-RTZCOQn0",
-    "durationSeconds": 1592,
-    "title": "Bob Ross - Arctic Beauty (Season 6 Episode 7)"
+    "title": "Bob Ross - Arctic Beauty (Season 6 Episode 7)",
+    "durationSeconds": 1592
   },
   {
     "videoId": "kJFB6rH3z2A",
-    "durationSeconds": 1550,
-    "title": "Bob Ross - Reflections of Calm (Season 31 Episode 1)"
+    "title": "Bob Ross - Reflections of Calm (Season 31 Episode 1)",
+    "durationSeconds": 1550
   },
   {
     "videoId": "zxj3xLDNxo0",
-    "durationSeconds": 1485,
-    "title": "Bob Ross - Golden Rays of Sunshine (Season 28 Episode 4)"
+    "title": "Bob Ross - Golden Rays of Sunshine (Season 28 Episode 4)",
+    "durationSeconds": 1485
   },
   {
     "videoId": "VnZEpic2UzU",
-    "durationSeconds": 1512,
-    "title": "Bob Ross - Fisherman's Trail (Season 28 Episode 1)"
+    "title": "Bob Ross - Fisherman's Trail (Season 28 Episode 1)",
+    "durationSeconds": 1512
   },
   {
     "videoId": "uEUMVwc4o5U",
-    "durationSeconds": 1654,
-    "title": "Bob Ross - Evening's Peace (Season 19 Episode 12)"
+    "title": "Bob Ross - Evening's Peace (Season 19 Episode 12)",
+    "durationSeconds": 1654
   },
   {
     "videoId": "pw5ETGiiBRg",
-    "durationSeconds": 1653,
-    "title": "Bob Ross - Valley View (Season 21 Episode 1)"
+    "title": "Bob Ross - Valley View (Season 21 Episode 1)",
+    "durationSeconds": 1653
   },
   {
     "videoId": "HCsCatvigtw",
-    "durationSeconds": 1650,
-    "title": "Bob Ross - Mountain at Sunset (Season 12 Episode 10)"
+    "title": "Bob Ross - Mountain at Sunset (Season 12 Episode 10)",
+    "durationSeconds": 1650
   },
   {
     "videoId": "eTEKGOi6SVg",
-    "durationSeconds": 1494,
-    "title": "Bob Ross - Evening's Glow (Season 30 Episode 12)"
+    "title": "Bob Ross - Evening's Glow (Season 30 Episode 12)",
+    "durationSeconds": 1494
   },
   {
     "videoId": "QglIjlqsUdU",
-    "durationSeconds": 1634,
-    "title": "Bob Ross - Whispering Stream (Season 6 Episode 4)"
+    "title": "Bob Ross - Whispering Stream (Season 6 Episode 4)",
+    "durationSeconds": 1634
   },
   {
     "videoId": "XBqD3QhKU24",
-    "durationSeconds": 1647,
-    "title": "Bob Ross - Cactus at Sunset (Season 8 Episode 10)"
+    "title": "Bob Ross - Cactus at Sunset (Season 8 Episode 10)",
+    "durationSeconds": 1647
   },
   {
     "videoId": "4KYxkqlzyqM",
-    "durationSeconds": 1655,
-    "title": "Bob Ross - Dock Scene (Season 7 Episode 12)"
+    "title": "Bob Ross - Dock Scene (Season 7 Episode 12)",
+    "durationSeconds": 1655
   },
   {
     "videoId": "tWoInh2USOs",
-    "durationSeconds": 1519,
-    "title": "Bob Ross - Delightful Meadow Home (Season 26 Episode 2)"
+    "title": "Bob Ross - Delightful Meadow Home (Season 26 Episode 2)",
+    "durationSeconds": 1519
   },
   {
     "videoId": "gMEZp47VKC0",
-    "durationSeconds": 1511,
-    "title": "Bob Ross - Sunset Aglow (Season 26 Episode 12)"
+    "title": "Bob Ross - Sunset Aglow (Season 26 Episode 12)",
+    "durationSeconds": 1511
   },
   {
     "videoId": "Hq-z06i6HCs",
-    "durationSeconds": 1619,
-    "title": "Bob Ross - Mountain Ridge Lake (Season 23 Episode 3)"
+    "title": "Bob Ross - Mountain Ridge Lake (Season 23 Episode 3)",
+    "durationSeconds": 1619
   },
   {
     "videoId": "OJ_xqtvZf3o",
-    "durationSeconds": 1660,
-    "title": "Bob Ross - Ocean Sunset (Season 10 Episode 10)"
+    "title": "Bob Ross - Ocean Sunset (Season 10 Episode 10)",
+    "durationSeconds": 1660
   },
   {
     "videoId": "gYuH4Ilqdhs",
-    "durationSeconds": 1645,
-    "title": "Bob Ross - Peaceful Reflections (Season 15 Episode 4)"
+    "title": "Bob Ross - Peaceful Reflections (Season 15 Episode 4)",
+    "durationSeconds": 1645
   },
   {
     "videoId": "BW2wKKFvH1g",
-    "durationSeconds": 1594,
-    "title": "Bob Ross - Lazy River (Season 2 Episode 10)"
+    "title": "Bob Ross - Lazy River (Season 2 Episode 10)",
+    "durationSeconds": 1594
   },
   {
     "videoId": "iB1TDWlo0kk",
-    "durationSeconds": 1654,
-    "title": "Bob Ross - Snowy Morn (Season 19 Episode 4)"
+    "title": "Bob Ross - Snowy Morn (Season 19 Episode 4)",
+    "durationSeconds": 1654
   },
   {
     "videoId": "mUJoNLWQ1yI",
-    "durationSeconds": 1657,
-    "title": "Bob Ross - Warm Winter Day (Season 8 Episode 3)"
+    "title": "Bob Ross - Warm Winter Day (Season 8 Episode 3)",
+    "durationSeconds": 1657
   },
   {
     "videoId": "4XxClvPZ1RE",
-    "durationSeconds": 1647,
-    "title": "Bob Ross - Gray Mountain (Season 24 Episode 1)"
+    "title": "Bob Ross - Gray Mountain (Season 24 Episode 1)",
+    "durationSeconds": 1647
   },
   {
     "videoId": "mEU0stNfkxI",
-    "durationSeconds": 1540,
-    "title": "Bob Ross - Evergreen Valley (Season 31 Episode 9)"
+    "title": "Bob Ross - Evergreen Valley (Season 31 Episode 9)",
+    "durationSeconds": 1540
   },
   {
     "videoId": "qTDQt_PdlYc",
-    "durationSeconds": 1642,
-    "title": "Bob Ross - Lonely Retreat (Season 8 Episode 12)"
+    "title": "Bob Ross - Lonely Retreat (Season 8 Episode 12)",
+    "durationSeconds": 1642
   },
   {
     "videoId": "nJGCVFn57U8",
-    "durationSeconds": 1500,
-    "title": "Bob Ross - Wilderness Way (Season 31 Episode 13)"
+    "title": "Bob Ross - Wilderness Way (Season 31 Episode 13)",
+    "durationSeconds": 1500
   },
   {
     "videoId": "IeFbdk36MUU",
-    "durationSeconds": 1642,
-    "title": "Bob Ross - Final Embers of Sunlight (Season 19 Episode 3)"
+    "title": "Bob Ross - Final Embers of Sunlight (Season 19 Episode 3)",
+    "durationSeconds": 1642
   },
   {
     "videoId": "PutvF_P4588",
-    "durationSeconds": 1632,
-    "title": "Bob Ross - Evening Waterfall (Season 12 Episode 8)"
+    "title": "Bob Ross - Evening Waterfall (Season 12 Episode 8)",
+    "durationSeconds": 1632
   },
   {
     "videoId": "NcVeRlPu_5w",
-    "durationSeconds": 1661,
-    "title": "Bob Ross - Majestic Mountains (Season 4 Episode 3)"
+    "title": "Bob Ross - Majestic Mountains (Season 4 Episode 3)",
+    "durationSeconds": 1661
   },
   {
     "videoId": "e63Cgln6Yag",
-    "durationSeconds": 1668,
-    "title": "Bob Ross - On a Clear Day (Season 14 Episode 8)"
+    "title": "Bob Ross - On a Clear Day (Season 14 Episode 8)",
+    "durationSeconds": 1668
   },
   {
     "videoId": "530_cVmexiI",
-    "durationSeconds": 1649,
-    "title": "Bob Ross - Misty Waterfall (Season 7 Episode 6)"
+    "title": "Bob Ross - Misty Waterfall (Season 7 Episode 6)",
+    "durationSeconds": 1649
   },
   {
     "videoId": "LiKCzeqn-kg",
-    "durationSeconds": 1587,
-    "title": "Bob Ross - Bubbling Brook (Season 5 Episode 7)"
+    "title": "Bob Ross - Bubbling Brook (Season 5 Episode 7)",
+    "durationSeconds": 1587
   },
   {
     "videoId": "FozIp7Va7dY",
-    "durationSeconds": 1623,
-    "title": "Bob Ross - Autumn Fantasy (Season 20 Episode 7)"
+    "title": "Bob Ross - Autumn Fantasy (Season 20 Episode 7)",
+    "durationSeconds": 1623
   },
   {
     "videoId": "Wj-3ct7RvAI",
-    "durationSeconds": 1653,
-    "title": "Bob Ross - After the Rain (Season 19 Episode 10)"
+    "title": "Bob Ross - After the Rain (Season 19 Episode 10)",
+    "durationSeconds": 1653
   },
   {
     "videoId": "cMwkY8ojRik",
-    "durationSeconds": 1645,
-    "title": "Bob Ross - Twin Falls (Season 10 Episode 3)"
+    "title": "Bob Ross - Twin Falls (Season 10 Episode 3)",
+    "durationSeconds": 1645
   },
   {
     "videoId": "TohG7F8M3Ls",
-    "durationSeconds": 1504,
-    "title": "Bob Ross - Glacier Lake (Season 28 Episode 6)"
+    "title": "Bob Ross - Glacier Lake (Season 28 Episode 6)",
+    "durationSeconds": 1504
   },
   {
     "videoId": "XZmdzfvXRuw",
-    "durationSeconds": 1672,
-    "title": "Bob Ross - Ocean Breeze (Season 10 Episode 5)"
+    "title": "Bob Ross - Ocean Breeze (Season 10 Episode 5)",
+    "durationSeconds": 1672
   },
   {
     "videoId": "I-ousb8-SD0",
-    "durationSeconds": 1586,
-    "title": "Bob Ross - Shades of Grey (Season 2 Episode 4)"
+    "title": "Bob Ross - Shades of Grey (Season 2 Episode 4)",
+    "durationSeconds": 1586
   },
   {
     "videoId": "DFSIQNjKRfk",
-    "durationSeconds": 1697,
-    "title": "Bob Ross - Quiet Stream (Season 1 Episode 5)"
+    "title": "Bob Ross - Quiet Stream (Season 1 Episode 5)",
+    "durationSeconds": 1697
   },
   {
     "videoId": "1-9_enMBquw",
-    "durationSeconds": 1667,
-    "title": "Bob Ross - Frosty Winter Morn (Season 23 Episode 1)"
+    "title": "Bob Ross - Frosty Winter Morn (Season 23 Episode 1)",
+    "durationSeconds": 1667
   }
 ]

@@ -1,252 +1,4702 @@
 [
   {
+    "videoId": "oD50pUZFEbo",
+    "title": "How Art Transforms Brokenness Into Beauty | Lily Yeh | TED",
+    "durationSeconds": 796
+  },
+  {
+    "videoId": "nIYFaYrTY-c",
+    "title": "Do You Really Not Care? | Gary Barker @TED",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "amtBUvkweEA",
+    "title": "Forget the Corporate Ladder — Winners Take Risks | Molly Graham | TED",
+    "durationSeconds": 572
+  },
+  {
+    "videoId": "sLapoMlHOeY",
+    "title": "How Your Childhood Toys Tell Your Life Story | Chris Byrne | TED",
+    "durationSeconds": 658
+  },
+  {
+    "videoId": "2BUSGopaejM",
+    "title": "How Acts of Kindness Sparked a Global Movement | Asha Curran @TED",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "bsxJVgb6Kls",
+    "title": "The Trick to Powerful Public Speaking | Lawrence Bernstein | TED",
+    "durationSeconds": 879
+  },
+  {
+    "videoId": "YL5mJAGGsjY",
+    "title": "This Refrigerator Is Saving Lives | Norah Magero | TED",
+    "durationSeconds": 313
+  },
+  {
+    "videoId": "fPE9ujLIAkI",
+    "title": "Why Journalists Should Avoid This Trap | Malcolm Gladwell  @TED",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "Fq0jpQrTEFs",
+    "title": "How to Hide “Science Vegetables” in Viral Videos, with @MarkRober Rober | ReThinking with Adam Grant",
+    "durationSeconds": 2122
+  },
+  {
+    "videoId": "0jBhEPtC0fk",
+    "title": "Our Savory, Spicy, Significant Relationship With Food | June Jo Lee | TED",
+    "durationSeconds": 494
+  },
+  {
+    "videoId": "uq-deRtvedI",
+    "title": "How AI Is Saving Billions of Years of Human Research Time | Max Jaderberg | TED",
+    "durationSeconds": 1039
+  },
+  {
+    "videoId": "nT1MYWOFgJo",
+    "title": "Can Curiosity Heal Division? | Scott Shigeoka | TED",
+    "durationSeconds": 518
+  },
+  {
+    "videoId": "pMgqSJP9dN8",
+    "title": "Can AI Master the Art of Humor? | Bob Mankoff | TED",
+    "durationSeconds": 876
+  },
+  {
+    "videoId": "GRgqbsP_-uw",
+    "title": "Why Do You Love Your Favorite Songs? | Scarlet Keys | TED",
+    "durationSeconds": 1152
+  },
+  {
+    "videoId": "YbnS39GAcQo",
+    "title": "Your Relationship Expectations Could Be Holding You Back | Stephanie R. Yates-Anyabwile | TED",
+    "durationSeconds": 507
+  },
+  {
+    "videoId": "VEgltjydwZ8",
+    "title": "The Foods Humanity Forgot — and How We’re Bringing Them Back | Helianti Hilman | TED",
+    "durationSeconds": 436
+  },
+  {
+    "videoId": "g3AU44HfpfE",
+    "title": "How I Imitate Nature’s Voices | Snow Raven | TED",
+    "durationSeconds": 476
+  },
+  {
+    "videoId": "do27uAjfKbg",
+    "title": "How to Be an “Apocalyptic Optimist” | Dana R. Fisher | TED",
+    "durationSeconds": 587
+  },
+  {
+    "videoId": "Nh1QvWm0BrQ",
+    "title": "Ask Dumb Questions, Embrace Mistakes — and Other Lessons on Innovation | Dave Raggio | TED",
+    "durationSeconds": 383
+  },
+  {
+    "videoId": "dDKozwjlt-Q",
+    "title": "A Mouse With Two Dads — and a New Frontier for Biology | Katsuhiko Hayashi | TED",
+    "durationSeconds": 494
+  },
+  {
+    "videoId": "SoI9-PP5Tmk",
+    "title": "Can Europe Win the Age of AI? | Thomas Dohmke | TED",
+    "durationSeconds": 1163
+  },
+  {
+    "videoId": "dzBj5rRmTv8",
+    "title": "K-Pop, Cutting-Edge Tech and Other Ways Asia Is Shaping the World | Neeraj Aggarwal | TED",
+    "durationSeconds": 648
+  },
+  {
+    "videoId": "HLwvyD1MbSM",
+    "title": "A Menu of Foods We Might Lose Forever | Sam Kass | TED",
+    "durationSeconds": 711
+  },
+  {
+    "videoId": "Tq6_7XyCyyI",
+    "title": "Is AI Progress Stuck? | Jennifer Golbeck | TED",
+    "durationSeconds": 737
+  },
+  {
+    "videoId": "wRa3sycERxA",
+    "title": "Why Friendship Can Be Just As Meaningful as Romantic Love | Rhaina Cohen | TED",
+    "durationSeconds": 555
+  },
+  {
+    "videoId": "UFNRxEmoMaw",
+    "title": "Why Spending Smarter Beats Bigger Budgets | Karthik Muralidharan | TED",
+    "durationSeconds": 765
+  },
+  {
+    "videoId": "1Bj-zXkVi68",
+    "title": "Yo! Have You Ever Seen a Yo-Yo Dance Like This? | Shu Takada | TED",
+    "durationSeconds": 308
+  },
+  {
+    "videoId": "YKufhUZRJ1E",
+    "title": "Listen to Your Intuition — It Can Help You Navigate the Future | Hrund Gunnsteinsdóttir | TED",
+    "durationSeconds": 529
+  },
+  {
+    "videoId": "44lbeIb6TjA",
+    "title": "From Prison to Purpose Through Wildland Firefighting | Royal Ramey | TED",
+    "durationSeconds": 401
+  },
+  {
+    "videoId": "MMaWtHnyP04",
+    "title": "Luxury, Not Landfill — the Waste-Free Future of Fashion | Joon Silverstein | TED",
+    "durationSeconds": 674
+  },
+  {
+    "videoId": "VuJbzKpbIVk",
+    "title": "Trump’s 2024 Election Win — and What’s Next | TED Explains the World with Ian Bremmer",
+    "durationSeconds": 2702
+  },
+  {
+    "videoId": "vh8q8ySORFs",
+    "title": "Why You Think You Look Bad in Photos | Teri Hofford | TED",
+    "durationSeconds": 805
+  },
+  {
+    "videoId": "hHYe3O7_TUA",
+    "title": "Democracy Is Being Tested. Citizen Assemblies Can Help | Ketakandriana Rafitoson | TED",
+    "durationSeconds": 864
+  },
+  {
+    "videoId": "PYRFxrLt30A",
+    "title": "5 Ways Leaders Can Adapt to Shifting Geopolitics | Nikolaus S. Lang | TED",
+    "durationSeconds": 776
+  },
+  {
+    "videoId": "OjuYFNR1aWo",
+    "title": "How AI Could Hack Democracy | Lawrence Lessig | TED",
+    "durationSeconds": 1156
+  },
+  {
+    "videoId": "YP-iH-7WRLI",
+    "title": "How to Defend Democracy — and Fight Autocracy | Leopoldo Lopez | TED",
+    "durationSeconds": 1110
+  },
+  {
+    "videoId": "2LkDU0iKaro",
+    "title": "Networking Doesn’t Have to Feel Gross | Daniel Hallak | TED",
+    "durationSeconds": 849
+  },
+  {
+    "videoId": "HDHbjYNBwXI",
+    "title": "Poetry and Music That Reaches Across the Digital Void | Elle Cordova | TED",
+    "durationSeconds": 419
+  },
+  {
+    "videoId": "mawrdgeE1ig",
+    "title": "TED Talk Watch Party: Democracy — Watch live October 30 at 11:30am ET",
+    "durationSeconds": 3425
+  },
+  {
+    "videoId": "RmXrwKydM9k",
+    "title": "The Tipping Point I Got Wrong | Malcolm Gladwell | TED",
+    "durationSeconds": 1005
+  },
+  {
+    "videoId": "Efp1EiSwDO4",
+    "title": "A Food System That Fights Climate Change — Instead of Causing It | Gonzalo Muñoz | TED",
+    "durationSeconds": 524
+  },
+  {
+    "videoId": "Kcq-FxK-GK0",
+    "title": "Could We Replace Data Centers with … Plant DNA? | Cliff Kapono and Keolu Fox | TED",
+    "durationSeconds": 607
+  },
+  {
+    "videoId": "wUpZ181ATfI",
+    "title": "A Lens on Georgia’s Survival in the Shadow of a Superpower | Daro Sulakauri | TED",
+    "durationSeconds": 274
+  },
+  {
+    "videoId": "DnqNS6fThuY",
+    "title": "Your Empty Wine Bottle Could Help Rebuild Coastlines | Franziska Trautmann | TED",
+    "durationSeconds": 333
+  },
+  {
+    "videoId": "cbtkoZUOR1A",
+    "title": "Why Creativity Thrives on Challenges | Jon M. Chu | TED",
+    "durationSeconds": 3403
+  },
+  {
+    "videoId": "JfeRLwlnuHo",
+    "title": "Will the End of Economic Growth Come by Design — or Disaster? | Gaya Herrington | TED",
+    "durationSeconds": 879
+  },
+  {
+    "videoId": "x6oM9hQMjUY",
+    "title": "How a Worm Could Save Humanity From Bad AI | Ramin Hasani | TED",
+    "durationSeconds": 245
+  },
+  {
+    "videoId": "CrEhGIBCAPU",
+    "title": "How to Turn Setbacks into Success | Amy Shoenthal | TED",
+    "durationSeconds": 937
+  },
+  {
+    "videoId": "yHGRBTZI6w0",
+    "title": "The Art of Marketing — for Good | Raja Rajamannar | TED",
+    "durationSeconds": 820
+  },
+  {
+    "videoId": "DbaBpXa9dH0",
+    "title": "Maybe there are no dumb questions #tedtalk #businessadvice #work",
+    "durationSeconds": 77
+  },
+  {
+    "videoId": "6mh92_lU0W4",
+    "title": "How Distributed Work Can Unlock Your Potential | Avani Prabhakar | TED",
+    "durationSeconds": 642
+  },
+  {
+    "videoId": "zVgQf2v_68M",
+    "title": "These beautiful floating works of art are meant to teach us about our future with machines #tedtalks",
+    "durationSeconds": 83
+  },
+  {
+    "videoId": "BsVhgta2WAo",
+    "title": "Solar Energy Is Even Cheaper Than You Think | Jenny Chase | TED",
+    "durationSeconds": 540
+  },
+  {
+    "videoId": "HSgQHH2YBxw",
+    "title": "Does Your Heartbeat Shape Your Sense of Time? | Irena Arslanova | TED",
+    "durationSeconds": 566
+  },
+  {
+    "videoId": "KEz7EZcfVts",
+    "title": "I’m a Conservative — and I Care About the Climate, Too | Danielle Butcher Franz | TED",
+    "durationSeconds": 454
+  },
+  {
+    "videoId": "Zyw_amifsxE",
+    "title": "If you hate math, Shalinee Sharma is here to change your mind #tedtalks  #education  #math",
+    "durationSeconds": 83
+  },
+  {
+    "videoId": "-w4JrIxFZRA",
+    "title": "Can AI Companions Help Heal Loneliness? | Eugenia Kuyda | TED",
+    "durationSeconds": 705
+  },
+  {
+    "videoId": "ros3INVOQEU",
+    "title": "How AI Can Bridge the Deaf and Hearing Worlds | Adam Munder | TED",
+    "durationSeconds": 494
+  },
+  {
+    "videoId": "6lDe9XenH1Y",
+    "title": "Earth’s Temperature Is Moving in the Wrong Direction. Here’s What Science Says Must Happen. #tedtalk",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "AbpNlshqtJc",
+    "title": "How to feed 10 billion people — without destroying nature | Andy Jarvis | TED",
+    "durationSeconds": 606
+  },
+  {
+    "videoId": "ojZav0u29B4",
+    "title": "A Hospital in the Cloud Bringing Health Care Anywhere in the World | Mohamed Aburawi | TED",
+    "durationSeconds": 299
+  },
+  {
+    "videoId": "X0bKCMgAUOg",
+    "title": "The Vital Data You Flush Down the Toilet | Newsha Ghaeli @TED",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "cfKFbh8LPvU",
+    "title": "How to Reclaim Your Life From Work | Simone Stolzoff | TED",
+    "durationSeconds": 513
+  },
+  {
+    "videoId": "V56A6SHbI1Q",
+    "title": "3 Reasons to Take Risks Like a Teenager | Adriana Galván | TED",
+    "durationSeconds": 440
+  },
+  {
+    "videoId": "I5oeY5O5oJI",
+    "title": "The Potential US TikTok Ban — and What’s at Stake | Clay Shirky | TED",
+    "durationSeconds": 3653
+  },
+  {
+    "videoId": "d2-0S67JIeQ",
+    "title": "The Potential US TikTok Ban | Clay Shirky @TED #tiktok",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "Ne-1bg2Ifn4",
+    "title": "The Absurd Inequality of Climate Work — and How to Fix It | Joshua Amponsem | TED",
+    "durationSeconds": 599
+  },
+  {
+    "videoId": "mxdJMIog5y8",
+    "title": "What Makes People Luckier Than Others | Tina Seelig @TED",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "GTmQF2ABid0",
+    "title": "Why Violence Is Rising With Global Temperatures | Peter Schwartzstein | TED",
+    "durationSeconds": 259
+  },
+  {
+    "videoId": "U509hHthip8",
+    "title": "The Biggest Global Risks for 2025 | TED Explains the World with Ian Bremmer",
+    "durationSeconds": 2643
+  },
+  {
+    "videoId": "vgigO1XgyRo",
+    "title": "The Mind-Reading Potential of AI | Chin-Teng Lin | TED",
+    "durationSeconds": 945
+  },
+  {
+    "videoId": "UG1eW81y7Ac",
+    "title": "Xiuhtezcatl Performing \"Careful\" / \"Veils\" at TED2024",
+    "durationSeconds": 642
+  },
+  {
+    "videoId": "I2s4msDXNgw",
+    "title": "Can You Love Your Body — and Still Want To Change It? | Gabriella Lascano | TED",
+    "durationSeconds": 545
+  },
+  {
+    "videoId": "_hZseWeLSFY",
+    "title": "How Community-Led Research Drives Social Change | Monica Malta | TED",
+    "durationSeconds": 444
+  },
+  {
+    "videoId": "FiQ2XtAYQsw",
+    "title": "How To Achieve Limitlessly | Emmanuel Acho @TED #newyear",
+    "durationSeconds": 82
+  },
+  {
+    "videoId": "GVdzOw_8pFE",
+    "title": "What Does Poverty Look Like on a Plate? | Huiyi Lin | TED",
+    "durationSeconds": 257
+  },
+  {
+    "videoId": "L3AcHdBpUCo",
+    "title": "The Power of Introverts | Susan Cain @TED #introvert",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "fHDy7Jzp-5I",
+    "title": "How to Make Big Decisions in Challenging Circumstances | Jonathan Reimer | TED",
+    "durationSeconds": 896
+  },
+  {
+    "videoId": "lY7e3CDPY4g",
+    "title": "What’s Our Relationship to AI? It’s Complicated | AC Coppens, Kasley Killam, Apolinário Passos | TED",
+    "durationSeconds": 2335
+  },
+  {
+    "videoId": "0Vjh5d5rez0",
+    "title": "Want to Give a Great Presentation? Use Ugly Sketches | Martin J. Eppler | TED",
+    "durationSeconds": 637
+  },
+  {
+    "videoId": "hg_xzFJ4ZAA",
+    "title": "4 Steps to Unlock Your Kid's Math Potential | Shalinee Sharma | TED",
+    "durationSeconds": 676
+  },
+  {
+    "videoId": "hKx4HGfNgCg",
+    "title": "Break the Bad News Bubble (Part 2) | Angus Hervey | TED",
+    "durationSeconds": 501
+  },
+  {
+    "videoId": "lkMV6SxilXc",
+    "title": "How to Protect Your Emotional Health During the Holidays | Guy Winch | TED",
+    "durationSeconds": 3355
+  },
+  {
+    "videoId": "QsXfQW9LrjA",
+    "title": "The Greatest Show on Earth — for Kids Who Need It Most | Sahba Aminikia | TED",
+    "durationSeconds": 335
+  },
+  {
+    "videoId": "9lLqGTmDdQc",
+    "title": "Why Does Civility Pay? | Christine Porath  @TED #tedx",
+    "durationSeconds": 89
+  },
+  {
+    "videoId": "lRNNcBHuxP4",
+    "title": "What Makes for a Healthy Life? @TED  #HSBCQualityofLife #TEDIntersections",
+    "durationSeconds": 71
+  },
+  {
+    "videoId": "p-Yd4PdmYzg",
+    "title": "Why Your Body Fights Weight Loss | Katherine Saunders | TED",
+    "durationSeconds": 696
+  },
+  {
+    "videoId": "7aV8kHMS5yw",
+    "title": "Why Don’t We See Life out There in the Cosmos? @TED",
+    "durationSeconds": 64
+  },
+  {
+    "videoId": "E7hwoDHfU28",
+    "title": "How a Deepfake Almost Ruined My Political Career | Cara Hunter | TED",
+    "durationSeconds": 811
+  },
+  {
+    "videoId": "qsnbJZQAD-k",
+    "title": "The Song That Sparked a Movement in Afghanistan | Nila Ibrahimi | TED",
+    "durationSeconds": 360
+  },
+  {
+    "videoId": "mhXGbNx63vk",
+    "title": "Try This Exercise and Show the People You Love That You Care | Gus Worland @TED",
+    "durationSeconds": 82
+  },
+  {
+    "videoId": "kZeVIJqW1ts",
+    "title": "The Real-World Danger of Online Myths | Vidhya Ramalingam | TED",
+    "durationSeconds": 852
+  },
+  {
+    "videoId": "n5UribH66-Q",
+    "title": "What Is Allyship? | Amber Cabral @TED",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "gzzEUm_78Qw",
+    "title": "Why Smell Matters More Than You Think | Paule Joseph | TED",
+    "durationSeconds": 313
+  },
+  {
+    "videoId": "-LeIIjOMP-c",
+    "title": "Want to make CHANGE? Tap into the skills you already have. #TEDTalk #Democracy",
+    "durationSeconds": 105
+  },
+  {
+    "videoId": "CA028e-idL0",
+    "title": "How to Divorce as Allies, Not Enemies | Allison O’Brien | TED",
+    "durationSeconds": 639
+  },
+  {
+    "videoId": "vVAG4BjNbKs",
+    "title": "How Little Experiments Can Lead to Big Success | Emmanuel Acho and David Epstein | TED",
+    "durationSeconds": 3145
+  },
+  {
+    "videoId": "6F2DLThsEGE",
+    "title": "How to Make the Most of a Finite Life (w/ Oliver Burkeman) | How to Be a Better Human | TED",
+    "durationSeconds": 2024
+  },
+  {
+    "videoId": "6wCml0g2mRE",
+    "title": "Will AI Make Us the Last Generation to Read and Write? | Victor Riparbelli | TED",
+    "durationSeconds": 984
+  },
+  {
+    "videoId": "aOdaKzE8v-4",
+    "title": "The Duolingo owl LIVES — here’s the founder on why you might be so OBSESSED #TEDTalks #Languages",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "0-F3ufYQgNk",
+    "title": "Trump, Europe, Ukraine and the Uncertain World Order | TED Explains the World with Ian Bremmer",
+    "durationSeconds": 3560
+  },
+  {
+    "videoId": "Qvm9k5Wnafs",
+    "title": "Why Joy Is a Serious Way to Take Action | Pattie Gonia | TED",
+    "durationSeconds": 578
+  },
+  {
+    "videoId": "AUL2pMTLIZc",
+    "title": "Watching this instead of doing something else? This may be WHY. #TimUrban #TEDTalks #Procrastination",
+    "durationSeconds": 125
+  },
+  {
+    "videoId": "cTnPqgL8ZPs",
+    "title": "How to Make Anxiety Your Friend | David H. Rosmarin | TED",
+    "durationSeconds": 900
+  },
+  {
+    "videoId": "FFYD5s-SSYk",
+    "title": "AI has the potential to SUPERCHARGE our curiosity #AI #Curiosity #Perplexity #TEDTalks",
+    "durationSeconds": 115
+  },
+  {
+    "videoId": "Z9VovH1OWQc",
+    "title": "Can AI Match the Human Brain? | Surya Ganguli | TED",
+    "durationSeconds": 1031
+  },
+  {
+    "videoId": "4GpNYaDkBcs",
+    "title": "Love, Trust and Marketing in the Age of AI | Amaryllis Liampoti | TED",
+    "durationSeconds": 550
+  },
+  {
+    "videoId": "VopoxAqteGY",
+    "title": "Want people to listen to you? Keep it SHORT. #JennyHoyos #Storytelling #TEDTalks",
+    "durationSeconds": 70
+  },
+  {
+    "videoId": "xb0nLpdWttA",
+    "title": "Do You Talk to Yourself? Here’s How to Harness Your Inner Voice | Ethan Kross | TED",
+    "durationSeconds": 773
+  },
+  {
+    "videoId": "rHUJAlMa7qI",
+    "title": "The High-Wire Act of Unlocking Clean Energy | Jason Huang | TED",
+    "durationSeconds": 699
+  },
+  {
+    "videoId": "2JMuljrVrSI",
+    "title": "Why Daylight Is the Secret to Great Sleep | Christine Blume | TED",
+    "durationSeconds": 603
+  },
+  {
+    "videoId": "ZxCY6RF_ZB0",
+    "title": "White Lotus’s Natasha Rothwell on how SNL shaped her creative identity #SNL50 #TEDTalks #OnTheSpot",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "MG9oqntiJKg",
+    "title": "AI Won’t Plateau — if We Give It Time To Think | Noam Brown | TED",
+    "durationSeconds": 730
+  },
+  {
+    "videoId": "Y06CZUf3cm0",
+    "title": "Natasha Rothwell: Embrace Your Main Character Energy | On the Spot",
+    "durationSeconds": 687
+  },
+  {
+    "videoId": "8Nv8qjSSkJs",
+    "title": "Maybe having a WEIRD relationship is a good thing #TEDTalks #StephAnya #relationships #love",
+    "durationSeconds": 89
+  },
+  {
+    "videoId": "gp_ChjQQPnU",
+    "title": "The Unique Love Between Humans and Dogs | Elias Weiss Friedman | TED",
+    "durationSeconds": 725
+  },
+  {
+    "videoId": "uY-NteGiQP4",
+    "title": "#ICYMI: An update from Head of TED Chris Anderson on the future of TED",
+    "durationSeconds": 105
+  },
+  {
+    "videoId": "UoJPsI1N-54",
+    "title": "6 Ways to Make Better Connections Online | Margaux Miller | TED",
+    "durationSeconds": 672
+  },
+  {
+    "videoId": "cYa6QYGXqu4",
+    "title": "Are We Alone in the Universe? We’re Close to Finding Out | Lisa Kaltenegger | TED",
+    "durationSeconds": 607
+  },
+  {
+    "videoId": "BBHnLH98bNg",
+    "title": "Spirituality for Sinners (w/ Nadia Bolz-Weber) | How to Be a Better Human | TED",
+    "durationSeconds": 2169
+  },
+  {
+    "videoId": "6MPxJ6hQgpI",
+    "title": "This is your sign to POST the thing #TEDTalks #JonYoushaei #creativity",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "yVq8r9w29DI",
+    "title": "Climate Progress Isn’t a Sprint — It’s a Marathon | Greg De Temmerman | TED",
+    "durationSeconds": 656
+  },
+  {
+    "videoId": "Hz00x3FAD1E",
+    "title": "Your experience of time may not only be in your HEAD — but in your HEART, too #TEDTalk #science",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "Cr6kzbIwxdU",
+    "title": "How Digital Culture Is Reshaping Our Faces and Bodies | Elise Hu | TED",
+    "durationSeconds": 321
+  },
+  {
+    "videoId": "FvuTe8nL6OE",
+    "title": "What SCARS do you have that remind you to keep moving forward? #AlexSmith #tedtalk #nfl",
+    "durationSeconds": 115
+  },
+  {
+    "videoId": "4JlCcR3lumA",
+    "title": "What if AI Could Spot Your Lies? | Riccardo Loconte | TED",
+    "durationSeconds": 901
+  },
+  {
+    "videoId": "71dsyj5pWEo",
+    "title": "A Bold New Chapter for TED | Chris Anderson in conversation with Jay Herratti and Anna Verghese",
+    "durationSeconds": 3430
+  },
+  {
+    "videoId": "CPszftsUGVM",
+    "title": "Is Perfectionism Just Procrastination in Disguise? | Jon Youshaei | TED",
+    "durationSeconds": 360
+  },
+  {
+    "videoId": "rsL4vztsChc",
+    "title": "TED Explores: Food for the Future | TED Countdown",
+    "durationSeconds": 1396
+  },
+  {
+    "videoId": "MsKU2BY6yHQ",
+    "title": "Can Salad Dressing Transform Capitalism? | Alex Amouyel | TED",
+    "durationSeconds": 696
+  },
+  {
+    "videoId": "FYxChz-CWJY",
+    "title": "Here are 5 signs to look out for according to relationship expert Katie Hood #tedtalk #love",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "xNWZrR3sDfQ",
+    "title": "Why Body Language Is the Key to Self-Expression — and Hot Selfies | David Suh | TED",
+    "durationSeconds": 691
+  },
+  {
+    "videoId": "YLx3Ryv9THw",
+    "title": "A new chapter for TED Talks is beginning. Here's a special message from Head of TED Chris Anderson",
+    "durationSeconds": 140
+  },
+  {
+    "videoId": "9ILMJYAusa0",
+    "title": "Why Do Some Bodies Respond Differently to Disease? | Erika Moore | TED",
+    "durationSeconds": 271
+  },
+  {
+    "videoId": "TcWVILjbDIY",
+    "title": "Some artists use paint, others sculpt with clay, but Laetitia Ky uses her HAIR. #tedtalks",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "MD4W_e3dJPs",
+    "title": "How AI Will Answer Questions We Haven’t Thought to Ask | Aravind Srinivas | TED",
+    "durationSeconds": 696
+  },
+  {
+    "videoId": "umhBo4U6XEI",
+    "title": "You may be getting enough sleep, but are you getting enough REST? #tedtalk  #sleep #rest",
+    "durationSeconds": 77
+  },
+  {
+    "videoId": "MQD0RKYcR6c",
+    "title": "Confessions of a Recovering People Pleaser | Baron Ryan | TED",
+    "durationSeconds": 513
+  },
+  {
+    "videoId": "ZmNpeXTj2c4",
+    "title": "The Secret to Telling a Great Story — in Less Than 60 Seconds | Jenny Hoyos | TED",
+    "durationSeconds": 240
+  },
+  {
+    "videoId": "okSG9QaqY1o",
+    "title": "How AI Is Decoding Ancient Scrolls | Julian Schilliger and Youssef Nader | TED",
+    "durationSeconds": 886
+  },
+  {
+    "videoId": "xDDfUWic4CI",
+    "title": "Throwing Good Parties (w/ Priya Parker) | How to Be a Better Human | TED",
+    "durationSeconds": 2138
+  },
+  {
+    "videoId": "I71y0Vwlc8Y",
+    "title": "Meet imma — a virtual influencer — and her talent manager Sara Giusto #tedtalks",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "-k-bg0q3NNw",
+    "title": "An NBA Champion’s Advice on Being a Top Teammate | Shane Battier | TED",
+    "durationSeconds": 638
+  },
+  {
+    "videoId": "81_20RfdX3c",
+    "title": "Love isn’t just romantic — it’s EVERYWHERE says Natasha Rothwell #TEDTalks #WhiteLotus",
+    "durationSeconds": 73
+  },
+  {
+    "videoId": "r4n79ZRepi8",
+    "title": "A Survival Guide for Musicians in the Age of AI | Harvey Mason jr. | TED",
+    "durationSeconds": 775
+  },
+  {
+    "videoId": "C4QMPhiF_as",
+    "title": "How to See the Future Coming — and Prepare for It | Jane McGonigal | TED",
+    "durationSeconds": 342
+  },
+  {
+    "videoId": "n8QoLnT4ygo",
+    "title": "Work Is Broken. Gen Z Can Help Fix It | Amanda Schneider | TED",
+    "durationSeconds": 732
+  },
+  {
+    "videoId": "oJ0Nec57-08",
+    "title": "For 1 year, comedian Chris Duffy was the CEO of Linkedin … on Linkedin #TEDTalk",
+    "durationSeconds": 107
+  },
+  {
+    "videoId": "eMiPKpXbm9A",
+    "title": "A Concrete Plan for Sustainable Cement | Ryan Gilliam | TED",
+    "durationSeconds": 361
+  },
+  {
+    "videoId": "ADAmTm_45uk",
+    "title": "What You Miss When You Focus on the Average | Sharon Zicherman | TED",
+    "durationSeconds": 346
+  },
+  {
+    "videoId": "adza_PZiBNA",
+    "title": "This device can turn COLORS into SOUND #TEDTalks #cooltech",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "K_RSZC0s8a4",
+    "title": "The Science Behind Dramatically Better Conversations | Charles Duhigg | TED",
+    "durationSeconds": 708
+  },
+  {
+    "videoId": "BIbAyapnfOI",
+    "title": "Thinking about DEATH may actually be the key to living your best LIFE #TEDTalks",
+    "durationSeconds": 89
+  },
+  {
+    "videoId": "utTlli1Ett0",
+    "title": "How Light and Code Can Transform a City | Leo Villareal | TED",
+    "durationSeconds": 530
+  },
+  {
+    "videoId": "G1DmWN4EH5M",
+    "title": "How do TED Talks get made? All 3 episodes of My Big Idea are out NOW #MyBigIdea #TEDTalk",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "q3_AS6GM2Cs",
+    "title": "My Big Idea (Ep. 3): A Monthly Miracle Packed with Scientific Potential | Karli Büchling",
+    "durationSeconds": 1061
+  },
+  {
+    "videoId": "4lxyPcI7kn0",
+    "title": "My Big Idea (Ep. 2): Can a Boxing Gym Transform a Community? | Percy Tussamba",
+    "durationSeconds": 1183
+  },
+  {
+    "videoId": "7CL8OgCs80I",
+    "title": "How do YOU deal with jitters before speaking in public? #MyBigIdea #TEDTalks #publicspeaking",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "VjegFh1zhY4",
+    "title": "My Big Idea (Ep. 1): A Joyful Way to Get Outside | Hazel Cottle | How to Create a TED Talk",
+    "durationSeconds": 1008
+  },
+  {
+    "videoId": "lZTBIO3OtYc",
+    "title": "What If You Could Give a TED Talk? An Inside Look at \"My Big Idea,\" an Original Series from TED",
+    "durationSeconds": 838
+  },
+  {
+    "videoId": "otNea-jNmXU",
+    "title": "Sonia Vallabh is on a mission to create a CURE for prion disease — before it’s too late #TEDTalks",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "bRyFB4mQHzY",
+    "title": "A Guide to Self-Love for Skeptics | Dan Harris | TED",
+    "durationSeconds": 3439
+  },
+  {
+    "videoId": "LsojAy3i1gE",
+    "title": "My Big Idea, a Behind-the-Scenes Look at TED Talks | Premiering Tuesday, March 25 on @TED",
+    "durationSeconds": 99
+  },
+  {
+    "videoId": "yvf6xqSkAcY",
+    "title": "How to Handle Grief at Work and Beyond | Meredith Wilson Parfet | TED",
+    "durationSeconds": 681
+  },
+  {
+    "videoId": "p0Nag5w42ys",
+    "title": "How to Finance the Future of Farming | Berry Marttin | TED",
+    "durationSeconds": 562
+  },
+  {
+    "videoId": "jc0tTOhRVe0",
+    "title": "Where DEI Falls Short — and How To Rethink It | Y-Vonne Hutchinson | TED",
+    "durationSeconds": 342
+  },
+  {
+    "videoId": "FN6JIyntwR0",
+    "title": "You’ve probably seen this design before, but do you know its ANCIENT origins? #TEDTalk #History",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "uxQ0OoyaALQ",
+    "title": "How to Stop Being Weird About Money (w/ Paco De Leon) | How to Be a Better Human | TED",
+    "durationSeconds": 1989
+  },
+  {
+    "videoId": "U9d0p96N1iw",
+    "title": "How AI Models Steal Creative Work — and What to Do About It | Ed Newton-Rex | TED",
+    "durationSeconds": 908
+  },
+  {
+    "videoId": "lrUQn26zp_c",
+    "title": "Lessons From History for a Better Future | Roman Krznaric | TED",
+    "durationSeconds": 790
+  },
+  {
+    "videoId": "DHL6_DebL1Q",
+    "title": "Poverty isn’t a lack of character — it’s a lack of CASH #RutgerBregman #UBI #TEDTalks",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "OTIx-2udf6Y",
+    "title": "The 7 Pillars of Unlocking Potential | Anirudh Krishna | TED",
+    "durationSeconds": 759
+  },
+  {
+    "videoId": "1Jid5LoQMIU",
+    "title": "If you are what you do and you lose your job, who are YOU? #TEDTalk #WorkLife #WorkLifeBalance",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "LpSDuDIaBGk",
+    "title": "Why Social Health Is Key to Happiness and Longevity | Kasley Killam | TED",
+    "durationSeconds": 576
+  },
+  {
+    "videoId": "cIu8Xo5yHlI",
+    "title": "The Power Shift US Politics Needs | Anathea Chino | TED",
+    "durationSeconds": 502
+  },
+  {
+    "videoId": "qvHVHSLR9-I",
+    "title": "Curious about how a TED Talk makes it to the stage? Watch to find out. #TEDTalk #BTS #SIA",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "zeuXA5Ysof8",
+    "title": "Our Ever-Evolving Relationship with AI | TED Talks Watch Party",
+    "durationSeconds": 3988
+  },
+  {
+    "videoId": "9IFo0WjDvL4",
+    "title": "Feeling Stuck on Climate Change? Here’s What To Do | Kris De Meyer | TED",
+    "durationSeconds": 773
+  },
+  {
+    "videoId": "5gVTwb3ebAI",
+    "title": "How to Tame Your Advice Monster | Michael Bungay Stanier | TED",
+    "durationSeconds": 848
+  },
+  {
+    "videoId": "NMfZ4ePmJks",
+    "title": "How you ever wondered how a TED Talk comes to life? Watch to find out. #TEDTalk #BTS",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "caNLVaD25pU",
+    "title": "The Food That Fertilizes Itself | Giles E.D. Oldroyd | TED",
+    "durationSeconds": 638
+  },
+  {
+    "videoId": "RUdpj0CCD3Y",
+    "title": "If we want a world where EVERYONE is successful, here’s what Lilly Singh needs to happen #TEDTalks",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "3EFzlN0qSBg",
+    "title": "Having your photo taken doesn’t have to STRESS you out #DavidSuh #TEDTalk #Selfies",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "_m8jRiOpcTA",
+    "title": "The True Story of the Iconic Tagline “Because I’m Worth It.” | The Final Copy of Ilon Specht",
+    "durationSeconds": 1060
+  },
+  {
+    "videoId": "nTNdC8UMcCg",
+    "title": "What You Can Learn Crossing the Ocean in a Canoe | Lehua Kamalu | TED",
+    "durationSeconds": 307
+  },
+  {
+    "videoId": "Vy87Mkix2WY",
+    "title": "A Fresh Approach to International Development | Faisal Saeed Al Mutar | TED",
+    "durationSeconds": 272
+  },
+  {
+    "videoId": "uuviC8Uoh1Y",
+    "title": "Collagen’s Dirty Secret — and Its Clean Future | Fei Luo | TED",
+    "durationSeconds": 417
+  },
+  {
+    "videoId": "We0x2EaVwkY",
+    "title": "Your next smart device? Your glasses. #TEDTalks #AI #GoogleIO",
+    "durationSeconds": 101
+  },
+  {
+    "videoId": "IzTpuucqim0",
+    "title": "The Mental Health AI Chatbot Made for Real Life | Alison Darcy | TED",
+    "durationSeconds": 816
+  },
+  {
+    "videoId": "QSKjD84Z6Rc",
+    "title": "The arrival of non-human intelligence is a very big deal, says the former Google CEO. #TEDTalks",
+    "durationSeconds": 121
+  },
+  {
+    "videoId": "RSZl57aKxEc",
+    "title": "It turns out you were built to laugh #TEDTalks #Laughter #Neuroscience",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "id4YRO7G0wE",
+    "title": "The AI Revolution Is Underhyped | Eric Schmidt | TED",
+    "durationSeconds": 1538
+  },
+  {
+    "videoId": "CNO8GI0Ka-o",
+    "title": "We have a GUT feeling this robot is going places. #TEDTalks #Robot #Medicine",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "snUI2AML9NQ",
+    "title": "How “Bluey” Teaches Adults to be Playful Again | Sarina Petersen | TED",
+    "durationSeconds": 869
+  },
+  {
+    "videoId": "Jb5VTn5D3ao",
+    "title": "Parkour! How the Sport Keeps Your Body and Mind Fit | Taylor Lynn Carpenter | TED",
+    "durationSeconds": 405
+  },
+  {
+    "videoId": "F60F3wAPUWo",
+    "title": "AI will bring chaos or abundance — the choice is ours #AI #TEDTalks #TristanHarris",
+    "durationSeconds": 94
+  },
+  {
+    "videoId": "Mq0_g-vCwb4",
+    "title": "How Industrial Fishing Sinks Communities | Lamin Jassey | TED",
+    "durationSeconds": 449
+  },
+  {
+    "videoId": "cvRtK485EcM",
+    "title": "Are cephalopods nature’s original shapeshifters? #TEDTalks #DeepSea",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "Tob_DDLXImM",
+    "title": "Stressed? “Just Relax” Isn't the Answer | Aditi Nerurkar | TED",
+    "durationSeconds": 3442
+  },
+  {
+    "videoId": "YPvP_C4qy0E",
+    "title": "The Best Way to Lower Earth's Temperature — Fast | Daniel Zavala-Araiza | TED",
+    "durationSeconds": 549
+  },
+  {
+    "videoId": "g1L42P6rGQY",
+    "title": "It’s never too late to reconnect— and repair is where it begins. #Parenting #TEDTalks",
+    "durationSeconds": 82
+  },
+  {
+    "videoId": "7Yhft2Tuyeg",
+    "title": "Is Parenting Advice Leading to More Anxious Kids? | Mathilde H. Ross | TED",
+    "durationSeconds": 518
+  },
+  {
+    "videoId": "DgAh3a2zS8M",
+    "title": "The Bay Bridge got a glow-up #TEDTalks #PublicArt #SanFrancisco",
+    "durationSeconds": 109
+  },
+  {
+    "videoId": "VRAlpK8IGLE",
+    "title": "Why Joy and Flexibility Are Good for Business | Rosie Sargeant | TED",
+    "durationSeconds": 400
+  },
+  {
+    "videoId": "p7u1n54_yQc",
+    "title": "The Power of Gaming Together in a Lonely World | Laura Miele | TED",
+    "durationSeconds": 593
+  },
+  {
+    "videoId": "qTAra6vdVDY",
+    "title": "No, these effects AREN’T a Jedi mind trick #TEDTalks #MayThe4th #StarWars",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "GZBPCwx7glk",
+    "title": "The force is strong with these cosplayers and they’re using it for good. #TEDTalks #MayThe4th",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "dfbEVbHCCrE",
+    "title": "Inside the mind of OpenAI’s Sam Altman — and his relationship with control #TEDTalks #AI",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "UNQCzhdg0A0",
+    "title": "TED Talks Watch Party: Brand New Talks from TED2025",
+    "durationSeconds": 4518
+  },
+  {
+    "videoId": "E3Yo7PULlPs",
+    "title": "The Artist-Driven Innovation Behind the Films We Love | Rob Bredow | TED",
+    "durationSeconds": 936
+  },
+  {
+    "videoId": "6kPHnl-RsVI",
+    "title": "Why AI Is Our Ultimate Test and Greatest Invitation | Tristan Harris | TED",
+    "durationSeconds": 915
+  },
+  {
+    "videoId": "hnygd-8rriU",
+    "title": "Where in the World Is Trump Taking Us? | TED Explains the World with Ian Bremmer",
+    "durationSeconds": 3263
+  },
+  {
+    "videoId": "aJVZQqAAlzw",
+    "title": "How Disgust Drives Your Politics | Cindy Kam | TED",
+    "durationSeconds": 954
+  },
+  {
+    "videoId": "lKsvLGdoIH8",
+    "title": "The “Hot Shot Rule” To Help You Become a Better Leader | Kat Cole | TED",
+    "durationSeconds": 469
+  },
+  {
+    "videoId": "zWfkFEHe9QY",
+    "title": "“When you feel powerless, it's often actually because you are powerful.” #TEDTalks",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "ooMXEwl7N8Y",
+    "title": "The AI Arsenal That Could Stop World War III | Palmer Luckey | TED",
+    "durationSeconds": 917
+  },
+  {
+    "videoId": "GjtqcYOtxhA",
+    "title": "To talk climate, lead with fun. #TEDTalks #Vegan",
+    "durationSeconds": 133
+  },
+  {
+    "videoId": "hqpKUkYqreM",
+    "title": "Can Big Tech and Privacy Coexist? | Carole Cadwalladr and Chris Anderson | TED",
+    "durationSeconds": 2182
+  },
+  {
+    "videoId": "QXGTNROtJkY",
+    "title": "Your Inner Fire Is Your Greatest Strength | Xiye Bastida | TED",
+    "durationSeconds": 711
+  },
+  {
+    "videoId": "shgYbdOVgpY",
+    "title": "A Fresh Approach to Resolving Conflicts | Darya Shaikh | TED",
+    "durationSeconds": 466
+  },
+  {
+    "videoId": "tpAG2eZZGxo",
+    "title": "Will AI-powered wearables augment our intelligence forever? #TEDTalks #AI",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "gElClXpg4J0",
+    "title": "The Next Computer? Your Glasses | Shahram Izadi | TED",
+    "durationSeconds": 967
+  },
+  {
+    "videoId": "_D8YJ6opZYU",
+    "title": "Great ideas CAN start over a bottle of wine. #TEDTalks #Recycle",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "bxbQkaIB8PA",
+    "title": "What does a future where AI agents rule the internet look like? #TEDTalks",
+    "durationSeconds": 124
+  },
+  {
+    "videoId": "Jc97OeIpaEY",
+    "title": "The Key to Navigating Change With Confidence | Kristy Ellmer | TED",
+    "durationSeconds": 768
+  },
+  {
+    "videoId": "4fOWQfzWHbc",
+    "title": "Why Are We Sending Critical Metals to the Dump? | Jeff More | TED",
+    "durationSeconds": 391
+  },
+  {
+    "videoId": "sexqiDz8fWs",
+    "title": "The robot that can do your chores might be here sooner than you think! #TEDTalks #Robots #CoolTech",
+    "durationSeconds": 107
+  },
+  {
+    "videoId": "p3uBMqCPSDk",
+    "title": "Meet NEO, Your Robot Butler in Training | Bernt Børnich | TED",
+    "durationSeconds": 889
+  },
+  {
+    "videoId": "5MWT_doo68k",
+    "title": "OpenAI’s Sam Altman Talks ChatGPT, AI Agents and Superintelligence — Live at TED2025",
+    "durationSeconds": 2850
+  },
+  {
+    "videoId": "C8Iwvgj7Xwk",
+    "title": "\"We are already living inside the architecture of totalitarianism.” – Carole Cadwalladr #TEDTalks",
+    "durationSeconds": 64
+  },
+  {
+    "videoId": "TZOoT8AbkNE",
+    "title": "This Is What a Digital Coup Looks Like | Carole Cadwalladr | TED",
+    "durationSeconds": 1062
+  },
+  {
+    "videoId": "PsFlp3u74mI",
+    "title": "Is Generosity the Most Underrated Leadership Skill? | Joe Davis | TED",
+    "durationSeconds": 432
+  },
+  {
+    "videoId": "OgK5eQQIUGQ",
+    "title": "An Ethicist’s Guide to Living a Good Life | Ira Bedzow | TED",
+    "durationSeconds": 1510
+  },
+  {
+    "videoId": "Aa7tNxxZuu0",
+    "title": "How to Design a Creative Life (w/ Debbie Millman) | How to Be a Better Human | TED",
+    "durationSeconds": 1985
+  },
+  {
+    "videoId": "akXpn8xHwkY",
+    "title": "What I Learned About Freedom in a Secret Chinese Prison | Lei Cheng | TED",
+    "durationSeconds": 637
+  },
+  {
+    "videoId": "xesXSrkLLNk",
+    "title": "“I belong to an amazing, vibrant community that uplift each other even when others won’t” #TEDTalks",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "iLhFAWKCE0M",
+    "title": "Forget Hustle Culture. Behold the Artist Corporation | Yancey Strickler | TED",
+    "durationSeconds": 631
+  },
+  {
+    "videoId": "GvG40fNtd2E",
+    "title": "The US Bombed Iran. Now What? | TED Explains the World with Ian Bremmer",
+    "durationSeconds": 2784
+  },
+  {
+    "videoId": "ZAnLIXNbD9M",
+    "title": "Is chaos media the end — or the start of a new era? #TEDTalks",
+    "durationSeconds": 114
+  },
+  {
+    "videoId": "0ZLLoNYEYfs",
+    "title": "Stop Telling Single People to Get Married | Peter McGraw | TED",
+    "durationSeconds": 677
+  },
+  {
+    "videoId": "saTGDtFQAMI",
+    "title": "Can AI Help Us Speak with Wolves? | Jeffrey T. Reed | TED",
+    "durationSeconds": 683
+  },
+  {
+    "videoId": "hxms1R9zy5k",
+    "title": "How to Trust in Times of Uncertainty (w/ Rachel Botsman) | How to Be a Better Human | TED",
+    "durationSeconds": 1956
+  },
+  {
+    "videoId": "plbqT4dBNwo",
+    "title": "Is Your Job Safe from AI? A Career Consultant + a YouTuber Answer | TED Intersections",
+    "durationSeconds": 1612
+  },
+  {
+    "videoId": "KTrSJgM2-xU",
+    "title": "TED Talks Watch Party: Climate Solutions in Motion",
+    "durationSeconds": 7762
+  },
+  {
+    "videoId": "D3I8ZeiLX2s",
+    "title": "Is This the Time of Monsters — or Miracles? | Angus Hervey | TED",
+    "durationSeconds": 637
+  },
+  {
+    "videoId": "dMQHhaHLq7k",
+    "title": "This teen’s simple Reddit question sparked a movement to fight misinformation. #TEDTalks",
+    "durationSeconds": 70
+  },
+  {
+    "videoId": "DEBo0hG8shE",
+    "title": "A Parent’s Guide to Raising Kids After Loss | Andy Laats | TED",
+    "durationSeconds": 601
+  },
+  {
+    "videoId": "gHbzWy-5i3I",
+    "title": "Desire doesn’t just happen – it’s created with intention. #TEDTalks",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "IHrGK3Mu5K4",
+    "title": "How to Build in Space — for Life on Earth | Ariel Ekblaw | TED",
+    "durationSeconds": 642
+  },
+  {
+    "videoId": "n1xXeGokRXA",
+    "title": "Our default wiring is to help. So, why don’t we? #TEDTalks #Compassion",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "qhuZvtb0cbE",
+    "title": "The Future Isn’t Just Coded — It’s Built | Lauren Dunford | TED",
+    "durationSeconds": 643
+  },
+  {
+    "videoId": "WCnqWo3rKmg",
+    "title": "Sometimes your inner voice matters more than others’ advice #TEDIntersections",
+    "durationSeconds": 94
+  },
+  {
+    "videoId": "jHRoBLZ0GMw",
+    "title": "Always Bring Your Whole Self (w/ Heather Havrilesky) | How to Be a Better Human | TED",
+    "durationSeconds": 2163
+  },
+  {
+    "videoId": "leaxVE3qF6g",
+    "title": "A Filmmaker + a Therapist on People-Pleasing | TED Intersections",
+    "durationSeconds": 1559
+  },
+  {
+    "videoId": "G4ecYUNkncE",
+    "title": "Yoshua Bengio — the “godfather” of AI — warns that unregulated AI could be catastrophic. #TEDTalks",
+    "durationSeconds": 94
+  },
+  {
+    "videoId": "vXxBREW8XAI",
+    "title": "How I Make Vegan Food Sexy | Pinky Cole | TED",
+    "durationSeconds": 1098
+  },
+  {
+    "videoId": "LKBiHbU63UE",
+    "title": "A New Lifeline for the World’s Coral Reefs | Theresa Fyffe | TED",
+    "durationSeconds": 519
+  },
+  {
+    "videoId": "y6Sf42fGfuE",
+    "title": "Inventor Palmer Luckey thinks these weapons could prevent WW3. #TEDTalks #AI",
+    "durationSeconds": 123
+  },
+  {
+    "videoId": "d7IVBOBd3BI",
+    "title": "Norse Mythology’s Climate Lessons for the Future | Lauren Fadiman | TED",
+    "durationSeconds": 395
+  },
+  {
+    "videoId": "H7G8Q4m3ULo",
+    "title": "Creativity can help us process A LOT of big feelings. #TEDIntersections #Healing",
+    "durationSeconds": 120
+  },
+  {
+    "videoId": "lbLVjwq_J3o",
+    "title": "The Rise of China's Homegrown Brands — and Why They Matter | Roger Hu | TED",
+    "durationSeconds": 411
+  },
+  {
+    "videoId": "S5cHNgIMJxA",
+    "title": "Ukraine’s surprise drone strike on Russia marks a major milestone in the conflict. #TEDExplains",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "GU2KgpW0SOE",
+    "title": "What the Past can Teach Us (w/ Nate DiMeo) | How to Be a Better Human | TED",
+    "durationSeconds": 1687
+  },
+  {
+    "videoId": "iKdLYuOorE0",
+    "title": "Why Ukraine’s Drone Attack on Russia Changes War Forever | TED Explains the World with Ian Bremmer",
+    "durationSeconds": 2700
+  },
+  {
+    "videoId": "I_bKcljIzU4",
+    "title": "A Doctor + a Cartoonist on Creativity and Healing | TED Intersections",
+    "durationSeconds": 1359
+  },
+  {
+    "videoId": "upTE6wk6ZfE",
+    "title": "How do you cope with heartbreak? @LucasRizzotto #VR #TEDTalks",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "h6gBU7BnQeY",
+    "title": "Can AI Help with the Chaos of Family Life? | Avni Patel Thompson | TED",
+    "durationSeconds": 513
+  },
+  {
+    "videoId": "9tPDGc1-ilw",
+    "title": "In case you need another excuse to hang out with your friends... #TEDTalks #SocialHealth",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "g1KQ9SCKkVk",
+    "title": "The Poetry of Family | Duncan Keegan | TED",
+    "durationSeconds": 589
+  },
+  {
+    "videoId": "7-svUM0cX78",
+    "title": "You Are the Bridge to the Next Generation | Ndinini Kimesera Sikar | TED",
+    "durationSeconds": 566
+  },
+  {
+    "videoId": "Q-EDeUBNqRw",
+    "title": "Want to meet the real you? Take the risk. #TEDIntersections #Confidence",
+    "durationSeconds": 89
+  },
+  {
+    "videoId": "lCB-BmRJsLs",
+    "title": "A Photographer + a Brand Builder on Building Self-Esteem | TED Intersections",
+    "durationSeconds": 1628
+  },
+  {
+    "videoId": "YPQ-jHxcSqc",
+    "title": "How Art Helped Me Grapple with Grief | Navied Mahdavian | TED",
+    "durationSeconds": 485
+  },
+  {
+    "videoId": "30SmyLqZ1vw",
+    "title": "The Role of Art and Forgiveness in Democracy | Marc Bamuthi Joseph and Wendy Whelan | TED",
+    "durationSeconds": 580
+  },
+  {
+    "videoId": "nslELMUyQmA",
+    "title": "Do the robot — literally. #Tech #Robots #TEDTalks",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "WBOtQvqWpcg",
+    "title": "Is This the Future of Media? | Substack Cofounder Hamish McKenzie | TED",
+    "durationSeconds": 662
+  },
+  {
+    "videoId": "qe9QSCF-d88",
+    "title": "The Catastrophic Risks of AI — and a Safer Path | Yoshua Bengio | TED",
+    "durationSeconds": 893
+  },
+  {
+    "videoId": "wYiiQrl8N20",
+    "title": "Are We Still Human If Robots Help Raise Our Babies? | Sarah Blaffer Hrdy | TED",
+    "durationSeconds": 509
+  },
+  {
+    "videoId": "dx-vObCdxRI",
+    "title": "Zero gravity, infinite potential. #TEDTalks",
+    "durationSeconds": 105
+  },
+  {
+    "videoId": "nE1fRDYjwwU",
+    "title": "A Musical Duet with AI Herself | Todd Almond and Donna Murphy | TED",
+    "durationSeconds": 563
+  },
+  {
+    "videoId": "v4ThfAHpMTE",
+    "title": "How to Have a Better Sense of Humor (W/ Dan Harris and Guests) | How to Be a Better Human | TED",
+    "durationSeconds": 1060
+  },
+  {
+    "videoId": "BeUTAFHlKQ0",
+    "title": "Why You Should Be Able to Vote on Your Phone | Bradley Tusk | TED",
+    "durationSeconds": 682
+  },
+  {
+    "videoId": "443yrCLHf8s",
+    "title": "Here’s your sign to enter your polyglot era. #TEDTalks",
+    "durationSeconds": 120
+  },
+  {
+    "videoId": "L_3KmTevD5o",
+    "title": "Why Love Is Harder in a Second Language | Magdalena Hoeller | TED",
+    "durationSeconds": 951
+  },
+  {
+    "videoId": "y6ymtVfKIfI",
+    "title": "Howl’s that for some wild communication? #TEDTalks",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "ZhruqkPeJ6o",
+    "title": "How to Make Climate Stories Impossible to Ignore | Katherine Dunn | TED",
+    "durationSeconds": 594
+  },
+  {
+    "videoId": "3pa3EjAqDXA",
+    "title": "This architect explains how lack of diversity leads to thoughtless, compassionless spaces. #TEDTalks",
+    "durationSeconds": 116
+  },
+  {
+    "videoId": "tpa7eWBoPdg",
+    "title": "Moral Imagination Meets Bold Entrepreneurship | Sitoyo Lopokoiyit and Jacqueline Novogratz | TED",
+    "durationSeconds": 1102
+  },
+  {
+    "videoId": "oTY_r-N49DA",
+    "title": "Why We Need to Rethink Fashion (w/ Diarra Bousso) | How to Be a Better Human | TED",
+    "durationSeconds": 2140
+  },
+  {
+    "videoId": "noVNEeU5CS8",
+    "title": "Photographer Platon says empathy is the secret ingredient for finding a human connection.",
+    "durationSeconds": 111
+  },
+  {
+    "videoId": "Ki5AcnSWbSs",
+    "title": "What If the Climate Movement Felt like a House Party? | Matthew Phillips | TED",
+    "durationSeconds": 523
+  },
+  {
+    "videoId": "eZ1PdfBPyL0",
+    "title": "The Inside Story of Notre-Dame’s Incredible Reconstruction | Philippe Villeneuve | TED",
+    "durationSeconds": 783
+  },
+  {
+    "videoId": "cjG0m9QUF34",
+    "title": "The Delicious Potential of Rescuing Wasted Food | Jasmine Crowe-Houston | TED",
+    "durationSeconds": 833
+  },
+  {
+    "videoId": "IVxXWjbDQXQ",
+    "title": "Table for one? Yes, please. #TEDTalks",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "q5_PrTvNypY",
+    "title": "How to Spot Fake AI Photos | Hany Farid | TED",
+    "durationSeconds": 752
+  },
+  {
+    "videoId": "7Xbm2F64_c0",
+    "title": "The Fire-Breathing Dragon-Horse Sparking Wonder in a City near You | Frédette Lampre | TED",
+    "durationSeconds": 702
+  },
+  {
+    "videoId": "YnailukMUGw",
+    "title": "Artist Doris Mitsch uses photo stacking to cover nature in motion. #TEDTalks",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "dOtN6IQv3uw",
+    "title": "Why Work Won’t Love You Back (and That’s OK) (w/ Sarah Jaffe) | How to Be a Better Human | TED",
+    "durationSeconds": 2152
+  },
+  {
+    "videoId": "DM6UVe5jsxA",
+    "title": "I’ll Probably Lose My Job to AI. Here’s Why That’s OK | Megan J. McArdle | TED",
+    "durationSeconds": 606
+  },
+  {
+    "videoId": "qpVvo3svuJc",
+    "title": "Your immune system has feelings, too. Take care of your body AND your mind. #TEDTalks",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "u0fFIJapsRY",
+    "title": "The Razor-Thin Line Between Contagion and Connection | Dan Taberski | TED",
+    "durationSeconds": 752
+  },
+  {
+    "videoId": "mKkXUV343PQ",
+    "title": "Would you hand over control of your life to an algorithm? #TEDTalks",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "GdVCAcCMqVA",
+    "title": "A Spine-Tingling Dance of Light and Shadow | Tony Testa | TED",
+    "durationSeconds": 158
+  },
+  {
+    "videoId": "LkKOmzdaoH8",
+    "title": "Now that's what I call a built-in drum kit! #TEDTalks",
+    "durationSeconds": 126
+  },
+  {
+    "videoId": "rmASLb_Yn5Y",
+    "title": "Are We Cooked? How Social Media Shapes Language | Adam Aleksic | TED",
+    "durationSeconds": 836
+  },
+  {
+    "videoId": "l8QqI25FBrc",
+    "title": "Could AI be the cure to our loneliness epidemic? #TEDTalk",
+    "durationSeconds": 66
+  },
+  {
+    "videoId": "UbzsTXDvhAQ",
+    "title": "When Is It OK to Be Wrong? (w/ Tenelle Porter) | How to Be a Better Human | TED",
+    "durationSeconds": 1490
+  },
+  {
+    "videoId": "noWh8SSeRCo",
+    "title": "Let’s Get Real About Free Speech | Greg Lukianoff | TED",
+    "durationSeconds": 744
+  },
+  {
+    "videoId": "Dp_MbiueqjI",
+    "title": "Former VP Al Gore debunks “climate realism” and urges action as climate progress happens. #TEDTalks",
+    "durationSeconds": 94
+  },
+  {
+    "videoId": "FvKeHcpps1Y",
+    "title": "The Economic Opportunity Hidden in the Climate Transition | Marielle Remillard | TED",
+    "durationSeconds": 746
+  },
+  {
+    "videoId": "MeWAG1QH5sg",
+    "title": "TED Talks Daily Book Club: Talk to Me | Rich Benjamin | TED",
+    "durationSeconds": 2604
+  },
+  {
+    "videoId": "NlLmAbt7Q9k",
+    "title": "When then entire sky is your canvas, the possibilities are endless. #TEDTalks",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "9tQPo-18jC8",
+    "title": "Dinosaur techniques got a tech upgrade just in time for Jurassic World Rebirth. #TEDTalks",
+    "durationSeconds": 99
+  },
+  {
+    "videoId": "Ztx0Bch3h9s",
+    "title": "Why Climate Action Is Unstoppable — and “Climate Realism” Is a Myth  | Al Gore | TED",
+    "durationSeconds": 1451
+  },
+  {
+    "videoId": "LJop58DzgFs",
+    "title": "Ideas change everything — and we want to hear yours. #TEDTalks",
+    "durationSeconds": 132
+  },
+  {
+    "videoId": "1IAaKLAVysQ",
+    "title": "A New Vision of Healthy Masculinity | Davonte Green | TED",
+    "durationSeconds": 703
+  },
+  {
+    "videoId": "Mq1S5gEztHE",
+    "title": "“Why Great Artists Steal” | How to Be a Better Human | TED",
+    "durationSeconds": 1943
+  },
+  {
+    "videoId": "fkOMupkw5D8",
+    "title": "How to Speak Up — Even When You Don’t Want To | Sarah Crawford-Bohl | TED",
+    "durationSeconds": 712
+  },
+  {
+    "videoId": "eafeQYppKmw",
+    "title": "How Music Helped Me Live Through Long COVID | Joshua Roman | TED",
+    "durationSeconds": 1021
+  },
+  {
+    "videoId": "gssX0xSDb8k",
+    "title": "The Climate Movement Needs New Stories — Here’s Mine | Fenton Lutunatabua | TED",
+    "durationSeconds": 464
+  },
+  {
+    "videoId": "jLkKo9o-jcY",
+    "title": "As AI nears agency, this \"godfather of AI\" warns of the risks and shares a bold plan. #TEDTalks",
+    "durationSeconds": 107
+  },
+  {
+    "videoId": "RX6UMSt1RVQ",
+    "title": "Please relax and try to answer each question honestly... #ZeFrank #TEDTalks",
+    "durationSeconds": 169
+  },
+  {
+    "videoId": "DUfobESjj6s",
+    "title": "The Surprising Power of Your Nature Photos | Scott Loarie | TED",
+    "durationSeconds": 709
+  },
+  {
+    "videoId": "4NzfiiMDtYo",
+    "title": "The Hidden Cost of the Green Transition’s Mineral Rush | Galina Angarova | TED",
+    "durationSeconds": 835
+  },
+  {
+    "videoId": "Zf2UTGOKHKw",
+    "title": "What happens when video game communities go IRL? #TEDTalks",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "m8VTL7jXleg",
+    "title": "Parkour! #TEDTalks",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "ubpwIWAuIxQ",
+    "title": "A little trust in strangers could be your shortcut to stronger connections #TEDTalks",
+    "durationSeconds": 73
+  },
+  {
+    "videoId": "iSUZjXiGHpQ",
+    "title": "A Traditional Job Isn’t the Only Path to Success | Anuj Tanna | TED",
+    "durationSeconds": 737
+  },
+  {
+    "videoId": "whaesnYloMQ",
+    "title": "Why You Should Spend Less Time with Your Kids | Lenore Skenazy | TED",
+    "durationSeconds": 795
+  },
+  {
+    "videoId": "LAjACL6-Yd4",
+    "title": "How to Be More Joyful (W/ Ingrid Fetell Lee) | How to Be a Better Human | TED",
+    "durationSeconds": 1144
+  },
+  {
+    "videoId": "aakITN-2rXc",
+    "title": "The amazing tech powering the fastest hunk of junk in the galaxy. #TEDTalks",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "moZMjD3imN8",
+    "title": "What Does the Future of Art Look Like? | TED Intersections",
+    "durationSeconds": 1489
+  },
+  {
+    "videoId": "K6SB7RTXGAQ",
+    "title": "A small mindset shift can make a big impact #TEDTalks",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "aw59Z8v3LX0",
+    "title": "A Bold Idea to Rebuild the Working Class | Molly Hemstreet | TED",
+    "durationSeconds": 426
+  },
+  {
+    "videoId": "3kkMPD744dY",
+    "title": "A Multigenerational Musical Journey | Yijia Tu | TED",
+    "durationSeconds": 582
+  },
+  {
+    "videoId": "x7kCPs1LwbY",
+    "title": "Lawyer Ian Bassin says authoritarians throughout history have followed these 7-steps #TEDTallks",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "sR21Ysgfpzo",
+    "title": "Want to fill your time with something other than scrolling? Try this exercise to clear your head!",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "kAFBhYRlkZc",
+    "title": "The Missing Piece in the Story of Migration | Sonia Shah and Zeke Hernandez | TED",
+    "durationSeconds": 3491
+  },
+  {
+    "videoId": "gN07gbipMoY",
+    "title": "A Practical Guide to Taking Control of Your Life | Cate Hall | TED",
+    "durationSeconds": 520
+  },
+  {
+    "videoId": "l5A5sa1NoPA",
+    "title": "AI may one day help us eavesdrop on some turtle talk #TEDTalks",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "6cJViq5lGBw",
+    "title": "How to Have Difficult Conversations with Empathy (W/ Katherine May) | How to Be a Better Human | TED",
+    "durationSeconds": 2019
+  },
+  {
+    "videoId": "y0xn1C6ALvo",
+    "title": "The Powerful Promise of Earth’s Harshest Places | Lei Zhang | TED",
+    "durationSeconds": 824
+  },
+  {
+    "videoId": "_LDAnryI0Hw",
+    "title": "If we create a stage for joy, it might just dance into our lives. #TEDTalks",
+    "durationSeconds": 128
+  },
+  {
+    "videoId": "GZKU7TgR6IU",
+    "title": "How Common Knowledge Shapes the World | Steven Pinker | TED",
+    "durationSeconds": 829
+  },
+  {
+    "videoId": "Bq7OK-I4aUs",
+    "title": "4 Beautifully Raw Tunes from “The Healing Project” | Samora Pinderhughes | TED",
+    "durationSeconds": 667
+  },
+  {
+    "videoId": "kDCXC31m7r0",
+    "title": "Walk without distractions. Let your mind and body wander, you might find yourself again. #TEDTalks",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "oBP07G7PL-k",
+    "title": "Meeting in the Middle Isn’t Enough for Today’s Trickiest Debates | Bill Heck & Stephanie Lepp | TED",
+    "durationSeconds": 689
+  },
+  {
+    "videoId": "QQkP9qVM5gI",
+    "title": "When life gets complicated with fear, anger and joy... sometimes all you can do is laugh. #TEDTalks",
+    "durationSeconds": 106
+  },
+  {
+    "videoId": "ZZ0BOEOtD2U",
+    "title": "Is AI Ruining Music? | Dustin Ballard | TED",
+    "durationSeconds": 680
+  },
+  {
+    "videoId": "vWDrFjKHGMY",
+    "title": "How to Love Your Complicated Family (W/ Ashley C. Ford) | How to Be a Better Human | TED",
+    "durationSeconds": 1132
+  },
+  {
+    "videoId": "vhvyid7vVoQ",
+    "title": "The Blueprint for Serving a Million School Lunches — Every Day | Wawira Njiru | TED",
+    "durationSeconds": 569
+  },
+  {
+    "videoId": "erM_s_Dtqvc",
+    "title": "It’s okay to acknowledge things aren’t great — and work to make them better #TEDTalks",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "5GVqOpLDA8c",
+    "title": "How to Turn AI Prompts into Movie Magic | Jason Zada | TED",
+    "durationSeconds": 686
+  },
+  {
+    "videoId": "WknzP23-y_Y",
+    "title": "Let Your Ambition Light You Up — Not Burn You Out | Tarveen Forrester | TED",
+    "durationSeconds": 439
+  },
+  {
+    "videoId": "BP-iMAAZdHQ",
+    "title": "Having a tough time lately? You still deserve to treat yourself with compassion. #TEDTalks",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "5MyCtvSBATI",
+    "title": "The Multidimensional Magic of Modern Maps | Peter Wilczynski | TED",
+    "durationSeconds": 381
+  },
+  {
+    "videoId": "E74FQTMWPVw",
+    "title": "700 Million People Still Live Without Electricity. Here’s the Fix | Jacqueline Novogratz  | TED",
+    "durationSeconds": 778
+  },
+  {
+    "videoId": "Z0PeLwgy_Xo",
+    "title": "What Kids Actually Need Today (w/ Richard Weissbourd) | How to Be a Better Human | TED",
+    "durationSeconds": 1916
+  },
+  {
+    "videoId": "sQvDPZn-F8A",
+    "title": "Whether you love Taylor Swift, Hamilton, or anything in between, this one is for you. 🧡 #TEDTalks",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "zYg6bLCBMxY",
+    "title": "A Small Nation’s Surprising Solution to Unemployment | James Mnyupe | TED",
+    "durationSeconds": 749
+  },
+  {
+    "videoId": "DHO1o5F-pLw",
+    "title": "This artist shares how she trained an AI chatbot from her late grandfather’s archives. #TEDTalks",
+    "durationSeconds": 128
+  },
+  {
+    "videoId": "O29X1Ls8KoA",
+    "title": "Why Does Uncertainty Bother Us So Much? | Adam Kucharski | TED",
+    "durationSeconds": 682
+  },
+  {
+    "videoId": "-0aZ2TmrsX8",
+    "title": "Make no mistake... or do, it might make you famous! #TEDTalks",
+    "durationSeconds": 89
+  },
+  {
+    "videoId": "HYepzb4-FWI",
+    "title": "How I Turned Frustration Into Creative Success | Joshua Schachter | TED",
+    "durationSeconds": 290
+  },
+  {
+    "videoId": "ts0Q_HNo_LA",
+    "title": "An Unexpected Plan for Peace in the Middle East | Nada Majdalani | TED",
+    "durationSeconds": 691
+  },
+  {
+    "videoId": "_8BKbEbwCLE",
+    "title": "Turns out controlling AI is… complicated #TEDTalks",
+    "durationSeconds": 89
+  },
+  {
+    "videoId": "ZdhSeoqPJ1g",
+    "title": "How to Nurture Long-Distance Friendships (W/ Aminatou Sow) | How to Be a Better Human | TED",
+    "durationSeconds": 1086
+  },
+  {
+    "videoId": "OrNqEcNkoF0",
+    "title": "How to Get People to Do What You Want | Barry Sonnenfeld | TED",
+    "durationSeconds": 811
+  },
+  {
+    "videoId": "AJCRcBx3Xpk",
+    "title": "The kids' show that has EVERYONE in their feels. #TEDTalks",
+    "durationSeconds": 126
+  },
+  {
+    "videoId": "-OAP0ho5AUg",
+    "title": "How to Build the 3D World of Your Dreams with a Text Prompt | Kiran Bhat | TED",
+    "durationSeconds": 402
+  },
+  {
+    "videoId": "aZ5Kuowfc4g",
+    "title": "The Jokes AI Won’t Tell | Jena Friedman | TED",
+    "durationSeconds": 509
+  },
+  {
+    "videoId": "MWjm_zvdYdI",
+    "title": "The Miraculous Device That Saved My Farm — and Changed My Life | Josephine Waweru | TED",
+    "durationSeconds": 526
+  },
+  {
+    "videoId": "lGeoH4SaFIo",
+    "title": "The Secret Trick to Improve Your Social Connections | Kasley Killam | How to Be a Better Human | TED",
+    "durationSeconds": 1924
+  },
+  {
+    "videoId": "TEcJJ28Z0IQ",
+    "title": "It’s been 2 years since Hamas’ attack on Isreal and Israel’s devastating response. When will it end?",
+    "durationSeconds": 64
+  },
+  {
+    "videoId": "rb8XyyFes-A",
+    "title": "Inside WWE’s Storytelling Machine | Paul \"Triple H\" Levesque, Patrick Talty | TED",
+    "durationSeconds": 1959
+  },
+  {
+    "videoId": "6E82LDmdnxo",
+    "title": "Inside the Gaza Peace Plan | TED Explains the World with Ian Bremmer",
+    "durationSeconds": 2292
+  },
+  {
+    "videoId": "4iKQj1THwSM",
+    "title": "This doctor figured out how to cure himself — and now he’s using AI to cure others #TEDTalk",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "ACC5KCPRt_U",
+    "title": "Most Countries Fail at Clean Energy. Here’s How Mine Succeeded | Sebastián Kind | TED",
+    "durationSeconds": 692
+  },
+  {
+    "videoId": "tC7ZfO1_x9M",
+    "title": "The Life-Saving Secrets in Your Baby’s DNA | Robert C. Green | TED",
+    "durationSeconds": 665
+  },
+  {
+    "videoId": "n--KABNiV4g",
+    "title": "Your Zip Code Shouldn’t Determine Your Lifespan | Dion Dawson | TED",
+    "durationSeconds": 332
+  },
+  {
+    "videoId": "E9Pfdtp_y24",
+    "title": "Has nature written the ultimate nightmare fuel? #TEDTalks",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "FxpONecbsZQ",
+    "title": "Why We Need to Know Our Lives Matter | Jennifer Wallace | TED",
+    "durationSeconds": 753
+  },
+  {
+    "videoId": "dJIw-hljICY",
+    "title": "The Wonder of Weightlifting | Jaime Seeman | TED",
+    "durationSeconds": 624
+  },
+  {
+    "videoId": "_CkaeM4zN-g",
+    "title": "How to let your kids go – so they can grow | Lenore Skenazy | How to Be a Better Human | TED",
+    "durationSeconds": 2434
+  },
+  {
+    "videoId": "t8AWKLu-hRs",
+    "title": "One speaker from each city will get the chance to speak at TED2026. Who has what it takes? #TEDTalks",
+    "durationSeconds": 73
+  },
+  {
+    "videoId": "O8ocrq7vruY",
+    "title": "How AI can help you supercharge your career #TEDIntersections #Sponsored",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "vd2AklBK-GA",
+    "title": "Can AI Make Us More Human? A Social Psychologist + a Business Leader Answer | TED Intersections",
+    "durationSeconds": 1529
+  },
+  {
+    "videoId": "wb1PFvMZD6c",
+    "title": "Turns out your personality may be more malleable than you think. #TEDTalks",
+    "durationSeconds": 98
+  },
+  {
+    "videoId": "iKWA55i_2eI",
+    "title": "Want to Make a Change? Let Young People Tell Their Stories | Anshul Tewari | TED",
+    "durationSeconds": 584
+  },
+  {
+    "videoId": "SbZfCQWdIDk",
+    "title": "Here are 3 planets where humans might survive (spoiler: don’t start packing yet!). #TEDTalks",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "WDmGAnRIaiA",
+    "title": "The Incredible Secrets Hidden in Your Immune System | Beck Brachman | TED",
+    "durationSeconds": 279
+  },
+  {
+    "videoId": "4fJMAaSJLxQ",
+    "title": "If you want to get people to do what you want, make it seem like it was their idea #TEDTalks",
+    "durationSeconds": 147
+  },
+  {
+    "videoId": "t9RRh_YkALE",
+    "title": "TED Talks Watch Party: Perspectives in Modern Parenting | TED",
+    "durationSeconds": 3809
+  },
+  {
+    "videoId": "XyiPDoCjO4s",
+    "title": "The Fine Art of Fibbing | Athena Kugblenu | TED",
+    "durationSeconds": 519
+  },
+  {
+    "videoId": "htNMTxj_qE8",
+    "title": "Inside a Dark Web Kill List | Carl Miller | TED",
+    "durationSeconds": 880
+  },
+  {
+    "videoId": "aEsikH322n4",
+    "title": "The Autism Spectrum Isn’t What You Think It Is | Chloé Hayden | TED",
+    "durationSeconds": 731
+  },
+  {
+    "videoId": "RfSiAKIRI7U",
+    "title": "Good leadership is about knowing when to step up AND when to step aside. #TEDTalks",
+    "durationSeconds": 118
+  },
+  {
+    "videoId": "FG0dYhiTGLI",
+    "title": "How Do You Turn Setbacks Into Motivation? A Doctor + A Trauma Specialist Answer | TED Intersections",
+    "durationSeconds": 1773
+  },
+  {
+    "videoId": "J5pd_vZYVFk",
+    "title": "Imprisonment gave Lei Cheng a new understanding of freedom and how to live fully. #TEDTalks",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "NYQEeiz-n7I",
+    "title": "The World's First \"Nature Superpower\"s | Ilona Szabó de Carvalho | TED",
+    "durationSeconds": 540
+  },
+  {
+    "videoId": "dvLnIecUNL8",
+    "title": "How to End Factory Farming | Lewis Bollard | TED",
+    "durationSeconds": 677
+  },
+  {
+    "videoId": "Dc-qLbh30D0",
+    "title": "Don’t get fooled by AI — here’s how you can tell what’s real. #TEDTalk",
+    "durationSeconds": 145
+  },
+  {
+    "videoId": "sb34MfJjurc",
+    "title": "How Nearly Dying Helped Me Discover My Own Cure (and Many More) | David Fajgenbaum | TED",
+    "durationSeconds": 841
+  },
+  {
+    "videoId": "qHsXWoW86cc",
+    "title": "Your daily reminder to not let \"perfection\" get in the way of progress! #TEDTalks",
+    "durationSeconds": 62
+  },
+  {
+    "videoId": "CDs2d3dJtYk",
+    "title": "The Case for Making Art When the World Is on Fire | Amie McNee | TED",
+    "durationSeconds": 813
+  },
+  {
+    "videoId": "ESkB4_8YClI",
+    "title": "How to Unlock Your Communication Superpower (W/ Charles Duhigg) | How to Be a Better Human | TED",
+    "durationSeconds": 1957
+  },
+  {
+    "videoId": "Qu6xTcDmEs0",
+    "title": "Broken systems are not inevitable — here’s how to enact change #TEDTalks",
+    "durationSeconds": 82
+  },
+  {
+    "videoId": "bGhSZLdGFEQ",
+    "title": "How Do You Rethink How the World Works? An Entrepreneur + an Engineer Answer | TED Intersections",
+    "durationSeconds": 1470
+  },
+  {
+    "videoId": "vzDaaHfTIcw",
+    "title": "Looking to reduce your spending? Start with some life editing.",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "BzUb5MOysLo",
+    "title": "How Displaced People Are Driving Local Economies | Julienne Oyler | TED",
+    "durationSeconds": 518
+  },
+  {
+    "videoId": "P8ewXLXrTHM",
+    "title": "“The Unprompted,” a Poem That AI Will Never Understand | Salome Agbaroji | TED",
+    "durationSeconds": 301
+  },
+  {
+    "videoId": "0DRTVZn2dyo",
+    "title": "If you want to connect with others — don’t be afraid to be a little messy. #TEDTalks",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "EnbfoFUFm2s",
+    "title": "How AI Could Generate New Life-Forms | Eric Nguyen | TED",
+    "durationSeconds": 703
+  },
+  {
+    "videoId": "UmX4M4Np43A",
+    "title": "300 Years of Classical Music in 18 Minutes | Joshua Bell | TED",
+    "durationSeconds": 1092
+  },
+  {
+    "videoId": "4PVctQgFotE",
+    "title": "Want to create real change with your posts? Ask yourself these 3 questions. #TEDTalks",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "JreonVbDICI",
+    "title": "How to Engage Responsibly on Social Media (w/ Katherine Cross) | How to Be a Better Human | TED",
+    "durationSeconds": 2042
+  },
+  {
+    "videoId": "l5aRf9wj3wg",
+    "title": "Humans are kinder – and robots are more reliable – than we think! #TEDTalks",
+    "durationSeconds": 113
+  },
+  {
+    "videoId": "7z7d3UIMiEY",
+    "title": "How Will New Tech Shape Your Life? A Roboticist + a Political Strategist Answer | TED Intersections",
+    "durationSeconds": 1471
+  },
+  {
+    "videoId": "azW8XQ2FoXM",
+    "title": "Trust in AI starts with the access to shape it #TEDTalks",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "mhLWUjB2ox4",
+    "title": "The Science of Making Fruits and Veggies Last Longer | Jenny Du | TED",
+    "durationSeconds": 710
+  },
+  {
+    "videoId": "EGM-b1bhqkY",
+    "title": "What Sex, Soap and Alcohol Taught Me About Making an Impact | Myriam Sidibe | TED",
+    "durationSeconds": 598
+  },
+  {
+    "videoId": "Wt3E7xSiuxA",
+    "title": "Birds of a feather… FaceTime together! #TEDTalks",
+    "durationSeconds": 119
+  },
+  {
+    "videoId": "R4_trBh25Vk",
+    "title": "The Flourishing Future of Women’s Sports | Kate Johnson | TED",
+    "durationSeconds": 773
+  },
+  {
+    "videoId": "1o7znNK19Pk",
+    "title": "How to Recapture the Joy of the Early Internet | Michael Sun | TED",
+    "durationSeconds": 627
+  },
+  {
+    "videoId": "3cD0AMzflSQ",
+    "title": "How this artist found life — and art — after alcohol",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "OtSwoGuz8sk",
+    "title": "Tax the Rich — and Save the Planet | Esther Duflo | TED",
+    "durationSeconds": 645
+  },
+  {
+    "videoId": "1jWA3mE5o9Y",
+    "title": "How I Broke My Drinking Habit (w/ Edith Zimmerman) | How to Be a Better Human | TED",
+    "durationSeconds": 787
+  },
+  {
+    "videoId": "h3M00JI8Iwo",
+    "title": "The Art of Reading Minds | Oz Pearlman | TED",
+    "durationSeconds": 862
+  },
+  {
+    "videoId": "kNelNGmQ4YM",
+    "title": "A peek inside the minds behind true crime #TEDTalks",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "Qej_ZzMV5_0",
+    "title": "Why Good People Become Bad Bosses | Jamie Woolf and Christopher Bell | TED",
+    "durationSeconds": 719
+  },
+  {
+    "videoId": "Hn1szUVbi-E",
+    "title": "The line between contagion and connection is much thinner than you may realize",
+    "durationSeconds": 111
+  },
+  {
+    "videoId": "ojfZMid20iA",
+    "title": "The Hidden Cost of Buying Gold | Claudia Vega | TED",
+    "durationSeconds": 405
+  },
+  {
+    "videoId": "6OWzmfJVloo",
+    "title": "The Most Powerful Predictor of Team Success | Rafael Chiuzi | TED",
+    "durationSeconds": 917
+  },
+  {
+    "videoId": "1TJViJVSY-0",
+    "title": "When it comes to muscles: Use them before you lose them #HowToBeABetterHuman #TEDTalks",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "2ZIfqLDG_Qs",
+    "title": "The Best Thing That Could Happen to the Energy Industry | Matt Tilleard | TED",
+    "durationSeconds": 770
+  },
+  {
+    "videoId": "2Y3IjmFERcM",
+    "title": "The key to life? Recognize and use the freedom you already have. #TEDTalks",
+    "durationSeconds": 112
+  },
+  {
+    "videoId": "YOryOy1qL00",
+    "title": "How to Use Your Muscles — or Risk Losing Them (W/ Bonnie Tsui) | How to Be a Better Human | TED",
+    "durationSeconds": 791
+  },
+  {
+    "videoId": "yWj33Ud8iag",
+    "title": "Going Viral Taught Me the Internet Is Broken — but Fixable | Deja Foxx | TED",
+    "durationSeconds": 597
+  },
+  {
+    "videoId": "Gt6ZYdhRW5k",
+    "title": "Stop scrolling — it’s time to create! #TEDTalks",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "7kXE9a6i2dM",
+    "title": "Friendly Pizza, UFOs and the Joy of AI-Generated Video | Matan Cohen Grumi | TED",
+    "durationSeconds": 313
+  },
+  {
+    "videoId": "UGjFKRZFJHk",
+    "title": "BTS look at how the real-life TED stage ended up in the new @Disney TRON: ARES movie #TronAres",
+    "durationSeconds": 64
+  },
+  {
+    "videoId": "rDQEwdinjB8",
+    "title": "Here are 6 - 7 words you may already use #TEDTalks",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "DxFZ3ojl9yo",
+    "title": "Inside India’s Astonishing Solar Revolution | Kanika Chawla | TED",
+    "durationSeconds": 546
+  },
+  {
+    "videoId": "1oACvP9XTRM",
+    "title": "This clean energy solution is already live in California! #TEDTalks",
+    "durationSeconds": 120
+  },
+  {
+    "videoId": "n6VzKtEKs3o",
+    "title": "How Your Brain Alters Your Reality (W/ Anil Seth) | How to Be a Better Human | TED",
+    "durationSeconds": 2053
+  },
+  {
+    "videoId": "qGISrbDdL_g",
+    "title": "What Happens When Your Dog Uses the Internet | Ilyena Hirskyj-Douglas | TED",
+    "durationSeconds": 866
+  },
+  {
+    "videoId": "dVCbISK2IIs",
+    "title": "Turns out gains aren’t just for men #TEDTalks",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "NOW7jjBbkb4",
+    "title": "The Big Idea Funding Forest Conservation | Andika Putraditama | TED",
+    "durationSeconds": 556
+  },
+  {
+    "videoId": "aWhWjd3o78A",
+    "title": "Greg Lukianoff says free speech belongs to everyone — or no one. Here’s why. #TEDTalks",
+    "durationSeconds": 141
+  },
+  {
+    "videoId": "GUn0ocX5G-0",
+    "title": "The Emerging Science of Finding Critical Metals | Mfikeyi Makayi | TED",
+    "durationSeconds": 519
+  },
+  {
+    "videoId": "T9BNSjPxeIs",
+    "title": "A Spicy Take On Parenting, Happiness and Sex | Negin Farsad | TED",
+    "durationSeconds": 411
+  },
+  {
+    "videoId": "k-9sQXhHHmk",
+    "title": "Why Building New Proteins from Scratch Is Our New Superpower | David Baker | TED",
+    "durationSeconds": 1841
+  },
+  {
+    "videoId": "hn3vHUpIyhE",
+    "title": "This TED Talk Is Full of Bad Ideas | Gabe Whaley | TED",
+    "durationSeconds": 683
+  },
+  {
+    "videoId": "Pj5jM6MANUo",
+    "title": "How We Took On an Oil Giant — and Won | Melinda Janki | TED",
+    "durationSeconds": 648
+  },
+  {
+    "videoId": "SuaxadRqJpM",
+    "title": "5x TED Speaker Gives You Communication Advice | Julian Treasure | How to Be a Better Human | TED",
+    "durationSeconds": 2029
+  },
+  {
+    "videoId": "uV-uNp0XPrg",
+    "title": "Some exciting news from Chris Anderson on TED’s next chapter #TEDTalks",
+    "durationSeconds": 135
+  },
+  {
+    "videoId": "Ew59SKy181Y",
+    "title": "Are We Heading Toward World War III? | Heni Ozi Cukier | TED",
+    "durationSeconds": 1071
+  },
+  {
+    "videoId": "SjaeHWRUu8o",
+    "title": "Sometimes your worst moments can turn into opportunities for growth #TEDTalks",
+    "durationSeconds": 89
+  },
+  {
+    "videoId": "q_K-l6X2ftU",
+    "title": "What Introverts Wish Everyone Else Knew | Shalewa Sharpe | TED",
+    "durationSeconds": 594
+  },
+  {
+    "videoId": "5siGd7pxJCk",
+    "title": "This city just got a new (huge) neighbor! #TEDTalks",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "deAEKPbpSSY",
+    "title": "Will Climate Change Make Your Home Uninsurable? | Amy Barnes | TED",
+    "durationSeconds": 525
+  },
+  {
+    "videoId": "sa2HbfP1iMg",
+    "title": "The Link Between Evolution and Language | Richard Dawkins | TED",
+    "durationSeconds": 1280
+  },
+  {
+    "videoId": "V2H3M_0i1Fo",
+    "title": "TED Talks Daily Book Club: A Little Daylight Left | Sarah Kay | TED",
+    "durationSeconds": 3128
+  },
+  {
+    "videoId": "mxBSpnE8QzA",
+    "title": "What happens when 2,000 years of ancient history meet today’s ideas? #TEDTalks",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "IKOpcSRxHxQ",
+    "title": "The Grassroots Movement Transforming Public Safety | Aqeela Sherrills | TED",
+    "durationSeconds": 720
+  },
+  {
+    "videoId": "1oOMLr52YSw",
+    "title": "Berry exciting way to help cut food waste #TEDTalks",
+    "durationSeconds": 116
+  },
+  {
+    "videoId": "Tb_3Vtlziuk",
+    "title": "Floating Farms, Sponge Cities and the Climate Solutions Already Working | Harjeet Singh | TED",
+    "durationSeconds": 667
+  },
+  {
+    "videoId": "7jAQlEvb6-c",
+    "title": "Your connection to others is just as important as sleep and exercise #TEDTalks #howtobeabetterhuman",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "P7wNVGLKDL8",
+    "title": "“Marigolds,” a Poem About Wonder | Safiya Sinclair | TED",
+    "durationSeconds": 468
+  },
+  {
+    "videoId": "tSqsZbOaO_8",
+    "title": "Economist Esther Duflo says it’s time to think seriously about getting billionaires to contribute",
+    "durationSeconds": 124
+  },
+  {
+    "videoId": "SjLO9ogmyQU",
+    "title": "3 Tips to Make Your World Beautifully Wild | Isabella Tree | TED",
+    "durationSeconds": 703
+  },
+  {
+    "videoId": "YNeMzfhJC38",
+    "title": "Study this video before for your next night out #TEDTalks",
+    "durationSeconds": 132
+  },
+  {
+    "videoId": "Pry6l7h48ro",
+    "title": "The Thrill of Not Knowing All the Answers | Harini Bhat | TED",
+    "durationSeconds": 473
+  },
+  {
+    "videoId": "JdS4XiNKNWY",
+    "title": "How to Empower the Next Generation of Pilots | Refilwe Ledwaba | TED",
+    "durationSeconds": 402
+  },
+  {
+    "videoId": "MuSvgDpv4Io",
+    "title": "The Brains of Altruistic and Psychopathic People (W/ Abigail Marsh) | How to Be a Better Human | TED",
+    "durationSeconds": 2493
+  },
+  {
+    "videoId": "Hjj7Nv_0--4",
+    "title": "Do you — or someone you know — have ADHD? Here’s @HowtoADHD to help",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "sleiarPAgKc",
+    "title": "The Roots of Resilience | Misty Copeland | TED",
+    "durationSeconds": 739
+  },
+  {
+    "videoId": "Bl-vPf_IAoA",
+    "title": "We’re Doing AI All Wrong. Here’s How to Get It Right | Sasha Luccioni  | TED",
+    "durationSeconds": 632
+  },
+  {
+    "videoId": "wXBjUxe4Lvk",
+    "title": "How to Raise Confident Kids in an Age of Anxiety | Lenore Skenazy | TED",
+    "durationSeconds": 2493
+  },
+  {
+    "videoId": "RXwQ7_hlL3g",
+    "title": "How to Unlock Your Flirting Superpowers | Francesca Hogi | TED",
+    "durationSeconds": 642
+  },
+  {
+    "videoId": "Fvg9sUgqbXc",
+    "title": "“If we can control our food, we can control our future” - Sean Sherman #TEDTalks",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "7WurcdAkX-A",
+    "title": "So sometimes money really is the answer #TEDTalks",
+    "durationSeconds": 82
+  },
+  {
+    "videoId": "C1TqBmezv20",
+    "title": "What If You Could Talk to Your Favorite Character in a Movie? | Christoph Lassner | TED",
+    "durationSeconds": 857
+  },
+  {
+    "videoId": "A6hzHov7Kng",
+    "title": "Why Venting Doesn’t Help You Deal with Anger | Jennifer Parlamis | TED",
+    "durationSeconds": 903
+  },
+  {
+    "videoId": "ueaAdCKDCH0",
+    "title": "Odds are you’ve never eaten at a Native American restaurant — this chef is trying to change that",
+    "durationSeconds": 101
+  },
+  {
+    "videoId": "CfPFU4UaaRA",
+    "title": "How to Measure the Planet’s Heartbeat | Yadvinder Malhi | TED",
+    "durationSeconds": 879
+  },
+  {
+    "videoId": "PFhhtot1q1M",
+    "title": "Join local Atlanta food creator Tiery Reese for a taste of the Alps in Atlanta at Avize #TEDTalks",
+    "durationSeconds": 102
+  },
+  {
+    "videoId": "p0IpMqUZKbs",
+    "title": "How to Eat with Awareness and Purpose (w/ Sean Sherman) | How to Be a Better Human | TED",
+    "durationSeconds": 924
+  },
+  {
+    "videoId": "cesx1-XaLb8",
+    "title": "Are people born wicked? Or do they have wickedness thrust upon them? #TEDTalk",
+    "durationSeconds": 114
+  },
+  {
+    "videoId": "zxKFzT6GjUk",
+    "title": "The Secret Language of Cells — and How to “Speak” It | Chris Bahl | TED",
+    "durationSeconds": 220
+  },
+  {
+    "videoId": "CwfEXpoD7_I",
+    "title": "US politics are polarized — these two governors believe there’s a better way forward #TEDTalks",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "YQRt9TfpetM",
+    "title": "How Video Games Can Power Up Your Parenting | Hannah Boquet | TED",
+    "durationSeconds": 857
+  },
+  {
+    "videoId": "BZflSdA4Q44",
+    "title": "Wicked’s Costume Designer on How to Tell Stories with Clothes | Paul Tazewell | TED",
+    "durationSeconds": 648
+  },
+  {
+    "videoId": "Iq7avsVBI0k",
+    "title": "“A person can never be broken” - Hugh Herr #TEDTalks",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "pWKggqO3VlY",
+    "title": "How Satellites Are Supporting Farmers Across Africa | Catherine Nakalembe | TED",
+    "durationSeconds": 285
+  },
+  {
+    "videoId": "W8djC9GoZVw",
+    "title": "The Surprising Science of Adolescent Brains | Jennifer Pfeifer | TED",
+    "durationSeconds": 913
+  },
+  {
+    "videoId": "NVwOsm1edT8",
+    "title": "Whether you leave or stay, your hometown is a part of you #TEDTalks #HowToBeABetterHuman",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "nxsrS049xaY",
+    "title": "How to Pull the Emergency Brake on Global Warming | Mohamed A. Sultan | TED",
+    "durationSeconds": 737
+  },
+  {
+    "videoId": "xGJe_eRw2Ao",
+    "title": "How to Love Your Hometown (w/ Hanif Abdurraqib and Sarah Kay) | How to Be a Better Human | TED",
+    "durationSeconds": 868
+  },
+  {
+    "videoId": "TK-rXyBPX7o",
+    "title": "Greetings from sunny, sandy Sydney for stop #5 of the TEDx Global Idea Search #TEDTalks",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "_V6C0SFEUO8",
+    "title": "Touchdown! The Flag Football Movement Is Here | Troy Vincent Sr. | TED",
+    "durationSeconds": 795
+  },
+  {
+    "videoId": "3913fIgBFhs",
+    "title": "What’s Behind the Rise of Far Right Politics in Europe | Daphne Halikiopoulou | TED",
+    "durationSeconds": 556
+  },
+  {
+    "videoId": "KIAsBq64hnQ",
+    "title": "The New Era of AI-Powered Protein Design | César Ramírez-Sarmiento | TED",
+    "durationSeconds": 274
+  },
+  {
+    "videoId": "9j-Gx0ALrrY",
+    "title": "These tips from biopsychologist @MaryPoffenroth can help you reset #TEDTalks",
+    "durationSeconds": 146
+  },
+  {
+    "videoId": "9o1HPx__P9w",
+    "title": "Two US Governors — a Democrat and a Republican — on Why There’s Hope for Democracy | On the Spot",
+    "durationSeconds": 1165
+  },
+  {
+    "videoId": "decHzqG2NX8",
+    "title": "How We’re Turning Pollution into Toys, Toothpaste and More | Xu Hao | TED",
+    "durationSeconds": 782
+  },
+  {
+    "videoId": "ikwtW-E9WLs",
+    "title": "Try these tips to strengthen your relationship #TEDTalks #howtobeabetterhuman",
+    "durationSeconds": 118
+  },
+  {
+    "videoId": "DgEVtZJPCwQ",
+    "title": "Mumbai was so much fun — color, creativity… and more cats than I could count! #TEDTalks",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "nJ4RtT0T_BA",
+    "title": "Relationship Advice from 50+ Years of Marriage (w/ The Gottmans) | How to Be a Better Human | TED",
+    "durationSeconds": 979
+  },
+  {
+    "videoId": "v4XF8rqEyRA",
+    "title": "A Pastry Chef Works His Chocolatier Magic — Live | Amaury Guichon | TED",
+    "durationSeconds": 758
+  },
+  {
+    "videoId": "7cMcjrtK-Do",
+    "title": "TED Talks Daily Book Club: Intentional Ambition | Rha Goddess | TED",
+    "durationSeconds": 3309
+  },
+  {
+    "videoId": "E71_WehXapM",
+    "title": "@ThereIRuinedIt shares how he uses AI to create remixes you didn’t know you needed #TEDTalks",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "PNoQzQwbTFU",
+    "title": "Inside the Mind of a Newborn Baby | Claudia Passos Ferreira | TED",
+    "durationSeconds": 564
+  },
+  {
+    "videoId": "OKu0yybmtkc",
+    "title": "How AI Is Discovering Athletes That Human Scouts Miss | Richard Felton-Thomas | TED",
+    "durationSeconds": 659
+  },
+  {
+    "videoId": "5gm15Q4iSZg",
+    "title": "TACO vs. FAFO: Geopolitical expert Ian Bremmer on acronyms describing Trump #TEDTalks",
+    "durationSeconds": 158
+  },
+  {
+    "videoId": "wx2Ml3vWHys",
+    "title": "Why I Spend Hours Sketching in Conflict Zones | George Butler | TED",
+    "durationSeconds": 280
+  },
+  {
+    "videoId": "rh4lXr8JCNQ",
+    "title": "2026 is a tipping point year, says political scientist Ian Bremmer. #TEDTalks",
+    "durationSeconds": 122
+  },
+  {
+    "videoId": "fStLnjrZF_c",
+    "title": "How AI Is Unearthing Hidden Scientific Knowledge | Sara Beery | TED",
+    "durationSeconds": 772
+  },
+  {
+    "videoId": "dqVfnC_muaI",
+    "title": "The Biggest Global Risks for 2026 | TED Explains the World with Ian Bremmer",
+    "durationSeconds": 3045
+  },
+  {
+    "videoId": "1E4rBf6oNvM",
+    "title": "“I can love myself and want to make a change for the better” – Gabriella Lascano #TEDTalks",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "cJfKqKEyw1o",
+    "title": "AI is Coming for Your Job. Now What? | Vlad Tenev | TED",
+    "durationSeconds": 928
+  },
+  {
+    "videoId": "ZLq1SbBQRWY",
+    "title": "Sitting All Day Is Killing You — Here’s What to Do About It | Manoush Zomorodi | TED",
+    "durationSeconds": 631
+  },
+  {
+    "videoId": "RX0ik6nWc58",
+    "title": "The way you talk to yourself shapes your well-being — here's how to harness it. #TEDTalks",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "L2OVDJ6cDJc",
+    "title": "What It’s Really Like to Win the Lottery | Matt Pitcher | TED",
+    "durationSeconds": 694
+  },
+  {
+    "videoId": "YrZqeJLJzpM",
+    "title": "Parkour can help you rediscover your sense of play and adventure #TEDTalks",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "3bbSk3899Po",
+    "title": "The Ethical Case for Taking On the Climate Crisis | Al Gore, Wanjira Mathai and Karenna Gore | TED",
+    "durationSeconds": 3401
+  },
+  {
+    "videoId": "_ozdlc2ouYc",
+    "title": "This Revolutionary Moment in Space Exploration | Chris Hadfield | TED",
+    "durationSeconds": 2443
+  },
+  {
+    "videoId": "0R_CJjGRX7o",
+    "title": "The Army of Autonomous Robots Restoring Nature | Tom Chi | TED",
+    "durationSeconds": 1134
+  },
+  {
+    "videoId": "X3EK8cR6Tas",
+    "title": "Try this framework with your 2026 goals #TEDTalks",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "rGOTVtXkaRs",
+    "title": "Can AI Uplift Entrepreneurs That Traditional Banks Reject? | Mercedes Bidart | TED",
+    "durationSeconds": 915
+  },
+  {
+    "videoId": "kND0iGErBk8",
+    "title": "Will AI Make Humans Useless? | Akram Awad | TED",
+    "durationSeconds": 692
+  },
+  {
+    "videoId": "eJUFdB_TN0U",
+    "title": "What if we could have AI and *not* harm the planet? #TEDTalks",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "3lPnN8omdPA",
+    "title": "How to Stop AI from Killing Your Critical Thinking | Advait Sarkar | TED",
+    "durationSeconds": 895
+  },
+  {
+    "videoId": "Mz1ItbiNqxw",
+    "title": "How the Fridge Changed Food | Nicola Twilley | TED",
+    "durationSeconds": 713
+  },
+  {
+    "videoId": "oea9KJtKejI",
+    "title": "Family bonding, but make it co-op mode #TEDTalks",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "ZkXrTHpnQrQ",
+    "title": "Why Are People Starting to Sound Like ChatGPT? | Adam Aleksic | TED",
+    "durationSeconds": 312
+  },
+  {
+    "videoId": "cbPMxoe00gE",
+    "title": "Which toy did you love as a kid? #TEDTalks",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "741j2Jne1EM",
+    "title": "An Art Movement Built on Ancestral Wisdom | Jackie Lebo | TED",
+    "durationSeconds": 808
+  },
+  {
+    "videoId": "yI_Zm4p-6g0",
+    "title": "Struggling communities need bold new ways to grow wealth #TEDTalks",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "AbmQFGTyJKA",
+    "title": "4 Hard Truths About Capitalism and Climate | Steve Howard | TED",
+    "durationSeconds": 916
+  },
+  {
+    "videoId": "ChDw2Vd_bBE",
+    "title": "“The Minister of Loneliness” | Sarah Kay | TED",
+    "durationSeconds": 281
+  },
+  {
+    "videoId": "J1WIKUd13D0",
+    "title": "When you stop living by others’ rules, you create your own #TEDTalks",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "kIf8MjwS1Po",
+    "title": "3 Simple Ways to Build Stronger Relationships at Work | Alyssa Birnbaum | TED",
+    "durationSeconds": 903
+  },
+  {
+    "videoId": "tum_5LyL0Q4",
+    "title": "You don’t need a spaceship to study these creatures! #TEDTalks",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "pp8vdZdNl2A",
+    "title": "Is the AI Bubble About to Burst? | Henrik Zeberg | TED",
+    "durationSeconds": 1028
+  },
+  {
+    "videoId": "Uyx8vYm9Og0",
+    "title": "Checking the time never tasted this good! #TEDTalks",
+    "durationSeconds": 100
+  },
+  {
+    "videoId": "Kx6txsLiUT4",
+    "title": "Everything You Need to Know About AI Agents | Swami Sivasubramanian | TED",
+    "durationSeconds": 1113
+  },
+  {
+    "videoId": "97IwoIqBCZk",
+    "title": "Extinction is starting to look a little less permanent. #TEDTalks",
+    "durationSeconds": 124
+  },
+  {
+    "videoId": "hZMaiUsIQog",
+    "title": "How to Talk Truthfully About Black History | Clint Smith | How to Be a Better Human | TED",
+    "durationSeconds": 1230
+  },
+  {
+    "videoId": "TM179asvB3Y",
+    "title": "9 countries, 9 speakers. One last stop: Buenos Aires. #TEDTalks",
+    "durationSeconds": 83
+  },
+  {
+    "videoId": "S_GuLdbMveQ",
+    "title": "How to See (and Stop) Deforestation from Space | Tasso Azevedo | TED",
+    "durationSeconds": 587
+  },
+  {
+    "videoId": "gsTYBRC0iys",
+    "title": "How We Built Watch Duty, the Lifesaving Wildfire Alert App | John Mills | TED",
+    "durationSeconds": 334
+  },
+  {
+    "videoId": "rEJhJj0eLm4",
+    "title": "Could this be a solution for humans in a world with more AI? #TEDTalks",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "Y54XtvEzI8I",
+    "title": "Could We Detect Breast Cancer with a Fingerprint? | Simona Francese | TED",
+    "durationSeconds": 750
+  },
+  {
+    "videoId": "XsC-PNXXv0s",
+    "title": "If hearing your voice in a video makes you cringe, this might be the reason #TEDTalks",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "ptiYMxOVgRs",
+    "title": "The Daily Practice That Could Rewire Your Brain | Timm Chiusano | TED",
+    "durationSeconds": 543
+  },
+  {
+    "videoId": "p8Ed8pDlAmM",
+    "title": "How AI Can Solve Its Own Energy Crisis | Varun Sivaram | TED",
+    "durationSeconds": 777
+  },
+  {
+    "videoId": "UOIKYvl558w",
+    "title": "A swipe of your finger could one day save your life #TEDTalks",
+    "durationSeconds": 102
+  },
+  {
+    "videoId": "vE2_KZH8fDQ",
+    "title": "Why I Attempt the World’s Most Dangerous Stunts | Michelle Khare | TED",
+    "durationSeconds": 754
+  },
+  {
+    "videoId": "F63iukJiwiY",
+    "title": "How ballerina Misty Copeland transformed adversity into legacy #TEDTalks",
+    "durationSeconds": 134
+  },
+  {
+    "videoId": "STUwbUCEtUw",
+    "title": "These AI Devices Protect Nature in Real Time | Juan M. Lavista Ferres | TED",
+    "durationSeconds": 482
+  },
+  {
+    "videoId": "7onAN_t68t0",
+    "title": "How Climate Shocks Could Break the Economy | Edmond Rhys Jones | TED",
+    "durationSeconds": 688
+  },
+  {
+    "videoId": "zSMcLEZgEeE",
+    "title": "The AI-Generated Intimacy Crisis | Bryony Cole | TED",
+    "durationSeconds": 857
+  },
+  {
+    "videoId": "zQY0zf9-WXI",
+    "title": "How to Make AI a Force for Good in Climate | Manoush Zomorodi and Amen Ra Mashariki | TED",
+    "durationSeconds": 678
+  },
+  {
+    "videoId": "bGgBQ1cz0LQ",
+    "title": "A good coach will help you break your actions down AND build them back up again #TEDTalks",
+    "durationSeconds": 67
+  },
+  {
+    "videoId": "u2zdQyWlxDw",
+    "title": "The Missing Piece in Climate Action (It’s Not What You Think) | Yi Li | TED",
+    "durationSeconds": 488
+  },
+  {
+    "videoId": "LFE5VzUlsWQ",
+    "title": "Is this the cost of creating for likes and shares? #TEDTalks",
+    "durationSeconds": 66
+  },
+  {
+    "videoId": "sxE8VSn7E8o",
+    "title": "The Award for Best Comedy Wildlife Photo Goes to… | Tom Sullam | TED",
+    "durationSeconds": 438
+  },
+  {
+    "videoId": "g83Xl4-mvF8",
+    "title": "The Most Important Virtue for a Good Life | Meghan Sullivan | TED",
+    "durationSeconds": 522
+  },
+  {
+    "videoId": "iOTCsXd38Ng",
+    "title": "What if plastic didn’t last forever? #TEDTalks",
+    "durationSeconds": 113
+  },
+  {
+    "videoId": "d1yfb93beSI",
+    "title": "How to Introduce Yourself — and Get Hired | Rebecca Okamoto | TED",
+    "durationSeconds": 569
+  },
+  {
+    "videoId": "yrVtEkCC8uY",
+    "title": "These ads could encourage people to think twice before buying #TEDTalks",
+    "durationSeconds": 89
+  },
+  {
+    "videoId": "an6ZM0iCGQw",
+    "title": "Let’s Build AI Data Centers in Space | Philip Johnston | TED",
+    "durationSeconds": 723
+  },
+  {
+    "videoId": "bA9xGDsQADo",
+    "title": "Today’s athletes ARE built different #TEDTalks",
+    "durationSeconds": 62
+  },
+  {
+    "videoId": "kryWR7QNBkc",
+    "title": "What Successful Negotiators Do Differently | Kathryn Valentine | TED",
+    "durationSeconds": 483
+  },
+  {
+    "videoId": "c7rtbTnmnzI",
+    "title": "“When you get rejected in life ... consider the possibilities.” #TEDTalks",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "HtzG2AoahAo",
+    "title": "What Gets Lost When We Treat Conversations Like Transactions | Khaya Dlanga | TED",
+    "durationSeconds": 858
+  },
+  {
+    "videoId": "-CAzAfDhbwU",
+    "title": "Is Inviting Everyone to the Meeting Holding Back Global Cooperation?  | Qahir Dhanani | TED",
+    "durationSeconds": 641
+  },
+  {
+    "videoId": "vkHuZY-x5DA",
+    "title": "Ustopias invite us into a collective imagination where everyone has what they need to thrive #TED",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "7IYKojMhBy4",
+    "title": "The Surprisingly Simple Reason Teams Fail | Tessa West | TED",
+    "durationSeconds": 936
+  },
+  {
+    "videoId": "roc73qEYhXY",
+    "title": "This unsung hero inside your body saves you more than you know! #TEDTalks",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "X564_fIhp_0",
+    "title": "How to Become a K-pop Superstar — in 7 Minutes | Charlene Kaye | TED",
+    "durationSeconds": 482
+  },
+  {
+    "videoId": "VoPDKjFHIDU",
+    "title": "Silence, the Universal Medicine | Pico Iyer | TED",
+    "durationSeconds": 660
+  },
+  {
+    "videoId": "VFY6NTaw9mM",
+    "title": "Do you have aphantasia, hyperphantasia — or something in between? #TEDTalks",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "YBH8rQv4aTQ",
+    "title": "This Is How Kids Should Be Learning with AI | Priya Lakhani | TED",
+    "durationSeconds": 659
+  },
+  {
+    "videoId": "Mqk_j_248MU",
+    "title": "A vision for school that prioritizes real-world problem solving, instead of teaching to test #TED",
+    "durationSeconds": 139
+  },
+  {
+    "videoId": "E74vI_Nrn4k",
+    "title": "The Spiritual Wisdom We Need for a Planet in Crisis | Tariq Al-Olaimy | TED",
+    "durationSeconds": 835
+  },
+  {
+    "videoId": "LsM8fyov0iI",
+    "title": "Why Your Blood Should Flow Like Ketchup | Sean Farrington | TED",
+    "durationSeconds": 609
+  },
+  {
+    "videoId": "IuzK04m-Px4",
+    "title": "Flag football’s debut at the 2028 Olympics may be a turning point #TEDTalks",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "VA2hdDoSM4s",
+    "title": "How to Communicate with Your Dog, from a Westminster Champion | Jennifer Crank | TED",
+    "durationSeconds": 899
+  },
+  {
+    "videoId": "E6oZzu_ui0E",
+    "title": "As you scroll, remember to ask yourself, \"How am I being influenced?\"",
+    "durationSeconds": 66
+  },
+  {
+    "videoId": "vsMqvHqnRUs",
+    "title": "Ahead of Skyscraper Live, hear the story behind Alex Honnold’s free solo at El Capitan #TEDTalks",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "aWGu4owdXrM",
+    "title": "What I Learned from Cooking My Way Across a Continent | Dieuveil Malonga | TED",
+    "durationSeconds": 329
+  },
+  {
+    "videoId": "ojttMNOW6zM",
+    "title": "Can You Picture Things in Your Mind? I Can’t | Alex Rosenthal | TED",
+    "durationSeconds": 464
+  },
+  {
+    "videoId": "nCSexSgcIuI",
+    "title": "The first 3 words Matthew McConaughey ever said on film became his forever catchphrase #TEDTalks",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "81slns4Dte8",
+    "title": "This Movie Changes Every Time You Watch It | Gary Hustwit | TED",
+    "durationSeconds": 708
+  },
+  {
+    "videoId": "DY2ojllbpFc",
+    "title": "The Trap of Win-Lose Thinking (and How to Escape It) | John Mackey | TED",
+    "durationSeconds": 616
+  },
+  {
+    "videoId": "w-kKNnnqOHk",
+    "title": "We know the internet affects mental health — but what about your body? #TEDTalks",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "tKO9WgPZ0Bc",
+    "title": "Why Are We Demolishing Homes During a Housing Crisis? | Olaf Grawert | TED",
+    "durationSeconds": 777
+  },
+  {
+    "videoId": "uqWh9Qt6Wc4",
+    "title": "Yes, use AI, but don’t let it use you #TEDTalks",
+    "durationSeconds": 98
+  },
+  {
+    "videoId": "ZYIUnmrkmRI",
+    "title": "TED Talks Daily Book Club: Meditations for Mortals | Oliver Burkeman | TED",
+    "durationSeconds": 3293
+  },
+  {
+    "videoId": "C6lTGCAitXg",
+    "title": "The Brilliance of Bacteria (and How They Combat Waste) | Patricia Aymà Maldonado | TED",
+    "durationSeconds": 393
+  },
+  {
+    "videoId": "2-7U8bLjlJE",
+    "title": "It turns out you really are what you eat #TEDTalks",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "P1rPiSxYagM",
+    "title": "AI’s Next Frontier Isn’t Where You Might Expect | Hardy Pemhiwa | TED",
+    "durationSeconds": 888
+  },
+  {
+    "videoId": "Kc6cvBFoEzA",
+    "title": "Your best friend counts as a life partner, too #TEDTalks",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "Bej0gPnHoTY",
+    "title": "How a Teddy Bear Company Outpaced Tech Giants | Sharon Price John | TED",
+    "durationSeconds": 673
+  },
+  {
+    "videoId": "2pPPJbnZOtQ",
+    "title": "How Ibogaine Could Treat Depression and Anxiety | Nolan Williams | TED",
+    "durationSeconds": 894
+  },
+  {
+    "videoId": "t5BqFmvHRtc",
+    "title": "Looking at the world with appreciation may help you on your hardest days #TEDTalks",
+    "durationSeconds": 110
+  },
+  {
+    "videoId": "-iGbPbAaqLs",
+    "title": "Schools Urgently Need a Redesign. Here’s How | Aylon Samouha | TED",
+    "durationSeconds": 561
+  },
+  {
+    "videoId": "K5NEEAr-D6Q",
+    "title": "Scared to try something new? Daredevil @MichelleKhare says embrace an amateur’s mindset #TEDTalks",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "1O9WjWzvz9I",
+    "title": "\"You cannot have democracy if people are not free.\" – Leopoldo López #TEDTalks",
+    "durationSeconds": 146
+  },
+  {
+    "videoId": "SFwaMcQDngY",
+    "title": "Exploring the ocean isn’t as easy as TV and movies make it look #TEDTalks",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "YJc-3AGX1JA",
+    "title": "How to Make Your Idea Unforgettable | London | TED Idea Search",
+    "durationSeconds": 2786
+  },
+  {
+    "videoId": "YsWrw83zktY",
+    "title": "Why I Want to Bring Lions Back to My Village | Seif Hamisi | TED",
+    "durationSeconds": 583
+  },
+  {
+    "videoId": "21U0jTwBKIc",
+    "title": "The 6 Essential Ingredients of Loving Relationships | Sara Nasserzadeh | TED",
+    "durationSeconds": 568
+  },
+  {
+    "videoId": "pdRWeK9f02w",
+    "title": "1 Thing You Can Do Today to Be Happier | Sonja Lyubomirsky | TED",
+    "durationSeconds": 300
+  },
+  {
+    "videoId": "WwO7FF-8vTU",
+    "title": "It’s time to make the math start mathing #TEDTalks",
+    "durationSeconds": 83
+  },
+  {
+    "videoId": "ONbhYtN-lhQ",
+    "title": "\"FEEL LOVE\" / \"POSER\" |  PARTYOF2 | TED",
+    "durationSeconds": 346
+  },
+  {
+    "videoId": "ZwBd3rHJvqU",
+    "title": "Can you put the pieces together? Test your deduction skills with Pixellence, a new game from TED.",
+    "durationSeconds": 118
+  },
+  {
+    "videoId": "_sacpXvkO-M",
+    "title": "9 People Compete to Be the Next TED Speaker | Lagos | TED Idea Search",
+    "durationSeconds": 2792
+  },
+  {
+    "videoId": "ryca2RwoUQI",
+    "title": "The Tiny Organisms Transforming Farming | Karsten Temme | TED",
+    "durationSeconds": 626
+  },
+  {
+    "videoId": "6xIEpiISflw",
+    "title": "The Brilliance of Bridges and Roads That Repair Themselves | Mark Miodownik | TED",
+    "durationSeconds": 594
+  },
+  {
+    "videoId": "YEsIvFHdvj0",
+    "title": "How many hours = a great TED Talk? Here’s how these speakers prepped for the TED Idea Search",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "eFow2QcUtyE",
+    "title": "How to Capture Your Audience’s Attention | Athens | TED Idea Search",
+    "durationSeconds": 2892
+  },
+  {
+    "videoId": "3yGSaeOUHik",
+    "title": "A Surprisingly Effective Way to Fight Misinformation | Dave Jorgenson | TED",
+    "durationSeconds": 755
+  },
+  {
+    "videoId": "edveydG99a0",
+    "title": "The weight that women hold — literally and metaphorically — is endless. #IWD2026 #TED",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "isNtk11Z3I4",
+    "title": "A Songwriting Battle with My AI Clone | Jason \"Poo Bear\" Boyd | TED",
+    "durationSeconds": 1992
+  },
+  {
+    "videoId": "sV-r08N3Ros",
+    "title": "“Stripped of the emotional component, fear is simply information”  @MichelleKhare  #TEDTalks",
+    "durationSeconds": 113
+  },
+  {
+    "videoId": "rIg-Zt7bFHY",
+    "title": "My Year Living with a Robot | Emily Kate Genatowski | TED",
+    "durationSeconds": 831
+  },
+  {
+    "videoId": "g4Ot9E0KZoQ",
+    "title": "Are you smarter than the password wizard? Test your trivia skills with our new game: Cheat Sheet.",
+    "durationSeconds": 134
+  },
+  {
+    "videoId": "wqbFUpnZTDA",
+    "title": "The Idea That Surprised Us All | Mumbai | TED Idea Search",
+    "durationSeconds": 2738
+  },
+  {
+    "videoId": "KW0kDxU7LEg",
+    "title": "What Ancestral Intelligence Can Teach Us About AI | Nanjira Sambuli | TED",
+    "durationSeconds": 463
+  },
+  {
+    "videoId": "nIwdqAQRxGA",
+    "title": "Could This Idea from Sydney Change Your Life? | TED Idea Search",
+    "durationSeconds": 2625
+  },
+  {
+    "videoId": "qOmc640nJWY",
+    "title": "In Defense of Hip-Hop | Roland Fryer | TED",
+    "durationSeconds": 777
+  },
+  {
+    "videoId": "fs1M94c5AI4",
+    "title": "AI intimacy already here. How do humans deal? #TEDTalks",
+    "durationSeconds": 109
+  },
+  {
+    "videoId": "s5P3EYUN1Zo",
+    "title": "Why Can’t We Better Prepare for Extreme Weather? | Catherine Nakalembe | TED",
+    "durationSeconds": 563
+  },
+  {
+    "videoId": "Qcz_GJyD-3E",
+    "title": "The Attack on Iran — Why Now? | TED Explains the World with Ian Bremmer",
+    "durationSeconds": 2666
+  },
+  {
+    "videoId": "RDSwjEbU4P8",
+    "title": "These bitty bots roll, jump — and even pulse like a beating heart #TEDTalks",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "d4vMetEtv0k",
+    "title": "The Case for Spending More Time with Your Friends | Rhaina Cohen | TED",
+    "durationSeconds": 2772
+  },
+  {
+    "videoId": "aMB8JWgejIw",
+    "title": "How Competition Is Stifling AI Breakthroughs | Llion Jones | TED",
+    "durationSeconds": 961
+  },
+  {
+    "videoId": "tFRW7qXlyn0",
+    "title": "Could you win the office spelling bee? Test your skills with Spellcheck, the latest game from TED.",
+    "durationSeconds": 101
+  },
+  {
+    "videoId": "Dn9Svqhwgmk",
+    "title": "TED Idea Search — 9 Cities, 1 Main Stage | Premiering Tuesday, March 3",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "qDTMeR4n2b8",
+    "title": "What Happened When I Started Measuring My Life Every Day | Chris Musser | TED",
+    "durationSeconds": 627
+  },
+  {
+    "videoId": "Xlc_ALDWc0Q",
+    "title": "How to Power the World 24/7 — Without Oil | Cindy Taff | TED",
+    "durationSeconds": 575
+  },
+  {
+    "videoId": "lRXkSn4pUyU",
+    "title": "How to Raise Kids Who Can Handle Hard Things | Kathryn Hecht | TED",
+    "durationSeconds": 1005
+  },
+  {
+    "videoId": "awoBwmq6n2A",
+    "title": "Making pizza in the Matrix is what really sealed the Honmoon #TEDTalks",
+    "durationSeconds": 124
+  },
+  {
+    "videoId": "0JXeAM_5xq8",
+    "title": "Are You Spending Your Money Wisely? | Wolfgang Schnellbaecher | TED",
+    "durationSeconds": 617
+  },
+  {
+    "videoId": "oOq5jwlZx24",
+    "title": "These objects are trillions of kilometers away and 10 billion times the mass of our sun #TEDTalks",
+    "durationSeconds": 156
+  },
+  {
+    "videoId": "7ZdPKEf-LXA",
+    "title": "What Losing Everything Taught Me About Resilience | Jane Marie Chen | TED",
+    "durationSeconds": 560
+  },
+  {
+    "videoId": "MIN4fPWhLJ4",
+    "title": "Think you can get through the gridlock faster? Test your skills with our brand new game: Rush Hour",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "DQOB6o3bzBI",
+    "title": "The Language You’re Fluent in — but Forgot How to Hear | Louis VI | TED",
+    "durationSeconds": 1044
+  },
+  {
+    "videoId": "xCUN-gfnoBc",
+    "title": "\"Collective intelligence requires a broader reimagining of technology and democracy\" #TEDTalks",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "L12cMGUsf1Y",
+    "title": "The Purity Test That’s Killing Clean Energy | Riddhima Yadav | TED",
+    "durationSeconds": 532
+  },
+  {
+    "videoId": "jnPfz0WXLIM",
+    "title": "3 Possible Futures for AI — Which Will We Choose? | Alvin W. Graylin | TED",
+    "durationSeconds": 626
+  },
+  {
+    "videoId": "vWI54OyP7WI",
+    "title": "How many stories have been lost throughout history? #TEDTalks",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "a0Zif2aG0gM",
+    "title": "The Art (and Science) of Stop-Motion Animation | Brian McLean | TED",
+    "durationSeconds": 1049
+  },
+  {
+    "videoId": "8ZIeAVrgs4o",
+    "title": "I Taught Rats to Drive. They Taught Me to Enjoy the Ride | Kelly Lambert | TED",
+    "durationSeconds": 841
+  },
+  {
+    "videoId": "hd8H5A1WxM0",
+    "title": "Even if you’re not a gardener, its time to get your hands a little dirty #TEDTalks",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "7rzYDM6vMtI",
+    "title": "How I Created OpenClaw, the Breakthrough AI Agent | Peter Steinberger | TED",
+    "durationSeconds": 1056
+  },
+  {
+    "videoId": "N1X7vMp9DZ4",
+    "title": "The World's First AI TED Talk",
+    "durationSeconds": 208
+  },
+  {
+    "videoId": "9g6t1ql67ic",
+    "title": "A Plan to Stop AI from Automating Our Decline | Gina Raimondo | TED",
+    "durationSeconds": 952
+  },
+  {
+    "videoId": "-w38xDCwPYk",
+    "title": "Professor Meghan Sullivan explains how she made asking questions into a career #TEDTalks",
+    "durationSeconds": 101
+  },
+  {
+    "videoId": "6pITvnRpIvg",
+    "title": "11 People Had an Idea — Now They’re on the TED Stage | LIVE from TED2026!",
+    "durationSeconds": 6684
+  },
+  {
+    "videoId": "uzlDEWVKjLI",
+    "title": "The Sneaky Language Tricks Cults Use to Influence You | Amanda Montell | TED",
+    "durationSeconds": 355
+  },
+  {
+    "videoId": "geyky0zwj3c",
+    "title": "How to Find Your Purpose (W/ Yara Shahidi) | How to Be a Better Human | TED",
+    "durationSeconds": 2332
+  },
+  {
+    "videoId": "j9SBb-jN0dA",
+    "title": "Introducing: The Khan TED Institute. Here’s a special note from Sal Khan with more info",
+    "durationSeconds": 70
+  },
+  {
+    "videoId": "weZQQVxPRIA",
+    "title": "What I Got Wrong About Changing the World | Malala Yousafzai | TED",
+    "durationSeconds": 704
+  },
+  {
+    "videoId": "aaYxRcPu2lY",
+    "title": "“The future belongs not to those who control resources, but to those who build and share technology”",
+    "durationSeconds": 119
+  },
+  {
+    "videoId": "kEhRi1tFlhs",
+    "title": "Announcing the Khan TED Institute",
+    "durationSeconds": 384
+  },
+  {
+    "videoId": "Ojk3QV5U5Jc",
+    "title": "3 Things I Wish I Knew When I Was Broke | Vivian Tu | TED",
+    "durationSeconds": 561
+  },
+  {
+    "videoId": "TNPSGk-NXoM",
+    "title": "Stop chasing chemistry — and start seeking this #TEDTalks",
+    "durationSeconds": 139
+  },
+  {
+    "videoId": "FvV8vMV105E",
+    "title": "4 Relationship Traps That Lead to Burnout | Eric Quintane | TED",
+    "durationSeconds": 992
+  },
+  {
+    "videoId": "pCDO1wHY9H8",
+    "title": "Could exposing kids to their fears help them thrive later on in life? #TEDTalks",
+    "durationSeconds": 114
+  },
+  {
+    "videoId": "lXifoci-Upo",
+    "title": "What to Do When You’re Told There’s Nothing Left to Try | David Fajgenbaum, Kiah Williams | TED",
+    "durationSeconds": 1721
+  },
+  {
+    "videoId": "49zF4kZYtlI",
+    "title": "Being surrounded by puppies all day and helping people in need? Talk about a DREAM job! #TEDTalks",
+    "durationSeconds": 111
+  },
+  {
+    "videoId": "zj1gx0yrz8o",
+    "title": "Which Idea Wins Over 4,000 People? | Amman | TED Idea Search",
+    "durationSeconds": 2610
+  },
+  {
+    "videoId": "Qa0G_7RJ2go",
+    "title": "How to Confront Your Inner Critic (W/ Anu Gupta) | How to Be a Better Human | TED",
+    "durationSeconds": 2225
+  },
+  {
+    "videoId": "BEHkJUeSxO8",
+    "title": "Fake news is everywhere — @DaveJorgenson says respond with a punchline #TEDTalks",
+    "durationSeconds": 117
+  },
+  {
+    "videoId": "DWZzQI24Qhs",
+    "title": "Is Luck Random — or Can You Cultivate It? | Christian Busch | TED",
+    "durationSeconds": 769
+  },
+  {
+    "videoId": "upwFLq7KOv8",
+    "title": "Jermaine Dupri on the Art of Making a Hit | On the Spot | TED",
+    "durationSeconds": 661
+  },
+  {
+    "videoId": "zZ1YMArLl0Y",
+    "title": "Boys experience more violence when they’re young than you think. Here’s how things change #TEDTalks",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "93ocNhHyGVo",
+    "title": "The New Science of Eyewitness Memory | John Wixted | TED",
+    "durationSeconds": 1044
+  },
+  {
+    "videoId": "Upz0RbC0Yxk",
+    "title": "\"Autism is not a disease; it's just another way of thinking\" #TEDTalks",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "YibgtQOdbs8",
+    "title": "How a Viral Choreographer Makes His Moves | Sean Bankhead | TED",
+    "durationSeconds": 400
+  },
+  {
+    "videoId": "i3CA9osjYPo",
+    "title": "The Story You’re Not Hearing About AI Data Centers | Ayșe Coskun | TED",
+    "durationSeconds": 718
+  },
+  {
+    "videoId": "altQuGQpA3U",
+    "title": "Studying the universe for a living? Sounds like a pretty big job #TEDTalks",
+    "durationSeconds": 102
+  },
+  {
+    "videoId": "TSeQZgXipmM",
+    "title": "The best free comedy show may be in your backyard #TEDTalks",
+    "durationSeconds": 114
+  },
+  {
+    "videoId": "SFzh4Nln164",
+    "title": "How to Change Someone’s Perspective | Buenos Aires | TED Idea Search",
+    "durationSeconds": 2561
+  },
+  {
+    "videoId": "ipazFIrVsJY",
+    "title": "The Controversial Climate Tool Funding Real Change | Sandeep Roy Choudhury | TED",
+    "durationSeconds": 536
+  },
+  {
+    "videoId": "o_P0zoGqOYA",
+    "title": "How to Be a Great Listener | Maegan Stephens, Nicole Lowenbraun | TED",
+    "durationSeconds": 707
+  },
+  {
+    "videoId": "iMxR5pqqGIQ",
+    "title": "Have you heard of aphantasia? Here’s what it is — and how to know if you have it #TEDTalks",
+    "durationSeconds": 83
+  },
+  {
+    "videoId": "jDZVd7rjZas",
+    "title": "The Pressure That Makes Olympians Perform Worse | Dominique Condo | TED",
+    "durationSeconds": 715
+  },
+  {
+    "videoId": "6DV_6-4gWd8",
+    "title": "Babies may seem oblivious — but their minds are actually hard at work. #TEDTalks",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "7UGkIOGkbKU",
+    "title": "The Doctor on a Mission to Build a Healthier South Sudan | Yohanis Riek | TED",
+    "durationSeconds": 406
+  },
+  {
+    "videoId": "TLWN46VXsz4",
+    "title": "If you want to learn how to better evaluate information, practice is key. #TEDTalks",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "o0AMK3wFK9E",
+    "title": "How to Make Your Idea Impossible to Ignore | Chicago | TED Idea Search",
+    "durationSeconds": 2769
+  },
+  {
+    "videoId": "J-FzqolS5Q4",
+    "title": "3 Habits to Practice Curiosity — and Escape Your Phone | Nayeema Raza | TED",
+    "durationSeconds": 313
+  },
+  {
+    "videoId": "CBoSHnbDSmI",
+    "title": "What does your city do best? These TEDx speakers share their ideas— and how you can share yours, too",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "IXfcJykvT3M",
+    "title": "What Makes an Idea Stick? | Singapore | TED Idea Search",
+    "durationSeconds": 2576
+  },
+  {
+    "videoId": "eY5QRvBx9iI",
+    "title": "What Would Your “Deathbed Self” Tell You Today? | Lauren Deeley | TED",
+    "durationSeconds": 380
+  },
+  {
+    "videoId": "eR3IsKVLorg",
+    "title": "What You Know That AI Doesn’t | Priyanka Vergadia | TED",
+    "durationSeconds": 560
+  },
+  {
+    "videoId": "QyI7-6F3p04",
+    "title": "Turns out you *should* be taking work less seriously #TEDTalks",
+    "durationSeconds": 94
+  },
+  {
+    "videoId": "lX2V8p-hByE",
+    "title": "Will AI Take Your Job in the Next 10 Years? Wrong Question | Vinciane Beauchene | TED",
+    "durationSeconds": 738
+  },
+  {
+    "videoId": "ai51iK5X1B8",
+    "title": "Did you know: The same tech that drills for oil and gas can be used to tap into clean energy?",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "C81xJ3OioB8",
+    "title": "A Different Way to Measure Success in Health Care | Andrew Bastawrous | TED",
+    "durationSeconds": 377
+  },
+  {
+    "videoId": "T3Ug-54Y5G0",
+    "title": "You know it’s your girl #TEDTalks",
+    "durationSeconds": 109
+  },
+  {
+    "videoId": "Gqy1E5piq1w",
+    "title": "Waymo’s Case for a Driverless Future | Tekedra Mawakana, Sal Khan | TED",
+    "durationSeconds": 1155
+  },
+  {
+    "videoId": "C18aaP4lvUk",
+    "title": "Why Humans Should Merge with AI | D. Scott Phoenix | TED",
+    "durationSeconds": 724
+  },
+  {
+    "videoId": "7LaRQqTunXQ",
+    "title": "But the gag is: Are you really *living*? #TEDTalks",
+    "durationSeconds": 170
+  },
+  {
+    "videoId": "BR7xdT_Xi5U",
+    "title": "Why Most News Isn't Worth Your Attention | TED Explains the World with Ian Bremmer",
+    "durationSeconds": 3071
+  },
+  {
+    "videoId": "RvzgUtjCxRw",
+    "title": "How I Set Myself Free | Keke Palmer | TED",
+    "durationSeconds": 777
+  },
+  {
+    "videoId": "DyHGGbmtmz8",
+    "title": "“I taught rats to drive cars, but they taught me to enjoy the ride” #TEDTalks",
+    "durationSeconds": 116
+  },
+  {
+    "videoId": "4Ba-OKPbqJU",
+    "title": "East African Sound Meets Cosmic Trap | Akoth Jumadi and Mr. Lu | TED",
+    "durationSeconds": 484
+  },
+  {
+    "videoId": "aDGaUWkioqk",
+    "title": "This might be hard to swallow, but your favorite snacks are on the line #TEDTalks",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "5CvlKCBrPHI",
+    "title": "The Accidental Brilliance of Makeshift Signs | Kate Canales | TED",
+    "durationSeconds": 467
+  },
+  {
+    "videoId": "ix7zi1s2uD0",
+    "title": "The secret to better conversations? Stop waiting for your turn to speak #TEDTalks",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "BmXvb1UOhgY",
+    "title": "Love, Intimacy and Connection in the Age of AI | Bryony Cole | TED",
+    "durationSeconds": 2632
+  },
+  {
+    "videoId": "e7pyS6wca0s",
+    "title": "Many experts think conscious AI is an inevitability. Neuroscientist Anil Seth thinks they’re wrong.",
+    "durationSeconds": 107
+  },
+  {
+    "videoId": "a4sq1CKPl0E",
+    "title": "5 Practical Ways to Take Control of Your Life | Jim VandeHei | TED",
+    "durationSeconds": 655
+  },
+  {
+    "videoId": "UbBOq-J9JpY",
+    "title": "Yes, Winnie the Moo *is* in this TED Talk #TEDTalks @mayahiga",
+    "durationSeconds": 82
+  },
+  {
+    "videoId": "g3M3WaixeOw",
+    "title": "What Really Won the Trillion-Dollar Supreme Court Case | Neal Kumar Katyal | TED",
+    "durationSeconds": 1092
+  },
+  {
+    "videoId": "UiiR5MwI2wI",
+    "title": "Want to get better at listening (and speaking)? Try this trick from Julian Treasure #TEDTalks",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "-YwzCOVeLEE",
+    "title": "The Wildlife Sanctuary You Can Visit from Anywhere | Maya Higa | TED",
+    "durationSeconds": 569
+  },
+  {
+    "videoId": "wnM-6D2LGdg",
+    "title": "Stress Resets, the Ultimate Mental Health Hack | Jenny Taitz | TED",
+    "durationSeconds": 631
+  },
+  {
+    "videoId": "y19QYpIgubk",
+    "title": "A future living with robots isn’t science fiction — it’s practical, messy and already here #TEDTalks",
+    "durationSeconds": 126
+  },
+  {
+    "videoId": "rweUKs3vBV4",
+    "title": "The Art and Science of Wine Tasting | Qian Janice Wang | TED",
+    "durationSeconds": 920
+  },
+  {
+    "videoId": "CQ2s6x5N39U",
+    "title": "Not all superheroes wear capes. Some hand out books! #TEDTalks",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "tJV-vdbZ388",
+    "title": "Why AI Isn’t Going to Become Conscious | Anil Seth | TED",
+    "durationSeconds": 898
+  },
+  {
+    "videoId": "zBMEHPjRNeg",
+    "title": "“We are all looking for a sense of purpose and community” #TEDTalks",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "FfyMZejIgv8",
+    "title": "I Let DaddyGPT Parent My Kids. Here’s What I Learned | Stephen Remedios | TED",
+    "durationSeconds": 672
+  },
+  {
+    "videoId": "wfgvZgsCaZg",
+    "title": "What if we tracked how much the richest people give, not just what they make? #TEDTalks",
+    "durationSeconds": 94
+  },
+  {
+    "videoId": "93I_CRPhKFM",
+    "title": "My Bank Called In the Middle of My TED Talk | Mike Albo | TED",
+    "durationSeconds": 345
+  },
+  {
+    "videoId": "I7HaQoORYGQ",
+    "title": "Even the galaxy far, far away runs on curiosity #TEDTalks",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "kRfg5ZISJZ4",
+    "title": "How to Make Transportation Quieter, Cleaner and Cheaper | Doreen Orishaba | TED",
+    "durationSeconds": 672
+  },
+  {
+    "videoId": "4OFjfCGXBJU",
+    "title": "The U.S. workforce was not built for the AI disruption, but there’s still time to prepare #TEDTalks",
+    "durationSeconds": 108
+  },
+  {
+    "videoId": "oCtLmeo56Jo",
+    "title": "The Nurse Who Can Smell Parkinson’s | Joy Milne | TED",
+    "durationSeconds": 1078
+  },
+  {
+    "videoId": "N1AplwGeDRQ",
+    "title": "When you can’t push any further, something has to shift #TEDTalks",
+    "durationSeconds": 107
+  },
+  {
+    "videoId": "76_9x4YyFyQ",
+    "title": "Why Pursuing Happiness Makes You … Less Happy | Emily Esfahani Smith | TED",
+    "durationSeconds": 2241
+  },
+  {
+    "videoId": "5e0ujKe66vM",
+    "title": "What Kosovo Can Teach the World About Freedom | Vjosa Osmani Sadriu | TED",
+    "durationSeconds": 1048
+  },
+  {
+    "videoId": "QbYhnEIoO5Q",
+    "title": "How to make sure your IRL is *actually* IRL",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "2fYU50qbkHk",
+    "title": "Joy Will Find You — If You Let It | David Larbi | TED",
+    "durationSeconds": 306
+  },
+  {
+    "videoId": "EScRNw6ta7Y",
+    "title": "OpenClaw’s Peter Steinberger envisions a world where anyone — and everyone — can create AI agents",
+    "durationSeconds": 106
+  },
+  {
+    "videoId": "y8cusdjYXdo",
+    "title": "Conservation: A Love Story | Elsaphan Njora | TED",
+    "durationSeconds": 521
+  },
+  {
+    "videoId": "utR1XtXKBw8",
+    "title": "3 Ways to Create a Truly Original Design | Lope Gutierrez-Ruiz | TED",
+    "durationSeconds": 356
+  },
+  {
+    "videoId": "TZx1PUuilAY",
+    "title": "The relationship between farmers and the sun just got an upgrade #TEDTalks",
+    "durationSeconds": 99
+  },
+  {
+    "videoId": "CtcY3uofOe8",
+    "title": "Why the World Is Still Not Built for Women | Virginia Santy | TED",
+    "durationSeconds": 805
+  },
+  {
+    "videoId": "B6N16qPudqw",
+    "title": "Feeling like progress is impossible? You’re not alone — here’s how to keep pushing forward #TEDTalks",
+    "durationSeconds": 118
+  },
+  {
+    "videoId": "OS4wHmKtH-Q",
+    "title": "Beware the Power of Prediction | Carissa Véliz | TED",
+    "durationSeconds": 729
+  },
+  {
+    "videoId": "RU29F0iETHA",
+    "title": "Leadership starts with showing up — online and offline #TEDTalks",
+    "durationSeconds": 108
+  },
+  {
+    "videoId": "pUiXx3pDHo8",
+    "title": "How to Tune Your Inner Voice | Rhonda Ross, Daniel Alexander Jones | TED",
+    "durationSeconds": 1197
+  },
+  {
+    "videoId": "gP8YbvfmU9s",
+    "title": "A Cheat Sheet for Accelerating Clean Energy | Kimiko Hirata | TED",
+    "durationSeconds": 587
+  },
+  {
+    "videoId": "6MockBZj-Uk",
+    "title": "Monarch butterfly migrations are a spectacle — and a key indicator of ecosystem health #TEDTalks",
+    "durationSeconds": 106
+  },
+  {
+    "videoId": "6McT9-EbEPw",
+    "title": "The Problem with Billionaires — and the Debut of True Net Worth | Randall Lane | TED",
+    "durationSeconds": 500
+  },
+  {
+    "videoId": "6ZqqJZJ8WH4",
+    "title": "The 6 Eras of NBA Fashion — from Restrained to Radical | Mitchell S. Jackson | TED",
+    "durationSeconds": 565
+  },
+  {
+    "videoId": "yJnDXanonUo",
+    "title": "Finance doesn’t have to feel like a foreign language, says @YourRichBFF #TEDTalks",
+    "durationSeconds": 145
+  },
+  {
+    "videoId": "rKgtm81yi94",
+    "title": "What Sitting All Day Does to Your Brain and Body | Keith Diaz | TED",
+    "durationSeconds": 684
+  },
+  {
+    "videoId": "ZmZkQ-YvM1g",
+    "title": "What was your favorite toy growing up? #TEDTalks",
+    "durationSeconds": 109
+  },
+  {
+    "videoId": "GTCZz_QWBKs",
+    "title": "Welcome to My AI Surrealist World | David Szauder | TED",
+    "durationSeconds": 418
+  },
+  {
+    "videoId": "q4QDN6YbxSA",
+    "title": "What's your 5-9 after your 9-5? #TEDTalks",
+    "durationSeconds": 108
+  },
+  {
+    "videoId": "HaTL8icSZzk",
+    "title": "When Afghanistan fell again, here’s how Malala Yousafzai rediscovered hope #TEDTalks",
+    "durationSeconds": 104
+  },
+  {
+    "videoId": "1U4dPKq6mJ4",
+    "title": "Origami, the Ancient Art Form Solving Modern Problems | Miles Wu | TED",
+    "durationSeconds": 372
+  },
+  {
+    "videoId": "t2FoxBZD3tI",
+    "title": "You Know This Song (but the Orchestra Doesn’t) | Jacob Collier & VSO School of Music Orchestra | TED",
+    "durationSeconds": 867
+  },
+  {
+    "videoId": "ytyzsAV4pxA",
+    "title": "Hint: It’s all you need #TEDTalks",
+    "durationSeconds": 180
+  },
+  {
+    "videoId": "TEZPOfbWOCU",
+    "title": "One person’s “bad idea” may be another’s new obsession #TEDTalks",
+    "durationSeconds": 101
+  },
+  {
+    "videoId": "kz-I5zIGbj4",
+    "title": "Why I Love My Bad Days | Alexi Pappas | TED",
+    "durationSeconds": 311
+  },
+  {
+    "videoId": "0GXLzUF1pZg",
+    "title": "Reddit’s Model for a Better Internet | Steve Huffman | TED",
+    "durationSeconds": 785
+  },
+  {
+    "videoId": "boc6LIL0R1o",
+    "title": "You can always count on people to fill in the blanks #TEDTalks",
+    "durationSeconds": 134
+  },
+  {
+    "videoId": "VEZQ0YYM5UM",
+    "title": "How to Invite Creativity into Your Life | Rose B. Simpson, Debbie Millman | TED",
+    "durationSeconds": 1066
+  },
+  {
+    "videoId": "COQfEqEKI94",
+    "title": "The reality is that democracies depend on one another to survive #TEDTalks",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "v8uO7W9Qhx4",
+    "title": "A Brilliant Blend of Ballet, Hip-Hop and African Dance | Ghetto Classics Dance | TED",
+    "durationSeconds": 435
+  },
+  {
+    "videoId": "R9W29MiYnxQ",
+    "title": "“Drawing has taught me how to create my own rules.” #TEDTalks",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "Xr9VqRawjAU",
+    "title": "The Human Cell Is Wildly Complex. Can AI Decode It? | Silvana Konermann | TED",
+    "durationSeconds": 1025
+  },
+  {
+    "videoId": "W23KEEcFqTk",
+    "title": "How Community Notes Reduce Viral Misinformation | Keith Coleman, Jay Baxter | TED",
+    "durationSeconds": 1627
+  },
+  {
+    "videoId": "H9fwa6kn28c",
+    "title": "\"Take a hike\" just got a whole new meaning #TEDTalks",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "NVTI-y5CeY8",
+    "title": "Clearing tropical forests is also a threat to human health and well-being #TEDTalks",
+    "durationSeconds": 73
+  },
+  {
+    "videoId": "EbN-jQztAgA",
+    "title": "Reimagining Traditional Architecture for Modern Needs | Riyad Joucka | TED",
+    "durationSeconds": 493
+  },
+  {
+    "videoId": "z-WfDn_0AWE",
+    "title": "How to Build a Career You Love | Bill Gurley | TED",
+    "durationSeconds": 761
+  },
+  {
+    "videoId": "VBnocNg69o4",
+    "title": "The Rising Cost of Dissent in America | Miles Taylor | TED",
+    "durationSeconds": 1167
+  },
+  {
+    "videoId": "Sn30jYOXn2M",
+    "title": "You are more creative than you think! #TEDTalks",
+    "durationSeconds": 67
+  },
+  {
+    "videoId": "tNOYoJib0XE",
+    "title": "You don’t need a special talent to learn a new language #TEDTalks",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "Kxw_e4bDxoQ",
+    "title": "The Invisible Infrastructure in the Sky | Adam Bry | TED",
+    "durationSeconds": 575
+  },
+  {
+    "videoId": "6bIORK0izg4",
+    "title": "Why the Best Ideas Come from Play | Maxwell Pearce | TED",
+    "durationSeconds": 596
+  },
+  {
+    "videoId": "gr5Tn05IpzA",
+    "title": "\"Make it for yourself and enjoy the feeling of actually making.\" #TEDTalks",
+    "durationSeconds": 67
+  },
+  {
+    "videoId": "0ADHiUWjo6c",
+    "title": "Can Play Change the World? | Play@TED Full Event | TED, the LEGO Group and the LEGO Foundation",
+    "durationSeconds": 19549
+  },
+  {
+    "videoId": "iNOdbWtKd9E",
+    "title": "Predictions don't just forecast the future — they shape it #TEDTalks",
+    "durationSeconds": 89
+  },
+  {
+    "videoId": "lBx86QE4k3s",
+    "title": "The Love of My Life (and Why I Need to Share It with You) | Ann Patchett | TED",
+    "durationSeconds": 894
+  },
+  {
+    "videoId": "xrV2cTj6E_g",
+    "title": "We’re Keeping the Ocean Wild — and You Can Join Us | Sylvia A. Earle | TED",
+    "durationSeconds": 910
+  },
+  {
+    "videoId": "6tC4NLu20Cc",
+    "title": "How to Google Your Symptoms Without Freaking Out | John Whyte | TED",
+    "durationSeconds": 853
+  },
+  {
+    "videoId": "_SGX6V2Civo",
+    "title": "Your new playlist might be right outside your door #TEDTalks",
+    "durationSeconds": 105
+  },
+  {
+    "videoId": "OAIlucguNzY",
+    "title": "How to Give Feedback That Lands | Renee St Jacques | TED",
+    "durationSeconds": 765
+  },
+  {
+    "videoId": "DH9L7vJ03DE",
+    "title": "How Screens Stole Childhood — and How to Get It Back | Jonathan Haidt | TED",
+    "durationSeconds": 1106
+  },
+  {
+    "videoId": "i-iQr3gj5XA",
+    "title": "The library isn’t just for books — it’s a gateway to your community",
+    "durationSeconds": 62
+  },
+  {
+    "videoId": "4io0nAtQ_fY",
+    "title": "Sharing your truth may just help others find theirs. #TEDTalks",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "BI3TXc1WtJ8",
+    "title": "The Missing Ingredient in Every Peace Deal | Hiba Qasas | TED",
+    "durationSeconds": 753
+  },
+  {
+    "videoId": "nGuYas7G3q4",
+    "title": "A Whale’s-Eye-View of the Ocean | Eric Stackpole | TED",
+    "durationSeconds": 312
+  },
+  {
+    "videoId": "kQCQwMaSzV8",
+    "title": "This might just be the *messiest* TED Talk of all time #TEDTalks",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "fKsB92bvQI4",
+    "title": "Why You Should Keep a List of What Makes You Laugh | Chris Duffy  | TED",
+    "durationSeconds": 3427
+  },
+  {
+    "videoId": "sTlVExOY3VU",
+    "title": "What happens when you invite @MarkRober to give a TED Talk? He blows something up, of course! #TED",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "xjmUzxEPJeM",
+    "title": "The Fleeting Euphoria of Success | Debbie Millman | TED",
+    "durationSeconds": 474
+  },
+  {
+    "videoId": "myjZrpMVLRE",
+    "title": "The Simple Habit for a Happier Social Life | Nicholas Epley | TED",
+    "durationSeconds": 855
+  },
+  {
+    "videoId": "7iEiEEzzogU",
+    "title": "Here’s why letting people know they matter is vital #TEDTalks",
+    "durationSeconds": 66
+  },
+  {
+    "videoId": "RDFGkBE2O50",
+    "title": "Mark Rober’s $60 Million Science Experiment | TED",
+    "durationSeconds": 861
+  },
+  {
+    "videoId": "cGZwLEoAx0U",
+    "title": "How to Live with Your Biggest Regret | Gregg Ward | TED",
+    "durationSeconds": 668
+  },
+  {
+    "videoId": "-Z-Miko0nrQ",
+    "title": "How I Built a Machine That Feeds Millions | Felix Brooks-church | TED",
+    "durationSeconds": 696
+  },
+  {
+    "videoId": "btRVIeprWWY",
+    "title": "What 3D Scanning the Aftermath of the LA Fires Revealed | Nonny de la Peña | TED",
+    "durationSeconds": 634
+  },
+  {
+    "videoId": "8W3_ifwVwKY",
+    "title": "Your thoughts can stay— you just stop wrestling them. #TEDTalks",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "MIgbq4217n4",
+    "title": "Your body is build for movement — so make it a part of your day #TEDTalks",
+    "durationSeconds": 93
+  },
+  {
+    "videoId": "EUKbVj2iiSE",
+    "title": "Inside Dubai’s Mission to Build the City of the Future | His Excellency Khalfan Belhoul | TED",
+    "durationSeconds": 749
+  },
+  {
+    "videoId": "P4-3XTiiogo",
+    "title": "The Iran war has cost billions — but its toll goes far beyond the global economy says @ianbremmer",
+    "durationSeconds": 77
+  },
+  {
+    "videoId": "fOTD04cjKPo",
+    "title": "How to Escape the Smartphone Doom Loop | Larz May, Elise Hu | TED",
+    "durationSeconds": 888
+  },
+  {
+    "videoId": "DyzXwiyr1Fo",
+    "title": "Two Wars, No Clear Exit Plan. Now What? | TED Explains the World with Ian Bremmer",
+    "durationSeconds": 2296
+  },
+  {
+    "videoId": "5e37ZT3SQbk",
+    "title": "Why AI Is an Even Bigger Deal Than You Think | Reed Hastings | TED",
+    "durationSeconds": 985
+  },
+  {
+    "videoId": "w24zeYdwnXU",
+    "title": "How to Stand Out in the Ocean of AI Slop | Mick Mahler | TED",
+    "durationSeconds": 455
+  },
+  {
+    "videoId": "BsqFxyU37HY",
+    "title": "If you want more people to read, read books yourself #TEDTalks",
+    "durationSeconds": 119
+  },
+  {
+    "videoId": "xHr18GEJqck",
+    "title": "Why AI Will Never Replace a Great Teacher | Matt Wu | TED",
+    "durationSeconds": 700
+  },
+  {
+    "videoId": "nNIKazY6094",
+    "title": "Want to make a difference? Try this #TEDTalks",
+    "durationSeconds": 64
+  },
+  {
+    "videoId": "FGRTMRjtj3U",
+    "title": "D. Scott Phoenix thinks instead of fearing of AI, we should embrace it completely #TEDTalks",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "X5rOzZq2Ce8",
+    "title": "How to Raise Kids Who Question AI | Randi Williams | TED",
+    "durationSeconds": 821
+  },
+  {
+    "videoId": "POySLLhF2_c",
+    "title": "Turns out, your brain is freestyling daily #TEDTalks",
+    "durationSeconds": 105
+  },
+  {
+    "videoId": "57afWpv-9u4",
+    "title": "The Invisible Threat Taking Away Our Brightest Minds | Drew McCartor | TED",
+    "durationSeconds": 591
+  },
+  {
+    "videoId": "dEBhiP1yZZY",
+    "title": "No more panicking when someone says, “Tell me about yourself”",
+    "durationSeconds": 132
+  },
+  {
+    "videoId": "S7tJbGWDis0",
+    "title": "You Have More Power Than You Realize | Idea Knock Down | TED",
+    "durationSeconds": 727
+  },
+  {
+    "videoId": "_JlQOnnEwxc",
+    "title": "The Kind of AI We Actually Need | Van Jones | TED",
+    "durationSeconds": 960
+  },
+  {
+    "videoId": "WY-jr1m3xq8",
+    "title": "The Case for Making Art in a Crisis | Yiyun Kang | TED",
+    "durationSeconds": 737
+  },
+  {
+    "videoId": "qWD0hHvsDLk",
+    "title": "Life Lessons from the DJ Booth | ELEW | TED",
+    "durationSeconds": 421
+  },
+  {
+    "videoId": "v0BiDmPloBs",
+    "title": "Can a Camera on Every Corner Make Us Safer? | Garrett Langley | TED",
+    "durationSeconds": 912
+  },
+  {
+    "videoId": "pLVtKlyHKoQ",
+    "title": "These praying mantises are unbe-leaf-able #TEDTalks",
+    "durationSeconds": 71
+  },
+  {
+    "videoId": "ZX5nTV8lwr0",
+    "title": "How Surveillance Tech Erodes Your Privacy | Jen Golbeck | TED",
+    "durationSeconds": 659
+  },
+  {
+    "videoId": "q8JktBmHGvc",
+    "title": "Turns out, your body has a much broader definition of “stimulation” than you might think #TEDTalks",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "oLOFkOxoPaU",
+    "title": "Is Opting Out of Politics a Political Choice? | Idea Knock Down | TED",
+    "durationSeconds": 748
+  },
+  {
+    "videoId": "o2PLCTzEo_E",
+    "title": "The Unexpected Wonders of My Son’s Short Life | James G. Robinson | TED",
+    "durationSeconds": 837
+  },
+  {
+    "videoId": "9RHxDzSMVwg",
+    "title": "The best classroom upgrade might be less tech #TEDTalks",
+    "durationSeconds": 135
+  },
+  {
+    "videoId": "CXDObEQ2Dv0",
+    "title": "The Counterintuitive Secret of Leadership | Jessica Kriegel | TED",
+    "durationSeconds": 731
+  },
+  {
+    "videoId": "tIgO_Sjh3tQ",
+    "title": "Why I’m Obsessed with Health Wearables (and You Should Be Too) | Michael Snyder | TED",
+    "durationSeconds": 835
+  },
+  {
+    "videoId": "Q-pnqCPpNFw",
+    "title": "Compliment a stranger or reach out to a loved one. You may do more good than you think #TEDTalks",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "N17wkLNutTQ",
+    "title": "Can Ozempic End Addiction? | Dhruv Khullar | TED",
+    "durationSeconds": 667
+  },
+  {
+    "videoId": "BG7NCjrOfw4",
+    "title": "\"If we can tell a better story about democracy, we can tell a better story about America\" #TEDTalks",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "04bCu-8W_bo",
+    "title": "How Algorithms Manipulate You (and How to Fight Back) | Idea Knock Down | TED",
+    "durationSeconds": 572
+  },
+  {
+    "videoId": "qaBpMYrOKX4",
+    "title": "This speaker took on gerrymandering in her state — and won! #TEDTalks",
+    "durationSeconds": 178
+  },
+  {
+    "videoId": "Vz9JMC18LFs",
+    "title": "Your Vaccine Questions Deserve Real Answers | Kizzmekia Corbett | TED",
+    "durationSeconds": 596
+  },
+  {
+    "videoId": "yUzvXA5HmtE",
+    "title": "The Problem with Streaming — and the Case for Physical Media | Tom Rizzuto | TED",
+    "durationSeconds": 505
+  },
+  {
+    "videoId": "pRiu3lxPZAw",
+    "title": "Why Democracy Requires Renewal | Michael Dimock | TED",
+    "durationSeconds": 850
+  },
+  {
+    "videoId": "kiHmIZHp9uI",
+    "title": "These costumes did not throw away their shot #TEDTalks",
+    "durationSeconds": 154
+  },
+  {
+    "videoId": "xx8mwytj4CY",
+    "title": "A Simple Solution to Fix Workplace Miscommunication | Melissa M. Mikus | TED",
+    "durationSeconds": 595
+  },
+  {
+    "videoId": "xhfwWqvaWPU",
+    "title": "A special message for TED fans from Sal Khan #TEDTalks",
+    "durationSeconds": 157
+  },
+  {
+    "videoId": "Vzbz--aPQLE",
+    "title": "Why a Social Media Ban Won’t Save Teens | Candice Odgers | TED",
+    "durationSeconds": 744
+  },
+  {
+    "videoId": "bXekc44oCM0",
+    "title": "Should There Be a Wealth Limit for Politicians? | Idea Knock Down | TED",
+    "durationSeconds": 716
+  },
+  {
+    "videoId": "nptUQtYVl1M",
+    "title": "Who Controls Your City’s Money? | Trinity Tran | TED",
+    "durationSeconds": 324
+  },
+  {
+    "videoId": "YCldrsmxi_s",
+    "title": "How AI Is Breaking the Internet (and What to Do About It) | Matthew Prince | TED",
+    "durationSeconds": 762
+  },
+  {
+    "videoId": "ROgs7a3wt2Y",
+    "title": "The key to a K-pop hit? Vocal fry and fruit innuendos #TEDTalks",
+    "durationSeconds": 108
+  },
+  {
+    "videoId": "daLpHnD4b9A",
+    "title": "How to Live a Good Life — on Earth and in Space | TED Intersections",
+    "durationSeconds": 763
+  },
+  {
+    "videoId": "EirmZYlDb_E",
+    "title": "\"There are no magic words that can help you figure out how to be an activist” #TEDTalks",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "6eYEi9tN6Og",
+    "title": "We’ve Solved Many Medical Mysteries. Where Are the Cures? | Saloni Dattani | TED",
+    "durationSeconds": 676
+  },
+  {
+    "videoId": "SSSErhHac8Q",
+    "title": "It is cheaper than ever to power the world without burning fossil fuels #TEDTalks",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "rIRon8zJyps",
+    "title": "How Doodling Unlocks Your Imagination | Joe Whale | TED",
+    "durationSeconds": 388
+  },
+  {
+    "videoId": "E-Se-_A4o-Y",
+    "title": "The Creative Genius of Sneaker Design | Salehe Bembury and Cloe Shasha Brooks | TED",
+    "durationSeconds": 838
+  },
+  {
+    "videoId": "P5ZCRBV5z0w",
+    "title": "How to Get Past the “Messy Middle” of a Big Change | Mary Martin | TED",
+    "durationSeconds": 722
+  },
+  {
+    "videoId": "JOcnvPZSt8E",
+    "title": "Burnout shouldn’t be the price of your success #TEDTalks",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "tXZs2NuLFRA",
+    "title": "How Citizens (Not Politicians) Are Building the Future | Jon Alexander | TED",
+    "durationSeconds": 586
+  },
+  {
+    "videoId": "GRQlIAWVO_E",
+    "title": "A Cosmologist’s Guide to the End of the Universe | Katie Mack and Debbie Millman | TED",
+    "durationSeconds": 1187
+  },
+  {
+    "videoId": "IHqPcDaMtFg",
+    "title": "Why Big Tech Is Incompatible with Democracy | Bruno Giussani | TED",
+    "durationSeconds": 1142
+  },
+  {
+    "videoId": "FcSgd6nyjLk",
+    "title": "“A single piece of paper can hold endless possibilities” #TEDTalks",
+    "durationSeconds": 116
+  },
+  {
+    "videoId": "nLw3o-XgEdo",
+    "title": "A Musical Journey Through Turkana | Turkana Sessions | TED",
+    "durationSeconds": 402
+  },
+  {
+    "videoId": "rTubAg019-A",
+    "title": "Why Countries Should Measure Dreams and Ambitions (Just like GDP) | Lance Katigbak | TED",
+    "durationSeconds": 554
+  },
+  {
+    "videoId": "P9s8Sn72Od0",
+    "title": "The question isn’t whether or not humans matter — it’s how will we make our impact count? #TEDTalks",
+    "durationSeconds": 115
+  },
+  {
+    "videoId": "fd_TsNUpPWw",
+    "title": "How Satellites and AI Can Protect the Planet | Robbie Schingler | TED",
+    "durationSeconds": 723
+  },
+  {
+    "videoId": "TeVE4TQPEwM",
+    "title": "The Power of Imagination — Onstage and Off | Suki Hillier | TED",
+    "durationSeconds": 307
+  },
+  {
+    "videoId": "Ip77mh3Of0I",
+    "title": "Why Economic Inequality Is the Biggest Threat to Democracy | Sally Kohn | TED",
+    "durationSeconds": 1069
+  },
+  {
+    "videoId": "K7af3rZd6PA",
+    "title": "Bad days aren’t a detour— they mean you’re right on track #TEDTalks",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "3Ae4qCvQIcM",
+    "title": "Why Depression Isn’t What We Think | Lisa Monteggia | TED",
+    "durationSeconds": 792
+  },
+  {
+    "videoId": "Z2oIPjnlK2I",
+    "title": "No culture or country is only one thing #TEDTalks",
+    "durationSeconds": 99
+  },
+  {
+    "videoId": "LGb0_ed_euA",
+    "title": "How Play Boosts Your Creativity and Resilience | Katina Bajaj | TED",
+    "durationSeconds": 722
+  },
+  {
+    "videoId": "RBq5hr8OmlE",
+    "title": "Your watch might be your new doctor’s assistant #TEDTalks",
+    "durationSeconds": 117
+  },
+  {
+    "videoId": "wqOY7Y0w7pA",
+    "title": "How I Turn Joy into Art | Yinka Ilori | TED",
+    "durationSeconds": 511
+  },
+  {
+    "videoId": "gU_7tuSo7AU",
+    "title": "Let this be your last Short for the day #TEDTalk",
+    "durationSeconds": 66
+  },
+  {
+    "videoId": "HSxytYCWVow",
+    "title": "The Path to Mathematical Superintelligence | Tudor Achim | TED",
+    "durationSeconds": 772
+  },
+  {
+    "videoId": "ElYYD7Wx2WE",
+    "title": "Idiots Are Everywhere. Here’s How to Cope | Joshua Johnson | TED",
+    "durationSeconds": 383
+  },
+  {
+    "videoId": "botYt9uElQs",
+    "title": "Would your cat would give you a paw-sitive review?#TEDTalks",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "jM5MIRDCL-8",
+    "title": "Why Overtourism Could Ruin Your Next Vacation | Suresh Subudhi | TED",
+    "durationSeconds": 697
+  },
+  {
+    "videoId": "XJUcZV_F_T0",
+    "title": "“To My Bones” / “As the River Flows” / “In Dictum” | Wallis Bird | TED",
+    "durationSeconds": 610
+  },
+  {
+    "videoId": "6YNOQTqNfgQ",
+    "title": "Save It to Your Desktop! | Alan Resnick | TED",
+    "durationSeconds": 635
+  },
+  {
+    "videoId": "smJQdhS-FJU",
+    "title": "If you think everyone is starting to sound like ChatGPT, you’re not wrong #TEDTalks",
+    "durationSeconds": 99
+  },
+  {
+    "videoId": "9LTGzEzDat0",
+    "title": "Our Last, Best Chance to Cool the Earth | Bill McKibben | TED",
+    "durationSeconds": 665
+  },
+  {
+    "videoId": "4eowPocR2Y8",
+    "title": "During a wildfire, every second counts #TEDTalks",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "wMAtRRCKtbE",
+    "title": "You don’t need a special talent to learn a new language #TEDTalks",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "f2csKPY5ddc",
+    "title": "These are the inherent human skills that machines can’t replace #TEDTalks",
+    "durationSeconds": 123
+  },
+  {
+    "videoId": "wsstlwuE5XY",
+    "title": "How to Clean Up the World’s Dirtiest Industry | Joojin Kim | TED",
+    "durationSeconds": 459
+  },
+  {
+    "videoId": "8WWrNbHvd44",
+    "title": "Why You Need the Growth Mindset of a Weed | Stephen Nobles | TED",
+    "durationSeconds": 949
+  },
+  {
+    "videoId": "gduYQKmz05M",
+    "title": "Sometimes common ground starts with what both sides can’t afford to lose. #TEDTalks",
+    "durationSeconds": 124
+  },
+  {
+    "videoId": "oyRxhiAC9u8",
+    "title": "Why the Future is Human … Plus AI | Esther Perel and Sal Khan",
+    "durationSeconds": 1248
+  },
+  {
     "videoId": "RCNO3k4QL5M",
-    "durationSeconds": 890,
-    "title": "How to Use Tech to Outsmart Dictators | Leopoldo López | TED"
+    "title": "How to Use Tech to Outsmart Dictators | Leopoldo López | TED",
+    "durationSeconds": 890
   },
   {
     "videoId": "81iS7JsTGmk",
-    "durationSeconds": 606,
-    "title": "How 180 Strangers Built a Library Together | Rebecca Toh | TED"
+    "title": "How 180 Strangers Built a Library Together | Rebecca Toh | TED",
+    "durationSeconds": 606
   },
   {
     "videoId": "y64RDBeR19c",
-    "durationSeconds": 486,
-    "title": "The Shape-Shifting Sounds of the Accordion | Maria Telesheva | TED"
+    "title": "The Shape-Shifting Sounds of the Accordion | Maria Telesheva | TED",
+    "durationSeconds": 486
   },
   {
     "videoId": "N6O8b7U6Ti8",
-    "durationSeconds": 75,
-    "title": "Good news: Even moving as little as 1 minute every 60 minutes can have health benefits #TEDTalks"
+    "title": "Good news: Even moving as little as 1 minute every 60 minutes can have health benefits #TEDTalks",
+    "durationSeconds": 75
   },
   {
     "videoId": "r63spwe1LCI",
-    "durationSeconds": 288,
-    "title": "The Gravity-Defying Future of Manufacturing | Schendy Kernizan | TED"
+    "title": "The Gravity-Defying Future of Manufacturing | Schendy Kernizan | TED",
+    "durationSeconds": 288
   },
   {
     "videoId": "0qRcIglHBxE",
-    "durationSeconds": 128,
-    "title": "Still going strong — how many times did you stand up today? #TEDTalks"
+    "title": "Still going strong — how many times did you stand up today? #TEDTalks",
+    "durationSeconds": 128
   },
   {
     "videoId": "lSpsm8aVsuc",
-    "durationSeconds": 110,
-    "title": "Human connection is crucial in making sure every person can thrive #TEDTalks"
+    "title": "Human connection is crucial in making sure every person can thrive #TEDTalks",
+    "durationSeconds": 110
   },
   {
     "videoId": "Hd8npxrnpuo",
-    "durationSeconds": 423,
-    "title": "How AI Unleashed (Not Replaced) My Creativity | Kelly A. Boesch | TED"
+    "title": "How AI Unleashed (Not Replaced) My Creativity | Kelly A. Boesch | TED",
+    "durationSeconds": 423
   },
   {
     "videoId": "fxV2ywZfBV0",
-    "durationSeconds": 141,
-    "title": "Tips for combating our culture of sitting most of the day #TEDTalks"
+    "title": "Tips for combating our culture of sitting most of the day #TEDTalks",
+    "durationSeconds": 141
   },
   {
     "videoId": "wCuKZWKlD7M",
-    "durationSeconds": 66,
-    "title": "Lean into your curiosity #TEDTalks #TEDPodcasts"
+    "title": "Lean into your curiosity #TEDTalks #TEDPodcasts",
+    "durationSeconds": 66
   },
   {
     "videoId": "f6VgtBnARG0",
-    "durationSeconds": 108,
-    "title": "Would you try this reading challenge? #TEDTalks"
+    "title": "Would you try this reading challenge? #TEDTalks",
+    "durationSeconds": 108
   },
   {
     "videoId": "CT-YEIOjL9U",
-    "durationSeconds": 116,
-    "title": "Turns out, moving more is not so easy. #TEDTalks"
+    "title": "Turns out, moving more is not so easy. #TEDTalks",
+    "durationSeconds": 116
   },
   {
     "videoId": "1qmF_znXxrE",
-    "durationSeconds": 234,
-    "title": "The Right to Life, Liberty — and Free Time | Danielle Roberts | TED"
+    "title": "The Right to Life, Liberty — and Free Time | Danielle Roberts | TED",
+    "durationSeconds": 234
   },
   {
     "videoId": "1bCXyU2BNZ0",
-    "durationSeconds": 81,
-    "title": "Moving more frequently can help your body and mind — but is it too tricky to put into practice? #TED"
+    "title": "Moving more frequently can help your body and mind — but is it too tricky to put into practice? #TED",
+    "durationSeconds": 81
   },
   {
     "videoId": "5XPdFwKrQSE",
-    "durationSeconds": 74,
-    "title": "We’re putting this TED Talk to the test — you in? #TEDTalks"
+    "title": "We’re putting this TED Talk to the test — you in? #TEDTalks",
+    "durationSeconds": 74
   },
   {
     "videoId": "9Ff4S1FJdRM",
-    "durationSeconds": 818,
-    "title": "Is AI Turning Us All into the Same Person? | Sandra Matz | TED"
+    "title": "Is AI Turning Us All into the Same Person? | Sandra Matz | TED",
+    "durationSeconds": 818
   },
   {
     "videoId": "jCbITOCoxpo",
-    "durationSeconds": 499,
-    "title": "News Tells You What Happened. Drawing Shows You How It Felt | George Butler | TED"
+    "title": "News Tells You What Happened. Drawing Shows You How It Felt | George Butler | TED",
+    "durationSeconds": 499
   },
   {
     "videoId": "DBhAROQM51E",
-    "durationSeconds": 64,
-    "title": "Is this why adult friendships feel so hard?"
+    "title": "Is this why adult friendships feel so hard?",
+    "durationSeconds": 64
   },
   {
     "videoId": "bt0rtqYTE-Q",
-    "durationSeconds": 91,
-    "title": "“Spark!” |  Bulldog Brass Society Quintet | TED"
+    "title": "“Spark!” |  Bulldog Brass Society Quintet | TED",
+    "durationSeconds": 91
   },
   {
     "videoId": "vLDplW8cw4A",
-    "durationSeconds": 88,
-    "title": "Being a person is better than being perfect all the time #TEDTalks"
+    "title": "Being a person is better than being perfect all the time #TEDTalks",
+    "durationSeconds": 88
   },
   {
     "videoId": "txf8CrI5z-k",
-    "durationSeconds": 471,
-    "title": "The Missing Half of Music History | Gabriella Di Laccio | TED"
+    "title": "The Missing Half of Music History | Gabriella Di Laccio | TED",
+    "durationSeconds": 471
   },
   {
     "videoId": "ABZRjXb58Oo",
-    "durationSeconds": 77,
-    "title": "The first TED Talks Test starts Sept 28 — you in? #TEDTalks"
+    "title": "The first TED Talks Test starts Sept 28 — you in? #TEDTalks",
+    "durationSeconds": 77
   },
   {
     "videoId": "270q4aF0qU8",
-    "durationSeconds": 757,
-    "title": "The Energy Mess AI Is Creating — and How to Fix It | Ari Matusiak | TED"
+    "title": "The Energy Mess AI Is Creating — and How to Fix It | Ari Matusiak | TED",
+    "durationSeconds": 757
   },
   {
     "videoId": "RZvHtAXF-D0",
-    "durationSeconds": 90,
-    "title": "Keep showing up not just for the Earth, but for each other #TEDTalks"
+    "title": "Keep showing up not just for the Earth, but for each other #TEDTalks",
+    "durationSeconds": 90
   },
   {
     "videoId": "Zgu97mCGS74",
-    "durationSeconds": 1610,
-    "title": "How to Escape Your Obsession with Productivity | TED Intersections"
+    "title": "How to Escape Your Obsession with Productivity | TED Intersections",
+    "durationSeconds": 1610
   },
   {
     "videoId": "PRmIrFhce04",
-    "durationSeconds": 1174,
-    "title": "The Infodemic — and the Scientists Fighting Against It | Jessica Malaty Rivera | TED"
+    "title": "The Infodemic — and the Scientists Fighting Against It | Jessica Malaty Rivera | TED",
+    "durationSeconds": 1174
   },
   {
     "videoId": "EIsm03Y-cDA",
-    "durationSeconds": 101,
-    "title": "Play is what happens when you stop trying to optimize everything #TEDTalks"
+    "title": "Play is what happens when you stop trying to optimize everything #TEDTalks",
+    "durationSeconds": 101
   },
   {
     "videoId": "SD1MypHgAwc",
-    "durationSeconds": 2943,
-    "title": "Why You Fear the Unknown — and What It Can Teach You | Maya Shankar and Simone Stolzoff | TED"
+    "title": "Why You Fear the Unknown — and What It Can Teach You | Maya Shankar and Simone Stolzoff | TED",
+    "durationSeconds": 2943
   },
   {
     "videoId": "e0Q_TcQUCks",
-    "durationSeconds": 631,
-    "title": "The Wiggly Wonder of Music | Jacob Collier | TED"
+    "title": "The Wiggly Wonder of Music | Jacob Collier | TED",
+    "durationSeconds": 631
   },
   {
     "videoId": "DnUAXX41KJ8",
-    "durationSeconds": 121,
-    "title": "Health decisions are often risk vs. reward — but what if we don't have all the information? #TEDTalk"
+    "title": "Health decisions are often risk vs. reward — but what if we don't have all the information? #TEDTalk",
+    "durationSeconds": 121
   },
   {
     "videoId": "X6hstmAa0cg",
-    "durationSeconds": 339,
-    "title": "Meet the Youngest-Ever Mayor in Japan’s History | Ryosuke Takashima | TED"
+    "title": "Meet the Youngest-Ever Mayor in Japan’s History | Ryosuke Takashima | TED",
+    "durationSeconds": 339
   },
   {
     "videoId": "zAGWmkA1Y10",
-    "durationSeconds": 107,
-    "title": "AI is good at seeing patterns, but it’s humans who figure out what to do next #TEDTalks"
+    "title": "AI is good at seeing patterns, but it’s humans who figure out what to do next #TEDTalks",
+    "durationSeconds": 107
   },
   {
     "videoId": "zc_eKn13GQU",
-    "durationSeconds": 746,
-    "title": "This Is What the Birth of the Universe Sounded Like | Mark Whittle | TED"
+    "title": "This Is What the Birth of the Universe Sounded Like | Mark Whittle | TED",
+    "durationSeconds": 746
   },
   {
     "videoId": "NswrHx9ljk0",
-    "durationSeconds": 79,
-    "title": "This iconic wildlife spectacle isn't just beautiful— it tells us vital information about our planet"
+    "title": "This iconic wildlife spectacle isn't just beautiful— it tells us vital information about our planet",
+    "durationSeconds": 79
   },
   {
     "videoId": "4qtsOh2FwIs",
-    "durationSeconds": 1555,
-    "title": "How Tech Will (and Won’t) Replace Your Doctor | TED Intersections"
+    "title": "How Tech Will (and Won’t) Replace Your Doctor | TED Intersections",
+    "durationSeconds": 1555
   },
   {
     "videoId": "zYO9UbpEC9Y",
-    "durationSeconds": 864,
-    "title": "How Bullying Spreads — and How Social Bravery Stops It | Amy Cuddy | TED"
+    "title": "How Bullying Spreads — and How Social Bravery Stops It | Amy Cuddy | TED",
+    "durationSeconds": 864
   },
   {
     "videoId": "WFr9Z01sKGg",
-    "durationSeconds": 95,
-    "title": "Chasing external validation can leave you feeling empty — try this instead #TEDTalks"
+    "title": "Chasing external validation can leave you feeling empty — try this instead #TEDTalks",
+    "durationSeconds": 95
   },
   {
     "videoId": "owRN5fVLoEk",
-    "durationSeconds": 750,
-    "title": "The Four Steps to Hearing Hard Feedback Gracefully | Chris Wheatley | TED"
+    "title": "The Four Steps to Hearing Hard Feedback Gracefully | Chris Wheatley | TED",
+    "durationSeconds": 750
   },
   {
     "videoId": "3XsRc_ggCp4",
-    "durationSeconds": 102,
-    "title": "What’s harder: Asking for help or offering it? #TEDTalks #TEDIntersections"
+    "title": "What’s harder: Asking for help or offering it? #TEDTalks #TEDIntersections",
+    "durationSeconds": 102
   },
   {
     "videoId": "4WUVkpC8MKs",
-    "durationSeconds": 201,
-    "title": "A New Take on an Ancient Sound | Tina Lajevardian | TED"
+    "title": "A New Take on an Ancient Sound | Tina Lajevardian | TED",
+    "durationSeconds": 201
   },
   {
     "videoId": "1LZX3l8TKl4",
-    "durationSeconds": 65,
-    "title": "We're more connected than ever — so why are we lonelier than ever? #TEDTalks"
+    "title": "We're more connected than ever — so why are we lonelier than ever? #TEDTalks",
+    "durationSeconds": 65
   },
   {
     "videoId": "u3qlbHrB7KI",
-    "durationSeconds": 622,
-    "title": "How to Fix Africa’s Learning Crisis | Rapelang Rabana | TED"
+    "title": "How to Fix Africa’s Learning Crisis | Rapelang Rabana | TED",
+    "durationSeconds": 622
   },
   {
     "videoId": "ZpXe7KMyLU8",
-    "durationSeconds": 121,
-    "title": "Hip-hop gets blamed for being a bad influence — but the data shows a different story #TEDTalks"
+    "title": "Hip-hop gets blamed for being a bad influence — but the data shows a different story #TEDTalks",
+    "durationSeconds": 121
   },
   {
     "videoId": "1r2fqbD0KZ4",
-    "durationSeconds": 1687,
-    "title": "The Secret to Deeper Conversations | TED Intersections"
+    "title": "The Secret to Deeper Conversations | TED Intersections",
+    "durationSeconds": 1687
   },
   {
     "videoId": "5vwbbLB3Uww",
-    "durationSeconds": 739,
-    "title": "How I’m Helping Thousands Rebuild Their Lives After Prison | Susan Burton | TED"
+    "title": "How I’m Helping Thousands Rebuild Their Lives After Prison | Susan Burton | TED",
+    "durationSeconds": 739
   },
   {
     "videoId": "Cfma1_w5U4Q",
-    "durationSeconds": 105,
-    "title": "This new way of treating depression starts with rewiring the brain #TEDTalks"
+    "title": "This new way of treating depression starts with rewiring the brain #TEDTalks",
+    "durationSeconds": 105
   },
   {
     "videoId": "rUhllpnYWR8",
-    "durationSeconds": 2416,
-    "title": "How to Make Learning Impossibly Fun | Mark Rober | TED"
+    "title": "How to Make Learning Impossibly Fun | Mark Rober | TED",
+    "durationSeconds": 2416
   },
   {
     "videoId": "HL9pJtDtt2A",
-    "durationSeconds": 92,
-    "title": "Humans are wired for deep connection. So what happens when devices disrupt that? #TEDTalks"
+    "title": "Humans are wired for deep connection. So what happens when devices disrupt that? #TEDTalks",
+    "durationSeconds": 92
   },
   {
     "videoId": "LmszJQzuAcc",
-    "durationSeconds": 499,
-    "title": "“Bridge Over Troubled Water” — Like You’ve Never Heard It Before | MAS Vocal | TED"
+    "title": "“Bridge Over Troubled Water” — Like You’ve Never Heard It Before | MAS Vocal | TED",
+    "durationSeconds": 499
   },
   {
     "videoId": "49V4EsM6UmY",
-    "durationSeconds": 71,
-    "title": "Shoot for the moon — so we can help the Earth #TEDTalks"
+    "title": "Shoot for the moon — so we can help the Earth #TEDTalks",
+    "durationSeconds": 71
   }
 ]

@@ -103,3 +103,22 @@ test('regenerating Channel 013 preserves the vintage selection and all four cate
     rmSync(root, { recursive: true, force: true })
   }
 })
+
+test('refuses to publish Bollywood audio or unreviewed mixes', () => {
+  const root = mkdtempSync(join(tmpdir(), 'bollywood-video-policy-'))
+  try {
+    for (const title of ['Audio Jukebox', 'Official Lyric Video', 'Non Stop Hits']) {
+      assert.throws(
+        () =>
+          writeProgramBundles(
+            [{ number: 1, name: 'Bollywood' }],
+            { Bollywood: [{ videoId: 'example', title, durationSeconds: 600 }] },
+            pathToFileURL(`${root}/`),
+          ),
+        /requires video songs/,
+      )
+    }
+  } finally {
+    rmSync(root, { recursive: true, force: true })
+  }
+})

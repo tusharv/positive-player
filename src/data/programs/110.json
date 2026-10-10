@@ -1,32 +1,5767 @@
 [
   {
+    "videoId": "rHx3mtrsiVY",
+    "title": "La minute Maillot à pois Leclerc - Étape 17 - Tour de France 2019",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "T5OhyI58zkQ",
+    "title": "Summary - Stage 17 - Tour de France 2019",
+    "durationSeconds": 256
+  },
+  {
+    "videoId": "4o9cR-BdOgo",
+    "title": "La minute Maillot Jaune LCL - Étape 17 - Tour de France 2019",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "aIZSQTByDCs",
+    "title": "Résumé - Étape 17 - Tour de France 2019",
+    "durationSeconds": 256
+  },
+  {
+    "videoId": "t9jzMLTNJ1M",
+    "title": "Yellow Jersey Legends - Daryl Impey",
+    "durationSeconds": 118
+  },
+  {
+    "videoId": "HrGUFAK0Pxs",
+    "title": "Légendes du Maillot Jaune - Daryl Impey",
+    "durationSeconds": 118
+  },
+  {
+    "videoId": "yWiY7TCzxSU",
+    "title": "Last kilometer - Stage 17 - Tour de France 2019",
+    "durationSeconds": 176
+  },
+  {
+    "videoId": "ZASYKp7VumI",
+    "title": "Made In France - Le Pont du Gard",
+    "durationSeconds": 106
+  },
+  {
+    "videoId": "ET7kr9Mz0u8",
+    "title": "Made In France - Le Pont du Gard (English)",
+    "durationSeconds": 106
+  },
+  {
+    "videoId": "0u6MxZCdO_I",
+    "title": "Onboard camera - Stage 16 - Tour de France 2019",
+    "durationSeconds": 140
+  },
+  {
+    "videoId": "Rtgvu-CR4_A",
+    "title": "Resumen - Etapa 16 - Tour de France 2019",
+    "durationSeconds": 247
+  },
+  {
+    "videoId": "P7xZaK8nlro",
+    "title": "La minute Maillot Blanc Krys - Étape 16 - Tour de France 2019",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "V8k_Cl_AIqs",
+    "title": "Zusammenfassung - Etappe 16 - Tour de France 2019",
+    "durationSeconds": 247
+  },
+  {
+    "videoId": "axAwX3Kc-xE",
+    "title": "La minute Maillot Vert ŠKODA - Étape 16 - Tour de France 2019",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "jkzEKE_E3eM",
+    "title": "La minute Maillot à pois Leclerc - Étape 16 - Tour de France 2019",
+    "durationSeconds": 62
+  },
+  {
+    "videoId": "bYEUh2KOr0A",
+    "title": "Summary - Stage 16 - Tour de France 2019",
+    "durationSeconds": 247
+  },
+  {
+    "videoId": "rJNMDUdbfQQ",
+    "title": "La minute Maillot Jaune LCL - Étape 16 - Tour de France 2019",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "ctPwd0W98co",
+    "title": "Résumé - Étape 16 - Tour de France 2019",
+    "durationSeconds": 247
+  },
+  {
+    "videoId": "Vsz2xY2Rbgw",
+    "title": "Légendes du Maillot Jaune - Antonin Rolland",
+    "durationSeconds": 115
+  },
+  {
+    "videoId": "x0tw0HtDFKA",
+    "title": "Last kilometer - Stage 16 - Tour de France 2019",
+    "durationSeconds": 98
+  },
+  {
+    "videoId": "OTkrMS6Bh2c",
+    "title": "Onboard Happiness- Best of - Tour de France 2019",
+    "durationSeconds": 127
+  },
+  {
+    "videoId": "RZibE8v0bGY",
+    "title": "Onboard camera - Stage 15 - Tour de France 2019",
+    "durationSeconds": 110
+  },
+  {
+    "videoId": "WkMREasXRq8",
+    "title": "Resumen - Etapa 15 - Tour de France 2019",
+    "durationSeconds": 283
+  },
+  {
+    "videoId": "4mtQBGUiEmg",
+    "title": "Zusammenfassung - Etappe 15 - Tour de France 2019",
+    "durationSeconds": 283
+  },
+  {
+    "videoId": "ymmxMn74SGc",
+    "title": "Onboard camera Emotions - Stage 15 - Tour de France 2019",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "XN2XrSIRNCA",
+    "title": "La minute Maillot Jaune LCL - Étape 15 - Tour de France 2019",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "zoaZMyNjGvc",
+    "title": "La minute Maillot Blanc Krys - Étape 15 - Tour de France 2019",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "OpjYEFFl24o",
+    "title": "La minute Maillot à pois Leclerc - Étape 15 - Tour de France 2019",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "YfrRjYFCJRc",
+    "title": "La minute Maillot Vert ŠKODA - Étape 15 - Tour de France 2019",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "Nzq8KVuq5PI",
+    "title": "Summary - Stage 15 - Tour de France 2019",
+    "durationSeconds": 283
+  },
+  {
+    "videoId": "uBVNHDcfYxo",
+    "title": "Résumé - Étape 15 - Tour de France 2019",
+    "durationSeconds": 283
+  },
+  {
+    "videoId": "_ayP6Ovcsn0",
+    "title": "Resumen - Etapa 19 - Tour de France 2019",
+    "durationSeconds": 225
+  },
+  {
+    "videoId": "v1mGf_mtPOw",
+    "title": "Onboard camera 360 - Stage 19 - Tour de France 2019",
+    "durationSeconds": 108
+  },
+  {
+    "videoId": "LmbAqQTx2hk",
+    "title": "Summary - Stage 19 - Tour de France 2019",
+    "durationSeconds": 225
+  },
+  {
+    "videoId": "x_Pgl45Wh0E",
+    "title": "Zusammenfassung - Etappe 19 - Tour de France 2019",
+    "durationSeconds": 225
+  },
+  {
+    "videoId": "C6rVyqCPVJU",
+    "title": "Résumé - Étape 19 - Tour de France 2019",
+    "durationSeconds": 225
+  },
+  {
+    "videoId": "1DW3i5ag2Sk",
+    "title": "La minute Maillot Vert ŠKODA - Étape 19 - Tour de France 2019",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "jsjW-1OtSf8",
+    "title": "La minute Maillot Jaune LCL - Étape 19 - Tour de France 2019",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "-ZrHSpS02W0",
+    "title": "La minute Maillot à pois Leclerc - Étape 19 - Tour de France 2019",
+    "durationSeconds": 82
+  },
+  {
+    "videoId": "Ii7R77NQF-Q",
+    "title": "La minute Maillot Blanc Krys - Étape 19 - Tour de France 2019",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "WBDIqFAN91U",
+    "title": "Légendes du Maillot Jaune - Mark Cavendish",
+    "durationSeconds": 114
+  },
+  {
+    "videoId": "ac0f0i8LZUI",
+    "title": "Yellow Jersey Legends - Mark Cavendish",
+    "durationSeconds": 114
+  },
+  {
+    "videoId": "mWju5CbWELk",
+    "title": "Onboard camera - Stage 18 - Tour de France 2019",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "muqawPEFNJc",
+    "title": "Resumen - Etapa 18 - Tour de France 2019",
+    "durationSeconds": 289
+  },
+  {
+    "videoId": "tLMixYwp1z4",
+    "title": "La minute Maillot Vert ŠKODA - Étape 18 - Tour de France 2019",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "-1b86jhCp_E",
+    "title": "La minute Maillot à pois Leclerc - Étape 18 - Tour de France 2019",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "PyvM3SNa6as",
+    "title": "Zusammenfassung - Etappe 18 - Tour de France 2019",
+    "durationSeconds": 289
+  },
+  {
+    "videoId": "hG0tGqRedyY",
+    "title": "La minute Maillot Blanc Krys - Étape 18 - Tour de France 2019",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "kDJLZERjifY",
+    "title": "Summary - Stage 18 - Tour de France 2019",
+    "durationSeconds": 289
+  },
+  {
+    "videoId": "lGZEwRdvtxE",
+    "title": "Résumé - Étape 18 - Tour de France 2019",
+    "durationSeconds": 289
+  },
+  {
+    "videoId": "Ii7iXgIMIog",
+    "title": "La minute Maillot Jaune LCL - Étape 18 - Tour de France 2019",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "i1mefU_cask",
+    "title": "Légendes du Maillot Jaune - Bernard Thevenet",
+    "durationSeconds": 121
+  },
+  {
+    "videoId": "dF6q33GccSo",
+    "title": "Last kilometer - Stage 18 - Tour de France 2019",
+    "durationSeconds": 200
+  },
+  {
+    "videoId": "NvBq-QjEbpE",
+    "title": "Onboard camera - Stage 17 - Tour de France 2019",
+    "durationSeconds": 109
+  },
+  {
+    "videoId": "hQ3Iql5Pky4",
+    "title": "Resumen - Etapa 17 - Tour de France 2019",
+    "durationSeconds": 256
+  },
+  {
+    "videoId": "SsjPWBawers",
+    "title": "La minute Maillot Blanc Krys - Étape 17 - Tour de France 2019",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "_d4iarYPXSo",
+    "title": "Zusammenfassung - Etappe 17 - Tour de France 2019",
+    "durationSeconds": 256
+  },
+  {
+    "videoId": "SztMTOXANCc",
+    "title": "La minute Maillot Vert ŠKODA - Étape 17 - Tour de France 2019",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "krHRSBT7zN0",
+    "title": "Resumen - Etapa 21 - Tour de France 2019",
+    "durationSeconds": 244
+  },
+  {
+    "videoId": "c2T4VBX9xTk",
+    "title": "LCL Yellow jersey Best of  - Tour de France 2019",
+    "durationSeconds": 300
+  },
+  {
+    "videoId": "OhQ3sqOA7X8",
+    "title": "Leclerc Polka dot jersey best of  - Tour de France 2019",
+    "durationSeconds": 321
+  },
+  {
+    "videoId": "nXElDV8sKHI",
+    "title": "Krys White Jersey Best of - Tour de France 2019",
+    "durationSeconds": 203
+  },
+  {
+    "videoId": "LS01FI7i188",
+    "title": "Skoda Green Jersey Best of - Tour de France 2019",
+    "durationSeconds": 293
+  },
+  {
+    "videoId": "hgWjgVCsqGk",
+    "title": "Résumé - Étape 21 - Tour de France 2019",
+    "durationSeconds": 244
+  },
+  {
+    "videoId": "X8T1UzeoPto",
+    "title": "Onboard Camera Best of - Tour de France 2019",
+    "durationSeconds": 220
+  },
+  {
+    "videoId": "Vf_kpL6ugIg",
+    "title": "Onboard camera - Stage 21 - Tour de France 2019",
+    "durationSeconds": 140
+  },
+  {
+    "videoId": "3WaOoErtYUs",
+    "title": "La minute Maillot Vert ŠKODA - Étape 21 - Tour de France 2019",
+    "durationSeconds": 66
+  },
+  {
+    "videoId": "GL9HXkYEMIg",
+    "title": "La minute Maillot à pois Leclerc - Étape 21 - Tour de France 2019",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "JDTEhLKsDFQ",
+    "title": "Zusammenfassung - Etappe 21 - Tour de France 2019",
+    "durationSeconds": 244
+  },
+  {
+    "videoId": "OkduAg0DAQU",
+    "title": "La minute Maillot Blanc Krys - Étape 21 - Tour de France 2019",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "jQn6FdfldU0",
+    "title": "Onboard camera Emotions - Stage 21 - Tour de France 2019",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "GsBX4qrYzKo",
+    "title": "Summary - Stage 21 - Tour de France 2019",
+    "durationSeconds": 244
+  },
+  {
+    "videoId": "DFttKvN9X9w",
+    "title": "Best of - Tour de France 2019",
+    "durationSeconds": 686
+  },
+  {
+    "videoId": "yHFCjwEHhyw",
+    "title": "La minute Maillot Jaune LCL - Étape 21 - Tour de France 2019",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "lTOyQTpISSg",
+    "title": "Last kilometer - Stage 21 - Tour de France 2019",
+    "durationSeconds": 163
+  },
+  {
+    "videoId": "H2lLFXhfIw8",
+    "title": "Yellow Jersey Legends - Raymond Poulidor",
+    "durationSeconds": 118
+  },
+  {
+    "videoId": "ZPG2Ggvrhmg",
+    "title": "Made In France - La Pyramide du Louvre (English)",
+    "durationSeconds": 125
+  },
+  {
+    "videoId": "wZSqKwRzlOs",
+    "title": "Made In France - La Pyramide du Louvre",
+    "durationSeconds": 127
+  },
+  {
+    "videoId": "RFltv7TgzrQ",
+    "title": "Onboard camera - Stage 20 - Tour de France 2019",
+    "durationSeconds": 116
+  },
+  {
+    "videoId": "CpVPoVuZCFc",
+    "title": "Resumen - Etapa 20 - Tour de France 2019",
+    "durationSeconds": 303
+  },
+  {
+    "videoId": "M1ZskY3nvUI",
+    "title": "Onboard camera Emotions - Stage 20 - Tour de France 2019",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "9oaDgnNPQfM",
+    "title": "La minute Maillot Blanc Krys - Étape 20 - Tour de France 2019",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "B5iat-17Zk8",
+    "title": "La minute Maillot Vert ŠKODA - Étape 20 - Tour de France 2019",
+    "durationSeconds": 82
+  },
+  {
+    "videoId": "cWd-dffPfDk",
+    "title": "Zusammenfassung - Etappe 20 - Tour de France 2019",
+    "durationSeconds": 303
+  },
+  {
+    "videoId": "XpTMGulytBw",
+    "title": "La minute Maillot à pois Leclerc - Étape 20 - Tour de France 2019",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "ABhURYryTf4",
+    "title": "La minute Maillot Jaune LCL - Étape 20 - Tour de France 2019",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "0TruAQlmZdM",
+    "title": "Summary - Stage 20 - Tour de France 2019",
+    "durationSeconds": 303
+  },
+  {
+    "videoId": "TTc5QbbPla4",
+    "title": "Yellow Jersey Legends - Bernard Hinault",
+    "durationSeconds": 126
+  },
+  {
+    "videoId": "CP7aw4bx-A0",
+    "title": "Légendes du Maillot Jaune - Bernard Hinault",
+    "durationSeconds": 132
+  },
+  {
+    "videoId": "okpTWwyrFqw",
+    "title": "Résumé - Étape 20 - Tour de France 2019",
+    "durationSeconds": 303
+  },
+  {
+    "videoId": "MgsM1DhH3Vs",
+    "title": "Last kilometer - Stage 20 - Tour de France 2019",
+    "durationSeconds": 251
+  },
+  {
+    "videoId": "lK6lVCyvrwA",
+    "title": "Paris-Nice 2020 - Stage 1 - Minute Maillot Jaune LCL",
+    "durationSeconds": 77
+  },
+  {
+    "videoId": "orVQJfei-jM",
+    "title": "Paris-Nice 2020 - Stage 1 - Highlights",
+    "durationSeconds": 212
+  },
+  {
+    "videoId": "OAaBCzYBWOA",
+    "title": "Paris-Nice 2020 - Étape 1 - Résumé",
+    "durationSeconds": 212
+  },
+  {
+    "videoId": "ZLwxs9MF7vU",
+    "title": "Paris-Nice 2020 - Stage 1 - Last Kilometer",
+    "durationSeconds": 98
+  },
+  {
+    "videoId": "S9s2ZRBheHY",
+    "title": "The route / Parcours - Paris-Nice 2020",
+    "durationSeconds": 70
+  },
+  {
+    "videoId": "hx4TbWeKK94",
+    "title": "Tour de France 2021 - Parcours des étapes du Grand Départ /Route 3D for the 3 stages of Grand Départ",
+    "durationSeconds": 170
+  },
+  {
+    "videoId": "cdXj03xhT9I",
+    "title": "Tour de France 2021 - Grand Départ : Parcours 3ème étape / 3D route stage 3",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "ogevY-D8wHo",
+    "title": "Tour de France 2021 - Grand Départ : Parcours 2ème étape / 3D route stage 2",
+    "durationSeconds": 73
+  },
+  {
+    "videoId": "iBSTkZ1zShE",
+    "title": "Les Classiques Ardennaises 2020",
+    "durationSeconds": 126
+  },
+  {
+    "videoId": "CFkXCF1uISA",
+    "title": "Critérium de Shanghai 2019 - Best-of",
+    "durationSeconds": 205
+  },
+  {
+    "videoId": "b98McUydsbw",
+    "title": "Critérium de Shanghai 2019 - Best-of Media Day",
+    "durationSeconds": 77
+  },
+  {
+    "videoId": "TO9s0HnRWsc",
+    "title": "Légendes du Maillot Jaune - Hommage à Raymond Poulidor",
+    "durationSeconds": 103
+  },
+  {
+    "videoId": "pMb5nKk_AKY",
+    "title": "Critérium de Saitama 2019 - Best-of",
+    "durationSeconds": 183
+  },
+  {
+    "videoId": "5H210dOLqF4",
+    "title": "Saitama Criterium 2019 - Media Day best-of",
+    "durationSeconds": 121
+  },
+  {
+    "videoId": "iqIyUV0mat8",
+    "title": "Parcours / Route - Tour de France 2020",
+    "durationSeconds": 317
+  },
+  {
+    "videoId": "bblAhUcJqCI",
+    "title": "Ma riviera - Raoul Mille - Long version",
+    "durationSeconds": 241
+  },
+  {
+    "videoId": "v4Wfj7_i5LY",
+    "title": "Col de la Loze - Tour de France 2020",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "vjci1lf0fj4",
+    "title": "Best Moments - Tour de France 2019",
+    "durationSeconds": 845
+  },
+  {
+    "videoId": "RBAUhUxRA0A",
+    "title": "Ocana - Tour de France 2020",
+    "durationSeconds": 64
+  },
+  {
+    "videoId": "QZzQRrPlw4Q",
+    "title": "Nice - Tour de France 2020",
+    "durationSeconds": 245
+  },
+  {
+    "videoId": "2H8GGAj0Dvk",
+    "title": "Paris-Tours 2019 - Résumé de la course",
+    "durationSeconds": 126
+  },
+  {
+    "videoId": "mztsbjp4UaM",
+    "title": "Paris-Tours 2019 - Flamme Rouge",
+    "durationSeconds": 115
+  },
+  {
+    "videoId": "QBYyF4Fdz8s",
+    "title": "Parcours / Route 3D - Paris - Tours 2019",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "WXicq0Dpt7o",
+    "title": "Légendes du Maillot Jaune - Raymond Poulidor",
+    "durationSeconds": 118
+  },
+  {
+    "videoId": "MqIfT3sQOt0",
+    "title": "Paris-Nice 2020 - Stage 6 - Minute Maillot Jaune LCL",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "hXG0nJZ5qus",
+    "title": "Paris-Nice 2020 - Stage 6 - Highlights",
+    "durationSeconds": 248
+  },
+  {
+    "videoId": "9xr6XARPVLE",
+    "title": "Paris-Nice 2020 - Étape 6 - Résumé",
+    "durationSeconds": 248
+  },
+  {
+    "videoId": "hwmIKASvWc4",
+    "title": "Paris-Nice 2020 - Stage 6 - E.Leclerc Polka dot jersey minute",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "YNsSGN-EkT8",
+    "title": "Paris-Nice 2020 - Stage 6 - Last Kilometer",
+    "durationSeconds": 115
+  },
+  {
+    "videoId": "wCVTZjlOYVc",
+    "title": "Paris-Nice 2020 - Stage 5 - Highlights",
+    "durationSeconds": 258
+  },
+  {
+    "videoId": "uUgXTYqPHco",
+    "title": "Paris-Nice 2020 - Étape 5 - Résumé",
+    "durationSeconds": 258
+  },
+  {
+    "videoId": "wh5uI96n2Mw",
+    "title": "Paris-Nice 2020 - Stage 5 - Minute Maillot Jaune LCL",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "ohn_7dD3UTQ",
+    "title": "Paris-Nice 2020 - Stage 5 - Last Kilometer",
+    "durationSeconds": 89
+  },
+  {
+    "videoId": "BI_edrDEHhE",
+    "title": "Paris-Nice 2020 - Étape 4 - Résumé",
+    "durationSeconds": 218
+  },
+  {
+    "videoId": "GG2MUBodl7Y",
+    "title": "Paris-Nice 2020 - Stage 4 - Highlights",
+    "durationSeconds": 218
+  },
+  {
+    "videoId": "dZ8beoy5oSM",
+    "title": "Paris-Nice 2020 - Stage 4 - Minute Maillot Jaune LCL",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "y8Om0aCRMWk",
+    "title": "Paris-Nice 2020 - Stage 4 - Last Kilometer",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "fK10WYcs6yU",
+    "title": "Paris-Nice 2020 - Stage 3 - Highlights",
+    "durationSeconds": 204
+  },
+  {
+    "videoId": "CoNuSGmUo0o",
+    "title": "Paris-Nice 2020 - Étape 3 - Résumé",
+    "durationSeconds": 204
+  },
+  {
+    "videoId": "0TcvOXKrN8E",
+    "title": "Paris-Nice 2020 - Stage 3 - Minute Maillot Jaune LCL",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "fCXHhUPgIkY",
+    "title": "Paris-Nice 2020 - Stage 3 - Last Kilometer",
+    "durationSeconds": 93
+  },
+  {
+    "videoId": "2mOk7y5TwnQ",
+    "title": "Tour de France 2020 - Riding into the future",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "3IhsD7vL7cg",
+    "title": "Tour de France 2020 - L'avenir à vélo",
+    "durationSeconds": 64
+  },
+  {
+    "videoId": "e5AE-Ph-hsc",
+    "title": "Tour de France 2020 - Riding into the future (ES)",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "WQBuqo_INqk",
+    "title": "Tour de France 2020 - Riding into the future (German version)",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "6AaTbh3Cl9M",
+    "title": "Paris-Nice 2020 - Stage 2 - Highlights",
+    "durationSeconds": 249
+  },
+  {
+    "videoId": "6ngjVFYQjkI",
+    "title": "Paris-Nice 2020 - Stage 2 - Minute Maillot Jaune LCL",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "E6z87bI9nlo",
+    "title": "Paris-Nice 2020 - Étape 2 - Résumé",
+    "durationSeconds": 249
+  },
+  {
+    "videoId": "3pFBy8-3WU8",
+    "title": "Paris-Nice 2020 - Stage 2 - Last Kilometer",
+    "durationSeconds": 99
+  },
+  {
+    "videoId": "M1XwTnK1FaQ",
+    "title": "Virtual Tour de France 2020 - Stage 2 : Highlights",
+    "durationSeconds": 285
+  },
+  {
+    "videoId": "R46hooBcpBw",
+    "title": "Virtual Tour de France 2020 - Live Stage 2",
+    "durationSeconds": 7270
+  },
+  {
+    "videoId": "Pp1hLy2l3hI",
+    "title": "Tour de France 2020 - Un jour Une histoire : La Vendée",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "hxFacd320Ug",
+    "title": "Tour de France 2020 - One day One story : Vendée",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "bjkpy--_H2g",
+    "title": "Virtual Tour de France 2020 - Stage 1 : Highlights",
+    "durationSeconds": 274
+  },
+  {
+    "videoId": "omR2-hwea_A",
+    "title": "Tour de France Virtuel 2020 - Étape 1 : Résumé",
+    "durationSeconds": 274
+  },
+  {
+    "videoId": "g6OOKzJVPFI",
+    "title": "Virtual Tour de France 2020 - Live Stage 1",
+    "durationSeconds": 7320
+  },
+  {
+    "videoId": "dNAqTCvZtQM",
+    "title": "Tour de France 2020 - One day One story : Yorkshire",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "QWSCJkGhh2k",
+    "title": "Tour de France 2020 - Un jour Une histoire : Le Yorkshire",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "GJP_05uXDUA",
+    "title": "Tour de France 2020 - One day One story : Cobblestones of the North",
+    "durationSeconds": 83
+  },
+  {
+    "videoId": "Ew-DaQMC_c0",
+    "title": "Tour de France 2020 - Un jour Une histoire : Les pavés du Nord",
+    "durationSeconds": 83
+  },
+  {
+    "videoId": "ADoU0DWAyNE",
+    "title": "Tour de France 2020 - Un jour Une histoire : La Corse",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "UDHof0c9Qiw",
+    "title": "Tour de France 2020 - One day One story : Corsica",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "GBthpoCIlTY",
+    "title": "Tour de France 2020 - Un jour Une histoire : Un guerrier",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "V4sk_5O4Y-U",
+    "title": "Tour de France 2020 - One day One story : A warrior",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "q5pW8q_nbd4",
+    "title": "Tour de France 2020 - One day One story : July 1st 1903",
+    "durationSeconds": 103
+  },
+  {
+    "videoId": "qYCNd9gyPRU",
+    "title": "Tour de France 2020 - Un jour Une histoire : 1er Juillet 1903",
+    "durationSeconds": 103
+  },
+  {
+    "videoId": "I70sx4CO2pI",
+    "title": "Tour de France 2020 - Un jour Une histoire : Le Col de Menté",
+    "durationSeconds": 71
+  },
+  {
+    "videoId": "uMn6bf4mjpo",
+    "title": "Tour de France 2020 - One day One story : Col de Menté",
+    "durationSeconds": 71
+  },
+  {
+    "videoId": "CDhl5IhnIlU",
+    "title": "Paris-Nice 2020 - Best-of",
+    "durationSeconds": 191
+  },
+  {
+    "videoId": "4p5bToBvDtA",
+    "title": "Paris-Nice 2020 - Stage 7 - Minute Maillot Jaune LCL",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "-4g1cmHjnBA",
+    "title": "Paris-Nice 2020 - Stage 7 - E.Leclerc Polka dot jersey minute",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "j9OPewvIjcE",
+    "title": "Paris-Nice 2020 - Stage 7 - Highlights",
+    "durationSeconds": 227
+  },
+  {
+    "videoId": "7vxpq977iZs",
+    "title": "Paris-Nice 2020 - Étape 7 - Résumé",
+    "durationSeconds": 227
+  },
+  {
+    "videoId": "SHJ7bpGc0D4",
+    "title": "Paris-Nice 2020 - Stage 7 - Last Kilometer",
+    "durationSeconds": 226
+  },
+  {
+    "videoId": "0GWvrqcDNlI",
+    "title": "Tour de France 2020 - Un jour Une histoire : Puy de Dôme",
+    "durationSeconds": 99
+  },
+  {
+    "videoId": "bDFYrqe64g8",
+    "title": "Tour de France 2020 - One day One story : Puy de Dome 1964",
+    "durationSeconds": 99
+  },
+  {
+    "videoId": "QDXgyVrJMyY",
+    "title": "Tour de France 2020 - Un jour Une histoire : Froome 2016",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "gQH3EPY03Tg",
+    "title": "Tour de France 2020 - One day One story : Froome 2016",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "X-ILyqqhKVY",
+    "title": "Tour de France 2020 - One day One story : Pinot 2019",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "MrXEUCB_H0g",
+    "title": "Tour de France 2020 - Un jour Une histoire : Pinot 2019",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "8oXo_6ev2sg",
+    "title": "Tour de France 2020 - Un jour Une histoire : Succession",
+    "durationSeconds": 93
+  },
+  {
+    "videoId": "a1dgn1Ro8iQ",
+    "title": "Tour de France 2020 - One day One story : Succession",
+    "durationSeconds": 93
+  },
+  {
+    "videoId": "W8mrj7v2uvE",
+    "title": "Virtual Tour de France 2020 - Stage 4 - Highlights",
+    "durationSeconds": 290
+  },
+  {
+    "videoId": "WG0bTPFsB0c",
+    "title": "Tour de France Virtuel 2020 - Etape 4 - Résumé",
+    "durationSeconds": 290
+  },
+  {
+    "videoId": "nYe8to89sfA",
+    "title": "Virtual Tour de France 2020 - Live Stage 4",
+    "durationSeconds": 7290
+  },
+  {
+    "videoId": "mi9pYVuIah4",
+    "title": "Tour de France 2020 - Un jour Une histoire : Pluie et boue",
+    "durationSeconds": 93
+  },
+  {
+    "videoId": "5UI3gc3hUAY",
+    "title": "Tour de France 2020 - One day One story : Rain and mud",
+    "durationSeconds": 93
+  },
+  {
+    "videoId": "FRBFQc8Swes",
+    "title": "Tour de France Virtuel 2020 - Etape 3 - Résumé",
+    "durationSeconds": 274
+  },
+  {
+    "videoId": "BGfGAlhlldo",
+    "title": "Virtual Tour de France 2020 - Stage 3 - Highlights",
+    "durationSeconds": 274
+  },
+  {
+    "videoId": "2Jyp0mDQc-U",
+    "title": "Virtual Tour de France 2020 - Live Stage 3",
+    "durationSeconds": 7634
+  },
+  {
+    "videoId": "uGocGgOrcCE",
+    "title": "Tour de France 2020 - One day One story : Eddy",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "L5jAikzrr-k",
+    "title": "Tour de France 2020 - Un jour Une histoire : Eddy",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "vkQqvgxjKpg",
+    "title": "Tour de France 2020 - One day One story : Mont du Chat 2017",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "ky1BeUInjyw",
+    "title": "Tour de France 2020 - Un jour Une histoire : Mont du Chat 2017",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "TY-3iKMgQEY",
+    "title": "Tour de France 2020 - One day One story : Pra-Loup 1975",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "aP15RG2_pFI",
+    "title": "Tour de France 2020 - Un jour Une histoire : Pra-Loup 1975",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "b--wXo61_Gk",
+    "title": "Tour de France 2020 - Un jour Une histoire : Tony Martin",
+    "durationSeconds": 103
+  },
+  {
+    "videoId": "aE3FcAbPvT8",
+    "title": "Tour de France 2020 - One day One story : Tony Martin",
+    "durationSeconds": 103
+  },
+  {
+    "videoId": "yxWSrIr8XWo",
+    "title": "Tour de France 2020 - One day One story : 8 seconds in 1989",
+    "durationSeconds": 93
+  },
+  {
+    "videoId": "k9STXAMkS5o",
+    "title": "Tour de France 2020 - Un jour Une histoire : 8 secondes 1989",
+    "durationSeconds": 93
+  },
+  {
+    "videoId": "NrEPu4kpGs4",
+    "title": "Tour de France 2020 - Un jour Une histoire : Course Neutralisée",
+    "durationSeconds": 100
+  },
+  {
+    "videoId": "ifoCzbG7SxA",
+    "title": "Tour de France 2020 - One day One story : Race neutralised",
+    "durationSeconds": 100
+  },
+  {
+    "videoId": "EnhuBcEM7_I",
+    "title": "Tour de France Virtuel 2020 - Étape 2 : Résumé",
+    "durationSeconds": 283
+  },
+  {
+    "videoId": "r6ZHX5QS-6c",
+    "title": "Grand Départ 2021 : La Bretagne et le Tour",
+    "durationSeconds": 204
+  },
+  {
+    "videoId": "nfCSE2v56Xk",
+    "title": "Virtual Tour de France 2020 - Stage 6 - Highlights",
+    "durationSeconds": 330
+  },
+  {
+    "videoId": "a7y-6DX3_G0",
+    "title": "Tour de France Virtuel 2020 - Etape 6 - Résumé",
+    "durationSeconds": 328
+  },
+  {
+    "videoId": "eNOucMm3huI",
+    "title": "Virtual Tour de France 2020 - Live Stage 6",
+    "durationSeconds": 7520
+  },
+  {
+    "videoId": "1CXlrQ6QcoU",
+    "title": "Tour de France 2020 - Un jour Une histoire : Champs Elysées",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "aq--5SUK_lY",
+    "title": "Tour de France 2020 - One day One story : Champs Elysées",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "f-Dx3Zbq7bY",
+    "title": "Virtual Tour de France 2020 - Stage 5 - Highlights",
+    "durationSeconds": 271
+  },
+  {
+    "videoId": "CRS_Yws0u1A",
+    "title": "Tour de France Virtuel 2020 - Etape 5 - Résumé",
+    "durationSeconds": 271
+  },
+  {
+    "videoId": "7RTvu8eDKOw",
+    "title": "Virtual Tour de France 2020 - Live Stage 5",
+    "durationSeconds": 7266
+  },
+  {
+    "videoId": "W0iXKtTLQuc",
+    "title": "Tour de France 2020 - One day One story : Severe weather 2019",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "4bpqmedC17E",
+    "title": "Tour de France 2020 - Un jour Une histoire : Intempéries 2019",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "rurXOQNVncE",
+    "title": "Tour de France 2020 - Un jour Une histoire : Rolland Alpe D'Huez",
+    "durationSeconds": 82
+  },
+  {
+    "videoId": "rPIqwr0M1S4",
+    "title": "Tour de France 2020 - One day One story : Rolland Alpe D'Huez",
+    "durationSeconds": 82
+  },
+  {
+    "videoId": "9MuQzcaIbS8",
+    "title": "Critérium du #Dauphiné 2020 - Race highlights",
+    "durationSeconds": 190
+  },
+  {
+    "videoId": "V-MgzOuQSQ4",
+    "title": "Critérium du Dauphiné 2020 - Stage 5 - Stage highlights",
+    "durationSeconds": 287
+  },
+  {
+    "videoId": "S9OdPbwf1aA",
+    "title": "Critérium du #Dauphiné 2020 - Stage 5 - Région Auvergne-Rhône-Alpes Polka dot Jersey Minute",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "i_pZNMRf_2k",
+    "title": "Critérium du Dauphiné 2020 - Étape 5 - Résumé d'étape",
+    "durationSeconds": 287
+  },
+  {
+    "videoId": "MRdSyYYC348",
+    "title": "Critérium du Dauphiné 2020 - Stage 5 - LCL Yellow Jersey Minute",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "PV3vXtCQ1Zw",
+    "title": "Critérium du Dauphiné 2020 - Stage 5 - Last Kilometer",
+    "durationSeconds": 145
+  },
+  {
+    "videoId": "f62hJHSxIq8",
+    "title": "Critérium du Dauphiné 2020 - Stage 4 - Stage highlights",
+    "durationSeconds": 291
+  },
+  {
+    "videoId": "XmirL1wM1Ko",
+    "title": "Critérium du Dauphiné 2020 - Étape 4 - Résumé d'étape",
+    "durationSeconds": 291
+  },
+  {
+    "videoId": "pm-onWRXHQg",
+    "title": "Critérium du Dauphiné 2020 - Stage 4 - LCL Yellow Jersey Minute",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "-AeujRW76io",
+    "title": "Critérium du Dauphiné 2020 - Stage 4 - Région Auvergne-Rhône-Alpes Polka dot Jersey Minute",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "PKD4aPZ0ckQ",
+    "title": "Critérium du Dauphiné 2020 - Stage 4 - Last Kilometer",
+    "durationSeconds": 144
+  },
+  {
+    "videoId": "4ac6AQWSpBI",
+    "title": "Critérium du Dauphiné 2020 - Stage 3 - Stage highlights",
+    "durationSeconds": 285
+  },
+  {
+    "videoId": "7YcvUab2OqQ",
+    "title": "Critérium du Dauphiné 2020 - Étape 3 - Résumé d'étape",
+    "durationSeconds": 285
+  },
+  {
+    "videoId": "K0Cl4ly8RG4",
+    "title": "Critérium du Dauphiné 2020 - Stage 3 - Région Auvergne-Rhône-Alpes Polka dot Jersey Minute",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "3hvDedaqhi4",
+    "title": "Critérium du Dauphiné 2020 - Stage 3 - LCL Yellow Jersey Minute",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "F54dhq6Ulgg",
+    "title": "Critérium du Dauphiné 2020 - Stage 3 - Last Kilometer",
+    "durationSeconds": 164
+  },
+  {
+    "videoId": "Q_YkkTJR9QE",
+    "title": "Critérium du Dauphiné 2020 - Stage 2 - Stage highlights",
+    "durationSeconds": 319
+  },
+  {
+    "videoId": "7cGeS_TzqQ0",
+    "title": "Critérium du Dauphiné 2020 - Étape 2 - Résumé d'étape",
+    "durationSeconds": 319
+  },
+  {
+    "videoId": "XL1QKH1brbY",
+    "title": "Critérium du Dauphiné 2020 - Stage 2 - Région Auvergne-Rhône-Alpes Polka dot Jersey Minute",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "1sWSbZ5pDcI",
+    "title": "Critérium du Dauphiné 2020 - Stage 2 - LCL Yellow Jersey Minute",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "-XB-VGK4Kjg",
+    "title": "Critérium du Dauphiné 2020 - Stage 2 - Last Kilometer",
+    "durationSeconds": 144
+  },
+  {
+    "videoId": "kV_IdeIGQ0Y",
+    "title": "Critérium du Dauphiné 2020 - Étape 1 - Résumé d'étape",
+    "durationSeconds": 252
+  },
+  {
+    "videoId": "rkeikRQsbL4",
+    "title": "Critérium du Dauphiné 2020 - Stage 1 - Stage highlights",
+    "durationSeconds": 252
+  },
+  {
+    "videoId": "gxpduMnugQg",
+    "title": "Critérium du Dauphiné 2020 - Stage 1 - Région Auvergne-Rhône-Alpes Polka dot Jersey Minute",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "I-IeX3_nYAw",
+    "title": "Critérium du Dauphiné 2020 - Stage 1 - LCL Yellow Jersey Minute",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "TnWl-TtE3SU",
+    "title": "Critérium du Dauphiné 2020 - Stage 1 - Last Kilometer",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "T9RApczLwNI",
+    "title": "Tour de France 2020 : Étape 3 - Le guêpier d’Europe",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "mZR8Pv_n_kQ",
+    "title": "#TDF2020 - Stage 2 - Krys White Jersey Minute",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "nw9-QpXlP4k",
+    "title": "Tour de France 2020 : Étape 2 - La tortue d’Hermann",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "cYOpIWyd7oE",
+    "title": "La Course by Le Tour avec FDJ - Highlights",
+    "durationSeconds": 201
+  },
+  {
+    "videoId": "zM4rtqKCAFY",
+    "title": "#TDF2020 Étape 1 - La posidonie",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "By3ua_Jo5YQ",
+    "title": "#TDF2020 Le Tour de France for newbies",
+    "durationSeconds": 695
+  },
+  {
+    "videoId": "xtrGwDoFZx0",
+    "title": "#TDF2020 Le Tour de France pour les débutants",
+    "durationSeconds": 697
+  },
+  {
+    "videoId": "IJhzcm8PcVg",
+    "title": "#TDF2020 Discover the entire route",
+    "durationSeconds": 313
+  },
+  {
+    "videoId": "PfgkUNDSh4E",
+    "title": "Découvrez les 3 nouveaux maillots jaunes du #TDF2020 !",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "d1_r5PZPJxw",
+    "title": "#TDF2020 Rendez-vous à Nice !",
+    "durationSeconds": 64
+  },
+  {
+    "videoId": "DxQ9fU_L1Pc",
+    "title": "#TDF2020 - See you in Nice !",
+    "durationSeconds": 64
+  },
+  {
+    "videoId": "Po2ubO0ENL0",
+    "title": "Tour de France 2020 : Étape 6 - Parc national des Cévennes Réserve de biosphère",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "rLq4M1YPX3E",
+    "title": "Enjoy the #TDF2020 signature podium of Stage 6 presented by Tissot",
+    "durationSeconds": 5181
+  },
+  {
+    "videoId": "SxAwwP3iVUA",
+    "title": "Tour de France 2020 : Étape 5 - Les vautours fauves",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "5lXFB6lvPeI",
+    "title": "Enjoy the #TDF2020 signature podium of Stage 5 presented by Tissot",
+    "durationSeconds": 5375
+  },
+  {
+    "videoId": "DJqEEp4JYJ8",
+    "title": "Tour de France 2020 : Étape 4 - Le tétras Lyre",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "QHfBkw5i_VQ",
+    "title": "Enjoy the #TDF2020 signature podium of Stage 4 presented by Tissot",
+    "durationSeconds": 5051
+  },
+  {
+    "videoId": "X6sueWJtJdU",
+    "title": "Tour de France 2020 : Étape 10 - L’oyat",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "-RsU3VXgUyw",
+    "title": "Enjoy the #TDF2020 signature podium of Stage 10 presented by Tissot",
+    "durationSeconds": 5391
+  },
+  {
+    "videoId": "2Ma3E52YmnA",
+    "title": "Tour de France 2020 : Étape 9 - L’arum d’Italie",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "H8DohTfSZIU",
+    "title": "Enjoy the #TDF2020 signature podium of Stage 9 presented by Tissot",
+    "durationSeconds": 5386
+  },
+  {
+    "videoId": "-Xq9sC-zliw",
+    "title": "Tour de France 2020 : Étape 8 - Parc national des Pyrénées",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "4bsZyUB0EXw",
+    "title": "Enjoy the #TDF2020 signature podium of Stage 8 presented by Tissot",
+    "durationSeconds": 4941
+  },
+  {
+    "videoId": "pXmolfvyKP8",
+    "title": "Tour de France 2020 : Étape 7 - Le cheval de Przewalski",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "SrTv3hBLTKA",
+    "title": "Enjoy the #TDF2020 signature podium of Stage 7 presented by Tissot",
+    "durationSeconds": 5405
+  },
+  {
+    "videoId": "RTIs83rz8aY",
+    "title": "Tour de France 2020 : Étape 14 - Héron cendré",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "MBrby-rei40",
+    "title": "Enjoy the #TDF2020 signature podium of Stage 14  presented by Tissot",
+    "durationSeconds": 5375
+  },
+  {
+    "videoId": "4EbiAo1gSnY",
+    "title": "Tour de France 2020 : Étape 13 - Carrière Eurovia Châteaugay",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "QV-IO7EV7Uw",
+    "title": "Enjoy the #TDF2020 signature podium of Stage 13 presented by Tissot",
+    "durationSeconds": 5360
+  },
+  {
+    "videoId": "HQSZF6BNanQ",
+    "title": "Tour de France 2020 : Étape 12 - Pie-grièche écorcheur",
+    "durationSeconds": 83
+  },
+  {
+    "videoId": "WqixRTc9k4g",
+    "title": "Enjoy the #TDF2020 signature podium of Stage 12 presented by Tissot",
+    "durationSeconds": 5366
+  },
+  {
+    "videoId": "M7lzO0r-5HE",
+    "title": "Tour de France 2020 : Étape 11 - La loutre",
+    "durationSeconds": 83
+  },
+  {
+    "videoId": "Yw75KpinxWo",
+    "title": "Enjoy the #TDF2020 signature podium of Stage 11 presented by Tissot",
+    "durationSeconds": 5515
+  },
+  {
+    "videoId": "OVyxplpkKxI",
+    "title": "Tour de France 2020 : Étape 17 - Parc national de la Vanoise",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "is0rehkNTZA",
+    "title": "Enjoy the #TDF2020 signature podium of Stage 17 presented by Tissot",
+    "durationSeconds": 4516
+  },
+  {
+    "videoId": "-JXJ70yKIA4",
+    "title": "Tour de France 2020 : Étape 16 - L’espace naturel sensible départemental du Haut Moucherotte",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "0_RksmpEeRU",
+    "title": "Enjoy the #TDF2020 signature podium of Stage 16 presented by Tissot",
+    "durationSeconds": 4695
+  },
+  {
+    "videoId": "S5UGbAe5N3g",
+    "title": "Tour de France 2020 : Étape 15 - La salamandre tachetée",
+    "durationSeconds": 82
+  },
+  {
+    "videoId": "qFY5bbGOKII",
+    "title": "Enjoy the #TDF2020 signature podium of Stage 21 presented by Tissot",
+    "durationSeconds": 4475
+  },
+  {
+    "videoId": "droleQMpN3Q",
+    "title": "Tour de France 2020 : Étape 21 - La réserve de Saint-Quentin-en-Yvelines",
+    "durationSeconds": 83
+  },
+  {
+    "videoId": "e9q1hl3C5-I",
+    "title": "Tour de France 2020 : Étape 20 - Le lynx boréal",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "FDLPFQod_zg",
+    "title": "Tour de France 2020 : Étape 19 - La cigogne noire",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "SCUH7uMiPMY",
+    "title": "Enjoy the #TDF2020 signature podium of Stage 19 presented by Tissot",
+    "durationSeconds": 4500
+  },
+  {
+    "videoId": "Llas5tWk1Fc",
+    "title": "Tour de France 2020 : Étape 18 - La marmotte",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "DJCcjOXLXwA",
+    "title": "Enjoy the #TDF2020 signature podium of Stage 18 presented by Tissot",
+    "durationSeconds": 4515
+  },
+  {
+    "videoId": "jTLmfOtN5Nw",
+    "title": "#TDF2021 - Découvrez le parcours en 2D !",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "bOqZ-RN1RuI",
+    "title": "#TDF2021 - Découvrez l'étape 7 / Discover stage 7",
+    "durationSeconds": 70
+  },
+  {
+    "videoId": "lpPcOEf9Jlc",
+    "title": "#TDF2021 - Mont Ventoux",
+    "durationSeconds": 105
+  },
+  {
+    "videoId": "o8w7CC_2OX0",
+    "title": "#TDF2021 - Découvrez l'étape 15 / Discover stage 15",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "I7o_DX1lM6g",
+    "title": "#TDF2021 - Enjoy the 3D route / Découvrez le parcours en 3D !",
+    "durationSeconds": 309
+  },
+  {
+    "videoId": "674lpeHcqLY",
+    "title": "#TDF2021 - Découvrez l'étape 10 / Discover stage 10",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "F8zVly-M3qY",
+    "title": "#TDF2021 - Découvrez l'étape 9 / Discover stage 9",
+    "durationSeconds": 71
+  },
+  {
+    "videoId": "2RYxDg2eI7w",
+    "title": "#TDF2021 - Découvrez l'étape 21 / Discover stage 21",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "-sl1ZzYDVxY",
+    "title": "#TDF2020 - Le best-of de la 107e édition !",
+    "durationSeconds": 800
+  },
+  {
+    "videoId": "asm-ZolncqQ",
+    "title": "Résumé / Highlights - Paris-Tours 2020",
+    "durationSeconds": 134
+  },
+  {
+    "videoId": "PI25bywGI0k",
+    "title": "Flamme Rouge / Last Kilometer - Paris-Tours 2020",
+    "durationSeconds": 152
+  },
+  {
+    "videoId": "CwlOFnI-kpc",
+    "title": "Paris-Tours 2020 - Parcours / Route",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "1LxxGMxT0R0",
+    "title": "Paris-Tours 2020 - Teaser",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "Rl5P3kq9msY",
+    "title": "Highlights - Liège-Bastogne-Liège 2020",
+    "durationSeconds": 303
+  },
+  {
+    "videoId": "wOKiuXxG5o0",
+    "title": "Résumé - Liège-Bastogne-Liège 2020",
+    "durationSeconds": 303
+  },
+  {
+    "videoId": "G9juEMBTWZQ",
+    "title": "Last Kilometer - Liège-Bastogne-Liège 2020",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "oGagW--1AhM",
+    "title": "Résumé - Liège-Bastogne-Liège Femmes 2020",
+    "durationSeconds": 240
+  },
+  {
+    "videoId": "LOHmkXx2oNY",
+    "title": "Highlights - Liège-Bastogne-Liège Femmes 2020",
+    "durationSeconds": 240
+  },
+  {
+    "videoId": "eu33aH6T5zE",
+    "title": "Last Kilometer - Liège-Bastogne-Liège Femmes 2020",
+    "durationSeconds": 99
+  },
+  {
+    "videoId": "_TBmsGXFmrE",
+    "title": "Highlights - La Flèche Wallonne 2020",
+    "durationSeconds": 216
+  },
+  {
+    "videoId": "QlpWsYeq67M",
+    "title": "Résumé - La Flèche Wallonne 2020",
+    "durationSeconds": 216
+  },
+  {
+    "videoId": "_JuwQ7LUaRA",
+    "title": "Last Kilometer - La Flèche Wallonne 2020",
+    "durationSeconds": 186
+  },
+  {
+    "videoId": "VI-ylMT4WPg",
+    "title": "Highlights - La Flèche Wallonne Femmes 2020",
+    "durationSeconds": 189
+  },
+  {
+    "videoId": "zs9abBwjcNs",
+    "title": "Résumé - La Flèche Wallonne Femmes 2020",
+    "durationSeconds": 189
+  },
+  {
+    "videoId": "n7aEVL3tozI",
+    "title": "Last Kilometer - La Flèche Wallonne Femmes 2020",
+    "durationSeconds": 225
+  },
+  {
+    "videoId": "tis3T2WhFrk",
+    "title": "Liège-Bastogne-Liège 2020 - Le teaser",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "uWICIGHfj2c",
+    "title": "La Flèche Wallonne 2020 - Le Teaser",
+    "durationSeconds": 66
+  },
+  {
+    "videoId": "YW9ZdQuOB2k",
+    "title": "The Route / Le Parcours - Men/ Hommes - Liège-Bastogne-Liège 2020",
+    "durationSeconds": 62
+  },
+  {
+    "videoId": "CvFliuKE9hs",
+    "title": "#ParisNice2021 - Stage 4 - Chalon-sur-Saône / Chiroubles - Last KM",
+    "durationSeconds": 177
+  },
+  {
+    "videoId": "mP7niN-kLjs",
+    "title": "#ParisNice2021 - Stage 3 - Gien / Gien - Bissegger takes the spoils",
+    "durationSeconds": 224
+  },
+  {
+    "videoId": "NjKHLd5yZL0",
+    "title": "#ParisNice2021 - Stage 3 - LCL Yellow Jersey Minute",
+    "durationSeconds": 116
+  },
+  {
+    "videoId": "Vk5E3ZsTzRE",
+    "title": "#ParisNice2021 - Étape 3 - Gien / Gien - Bissegger rafle la mise",
+    "durationSeconds": 224
+  },
+  {
+    "videoId": "VwSLHKKoLBc",
+    "title": "#ParisNice2021 - Stage 3 - Gien / Gien - Last KM",
+    "durationSeconds": 118
+  },
+  {
+    "videoId": "YpiPSPZPvzE",
+    "title": "#ParisNice2021 - Stage 2 - Antargaz Most Aggressive Rider Minute",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "9Ipm5JEpc-s",
+    "title": "#ParisNice2021 - Stage 2 - LCL Yellow Jersey Minute",
+    "durationSeconds": 101
+  },
+  {
+    "videoId": "TNQ0FSmJP8Y",
+    "title": "#ParisNice2021 - Stage 2 - Oinville-Sur-Montcient / Amilly - Stage summary",
+    "durationSeconds": 228
+  },
+  {
+    "videoId": "s9E8EhMoqBQ",
+    "title": "#ParisNice2021 - Étape 2 - Oinville-Sur-Montcient / Amilly - Résumé de l'étape",
+    "durationSeconds": 228
+  },
+  {
+    "videoId": "T53m8HPJ9yU",
+    "title": "#ParisNice2021 - Stage 2 - Oinville-Sur-Montcient / Amilly - Last KM",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "qUa1NCdFlY0",
+    "title": "#ParisNice2021 - Stage 1 - LCL Yellow Jersey Minute",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "VY4XEynKZ34",
+    "title": "#ParisNice2021 - Stage 1 - Saint-Cyr-l'École / Saint-Cyr-l'École - Benett, from green to yellow",
+    "durationSeconds": 231
+  },
+  {
+    "videoId": "YijvT3pMRHo",
+    "title": "#ParisNice2021 - Étape 1 - Saint-Cyr-l'École / Saint-Cyr-l'École - Benett, du vert au jaune",
+    "durationSeconds": 231
+  },
+  {
+    "videoId": "UA2kpajaxwA",
+    "title": "#ParisNice2021 - Stage 1 - Antargaz Most Aggressive Rider Minute",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "pZQxG0KTot0",
+    "title": "#ParisNice2021 - Stage 1 - Saint-Cyr-l'École / Saint-Cyr-l'École - Last KM",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "VJcc32fhBg4",
+    "title": "Liège-Bastogne-Liège 2021 - Découvrez le parcours / Discover the route",
+    "durationSeconds": 73
+  },
+  {
+    "videoId": "Q3eatwM41TQ",
+    "title": "Continental Throwback – #TDF2020 – Stage 2 : Julian Alaphilippe",
+    "durationSeconds": 138
+  },
+  {
+    "videoId": "GGXwxr40T04",
+    "title": "Paris-Nice 2021 - Découvrez le parcours / Discover the route",
+    "durationSeconds": 66
+  },
+  {
+    "videoId": "hqaE-LNCxgM",
+    "title": "#TDF2021 - Grand Départ Bretagne 2021",
+    "durationSeconds": 151
+  },
+  {
+    "videoId": "BLsH1pbtis4",
+    "title": "#TDF2021 - Présentation du Tour de France 2021 en direct !",
+    "durationSeconds": 3791
+  },
+  {
+    "videoId": "gjqywEMCOwI",
+    "title": "#TDF2021 - Live presentation of the Tour de France 2021!",
+    "durationSeconds": 3791
+  },
+  {
+    "videoId": "Q99I6JiMQNY",
+    "title": "#TDF2021 - Découvrez l'étape 14 / Discover stage 14",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "s1iGgH7lOnE",
+    "title": "#TDF2021 - Découvrez l'étape 16 / Discover stage 16",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "NmR60oUvdWo",
+    "title": "#TDF2021 - Découvrez l'étape 11 / Discover stage 11",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "OpolWCrUfIE",
+    "title": "#TDF2021 - Découvrez l'étape 17 / Discover stage 17",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "ZRy3ngeBi4g",
+    "title": "#TDF2021 - Découvrez l'étape 8 / Discover stage 8",
+    "durationSeconds": 70
+  },
+  {
+    "videoId": "eexFx5ilm2g",
+    "title": "Liège Bastogne Liège Hommes 2021 - Race summary",
+    "durationSeconds": 308
+  },
+  {
+    "videoId": "DQ_2IxKLwTo",
+    "title": "Liège Bastogne Liège Hommes 2021 - Résumé de la course",
+    "durationSeconds": 308
+  },
+  {
+    "videoId": "1h7rMhROmJQ",
+    "title": "Liège Bastogne Liège Hommes 2021 - Last KM",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "TBOVmCRkpX8",
+    "title": "Liège Bastogne Liège Femmes 2021 - Race summary",
+    "durationSeconds": 250
+  },
+  {
+    "videoId": "JSfVMx4pcyI",
+    "title": "Liège Bastogne Liège Femmes 2021 - Résumé de la course",
+    "durationSeconds": 250
+  },
+  {
+    "videoId": "F4YBntL2WY0",
+    "title": "Liège Bastogne Liège Femmes 2021 - Last KM",
+    "durationSeconds": 94
+  },
+  {
+    "videoId": "XQZRZy5UkSA",
+    "title": "#LBLwomen 2021 - Who'll be crowned next?",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "srYf9WIJvTg",
+    "title": "#LBL 2021 - Julian Alaphilippe vs Primož Roglič : The Revenge?",
+    "durationSeconds": 105
+  },
+  {
+    "videoId": "7fQX5dGoJDs",
+    "title": "Flèche Wallonne Hommes 2021 - Race summary",
+    "durationSeconds": 302
+  },
+  {
+    "videoId": "0QZMB6WEyLk",
+    "title": "Flèche Wallonne Hommes 2021 - Résumé de la course",
+    "durationSeconds": 302
+  },
+  {
+    "videoId": "qOSKDY78iBE",
+    "title": "Flèche Wallonne Hommes 2021 - Last KM",
+    "durationSeconds": 194
+  },
+  {
+    "videoId": "x5T_8HmZbR0",
+    "title": "Flèche Wallonne Femmes 2021 - Race summary",
+    "durationSeconds": 204
+  },
+  {
+    "videoId": "9uBwKBy04TA",
+    "title": "Flèche Wallonne Femmes 2021 - Résumé de la course",
+    "durationSeconds": 204
+  },
+  {
+    "videoId": "spBw1h2YA24",
+    "title": "Flèche Wallonne Femmes 2021 - Last KM",
+    "durationSeconds": 210
+  },
+  {
+    "videoId": "EJd9Vc0ZGI8",
+    "title": "La Flèche Wallonne 2021 - Who will triumph on the Mur de Huy?",
+    "durationSeconds": 110
+  },
+  {
+    "videoId": "HtHiOaPaweU",
+    "title": "La Flèche Wallonne Femmes 2021 - A 7th for Anna van der Breggen or a 6th for Marianne Vos?",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "-6ABC0JJJ2g",
+    "title": "Tour de France 2023  : Rendez-vous au Pays Basque !",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "mBlk693yHt8",
+    "title": "#ParisNice2021 - Race Highlights",
+    "durationSeconds": 199
+  },
+  {
+    "videoId": "l_p_5RaRzqI",
+    "title": "#ParisNice2021 - Stage 8 - Antargaz Most Aggressive Rider Minute",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "GvvlYH60MGk",
+    "title": "#ParisNice2021 - Stage 8 - E.Leclerc Polka Dot Jersey Minute",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "yunHXzEz18c",
+    "title": "#ParisNice2021 - Stage 8 - Le-Plan-du-Var / Levens - The stage for Cort Nielsen, Schachmann winner!",
+    "durationSeconds": 263
+  },
+  {
+    "videoId": "ZXE6vtZDjdI",
+    "title": "#ParisNice2021 - Stage 8 - LCL Yellow Jersey Minute",
+    "durationSeconds": 122
+  },
+  {
+    "videoId": "hueT9YLeevE",
+    "title": "#ParisNice2021 - Étape 8 - Le-Plan-du-Var / Levens - L'étape pour Cort Nielsen, Schachmann vainqueur",
+    "durationSeconds": 263
+  },
+  {
+    "videoId": "_4E71uajYVs",
+    "title": "#ParisNice2021 - Stage 8 - Le-Plan-du-Var / Levens - Last KM",
+    "durationSeconds": 99
+  },
+  {
+    "videoId": "1INioNWE9Dk",
+    "title": "#ParisNice2021 - Stage 7 - Antargaz Most Aggressive Rider Minute",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "Hx72QACq7EE",
+    "title": "#ParisNice2021 - Stage 7 - Le Broc / Valdeblore La Colmiane - Merciless Roglic",
+    "durationSeconds": 298
+  },
+  {
+    "videoId": "IO_gocr13rM",
+    "title": "#ParisNice2021 - Stage 7 - LCL Yellow Jersey Minute",
+    "durationSeconds": 116
+  },
+  {
+    "videoId": "0_Mhp5myLSk",
+    "title": "#ParisNice2021 - Stage 7 - E.Leclerc Polka Dot Jersey Minute",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "BAEhlZjMPXU",
+    "title": "#ParisNice2021 - Étape 7 - Le Broc / Valdeblore La Colmiane - Roglic, sans merci !",
+    "durationSeconds": 298
+  },
+  {
+    "videoId": "EYBb8_leDWI",
+    "title": "#ParisNice2021 - Stage 7 - Le Broc / Valdeblore La Colmiane - Last KM",
+    "durationSeconds": 161
+  },
+  {
+    "videoId": "uK1tO5jwZOE",
+    "title": "#ParisNice2021 - Stage 6 - Brignoles / Biot - Roglic reigns on all terrains",
+    "durationSeconds": 258
+  },
+  {
+    "videoId": "0hUO3db7vGE",
+    "title": "#ParisNice2021 - Étape 6 - Brignoles / Biot - Roglic en tout-terrain",
+    "durationSeconds": 258
+  },
+  {
+    "videoId": "JSrFCIK98qI",
+    "title": "#ParisNice2021 - Stage 6 - LCL Yellow Jersey Minute",
+    "durationSeconds": 118
+  },
+  {
+    "videoId": "fzZq9-dbB9g",
+    "title": "#ParisNice2021 - Stage 6 - E.Leclerc Polka Dot Jersey Minute",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "vkSLGhHPIN4",
+    "title": "#ParisNice2021 - Stage 6 - Antargaz Most Aggressive Rider Minute",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "3wMkXIvDIzI",
+    "title": "#ParisNice2021 - Stage 6 - Brignoles / Biot - Last KM",
+    "durationSeconds": 135
+  },
+  {
+    "videoId": "Uvx7hrtFDqM",
+    "title": "#ParisNice2021 - Stage 5 - Antargaz Most Aggressive Rider Minute",
+    "durationSeconds": 98
+  },
+  {
+    "videoId": "nbfR6bOeSzE",
+    "title": "#ParisNice2021 - Stage 5 - Vienne / Bollène - Joy for Bennett, fright for Roglic",
+    "durationSeconds": 244
+  },
+  {
+    "videoId": "fd3Pxx-07pw",
+    "title": "#ParisNice2021 - Stage 5 - LCL Yellow Jersey Minute",
+    "durationSeconds": 105
+  },
+  {
+    "videoId": "PP8whiYoVtU",
+    "title": "#ParisNice2021 - Étape 5 - Vienne / Bollène - Bennett en patron devant Bouhanni",
+    "durationSeconds": 244
+  },
+  {
+    "videoId": "46ss_7dN9jg",
+    "title": "#ParisNice2021 - Stage 5 - Vienne / Bollène - Last KM",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "nx1jJvC04wE",
+    "title": "#ParisNice2021 - Stage 4 - LCL Yellow Jersey Minute",
+    "durationSeconds": 118
+  },
+  {
+    "videoId": "i2fjNXMWP6g",
+    "title": "#ParisNice2021 - Stage 4 - E.Leclerc Polka Dot Jersey Minute",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "nXkV_OtPcAU",
+    "title": "#ParisNice2021 - Stage 4 - Antargaz Most Aggressive Rider Minute",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "wu7To2_6fhs",
+    "title": "#ParisNice2021 - Stage 4 - Chalon-sur-Saône / Chiroubles - Vintage win by Roglic",
+    "durationSeconds": 285
+  },
+  {
+    "videoId": "QtJAzQokSd0",
+    "title": "#ParisNice2021 - Étape 4 - Chalon-sur-Saône / Chiroubles - Roglic à l'ancienne",
+    "durationSeconds": 285
+  },
+  {
+    "videoId": "-k7KHeTI1Uc",
+    "title": "Tour de France Femmes avec Zwift - Trailer",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "aNFaoSneMfQ",
+    "title": "Tour de France Femmes avec Zwift - Trailer",
+    "durationSeconds": 67
+  },
+  {
+    "videoId": "wUsPgtP5Ncc",
+    "title": "#Dauphiné 2021- Les meilleurs moments de la course / Race Highlights",
+    "durationSeconds": 252
+  },
+  {
+    "videoId": "73cVT24L5xc",
+    "title": "#Dauphiné 2021 - Stage 8 - Highlights - Padun makes it two in a row!",
+    "durationSeconds": 286
+  },
+  {
+    "videoId": "g5iW_PGke7Q",
+    "title": "#Dauphiné 2021 - Étape 8 - Résumé - Le doublé de Padun !",
+    "durationSeconds": 286
+  },
+  {
+    "videoId": "f08efxTLZOw",
+    "title": "#Dauphiné 2021- Stage 8 - AURA Polka Dot Jersey Minute",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "PwovKFHZVZ4",
+    "title": "#Dauphiné 2021- Stage 8 - Antargaz Most Agressive Rider Minute",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "xBw4denxSOI",
+    "title": "#Dauphiné 2021 - Stage 8 - LCL Blue & Yellow Jersey Minute",
+    "durationSeconds": 106
+  },
+  {
+    "videoId": "UJfdabvW_eQ",
+    "title": "#Dauphiné 2021- Stage 8 - Last KM",
+    "durationSeconds": 106
+  },
+  {
+    "videoId": "py3HQWackAc",
+    "title": "#Dauphiné 2021 - Stage 7 - Highlights - First win for Padun!",
+    "durationSeconds": 303
+  },
+  {
+    "videoId": "OhuZvu3yEhM",
+    "title": "#Dauphiné 2021- Stage 7 - AURA Polka Dot Jersey Minute",
+    "durationSeconds": 70
+  },
+  {
+    "videoId": "lj8Ltj8SqVA",
+    "title": "#Dauphiné 2021- Stage 7 - Antargaz Most Agressive Rider Minute",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "QHthzJyu5UA",
+    "title": "#Dauphiné 2021 - Étape 7 - Résumé - Padun, première !",
+    "durationSeconds": 303
+  },
+  {
+    "videoId": "xCMJwC4lvvU",
+    "title": "#Dauphiné 2021 - Stage 7 - LCL Blue & Yellow Jersey Minute",
+    "durationSeconds": 104
+  },
+  {
+    "videoId": "2HTJGRVDelU",
+    "title": "#Dauphiné 2021- Stage 7 - Last KM",
+    "durationSeconds": 172
+  },
+  {
+    "videoId": "iGlMBYl6E9c",
+    "title": "#Dauphiné 2021 - Stage 6 - Highlights: Valverde, 13 years later",
+    "durationSeconds": 251
+  },
+  {
+    "videoId": "Yg5E6fKehsg",
+    "title": "#Dauphiné 2021 - Étape 6 - Résumé: Valverde, 13 ans après",
+    "durationSeconds": 256
+  },
+  {
+    "videoId": "LecPofANvjo",
+    "title": "#Dauphiné 2021- Stage 6 - Antargaz Most Agressive Rider Minute",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "MTDpXUux6MQ",
+    "title": "#Dauphiné 2021 - Stage 6 - LCL Blue & Yellow Jersey Minute",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "t2gfz52acKo",
+    "title": "#Dauphiné 2021- Stage 6 - AURA Polka Dot Jersey Minute",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "sBEbncJhUMA",
+    "title": "#Dauphiné 2021- Stage 6 - Last KM",
+    "durationSeconds": 128
+  },
+  {
+    "videoId": "8NfKzVeyVv0",
+    "title": "#Dauphiné 2021 - Stage 5 - Highlights: Thomas bounces back in style",
+    "durationSeconds": 255
+  },
+  {
+    "videoId": "H-Tt382cdB4",
+    "title": "#Dauphiné 2021- Stage 5 - AURA Polka Dot Jersey Minute",
+    "durationSeconds": 83
+  },
+  {
+    "videoId": "xjPFuAqewJ8",
+    "title": "#Dauphiné 2021 - Stage 5 - LCL Blue & Yellow Jersey Minute",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "hviSE77AxNc",
+    "title": "#Dauphiné 2021 - Étape 5 - Résumé: Thomas, le coup du kilomètre",
+    "durationSeconds": 255
+  },
+  {
+    "videoId": "Y-Vn_ZZ5F0M",
+    "title": "#Dauphiné 2021- Stage 5 - Antargaz Most Agressive Rider Minute",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "8vDIX0vJ5ko",
+    "title": "#Dauphiné 2021- Stage 5 - Last KM",
+    "durationSeconds": 105
+  },
+  {
+    "videoId": "rHQVBvXWD9U",
+    "title": "#Dauphiné 2021 - Stage 4 - Highlights: The right mix for Lutsenko",
+    "durationSeconds": 232
+  },
+  {
+    "videoId": "l65NpbDD1Mk",
+    "title": "#Dauphiné 2021 - Étape 4 - Résumé: Lutsenko, le bon alliage",
+    "durationSeconds": 232
+  },
+  {
+    "videoId": "QZN3DaRKArw",
+    "title": "#Dauphiné 2021- Stage 4 - AURA Polka Dot Jersey Minute",
+    "durationSeconds": 64
+  },
+  {
+    "videoId": "Ta8UhpLlDAA",
+    "title": "#Dauphiné 2021 - Stage 4 - LCL Blue & Yellow Jersey Minute",
+    "durationSeconds": 77
+  },
+  {
+    "videoId": "z-BLp980Pkk",
+    "title": "#Dauphiné 2021- Stage 4 - Last KM",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "_l7vshzO0gg",
+    "title": "#Dauphiné 2021 - Stage 3 - Highlights: Colbrelli finally takes his turn",
+    "durationSeconds": 241
+  },
+  {
+    "videoId": "CA8xEZLnSRk",
+    "title": "#Dauphiné 2021 - Stage 3 - LCL Blue & Yellow Jersey Minute",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "DuPlZ_LnaSU",
+    "title": "#Dauphiné 2021- Stage 3 - Antargaz Most Agressive Rider Minute",
+    "durationSeconds": 98
+  },
+  {
+    "videoId": "9FCIPPYkRes",
+    "title": "#Dauphiné 2021- Stage 3 - AURA Polka Dot Jersey Minute",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "62aoH7LARmU",
+    "title": "#Dauphiné 2021 - Étape 3 - Résumé: Colbrelli sans trembler",
+    "durationSeconds": 241
+  },
+  {
+    "videoId": "sZeiEpKCCtA",
+    "title": "#Dauphiné 2021- Stage 3 - Last KM",
+    "durationSeconds": 116
+  },
+  {
+    "videoId": "_iiZ8CJb-Ho",
+    "title": "#Dauphiné 2021 - Stage 2 - Highlights: Pöstlberger carves a new masterpiece",
+    "durationSeconds": 279
+  },
+  {
+    "videoId": "g54TQo43LRQ",
+    "title": "#Dauphiné 2021- Stage 2 - Antargaz Most Agressive Rider Minute",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "S8PQAEWe6MI",
+    "title": "#Dauphiné 2021 - Étape 2 / Stage 2 - Minute Jaune et Bleu LCL / LCL Blue & Yellow Jersey Minute",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "Cbq4XAUBp9A",
+    "title": "#Dauphiné 2021 - Étape 2 - Résumé : Pöstlberger jusqu'au bout!",
+    "durationSeconds": 281
+  },
+  {
+    "videoId": "tVWi6IHs0Bo",
+    "title": "#Dauphiné 2021- Stage 2 - AURA Polka Dot Jersey Minute",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "86xDL8QxLOk",
+    "title": "#Dauphiné 2021- Stage 2 - Last KM",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "vkK7QSWl9G0",
+    "title": "#Dauphiné 2021 - Stage 1 - Highlights: Van Moer’s revenge",
+    "durationSeconds": 246
+  },
+  {
+    "videoId": "NZNSE7gBdL0",
+    "title": "#Dauphiné 2021 - Stage 1 - LCL Blue & Yellow Jersey Minute",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "o_RKxm6LBEw",
+    "title": "#Dauphiné 2021- Stage 1 - Antargaz Most Agressive Rider Minute",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "OyECnEd0YcA",
+    "title": "#Dauphiné 2021 - Étape 1 - Résumé: Van Moer, la grande revanche!",
+    "durationSeconds": 246
+  },
+  {
+    "videoId": "1LIy1Z8zD_c",
+    "title": "#Dauphiné 2021- Stage 1 - AURA Polka Dot Jersey Minute",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "hFkkOtk0BRw",
+    "title": "#Dauphiné 2021- Stage 1 - Last KM",
+    "durationSeconds": 118
+  },
+  {
+    "videoId": "RTXi-xwrXbU",
+    "title": "La Course by le Tour de France avec FDJ 2021 - Teaser",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "SA-sRTfepms",
+    "title": "Team Presentation - #TDF2021",
+    "durationSeconds": 5841
+  },
+  {
+    "videoId": "pjn67RvbZUI",
+    "title": "#TD2021 - Team classification",
+    "durationSeconds": 118
+  },
+  {
+    "videoId": "ZfAqfgdbtOw",
+    "title": "#TDF2021 - Les Sprinters",
+    "durationSeconds": 67
+  },
+  {
+    "videoId": "BMS-C9gmw4Q",
+    "title": "#TDF2021 - Sprinters",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "MML-AQCIqvg",
+    "title": "#TDF2021 -  Sprint",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "OaSY8fHb5Ac",
+    "title": "#TDF2021 - The Sprint",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "-82NhtCIX6w",
+    "title": "#TDF2021 -  Maillot à Pois",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "1ZDd8AJuk64",
+    "title": "#TDF2021 - Polka Dot Jersey",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "WoMyQ9z0kx4",
+    "title": "#TD2021 - White Jersey",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "vz3581Dzdtk",
+    "title": "#TD2021 - Classement par équipes",
+    "durationSeconds": 118
+  },
+  {
+    "videoId": "GyfTw7Mh9eE",
+    "title": "#TD2021 - Le Maillot Blanc",
+    "durationSeconds": 71
+  },
+  {
+    "videoId": "fuVF-J41a14",
+    "title": "#TD2021 - The Yellow Jersey",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "uHw70E7vcrw",
+    "title": "#TD2021 - Le Maillot Jaune",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "pXGGXvWMpGw",
+    "title": "#TDF2021 - Aspirations & bordures",
+    "durationSeconds": 129
+  },
+  {
+    "videoId": "EDrNvFJ3iTQ",
+    "title": "#TDF2021 -  Points Bonus",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "algH90ziqzo",
+    "title": "#TDF2021 - Drafting",
+    "durationSeconds": 129
+  },
+  {
+    "videoId": "uNlvaKuGLyM",
+    "title": "#TDF2021 - Individual Time Trial",
+    "durationSeconds": 139
+  },
+  {
+    "videoId": "uyrcWhyNBPc",
+    "title": "#TDF2021 - Contre la montre individuel",
+    "durationSeconds": 140
+  },
+  {
+    "videoId": "uWG9SFxVJ_Q",
+    "title": "#TDF2021 - Le Tour de France for newbies",
+    "durationSeconds": 695
+  },
+  {
+    "videoId": "dS_-9UwVygc",
+    "title": "#TDF2021 - Bike Plates",
+    "durationSeconds": 120
+  },
+  {
+    "videoId": "InlCCdlCIx8",
+    "title": "#TDF2021 - Jerseys wearers",
+    "durationSeconds": 161
+  },
+  {
+    "videoId": "QxtPXs05VmU",
+    "title": "#TDF2021 - Plaque de cadre",
+    "durationSeconds": 120
+  },
+  {
+    "videoId": "V6YDCfPUQSc",
+    "title": "#TD2021 - Les porteurs de maillots",
+    "durationSeconds": 151
+  },
+  {
+    "videoId": "8PLv2IcT0B8",
+    "title": "#TDF2021 - Breakaway",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "zpygbiZ782g",
+    "title": "#TDF2021 - Most agressive rider award",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "de79oVsddIo",
+    "title": "#TDF2021 - Echappée",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "FXl88bgWXb4",
+    "title": "#TDF2021 - Prix de la Combativité",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "o98Z1VvaqpI",
+    "title": "#TD2021 - Les équipiers",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "ZsOh-e20-t0",
+    "title": "#TDF2021 - The Peloton",
+    "durationSeconds": 89
+  },
+  {
+    "videoId": "feCzIjanv9o",
+    "title": "#TD2021 - Les Domestiques",
+    "durationSeconds": 71
+  },
+  {
+    "videoId": "C1RzF6yIyrQ",
+    "title": "#TDF2021 - Le Peloton",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "dRAEq3YW2QE",
+    "title": "#TDF2021 - Bonus points",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "gZcAas8f96Q",
+    "title": "#TDF2021 - Comprendre le Tour de France",
+    "durationSeconds": 697
+  },
+  {
+    "videoId": "_-2Bi39gFag",
+    "title": "#TDF2021 -  L'avenir à vélo: It's my Tour, I'm taking action!",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "s2Kr_w4i80A",
+    "title": "#TDF21 - L'avenir à vélo : C'est mon Tour, j'agis!",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "a-IjTmyKJms",
+    "title": "#TDF2021 - Teaser Tour de France 2021",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "WXN-C0X3kWk",
+    "title": "#TDF2021 - Rejoignez le Tour de France Club !",
+    "durationSeconds": 66
+  },
+  {
+    "videoId": "LgMiCJNYh3c",
+    "title": "#TDF2021 - Join the Tour de France Club!",
+    "durationSeconds": 66
+  },
+  {
+    "videoId": "jlZqRt0KiHg",
+    "title": "#TDF2021 - Étape 2 - Minute Maillot à Pois E.Leclerc",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "0qWYPYBUnyw",
+    "title": "#TDF2021 - Étape 1 / Stage 1 - Onboard Camera / Caméra Embarquée",
+    "durationSeconds": 141
+  },
+  {
+    "videoId": "Rw-B-yNk6Ts",
+    "title": "La Course by Le Tour avec FDJ - Résumé",
+    "durationSeconds": 259
+  },
+  {
+    "videoId": "rqiUMntNpLw",
+    "title": "La Course by Le Tour avec FDJ - Highlights",
+    "durationSeconds": 262
+  },
+  {
+    "videoId": "1cv9cIqZb5U",
+    "title": "#TDF2021 - Baroudeurs",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "j-WaC_LAEQA",
+    "title": "#TDF2021 - Les Baroudeurs",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "3doNdZt-wB0",
+    "title": "La Course by le Tour de France avec FDJ 2021 - Winner Interview",
+    "durationSeconds": 156
+  },
+  {
+    "videoId": "N2oRXEsRv5s",
+    "title": "La Course by le Tour de France avec FDJ 2021 - Last KM",
+    "durationSeconds": 252
+  },
+  {
+    "videoId": "s-feWF6wFpE",
+    "title": "First two weeks highlights / Le best-of des deux premières semaines - #TDF2021",
+    "durationSeconds": 111
+  },
+  {
+    "videoId": "lY_e_Tt51Bg",
+    "title": "#ParisTours 2021 - Best of",
+    "durationSeconds": 139
+  },
+  {
+    "videoId": "90Yo_PIdn-0",
+    "title": "#ParisTours 2021 - Last Kilometer",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "__YQcT4uXcY",
+    "title": "#ParisRoubaix 2021 - Onboard : Relive a day in Hell from inside the pack!",
+    "durationSeconds": 204
+  },
+  {
+    "videoId": "56UTneSPyr8",
+    "title": "#ParisRoubaix2021 - Highlights",
+    "durationSeconds": 582
+  },
+  {
+    "videoId": "uuK6lnBhbJs",
+    "title": "#ParisRoubaix 2021 - Résumé",
+    "durationSeconds": 582
+  },
+  {
+    "videoId": "xEsCLAR84Dw",
+    "title": "#ParisRoubaix 2021 - Winner's emotion",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "qFiWMIvg86k",
+    "title": "#ParisRoubaix2021 - Flamme Rouge / Last KM",
+    "durationSeconds": 108
+  },
+  {
+    "videoId": "EE_IHAIf2lA",
+    "title": "#ParisRoubaixFemmes - Onboard : Relive a day in Hell from inside the pack!",
+    "durationSeconds": 182
+  },
+  {
+    "videoId": "cXVHeAzh6do",
+    "title": "#ParisRoubaixFemmes 2021- Highlights",
+    "durationSeconds": 393
+  },
+  {
+    "videoId": "PCMpLmGyqIE",
+    "title": "#ParisRoubaixFemmes - Résumé",
+    "durationSeconds": 393
+  },
+  {
+    "videoId": "JINflKEzdRM",
+    "title": "#ParisRoubaixFemmes - Onboard Emotions",
+    "durationSeconds": 131
+  },
+  {
+    "videoId": "hJbVO_wu7wo",
+    "title": "#ParisRoubaixFemmes - Last KM",
+    "durationSeconds": 120
+  },
+  {
+    "videoId": "1-HE4AN2nEU",
+    "title": "#ParisRoubaix - Teaser : The Hell of the North returns!",
+    "durationSeconds": 98
+  },
+  {
+    "videoId": "8o3MFM4MVlQ",
+    "title": "#ParisRoubaixFemmes - Teaser : Welcome to Hell!",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "xAJJDlYtkU8",
+    "title": "Après la ligne avec Continental - #TDF2021",
+    "durationSeconds": 230
+  },
+  {
+    "videoId": "VgbncMUXbq4",
+    "title": "#TDFF - Interview : Kasia Niewiadoma \"It's to be part of it, to be part of the history\"",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "89JMTbaiiXY",
+    "title": "#TDFF - Interview : Elisa Balsamo \"An important day for woman cycling\"",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "ff9o9z8KCuI",
+    "title": "#TDFF - Interview : Stephen Delcourt DS at FDJ Nouvelle-Aquitaine Futuroscope",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "ctzzeFEqnXA",
+    "title": "#TDFF - Interview : Cecilie Uttrup Ludwig - \"I'm so excited\"",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "vpTmFqxFIX0",
+    "title": "#TDF2022 - Relive the Route Revelation!",
+    "durationSeconds": 5751
+  },
+  {
+    "videoId": "ta7Qs9T99Xk",
+    "title": "#TDF2022 - Discover the route in 2D",
+    "durationSeconds": 82
+  },
+  {
+    "videoId": "niaOUc2UreQ",
+    "title": "#TDF2022  - Alpe d'Huez",
+    "durationSeconds": 73
+  },
+  {
+    "videoId": "seGRSbsoMeE",
+    "title": "#TDF2022  - 10 ans à la planche des belles filles / 10 years at la planche des belles filles",
+    "durationSeconds": 93
+  },
+  {
+    "videoId": "Cfml5Kpsgl4",
+    "title": "#TDF2022 - Bienvenue à Copenhague / Welcome to Copenhagen",
+    "durationSeconds": 186
+  },
+  {
+    "videoId": "ody7Ab7eaf0",
+    "title": "#TDF2022 - Le maillot Jaune / The yellow jersey",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "3fcWbS9m5F0",
+    "title": "#TDF2022 - Discover the entire route !",
+    "durationSeconds": 315
+  },
+  {
+    "videoId": "dPKU97VXX-w",
+    "title": "#TDF2022 - Discover stage 18",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "6ecQYzn3JyU",
+    "title": "#TDF2022 - Discover stage 16",
+    "durationSeconds": 71
+  },
+  {
+    "videoId": "q3EJrlibjFw",
+    "title": "#TDF2022 - Discover stage 12",
+    "durationSeconds": 67
+  },
+  {
+    "videoId": "L36WPbxiJGU",
+    "title": "#TDF2022 - Discover stage 9",
+    "durationSeconds": 73
+  },
+  {
+    "videoId": "yZd6hCYsD_w",
+    "title": "#TDF2022 - Discover the route in 2D",
+    "durationSeconds": 82
+  },
+  {
+    "videoId": "KH0my8xUASM",
+    "title": "#TDFF avec Zwift - Teaser",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "WrH4q9dCdow",
+    "title": "#TDFF avec Zwift - Discover the entire route !",
+    "durationSeconds": 122
+  },
+  {
+    "videoId": "sJtuEEKZfPs",
+    "title": "#TDFF avec Zwift - La reco de la planche des belles filles",
+    "durationSeconds": 111
+  },
+  {
+    "videoId": "QG_JqL9CxQg",
+    "title": "#TDFF avec Zwift - La reco des chemins blancs",
+    "durationSeconds": 111
+  },
+  {
+    "videoId": "RRPTECwxc0w",
+    "title": "#TDF2022 - Discover stage 2",
+    "durationSeconds": 66
+  },
+  {
+    "videoId": "-REGpRLtEPI",
+    "title": "Santini goes yellow: the Tour de France to wear made in Italy",
+    "durationSeconds": 70
+  },
+  {
+    "videoId": "hUOqzppQpDs",
+    "title": "Stage Highlights - Stage 1 - #ParisNice2022",
+    "durationSeconds": 330
+  },
+  {
+    "videoId": "Iav-F0wcfHs",
+    "title": "#ParisNice2022 - Étape 1 / Stage 1 - E.Leclerc Polka Dot Jersey Minute / Minute Maillot à Pois",
+    "durationSeconds": 102
+  },
+  {
+    "videoId": "c5af8qgnVUw",
+    "title": "Résumé d'étape - Étape 1 - #ParisNice2022",
+    "durationSeconds": 330
+  },
+  {
+    "videoId": "HmAKfTed3kY",
+    "title": "#ParisNice2022 - Stage 1 - LCL Yellow Jersey Minute",
+    "durationSeconds": 89
+  },
+  {
+    "videoId": "mJKG4wjP38U",
+    "title": "Last KM - Stage 1 - #ParisNice2022",
+    "durationSeconds": 143
+  },
+  {
+    "videoId": "xanGxif5260",
+    "title": "#ParisNice 2022 - 80ème anniversaire",
+    "durationSeconds": 261
+  },
+  {
+    "videoId": "Z12qh_baA1c",
+    "title": "#ParisNice2021 - Best of",
+    "durationSeconds": 341
+  },
+  {
+    "videoId": "wFveA9Qsvdg",
+    "title": "#TourofOman - Best of",
+    "durationSeconds": 451
+  },
+  {
+    "videoId": "KT_svL6rTuI",
+    "title": "#TourofOman - Stage 6 Highlights",
+    "durationSeconds": 203
+  },
+  {
+    "videoId": "q8SDJcd0Bb0",
+    "title": "#TourofOman - Stage 6 Last Km",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "LODMoanYdfg",
+    "title": "#TourofOman - Stage 5 Highlights",
+    "durationSeconds": 216
+  },
+  {
+    "videoId": "VLtnv4EcjxY",
+    "title": "#TourofOman - Étape 5 / Stage 5 Last Kilometer",
+    "durationSeconds": 216
+  },
+  {
+    "videoId": "5kzeK5MXd28",
+    "title": "#TourofOman - Stage 4 Highlights",
+    "durationSeconds": 193
+  },
+  {
+    "videoId": "2wnnlSCOjD4",
+    "title": "#TourofOman - Stage 3 Highlights",
+    "durationSeconds": 240
+  },
+  {
+    "videoId": "1F4g7Dwmrzg",
+    "title": "#TourofOman - Stage 3 Last Kilometer",
+    "durationSeconds": 127
+  },
+  {
+    "videoId": "L0q2ELJz9Cg",
+    "title": "#TourofOman - Stage 2 Highlights",
+    "durationSeconds": 207
+  },
+  {
+    "videoId": "21bNG1UFd8Q",
+    "title": "#TourofOman - Stage 2 - Last Km",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "XMyTeZJi8E0",
+    "title": "#TourofOman - Stage 1 Highlights",
+    "durationSeconds": 197
+  },
+  {
+    "videoId": "Okg49qEp0uo",
+    "title": "#TourofOman - Last Kilometer Stage 1",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "jJSMn8yfoM8",
+    "title": "Critérium Du Dauphiné - L'arrivée en 2016 à Vaujany",
+    "durationSeconds": 62
+  },
+  {
+    "videoId": "Ta667sbjSvk",
+    "title": "Critérium Du Dauphiné - Best of",
+    "durationSeconds": 285
+  },
+  {
+    "videoId": "_oPKviJ7FIc",
+    "title": "#TourofOman 2022 - Discover the route",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "FHAxHV25Zpc",
+    "title": "#TourofOman 2022 - Teaser",
+    "durationSeconds": 106
+  },
+  {
+    "videoId": "5QPJNwmwph0",
+    "title": "La Flèche Wallonne 2022 - Flamme Rouge / Last KM",
+    "durationSeconds": 190
+  },
+  {
+    "videoId": "_L5xnIKb7lo",
+    "title": "Flèche Wallonne Femmes 2022 - Cavalli, nouvelle reine du mur",
+    "durationSeconds": 319
+  },
+  {
+    "videoId": "AaMHUy7fCLg",
+    "title": "Flèche Wallonne Femmes 2022 - Flamme Rouge / Last KM",
+    "durationSeconds": 247
+  },
+  {
+    "videoId": "7CEAwtfZjOs",
+    "title": "#ParisRoubaix 2022- Onboard cameras",
+    "durationSeconds": 137
+  },
+  {
+    "videoId": "sg__Bsh-kNk",
+    "title": "#ParisRoubaix 2022 - The Highlights",
+    "durationSeconds": 629
+  },
+  {
+    "videoId": "BnfeeyEZCcA",
+    "title": "#ParisRoubaix 2022 - Résumé",
+    "durationSeconds": 629
+  },
+  {
+    "videoId": "tURCZhkHzB8",
+    "title": "#ParisRoubaix 2022- Winner's emotion",
+    "durationSeconds": 66
+  },
+  {
+    "videoId": "QSuyB6itxhs",
+    "title": "#ParisRoubaix 2022- Last KM",
+    "durationSeconds": 101
+  },
+  {
+    "videoId": "Xg80wOjmJkA",
+    "title": "#ParisRoubaixFemmes 2022 - Relive a day in hell",
+    "durationSeconds": 169
+  },
+  {
+    "videoId": "02ozetTVerc",
+    "title": "#ParisRoubaixFemmes 2022 - The Winner’s emotion",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "X6HoE6ffB0E",
+    "title": "#ParisRoubaixFemmes 2022 - Last KM",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "d8pLr9Q0pAo",
+    "title": "#ParisRoubaix 2022 - Teaser : Welcome to Hell!",
+    "durationSeconds": 93
+  },
+  {
+    "videoId": "ROAeMYlCqtI",
+    "title": "#ParisRoubaixFemmes 2022 - Teaser : Welcome to Hell !",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "CE5EtzSkadU",
+    "title": "#ParisNice2022 - Race highlights",
+    "durationSeconds": 302
+  },
+  {
+    "videoId": "D83_NfJlr5U",
+    "title": "#ParisNice2022 - A look back at the Antargaz combative",
+    "durationSeconds": 241
+  },
+  {
+    "videoId": "ZcNzzcnV1pQ",
+    "title": "Stage Highlights - Stage 8 - #ParisNice2022",
+    "durationSeconds": 383
+  },
+  {
+    "videoId": "Hi49dEKdcZI",
+    "title": "Résumé d'étape - Étape 8 - #ParisNice2022",
+    "durationSeconds": 383
+  },
+  {
+    "videoId": "fDawjqDeJwY",
+    "title": "#ParisNice2022 - Stage 8 - LCL Yellow Jersey Minute",
+    "durationSeconds": 121
+  },
+  {
+    "videoId": "idcMmLLDegU",
+    "title": "#ParisNice2022 - Stage 8 - E.Leclerc Polka Dot Jersey Minute",
+    "durationSeconds": 108
+  },
+  {
+    "videoId": "7Tn5DvSDTGU",
+    "title": "Last KM - Stage 8 - #ParisNice2022",
+    "durationSeconds": 94
+  },
+  {
+    "videoId": "2AlzIGM657o",
+    "title": "Stage Highlights - Stage 7 - #ParisNice2022",
+    "durationSeconds": 361
+  },
+  {
+    "videoId": "38nxXnoJFKQ",
+    "title": "Résumé d'étape - Étape 7 - #ParisNice2022",
+    "durationSeconds": 361
+  },
+  {
+    "videoId": "wtbXaPb3mes",
+    "title": "#ParisNice2022 - Stage 7 - LCL Yellow Jersey Minute",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "TDDKCrR-owo",
+    "title": "#ParisNice2022 - Stage 7 - E.Leclerc Polka Dot Jersey Minute",
+    "durationSeconds": 99
+  },
+  {
+    "videoId": "QsrtocdGMUM",
+    "title": "Last KM - Stage 7 - #ParisNice2022",
+    "durationSeconds": 191
+  },
+  {
+    "videoId": "Wr7wRk9ge_Y",
+    "title": "Résumé d'étape - Étape 6 - #ParisNice2022",
+    "durationSeconds": 350
+  },
+  {
+    "videoId": "lFaQ1Ty27No",
+    "title": "#ParisNice2022 - Stage 6 - E.Leclerc Polka Dot Jersey Minute",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "qnrBRm7_dYE",
+    "title": "#ParisNice2022 - Stage 6 - LCL Yellow Jersey Minute",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "lfSjM5iYYgo",
+    "title": "Last KM - Stage 6 - #ParisNice2022",
+    "durationSeconds": 116
+  },
+  {
+    "videoId": "KmmFkgkY5AM",
+    "title": "Résumé d'étape - Étape 5 - #ParisNice2022",
+    "durationSeconds": 406
+  },
+  {
+    "videoId": "lQVMaRUU1Wk",
+    "title": "Stage Highlights - Stage 5 - #ParisNice2022",
+    "durationSeconds": 405
+  },
+  {
+    "videoId": "2DiVAMchb_M",
+    "title": "#ParisNice2022 - A look back at the antargaz combative of the first three stages",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "llUPziGjJOY",
+    "title": "#ParisNice2022 - Stage 5 - E.Leclerc Polka Dot Jersey Minute",
+    "durationSeconds": 98
+  },
+  {
+    "videoId": "kVeB9zrIos0",
+    "title": "#ParisNice2022 - Stage 5 - LCL Yellow Jersey Minute",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "I-e3HUiHBRo",
+    "title": "Last KM - Stage 5 - #ParisNice2022",
+    "durationSeconds": 119
+  },
+  {
+    "videoId": "brLXE-Zl-JM",
+    "title": "Stage Highlights - Stage 4 - #ParisNice2022",
+    "durationSeconds": 349
+  },
+  {
+    "videoId": "vSv06AKSMmI",
+    "title": "Résumé d'étape - Étape 4 - #ParisNice2022",
+    "durationSeconds": 349
+  },
+  {
+    "videoId": "Y9wPdqv8rgk",
+    "title": "#ParisNice2022 - Stage 4 - LCL Yellow Jersey Minute",
+    "durationSeconds": 89
+  },
+  {
+    "videoId": "yWwTtTmpQXk",
+    "title": "Last KM - Stage 4 - #ParisNice2022",
+    "durationSeconds": 194
+  },
+  {
+    "videoId": "8NwZcByZTV8",
+    "title": "Stage Highlights - Stage 3 - #ParisNice2022",
+    "durationSeconds": 361
+  },
+  {
+    "videoId": "AAGAOWNXurE",
+    "title": "Résumé d'étape - Étape 3 - #ParisNice2022",
+    "durationSeconds": 361
+  },
+  {
+    "videoId": "ET9ydL_jvWg",
+    "title": "#ParisNice2022 - Etape 3 / Stage 3 - E.Leclerc Polka Dot Jersey Minute / Minute Maillot à pois",
+    "durationSeconds": 126
+  },
+  {
+    "videoId": "ID3_artd_-I",
+    "title": "#ParisNice2022 - Stage 3 - LCL Yellow Jersey Minute",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "pH3Dohrlirs",
+    "title": "Last KM - Stage 3 - #ParisNice2022",
+    "durationSeconds": 98
+  },
+  {
+    "videoId": "rvs28983Amc",
+    "title": "Stage Highlights - Stage 2 - #ParisNice2022",
+    "durationSeconds": 412
+  },
+  {
+    "videoId": "mT4JA26hyfM",
+    "title": "Résumé d'étape - Étape 2 - #ParisNice2022",
+    "durationSeconds": 412
+  },
+  {
+    "videoId": "hluE6qnlLg0",
+    "title": "#ParisNice2022 - Stage 2 - LCL Yellow Jersey Minute",
+    "durationSeconds": 101
+  },
+  {
+    "videoId": "y3JUHlU8vO8",
+    "title": "Last KM - Stage 2 - #ParisNice2022",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "3fPwKdtzBG4",
+    "title": "#Dauphiné 2022 - Étape 5 - Résumé",
+    "durationSeconds": 322
+  },
+  {
+    "videoId": "Xg4hFYXjzMw",
+    "title": "#Dauphiné 2022- Stage 5 - AURA Polka Dot Jersey Minute",
+    "durationSeconds": 105
+  },
+  {
+    "videoId": "GsFWmlnh7BE",
+    "title": "#Dauphiné 2022 - Stage 5 - LCL Yellow Jersey Minute",
+    "durationSeconds": 108
+  },
+  {
+    "videoId": "JpEsW39-zZM",
+    "title": "#Dauphiné 2022 - Stage 5 - Last KM",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "IQ72P2Vyu-Y",
+    "title": "#Dauphiné 2022 - Stage 4 - Highlights",
+    "durationSeconds": 381
+  },
+  {
+    "videoId": "aktkcxsnPT0",
+    "title": "#Dauphiné 2022 - Étape 4 - Résumé",
+    "durationSeconds": 381
+  },
+  {
+    "videoId": "-c_UhfnvnWA",
+    "title": "#Dauphiné 2022- Stage 4 - AURA Polka Dot Jersey Minute",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "iRLqbhEOTFk",
+    "title": "#Dauphiné 2022 - Stage 4 - LCL Yellow Jersey Minute",
+    "durationSeconds": 108
+  },
+  {
+    "videoId": "_sO_4RQLA_Q",
+    "title": "#Dauphiné 2022 - Stage 4 - Last KM",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "9GhXl7jSTO8",
+    "title": "#Dauphiné 2022 - Étape 3 - Résumé",
+    "durationSeconds": 381
+  },
+  {
+    "videoId": "jmoZ89OKWTE",
+    "title": "#Dauphiné 2022 - Stage 3 - Highlights",
+    "durationSeconds": 381
+  },
+  {
+    "videoId": "kzI9nNoO1w0",
+    "title": "#Dauphiné 2022 - Stage 3 - Antargaz Most Agressive Rider Minute",
+    "durationSeconds": 120
+  },
+  {
+    "videoId": "Yy-oz5kuSMc",
+    "title": "#Dauphiné 2022- Stage 3 - AURA Polka Dot Jersey Minute",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "cOdc8nuttws",
+    "title": "#Dauphiné 2022 - Stage 3 - LCL Yellow Jersey Minute",
+    "durationSeconds": 98
+  },
+  {
+    "videoId": "MDpV5PykKH8",
+    "title": "#Dauphiné 2022 - Stage 3 - Last KM",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "K_9eLATPTnM",
+    "title": "#Dauphiné 2022 - Stage 2 - Highlights",
+    "durationSeconds": 431
+  },
+  {
+    "videoId": "tXb1AOfsRb0",
+    "title": "#Dauphiné 2022 - Étape 2 - Résumé",
+    "durationSeconds": 431
+  },
+  {
+    "videoId": "eCmaBzxCndk",
+    "title": "#Dauphiné 2022- Stage 2 - AURA Polka Dot Jersey Minute",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "K3EkxzXM7do",
+    "title": "#Dauphiné 2022 - Stage 2 - LCL Yellow Jersey Minute",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "0YNp_Imn2GM",
+    "title": "#Dauphiné 2022 - Stage 2 - Last KM",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "nDHf8fInrFY",
+    "title": "#Dauphiné2022 - Stage 1 - Highlights",
+    "durationSeconds": 400
+  },
+  {
+    "videoId": "U96Z7J3YqUg",
+    "title": "#Dauphiné 2022 - Étape 1 - Résumé",
+    "durationSeconds": 400
+  },
+  {
+    "videoId": "qbcKIApXlSQ",
+    "title": "#Dauphiné 2022- Stage 1 - AURA Polka Dot Jersey Minute",
+    "durationSeconds": 83
+  },
+  {
+    "videoId": "klWhako5yb4",
+    "title": "#Dauphiné 2022 - Stage 1 - LCL Yellow Jersey Minute",
+    "durationSeconds": 93
+  },
+  {
+    "videoId": "kCFLG20faAQ",
+    "title": "#Dauphiné 2022 - Stage 1 - Last KM",
+    "durationSeconds": 77
+  },
+  {
+    "videoId": "MY6coYiwaFU",
+    "title": "#TDFFAZ 2022 - Femmes du Tour - Marianne Vos",
+    "durationSeconds": 315
+  },
+  {
+    "videoId": "UVYc7vz2NxI",
+    "title": "#Dauphiné2022 - Teaser",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "ifh8dFWkPqM",
+    "title": "#Dauphiné2022 - Teaser",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "hagPKXjB2Jo",
+    "title": "#TDFFAZ 2022 - Femmes du Tour - Mavi Garcia",
+    "durationSeconds": 258
+  },
+  {
+    "videoId": "KgKi-TNq1FM",
+    "title": "#TourdeFrance 2022 - La planche des belles filles",
+    "durationSeconds": 161
+  },
+  {
+    "videoId": "GFlPouh2FwA",
+    "title": "#TDFFAZ 2022 - Femmes du Tour - Annemiek Van Vleuten",
+    "durationSeconds": 327
+  },
+  {
+    "videoId": "nHJP88PJx80",
+    "title": "#TDFFAZ 2022 - Femmes du Tour -  Elisa Longo Borghini",
+    "durationSeconds": 263
+  },
+  {
+    "videoId": "nNo_3lget-w",
+    "title": "#TDFFAZ 2022 - Femmes du Tour - Demi Vollering",
+    "durationSeconds": 273
+  },
+  {
+    "videoId": "7xhZAkdcuk8",
+    "title": "#TDFFAZ 2022 - Femmes du Tour - Tiffany Cromwell",
+    "durationSeconds": 266
+  },
+  {
+    "videoId": "HvFxBNxvP-4",
+    "title": "Liège Bastogne Liège 2022 - Résumé de la course",
+    "durationSeconds": 457
+  },
+  {
+    "videoId": "hLPWPaDJ6rk",
+    "title": "Liège Bastogne Liège 2022 - Stage summary",
+    "durationSeconds": 457
+  },
+  {
+    "videoId": "5F45tYjtOZo",
+    "title": "Liège Bastogne Liège Femmes 2022 - Résumé de la course",
+    "durationSeconds": 341
+  },
+  {
+    "videoId": "jm_IAdA5qdk",
+    "title": "Liège Bastogne Liège 2022 - Last KM",
+    "durationSeconds": 94
+  },
+  {
+    "videoId": "EJg5pmdcSPs",
+    "title": "Liège Bastogne Liège Femmes 2022 - Stage summary",
+    "durationSeconds": 341
+  },
+  {
+    "videoId": "1LoNwnfpQ48",
+    "title": "Liège Bastogne Liège Femmes 2022 - Flamme Rouge / Last KM",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "n9MI2lzVU18",
+    "title": "#TDFFAZ 2022 - Femmes du Tour - Audrey Cordon-Ragot",
+    "durationSeconds": 230
+  },
+  {
+    "videoId": "Tof5O4naH7E",
+    "title": "#TDFFAZ2022 - Teaser - Femmes du Tour",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "NK_mY17VMZE",
+    "title": "Liège-Bastogne-Liège 2022 - Teaser",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "Mism-aRmgKw",
+    "title": "#ParisRoubaixFemmes 2022 - Résumé",
+    "durationSeconds": 426
+  },
+  {
+    "videoId": "G_tqJldzdi0",
+    "title": "#ParisRoubaixFemmes 2022 - The Highlights",
+    "durationSeconds": 426
+  },
+  {
+    "videoId": "JZ9XCwXuDXo",
+    "title": "La Flèche Wallonne 2022 - The highlights",
+    "durationSeconds": 368
+  },
+  {
+    "videoId": "m0E5IkD-Y28",
+    "title": "La Flèche Wallonne 2022 - Résumé de la course",
+    "durationSeconds": 368
+  },
+  {
+    "videoId": "lyAR3vqFa-A",
+    "title": "Flèche Wallonne Femmes 2022 - Cavalli, new queen of the wall",
+    "durationSeconds": 319
+  },
+  {
+    "videoId": "30KU31T_0Aw",
+    "title": "Vidéos pédagogiques - Les sprinters - #TDF2022",
+    "durationSeconds": 67
+  },
+  {
+    "videoId": "Z2YHEFi9160",
+    "title": "Educational videos - Lead Out Train - #TDF2022",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "PrvK4xvniaQ",
+    "title": "Vidéos pédagogiques - Le sprint - #TDF2022",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "IANlH0Dye4g",
+    "title": "Educational videos - Bike plates - #TDF2022",
+    "durationSeconds": 120
+  },
+  {
+    "videoId": "JfQEh4UacO0",
+    "title": "Educational videos - The breakaway - #TDF2022",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "6M0I97BVLA8",
+    "title": "Educational videos - Les Domestiques - #TDF2022",
+    "durationSeconds": 71
+  },
+  {
+    "videoId": "TFaL6m-2SU8",
+    "title": "Educational videos - Drafting & Echelon - #TDF2022",
+    "durationSeconds": 129
+  },
+  {
+    "videoId": "MLiquKtRI2s",
+    "title": "Educational videos - Individual Time Trials - #TDF2022",
+    "durationSeconds": 139
+  },
+  {
+    "videoId": "DfRzjGvmkC0",
+    "title": "Educational videos - Baroudeurs - #TDF2022",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "OPdcjKPGkPQ",
+    "title": "Educational videos - The combativity award - #TDF2022",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "SDL4sUmx82g",
+    "title": "Vidéos pédagogiques - Les baroudeurs -  #TDF2022",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "Z7_jxuCmJoU",
+    "title": "Vidéos pédagogiques - Plaque de Cadre - #TDF2022",
+    "durationSeconds": 120
+  },
+  {
+    "videoId": "NFrcuHw3mDg",
+    "title": "Vidéos pédagogiques - L'échapée - #TDF2022",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "lccRuhwEe9s",
+    "title": "Vidéos pédagogiques - Les équipiers - #TDF2022",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "C0zftkTaLHs",
+    "title": "Vidéos pédagogiques - Aspiration & Bordures - #TDF2022",
+    "durationSeconds": 129
+  },
+  {
+    "videoId": "SzGjZG_dpw0",
+    "title": "Vidéos pédagogiques - Contre-la-montre individuel - #TDF2022",
+    "durationSeconds": 140
+  },
+  {
+    "videoId": "CF5vOM0Bzik",
+    "title": "Vidéos pédagogiques - Le Prix de la combativité - #TDF2022",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "ty_HH60GlrY",
+    "title": "Retour sur les meilleurs moments du Maillot Jaune 2021",
+    "durationSeconds": 353
+  },
+  {
+    "videoId": "51hXOnsvoG4",
+    "title": "#TDFFAZ 2022 - Femmes du Tour - Anna HENDERSON",
+    "durationSeconds": 232
+  },
+  {
+    "videoId": "ImNyvvZ3fKY",
+    "title": "#TDF22 - Découvrez le teaser du Tour de France 2022",
+    "durationSeconds": 149
+  },
+  {
+    "videoId": "0OXL34Qzc6w",
+    "title": "#TDF22 - Discover the Tour de France 2022 teaser",
+    "durationSeconds": 145
+  },
+  {
+    "videoId": "lhqQt7mXyPM",
+    "title": "#TDFFAZ 2022 - Femmes du Tour - NIEWIADOMA Katarzyna",
+    "durationSeconds": 308
+  },
+  {
+    "videoId": "aevJMDe2Xos",
+    "title": "Retour sur les meilleurs moments du Maillot Blanc 2021",
+    "durationSeconds": 347
+  },
+  {
+    "videoId": "y-GLDkyPUEo",
+    "title": "Retour sur les meilleurs moments du Maillot à Pois 2021",
+    "durationSeconds": 387
+  },
+  {
+    "videoId": "SvWWspXpcnU",
+    "title": "Retour sur les meilleurs moments du Maillot Vert 2021",
+    "durationSeconds": 396
+  },
+  {
+    "videoId": "woQe-hWf-P8",
+    "title": "#Dauphiné 2022 - Race Highlights - Best moments",
+    "durationSeconds": 302
+  },
+  {
+    "videoId": "jQ3vN3DHa0g",
+    "title": "#Dauphiné 2022 - Stage 8 - Antargaz Most Agressive Rider Minute",
+    "durationSeconds": 217
+  },
+  {
+    "videoId": "UglzH1RQCGI",
+    "title": "#Dauphiné 2022 - Stage 8 - Highlights",
+    "durationSeconds": 420
+  },
+  {
+    "videoId": "N79r_i7A8V0",
+    "title": "#Dauphiné 2022 - Étape 8 - Résumé",
+    "durationSeconds": 420
+  },
+  {
+    "videoId": "8NLMbxHrR2Q",
+    "title": "#Dauphiné 2022 - Stage 8 - LCL Yellow Jersey Minute",
+    "durationSeconds": 121
+  },
+  {
+    "videoId": "r0HkAr_SpdY",
+    "title": "#Dauphiné 2022- Stage 8 - AURA Polka Dot Jersey Minute",
+    "durationSeconds": 110
+  },
+  {
+    "videoId": "AqNQmy6UKLk",
+    "title": "#Dauphiné 2022 - Stage 8 - Last KM",
+    "durationSeconds": 166
+  },
+  {
+    "videoId": "RIh1RPPKOR0",
+    "title": "#Dauphiné 2022 - Stage 7 - Highlights",
+    "durationSeconds": 449
+  },
+  {
+    "videoId": "VyWDcAVCbDE",
+    "title": "#Dauphiné 2022 - Étape 7 - Résumé",
+    "durationSeconds": 447
+  },
+  {
+    "videoId": "NCD3Jhwf29o",
+    "title": "#Dauphiné 2022- Stage 7 - AURA Polka Dot Jersey Minute",
+    "durationSeconds": 101
+  },
+  {
+    "videoId": "tjyEDNUlcYM",
+    "title": "#Dauphiné 2022 - Stage 7 - LCL Yellow Jersey Minute",
+    "durationSeconds": 111
+  },
+  {
+    "videoId": "GE0ib0h9LGY",
+    "title": "#Dauphiné 2022 - Stage 7 - Last KM",
+    "durationSeconds": 116
+  },
+  {
+    "videoId": "1dYh_OG2PI0",
+    "title": "#Dauphiné 2022 - Stage 6 - Highlights",
+    "durationSeconds": 362
+  },
+  {
+    "videoId": "A2QKnk3rC7g",
+    "title": "#Dauphiné 2022 - Étape 6 - Résumé",
+    "durationSeconds": 362
+  },
+  {
+    "videoId": "n5r4a8zug5c",
+    "title": "#Dauphiné 2022- Stage 6 - AURA Polka Dot Jersey Minute",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "9Vmspsww_7g",
+    "title": "#Dauphiné 2022 - Stage 6 - LCL Yellow Jersey Minute",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "7kYzc0CbGy4",
+    "title": "#TDFFAZ 2022 - Femmes du Tour - Evita Muzic",
+    "durationSeconds": 325
+  },
+  {
+    "videoId": "ePheRFDq6Gs",
+    "title": "#Dauphiné 2022 - Stage 6 - Last KM",
+    "durationSeconds": 70
+  },
+  {
+    "videoId": "aYe8D-PPREw",
+    "title": "#Dauphiné 2022 - Stage 5 - Highlights",
+    "durationSeconds": 321
+  },
+  {
+    "videoId": "nJ1-KPNamNU",
+    "title": "Flamme Rouge / Last KM - Etape 1 / Stage 1 - #TDF2022",
+    "durationSeconds": 64
+  },
+  {
+    "videoId": "eo6j5zY-jkE",
+    "title": "Best moment of the team presentation -  #TDF2022",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "JPqs1usIGC8",
+    "title": "#TDFFAZ 2022 - Femmes du Tour - Cecilie Uttrup Ludwig",
+    "durationSeconds": 283
+  },
+  {
+    "videoId": "BsIQMKs-Yp8",
+    "title": "Primož Roglič answers the questions of the Tour de France Club members presented by Tissot -#TDF2022",
+    "durationSeconds": 895
+  },
+  {
+    "videoId": "TR76JIlW9G8",
+    "title": "Tour de France 2022 - Concert Team presentation  : Lukas Graham -  Take the world by storm",
+    "durationSeconds": 231
+  },
+  {
+    "videoId": "4PQOv4E-FRg",
+    "title": "Tour de France 2022 - Concert Team presentation  : Lukas Graham -  Share that  love",
+    "durationSeconds": 179
+  },
+  {
+    "videoId": "vQ4E7PgH8QI",
+    "title": "Team Presentation - #TDF2022",
+    "durationSeconds": 6061
+  },
+  {
+    "videoId": "Dtsm2Lbjut0",
+    "title": "Educational videos - Le Tour de France for the Newbies - #TDF2022",
+    "durationSeconds": 697
+  },
+  {
+    "videoId": "POszp0iyv0Y",
+    "title": "Vidéos pédagogiques - Comprendre le Tour de France - #TDF2022",
+    "durationSeconds": 699
+  },
+  {
+    "videoId": "BhlaXD2wRw4",
+    "title": "#TDF2022 -  L'avenir à vélo: \"It's my Tour, I'll act\"",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "GvxGDQwgz_8",
+    "title": "Educational videos - Yellow Jersey - #TDF2022",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "7JBaT9LJZpY",
+    "title": "Vidéos pédagogiques - Le maillot jaune - #TDF2022",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "P0F8p9yoUV0",
+    "title": "Vidéos pédagogiques - Le maillot blanc - #TDF2022",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "78Klxl4c52U",
+    "title": "Educational videos - WhiteJersey - #TDF2022",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "AzdfyZnZzMQ",
+    "title": "Educational videos - Polka Dot Jersey - #TDF2022",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "p9TgJALGeFM",
+    "title": "Vidéos pédagogiques - Le maillot à pois - #TDF2022",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "hoTmNSF3NpE",
+    "title": "Educational videos - Distinctive Jersey - #TDF2022",
+    "durationSeconds": 161
+  },
+  {
+    "videoId": "ukYDb7d_LEw",
+    "title": "Vidéos pédagogiques - Les maillots distinctifs - #TDF2022",
+    "durationSeconds": 151
+  },
+  {
+    "videoId": "wK9HguEn8Cc",
+    "title": "#TDF22 - L'avenir à Vélo : Les grands principes",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "omnL4e4sP04",
+    "title": "Educational videos - The peloton  - #TDF2022",
+    "durationSeconds": 89
+  },
+  {
+    "videoId": "YRAVgEF5Mj8",
+    "title": "Vidéos pédagogiques - Le peloton - #TDF2022",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "LYJXMfw7U7k",
+    "title": "Educational videos - Team Classification - #TDF2022",
+    "durationSeconds": 118
+  },
+  {
+    "videoId": "4c3UTeVaLM0",
+    "title": "Vidéos pédagogiques - Classification par équipe - #TDF2022",
+    "durationSeconds": 118
+  },
+  {
+    "videoId": "Q-tJ8NDj2ow",
+    "title": "Educational videos - The sprinters - #TDF2022",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "rW7QdQTwv1M",
+    "title": "Des kilomètres tu parcourras - Le guide du super supporter présenté par @ELeclercFrance - #TDF2022",
+    "durationSeconds": 119
+  },
+  {
+    "videoId": "7VKqL5gI8hc",
+    "title": "Le Tour de France et lastminute.com célèbrent la lanterne rouge en 2022!",
+    "durationSeconds": 152
+  },
+  {
+    "videoId": "aLwwVy9DjQA",
+    "title": "Discover the Tour de France Club - Teaser - #TDF2022",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "-jVXrYBnHFY",
+    "title": "Découvrez le Tour de France Club - Teaser - #TDF2022",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "Hl8c1Og-Ll0",
+    "title": "Meilleur équipier de la première semaine présenté par le Département des Hauts-de-Seine - #TDF2022",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "joorc-A05Ts",
+    "title": "Départ ou arrivée tu préféreras - Le guide du super supporter présenté par@ELeclercFrance - #TDF2022",
+    "durationSeconds": 129
+  },
+  {
+    "videoId": "jFWuBxjCuew",
+    "title": "#TDFFAZ 2022 - Femmes du Tour - Ashleigh Moolman Pasio",
+    "durationSeconds": 348
+  },
+  {
+    "videoId": "kKShtn33BB8",
+    "title": "La fringale tu éviteras - Le guide du super supporter présenté par@ELeclercFrance - #TDF2022",
+    "durationSeconds": 157
+  },
+  {
+    "videoId": "pyMJWZ47-bw",
+    "title": "Du confort tu auras - Le guide du super supporter présenté par@ELeclercFrance- #TDF2022",
+    "durationSeconds": 144
+  },
+  {
+    "videoId": "N6b76RZm1xI",
+    "title": "Un chouchou tu supporteras - Le guide du super supporter présenté par@ELeclercFrance - #TDF2022",
+    "durationSeconds": 143
+  },
+  {
+    "videoId": "yOLe2MLOxqU",
+    "title": "Best of Maillot à Pois présenté par E.Leclerc - Semaine 1 - #TDF2022",
+    "durationSeconds": 215
+  },
+  {
+    "videoId": "YHTtH9uHobU",
+    "title": "La tenue idéale tu porteras - Le guide du super supporter présenté par @ELeclercFrance - #TDF2022",
+    "durationSeconds": 179
+  },
+  {
+    "videoId": "fnSr7t3HtuE",
+    "title": "Meilleur équipier de la seconde semaine présenté par le Département des Hauts-de-Seine - #TDF2022",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "_dHEfvoZq_E",
+    "title": "Teaser Tour de France Femmes avec Zwift #TDFFAZ 2022",
+    "durationSeconds": 73
+  },
+  {
+    "videoId": "jnPNsOJz92A",
+    "title": "Flamme Rouge / Last KM - Étape 14 / Stage 14 - #TDF2022",
+    "durationSeconds": 70
+  },
+  {
+    "videoId": "FiZm8LIToPE",
+    "title": "Le 14 juillet tu célèbreras - Le guide du super supporter présenté par @ELeclercFrance - #TDF2022",
+    "durationSeconds": 162
+  },
+  {
+    "videoId": "F8YlMR3mTgM",
+    "title": "Tour savoir sur le Tour de France Femmes avec Zwift - #TDFF2022",
+    "durationSeconds": 282
+  },
+  {
+    "videoId": "Z0KyJjdqLR8",
+    "title": "Meilleur équipier de la troisième semaine présenté par le Département des Hauts-de-Seine - #TDF2022",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "HZFX_bCirJ8",
+    "title": "Comme tes héros tu feras - Le guide du super supporter présenté par @ELeclercFrance - #TDF2022",
+    "durationSeconds": 180
+  },
+  {
+    "videoId": "bdAPyEzvob4",
+    "title": "Un logement tu choisiras - Le guide du super supporter présenté par @ELeclercFrance- #TDF2022",
+    "durationSeconds": 150
+  },
+  {
+    "videoId": "Obb1aLbwqmc",
+    "title": "Des compagnons de route tu choisiras - Le guide du super supporter par@ELeclercFrance- #TDF2022",
+    "durationSeconds": 165
+  },
+  {
+    "videoId": "1aznf147lro",
+    "title": "Teams Presentation - #TDFF2022",
+    "durationSeconds": 6290
+  },
+  {
+    "videoId": "eeGOeVFGEeo",
+    "title": "L'Avenir à Vélo - Qhubeka / Riding into the Future - Qhubeka - #TDFF2022",
+    "durationSeconds": 134
+  },
+  {
+    "videoId": "rBFIQRAhfKo",
+    "title": "Everything you need to know about the Tour de France Femmes avec Zwift - #TDFF2022",
+    "durationSeconds": 269
+  },
+  {
+    "videoId": "IINcNS1ahZ4",
+    "title": "Relive the celebration in Copenhagen for #TDF2022 winner Jonas Vingegaard 😍🇩🇰",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "8JAYNBxJU10",
+    "title": "The highlights of the 1st edition of the Tour de France Femmes avec Zwift!",
+    "durationSeconds": 339
+  },
+  {
+    "videoId": "fJCGz8d2ooE",
+    "title": "Best-Of/Highlights Caravane 2022 - #TDF22",
+    "durationSeconds": 158
+  },
+  {
+    "videoId": "m0lhw0HKHYA",
+    "title": "Masterclass timekeeping by Tissot - #TDF22",
+    "durationSeconds": 140
+  },
+  {
+    "videoId": "ir5BTAwQKY4",
+    "title": "La Lanterne Rouge présentée par lastminute.com - #TDF22",
+    "durationSeconds": 235
+  },
+  {
+    "videoId": "nTPpMYs-9EE",
+    "title": "Lanterne Rouge presented by lastminute.com - #TDF22",
+    "durationSeconds": 235
+  },
+  {
+    "videoId": "8UElBOiiGH4",
+    "title": "#ParisTours 2022 - Highlights",
+    "durationSeconds": 382
+  },
+  {
+    "videoId": "xk9aYRWXX3Y",
+    "title": "#ParisTours 2022 - Résumé",
+    "durationSeconds": 382
+  },
+  {
+    "videoId": "zpZpwR1YL7w",
+    "title": "#ParisTours 2022 - Flamme Rouge / Last Kilometer",
+    "durationSeconds": 70
+  },
+  {
+    "videoId": "E5ixEp1Bcm4",
+    "title": "Teaser - #ParisTours 2022",
+    "durationSeconds": 66
+  },
+  {
+    "videoId": "Dth4MU4Wc2M",
+    "title": "Découvrez le parcours/ Discover the route - #ParisTours 2022",
+    "durationSeconds": 94
+  },
+  {
+    "videoId": "N71SrsJvnls",
+    "title": "Best of 2021 - #ParisTours",
+    "durationSeconds": 140
+  },
+  {
+    "videoId": "c8Ma1ejP5XM",
+    "title": "Throwback - Tour de France 2014 - #TDF",
+    "durationSeconds": 754
+  },
+  {
+    "videoId": "Iyz15COSg8s",
+    "title": "Throwback - Tour de France 2013 - #TDF",
+    "durationSeconds": 633
+  },
+  {
+    "videoId": "dkOcVDImvLM",
+    "title": "Throwback - Tour de France 2012 - #TDF",
+    "durationSeconds": 702
+  },
+  {
+    "videoId": "ApYG78UWa9g",
+    "title": "Throwback - Tour de France 2011 - #TDF",
+    "durationSeconds": 708
+  },
+  {
+    "videoId": "bHEUPW2Oca4",
+    "title": "Throwback - Tour de France 2008 - #TDF",
+    "durationSeconds": 575
+  },
+  {
+    "videoId": "yvy2rZGQmao",
+    "title": "Throwback - Tour de France 2007 - #TDF",
+    "durationSeconds": 512
+  },
+  {
+    "videoId": "31LOHjbILfo",
+    "title": "Le making-of tu regarderas - Le guide du super supporter présenté par @ELeclercFrance - #TDF2022",
+    "durationSeconds": 178
+  },
+  {
+    "videoId": "t1Jm15BstO4",
+    "title": "Grand Depart Italia - #TDF2024",
+    "durationSeconds": 134
+  },
+  {
+    "videoId": "t6zHsVD2-6A",
+    "title": "Grand Départ en Italie - #TDF2024",
+    "durationSeconds": 134
+  },
+  {
+    "videoId": "BhLNwQ9FD2o",
+    "title": "The best moments of the Tour de France & the Tour de France Femmes avec Zwift !",
+    "durationSeconds": 188
+  },
+  {
+    "videoId": "EqLxLO744f0",
+    "title": "Race highlights - Saitama Criterium 2022",
+    "durationSeconds": 217
+  },
+  {
+    "videoId": "_uZSA3Pr8IU",
+    "title": "Race Highlights - Singapore Criterium",
+    "durationSeconds": 194
+  },
+  {
+    "videoId": "ajkC-_B9Wgw",
+    "title": "The legend of the Maillot Jaune - #TDF23",
+    "durationSeconds": 113
+  },
+  {
+    "videoId": "p_3ZL5ptcTk",
+    "title": "Stage 18 - Moûtiers - Bourg-En-Bresse - #TDF23",
+    "durationSeconds": 64
+  },
+  {
+    "videoId": "soYXN_Jiato",
+    "title": "Stage 21 - Saint-Quentin-En-Yvelines - Paris Champs-Elysées - #TDF23",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "RMxx0moIOI0",
+    "title": "Stage 17 - Saint-Gervais Mont-Blanc - Courchevel - #TDF23",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "bJ9rc6F1E3Q",
+    "title": "Stage 15 - Les Gets Les Portes du Soleil - Saint-Gervais Mont-Blanc - #TDF23",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "sdV9ni8W2WQ",
+    "title": "Etape 14 / Stage 14 - Annemasse - Morzine Les Portes du Soleil - #TDF23",
+    "durationSeconds": 66
+  },
+  {
+    "videoId": "ianlTtEY6N8",
+    "title": "Stage 12 - Roanne - Belleville-En-Beaujolais - #TDF23",
+    "durationSeconds": 62
+  },
+  {
+    "videoId": "9VG2qn8JbvE",
+    "title": "Stage 6 - Tarbes - Cauterets-Cambasque - #TDF23",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "hh5yzdzrUbo",
+    "title": "Stage 5 -  Pau - Laruns - #TDF23",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "PbnybqY39uU",
+    "title": "Discover the route of the 2023 Tour de France - #TDF23",
+    "durationSeconds": 315
+  },
+  {
+    "videoId": "0N1kOojeE4c",
+    "title": "Welcome to Basque Country - #TDF23",
+    "durationSeconds": 198
+  },
+  {
+    "videoId": "Bo9aM619pSo",
+    "title": "The highlights of the 2022 Tour de France!",
+    "durationSeconds": 720
+  },
+  {
+    "videoId": "0_u9Rcnof3s",
+    "title": "#TDFFAZ23 - Reco Tourmalet",
+    "durationSeconds": 142
+  },
+  {
+    "videoId": "zipMEheZ1Ug",
+    "title": "#TDFFAZ23 - Stage 4 -  Cahors - Rodez",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "WvM40U7dcOc",
+    "title": "#TDFFAZ23 - Discover the ride of 2023 edition!",
+    "durationSeconds": 145
+  },
+  {
+    "videoId": "cP_gRe1xuXA",
+    "title": "Highlights - Stage 2 - #ParisNice 2023",
+    "durationSeconds": 397
+  },
+  {
+    "videoId": "oc0ruQP_A5Y",
+    "title": "Résumé - Étape 2 - #ParisNice 2023",
+    "durationSeconds": 397
+  },
+  {
+    "videoId": "-iuRLFqI5sA",
+    "title": "Century 21 most aggressive rider minute - Stage 2 - #ParisNice 2023",
+    "durationSeconds": 66
+  },
+  {
+    "videoId": "SodkNlsopT4",
+    "title": "LCL Yellow Jersey Minute - Stage 2 - #ParisNice 2023",
+    "durationSeconds": 106
+  },
+  {
+    "videoId": "xJU_6xNJnqc",
+    "title": "Last KM - Stage 2 - #ParisNice 2023",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "gGF-vqrHi0k",
+    "title": "E.Leclerc Polka Dot Jersey Minute - Stage 1 - #ParisNice 2023",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "-eXj_a-69TM",
+    "title": "Highlights - Stage 1 - #ParisNice 2023",
+    "durationSeconds": 434
+  },
+  {
+    "videoId": "sYR9jlGYT2s",
+    "title": "Century 21 most aggressive rider minute - Stage 1 - #ParisNice 2023",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "6imcmdR8WAs",
+    "title": "Résumé - Étape 1 - #ParisNice 2023",
+    "durationSeconds": 434
+  },
+  {
+    "videoId": "chPpqlBec1k",
+    "title": "LCL Yellow Jersey Minute - Stage 1 - #ParisNice 2023",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "64WQsC6sT6U",
+    "title": "Last KM - Stage 1 - #ParisNice 2023",
+    "durationSeconds": 93
+  },
+  {
+    "videoId": "wVQhH4lkm0Y",
+    "title": "Teaser Paris-Nice 2023",
+    "durationSeconds": 67
+  },
+  {
+    "videoId": "BQPHevuzjks",
+    "title": "Throwback Continental - #TDF2022 - Stage 9: Bob Jungels",
+    "durationSeconds": 257
+  },
+  {
+    "videoId": "YgR47SUZ8mQ",
+    "title": "Highlights of the race - #TourofOman 2023",
+    "durationSeconds": 405
+  },
+  {
+    "videoId": "ry0NSfgbnbs",
+    "title": "Best of 2022 - #Dauphiné",
+    "durationSeconds": 258
+  },
+  {
+    "videoId": "lnzVr6syNCE",
+    "title": "Stage 5 Highlights - #TourofOman 2023",
+    "durationSeconds": 185
+  },
+  {
+    "videoId": "Ng6E88Ywp7o",
+    "title": "Last KM - Stage 5 - #TourOfOman 2023",
+    "durationSeconds": 217
+  },
+  {
+    "videoId": "Y88Zj97Eeok",
+    "title": "Stage 4 Highlights - #TourofOman 2023",
+    "durationSeconds": 201
+  },
+  {
+    "videoId": "jSzY-YmXH7I",
+    "title": "Last KM - Stage 4 - #TourOfOman 2023",
+    "durationSeconds": 116
+  },
+  {
+    "videoId": "N_mCDVtR_Ds",
+    "title": "Stage 3 Highlights - #TourofOman 2023",
+    "durationSeconds": 192
+  },
+  {
+    "videoId": "DYEpAQ5XTD0",
+    "title": "Last KM - Stage 3 - #TourOfOman 2023",
+    "durationSeconds": 218
+  },
+  {
+    "videoId": "em5nkKXIv6Q",
+    "title": "Throwback Continental - #TDF2022 - Stage 5: Simon Clarke",
+    "durationSeconds": 192
+  },
+  {
+    "videoId": "jOhze1P1fRs",
+    "title": "#TourofOman 2023 - Stage 2 Highlights",
+    "durationSeconds": 203
+  },
+  {
+    "videoId": "spd3TMVbU4w",
+    "title": "Last KM - Stage 2 - #TourOfOman 2023",
+    "durationSeconds": 130
+  },
+  {
+    "videoId": "Sy_nkCreOOE",
+    "title": "#TourofOman 2023 - Stage 1 Highlights",
+    "durationSeconds": 202
+  },
+  {
+    "videoId": "vSUdNzt4dwc",
+    "title": "Last KM - Stage 1 - #TourOfOman 2023",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "MwZziXnLAe0",
+    "title": "Best moments of the race - #MuscatClassic 2023",
+    "durationSeconds": 246
+  },
+  {
+    "videoId": "-3drn9_vSTg",
+    "title": "Last kilometer - #MuscatClassic 2023",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "RFm6Zjcxyzs",
+    "title": "#TourofOman 2023 - Teaser",
+    "durationSeconds": 71
+  },
+  {
+    "videoId": "OjNYIclQezE",
+    "title": "Liège Bastogne Liège Femmes 2023 - Parcours",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "E0fZAegoyTs",
+    "title": "Liège Bastogne Liège 2023 - Parcours",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "dfe7KphnpxM",
+    "title": "Grand Depart Criterium du Dauphiné 2023 - #Dauphiné 2023",
+    "durationSeconds": 94
+  },
+  {
+    "videoId": "YbYAg1j1AsU",
+    "title": "La course au soleil fête ses 90 ans - #ParisNice2023",
+    "durationSeconds": 83
+  },
+  {
+    "videoId": "oGsp29u6w8A",
+    "title": "L'histoire de Paris-Nice dans les Yvelines - #ParisNice2023",
+    "durationSeconds": 155
+  },
+  {
+    "videoId": "QuPCLaLWjRA",
+    "title": "Winner Emotion - #ParisRoubaix Femmes avec Zwift 2023",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "l82QOkuP3p8",
+    "title": "Highlights Onboard #ParisRoubaix Femmes avec Zwift 2023",
+    "durationSeconds": 193
+  },
+  {
+    "videoId": "HywOGFXOhRo",
+    "title": "Highlights - #ParisRoubaixFemmes avec Zwift 2023",
+    "durationSeconds": 423
+  },
+  {
+    "videoId": "TshT-OLdUAM",
+    "title": "Résumé - #ParisRoubaixFemmes avec Zwift 2023",
+    "durationSeconds": 423
+  },
+  {
+    "videoId": "x9OhpK0gdxk",
+    "title": "Last KM - #ParisRoubaixFemmes avec Zwift 2023",
+    "durationSeconds": 111
+  },
+  {
+    "videoId": "Y1aBGmjmUq0",
+    "title": "Teaser Paris-Roubaix Femmes avec Zwitft",
+    "durationSeconds": 70
+  },
+  {
+    "videoId": "_D_xvaS9mPQ",
+    "title": "Teaser Paris-Roubaix 2023",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "umdiMGdJBVA",
+    "title": "Throwback Continental - #TDF2022 - Stage 11: Jonas Vingegaard",
+    "durationSeconds": 311
+  },
+  {
+    "videoId": "pkxsmJ9gHPE",
+    "title": "Ride 3D - Etape 21 -#TDF2024",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "a9rrwbLWJYM",
+    "title": "Une arrivée exceptionnelle / An exceptional arrival - #TDF2024",
+    "durationSeconds": 67
+  },
+  {
+    "videoId": "Y-zyoGvdKVs",
+    "title": "Best Of du Prix de la Combativité / Highlights of the most agressive rider - #ParisNice 2023",
+    "durationSeconds": 231
+  },
+  {
+    "videoId": "IDE_D8S1dVY",
+    "title": "Best Of - #ParisNice2023",
+    "durationSeconds": 253
+  },
+  {
+    "videoId": "KScs2EEFziQ",
+    "title": "LCL Yellow Jersey Minute - Stage 8 - #ParisNice 2023",
+    "durationSeconds": 94
+  },
+  {
+    "videoId": "2VypOxZYD_o",
+    "title": "Highlights - Stage 8 - #ParisNice 2023",
+    "durationSeconds": 518
+  },
+  {
+    "videoId": "f3CrQc21uYQ",
+    "title": "Century 21 most aggressive rider minute - Stage 8 - #ParisNice 2023",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "EZV6NUvuKro",
+    "title": "E.Leclerc Polka Dot Jersey Minute - Stage 8 - #ParisNice 2023",
+    "durationSeconds": 67
+  },
+  {
+    "videoId": "ZmGDUdQQ0xA",
+    "title": "Résumé - Étape 8 - #ParisNice 2023",
+    "durationSeconds": 518
+  },
+  {
+    "videoId": "F5mcaBpNfnE",
+    "title": "Last KM - Stage 8 - #ParisNice 2023",
+    "durationSeconds": 93
+  },
+  {
+    "videoId": "4HjWXwsnMPo",
+    "title": "LCL Yellow Jersey Minute - Stage 7 - #ParisNice 2023",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "LWcn0rq9FAs",
+    "title": "Highlights - Stage 7 - #ParisNice 2023",
+    "durationSeconds": 540
+  },
+  {
+    "videoId": "OVOMqi8_mO4",
+    "title": "E.Leclerc Polka Dot Jersey Minute - Stage 7 - #ParisNice 2023",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "FofLVb2gi7E",
+    "title": "Century 21 most aggressive rider minute - Stage 7 - #ParisNice 2023",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "szfohQ_4_nQ",
+    "title": "Résumé - Étape 7 - #ParisNice 2023",
+    "durationSeconds": 540
+  },
+  {
+    "videoId": "4IkIO1l1gow",
+    "title": "Last KM - Stage 7 - #ParisNice 2023",
+    "durationSeconds": 206
+  },
+  {
+    "videoId": "AS6XBPyQrlU",
+    "title": "Highlights - Stage 5 - #ParisNice 2023",
+    "durationSeconds": 462
+  },
+  {
+    "videoId": "yZA-3TmKYgs",
+    "title": "Century 21 most aggressive rider minute - Stage 5 - #ParisNice 2023",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "vtWRbBwRrwU",
+    "title": "Résumé - Étape 5 - #ParisNice 2023",
+    "durationSeconds": 462
+  },
+  {
+    "videoId": "WtuopI5a5Y0",
+    "title": "E.Leclerc Polka Dot Jersey Minute - Stage 5 - #ParisNice 2023",
+    "durationSeconds": 66
+  },
+  {
+    "videoId": "RKGUAp2kZjE",
+    "title": "LCL Yellow Jersey Minute - Stage 5 - #ParisNice 2023",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "JHO_PrstX-E",
+    "title": "Last KM - Stage 5 - #ParisNice 2023",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "A1Vi81tER1k",
+    "title": "Highlights - Stage 4 - #ParisNice 2023",
+    "durationSeconds": 506
+  },
+  {
+    "videoId": "LbMBLBO8tJ4",
+    "title": "Résumé - Étape 4 - #ParisNice 2023",
+    "durationSeconds": 506
+  },
+  {
+    "videoId": "2JQuR2egoYA",
+    "title": "Century 21 most aggressive rider minute - Stage 4 - #ParisNice 2023",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "Zg8kWoeV47U",
+    "title": "E.Leclerc Polka Dot Jersey Minute - Stage 4 - #ParisNice 2023",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "wXrSPMRLD-o",
+    "title": "LCL Yellow Jersey Minute - Stage 4 - #ParisNice 2023",
+    "durationSeconds": 107
+  },
+  {
+    "videoId": "LzyGSn1fURM",
+    "title": "Last KM - Stage 4 - #ParisNice 2023",
+    "durationSeconds": 138
+  },
+  {
+    "videoId": "mUJh2zcSRNI",
+    "title": "Highlights - Stage 3 - #ParisNice 2023",
+    "durationSeconds": 515
+  },
+  {
+    "videoId": "5cyiK2vOiiQ",
+    "title": "Résumé - Étape 3 - #ParisNice 2023",
+    "durationSeconds": 515
+  },
+  {
+    "videoId": "Tc5j1mIbxUg",
+    "title": "LCL Yellow Jersey Minute - Stage 3 - #ParisNice 2023",
+    "durationSeconds": 107
+  },
+  {
+    "videoId": "FiuJds0JHb8",
+    "title": "Last KM - Stage 3 - #ParisNice 2023",
+    "durationSeconds": 108
+  },
+  {
+    "videoId": "wTTm7tNMdSY",
+    "title": "⏱️The minute everything flipped by @TISSOT: an ITT and a duel between Janssen and Springel #TDF",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "GUH9DEC1u-s",
+    "title": "Highlights- Stage 1 - #Dauphiné 2023",
+    "durationSeconds": 500
+  },
+  {
+    "videoId": "-xEmxXz2Yjg",
+    "title": "Résumé - Étape 1 - #Dauphiné 2023",
+    "durationSeconds": 500
+  },
+  {
+    "videoId": "bktTNx4vPAI",
+    "title": "AURA Polka Dot Jersey Minute - Stage 1 - #Dauphiné 2023",
+    "durationSeconds": 98
+  },
+  {
+    "videoId": "c7rg0XKD4xA",
+    "title": "LCL Yellow & Blue Jersey Minute - Stage 1 - #Dauphiné 2023",
+    "durationSeconds": 120
+  },
+  {
+    "videoId": "8Yc24g_I5oM",
+    "title": "Last KM - Stage 1 - #Dauphiné 2023",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "VrX834J_e3g",
+    "title": "Tour de France : Au cœur du peloton - #Netflix",
+    "durationSeconds": 110
+  },
+  {
+    "videoId": "CFz2RPctNe4",
+    "title": "Femmes du Tour - Veronica Ewers - #TDFFAZ",
+    "durationSeconds": 211
+  },
+  {
+    "videoId": "mtWaC3NPlHY",
+    "title": "Teaser #Dauphine 2023",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "_vcUqg6YFO4",
+    "title": "Découvrez notre nouvelle collection : 𝐋𝐞𝐬 𝐆𝐞́𝐚𝐧𝐭𝐬",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "TRTWvtIqnb4",
+    "title": "Discover our collection : 𝐋𝐞𝐬 𝐆𝐞́𝐚𝐧𝐭𝐬",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "QhET0w6-2WI",
+    "title": "Femmes du Tour - Femke & Riejanne Markus #TDFFAZ",
+    "durationSeconds": 273
+  },
+  {
+    "videoId": "nI1IZWk52lg",
+    "title": "Krys et le Tour de France, une histoire de confiance!",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "Mza_29zT3pg",
+    "title": "Femmes du Tour - Lizzie Deignan - #TDFFAZ",
+    "durationSeconds": 218
+  },
+  {
+    "videoId": "6_2HFrZh3u8",
+    "title": "Throwback Continental - #TDF2022 - Stage 19: Jonas Vingegaard",
+    "durationSeconds": 304
+  },
+  {
+    "videoId": "qaGHPWSL9RA",
+    "title": "Femmes du Tour - Silvia Persico - #TDFFAZ",
+    "durationSeconds": 173
+  },
+  {
+    "videoId": "7dj1rgJjJFk",
+    "title": "Femmes du Tour - Lorena Wiebes - #TDFFAZ",
+    "durationSeconds": 281
+  },
+  {
+    "videoId": "hGADMHG0IeU",
+    "title": "Tour de France  : Au cœur du peloton - La nouvelle série Netflix",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "XFTfMP8ZO7Y",
+    "title": "La Grande Boucle comme on ne l’a jamais vue. Tour de France : Au cœur du peloton. #shorts #netflix",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "BCMtcXpwi_M",
+    "title": "Tour de France: Unchained - The New Netflix Series",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "c3x8mmyWSWU",
+    "title": "Highlights - #LiegeBastogneLiege 2023",
+    "durationSeconds": 513
+  },
+  {
+    "videoId": "kTGtuyBcnzM",
+    "title": "Résumé - #LiegeBastogneLiege 2023",
+    "durationSeconds": 513
+  },
+  {
+    "videoId": "XrDfEZ_Ip6c",
+    "title": "Flamme Rouge / Last KM - #LiegeBastogneLiege 2023",
+    "durationSeconds": 109
+  },
+  {
+    "videoId": "jGQGRAmXyss",
+    "title": "Highlights - #LiegeBastogneLiegeFemmes 2023",
+    "durationSeconds": 326
+  },
+  {
+    "videoId": "QWPq7cAInT4",
+    "title": "Résumé - #LiegeBastogneLiegeFemmes 2023",
+    "durationSeconds": 332
+  },
+  {
+    "videoId": "XxqIhi85ipU",
+    "title": "Last KM - #LiegeBastogneLiegeFemmes 2023",
+    "durationSeconds": 119
+  },
+  {
+    "videoId": "-Zul5eB-Rmo",
+    "title": "Femmes du Tour - Juliette Labous  - #TDFFAZ",
+    "durationSeconds": 153
+  },
+  {
+    "videoId": "XM4127CfFcc",
+    "title": "Highlights - #FlecheWallonne 2023",
+    "durationSeconds": 504
+  },
+  {
+    "videoId": "G32l3OPtjTY",
+    "title": "Résumé - #FlecheWallonne 2023",
+    "durationSeconds": 504
+  },
+  {
+    "videoId": "72Qn0UH9KxM",
+    "title": "Flamme Rouge / Last KM - #FlecheWallonne 2023",
+    "durationSeconds": 187
+  },
+  {
+    "videoId": "H3cPY3A7quY",
+    "title": "Résumé - #FlecheWallonneFemmes 2023",
+    "durationSeconds": 379
+  },
+  {
+    "videoId": "MvMG91AgHz4",
+    "title": "Highlights - #FlecheWallonneFemmes 2023",
+    "durationSeconds": 379
+  },
+  {
+    "videoId": "tTXrPMudaR0",
+    "title": "Flamme Rouge / Last KM - #FlecheWallonneFemmes 2023",
+    "durationSeconds": 234
+  },
+  {
+    "videoId": "Iqk84lOP2p8",
+    "title": "Teaser Liège-Bastogne-Liège  / Liège-Bastogne-Liège Femmes 2023",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "Z3VC8s9s5BY",
+    "title": "Teaser Flèche Wallonne - Flèche Wallonne Femmes 2023",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "fYuq4wJQSew",
+    "title": "Throwback Continental - #TDF2022 - Stage 12: Tom Pidcock",
+    "durationSeconds": 332
+  },
+  {
+    "videoId": "Rid8D53qjIo",
+    "title": "Femmes du Tour - Marta Cavalli - #TDFFAZ",
+    "durationSeconds": 226
+  },
+  {
+    "videoId": "UhyZ6NMFXwY",
+    "title": "Highlights Onboard #ParisRoubaix 2023",
+    "durationSeconds": 258
+  },
+  {
+    "videoId": "AvKWVB74Ho0",
+    "title": "Résumé - #ParisRoubaix 2023",
+    "durationSeconds": 548
+  },
+  {
+    "videoId": "aHhaZgv_z5k",
+    "title": "Highlights - #ParisRoubaix 2023",
+    "durationSeconds": 548
+  },
+  {
+    "videoId": "HF0ptW34Qvo",
+    "title": "Winner Emotion - #ParisRoubaix 2023",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "Vf927kKW2_g",
+    "title": "😈Teamwork makes the dream work. 🔵⚪️ #parisroubaix #shorts",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "MB1Qs_4qayE",
+    "title": "Flamme Rouge / Last KM - #ParisRoubaix 2023",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "veu_MLJkIlk",
+    "title": "Teaser Tour de France 2023",
+    "durationSeconds": 121
+  },
+  {
+    "videoId": "7HNFIfL6Q0w",
+    "title": "Watch the Tour de France Club x GCN+ show!",
+    "durationSeconds": 1732
+  },
+  {
+    "videoId": "EMf2lsoPJuo",
+    "title": "TDFFAZ23 - Previously...",
+    "durationSeconds": 104
+  },
+  {
+    "videoId": "AH6xJ9dP5Y8",
+    "title": "Femmes du Tour - Annemiek van Vleuten - #TDFFAZ",
+    "durationSeconds": 249
+  },
+  {
+    "videoId": "YAb3PXr5Y9k",
+    "title": "Épisode complet sur le Tour de France Club. Full episode on the Tour de France Club !⌚️⚡️ #tissot",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "Guj_P27-G9Y",
+    "title": "L'assistance neutre Shimano / Shimano neutral support - #TDF2022",
+    "durationSeconds": 296
+  },
+  {
+    "videoId": "E3EhObu0hBo",
+    "title": "Tour de France: Au coeur du Peloton - Les moments les plus intenses #Netflix",
+    "durationSeconds": 442
+  },
+  {
+    "videoId": "DyI34OlaE4w",
+    "title": "Race Highlights / Best of de la Course - #Dauphiné 2023",
+    "durationSeconds": 240
+  },
+  {
+    "videoId": "cvUsMBZ3H28",
+    "title": "Highlights - Stage 8 - #Dauphiné 2023",
+    "durationSeconds": 508
+  },
+  {
+    "videoId": "TJtx3O9oO5w",
+    "title": "Résumé - Étape 8 - #Dauphiné 2023",
+    "durationSeconds": 508
+  },
+  {
+    "videoId": "pjXN7fFJdjw",
+    "title": "AURA Polka Dot Jersey Minute - Stage 8 - #Dauphiné 2023",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "tWsgzUx0MoY",
+    "title": "Century 21 Most Agressive Rider Minute - Stage 8 - #Dauphiné 2023",
+    "durationSeconds": 83
+  },
+  {
+    "videoId": "fJoauK5aSig",
+    "title": "LCL Yellow & Blue Jersey Minute - Stage 8 - #Dauphiné 2023",
+    "durationSeconds": 112
+  },
+  {
+    "videoId": "5rBiWAV7xCg",
+    "title": "Last KM - Stage 8 - #Dauphiné 2023",
+    "durationSeconds": 313
+  },
+  {
+    "videoId": "I8rQ23_ZigM",
+    "title": "Highlights - Stage 7 - #Dauphiné 2023",
+    "durationSeconds": 453
+  },
+  {
+    "videoId": "mHIE65p8ejc",
+    "title": "Résumé - Étape 7 - #Dauphiné 2023",
+    "durationSeconds": 453
+  },
+  {
+    "videoId": "YZiPDZ9Nfx8",
+    "title": "LCL Yellow & Blue Jersey Minute - Stage 7 - #Dauphiné 2023",
+    "durationSeconds": 111
+  },
+  {
+    "videoId": "Jvar7uWlSjE",
+    "title": "AURA Polka Dot Jersey Minute - Stage 7 - #Dauphiné 2023",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "9O87VrMCajs",
+    "title": "Last KM - Stage 7 - #Dauphiné 2023",
+    "durationSeconds": 180
+  },
+  {
+    "videoId": "f3qT9nKNyOA",
+    "title": "Highlights - Stage 6 - #Dauphiné 2023",
+    "durationSeconds": 435
+  },
+  {
+    "videoId": "w_WSPdrfbdA",
+    "title": "Résumé - Étape 6 - #Dauphiné 2023",
+    "durationSeconds": 435
+  },
+  {
+    "videoId": "l0VHfYz2Ip4",
+    "title": "LCL Yellow & Blue Jersey Minute - Stage 6 - #Dauphiné 2023",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "3m8MhgFNHnQ",
+    "title": "AURA Polka Dot Jersey Minute - Stage 6 - #Dauphiné 2023",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "wqSyq2pEkz0",
+    "title": "Last KM - Stage 6 - #Dauphiné 2023",
+    "durationSeconds": 150
+  },
+  {
+    "videoId": "W8T9dPcrMBM",
+    "title": "Femmes du Tour - Marlen Reusser - #TDFFAZ",
+    "durationSeconds": 281
+  },
+  {
+    "videoId": "I_zJv7wkQOo",
+    "title": "Highlights - Stage 5 - #Dauphiné 2023",
+    "durationSeconds": 509
+  },
+  {
+    "videoId": "cHobhH34jWc",
+    "title": "Résumé - Étape 5 - #Dauphiné 2023",
+    "durationSeconds": 509
+  },
+  {
+    "videoId": "vH2TDAilHVU",
+    "title": "LCL Yellow & Blue Jersey Minute - Stage 5 - #Dauphiné 2023",
+    "durationSeconds": 119
+  },
+  {
+    "videoId": "l9yTquAH83E",
+    "title": "AURA Polka Dot Jersey Minute - Stage 5 - #Dauphiné 2023",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "E2aQM57orrU",
+    "title": "Last KM - Stage 5 - #Dauphiné 2023",
+    "durationSeconds": 101
+  },
+  {
+    "videoId": "kqJAaIqU1VM",
+    "title": "Highlights - Stage 4 - #Dauphiné 2023",
+    "durationSeconds": 439
+  },
+  {
+    "videoId": "tG84_iwqJeo",
+    "title": "Résumé - Étape 4 - #Dauphiné 2023",
+    "durationSeconds": 439
+  },
+  {
+    "videoId": "X_MIqa1Opk8",
+    "title": "LCL Yellow & Blue Jersey Minute - Stage 4 - #Dauphiné 2023",
+    "durationSeconds": 113
+  },
+  {
+    "videoId": "s1xbiplZhug",
+    "title": "Last KM - Stage 4 - #Dauphiné 2023",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "a0zcgVUjX38",
+    "title": "Highlights- Stage 3 - #Dauphiné 2023",
+    "durationSeconds": 428
+  },
+  {
+    "videoId": "y4mtYk2gi-g",
+    "title": "Century 21 Most Agressive Rider Minute - Stage 3 - #Dauphiné 2023",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "bzRejfq2V9c",
+    "title": "Résumé - Étape 3 - #Dauphiné 2023",
+    "durationSeconds": 428
+  },
+  {
+    "videoId": "pozEDwFPd-c",
+    "title": "AURA Polka Dot Jersey Minute - Stage 3 - #Dauphiné 2023",
+    "durationSeconds": 121
+  },
+  {
+    "videoId": "1BBqaCtgm0Y",
+    "title": "LCL Yellow & Blue Jersey Minute - Stage 3 - #Dauphiné 2023",
+    "durationSeconds": 123
+  },
+  {
+    "videoId": "XK0gYVGVhys",
+    "title": "Highlights- Stage 2 - #Dauphiné 2023",
+    "durationSeconds": 493
+  },
+  {
+    "videoId": "tvfSg4E7Pqk",
+    "title": "Résumé - Étape 2 - #Dauphiné 2023",
+    "durationSeconds": 493
+  },
+  {
+    "videoId": "CrhwC1MWd1E",
+    "title": "AURA Polka Dot Jersey Minute - Stage 2 - #Dauphiné 2023",
+    "durationSeconds": 123
+  },
+  {
+    "videoId": "6ORK0E4C1m0",
+    "title": "LCL Yellow & Blue Jersey Minute - Stage 2 - #Dauphiné 2023",
+    "durationSeconds": 123
+  },
+  {
+    "videoId": "hqDicLapgdI",
+    "title": "Last KM - Stage 2 - #Dauphiné 2023",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "fmb9CaDLgfM",
+    "title": "La Película - Etapa 1 - Tour de France 2023",
+    "durationSeconds": 580
+  },
+  {
+    "videoId": "vUBy5iTc12Q",
+    "title": "D’Eddy Merckx à @petosagan, on ouvre le livre des records du Tour de France ! #TDF2023 #shorts",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "TgbIwEOAV_4",
+    "title": "Teams Presentation presented by Tissot - Tour de France 2023",
+    "durationSeconds": 6006
+  },
+  {
+    "videoId": "PLuDCgP6mBY",
+    "title": "Nos supporters ont du talent présenté par@ELeclercFrance- On vous explique tout - #TDF2023",
+    "durationSeconds": 195
+  },
+  {
+    "videoId": "C4D5RqlTDs0",
+    "title": "Nos supporters ont du talent présenté par @ELeclercFrance - Un sommeil 5 étoiles - #TDF2023",
+    "durationSeconds": 171
+  },
+  {
+    "videoId": "0fPh5WmtPOQ",
+    "title": "Femmes du Tour - Simone Boilard - #TDFFAZ",
+    "durationSeconds": 203
+  },
+  {
+    "videoId": "SvLZUsmpnV0",
+    "title": "Meilleur équipier de la première semaine présenté par les Hauts-de-Seine - Tour de France 2023",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "RwLxwMjRn2c",
+    "title": "Nos supporters ont du talent présenté par @ELeclercFrance - Bien faire la fête - #TDF2023",
+    "durationSeconds": 170
+  },
+  {
+    "videoId": "z4iMuiAE79Y",
+    "title": "Dream of Polka Dot - A la conquête du maillot à pois - #TDFFAZ2023",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "NTK30-3QI4A",
+    "title": "Nos supporters ont du talent présenté par @ELeclercFrance- Les grands collectionneurs - #TDF2023",
+    "durationSeconds": 141
+  },
+  {
+    "videoId": "x6hPs64e5_U",
+    "title": "Nos supporters ont du talent par @ELeclercFrance - Trouver le meilleur emplacement - #TDF2023",
+    "durationSeconds": 148
+  },
+  {
+    "videoId": "05QDpjYtiCI",
+    "title": "Dream of Green - A la conquête du maillot vert - #TDFFAZ2023",
+    "durationSeconds": 83
+  },
+  {
+    "videoId": "zQQp_N4yP4A",
+    "title": "Femmes du Tour - Justine Ghekiere - #tdffaz",
+    "durationSeconds": 238
+  },
+  {
+    "videoId": "uW_M-hf5mPs",
+    "title": "Teaser Tour de France Femmes avec Zwift 2023",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "EUh2deW23Wk",
+    "title": "Votez pour le Meilleur Equipier de la 2e semaine du Tour de France !",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "_E7a2xMy5q4",
+    "title": "Nos supporters ont du talent présenté par @ELeclercFrance- Bien célébrer le 14 Juillet - #TDF2023",
+    "durationSeconds": 158
+  },
+  {
+    "videoId": "olnc5ZA7HCI",
+    "title": "Stage 8/ Etape 8 Briefing presented by Strava - #TDFFAZ 2023",
+    "durationSeconds": 100
+  },
+  {
+    "videoId": "QeP9rFsZv9w",
+    "title": "Stage 7/ Etape 7 Briefing presented by Strava - #TDFFAZ 2023",
+    "durationSeconds": 124
+  },
+  {
+    "videoId": "hp3SnjfHnj4",
+    "title": "Stage 6/ Etape 6 Briefing presented by Strava - #TDFFAZ 2023",
+    "durationSeconds": 106
+  },
+  {
+    "videoId": "Lyp1zK7_TxY",
+    "title": "Stage 5/ Etape 5 Briefing presented by Strava - #TDFFAZ 2023",
+    "durationSeconds": 70
+  },
+  {
+    "videoId": "9_tX7-8BFeM",
+    "title": "Stage 4/ Etape 4 Briefing presented by Strava - #TDFFAZ 2023",
+    "durationSeconds": 124
+  },
+  {
+    "videoId": "KzAVP4R0-Cg",
+    "title": "Stage 3/ Etape 3 Briefing presented by Strava - #TDFFAZ 2023",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "YQlU5a8kBzw",
+    "title": "Stage 2/ Etape 2 Briefing presented by Strava - #TDFFAZ 2023",
+    "durationSeconds": 105
+  },
+  {
+    "videoId": "WfPiSo5zApo",
+    "title": "Stage 1/ Etape 1 Briefing presented by Strava - #TDFFAZ 2023",
+    "durationSeconds": 124
+  },
+  {
+    "videoId": "wHOAJ3Y2T0U",
+    "title": "Nos supporters ont du talent présenté par @ELeclercFrance- Faire les meilleures pancartes - #TDF2023",
+    "durationSeconds": 153
+  },
+  {
+    "videoId": "Kt2rLdR-FMw",
+    "title": "Dream of Yellow - A la conquête du maillot jaune - #TDFFAZ2023",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "HR24trjwbOU",
+    "title": "Votez pour le Meilleur Equipier de la 3e semaine du Tour de France !",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "4tGTK6mQ0NQ",
+    "title": "Le Résumé Long - Étape 3 - Tour de France Femmes avec Zwift 2023",
+    "durationSeconds": 504
+  },
+  {
+    "videoId": "NA_vripS1mY",
+    "title": "Extended Highlights - Stage 3 - Tour de France Femmes avec Zwift 2023",
+    "durationSeconds": 504
+  },
+  {
+    "videoId": "48eANiuRwM4",
+    "title": "The route of the Tour de France 2024 #TDF24",
+    "durationSeconds": 347
+  },
+  {
+    "videoId": "ewM6Q7-nmbk",
+    "title": "Highlights of the 110th edition of the #TourdeFrance 2023",
+    "durationSeconds": 747
+  },
+  {
+    "videoId": "1n4FZ0lSvCI",
+    "title": "The Expert Eye - Shimano the blue angels",
+    "durationSeconds": 133
+  },
+  {
+    "videoId": "cnJIrK_JhMI",
+    "title": "Paris-Tours revient ! #ParisTours 2023",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "xvKiiFDY5Qk",
+    "title": "Liège-Bastogne-Liège Femmes 2024 - Parcours",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "al3uRt6_AzM",
+    "title": "Liège-Bastogne-Liège 2024 - Parcours",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "KticxOKkLJM",
+    "title": "Grand Départ/Start 2025 - #TourdeFrance2025",
+    "durationSeconds": 163
+  },
+  {
+    "videoId": "1nWup6LfKV0",
+    "title": "Race Highlights - Saitama Criterium 2023",
+    "durationSeconds": 287
+  },
+  {
+    "videoId": "CMCfGqMfY4c",
+    "title": "Teaser Paris-Nice 2024",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "Lit42AwD2-c",
+    "title": "Tour of Oman 2024 - Teaser",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "Q9WiuopU1r4",
+    "title": "#Dauphiné 2024 : Discover the route / Découvrez le parcours",
+    "durationSeconds": 62
+  },
+  {
+    "videoId": "kFhWy4qq5sc",
+    "title": "Liège-Bastogne-Liège 2024 - Teaser",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "Mdg2y1EPb0g",
+    "title": "La Flèche Wallonne 2024 - Teaser",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "SGnQGWK-DFY",
+    "title": "Teaser Tro Bro Leon 2024",
+    "durationSeconds": 67
+  },
+  {
+    "videoId": "7FG5pHyW2K0",
+    "title": "Tro Bro Leon - Best of 2023",
+    "durationSeconds": 140
+  },
+  {
+    "videoId": "GM4XxUEm8TU",
+    "title": "Teaser Paris-Roubaix Femmes avec Zwift 2024",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "Au1u8PuGtRE",
+    "title": "Paris-Nice 2024 - Best of 🇫🇷",
+    "durationSeconds": 346
+  },
+  {
+    "videoId": "lQ8aRYPu-I0",
+    "title": "Paris-Nice 2024 - Highlights 🇬🇧",
+    "durationSeconds": 346
+  },
+  {
+    "videoId": "LTg-c3XZr8U",
+    "title": "Teaser Tour de France - #TDF2024",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "ryGOJQ2Nq3c",
+    "title": "Femmes du Tour : Amber Kraak - Tour de France Femmes avec Zwift",
+    "durationSeconds": 216
+  },
+  {
+    "videoId": "eaLQVsZU5ew",
+    "title": "Grand Départ 2026 - Tour de France",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "_1ychjRifWI",
+    "title": "Femmes du Tour : Cédrine Kerbaol - Tour de France Femmes avec Zwift",
+    "durationSeconds": 219
+  },
+  {
+    "videoId": "jINPSrRH4XU",
+    "title": "Grand Départ du TDFFAZ 2025 : Bretagne, terre de cyclisme",
+    "durationSeconds": 164
+  },
+  {
+    "videoId": "6AoJtv0sPt0",
+    "title": "Femmes du Tour : Niamh Fisher-Black - Tour de France Femmes avec Zwift",
+    "durationSeconds": 222
+  },
+  {
+    "videoId": "6ghuWK62Kek",
+    "title": "Critérium du Dauphiné 2024 - Extended highlights of stage 1",
+    "durationSeconds": 411
+  },
+  {
+    "videoId": "sWNWlmD3cBE",
+    "title": "Femmes du Tour : 𝐃𝐄𝐌𝐈 𝐕𝐎𝐋𝐋𝐄𝐑𝐈𝐍𝐆 - Tour de France Femmes avec Zwift",
+    "durationSeconds": 229
+  },
+  {
+    "videoId": "6kczGC9AmFQ",
+    "title": "Femmes du Tour - Season 3 - Tour de France Femmes avec Zwift",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "VkYjrw5Z_FA",
+    "title": "Critérium du Dauphiné - Teaser 2024",
+    "durationSeconds": 82
+  },
+  {
+    "videoId": "iNzF2A8FxSk",
+    "title": "⛰ La Cime de la Bonette ⛰🤩",
+    "durationSeconds": 77
+  },
+  {
+    "videoId": "mEig0o0oBko",
+    "title": "Incoming... ⌛☀️ #tdf2024",
+    "durationSeconds": 116
+  },
+  {
+    "videoId": "gd6mdGXRH34",
+    "title": "➡️ Relive the last kilometer of #LBLwomen 2024 and the sprint of @_g_brown",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "M_VZoewWaH8",
+    "title": "Extended Highlights - Stage 2 - Tour de France 2024",
+    "durationSeconds": 488
+  },
+  {
+    "videoId": "r4h0iY_O0tY",
+    "title": "Krys White Jersey Minute - Stage 2 - Tour de France 2024",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "Bo3xDD9jxic",
+    "title": "LCL Yellow Jersey Minute - Stage 2 - Tour de France 2024",
+    "durationSeconds": 77
+  },
+  {
+    "videoId": "8hO3a2T6LDY",
+    "title": "Winner's emotion - Stage 2 - Tour de France 2024",
+    "durationSeconds": 73
+  },
+  {
+    "videoId": "YBRAt-iq0G8",
+    "title": "Škoda Green Jersey Minute - Stage 2 - Tour de France 2024",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "zYNDpatlzeo",
+    "title": "E.Leclerc Polka Dot Jersey Minute - Stage 2 - Tour de France 2024",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "5Havq3ve8RI",
+    "title": "Century 21 most aggressive rider minute - Stage 2 - Tour de France 2024",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "H8F_Gn5SVes",
+    "title": "Last Km - Stage 2 - Tour de France 2024",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "LGSTqBFzdy4",
+    "title": "Clip di sicurezza - Tour de France 2024",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "q9f94asuJr4",
+    "title": "Sicherheitsclip - Tour de France 2024",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "pbjVze0wX4s",
+    "title": "Clip de seguridad - Tour de France 2024",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "qCelA-iMQkg",
+    "title": "Safety clip - Tour de France 2024",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "9LtOK_RxNGI",
+    "title": "Clip de sécurité - Tour de France 2024",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "rMGkPIPL-pg",
+    "title": "The Continental stage winner medal creation 🏅 - #TDF2024",
+    "durationSeconds": 98
+  },
+  {
+    "videoId": "d64tknPJl8Q",
+    "title": "Teams Presentation - Tour de France 2024",
+    "durationSeconds": 6845
+  },
+  {
+    "videoId": "rryvqmDHGrc",
+    "title": "Collection Maillot Jaune : Discover Cime de la Bonnette",
+    "durationSeconds": 64
+  },
+  {
+    "videoId": "l8PakTBX5c4",
+    "title": "Femmes du Tour : Ella Wyllie - Tour de France Femmes avec Zwift",
+    "durationSeconds": 225
+  },
+  {
+    "videoId": "HeVAbE2gJn8",
+    "title": "Discover the Tour de France Club !",
+    "durationSeconds": 101
+  },
+  {
+    "videoId": "O7GOvhaSAXs",
+    "title": "Découvrez le Tour de France Club !",
+    "durationSeconds": 101
+  },
+  {
+    "videoId": "ydziVoNMVYE",
+    "title": "Les kilomètres parcourus - Nos supporters ont du talent présenté par E. Leclerc",
+    "durationSeconds": 145
+  },
+  {
+    "videoId": "vOSIv2oAniQ",
+    "title": "Le Tour de France pour les nuls #TDF2024",
+    "durationSeconds": 708
+  },
+  {
+    "videoId": "etNKBKZ2P40",
+    "title": "The Tour de France for newbies #TDF2024",
+    "durationSeconds": 707
+  },
+  {
+    "videoId": "nqbFS8JV9AQ",
+    "title": "Femmes du Tour : Sarah Gigante - Tour de France Femmes avec Zwift",
+    "durationSeconds": 216
+  },
+  {
+    "videoId": "5z_RI4Q_spY",
+    "title": "Les meilleures installations - Nos supporters ont du talent présenté par E. Leclerc",
+    "durationSeconds": 146
+  },
+  {
+    "videoId": "s3h4VVehXgc",
+    "title": "Votez pour le Meilleur Equipier de la 1ère semaine du Tour de France !",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "j7d88wEfPyY",
+    "title": "Femmes du Tour : Shirin Van Anrooij - Tour de France Femmes avec Zwift",
+    "durationSeconds": 219
+  },
+  {
+    "videoId": "6gKXh_dQnl0",
+    "title": "Votez pour le Meilleur Equipier de la 2ème semaine du Tour de France !",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "SUJyH_fhTCc",
+    "title": "Dream of Green - Tour de France Femmes avec Zwift 2024",
+    "durationSeconds": 109
+  },
+  {
+    "videoId": "9C0O58UdKI0",
+    "title": "Dream of Polka dot - Tour de France Femmes avec Zwift 2024",
+    "durationSeconds": 147
+  },
+  {
+    "videoId": "uRIIUsNINjA",
+    "title": "Femmes du Tour : Léa Curinier - Tour de France Femmes avec Zwift",
+    "durationSeconds": 227
+  },
+  {
+    "videoId": "V0-SO7-0pF8",
+    "title": "Votez pour le Meilleur Equipier de la 3ème semaine du Tour de France !",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "gDvNZV7bVN0",
+    "title": "Les meilleurs déguisements - Nos supporters ont du talent présenté par E. Leclerc",
+    "durationSeconds": 131
+  },
+  {
+    "videoId": "Nd72OFH-1JQ",
+    "title": "Extended Highlights - Stage 1 - Tour de France Femmes avec Zwift 2024",
+    "durationSeconds": 583
+  },
+  {
+    "videoId": "vHtouad1aYw",
+    "title": "Le Résumé Long - Étape 1 - Tour de France Femmes avec Zwift 2024",
+    "durationSeconds": 583
+  },
+  {
+    "videoId": "N3JDkup_ieE",
+    "title": "Dream of Yellow - Tour de France Femmes avec Zwift 2024",
+    "durationSeconds": 141
+  },
+  {
+    "videoId": "kKrXlD49LoA",
+    "title": "Ride 3D - Etape 10 - #TDF2025",
+    "durationSeconds": 71
+  },
+  {
+    "videoId": "mbU_JQo6f_8",
+    "title": "Ride 3D - Etape 18 - #TDF2025",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "-5NKLTugga8",
+    "title": "Parcours Officiel - Tour de France 2025",
+    "durationSeconds": 311
+  },
+  {
+    "videoId": "-geAahaINdg",
+    "title": "Ride 3D - Etape 16 - #TDF2025",
+    "durationSeconds": 71
+  },
+  {
+    "videoId": "2z1FLDjormA",
+    "title": "Ride 3D - Etape 6 - #TDF2025",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "Ey5AeNVYgzs",
+    "title": "Ride 3D - Etape 14 - #TDF2025",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "N__uJmt24t8",
+    "title": "Ride 3D - Etape 7 - #TDF2025",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "-1qD-7HSaNk",
+    "title": "Parcours Officiel - Tour de France Femmes avec Zwift 2025",
+    "durationSeconds": 133
+  },
+  {
+    "videoId": "1StgTlD5koo",
+    "title": "Ride 3D - Etape 7 - #TDFFAZ2025",
+    "durationSeconds": 73
+  },
+  {
+    "videoId": "BfA9RREK6Fo",
+    "title": "Ride 3D - Etape 2 - #TDFFAZ2025",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "7HozQxZkM_w",
+    "title": "Teaser Paris-Tours 2024",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "6-3m2SY9aXw",
+    "title": "Best of On Board - Tour de France Femmes avec Zwift 2024",
+    "durationSeconds": 174
+  },
+  {
+    "videoId": "DkQstVN6xWg",
+    "title": "Best of Winner's Emotion - Tour de France Femmes avec Zwift 2024",
+    "durationSeconds": 106
+  },
+  {
+    "videoId": "-4bD_jhlOMA",
+    "title": "Critérium du Dauphiné 2025 : Le parcours / The route",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "0459-GPnUgI",
+    "title": "Parcours Etape 6 - Paris-Nice 2025",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "jFe3BxchJzc",
+    "title": "THROWBACK BY CONTINENTAL - TOUR DE FRANCE 2023 - STAGE 19",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "M7nNXgJ1X0s",
+    "title": "Maillot Jaune - #TDF2025 - #TDFFAZ2025",
+    "durationSeconds": 112
+  },
+  {
+    "videoId": "4PJXBnGOvhY",
+    "title": "THROWBACK BY CONTINENTAL - TOUR DE FRANCE 2023 - STAGE 17",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "s_Ne08-OEOw",
+    "title": "Reconnaissance Joux Plane - #TDFFAZ2025",
+    "durationSeconds": 151
+  },
+  {
+    "videoId": "p9VcVDmRJ6Y",
+    "title": "Célébrations - #TDF2025",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "BnY3lZO54ik",
+    "title": "Mont Ventoux - #TDF2025",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "6T3gO3uoGCQ",
+    "title": "Peyragudes - #TDF2025",
+    "durationSeconds": 101
+  },
+  {
+    "videoId": "KLTeeVa8D8w",
+    "title": "Superbagnères - #TDF2025",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "TKlw4LoawxQ",
+    "title": "Col de la Loze - #TDF2025",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "lRCad3QcMow",
+    "title": "Race Highlights - Saitama Criterium 2024",
+    "durationSeconds": 356
+  },
+  {
+    "videoId": "-49z-I-PCtw",
+    "title": "50 ans des Champs-Élysées - #TDF2025",
+    "durationSeconds": 115
+  },
+  {
+    "videoId": "3Cz9ZTsjFJI",
+    "title": "Grands Départs Grande Bretagne 2027",
+    "durationSeconds": 196
+  },
+  {
+    "videoId": "DgWiQSWB1Zo",
+    "title": "Los grandes de España y Francia - #TDF2026",
+    "durationSeconds": 165
+  },
+  {
+    "videoId": "nHmNVEsJYk0",
+    "title": "Les grands d'Espagne et de France - #TDF2026",
+    "durationSeconds": 165
+  },
+  {
+    "videoId": "p-fB2ET-BE0",
+    "title": "Critérium du Dauphiné 2025 - Résumé de l'Étape 1",
+    "durationSeconds": 498
+  },
+  {
+    "videoId": "yOq_Dn2sk9o",
+    "title": "Grand Départ Suisse Tour de France Femmes avec Zwift 2026 : Reactions",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "KT2Y_FqSfwU",
+    "title": "Tour de France & PCM 2025 are out now !",
+    "durationSeconds": 66
+  },
+  {
+    "videoId": "ww50lGPLKYU",
+    "title": "Critérium du Dauphiné 2025 : Teaser",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "ZvSzzVo5DYQ",
+    "title": "RIDE #TDF25 ETAPE 21",
+    "durationSeconds": 127
+  },
+  {
+    "videoId": "EU-Nj97Qx5o",
+    "title": "Teaser Liège-Bastogne-Liège Hommes 2025 & Liège-Bastogne-Liège Femmes 2025",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "WHe-RVkkp54",
+    "title": "Teaser Paris-Roubaix 2025",
+    "durationSeconds": 70
+  },
+  {
+    "videoId": "bwY9IbcpLWA",
+    "title": "Teaser Paris-Roubaix Femmes avec Zwift 2025",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "CoyW7A2FgeM",
+    "title": "Teaser Tro Bro Léon 2025",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "bVN7it9158g",
+    "title": "Tour de France 2025 - La sécurité est l'affaire de tous !",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "lB5DVCaMsvI",
+    "title": "Tour de France 2025 – Safety is Everyone’s Responsibility!",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "NYs9B7pxJ4Q",
+    "title": "Teaser Tour de France Femmes avec Zwift 2025 - #TDFF2025",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "a9vWoYFchtA",
+    "title": "La Collection Maillot Jaune - Col de la Madeleine",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "zIRJnmT7UZk",
+    "title": "Teaser Tour de France 2025 - #TDF2025",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "1hmXO9L7R68",
+    "title": "La Collection Maillot Jaune - Gamme Hautacam",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "_GdRzkp1CqU",
+    "title": "King Pogacar - Throwback by Continental #TDF2024",
+    "durationSeconds": 114
+  },
+  {
+    "videoId": "ALycTimBfU8",
+    "title": "The crowning of Campenaerts - Throwback by Continental #TDF2024",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "F390QxeRiRM",
+    "title": "🙌 VELUX Behind every rider",
+    "durationSeconds": 106
+  },
+  {
+    "videoId": "KY7XyDwCT9k",
+    "title": "🚴‍♂️First-ever ride abroad for the TDF Club!",
+    "durationSeconds": 156
+  },
+  {
+    "videoId": "1mdyO6rY4qI",
+    "title": "Turgis, on the gravel roads - Throwback by Continental #TDF2024",
+    "durationSeconds": 103
+  },
+  {
+    "videoId": "vloGjr1_hhU",
+    "title": "Girmay at the top in stage 3 - Throwback by Continental #TDF2024",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "Fjl-wTY435Y",
+    "title": "Romain Bardet wins in stage 1 - Throwback by Continental #TDF2024",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "sjInicYfN_k",
+    "title": "Briefing Stage 1 by Continental - Tour de France 2025",
+    "durationSeconds": 94
+  },
+  {
+    "videoId": "uP4j1ooF_90",
+    "title": "Discover the 7️⃣ unsuspected challenges of the #tdf2025",
+    "durationSeconds": 119
+  },
+  {
+    "videoId": "UJadkgheq7w",
+    "title": "Présentation des équipes / Teams presentation - Tour de France 2025",
+    "durationSeconds": 5806
+  },
+  {
+    "videoId": "H5rdYLzn2UE",
+    "title": "Team Visma words after the win - Tour de France 2025",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "Rpc6q3AuDc0",
+    "title": "Vote now for the best teammate with the Hauts-De-Seine department!",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "L-ZlTV2ra84",
+    "title": "🥳 @unoxteam celebrations #TDF2025 #cycling",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "5s6Rb6XpHYY",
+    "title": "😜 Can you do a track stand like à pro / Est ce que tu sais faire un sur place comme un pro #tdf2025",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "tfcimTYCCRQ",
+    "title": "🔟 stages8️⃣ different winners1️⃣ passion : #TDF2025 #shorts",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "DoXTosNgKJg",
+    "title": "Let's start this rest day with your #TDF2025 weekly zapping! 📽️",
+    "durationSeconds": 67
+  },
+  {
+    "videoId": "azX82-w79hs",
+    "title": "E.Leclerc 50 ans du Maillot à Pois - Claudio Chiappucci",
+    "durationSeconds": 109
+  },
+  {
+    "videoId": "Y8nt2nQhGAo",
+    "title": "E.Leclerc 50 ans du Maillot à Pois - Thomas Voeckler",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "CHN0jXyb9qY",
+    "title": "E.Leclerc 50 ans du Maillot à Pois - Richard Virenque",
+    "durationSeconds": 119
+  },
+  {
+    "videoId": "WCOHuFFXBJM",
+    "title": "E.Leclerc 50 ans du Maillot à Pois - Lucien Van Impe",
+    "durationSeconds": 111
+  },
+  {
+    "videoId": "tYxhxuOtFYc",
+    "title": "E.Leclerc 50 ans du Maillot à Pois - Tadej Pogacar",
+    "durationSeconds": 109
+  },
+  {
+    "videoId": "ri77RLsCFTw",
+    "title": "E.Leclerc 50 ans du Maillot à Pois - Laurent Jalabert",
+    "durationSeconds": 111
+  },
+  {
+    "videoId": "R3V3wWsRgDU",
+    "title": "E.Leclerc 50 ans du Maillot à Pois - Bernard Hinault",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "4TTsEwCtEWk",
+    "title": "E.Leclerc 50 ans du Maillot à Pois - Richard Carapaz",
+    "durationSeconds": 113
+  },
+  {
+    "videoId": "qgbFjmULuZk",
+    "title": "E.Leclerc 50 ans du Maillot à Pois - Romain Bardet",
+    "durationSeconds": 120
+  },
+  {
+    "videoId": "feAy9IMUd7s",
+    "title": "E.Leclerc 50 ans du Maillot à Pois - Julian Alaphilippe",
+    "durationSeconds": 117
+  },
+  {
+    "videoId": "m1osRd_PTMY",
+    "title": "Vote now for the week 2 best teammate with the Hauts-De-Seine department!",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "-dG-Ufcn9xY",
+    "title": "Live the #TDF2025 with the Fan Car by VITTEL 🚗",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "LLuRMci5vjk",
+    "title": "Grande finale du eTour de France 2025 avec LCL !",
+    "durationSeconds": 6798
+  },
+  {
+    "videoId": "czi0_XyDboY",
+    "title": "Live the #TDF2025 from the inside with the Fan Car by VITTEL 🚗 #shorts",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "L-o27apd594",
+    "title": "Vote now for the week 3 best teammate with the Hauts-De-Seine department!",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "j6dJoOBp53k",
+    "title": "Best of Tour de France Femmes avec Zwift 2025",
+    "durationSeconds": 425
+  },
+  {
+    "videoId": "TuSgCSduDpo",
+    "title": "Best of Tour de France 2025",
+    "durationSeconds": 813
+  },
+  {
+    "videoId": "XevdtcJsAiA",
+    "title": "ELLES ARRIVENT - Tour de France Femmes avec Zwift 2025",
+    "durationSeconds": 77
+  },
+  {
+    "videoId": "SNWx8lkG4dU",
+    "title": "eTour de France avec LCL 2025 - La finale - #tdf2025",
+    "durationSeconds": 107
+  },
+  {
+    "videoId": "IYDmkoYlq3Y",
+    "title": "Tour Auvergne-Rhône-Alpes 2026 : Route stage 5 / Parcours de l'étape 5",
+    "durationSeconds": 73
+  },
+  {
+    "videoId": "8xpr9pdwF-Y",
+    "title": "Tour Auvergne-Rhône-Alpes 2026 : Route stage 4 / Parcours de l'étape 4",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "KUKxumwgAXQ",
+    "title": "Tour Auvergne-Rhône-Alpes 2026 : Route stage 2 / Parcours de l'étape 2",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "BRI8W3PX8oQ",
+    "title": "Tour Auvergne-Rhône-Alpes 2026 : Route stage 1 / Parcours de l'étape 1",
+    "durationSeconds": 71
+  },
+  {
+    "videoId": "GU86P1QJV0A",
+    "title": "The first reactions to the 2026 routes",
+    "durationSeconds": 813
+  },
+  {
+    "videoId": "IPREyLGxDVU",
+    "title": "Discover the route - Tour de France 2026",
+    "durationSeconds": 339
+  },
+  {
+    "videoId": "YiA8yuMyy1I",
+    "title": "Le Tour de France 2025 à Montmartre",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "lhxUtP84uVw",
+    "title": "Le Tour de France Femmes avec Zwift 2026 à Nice !",
+    "durationSeconds": 154
+  },
+  {
+    "videoId": "51x0VeHnNPA",
+    "title": "LCL et Le Tour de France ! #TDF26",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "ZFJUuzvSaLM",
+    "title": "Zwift prolonge le Partenariat avec le Tour de France Femmes",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "qaDe52_TEG0",
+    "title": "Stage 4 official route - Paris-Nice 2026",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "ui-DYvqHs0U",
+    "title": "Stage 8 official route - Paris-Nice 2026",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "iuge2qKVgrc",
+    "title": "Stage 7 official route - Paris-Nice 2026",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "kEOZkpVWjcc",
+    "title": "Stage 6 official route - Paris-Nice 2026",
+    "durationSeconds": 66
+  },
+  {
+    "videoId": "cMs6vmZy_m8",
+    "title": "Stage 5 official route - Paris-Nice 2026",
+    "durationSeconds": 70
+  },
+  {
+    "videoId": "VrXHT9mKyXs",
+    "title": "Stage 2 official route - Paris-Nice 2026",
+    "durationSeconds": 67
+  },
+  {
+    "videoId": "2ngsfN4owMM",
+    "title": "Stage 1 official route - Paris-Nice 2026",
+    "durationSeconds": 64
+  },
+  {
+    "videoId": "yX3U1WohcRU",
+    "title": "Tour of Oman 2026 - The final program",
+    "durationSeconds": 3151
+  },
+  {
+    "videoId": "2LjI28OsyAU",
+    "title": "Tour of Oman 2026 - Stage 5 - Film of the day",
+    "durationSeconds": 1579
+  },
+  {
+    "videoId": "4MFmre8FO0Q",
+    "title": "Tour of Oman 2026 - Stage 4 - Film of the day",
+    "durationSeconds": 1578
+  },
+  {
+    "videoId": "A-VrKe9BHog",
+    "title": "Tour of Oman 2026 - Stage 3 - Film of the day",
+    "durationSeconds": 1562
+  },
+  {
+    "videoId": "vFnUj0eerOA",
+    "title": "Tour of Oman 2026 – Stage 2 – Film of the day",
+    "durationSeconds": 1559
+  },
+  {
+    "videoId": "iQi1dJmcGqc",
+    "title": "Tour of Oman 2026 – Stage 1 – Film of the day",
+    "durationSeconds": 1558
+  },
+  {
+    "videoId": "flvDNRgN8Ns",
+    "title": "Muscat Classic 2026 - The film of the day",
+    "durationSeconds": 1568
+  },
+  {
+    "videoId": "LKFpaNn38T8",
+    "title": "Tour of Oman 2026 - Teaser",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "u2PHo5IcsBA",
+    "title": "Tour Auvergne-Rhône-Alpes 2026 : Route stage 8 / Parcours de l'étape 8",
+    "durationSeconds": 62
+  },
+  {
+    "videoId": "xZriLzkF-nU",
+    "title": "Tour Auvergne-Rhône-Alpes 2026 : Route stage 7 / Parcours de l'étape 7",
+    "durationSeconds": 62
+  },
+  {
+    "videoId": "1cKlb5YArHg",
+    "title": "Tour Auvergne-Rhône-Alpes 2026 : Route stage 6 / Parcours de l'étape 6",
+    "durationSeconds": 67
+  },
+  {
+    "videoId": "9dYkHOQQ2xc",
+    "title": "La Flèche Wallonne & Flèche Wallonne Femmes 2026 - Teaser",
+    "durationSeconds": 67
+  },
+  {
+    "videoId": "Nk1d4IMISns",
+    "title": "Paris-Roubaix Femmes Hauts-De-France 2026 : Le parcours",
+    "durationSeconds": 67
+  },
+  {
+    "videoId": "wHJyWHpD2YU",
+    "title": "Paris-Roubaix Hauts-De-France 2026 : Le parcours",
+    "durationSeconds": 98
+  },
+  {
+    "videoId": "YqvgjhpttY4",
+    "title": "Teaser Paris-Roubaix 2026",
+    "durationSeconds": 64
+  },
+  {
+    "videoId": "_2czTXMrw-Y",
+    "title": "🏅 Throwback #TDF2025, Stage 12, Pogacar taking his revenge at Hautacam! 👋Continental Tires",
+    "durationSeconds": 107
+  },
+  {
+    "videoId": "XZiOwp3y2Dk",
+    "title": "🏅 Throwback #TDF2025, Stage 11, Jonas Abrahamsen's ultimate comeback victory! 👋Continental Tires",
+    "durationSeconds": 104
+  },
+  {
+    "videoId": "YRWMjEorSfY",
+    "title": "🏅 Throwback #TDF2025, Stage 4, Pogacar's 100th pro victory! 👋 @continentaltire",
+    "durationSeconds": 108
+  },
+  {
+    "videoId": "UQBkInhWwq4",
+    "title": "Why Tour de France Teams Use 4 Different Tires",
+    "durationSeconds": 155
+  },
+  {
+    "videoId": "qp815klwhBc",
+    "title": "🏅 Throwback #TDF2025, Stage 19, Arensman conquers the giants 👋Continental Tires",
+    "durationSeconds": 102
+  },
+  {
+    "videoId": "LLiY1GV2m-E",
+    "title": "💛 Web-série Femmes du Tour, présentée par CB 💛",
+    "durationSeconds": 163
+  },
+  {
+    "videoId": "CTfGzfPFVQ0",
+    "title": "🏅 Throwback #TDF2025, Stage 15, Wellens faster than the breakaway👋Continental Tires",
+    "durationSeconds": 109
+  },
+  {
+    "videoId": "X6UxP0rVAvA",
+    "title": "Revivez l'étape du #maillotjaune #tourauvergnerhonealpes # #cycling #tdf2026 #yellow #yellowjersey",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "GiosnR1YFvA",
+    "title": "💛 Web-série Femmes du Tour, présentée par CB 💛",
+    "durationSeconds": 153
+  },
+  {
+    "videoId": "iY2Nr6AMF74",
+    "title": "Alex Baudin reste leader du #tourauvergnerhonealpes #maillotjaune #cycling #race",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "0kttuqUUaLg",
+    "title": "On the Tour, every single second counts! #cycling #watch #tissot #tdf2026 #timetrial",
+    "durationSeconds": 62
+  },
+  {
+    "videoId": "GnpPrVnezBo",
+    "title": "Pro riders giving you some tips on how building a team on the Fantasy by Tissot!",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "UJyPBYsKiyo",
+    "title": "Tour de France 2026 - @VELUXGroup behind every rider",
+    "durationSeconds": 106
+  },
+  {
+    "videoId": "5YniXqpJ_jQ",
+    "title": "Teams presentation presented by Tissot - Tour de France 2026",
+    "durationSeconds": 5416
+  },
+  {
+    "videoId": "5R5lRO237pw",
+    "title": "💛 Web-série Femmes du Tour, présentée par CB 💛",
+    "durationSeconds": 171
+  },
+  {
+    "videoId": "Q8E_LxoEZ1k",
+    "title": "#TDF2026 - Official Teaser",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "uk1lqCWEHXU",
+    "title": "💛 Web-série Femmes du Tour, présentée par CB 💛",
+    "durationSeconds": 178
+  },
+  {
     "videoId": "Ce8Q92sjM9M",
-    "durationSeconds": 85,
-    "title": "Velux - Chasing Daylight - Tour de France Femmes avec Zwift 2026"
+    "title": "Velux - Chasing Daylight - Tour de France Femmes avec Zwift 2026",
+    "durationSeconds": 85
   },
   {
     "videoId": "UQ_3PBePy7U",
-    "durationSeconds": 183,
-    "title": "💛 Web-série Femmes du Tour, présentée par CB Pauline Ferrand-Prévot 💛"
+    "title": "💛 Web-série Femmes du Tour, présentée par CB Pauline Ferrand-Prévot 💛",
+    "durationSeconds": 183
   },
   {
     "videoId": "s2seau3R07Y",
-    "durationSeconds": 175,
-    "title": "💛 Web-série Femmes du Tour, présentée par CB 💛"
+    "title": "💛 Web-série Femmes du Tour, présentée par CB 💛",
+    "durationSeconds": 175
   },
   {
     "videoId": "id8dAwLSWIU",
-    "durationSeconds": 541,
-    "title": "Tour de France 2026 - Étape 15 Résumé Long"
+    "title": "Tour de France 2026 - Étape 15 Résumé Long",
+    "durationSeconds": 541
   },
   {
     "videoId": "JfJZL6dDXOM",
-    "durationSeconds": 154,
-    "title": "💛 Web-série Femmes du Tour, présentée par CB 💛"
+    "title": "💛 Web-série Femmes du Tour, présentée par CB 💛",
+    "durationSeconds": 154
   },
   {
     "videoId": "HhVBjsVlaNU",
-    "durationSeconds": 191,
-    "title": "💛 Web-série Femmes du Tour Kim Le Court, présentée par CB 💛"
+    "title": "💛 Web-série Femmes du Tour Kim Le Court, présentée par CB 💛",
+    "durationSeconds": 191
   }
 ]

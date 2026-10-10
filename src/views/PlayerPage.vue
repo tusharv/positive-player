@@ -3,6 +3,7 @@ import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { storeToRefs } from 'pinia'
 import { useRoute, useRouter } from 'vue-router'
 import { channelByNumber, formatChannelNumber } from '../data/channels'
+import ProgrammeInfo from '../components/ProgrammeInfo.vue'
 import ChannelShare from '../components/ChannelShare.vue'
 import { usePlayerActivity } from '../composables/usePlayerActivity'
 import { usePlayerFullscreen } from '../composables/usePlayerFullscreen'
@@ -56,7 +57,10 @@ const fullscreen = usePlayerFullscreen(page)
 const guideOpen = ref(false)
 const pairingOpen = ref(false)
 const shareOpen = ref(false)
-const pinned = computed(() => guideOpen.value || pairingOpen.value || shareOpen.value)
+const infoOpen = ref(false)
+const pinned = computed(
+  () => guideOpen.value || pairingOpen.value || shareOpen.value || infoOpen.value,
+)
 const { poweredOn } = storeToRefs(tv)
 const { visible: hudVisible, reveal } = usePlayerActivity(poweredOn, pinned)
 let lastControl: HTMLElement | null = null
@@ -115,6 +119,7 @@ watch(
     if (!on) {
       guideOpen.value = false
       shareOpen.value = false
+      infoOpen.value = false
     }
     if (on) {
       await nextTick()
@@ -188,6 +193,7 @@ function onKey(event: KeyboardEvent) {
     ']': '[aria-label="Next channel"]',
     c: '.guide-launch',
     s: '.share-launch',
+    i: '.info-launch',
     f: '[data-hud-action="fullscreen"]',
     r: '.remote-launch',
   }
@@ -363,6 +369,14 @@ onBeforeUnmount(() => {
               <WatchIcon :name="tv.volume.muted ? 'mute' : 'sound'" />
               <span>{{ tv.volume.muted ? 'Unmute' : 'Mute' }}</span>
             </button>
+            <ProgrammeInfo
+              aria-keyshortcuts="I"
+              data-shortcut="Programme information · I"
+              :programme="tv.currentProgramme"
+              :channel-number="tv.channelNumber"
+              :channel-label="tv.channelLabel"
+              @open-change="infoOpen = $event"
+            />
             <ChannelShare
               aria-keyshortcuts="S"
               data-shortcut="Share channel · S"
@@ -472,6 +486,7 @@ onBeforeUnmount(() => {
 }
 .control-row > button,
 .control-row :deep(.guide-launch),
+.control-row :deep(.info-launch),
 .control-row :deep(.share-launch),
 .control-row :deep(.remote-launch) {
   position: relative;
@@ -502,6 +517,7 @@ onBeforeUnmount(() => {
 }
 .control-row > button::after,
 .control-row :deep(.guide-launch)::after,
+.control-row :deep(.info-launch)::after,
 .control-row :deep(.share-launch)::after,
 .control-row :deep(.remote-launch)::after {
   content: '';
@@ -563,6 +579,7 @@ onBeforeUnmount(() => {
 }
 .control-row > button:hover,
 .control-row :deep(.guide-launch:hover),
+.control-row :deep(.info-launch:hover),
 .control-row :deep(.share-launch:hover),
 .control-row :deep(.remote-launch:hover) {
   color: #c6ffd1;
@@ -570,6 +587,7 @@ onBeforeUnmount(() => {
 }
 .control-row > button:active,
 .control-row :deep(.guide-launch:active),
+.control-row :deep(.info-launch:active),
 .control-row :deep(.share-launch:active),
 .control-row :deep(.remote-launch:active) {
   transform: translateY(2px);
@@ -594,6 +612,7 @@ onBeforeUnmount(() => {
   }
   .control-row > button,
   .control-row :deep(.guide-launch),
+  .control-row :deep(.info-launch),
   .control-row :deep(.share-launch),
   .control-row :deep(.remote-launch) {
     min-height: 50px;

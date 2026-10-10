@@ -1,252 +1,807 @@
 [
   {
-    "videoId": "jZOyabluStQ",
-    "durationSeconds": 1563,
-    "title": "1066-1707: The Complete Story Of The Formation Of The United Kingdom"
+    "videoId": "NdbTaaRW6OM",
+    "title": "The 200-Year Rocky Mountain Curse: Why Has No One Found This $33 Million Fortune?",
+    "durationSeconds": 3004
   },
   {
-    "videoId": "iyeyBFwSMQ4",
-    "durationSeconds": 1576,
-    "title": "The Complete Story Of The Spanish Civil War And Franco’s Rise"
+    "videoId": "0fmFlJv9cLI",
+    "title": "Hiroshima A-Bomb: Minute-By-Minute Account Of The Event That Ended WW2",
+    "durationSeconds": 2733
+  },
+  {
+    "videoId": "6lCMbkYiwyY",
+    "title": "The Hunt For The Lost City Of Troy: A 3000-Year-Old Treasure Map And Missing Millions",
+    "durationSeconds": 2939
+  },
+  {
+    "videoId": "e2BKVa-DDBw",
+    "title": "The Hunt For Maya: How Two Explorers Unearthed An Ancient Civilization",
+    "durationSeconds": 3010
+  },
+  {
+    "videoId": "VyFToWgBXrQ",
+    "title": "Heisenberg vs Oppenheimer: The WW2 Race For The Atomic Bomb",
+    "durationSeconds": 2635
+  },
+  {
+    "videoId": "MF4RLxR9V2w",
+    "title": "Investigating The 10 Greatest Mysteries Of The Ancient World",
+    "durationSeconds": 3878
+  },
+  {
+    "videoId": "5RMVXjS5UF8",
+    "title": "The Final Hours Of Anne Boleyn: The Most Shocking Execution In English History",
+    "durationSeconds": 2698
+  },
+  {
+    "videoId": "jFxqxz5N_t4",
+    "title": "Everyday Life In Britain During The Second World War",
+    "durationSeconds": 9367
+  },
+  {
+    "videoId": "0A2H2dJ0d_c",
+    "title": "Beale Ciphers: The 200-Year-Old Unsolved Code Hiding A Buried Fortune",
+    "durationSeconds": 3006
+  },
+  {
+    "videoId": "wgT1x6RD9xI",
+    "title": "The Dark Secrets Of The Tudor Court: The Fall Of Anne Boleyn",
+    "durationSeconds": 2679
+  },
+  {
+    "videoId": "OjsM_lVfH00",
+    "title": "King Arthur & Camelot: The Truth Behind The Hunt For A Mythical City",
+    "durationSeconds": 2998
+  },
+  {
+    "videoId": "ryAW2eiOZK4",
+    "title": "Lost City In The Clouds: The Hunt For Machu Picchu",
+    "durationSeconds": 3015
+  },
+  {
+    "videoId": "u3exq7Qh4ZQ",
+    "title": "Cluny Abbey: The Lost Holy City Of The Middle Ages",
+    "durationSeconds": 3137
+  },
+  {
+    "videoId": "-vGsROeKwDY",
+    "title": "The Arrest Of Anne Boleyn: Was She Really Guilty Of Treason, Adultery & Incest?",
+    "durationSeconds": 2663
+  },
+  {
+    "videoId": "Tw2RSER2Z68",
+    "title": "Rare Archival Footage From Nazi Germany",
+    "durationSeconds": 2938
+  },
+  {
+    "videoId": "xOudqZQCpBo",
+    "title": "Veil Of Veronica: The Search For The True Face Of God",
+    "durationSeconds": 3013
+  },
+  {
+    "videoId": "aZTlJCdFNJs",
+    "title": "Rare Uncensored Footage From The Battle Of Okinawa",
+    "durationSeconds": 3147
+  },
+  {
+    "videoId": "-RGw00Nuxvs",
+    "title": "The Da Vinci Code Hoax: What Really Happened At Renne-Le-Château?",
+    "durationSeconds": 2999
+  },
+  {
+    "videoId": "8sSUkWRXjKk",
+    "title": "Was This Sphinx Carved Out By A Lost Ancient Civilization?",
+    "durationSeconds": 3199
+  },
+  {
+    "videoId": "X1hTT7fP_YA",
+    "title": "Archeologists Uncover A Mysterious Human Burial Site Near Stonehenge",
+    "durationSeconds": 9178
+  },
+  {
+    "videoId": "omy0F2uEhLk",
+    "title": "Does This 400-Year-Old Map Lead To A Billion Dollar Treasure?",
+    "durationSeconds": 2995
+  },
+  {
+    "videoId": "8lkrBzQMiA8",
+    "title": "The Final Gruesome Days Of Louis XIV's Reign, As It Happened",
+    "durationSeconds": 3124
+  },
+  {
+    "videoId": "vhmC8ZPLJ9A",
+    "title": "Tokugawa's Treasure: The 100-Year-Hunt For The Last Shogun's Lost Gold",
+    "durationSeconds": 2940
+  },
+  {
+    "videoId": "TnmsJPFPlGQ",
+    "title": "How Did This 3,000-Year-Old Dominating Civilization Suddenly Collapse?",
+    "durationSeconds": 2823
+  },
+  {
+    "videoId": "ftV45FCyWUw",
+    "title": "The Man Who Tried To Warn America About 9/11",
+    "durationSeconds": 3144
+  },
+  {
+    "videoId": "f9A5XLr_Y_s",
+    "title": "An Adventurer's 17-Year-Long Hunt For Pirate Treasure On Cocos Island",
+    "durationSeconds": 2991
+  },
+  {
+    "videoId": "2Ubp3E4PZR4",
+    "title": "The Day World War 2 Ended: Rare Footage Aboard USS Missouri",
+    "durationSeconds": 3291
+  },
+  {
+    "videoId": "cjR5Rx36_kc",
+    "title": "The Hunt For Hitler's Missing Millions",
+    "durationSeconds": 2685
+  },
+  {
+    "videoId": "v02CcpgwsXM",
+    "title": "The Deranged Nazi Doctors Who Experimented On Prisoners",
+    "durationSeconds": 9534
+  },
+  {
+    "videoId": "cETXUcYJeWk",
+    "title": "King Henry VIII: The Ruthless Reign Of The Tudor Tyrant",
+    "durationSeconds": 4627
+  },
+  {
+    "videoId": "w2XyFkR08qw",
+    "title": "Napoleon vs Metternich: The Diplomatic Duel That Decided The Fate Of Europe",
+    "durationSeconds": 5401
+  },
+  {
+    "videoId": "UZkxqGkfSyk",
+    "title": "Inside The Russia-North Korea Axis: A History Of Two Tyrannies",
+    "durationSeconds": 5280
+  },
+  {
+    "videoId": "Oe-IOJzveLs",
+    "title": "Inside The MH370 Investigation: Re-Examining The Unsolved Evidence",
+    "durationSeconds": 6274
+  },
+  {
+    "videoId": "IfRcK26PBYo",
+    "title": "1971: Bangladesh Liberation War And The Bloody Road To Independence",
+    "durationSeconds": 2936
+  },
+  {
+    "videoId": "TxDhQYjVENw",
+    "title": "Uncensored Footage From The Final Days Inside WW2 Germany",
+    "durationSeconds": 2748
+  },
+  {
+    "videoId": "H8m0GQ2-iUk",
+    "title": "Inside The Mind Of Putin: How Did It Get To This?",
+    "durationSeconds": 6249
+  },
+  {
+    "videoId": "-Mgj90hbMzY",
+    "title": "Burma Campaign: The Forgotten Struggle Of WW2",
+    "durationSeconds": 3543
+  },
+  {
+    "videoId": "W_B2DtRAWao",
+    "title": "1989: The Collapse Of The Iron Curtain",
+    "durationSeconds": 5705
+  },
+  {
+    "videoId": "UaYyva_wquA",
+    "title": "Uncensored Footage From The Attack On Pearl Harbor",
+    "durationSeconds": 2867
+  },
+  {
+    "videoId": "EbgYLXVnV8E",
+    "title": "How Warsaw Rebuilt After WW2 Annihilation",
+    "durationSeconds": 3009
+  },
+  {
+    "videoId": "fS-yMD2GwRU",
+    "title": "The Dark Legacy Of The Horrific Nazi Medical Experiments",
+    "durationSeconds": 2735
+  },
+  {
+    "videoId": "T-6eVxlQY4s",
+    "title": "The Complete Story Of The Steve Jobs And Bill Gates Rivalry",
+    "durationSeconds": 2642
+  },
+  {
+    "videoId": "Mtao4Y9_dyg",
+    "title": "1809-12: How The Napoleonic Machine Began To Fail",
+    "durationSeconds": 2922
+  },
+  {
+    "videoId": "gZVX_8Vl8Ac",
+    "title": "Does This Newly Declassified Map Lead To Nazi Gold?",
+    "durationSeconds": 2504
+  },
+  {
+    "videoId": "waHp8Dqwse4",
+    "title": "Churchill’s Secret War Rooms: Where The Strategy For Victory Was Built",
+    "durationSeconds": 3428
+  },
+  {
+    "videoId": "tgm_I6yYza4",
+    "title": "Von Braun: Pioneer Of Space, Architect Of War",
+    "durationSeconds": 2635
+  },
+  {
+    "videoId": "Q3IggScYHQk",
+    "title": "Diaries From Inside The Imperial Ottoman Harem",
+    "durationSeconds": 2524
+  },
+  {
+    "videoId": "5oBZahcIGx4",
+    "title": "How They Did It: 3 Of History's Most Influential Political Assassinations",
+    "durationSeconds": 3001
+  },
+  {
+    "videoId": "yUBneQ2jbP4",
+    "title": "The Peninsular War, 1808-11: Wellington's Rise And The Defense Of Portugal",
+    "durationSeconds": 2906
+  },
+  {
+    "videoId": "qX4D6mLqN_k",
+    "title": "Firsthand Survivor Accounts From The D-Day Landings",
+    "durationSeconds": 3184
+  },
+  {
+    "videoId": "l8zPQGonUek",
+    "title": "Archeologists Investigate The British Fort Built To Defend Against Napoleon",
+    "durationSeconds": 2872
+  },
+  {
+    "videoId": "24kwmJGL7aA",
+    "title": "1807-09: How The Peninsular War Began",
+    "durationSeconds": 2971
+  },
+  {
+    "videoId": "jZFT1yCwQVc",
+    "title": "Archeologists Uncover Prisoner Remains At A Victorian Jail",
+    "durationSeconds": 2931
+  },
+  {
+    "videoId": "_NO77y_mKG8",
+    "title": "Fidel Castro: A Psychological Portrait Of A Cuban Revolutionary",
+    "durationSeconds": 2638
+  },
+  {
+    "videoId": "M46lTdpjjyU",
+    "title": "The First Murderer To Be Caught Using A Police Sketch",
+    "durationSeconds": 2637
+  },
+  {
+    "videoId": "qWUv2pzQiTc",
+    "title": "Golda Meir: The Controversial ‘Iron Lady’ Of Israel",
+    "durationSeconds": 4614
+  },
+  {
+    "videoId": "RKAGUxWUbjg",
+    "title": "The First Ever Railway Murder That Terrified Victorian Britain",
+    "durationSeconds": 2634
+  },
+  {
+    "videoId": "5gr4gdZ07Ws",
+    "title": "The Life Of Saddam Hussein: The History Of Iraq’s Most Notorious Dictator",
+    "durationSeconds": 3904
+  },
+  {
+    "videoId": "Uc6JwprT56Q",
+    "title": "The Shocking Unsolved Case Of The Aristocrat Murdered On The London Underground",
+    "durationSeconds": 2645
+  },
+  {
+    "videoId": "dUhb2apUxM4",
+    "title": "Hitler’s Occult Obsession: The Biggest Mystery Of The Third Reich?",
+    "durationSeconds": 4110
+  },
+  {
+    "videoId": "NWb5KRMI26M",
+    "title": "The Complete History Of The Atomic Bomb: Conception, War And Legacy",
+    "durationSeconds": 2699
+  },
+  {
+    "videoId": "jYlS0IknTsQ",
+    "title": "Archeologists Uncover New Evidence Of Pompeii's Last Hours",
+    "durationSeconds": 2886
+  },
+  {
+    "videoId": "DUrn9OgBJVs",
+    "title": "Archaeologists Hunt For Sunken Treasure Within WW2 Shipwrecks",
+    "durationSeconds": 3124
+  },
+  {
+    "videoId": "qvo28NUtwM0",
+    "title": "The Endurance: Shackleton’s Legendary Antarctic Expedition",
+    "durationSeconds": 5824
+  },
+  {
+    "videoId": "ji-CZBr4Mvw",
+    "title": "Inside The Fight To Save The World's Most Important Manuscripts",
+    "durationSeconds": 3103
+  },
+  {
+    "videoId": "dH_LNTgfv1s",
+    "title": "Mummifying Alan: Egypt's Last Secret",
+    "durationSeconds": 2825
+  },
+  {
+    "videoId": "8-E4cAjlpu8",
+    "title": "US-Venezuela Divide: How Chávez’s Ideology Redefined Venezuela",
+    "durationSeconds": 3394
+  },
+  {
+    "videoId": "IYLzLWjK3Vo",
+    "title": "Joachim Peiper: The Murderous Nazi War Criminal Who Never Saw Justice",
+    "durationSeconds": 2982
+  },
+  {
+    "videoId": "KVppSMTac80",
+    "title": "Why Did This 1895 Railway Murder Shock Victorian Britain?",
+    "durationSeconds": 2645
+  },
+  {
+    "videoId": "rOxCP2gEAcw",
+    "title": "Sink The Bismarck: Inside The Final Hours Of Hitler’s Greatest Battleship",
+    "durationSeconds": 2873
+  },
+  {
+    "videoId": "s9OE6cHdggg",
+    "title": "Hunt The Bismarck: The Royal Navy's Operation To Destroy Hitler's Battleship",
+    "durationSeconds": 2985
+  },
+  {
+    "videoId": "s8jj5Plo08U",
+    "title": "The Hunt For The Ark Of The Covenant: Is This Biblical Relic Hiding In America?",
+    "durationSeconds": 2599
+  },
+  {
+    "videoId": "CN99VeNzo84",
+    "title": "Hunting The Nazi Rocket Scientists: 20,000 Lives For One Nazi Weapon",
+    "durationSeconds": 3093
+  },
+  {
+    "videoId": "mUWr2qXHKro",
+    "title": "The Complete 5,000-Year History Of The World's Religions In 47 Minutes",
+    "durationSeconds": 2866
+  },
+  {
+    "videoId": "1gGwJexLfgk",
+    "title": "Archeologists Investigate Teotihuacán: The Ancient Birthplace Of The Gods",
+    "durationSeconds": 3430
+  },
+  {
+    "videoId": "G37S8qg1TFE",
+    "title": "Erich Isselhorst: The Hunt For The Nazi Doctor Who Tortured Allied Spies",
+    "durationSeconds": 2965
+  },
+  {
+    "videoId": "NRhFYpqcIJ8",
+    "title": "The Real Saint Patrick: Fact vs Fiction",
+    "durationSeconds": 2859
+  },
+  {
+    "videoId": "c0V_T9lH07w",
+    "title": "Vincenzo Peruggia: The Louvre Employee Who Stole The Mona Lisa",
+    "durationSeconds": 5156
+  },
+  {
+    "videoId": "syTtGht08lI",
+    "title": "Archeologists Investigate Tikal: The Crown Jewel Of The Maya Civilization",
+    "durationSeconds": 2977
+  },
+  {
+    "videoId": "nmePdbyTqrA",
+    "title": "Does This Artifact Change What We Know About Jesus' Crucifixion?",
+    "durationSeconds": 2592
+  },
+  {
+    "videoId": "yAVBkLM8Jz4",
+    "title": "The City That Won WW2: Chicago’s Hidden War Machine",
+    "durationSeconds": 3325
+  },
+  {
+    "videoId": "fKYNpkWat5k",
+    "title": "The Gospels: Can We Trust Ancient Witnesses?",
+    "durationSeconds": 2851
+  },
+  {
+    "videoId": "UmEF-RkB13g",
+    "title": "Inside Moscow’s Secret Vaults: The Truth Behind Russia's Most Haunting Artifacts",
+    "durationSeconds": 2597
+  },
+  {
+    "videoId": "37B5vB_WkF0",
+    "title": "Can These Bizarre Stones Solve The Lost Roanoke Colony Mystery?",
+    "durationSeconds": 2566
+  },
+  {
+    "videoId": "0aVspfOUpCw",
+    "title": "Before Nuremberg: Inside The Secret Prison That Interrogated Top Nazi Leaders",
+    "durationSeconds": 5405
+  },
+  {
+    "videoId": "R-N6n-GuLrQ",
+    "title": "Exploring The Secrets Of The Smithsonian Archives",
+    "durationSeconds": 2585
+  },
+  {
+    "videoId": "jKU9IbEkBhY",
+    "title": "Christian Martyrs: 2,000 Years Of Faith, Persecution And Sacrifice",
+    "durationSeconds": 2849
+  },
+  {
+    "videoId": "z7xUD9_s1WI",
+    "title": "Could These Artifacts Rewrite America's Pre-Columbus History?",
+    "durationSeconds": 2587
+  },
+  {
+    "videoId": "yZ98vIVpKrA",
+    "title": "Archeologists Investigate Chichen Itza: The Great Maya City Of Worship And Sacrifice",
+    "durationSeconds": 3020
+  },
+  {
+    "videoId": "On8gin8dAxw",
+    "title": "Archeologists Uncover The World's First Viaduct",
+    "durationSeconds": 2969
+  },
+  {
+    "videoId": "yOjZaibHx7Y",
+    "title": "Empire And Exile: The Women Who Witnessed The Fall Of The Sultan",
+    "durationSeconds": 2690
+  },
+  {
+    "videoId": "5b57Pswvacs",
+    "title": "Clandestine Killers: The Elusive Assassins That Changed The Course Of History",
+    "durationSeconds": 3003
+  },
+  {
+    "videoId": "4i5_ShFxkg0",
+    "title": "1812-13: The Brutal Final Years Of The Peninsular War",
+    "durationSeconds": 2923
+  },
+  {
+    "videoId": "HtQAG2Vh1oI",
+    "title": "We Went Undercover Inside North Korea",
+    "durationSeconds": 3456
+  },
+  {
+    "videoId": "yVUXuRqExGk",
+    "title": "Horrific Human Experiments Of The Holocaust",
+    "durationSeconds": 2978
+  },
+  {
+    "videoId": "IkfAjuo-Yt4",
+    "title": "Archeologists Excavate The WW2 Crash Site Of A Rare Mk1 Spitfire",
+    "durationSeconds": 2970
+  },
+  {
+    "videoId": "YmKKqsYFDP4",
+    "title": "Reinhard Heydrich: The Brutal Assassination Of The 'Hangman Of Czechoslovakia'",
+    "durationSeconds": 2954
+  },
+  {
+    "videoId": "C0oPGcM8kYQ",
+    "title": "Minute-By-Minute: The Assassination Of John F. Kennedy",
+    "durationSeconds": 3428
+  },
+  {
+    "videoId": "GuOxkqy3Vl8",
+    "title": "What Is The Mysterious Link Between Ohio And Prehistoric Scotland?",
+    "durationSeconds": 2558
+  },
+  {
+    "videoId": "uHJz2FFJ9r4",
+    "title": "Did The Tiny Natives Of Ancient Hawaii Actually Exist?",
+    "durationSeconds": 2598
+  },
+  {
+    "videoId": "f8tF7QYkAVw",
+    "title": "Why Did Nasa Secretly Send 6 Men To The Bottom Of The Ocean In 1969?",
+    "durationSeconds": 2807
+  },
+  {
+    "videoId": "TQK7q_o37b4",
+    "title": "The Assassination Of President Lincoln: The Full Story Of The KGC Conspiracy",
+    "durationSeconds": 2590
+  },
+  {
+    "videoId": "3LKfLe9W9Z8",
+    "title": "What Happened To The Legendary Missing Fortune Of Captain Kidd?",
+    "durationSeconds": 2496
+  },
+  {
+    "videoId": "bGf-QC1C6bY",
+    "title": "Archeologists Investigate New Evidence About The Druids",
+    "durationSeconds": 3148
+  },
+  {
+    "videoId": "TDCX0Aing3w",
+    "title": "Archeologists Investigate The Knights Templar In America",
+    "durationSeconds": 2513
+  },
+  {
+    "videoId": "-X9FRpsXz2E",
+    "title": "Mossad's 15-Year Hunt For Adolf Eichmann: Hitler's Holocaust Architect",
+    "durationSeconds": 3059
+  },
+  {
+    "videoId": "HXm0lhNC_qw",
+    "title": "Are There Aztec Pyramids At The Bottom Of This Wisconsin Lake?",
+    "durationSeconds": 2600
+  },
+  {
+    "videoId": "DvyiwDNcfPU",
+    "title": "Archeologists Investigate Inside The Lost Tombs Of Ancient Maya",
+    "durationSeconds": 5616
+  },
+  {
+    "videoId": "OBmE7q5veqo",
+    "title": "Is This Evidence That Chinese Explorers Reached America Before Columbus?",
+    "durationSeconds": 2534
+  },
+  {
+    "videoId": "k5A9IktXL5I",
+    "title": "Jewish Avengers: The Holocaust Survivors Who Sought Revenge Against The Nazis",
+    "durationSeconds": 3094
+  },
+  {
+    "videoId": "UYvJqS4POTI",
+    "title": "What Happened To The Treasure Of Little Big Horn?",
+    "durationSeconds": 2526
+  },
+  {
+    "videoId": "ejOxnrq6dUE",
+    "title": "How Did Josef Mengele Evade Capture For 34 Years?",
+    "durationSeconds": 2980
+  },
+  {
+    "videoId": "8kw2vK3snQs",
+    "title": "Finding Vinland: Archeological Evidence Of Vikings Landing In The US",
+    "durationSeconds": 2600
+  },
+  {
+    "videoId": "tvTZW_ckBSY",
+    "title": "The Dark Secrets Behind The Metropolitan Museum Of Art's Most Famous Exhibits",
+    "durationSeconds": 2791
+  },
+  {
+    "videoId": "wNQ55O3awec",
+    "title": "Secrets Of The National Maritime Museum: The Dark Truth Behind Britain's Navy",
+    "durationSeconds": 2602
+  },
+  {
+    "videoId": "LWo9vnXOfXg",
+    "title": "Uncensored Footage From The My Lai Massacre: Vietnam War's Darkest Day",
+    "durationSeconds": 3746
+  },
+  {
+    "videoId": "AVX0q0lCHOA",
+    "title": "The Final Months Of WW2 | The End Of The War In Color",
+    "durationSeconds": 5210
+  },
+  {
+    "videoId": "J5PmvsViIEE",
+    "title": "Inside The Scotland Yard Files: Reopening The Ash Vale Murder Case",
+    "durationSeconds": 2610
+  },
+  {
+    "videoId": "-Br58yPz5B8",
+    "title": "Albert Speer: The ‘Good Nazi'?",
+    "durationSeconds": 3013
+  },
+  {
+    "videoId": "81byEUVt-8Y",
+    "title": "Secrets Of The Natural History Museum: Britain's Dark And Disturbing History",
+    "durationSeconds": 2821
+  },
+  {
+    "videoId": "gHcazXKo-7Y",
+    "title": "1944-45: The End Of The War In Color",
+    "durationSeconds": 7994
+  },
+  {
+    "videoId": "J_0DOr3Rr5g",
+    "title": "Franz Stangl: The Nazi Commander Hunted By A Holocaust Survivor",
+    "durationSeconds": 3060
+  },
+  {
+    "videoId": "Xf8wRgoQVaA",
+    "title": "The 1910 Murder Investigation That Rocked Edwardian Britain",
+    "durationSeconds": 2648
+  },
+  {
+    "videoId": "8yFVVIpYMD8",
+    "title": "Bismarck: Inside The Operation To Destroy Hitler's Greatest Battleship",
+    "durationSeconds": 5858
+  },
+  {
+    "videoId": "SUmldS2xFe4",
+    "title": "Why Did Mesoamerica's Most Powerful Empires Suddenly Vanish?",
+    "durationSeconds": 9425
+  },
+  {
+    "videoId": "9GOJVBQ1jUs",
+    "title": "The Complex Legacy Of Alexander The Great: Conquering The Known World In 12 Years",
+    "durationSeconds": 3028
+  },
+  {
+    "videoId": "jylac0_Arr4",
+    "title": "Inside Blenheim Palace & Windsor Castle: Britain's Best Preserved Palaces",
+    "durationSeconds": 2347
+  },
+  {
+    "videoId": "Ntn29bbosEk",
+    "title": "Libby Prison Escape: The Most Audacious Prison Break Of The American Civil War",
+    "durationSeconds": 1923
+  },
+  {
+    "videoId": "4dues5UEPic",
+    "title": "250 Years Later: Why Everything You Learned About the American Revolution is Wrong",
+    "durationSeconds": 7921
+  },
+  {
+    "videoId": "JMxd1Z31eno",
+    "title": "1776: The Uncensored Story of The American Revolution",
+    "durationSeconds": 7922
+  },
+  {
+    "videoId": "X6Qh1JpQafM",
+    "title": "The Tinderbox: Understanding The Israeli-Palestinian Conflict",
+    "durationSeconds": 5465
+  },
+  {
+    "videoId": "Tp_sbrl9wzA",
+    "title": "Archeologists Recover A Sunken WW2 Bomber From The English Channel",
+    "durationSeconds": 10637
+  },
+  {
+    "videoId": "8BUlJzWLrao",
+    "title": "Archeologists Examine The Mystery Of 3 Egyptian Mummies",
+    "durationSeconds": 8540
+  },
+  {
+    "videoId": "bgYQ6KuRWfw",
+    "title": "Robert Scheer: The Muckraking Journalist Who Exposed The US Government For 60 Years",
+    "durationSeconds": 5360
+  },
+  {
+    "videoId": "GOK-LHh7lX0",
+    "title": "From WW1 Biplanes To Supersonic Jets: The Complete Story Of British Air Power",
+    "durationSeconds": 7634
+  },
+  {
+    "videoId": "ZJAZtmOwC7A",
+    "title": "How Britain’s Legendary Airfields Changed The World Forever",
+    "durationSeconds": 7821
+  },
+  {
+    "videoId": "-5AH816R3oY",
+    "title": "Forensic Geologist Investigates America's Most Enduring Mysteries",
+    "durationSeconds": 7779
+  },
+  {
+    "videoId": "QOaECFL4-7M",
+    "title": "The Explosive Sequence Of Events That Triggered WW2",
+    "durationSeconds": 3001
+  },
+  {
+    "videoId": "U4Gk6qP4qOM",
+    "title": "Exploring The Forbidden Ruins Of Hitler’s Eastern Headquarters",
+    "durationSeconds": 3689
+  },
+  {
+    "videoId": "s6UBugpwFxE",
+    "title": "Archeologists Unearth A Crashed WW2 Bomber",
+    "durationSeconds": 2922
   },
   {
     "videoId": "yjKDNED2crw",
-    "durationSeconds": 8793,
-    "title": "1942: The Complete Story Of The Battle Of Stalingrad"
+    "title": "1942: The Complete Story Of The Battle Of Stalingrad",
+    "durationSeconds": 8793
   },
   {
     "videoId": "0-m0r3Ljagk",
-    "durationSeconds": 2924,
-    "title": "Archeologists Investigate King George III’s Lost White House Palace"
-  },
-  {
-    "videoId": "S43MVy6_zx4",
-    "durationSeconds": 1561,
-    "title": "The Tragic Assassination Of John Lennon: The Complete Story"
-  },
-  {
-    "videoId": "Ti69P0K3IMo",
-    "durationSeconds": 1576,
-    "title": "12,000 Years In 25 Minutes: The Complete Story Of Prehistoric Britain"
-  },
-  {
-    "videoId": "cm7MbYMOrOs",
-    "durationSeconds": 1577,
-    "title": "The Dark Truth Behind The Spanish Conquest Of America"
+    "title": "Archeologists Investigate King George III’s Lost White House Palace",
+    "durationSeconds": 2924
   },
   {
     "videoId": "AuEwEHuXJNs",
-    "durationSeconds": 14041,
-    "title": "The Battle Of The Somme: The Bloodiest Day In British Military History"
+    "title": "The Battle Of The Somme: The Bloodiest Day In British Military History",
+    "durationSeconds": 14041
   },
   {
     "videoId": "eBw4m__HbCo",
-    "durationSeconds": 2929,
-    "title": "Unearthed: The Secrets Of A 300-Year-Old Weapons Forge"
-  },
-  {
-    "videoId": "JQc1eMFDHq8",
-    "durationSeconds": 1561,
-    "title": "Inside The CIA Files: The Hunt And Execution Of Che Guevara"
-  },
-  {
-    "videoId": "3x4MYAafvCg",
-    "durationSeconds": 1566,
-    "title": "The Bloody History Of The Franco-German Border: From Louis XIV To WW2"
-  },
-  {
-    "videoId": "IFVGLh-FzUU",
-    "durationSeconds": 1572,
-    "title": "The Reconquista: The Complete Story Of Medieval Spain’s 800-Year War"
+    "title": "Unearthed: The Secrets Of A 300-Year-Old Weapons Forge",
+    "durationSeconds": 2929
   },
   {
     "videoId": "5dR3UEXLXrg",
-    "durationSeconds": 11995,
-    "title": "1942-1945: Uncensored Footage From The Final Years Of WW2"
+    "title": "1942-1945: Uncensored Footage From The Final Years Of WW2",
+    "durationSeconds": 11995
   },
   {
     "videoId": "bvNHV2_t2FE",
-    "durationSeconds": 2584,
-    "title": "Lizzie Borden: Inside America’s Most Notorious Murder Case"
+    "title": "Lizzie Borden: Inside America’s Most Notorious Murder Case",
+    "durationSeconds": 2584
   },
   {
     "videoId": "Q2A88Het6kQ",
-    "durationSeconds": 3408,
-    "title": "Lizzie Borden: Cold-blooded Killer or Victim of Victorian Gossip?"
-  },
-  {
-    "videoId": "5HbI2NbXDHs",
-    "durationSeconds": 1561,
-    "title": "Minute-By-Minute: Inside The Shocking Assassination Attempt Of Princess Anne"
-  },
-  {
-    "videoId": "dqUG8MPQdEQ",
-    "durationSeconds": 2911,
-    "title": "1949-89: The Complete Story Of The Secret Cold War Ocean Race"
-  },
-  {
-    "videoId": "a93gBlnKi4I",
-    "durationSeconds": 2937,
-    "title": "From D-Day To The Atomic Age: The Collapse Of The Axis Powers"
+    "title": "Lizzie Borden: Cold-blooded Killer or Victim of Victorian Gossip?",
+    "durationSeconds": 3408
   },
   {
     "videoId": "8kvqQIdHS7g",
-    "durationSeconds": 11980,
-    "title": "1939-1942: The Allies' Perilous Situation In The First Years Of WW2"
+    "title": "1939-1942: The Allies' Perilous Situation In The First Years Of WW2",
+    "durationSeconds": 11980
   },
   {
     "videoId": "5Za31pEeM6Q",
-    "durationSeconds": 3339,
-    "title": "Minute-By-Minute: 9/11 As It Happened"
-  },
-  {
-    "videoId": "t2l_qbu4JMg",
-    "durationSeconds": 2997,
-    "title": "Uncensored Footage From 1942: The Deadliest Year Of WW2"
+    "title": "Minute-By-Minute: 9/11 As It Happened",
+    "durationSeconds": 3339
   },
   {
     "videoId": "XUziFUEElDQ",
-    "durationSeconds": 3933,
-    "title": "Inside 20 Infamous Events That Changed World History Forever | September 11 Documentary"
-  },
-  {
-    "videoId": "jiYxQ657YZw",
-    "durationSeconds": 3246,
-    "title": "1944: The Bloodiest Year Of WW2"
+    "title": "Inside 20 Infamous Events That Changed World History Forever | September 11 Documentary",
+    "durationSeconds": 3933
   },
   {
     "videoId": "i2GJEr77O_8",
-    "durationSeconds": 5179,
-    "title": "Rare Footage From The 20th Century's Most Critical Turning Points"
+    "title": "Rare Footage From The 20th Century's Most Critical Turning Points",
+    "durationSeconds": 5179
   },
   {
     "videoId": "OvAZauMRhOw",
-    "durationSeconds": 3015,
-    "title": "San Bernardino Train Crash: What Caused This 100mph Runaway Train?"
-  },
-  {
-    "videoId": "omALVwIT0I8",
-    "durationSeconds": 5975,
-    "title": "A History Of Anti-Semitism: From WW2 To The Present Day"
-  },
-  {
-    "videoId": "x2ZwueHtnSs",
-    "durationSeconds": 2901,
-    "title": "What Were Hitler's Secret WW2 Super Weapons?"
+    "title": "San Bernardino Train Crash: What Caused This 100mph Runaway Train?",
+    "durationSeconds": 3015
   },
   {
     "videoId": "u6MWpQi-paU",
-    "durationSeconds": 5043,
-    "title": "Operation Moshtarak: The Uncensored Truth Of The War In Afghanistan"
+    "title": "Operation Moshtarak: The Uncensored Truth Of The War In Afghanistan",
+    "durationSeconds": 5043
   },
   {
     "videoId": "6pJdAU1PNDs",
-    "durationSeconds": 3907,
-    "title": "Rare Footage From History's Biggest Turning Points"
-  },
-  {
-    "videoId": "SaP2JEd1kDk",
-    "durationSeconds": 2995,
-    "title": "Archeologists Investigate Evidence Of The 6,000 Lost Vikings Of Greenland"
+    "title": "Rare Footage From History's Biggest Turning Points",
+    "durationSeconds": 3907
   },
   {
     "videoId": "J8XUCjwMPUY",
-    "durationSeconds": 2964,
-    "title": "Inside The Defining Minds Of The Enlightenment Era That Forged The Western World"
-  },
-  {
-    "videoId": "B1qzrMI4cjk",
-    "durationSeconds": 2911,
-    "title": "Inside The US Military’s Secret Cold War Sky Weapons"
+    "title": "Inside The Defining Minds Of The Enlightenment Era That Forged The Western World",
+    "durationSeconds": 2964
   },
   {
     "videoId": "Ta6Q29JFgfo",
-    "durationSeconds": 2854,
-    "title": "The Complete History Of Modern Philosophy: From Idealism To Existentialism"
-  },
-  {
-    "videoId": "KUdgv-kgyZw",
-    "durationSeconds": 3036,
-    "title": "The Untold Story Of WW2's First Smart Bomb"
+    "title": "The Complete History Of Modern Philosophy: From Idealism To Existentialism",
+    "durationSeconds": 2854
   },
   {
     "videoId": "gyQwMjhbiGI",
-    "durationSeconds": 2925,
-    "title": "Operation Show Of Force: The Complete Story Of The Raid In Tunis"
+    "title": "Operation Show Of Force: The Complete Story Of The Raid In Tunis",
+    "durationSeconds": 2925
   },
   {
     "videoId": "SxN3k2yngsc",
-    "durationSeconds": 2963,
-    "title": "The Complete History Of Ancient Philosophy: Presocratics To The Renaissance"
-  },
-  {
-    "videoId": "gAQUucTjWJU",
-    "durationSeconds": 2903,
-    "title": "The Bizarre Secret Weapons That Cracked Hitler’s Atlantic Wall"
+    "title": "The Complete History Of Ancient Philosophy: Presocratics To The Renaissance",
+    "durationSeconds": 2963
   },
   {
     "videoId": "vqooGLWpXBk",
-    "durationSeconds": 3131,
-    "title": "Inside The Mind Of Karl Marx: Rare Documents And Forgotten Writings"
-  },
-  {
-    "videoId": "E_2UntFwZLA",
-    "durationSeconds": 3143,
-    "title": "How Germany’s Legal System Became A Nazi Weapon"
-  },
-  {
-    "videoId": "m_XPZjz-ewo",
-    "durationSeconds": 2907,
-    "title": "Minute-By-Minute: Inside The Most Critical Moments Of Hiroshima"
-  },
-  {
-    "videoId": "qysWWkTNGhE",
-    "durationSeconds": 3575,
-    "title": "Human Trafficking In Georgian Britain: The Brutal Story Of James Annesley"
-  },
-  {
-    "videoId": "6yeRKrD07j4",
-    "durationSeconds": 3050,
-    "title": "Rare Uncensored Footage From The Dawn Of WW2"
-  },
-  {
-    "videoId": "xWC3eUbxDRA",
-    "durationSeconds": 6256,
-    "title": "Broken Arrows: Hunting The Lost Atomic Bombs of the Cold War"
-  },
-  {
-    "videoId": "D_qXAhywvHA",
-    "durationSeconds": 3047,
-    "title": "Rare Uncensored Footage From Hitler's Last Year"
-  },
-  {
-    "videoId": "-LGl3qJhw_o",
-    "durationSeconds": 1576,
-    "title": "711 AD - 1492 AD: The Complete Story Of Islamic Spain"
+    "title": "Inside The Mind Of Karl Marx: Rare Documents And Forgotten Writings",
+    "durationSeconds": 3131
   },
   {
     "videoId": "NQto9BjJBeU",
-    "durationSeconds": 4281,
-    "title": "Inside The Secret German-Jewish WW2 Reparations"
-  },
-  {
-    "videoId": "6wbBuShPJpA",
-    "durationSeconds": 3000,
-    "title": "The Great War: Firsthand Accounts From Inside The Trenches"
+    "title": "Inside The Secret German-Jewish WW2 Reparations",
+    "durationSeconds": 4281
   },
   {
     "videoId": "vztzbUMpF0Q",
-    "durationSeconds": 7940,
-    "title": "The Rise And Fall Of Adolf Hitler: A Complete Story"
-  },
-  {
-    "videoId": "qUvLaPwaWU0",
-    "durationSeconds": 3101,
-    "title": "Inside Hitler’s Last Days: Rare Footage Of The Third Reich’s Fall"
-  },
-  {
-    "videoId": "0kRyexCvNR8",
-    "durationSeconds": 1576,
-    "title": "From Conquest To Collapse: Rome’s 700-Year Reign In Spain"
+    "title": "The Rise And Fall Of Adolf Hitler: A Complete Story",
+    "durationSeconds": 7940
   }
 ]

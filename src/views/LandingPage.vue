@@ -228,7 +228,8 @@ const featured = featuredNames.flatMap((name) => {
         <p>A CRT you stay with. 1988 is the year on the glass.</p>
       </div>
       <nav aria-label="Footer navigation">
-        <RouterLink to="/privacy">Privacy</RouterLink><RouterLink to="/terms">Terms</RouterLink
+        <RouterLink to="/guide">Channel guide</RouterLink
+        ><RouterLink to="/privacy">Privacy</RouterLink><RouterLink to="/terms">Terms</RouterLink
         ><RouterLink to="/remote">Phone remote</RouterLink>
       </nav>
       <div class="web-footer">

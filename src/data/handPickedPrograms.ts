@@ -1,4 +1,5 @@
 import type { CatalogItem } from '../lib/broadcastClock'
+import bollywoodPrograms from './programs/001.json' with { type: 'json' }
 import ddClassicsPrograms from './programs/005.json' with { type: 'json' }
 import vintageIndiaPrograms from './programs/013.json' with { type: 'json' }
 
@@ -25,100 +26,8 @@ export const HAND_PICKED_PROGRAMS: Partial<Record<string, CatalogItem[]>> = {
       durationSeconds: 2460,
     },
   ],
-  Bollywood: [
-    {
-      videoId: 'Kf1Rg9kIHr4',
-      title: 'THE BOLLYWOOD DANCE PARTY 2025 | NONSTOP 2 HOUR JUKEBOX | DIWALI DHAMAKA 2025💥',
-      durationSeconds: 7306,
-    },
-    {
-      videoId: 'I0b88L53Gbg',
-      title: 'Best Of Bollywood Dance Hits 8K (Video Jukebox) | Non Stop Bollywood Dance Songs',
-      durationSeconds: 4203,
-    },
-    {
-      videoId: 'GFC6J3nbdtw',
-      title:
-        'Ultimate Bollywood Dance Celebration Mix😍 | Non Stop Party Songs | Kedrock | T-Series',
-      durationSeconds: 566,
-    },
-    {
-      videoId: 'QwZxq5cGiDk',
-      title:
-        'New Year Party Mashup🔥 | Non Stop Dance Hits | Bollywood Party Songs | DJ Kunal Mahato, DJ Star',
-      durationSeconds: 240,
-    },
-    {
-      videoId: 'EFUkIyQ8p_Y',
-      title:
-        'Non Stop Bollywood Dance Hits | Bollywood Dance Mashup | Non Stop Party Songs | T-Series',
-      durationSeconds: 2777,
-    },
-    {
-      videoId: 'Usn1TnQm0jE',
-      title: 'The Wedding Dance Bollywood Mix | Non Stop Bollywood Party Hits | Kedrock | T-Series',
-      durationSeconds: 494,
-    },
-    {
-      videoId: 'vzJvFkf2i6Y',
-      title:
-        'NON STOP DANCE (MEGA PARTY MIX)🔥| ULTIMATE NEW YEAR PARTY MASHUP | BOLLYWOOD NON STOP DANCE SONGS',
-      durationSeconds: 2251,
-    },
-    {
-      videoId: 'tl-iR79fZ5c',
-      title: 'BOLLYWOOD NON STOP DANCE😍 - CLUB VIBES MIX | NEW YEAR PARTY MASHUP | DJ BASQUE',
-      durationSeconds: 284,
-    },
-    {
-      videoId: 'tp2XCLXD6MY',
-      title:
-        'Bidai Lofi Non-Stop Mix | Bollywood Lofi Love Songs | Chill & Relax Beats | DJ Sunny Singh UK',
-      durationSeconds: 904,
-    },
-    {
-      videoId: '2aj41K0ORcE',
-      title:
-        'Shaadi Waali Raat Non Stop Mix | Ultimate Wedding Dance Hits | Shagna Di Raat | Dj Buddha Dubai',
-      durationSeconds: 1331,
-    },
-    {
-      videoId: 'GlXSwebD2PM',
-      title:
-        'MEHENDI WALI RAAT😍 MASHUP | BOLLYWOOD NON STOP DANCE HITS | SHAGNA DI RAAT | DJ ALEX | DJ STAR',
-      durationSeconds: 1040,
-    },
-    {
-      videoId: 'FS8aZu0-Nbo',
-      title:
-        'BACHELOR PARTY 😍🔥45 Mins+ NONSTOP MIX | WEDDING DANCE SONGS | SHAGNA DI RAAT | DJ SUNNY SINGH UK',
-      durationSeconds: 2773,
-    },
-    {
-      videoId: 'B7oYsb30UmI',
-      title:
-        'THE KING KHAN SPECIAL 🔥 SHAH RUKH KHAN HITS | 2 HRS NON-STOP BOLLYWOOD DANCE SONGS | SRK BIRTHDAY',
-      durationSeconds: 7099,
-    },
-    {
-      videoId: 'BI3_CwthQ8Q',
-      title:
-        'Bollywood Dandiya Mix Mashup | Navratri Garba Dance Songs | Non-Stop Navratri Dance Hits | T-Series',
-      durationSeconds: 282,
-    },
-    {
-      videoId: 'kzLArKaU5M0',
-      title:
-        'Emraan Hashmi Mashup | Non Stop Hits | Kedrock | Himesh Reshammiya | Arijit Singh | K.K. | Mithoon',
-      durationSeconds: 371,
-    },
-    {
-      videoId: 'nFhkE2p62p8',
-      title:
-        'PROMISE OF LOVE (Mashup) 2025 | Arijit Singh, Sachet-Parampara | Non-Stop Bollywood Hits | Kedrock',
-      durationSeconds: 788,
-    },
-  ],
+  // Preserve the video-only curation during regeneration.
+  Bollywood: bollywoodPrograms,
   Cricket: [
     {
       videoId: '3PqrnU1EVCg',

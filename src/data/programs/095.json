@@ -1,252 +1,1812 @@
 [
   {
+    "videoId": "OATMbO-YrhQ",
+    "title": "Vídeo Promocional de Turismo de Portugal | 2008 Português",
+    "durationSeconds": 233
+  },
+  {
+    "videoId": "ZzppXmwNID4",
+    "title": "Video Promocional de Turismo de Portugal | 2008 Castellano",
+    "durationSeconds": 233
+  },
+  {
+    "videoId": "ciYR1VKDjhM",
+    "title": "Vidéo Promotionnelle de Tourisme du Portugal | 2008 Français",
+    "durationSeconds": 233
+  },
+  {
+    "videoId": "bj6fA0wYvok",
+    "title": "Imagefilm Tourismus in Portugal | 2008 Deutsch",
+    "durationSeconds": 232
+  },
+  {
+    "videoId": "GLA_N8hOa_U",
+    "title": "Portugal Promotional Tourism Film | 2008 Chinese",
+    "durationSeconds": 230
+  },
+  {
+    "videoId": "Ch5xyzk5GzM",
+    "title": "Wonderful Portugal 2 | 2008 English",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "5e0ejCteu6o",
+    "title": "Wonderful Portugal 1 | 2008 English",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "Tnw8_Jptxdk",
+    "title": "Portugal: Um Outro Olhar | 2008 Português",
+    "durationSeconds": 286
+  },
+  {
+    "videoId": "g--5BJdwtlU",
+    "title": "Mosteiros de Portugal - National Geographic Channel | 2008 Português",
+    "durationSeconds": 209
+  },
+  {
+    "videoId": "qt-T6Zbry98",
+    "title": "World Heritage Portugal - National Geographic Channel | 2008 English",
+    "durationSeconds": 264
+  },
+  {
+    "videoId": "F493JkHJ7r8",
+    "title": "Descubra Um Portugal Maior | 2009 - Anúncios",
+    "durationSeconds": 122
+  },
+  {
+    "videoId": "E4Wj4IHoxcI",
+    "title": "Descubra Um Portugal Maior | 2009 - Spot 60s",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "JrENlmbhwMA",
+    "title": "Taste Portugal | 2010 English",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "t2shccGuzjU",
+    "title": "Taste Portugal | 2011 Español",
+    "durationSeconds": 212
+  },
+  {
+    "videoId": "wjw32C-4cc4",
+    "title": "Prove Portugal | 2011 Português",
+    "durationSeconds": 212
+  },
+  {
+    "videoId": "DBKbREXsHN8",
+    "title": "Taste Portugal | 2011 English",
+    "durationSeconds": 212
+  },
+  {
+    "videoId": "nJ3c5qYzRto",
+    "title": "Herança Judaica / Jewish Legacy",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "NTSZN3sMKqM",
+    "title": "Patrimonio Judío / Patrimoine Juif",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "qtpexVDtHN8",
+    "title": "Devoção e Festas Religiosas / Devotion and Religious Festivities",
+    "durationSeconds": 133
+  },
+  {
+    "videoId": "nvsW8nkLw4s",
+    "title": "Devoción y Fiestas Religiosas / Dévotion et Fêtes Religieuses",
+    "durationSeconds": 133
+  },
+  {
+    "videoId": "A79nLX2M8x8",
+    "title": "Caminos de la Fe / Chemins de la Foi",
+    "durationSeconds": 299
+  },
+  {
+    "videoId": "tjcDCPnYYwE",
+    "title": "Caminhos da Fé / Paths of Faith",
+    "durationSeconds": 299
+  },
+  {
+    "videoId": "v8ityQjtJBs",
+    "title": "Portugal - O País Mais Perto do Coração",
+    "durationSeconds": 300
+  },
+  {
+    "videoId": "mKeHbWGUEPY",
+    "title": "Portugal, Portugueses (PT)",
+    "durationSeconds": 192
+  },
+  {
+    "videoId": "_MRAhcbPZak",
+    "title": "October Sessions - Zon North Canyon 2012",
+    "durationSeconds": 195
+  },
+  {
+    "videoId": "fGDl1fpzg1I",
+    "title": "The Finals | Rip Curl Pro Portugal 2012",
+    "durationSeconds": 215
+  },
+  {
+    "videoId": "3Ylge3CJjFU",
+    "title": "Round 1 | Rip Curl Pro Portugal 2012",
+    "durationSeconds": 187
+  },
+  {
+    "videoId": "94z0NkP1CvE",
+    "title": "Alana Blanchard and Nikki van Dijk Visit Lisbon: Rip Curl Pro Portugal 2012",
+    "durationSeconds": 93
+  },
+  {
+    "videoId": "aPcWra4Cypo",
+    "title": "Alana Blanchard & Nikki van Dijk Visit Portugal's Monuments: Rip Curl Pro Portugal 2012",
+    "durationSeconds": 114
+  },
+  {
+    "videoId": "Cq1EjwOF6qA",
+    "title": "Alana Blanchard & Nikki van Dijk In The Azores: Rip Curl Pro Portugal 2012",
+    "durationSeconds": 193
+  },
+  {
+    "videoId": "9WvnSu3l27Q",
+    "title": "Embrace the world. Portugal in Barcelona | Besar el mundo. Portugal en Barcelona",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "AeRl3rqUYX0",
+    "title": "Escolha Portugal - Guimarães (versão completa)",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "FlsbTcIn9zk",
+    "title": "Escolha Portugal - Torres Vedras e Peniche (versão completa)",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "zG15ClTsFMA",
+    "title": "Escolha Portugal - Porto Santo (versão completa)",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "2rHJKPhMnTs",
+    "title": "Escolha Portugal - Aldeias de Xisto (versão completa)",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "fN8FDOxA9Mk",
+    "title": "Escolha Portugal - Troia e Comporta (versão completa)",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "JxF_7pSVAKE",
+    "title": "Escolha Portugal - Açores (versão completa)",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "85WkGpsYHnA",
+    "title": "Escolha Portugal - Algarve (versão completa)",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "HRBA67v9GDU",
+    "title": "Escolha Portugal - Gerês (versão completa)",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "_s3TeUstdSc",
+    "title": "Taste Portugal HD | 2011 English",
+    "durationSeconds": 212
+  },
+  {
+    "videoId": "htcPp8ecaoc",
+    "title": "Prove Portugal HD | 2011 Português",
+    "durationSeconds": 212
+  },
+  {
+    "videoId": "pNc5fIYPrPg",
+    "title": "Taste Portugal HD | 2011 Español",
+    "durationSeconds": 212
+  },
+  {
+    "videoId": "XnjpYBVZZi0",
+    "title": "Guimarães 2012 Capitale Européenne de la Culture",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "cnqBuIOIbFo",
+    "title": "Guimarães 2012 Capital Europea de la Cultura",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "xMQL4r1--u4",
+    "title": "Guimarães 2012 European Capital of Culture",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "HgSUM9ZixsM",
+    "title": "Guimarães 2012 Capital Europeia da Cultura",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "zUItm3_p-1M",
+    "title": "Videoclip Allgarve - Rui Reininho | 2009",
+    "durationSeconds": 132
+  },
+  {
+    "videoId": "T9x-kFX-W5U",
+    "title": "Retrospectiva Allgarve'09 | 2010",
+    "durationSeconds": 307
+  },
+  {
+    "videoId": "aGaIJIzWj8k",
+    "title": "Portugal Promotional Tourism Video | 2008 English",
+    "durationSeconds": 233
+  },
+  {
+    "videoId": "Ba4Q3-ErD_M",
+    "title": "Chef José Avillez (EN)",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "XkA5gI-uWJQ",
+    "title": "Chef - José Avillez (FR)",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "txn6pwvOhjs",
+    "title": "Chef José Avillez (PT)",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "xsNp47bxwY4",
+    "title": "Chefkoch - José Avillez (DE)",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "D5QCFpA_vjQ",
+    "title": "Chef José Avillez (ES)",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "Q5o9O0I2_qo",
+    "title": "Portugal, Portugueses (EN)",
+    "durationSeconds": 184
+  },
+  {
+    "videoId": "9hrPl5yHnGk",
+    "title": "Portugal, Portugueses (FR)",
+    "durationSeconds": 184
+  },
+  {
+    "videoId": "wu8j_IDSHm0",
+    "title": "Portugal, Portugueses (DE)",
+    "durationSeconds": 184
+  },
+  {
+    "videoId": "YO1PfNxBstY",
+    "title": "Portugal, Portugueses (ES)",
+    "durationSeconds": 184
+  },
+  {
+    "videoId": "dX3KXw0gdHc",
+    "title": "Escolha Portugal - Açores / Choose Portugal - Azores (TVI)",
+    "durationSeconds": 191
+  },
+  {
+    "videoId": "KCcoKK1K2Y8",
+    "title": "Escolha Portugal - Madeira / Choose Portugal - Madeira (TVI)",
+    "durationSeconds": 186
+  },
+  {
+    "videoId": "fsbzKTM5fSA",
+    "title": "Escolha Portugal - Alentejo / Choose Portugal - Alentejo (TVI)",
+    "durationSeconds": 175
+  },
+  {
+    "videoId": "gasFXkoTL_E",
+    "title": "Escolha Portugal - Região de Lisboa / Choose Portugal - Lisbon Region (TVI)",
+    "durationSeconds": 176
+  },
+  {
+    "videoId": "5hetwQ8ojvY",
+    "title": "Jewish Legacy / מורשת יהודית (English + Hebrew text)",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "snDK7rG3UDE",
+    "title": "Escolha Portugal - Porto e Norte / Choose Portugal - Porto and the North (TVI)",
+    "durationSeconds": 189
+  },
+  {
+    "videoId": "hKpwRxxLWPw",
+    "title": "Portugal Waves - Surfeando las olas de Portugal | Portugal Stand at Fitur 2014 - Day five",
+    "durationSeconds": 62
+  },
+  {
+    "videoId": "62loAcCm0Gw",
+    "title": "Portugal Waves - Surfeando las olas de Portugal | Portugal Stand at Fitur 2014 - Day Three",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "JHRJ7Fc4RVs",
+    "title": "Escolha Portugal - Centro de Portugal / Choose Portugal - Central Portugal (TVI)",
+    "durationSeconds": 180
+  },
+  {
+    "videoId": "8zjQ1OLW2RI",
+    "title": "Escolha Portugal - Algarve / Choose Portugal - Algarve (TVI)",
+    "durationSeconds": 185
+  },
+  {
+    "videoId": "CxLCdnB6JWE",
+    "title": "Rip Curl Pro Portugal Greatest Moments (2009 - 2012)",
+    "durationSeconds": 140
+  },
+  {
+    "videoId": "42paOj1_jVA",
+    "title": "Portugal - Closer Than You Think (chinese)",
+    "durationSeconds": 291
+  },
+  {
+    "videoId": "9YYv-HQPR74",
+    "title": "The Ocean Challenge - Portugal's Mastershots | The Algarve Edition",
+    "durationSeconds": 193
+  },
+  {
+    "videoId": "4iGZhciONLo",
+    "title": "Portugal - Closer Than You Think",
+    "durationSeconds": 291
+  },
+  {
+    "videoId": "7z2oFRl4E2c",
+    "title": "Wild Shot - Portugal's Mastershots | The Algarve Edition",
+    "durationSeconds": 67
+  },
+  {
+    "videoId": "BPkPo1xICJ8",
+    "title": "Ocean Shot - Portugal's Mastershots | The Algarve Edition",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "LOdcUX3hBS0",
+    "title": "Castle Shot - Portugal's Mastershots | The Algarve Edition",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "5D5YCia3AwI",
+    "title": "Caminhos de Santiago | Ways of St. James",
+    "durationSeconds": 101
+  },
+  {
+    "videoId": "4GrYTcPdz8w",
+    "title": "Caminos de Santiago / Chemins de Saint Jaques",
+    "durationSeconds": 101
+  },
+  {
+    "videoId": "qF3MaJdFBqA",
+    "title": "Making Of \"Los Reyes - Una Obra Para La Vida\"",
+    "durationSeconds": 120
+  },
+  {
+    "videoId": "-fOVF5aDedI",
+    "title": "Other Waters | The McNamara Surf Trip",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "a_kVviolcg0",
+    "title": "Surf Lesson - McNamara Experiences | The McNamara Surf Trip",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "kjqaqvJsv6g",
+    "title": "Surf Lesson - McNamara Experiences | The McNamara Surf Trip (Legendas PT)",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "cgBAb4gJmOQ",
+    "title": "Holy Waves | The McNamara Surf Trip (v2)",
+    "durationSeconds": 66
+  },
+  {
+    "videoId": "YwA8vZby4VY",
+    "title": "Yummy Yummy | The McNamara Surf Trip",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "K4PIzZP292w",
+    "title": "Yummy Yummy | The McNamara Surf Trip (Legendas PT)",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "LAheNQd8DG4",
+    "title": "Portuguese Waves Series 2014 - II",
+    "durationSeconds": 77
+  },
+  {
+    "videoId": "9PfsKvXzbow",
+    "title": "Portuguese Waves Series 2014 - I",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "RZWDCp8r7o8",
+    "title": "Ep. #7: Algarve | The McNamara Surf Trip",
+    "durationSeconds": 296
+  },
+  {
+    "videoId": "LLOFYrb2-U8",
+    "title": "Ep. #7: Algarve | The McNamara Surf Trip (Legendas PT)",
+    "durationSeconds": 296
+  },
+  {
+    "videoId": "WwUB4xxJS4Q",
+    "title": "Ep. #6: Alentejo | The McNamara Surf Trip",
+    "durationSeconds": 321
+  },
+  {
+    "videoId": "oXo0iWCEj6s",
+    "title": "Ep. #6: Alentejo | The McNamara Surf Trip (Legendas PT)",
+    "durationSeconds": 321
+  },
+  {
+    "videoId": "joMyTNndD6Y",
+    "title": "Ep. #5: Madeira | The McNamara Surf Trip (Legendas PT)",
+    "durationSeconds": 334
+  },
+  {
+    "videoId": "X-48HFoEiek",
+    "title": "Ep. #5: Madeira Islands | The McNamara Surf Trip",
+    "durationSeconds": 334
+  },
+  {
+    "videoId": "wgO_Zk3P1q0",
+    "title": "Ep. #4: Porto and the North | The McNamara Surf Trip",
+    "durationSeconds": 337
+  },
+  {
+    "videoId": "K1Aazv9adqk",
+    "title": "Ep. #4: Porto e Norte | The McNamara Surf Trip (Legendas PT)",
+    "durationSeconds": 337
+  },
+  {
+    "videoId": "6rDuq5lfOvU",
+    "title": "Ep. #3: Azores | The McNamara Surf Trip",
+    "durationSeconds": 330
+  },
+  {
+    "videoId": "35noEBV-UVs",
+    "title": "Ep. #3: Açores | The McNamara Surf Trip (Legendas PT)",
+    "durationSeconds": 330
+  },
+  {
+    "videoId": "1TT2bD2rbWo",
+    "title": "Ep. #2: Lisboa | The McNamara Surf Trip (Legendas PT)",
+    "durationSeconds": 328
+  },
+  {
+    "videoId": "HYeO5KYKT-I",
+    "title": "Ep. #2: Lisbon | The McNamara Surf Trip",
+    "durationSeconds": 328
+  },
+  {
+    "videoId": "anywdW-j3ZI",
+    "title": "Ep. #1: Centro de Portugal | The McNamara Surf Trip",
+    "durationSeconds": 305
+  },
+  {
+    "videoId": "GWzUkD_Gnvg",
+    "title": "Ep. #1: Centro de Portugal | The McNamara Surf Trip (Legendas PT)",
+    "durationSeconds": 305
+  },
+  {
+    "videoId": "Pf3DzJIkvaA",
+    "title": "Holy Waves | The McNamara Surf Trip",
+    "durationSeconds": 66
+  },
+  {
+    "videoId": "BEgO9Eb5vSw",
+    "title": "Estádio Maracanã feito com mais de 11 mil rolhas de cortiça pelo artista Scott Gundersen",
+    "durationSeconds": 102
+  },
+  {
+    "videoId": "YZsS1CCKX44",
+    "title": "Student - Ana (EN)",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "ehKWns2BwSc",
+    "title": "Estudiante - Ana (ES)",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "Cry9wXrt08E",
+    "title": "Étudiante - Ana (FR)",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "T8V26Vr5bxo",
+    "title": "Studentin- Ana (DE)",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "fZflxLSUIX0",
+    "title": "Ponha Portugal no Seu Mapa | Rostos de Portugal",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "zpRP1WV3T0o",
+    "title": "Ponha Portugal no Seu Mapa | Da Antiga à Moderna tudo tem Arte",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "WzIUiUQHYro",
+    "title": "Ponha Portugal no Seu Mapa | Altos e Baixos",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "_c_gfdnmWHU",
+    "title": "Ponha Portugal no Seu Mapa | Amor de perdição",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "tkgsmCi_5T8",
+    "title": "Ponha Portugal no Seu Mapa | Ondas de tudo",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "MqvmoK4pZj8",
+    "title": "Ponha Portugal no Seu Mapa | Os tesouros das nossas ilhas",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "UGtkPE35dKU",
+    "title": "Ponha Portugal no Seu Mapa | De corpo e alma",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "WI8bS4F9b8o",
+    "title": "Ponha Portugal no Seu Mapa | Vista para o rio",
+    "durationSeconds": 83
+  },
+  {
+    "videoId": "uNwzuxfLSZ4",
+    "title": "Ponha Portugal no Seu Mapa | Vista de perder de vista",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "ZtB5ghwnccA",
+    "title": "Ponha Portugal no Seu Mapa | Aldeias encontradas",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "eFgDBJl5PjA",
+    "title": "Ponha Portugal no Seu Mapa | O centro de nós",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "ehExjaT9Wxg",
+    "title": "Ponha Portugal no Seu Mapa | À mesa em Portugal",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "eO1zB-sFLVs",
+    "title": "ARCO Lisboa by Visit Portugal",
+    "durationSeconds": 120
+  },
+  {
+    "videoId": "7QG8tJtxt7U",
+    "title": "Web Summit 2016 by Visit Portugal",
+    "durationSeconds": 83
+  },
+  {
+    "videoId": "uVXdswZYeHI",
+    "title": "What people are saying about Golf in Portugal #4",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "lEcUwFf2xM8",
+    "title": "What people are saying about Golf in Portugal #3",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "rgV_W7H2uAg",
+    "title": "What people are saying about Surf in Portugal #2",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "UL32pPIu-Ag",
+    "title": "What people are saying about Golf in Portugal #2",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "c-9GLctp_Ac",
+    "title": "What people are saying about Surf in Portugal #1",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "9_tIsWhx23k",
+    "title": "What people are saying about Golf in Portugal #1",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "OKUOuatozGw",
+    "title": "The Art of Choice",
+    "durationSeconds": 99
+  },
+  {
+    "videoId": "H8zfpx9bgwo",
+    "title": "El Arte de Elegir",
+    "durationSeconds": 99
+  },
+  {
+    "videoId": "brd9J8iN1wo",
+    "title": "The McNamara Surf Trip Documentary",
+    "durationSeconds": 3086
+  },
+  {
+    "videoId": "_-7Z8MpBKic",
+    "title": "Documentário \"The McNamara Surf Trip\" (Legendas PT)",
+    "durationSeconds": 3086
+  },
+  {
+    "videoId": "dCi18gOXwCA",
+    "title": "El Surf es Arte",
+    "durationSeconds": 138
+  },
+  {
+    "videoId": "bydMyINQsyM",
+    "title": "Surf is Art",
+    "durationSeconds": 138
+  },
+  {
+    "videoId": "pGvROPJR3YA",
+    "title": "Ein Brief zum Neuen Jahr",
+    "durationSeconds": 107
+  },
+  {
+    "videoId": "wP1zdWUkb4U",
+    "title": "A Letter to the New Year",
+    "durationSeconds": 107
+  },
+  {
+    "videoId": "JR9yNGnyooA",
+    "title": "Choices 2.0",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "TcrKtZycbas",
+    "title": "\"Waves\" behind the scenes | Waves Ready to Drink",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "aAFm3wOUpfU",
+    "title": "The woman who chose too much",
+    "durationSeconds": 118
+  },
+  {
+    "videoId": "G9TDwyaWIH0",
+    "title": "Choices",
+    "durationSeconds": 162
+  },
+  {
+    "videoId": "FqboSKLEelQ",
+    "title": "Estudante - Ana (PT)",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "17IbS_iXR4k",
+    "title": "Escolha Portugal - Porto e Norte / Choose Portugal - Porto and the North (SIC)",
+    "durationSeconds": 122
+  },
+  {
+    "videoId": "PNLBOwVdW58",
+    "title": "Escolha Portugal - Madeira / Choose Portugal - Madeira (SIC)",
+    "durationSeconds": 120
+  },
+  {
+    "videoId": "KEFS8kwZLk0",
+    "title": "Escolha Portugal - Região de Lisboa / Choose Portugal - Lisbon Region (SIC)",
+    "durationSeconds": 122
+  },
+  {
+    "videoId": "oO5t-gq9uNw",
+    "title": "Escolha Portugal - Centro de Portugal / Choose Portugal - Central Portugal (SIC)",
+    "durationSeconds": 120
+  },
+  {
+    "videoId": "Zu1NrChL-bc",
+    "title": "Living in Portugal - Home is where time feels right.",
+    "durationSeconds": 155
+  },
+  {
+    "videoId": "V88XkUZXxp8",
+    "title": "Escolha Portugal - Algarve / Choose Portugal - Algarve (SIC)",
+    "durationSeconds": 121
+  },
+  {
+    "videoId": "1Ed5QHusTW0",
+    "title": "Escolha Portugal - Açores / Choose Portugal - Azores (SIC)",
+    "durationSeconds": 124
+  },
+  {
+    "videoId": "mGtKf5qEYw8",
+    "title": "Escolha Portugal - Alentejo / Choose Portugal - Alentejo (SIC)",
+    "durationSeconds": 122
+  },
+  {
+    "videoId": "nu3CbMHa9AU",
+    "title": "Jason Nadal - Working and living in Portugal | Can’t Skip Facts",
+    "durationSeconds": 99
+  },
+  {
+    "videoId": "LXzM-Xg0crM",
+    "title": "Sea Week by Visit Portugal",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "e3frQoi3dto",
+    "title": "Federico Castillo - Working and living in Portugal | Can’t Skip Facts",
+    "durationSeconds": 120
+  },
+  {
+    "videoId": "ORIaGsz2qfA",
+    "title": "Chitra Stern - Investing, working and living in Portugal | Can’t Skip Facts",
+    "durationSeconds": 93
+  },
+  {
+    "videoId": "W2MvvqmJJbs",
+    "title": "Faça Um Plano Pelo Centro de Portugal",
+    "durationSeconds": 82
+  },
+  {
+    "videoId": "Ohe9fLb5uqE",
+    "title": "Portuguese Greens",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "JtUv0zmQuUk",
+    "title": "Portuguese Waves",
+    "durationSeconds": 89
+  },
+  {
+    "videoId": "AD0YwIN-OSU",
+    "title": "Portugal Masters by Visit Portugal",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "qwEhBRBIAvI",
+    "title": "São João Festivities by Visit Portugal",
+    "durationSeconds": 158
+  },
+  {
+    "videoId": "UOwtwjbFwEs",
+    "title": "Sketch Tour Portugal – Drawing in Fátima with Eduardo Bajzek",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "KfZsOxcLiCE",
+    "title": "Portugal: Luxury Destination",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "ITvvBS9VMLk",
+    "title": "Madeira Flower Festival by Visit Portugal",
+    "durationSeconds": 101
+  },
+  {
+    "videoId": "0oBxGtdDZJI",
+    "title": "Can’t Skip New Beginnings",
+    "durationSeconds": 169
+  },
+  {
+    "videoId": "1oJ04RovaGg",
+    "title": "Can't Skip Freedom",
+    "durationSeconds": 185
+  },
+  {
+    "videoId": "Vbo9a9D2dlk",
+    "title": "Can't Skip Inspiration",
+    "durationSeconds": 168
+  },
+  {
+    "videoId": "GU5W1LecyXw",
+    "title": "Can’t skip Us, Can’t Skip Portugal",
+    "durationSeconds": 175
+  },
+  {
+    "videoId": "DbNI_eeLxjM",
+    "title": "Story of a brand for Portugal as a tourism destination",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "-afkAtIiv60",
+    "title": "A história de uma marca para o destino Portugal",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "LAQQwV2rbN4",
+    "title": "Big Wave Tour - Nazaré Challenge by Visit Portugal",
+    "durationSeconds": 98
+  },
+  {
+    "videoId": "95habq0_sPY",
+    "title": "AgitÁgueda by Visit Portugal",
+    "durationSeconds": 107
+  },
+  {
+    "videoId": "8NxXVEIk33A",
+    "title": "Rip Curl Pro Portugal by Visit Portugal",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "kCvmRvPLhbg",
+    "title": "A Taste of Portugal | A Land of Art",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "wBXT-me8OJs",
+    "title": "A Taste of Portugal | A Land of Sea",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "6W48lr2VZyU",
+    "title": "A Taste of Portugal | A Land of Castles",
+    "durationSeconds": 83
+  },
+  {
+    "videoId": "OBl3OEvuI84",
+    "title": "A Taste of Portugal | A Land of Wine",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "Q1YgIEH-5J4",
+    "title": "A Taste of Portugal | A Land of Romance",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "ViXY2deh3bI",
+    "title": "A Taste of Portugal | A Land of Faces",
+    "durationSeconds": 89
+  },
+  {
+    "videoId": "7bV-DSL7cEc",
+    "title": "A Taste of Portugal | A Land of Mountains",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "WDWeqF_Glvo",
+    "title": "A Taste of Portugal | A Land of Beaches",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "tKP9MFoLfTw",
+    "title": "A Taste of Portugal | A Land of Protected Areas",
+    "durationSeconds": 77
+  },
+  {
+    "videoId": "D8SzusCsZyM",
+    "title": "A Taste of Portugal | A Land of Landscapes",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "NOG0PpQWwtE",
+    "title": "A Taste of Portugal | A Land of Sensations",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "Zvryy47Mros",
+    "title": "A Taste of Portugal | A Land of Rivers",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "veoLCN6E6fQ",
+    "title": "A Taste of Portugal | A Land of Islands",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "dckLzaVy2Tg",
+    "title": "A Taste of Portugal | A Land of Villages",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "fneCmgt1OgY",
+    "title": "A Taste of Portugal | A Land of Cities",
+    "durationSeconds": 77
+  },
+  {
+    "videoId": "yMAT6NVj52g",
+    "title": "A Taste of Portugal | A Land of Flavours",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "drdD7YHVDcg",
+    "title": "Ponha Portugal no Seu Mapa | Áreas protegidas mas não escondidas",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "KrVNkKIPVFc",
+    "title": "Ponha Portugal no Seu Mapa | O País do Mar",
+    "durationSeconds": 94
+  },
+  {
+    "videoId": "I7xNfW33Ybg",
+    "title": "Ponha Portugal no Seu Mapa | Entre a Vinha e o Vinho",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "IkJcIlR3k4c",
+    "title": "Ponha Portugal no Seu Mapa | Muralhas que perduram",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "pPsnchCKXGc",
+    "title": "Portuguese Trails",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "dGap551wyis",
+    "title": "O Centro de Portugal e a Natureza - Ruben Alves",
+    "durationSeconds": 243
+  },
+  {
+    "videoId": "WVKpwtohq6U",
+    "title": "O Centro de Portugal e a Herança - Pedro Varela",
+    "durationSeconds": 169
+  },
+  {
+    "videoId": "XNi74A9m7pQ",
+    "title": "O Centro de Portugal e a Criatividade - Edgar Pêra",
+    "durationSeconds": 230
+  },
+  {
+    "videoId": "DyhW3a9OONo",
+    "title": "O Centro de Portugal e a Aventura - Diogo Morgado",
+    "durationSeconds": 217
+  },
+  {
+    "videoId": "s27O-hzvLE0",
+    "title": "500 years – Magellan’s Circumnavigation",
+    "durationSeconds": 99
+  },
+  {
+    "videoId": "kAbuvJmLmPo",
+    "title": "Urban Music Festivals",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "9dQqiVTNTj4",
+    "title": "Algarve As Never Seen Before",
+    "durationSeconds": 110
+  },
+  {
+    "videoId": "mK7rgh4fhYQ",
+    "title": "Lisbon Region As Never Seen Before",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "47k8DRF7_-M",
+    "title": "Porto and the North As Never Seen Before",
+    "durationSeconds": 104
+  },
+  {
+    "videoId": "AwMagvRIWhc",
+    "title": "Portugal As Never Seen Before (Heritage)",
+    "durationSeconds": 105
+  },
+  {
+    "videoId": "dDBd3bApBKQ",
+    "title": "Madeira As Never Seen Before",
+    "durationSeconds": 110
+  },
+  {
+    "videoId": "jtw4Lvquat4",
+    "title": "Center of Portugal As Never Seen Before",
+    "durationSeconds": 111
+  },
+  {
+    "videoId": "qlbuNu0HVMg",
+    "title": "Azores As Never Seen Before",
+    "durationSeconds": 114
+  },
+  {
+    "videoId": "sK3NutFlvQ4",
+    "title": "Alentejo As Never Seen Before",
+    "durationSeconds": 82
+  },
+  {
+    "videoId": "Fzjb_1HJgjc",
+    "title": "Sketch Tour Portugal – Center of Portugal with Inma Serrano",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "lwskpMOxUr0",
+    "title": "Sketch Tour Portugal – Algarve with Róisín Curé",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "I2CWpYo3X-Y",
+    "title": "Sketch Tour Portugal – Algarve with Hélio Boto",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "NFlPznQCR6g",
+    "title": "Sketch Tour Portugal – Portuguese Trails with Pedro Cabral",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "BZjyI6DUcME",
+    "title": "Sketch Tour Portugal – Portuguese Trails with Linda Toolsema",
+    "durationSeconds": 66
+  },
+  {
+    "videoId": "OB_ZjgdA2Cw",
+    "title": "Sketch Tour Portugal – Alentejo",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "H1ANjGQb5do",
+    "title": "Sketch Tour Portugal – Center of Portugal",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "3sZyWCFMbZE",
+    "title": "Sketch Tour Portugal – Algarve",
+    "durationSeconds": 84
+  },
+  {
+    "videoId": "lYTeAJ5WJ-g",
+    "title": "Sketch Tour Portugal – Portuguese Trails",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "COlu7kuNbx4",
+    "title": "Santo António Festivities by Visit Portugal",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "5bh2Myx5y00",
+    "title": "Sketch Tour Portugal – Portuguese Greens",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "4jSRCxII3xQ",
+    "title": "Sketch Tour Portugal – Porto and the North",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "7X1oixwzsZI",
+    "title": "Sketch Tour Portugal – Lisbon region",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "9R6rYWW6PvQ",
+    "title": "Sketch Tour Portugal – Madeira",
+    "durationSeconds": 103
+  },
+  {
+    "videoId": "FyT9A1OBB-8",
+    "title": "Sketch Tour Portugal – Portuguese Waves",
+    "durationSeconds": 105
+  },
+  {
+    "videoId": "jQm0cYV5xv0",
+    "title": "Can’t Skip Portugal – MAKING OF",
+    "durationSeconds": 397
+  },
+  {
+    "videoId": "kyVOrLLJdYs",
+    "title": "Sketch Tour Portugal – Azores",
+    "durationSeconds": 113
+  },
+  {
+    "videoId": "xoWwpYs_ErU",
+    "title": "Sketch Tour Portugal – Fátima",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "UrBT4JN0O5M",
+    "title": "A Tram Ride in Lisbon",
+    "durationSeconds": 193
+  },
+  {
+    "videoId": "Lm2pikRpJRY",
+    "title": "Luigi Tomba - Working and living in Portugal | Can’t Skip Facts",
+    "durationSeconds": 109
+  },
+  {
+    "videoId": "Z3NzvOY3tPg",
+    "title": "George Sandeman - Working and living in Portugal | Can’t Skip Facts",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "Tl2hM_ZTJm4",
+    "title": "Frédéric Denecker - Working and living in Portugal | Can’t Skip Facts",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "3e4qDe8kAXA",
+    "title": "Bruno Wohlschlegel - Working and living in Portugal | Can’t Skip Facts",
+    "durationSeconds": 99
+  },
+  {
+    "videoId": "Y7j3cvtWnOE",
+    "title": "Visita Portugal. #TuPodes",
+    "durationSeconds": 165
+  },
+  {
+    "videoId": "lFlFkGV207A",
+    "title": "Can't Skip Hope (PT)",
+    "durationSeconds": 138
+  },
+  {
+    "videoId": "70tcUNgd8IM",
+    "title": "Can't Skip Hope",
+    "durationSeconds": 138
+  },
+  {
+    "videoId": "OGVDu3ivhTY",
+    "title": "Portuguese Wine Tourism",
+    "durationSeconds": 128
+  },
+  {
+    "videoId": "rqWdEUbKlgA",
+    "title": "Can't Skip a Perfect Wish. Can't Skip Portugal.",
+    "durationSeconds": 94
+  },
+  {
+    "videoId": "dpL88GydLnI",
+    "title": "Web Summit 2018 by Visit Portugal",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "08bg0fXNqZA",
+    "title": "Portuguese Music Festivals",
+    "durationSeconds": 160
+  },
+  {
+    "videoId": "hbKDybW8DCI",
+    "title": "Portugal will never leave you - #Brelcome",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "ZpYGHbYpxfA",
+    "title": "The Land of Magellan welcomes all the Explorers!",
+    "durationSeconds": 104
+  },
+  {
+    "videoId": "THGuSVNFTcg",
+    "title": "Sketch Tour Portugal Reload - Alentejo Tour I",
+    "durationSeconds": 100
+  },
+  {
+    "videoId": "RiaijtDy4jU",
+    "title": "Sketch Tour Portugal Reload - Center of Portugal Tour I",
+    "durationSeconds": 77
+  },
+  {
+    "videoId": "CcfLMCN7PXU",
+    "title": "Sketch Tour Portugal Reload - Madeira",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "ZvDWql6QsPU",
+    "title": "Time to inspire",
+    "durationSeconds": 94
+  },
+  {
+    "videoId": "d_mVouGD5d0",
+    "title": "Tempo de inspirar",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "3ftEoCFVVK0",
+    "title": "Tempo de alcançar",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "OYyyJbed6TE",
+    "title": "Time to reach",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "7CM40sRVsIs",
+    "title": "Tempo de andar",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "94kN-Gs_E6Q",
+    "title": "Time to walk",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "EkWgWXa2pQY",
+    "title": "Time to taste",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "vxF3mX3lYh0",
+    "title": "Tempo de saborear",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "HhFv7g02D2s",
+    "title": "Tempo de surfar",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "vzUtIQH7Q_I",
+    "title": "Time to surf",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "7y8puufRtoA",
+    "title": "Urban Sketchers – A tale of a country",
+    "durationSeconds": 220
+  },
+  {
+    "videoId": "ehEIX8QUOiI",
+    "title": "Carnival of Podence by Visit Portugal",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "JgRwvUxmhOM",
+    "title": "Hello World. It's me, Tomorrow.",
+    "durationSeconds": 98
+  },
+  {
+    "videoId": "eRXWTkx5FCk",
+    "title": "Hello Germany. It´s me, Tomorrow.",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "ki-tFIBJ08I",
+    "title": "Hello France. It's me, Tomorrow.",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "iPY2zLHQL84",
+    "title": "Hello Britain. It's me, Tomorrow.",
+    "durationSeconds": 89
+  },
+  {
+    "videoId": "MKl7OXcTHuo",
+    "title": "Hello Spain. It's me, Tomorrow.",
+    "durationSeconds": 89
+  },
+  {
+    "videoId": "tbP70gJlcy0",
+    "title": "Only You",
+    "durationSeconds": 155
+  },
+  {
+    "videoId": "heJ63Qpj83c",
+    "title": "Sketch Tour Portugal Reload - Best of (PT)",
+    "durationSeconds": 157
+  },
+  {
+    "videoId": "vxbZDTxozqE",
+    "title": "Close to US - Times Square Takeover",
+    "durationSeconds": 609
+  },
+  {
+    "videoId": "yWv6bWeeH28",
+    "title": "Making of: Journey to Portugal Revisited - Lagos",
+    "durationSeconds": 120
+  },
+  {
+    "videoId": "jDa8oOt8ejY",
+    "title": "Making of: Journey to Portugal Revisited - Alcoutim",
+    "durationSeconds": 121
+  },
+  {
+    "videoId": "EyfK_JSjntE",
+    "title": "Making of: Journey to Portugal Revisited - Beja",
+    "durationSeconds": 129
+  },
+  {
+    "videoId": "sccgB6I5DlY",
+    "title": "Making of: Journey to Portugal Revisited - Évora and Montemor-o-Novo",
+    "durationSeconds": 140
+  },
+  {
+    "videoId": "cwdjlkafbUY",
+    "title": "Making of: Journey to Portugal Revisited - Bragança",
+    "durationSeconds": 106
+  },
+  {
+    "videoId": "Izb-gGDAyig",
+    "title": "Rout-e Lisboa III",
+    "durationSeconds": 138
+  },
+  {
+    "videoId": "Q1Dm5compvY",
+    "title": "Rout-e Lisboa II",
+    "durationSeconds": 154
+  },
+  {
+    "videoId": "aQcKTRVq7zc",
+    "title": "Rout-e Lisboa I",
+    "durationSeconds": 161
+  },
+  {
+    "videoId": "ZlrQJ1cETM8",
+    "title": "Making of: Journey to Portugal Revisited - Guarda, Pinhel and Cidadelhe",
+    "durationSeconds": 101
+  },
+  {
+    "videoId": "x7443fCVYaQ",
+    "title": "Journey to Portugal Revisited - Lagos",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "-y89Bo-L4OE",
+    "title": "Journey to Portugal Revisited - Tomar and Constância",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "3RzZ_ykgGLY",
+    "title": "Making of: Journey to Portugal Revisited - Setúbal",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "DNimR_-W6DY",
+    "title": "Making of: Journey to Portugal Revisited - Tomar and Constância",
+    "durationSeconds": 116
+  },
+  {
+    "videoId": "QswoNmHPgLg",
+    "title": "Journey to Portugal Revisited - Bragança",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "XR0RXiVOFU0",
+    "title": "Journey to Portugal Revisited - Beja",
+    "durationSeconds": 97
+  },
+  {
+    "videoId": "dq6rlpYVcCA",
+    "title": "Journey to Portugal Revisited - Coimbra",
+    "durationSeconds": 94
+  },
+  {
+    "videoId": "s6HPCxBp3Lw",
+    "title": "Journey to Portugal Revisited - Guarda, Pinhel and Cidadelhe",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "4WKsb8UbJh0",
+    "title": "Journey To Portugal Revisited - Setúbal",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "8WlcSogpC_k",
+    "title": "Making of: Journey to Portugal Revisited - Coimbra",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "a03XNIBjXII",
+    "title": "Journey to Portugal Revisited - Évora and Montemor-o-Novo",
+    "durationSeconds": 94
+  },
+  {
+    "videoId": "0MtO-VzFwPA",
+    "title": "Rout-e Center of Portugal II",
+    "durationSeconds": 132
+  },
+  {
+    "videoId": "7L5ubuiYldA",
+    "title": "Rout-e Algarve II",
+    "durationSeconds": 150
+  },
+  {
+    "videoId": "7SaeJDKbQ4Q",
+    "title": "Rout-e Center of Portugal III",
+    "durationSeconds": 132
+  },
+  {
+    "videoId": "Gg5PuF2W-YQ",
+    "title": "Rout-e Alentejo I",
+    "durationSeconds": 169
+  },
+  {
+    "videoId": "HLO7eEGGjmg",
+    "title": "Rout-e Porto & North I",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "Ui5XELjuAMM",
+    "title": "Rout-e Porto & North II",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "aEWDH04sE4c",
+    "title": "Rout-e Center of Portugal I",
+    "durationSeconds": 132
+  },
+  {
+    "videoId": "eyVI5ARyBpM",
+    "title": "Rout-e Alentejo II",
+    "durationSeconds": 137
+  },
+  {
+    "videoId": "nGtGGmnQpgQ",
+    "title": "Rout-e Algarve III",
+    "durationSeconds": 155
+  },
+  {
+    "videoId": "okuILhQZ_Zw",
+    "title": "Rout-e Alentejo III",
+    "durationSeconds": 170
+  },
+  {
+    "videoId": "y3-6IS29abI",
+    "title": "Rout-e Algarve I",
+    "durationSeconds": 128
+  },
+  {
+    "videoId": "QWQDvdxf3Ls",
+    "title": "Unwanted Shapes Zero Impact Global Case",
+    "durationSeconds": 120
+  },
+  {
+    "videoId": "GAFPXQChYHQ",
+    "title": "Sketch Tour Portugal Reload - Best of",
+    "durationSeconds": 157
+  },
+  {
+    "videoId": "UbVJoX0HROE",
+    "title": "Sketch Tour Portugal Reload - Porto & North Tour II",
+    "durationSeconds": 165
+  },
+  {
+    "videoId": "uCzBCmeNnY0",
+    "title": "Sketch Tour Portugal Reload - Center of Portugal Tour II",
+    "durationSeconds": 159
+  },
+  {
+    "videoId": "litSDDZB8eY",
+    "title": "Sketch Tour Portugal Reload - Lisboa",
+    "durationSeconds": 120
+  },
+  {
+    "videoId": "qYMslLaWBoQ",
+    "title": "Sketch Tour Portugal Reload - Algarve",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "PBEsx1dyXmI",
+    "title": "Sketch Tour Portugal Reload - Porto & North Tour I",
+    "durationSeconds": 112
+  },
+  {
+    "videoId": "Z-MphZ8tDYI",
+    "title": "Sketch Tour Portugal Reload - Azores",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "-1zjASMA4NE",
+    "title": "Sketch Tour Portugal Reload - Alentejo Tour II",
+    "durationSeconds": 133
+  },
+  {
+    "videoId": "ANqaOhc_As4",
+    "title": "Christmas Markets by Visit Portugal",
+    "durationSeconds": 123
+  },
+  {
+    "videoId": "rOd0OerVVKY",
+    "title": "JMJ: Património Cultural e Religioso - Évora",
+    "durationSeconds": 100
+  },
+  {
+    "videoId": "CGYiDnGYU6Q",
+    "title": "JMJ: Património Cultural e Religioso - Viana do Castelo",
+    "durationSeconds": 100
+  },
+  {
+    "videoId": "M90CzcdRBEY",
+    "title": "JMJ: Património Cultural e Religioso - Vila Nova de Gaia",
+    "durationSeconds": 99
+  },
+  {
+    "videoId": "T8G9n8A5Wsg",
+    "title": "JMJ: Património Cultural e Religioso - Nazaré",
+    "durationSeconds": 100
+  },
+  {
+    "videoId": "ph36uRZWV3E",
+    "title": "JMJ: Património Cultural e Religioso - Lisboa",
+    "durationSeconds": 100
+  },
+  {
+    "videoId": "ZdHN46748jI",
+    "title": "Oceans Wall: It's time to shake the surface and dive beyond",
+    "durationSeconds": 67
+  },
+  {
+    "videoId": "LPkRpf5Pqp4",
+    "title": "Making of: Journey to Portugal Revisited - Vila Real",
+    "durationSeconds": 143
+  },
+  {
+    "videoId": "GbThFTFUYIM",
+    "title": "Making of: Journey to Portugal Revisited - Guimarães",
+    "durationSeconds": 135
+  },
+  {
+    "videoId": "0TBMl6LSE7M",
+    "title": "Journey to Portugal Revisited - Vila Real",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "7xB0cafVupU",
+    "title": "Journey to Portugal Revisited - Guimarães",
+    "durationSeconds": 123
+  },
+  {
+    "videoId": "UDFOKr6iQw0",
+    "title": "Rout-e: Sustainable Touring in Portugal",
+    "durationSeconds": 120
+  },
+  {
+    "videoId": "qLNC5tETdYg",
+    "title": "Making of: Journey to Portugal Revisited - Mafra",
+    "durationSeconds": 116
+  },
+  {
+    "videoId": "wHiDVppaCUc",
+    "title": "Journey to Portugal Revisited - Mafra",
+    "durationSeconds": 83
+  },
+  {
     "videoId": "9i_3FYaEnbY",
-    "durationSeconds": 101,
-    "title": "Making of: Journey to Portugal Revisited - Porto and Vila Nova de Famalicão"
+    "title": "Making of: Journey to Portugal Revisited - Porto and Vila Nova de Famalicão",
+    "durationSeconds": 101
   },
   {
     "videoId": "ekgChEic19s",
-    "durationSeconds": 70,
-    "title": "Journey to Portugal Revisited - Porto and Vila Nova de Famalicão"
+    "title": "Journey to Portugal Revisited - Porto and Vila Nova de Famalicão",
+    "durationSeconds": 70
   },
   {
     "videoId": "m7QZ4zTCod4",
-    "durationSeconds": 61,
-    "title": "Pairing Portugal - A country decanted through poetry"
+    "title": "Pairing Portugal - A country decanted through poetry",
+    "durationSeconds": 61
   },
   {
     "videoId": "sOskih8RiRQ",
-    "durationSeconds": 74,
-    "title": "Monchique Walking Festival by Visit Portugal"
+    "title": "Monchique Walking Festival by Visit Portugal",
+    "durationSeconds": 74
   },
   {
     "videoId": "RfFdfD-AZzM",
-    "durationSeconds": 81,
-    "title": "Portugal means Business"
+    "title": "Portugal means Business",
+    "durationSeconds": 81
   },
   {
     "videoId": "nXtlahQK9_E",
-    "durationSeconds": 89,
-    "title": "Making of: Journey to Portugal Revisited - Estremoz, Vila Viçosa and Marvão"
+    "title": "Making of: Journey to Portugal Revisited - Estremoz, Vila Viçosa and Marvão",
+    "durationSeconds": 89
   },
   {
     "videoId": "5trwKJdKlZI",
-    "durationSeconds": 95,
-    "title": "WOOL | Covilhã Urban Art by Visit Portugal"
+    "title": "WOOL | Covilhã Urban Art by Visit Portugal",
+    "durationSeconds": 95
   },
   {
     "videoId": "YQDJpA3sbgY",
-    "durationSeconds": 61,
-    "title": "Oceans of Dialogues | Portugal at Expo 2025 Osaka"
+    "title": "Oceans of Dialogues | Portugal at Expo 2025 Osaka",
+    "durationSeconds": 61
   },
   {
     "videoId": "DSBN65f52eE",
-    "durationSeconds": 123,
-    "title": "Portugal's Unwritten Recipe"
+    "title": "Portugal's Unwritten Recipe",
+    "durationSeconds": 123
   },
   {
     "videoId": "rOobMANIChg",
-    "durationSeconds": 124,
-    "title": "Portuguese Wine Tourism"
+    "title": "Portuguese Wine Tourism",
+    "durationSeconds": 124
   },
   {
     "videoId": "RX-fMRVvyzY",
-    "durationSeconds": 83,
-    "title": "Save Water, The Water Case"
+    "title": "Save Water, The Water Case",
+    "durationSeconds": 83
   },
   {
     "videoId": "nc8O3_C-lng",
-    "durationSeconds": 170,
-    "title": "Making of: Journey to Portugal Revisited - Lisboa, Sintra and Cascais"
+    "title": "Making of: Journey to Portugal Revisited - Lisboa, Sintra and Cascais",
+    "durationSeconds": 170
   },
   {
     "videoId": "gLyCDeK1cbw",
-    "durationSeconds": 87,
-    "title": "Journey to Portugal Revisited - Lisboa, Sintra and Cascais"
+    "title": "Journey to Portugal Revisited - Lisboa, Sintra and Cascais",
+    "durationSeconds": 87
   },
   {
     "videoId": "tInHyureJ6Q",
-    "durationSeconds": 71,
-    "title": "Unwanted Shapes: Ride The Future"
+    "title": "Unwanted Shapes: Ride The Future",
+    "durationSeconds": 71
   },
   {
     "videoId": "pH_ex7KTplE",
-    "durationSeconds": 98,
-    "title": "It's not tourism. It's futourism."
+    "title": "It's not tourism. It's futourism.",
+    "durationSeconds": 98
   },
   {
     "videoId": "FvOj54nsD6A",
-    "durationSeconds": 98,
-    "title": "WYD: Cultural and Religious Heritage - Alcobaça"
+    "title": "WYD: Cultural and Religious Heritage - Alcobaça",
+    "durationSeconds": 98
   },
   {
     "videoId": "-XxUedtEx-Y",
-    "durationSeconds": 100,
-    "title": "WYD: Cultural and Religious Heritage - Mafra"
+    "title": "WYD: Cultural and Religious Heritage - Mafra",
+    "durationSeconds": 100
   },
   {
     "videoId": "17Ch-Zx36Oc",
-    "durationSeconds": 100,
-    "title": "WYD: Cultural and Religious Heritage - Viana do Castelo"
+    "title": "WYD: Cultural and Religious Heritage - Viana do Castelo",
+    "durationSeconds": 100
   },
   {
     "videoId": "78lMyhlK8oM",
-    "durationSeconds": 101,
-    "title": "WYD: Cultural and Religious Heritage - Gerês"
+    "title": "WYD: Cultural and Religious Heritage - Gerês",
+    "durationSeconds": 101
   },
   {
     "videoId": "CJm0hjC_nfw",
-    "durationSeconds": 100,
-    "title": "WYD: Cultural and Religious Heritage - Viana do Alentejo"
+    "title": "WYD: Cultural and Religious Heritage - Viana do Alentejo",
+    "durationSeconds": 100
   },
   {
     "videoId": "DEkuczx1HCE",
-    "durationSeconds": 99,
-    "title": "WYD: Cultural and Religious Heritage - Sernancelhe"
+    "title": "WYD: Cultural and Religious Heritage - Sernancelhe",
+    "durationSeconds": 99
   },
   {
     "videoId": "DeC1G-GRmyI",
-    "durationSeconds": 100,
-    "title": "WYD: Cultural and Religious Heritage - Évora"
+    "title": "WYD: Cultural and Religious Heritage - Évora",
+    "durationSeconds": 100
   },
   {
     "videoId": "GTw8WFEqiXU",
-    "durationSeconds": 100,
-    "title": "WYD: Cultural and Religious Heritage - Lisboa"
+    "title": "WYD: Cultural and Religious Heritage - Lisboa",
+    "durationSeconds": 100
   },
   {
     "videoId": "JdokadFe47U",
-    "durationSeconds": 100,
-    "title": "WYD: Cultural and Religious Heritage - Lamego"
+    "title": "WYD: Cultural and Religious Heritage - Lamego",
+    "durationSeconds": 100
   },
   {
     "videoId": "OzdG7UcNhtk",
-    "durationSeconds": 100,
-    "title": "WYD: Cultural and Religious Heritage - Fátima"
+    "title": "WYD: Cultural and Religious Heritage - Fátima",
+    "durationSeconds": 100
   },
   {
     "videoId": "RpvKeK0jPSk",
-    "durationSeconds": 99,
-    "title": "WYD: Cultural and Religious Heritage - Vila Nova de Gaia"
+    "title": "WYD: Cultural and Religious Heritage - Vila Nova de Gaia",
+    "durationSeconds": 99
   },
   {
     "videoId": "USSm7y8ae88",
-    "durationSeconds": 100,
-    "title": "WYD: Cultural and Religious Heritage - Nazaré"
+    "title": "WYD: Cultural and Religious Heritage - Nazaré",
+    "durationSeconds": 100
   },
   {
     "videoId": "YGyuV3NT84w",
-    "durationSeconds": 100,
-    "title": "WYD: Cultural and Religious Heritage - Loulé"
+    "title": "WYD: Cultural and Religious Heritage - Loulé",
+    "durationSeconds": 100
   },
   {
     "videoId": "YKX3a1Zm6M0",
-    "durationSeconds": 99,
-    "title": "WYD: Cultural and Religious Heritage - Idanha-a-Nova"
+    "title": "WYD: Cultural and Religious Heritage - Idanha-a-Nova",
+    "durationSeconds": 99
   },
   {
     "videoId": "_yaTi2snuJA",
-    "durationSeconds": 101,
-    "title": "WYD: Cultural and Religious Heritage - Madeira"
+    "title": "WYD: Cultural and Religious Heritage - Madeira",
+    "durationSeconds": 101
   },
   {
     "videoId": "fPmBPUVIM8M",
-    "durationSeconds": 101,
-    "title": "WYD: Cultural and Religious Heritage - Sagres"
+    "title": "WYD: Cultural and Religious Heritage - Sagres",
+    "durationSeconds": 101
   },
   {
     "videoId": "jW0VUBpp-40",
-    "durationSeconds": 100,
-    "title": "WYD: Cultural and Religious Heritage - Braga"
+    "title": "WYD: Cultural and Religious Heritage - Braga",
+    "durationSeconds": 100
   },
   {
     "videoId": "tZ5JC2PQ86c",
-    "durationSeconds": 101,
-    "title": "WYD: Cultural and Religious Heritage - Marco de Canaveses"
+    "title": "WYD: Cultural and Religious Heritage - Marco de Canaveses",
+    "durationSeconds": 101
   },
   {
     "videoId": "yhc4Xpfbr-Q",
-    "durationSeconds": 97,
-    "title": "WYD: Cultural and Religious Heritage - Vila Viçosa"
+    "title": "WYD: Cultural and Religious Heritage - Vila Viçosa",
+    "durationSeconds": 97
   },
   {
     "videoId": "UADiDVp5haY",
-    "durationSeconds": 100,
-    "title": "WYD: Cultural and Religious Heritage - Azores"
+    "title": "WYD: Cultural and Religious Heritage - Azores",
+    "durationSeconds": 100
   },
   {
     "videoId": "IE6PyUeERJc",
-    "durationSeconds": 100,
-    "title": "JMJ: Património Cultural e Religioso - Açores"
+    "title": "JMJ: Património Cultural e Religioso - Açores",
+    "durationSeconds": 100
   },
   {
     "videoId": "32VPt0OIpuI",
-    "durationSeconds": 100,
-    "title": "JMJ: Património Cultural e Religioso - Lamego"
+    "title": "JMJ: Património Cultural e Religioso - Lamego",
+    "durationSeconds": 100
   },
   {
     "videoId": "7QsN0ZQNA5A",
-    "durationSeconds": 99,
-    "title": "JMJ: Património Cultural e Religioso - Idanha-a-Nova"
+    "title": "JMJ: Património Cultural e Religioso - Idanha-a-Nova",
+    "durationSeconds": 99
   },
   {
     "videoId": "8s69MVBDdTY",
-    "durationSeconds": 101,
-    "title": "JMJ: Património Cultural e Religioso - Gerês"
+    "title": "JMJ: Património Cultural e Religioso - Gerês",
+    "durationSeconds": 101
   },
   {
     "videoId": "BWQC0pl4kRk",
-    "durationSeconds": 99,
-    "title": "JMJ: Património Cultural e Religioso - Sernancelhe"
+    "title": "JMJ: Património Cultural e Religioso - Sernancelhe",
+    "durationSeconds": 99
   },
   {
     "videoId": "DTqUlrD3Luc",
-    "durationSeconds": 100,
-    "title": "JMJ: Património Cultural e Religioso - Mafra"
+    "title": "JMJ: Património Cultural e Religioso - Mafra",
+    "durationSeconds": 100
   },
   {
     "videoId": "MJ14BpwWE70",
-    "durationSeconds": 99,
-    "title": "JMJ: Património Cultural e Religioso - Vila Viçosa"
+    "title": "JMJ: Património Cultural e Religioso - Vila Viçosa",
+    "durationSeconds": 99
   },
   {
     "videoId": "Out2kjfTIh4",
-    "durationSeconds": 101,
-    "title": "JMJ: Património Cultural e Religioso - Madeira"
+    "title": "JMJ: Património Cultural e Religioso - Madeira",
+    "durationSeconds": 101
   },
   {
     "videoId": "PXVab6R9Pck",
-    "durationSeconds": 100,
-    "title": "JMJ: Património Cultural e Religioso - Loulé"
+    "title": "JMJ: Património Cultural e Religioso - Loulé",
+    "durationSeconds": 100
   },
   {
     "videoId": "UO_lwPYEp9g",
-    "durationSeconds": 101,
-    "title": "JMJ: Património Cultural e Religioso - Marco de Canaveses"
+    "title": "JMJ: Património Cultural e Religioso - Marco de Canaveses",
+    "durationSeconds": 101
   },
   {
     "videoId": "bTyHvx9tUpA",
-    "durationSeconds": 100,
-    "title": "JMJ: Património Cultural e Religioso - Fátima"
+    "title": "JMJ: Património Cultural e Religioso - Fátima",
+    "durationSeconds": 100
   },
   {
     "videoId": "eC0LVXevb8Q",
-    "durationSeconds": 100,
-    "title": "JMJ: Património Cultural e Religioso - Viana do Alentejo"
+    "title": "JMJ: Património Cultural e Religioso - Viana do Alentejo",
+    "durationSeconds": 100
   },
   {
     "videoId": "fgyD2VW3bkc",
-    "durationSeconds": 101,
-    "title": "JMJ: Património Cultural e Religioso - Sagres"
+    "title": "JMJ: Património Cultural e Religioso - Sagres",
+    "durationSeconds": 101
   },
   {
     "videoId": "obbjcYMzX7k",
-    "durationSeconds": 98,
-    "title": "JMJ: Património Cultural e Religioso - Alcobaça"
+    "title": "JMJ: Património Cultural e Religioso - Alcobaça",
+    "durationSeconds": 98
   },
   {
     "videoId": "qFaIgulKOfA",
-    "durationSeconds": 100,
-    "title": "JMJ: Património Cultural e Religioso - Braga"
+    "title": "JMJ: Património Cultural e Religioso - Braga",
+    "durationSeconds": 100
   }
 ]

@@ -1,252 +1,612 @@
 [
   {
+    "videoId": "rGJvVxd15Ac",
+    "title": "Alice Layher is the new WORLD CHAMPION 🚀🥇 | FEI Vaulting World Championship Aachen 2026",
+    "durationSeconds": 407
+  },
+  {
+    "videoId": "5ax48lJzoF8",
+    "title": "Gardies and Thibaudat taking the lead! | FEI Vaulting World Championship Aachen 2026 - Pas-De-Deux",
+    "durationSeconds": 210
+  },
+  {
+    "videoId": "4Iew9IgsrFc",
+    "title": "Sam Dos Santos taking the lead on Day 2 | FEI Vaulting World Championship Aachen 2026 |",
+    "durationSeconds": 255
+  },
+  {
+    "videoId": "odtGm-gW0OE",
+    "title": "RE-LIVE | Press Conference - FEI Dressage World Championship 2026 - Individual Grand Prix Special",
+    "durationSeconds": 880
+  },
+  {
+    "videoId": "2fLApCH8IU8",
+    "title": "Lottie Fry & Glammy defend their title 👑🇬🇧 | FEI Dressage World Championship Aachen 2026",
+    "durationSeconds": 642
+  },
+  {
+    "videoId": "JlMj2HuvSBU",
+    "title": "Masterclass delivered on home soil from Julia Krajewski 🚀| FEI Eventing World Championship Aachen 26",
+    "durationSeconds": 422
+  },
+  {
+    "videoId": "nv-rBH2V-70",
+    "title": "Alice Layher Shines on Day 2✨ | FEI Vaulting World Championship Aachen 2026 | female technical test",
+    "durationSeconds": 307
+  },
+  {
+    "videoId": "qZIC1vZiNwg",
+    "title": "Tom McEwan & JL Dublin into the lead on Day 1 | FEI Eventing World Championship Aachen 2026",
+    "durationSeconds": 374
+  },
+  {
+    "videoId": "Z3-GbiR-fJk",
+    "title": "Germany's super squad in the lead on day 1 | FEI Vaulting World Championship 2026",
+    "durationSeconds": 588
+  },
+  {
+    "videoId": "YdLz0yOTjkw",
+    "title": "Beat the Heat: FEI World Championships Aachen 2026 Edition ☀️🌍",
+    "durationSeconds": 319
+  },
+  {
+    "videoId": "3EVShC9YEKQ",
+    "title": "Quentin Jabet storms into the lead on day 1 | FEI Vaulting World Championship Aachen 2026",
+    "durationSeconds": 306
+  },
+  {
+    "videoId": "WdfJpt95bnc",
+    "title": "How does Eventing work? 🤔 What to Know Before The FEI World Championships in Aachen 2026 💡👀👩‍🎓",
+    "durationSeconds": 125
+  },
+  {
+    "videoId": "srOoEvGuETE",
+    "title": "LAYHER LEADS AT HOME! 🇩🇪🔥 | FEI World Championships Aachen 2026",
+    "durationSeconds": 267
+  },
+  {
+    "videoId": "Yw7ii-9717s",
+    "title": "Gymnastics on Horseback? 😮 Vaulting Explained For The FEI World Championships in Aachen 2026 💡👀👩‍🎓",
+    "durationSeconds": 112
+  },
+  {
+    "videoId": "dkt3-Ixm-7M",
+    "title": "RE-LIVE | Press Conference - FEI Dressage World Championship 2026 - Team (Grand Prix)",
+    "durationSeconds": 2052
+  },
+  {
+    "videoId": "DCepLetMjko",
+    "title": "Werth & Wendy securing Team Gold for Germany! 🇩🇪👑🥇| FEI World Championships Aachen 2026",
+    "durationSeconds": 600
+  },
+  {
+    "videoId": "jgOLF2N6QPs",
+    "title": "Wandres & Germany storm to the top on Day 1 | FEI World Championships Aachen 2026",
+    "durationSeconds": 559
+  },
+  {
+    "videoId": "ggbjyAwFSSA",
+    "title": "Dressage Explained: What to Know Before The FEI World Championships in Aachen 2026 💡👀👩‍🎓",
+    "durationSeconds": 107
+  },
+  {
+    "videoId": "_N5LY084yuw",
+    "title": "THIS is how the French vaulters are training for Aachen 🤸‍♀️🐴🤩 | in partnership with @PivoEquestrian",
+    "durationSeconds": 786
+  },
+  {
+    "videoId": "00MHwA86eHM",
+    "title": "🔴 LIVE | Small Final 7yo horses FEI Dressage World Breeding Championship for Young Horses 2026",
+    "durationSeconds": 11931
+  },
+  {
+    "videoId": "1sFiTtyhOQk",
+    "title": "Federal Stud Piber: The home of the legendary Lipizzaner horses | RIDE presented by Longines",
+    "durationSeconds": 487
+  },
+  {
+    "videoId": "CVMBN-Ue0GY",
+    "title": "🔴 LIVE | Qualifier 5-year-old horses FEI Dressage World Breeding Championship for Young Horses 2026",
+    "durationSeconds": 27031
+  },
+  {
+    "videoId": "bJhRBkIiNM0",
+    "title": "🔴 LIVE | Qualifier 6-year-old horses FEI Dressage World Breeding Championship for Young Horses 2026",
+    "durationSeconds": 27576
+  },
+  {
+    "videoId": "sGQ9P4YeOtI",
+    "title": "Breeding with Passion: Cumbria Arabians | RIDE presented by Longines",
+    "durationSeconds": 408
+  },
+  {
+    "videoId": "GlAgBhNReKY",
+    "title": "BTS with the French Vaulting Team 🇫🇷 🤸🐴🤩 Road to Aachen 2026 | in partnership with @PivoEquestrian",
+    "durationSeconds": 766
+  },
+  {
+    "videoId": "ouOiE9vRikk",
+    "title": "🔴 LIVE | Pony Individual Final Round A - FEI Jumping European Championship for Ponies",
+    "durationSeconds": 5386
+  },
+  {
+    "videoId": "Ek8tpLAINnk",
+    "title": "🔴 LIVE | Pony Jumping - FEI Eventing European Championship for Ponies",
+    "durationSeconds": 11897
+  },
+  {
+    "videoId": "KAV2kfa-awA",
+    "title": "🔴 LIVE | Pony Riders Individual Part IV- FEI Dressage European Championship for Ponies",
+    "durationSeconds": 10920
+  },
+  {
+    "videoId": "AN4afKRWR7E",
+    "title": "🔴 LIVE | Pony Eventing Dressage Test Part II - FEI Eventing European Championship for Ponies",
+    "durationSeconds": 14084
+  },
+  {
+    "videoId": "nyH0b_eJols",
+    "title": "Sometimes when you meet some horses it's just fate - Meet Jemima Green | RIDE presented by Longines",
+    "durationSeconds": 521
+  },
+  {
+    "videoId": "Tqcr5l8kveA",
+    "title": "RE-LIVE | Pony 1st Competition (Teams & Individual) - FEI Jumping European Championship for Ponies",
+    "durationSeconds": 7125
+  },
+  {
+    "videoId": "GiJ2HG-3GjM",
+    "title": "RE-LIVE | Pony Team Part I - FEI Dressage European Championship for Ponies Le Mans (FRA)",
+    "durationSeconds": 11681
+  },
+  {
+    "videoId": "6oLDxmmhz3o",
+    "title": "CALVIN BÖCKMANN is your first-ever FEI Eventing World Championship U25 WINNER! 🥇🎉",
+    "durationSeconds": 132
+  },
+  {
+    "videoId": "Esl8-1ms-7o",
+    "title": "RE-LIVE | Jumping Test - FEI Eventing World Championship U25 Millstreet (IRL)",
+    "durationSeconds": 9012
+  },
+  {
+    "videoId": "mNQX3hUoP_o",
+    "title": "RE-LIVE | Team Final Juniors 1.40m + Prizegiving",
+    "durationSeconds": 17886
+  },
+  {
+    "videoId": "QXmaTAA3whw",
+    "title": "Haras du Pin - The Versailles of Horses 👑 | RIDE presented by Longines",
+    "durationSeconds": 477
+  },
+  {
+    "videoId": "YhLZFnDupFg",
+    "title": "RE-LIVE | Dressage Day 2 | FEI Eventing World Championship U25",
+    "durationSeconds": 10776
+  },
+  {
+    "videoId": "sBzDc2zEBF8",
+    "title": "RE-LIVE | Team Final Children 1.30m + Prizegiving Hagen",
+    "durationSeconds": 18990
+  },
+  {
+    "videoId": "Ox25l-rhnPs",
+    "title": "RE-LIVE | Second Competition Juniors 1.40m Hagen",
+    "durationSeconds": 18010
+  },
+  {
+    "videoId": "Dy-xXV5PPyA",
+    "title": "RE-LIVE | Dressage Day 1 | FEI Eventing World Championship U25 Millstreet (IRL)",
+    "durationSeconds": 13499
+  },
+  {
+    "videoId": "HeEaoz0yzMY",
+    "title": "RE-LIVE | Press Conference - FEI Jumping World Championship 2026 - Team",
+    "durationSeconds": 1271
+  },
+  {
+    "videoId": "LJKEOqlYa-Q",
+    "title": "GERMANY wins GOLD on HOME SOIL 🇩🇪 | FEI Jumping World Championship Aachen 2026",
+    "durationSeconds": 236
+  },
+  {
+    "videoId": "7kUTIWaE12E",
+    "title": "Chester leads the charge! 🇺🇸🎉 | FEI Driving World Championship Aachen 2026",
+    "durationSeconds": 638
+  },
+  {
+    "videoId": "6WUDn-nv_Mw",
+    "title": "Dries delivers on Day 1 | FEI Driving World Championship Aachen 2026",
+    "durationSeconds": 594
+  },
+  {
+    "videoId": "PPKKg4X1pmc",
+    "title": "Germany Remains on Track for Gold | FEI Jumping World Championship Aachen 2026",
+    "durationSeconds": 201
+  },
+  {
+    "videoId": "DWm_GGuuZ_8",
+    "title": "Press Conference - FEI Para Dressage World Championship 2026 - Gold medal winners Grade IV & V",
+    "durationSeconds": 695
+  },
+  {
+    "videoId": "O47c6s38mkg",
+    "title": "Sophie Wells & MSJ Gold Standard claiming another 🥇 | FEI Para Dressage World Championship Aachen",
+    "durationSeconds": 554
+  },
+  {
+    "videoId": "k8SRQMrizj0",
+    "title": "Kate Shoemaker & Vianne triumph in Aachen ✨| FEI Para Dressage World Championship Aachen 2026",
+    "durationSeconds": 477
+  },
+  {
+    "videoId": "zidFdFYBHdA",
+    "title": "Dressage, Marathon & Cones 🔥 Get to know Driving at the FEI World Championships Aachen 2026",
+    "durationSeconds": 125
+  },
+  {
+    "videoId": "Xc5fIE01_8w",
+    "title": "Heidemarie Dresing: claiming gold at 71 years of age | | FEI Para Dressage World Championship",
+    "durationSeconds": 565
+  },
+  {
+    "videoId": "5d2GwJWt0pc",
+    "title": "Press Conference - FEI Para Dressage World Championship 2026 - Gold medal winners Grade I - III",
+    "durationSeconds": 623
+  },
+  {
+    "videoId": "gcpCDtcPVtQ",
+    "title": "Sophie Hinners bringing Team Germany into the lead on day 1 | FEI Jumping World Championship Aachen",
+    "durationSeconds": 170
+  },
+  {
+    "videoId": "RXSpTiKAfQo",
+    "title": "Julien Epaillard ⚡️ fast on Day 1 | FEI Jumping World Championships Aachen 2026",
+    "durationSeconds": 160
+  },
+  {
+    "videoId": "qEsLUNkLPPU",
+    "title": "Marie Vonderheyden & Fan Tastico fantastic in Aachen 🤩 | FEI Para Dressage World Champs – Grade II",
+    "durationSeconds": 469
+  },
+  {
+    "videoId": "KnOiewGZmc4",
+    "title": "EVERYTHING you need to know about the Jumping competitions of the FEI World Championships in Aachen",
+    "durationSeconds": 148
+  },
+  {
+    "videoId": "9-_oiRaaWKQ",
+    "title": "Rixt van der Host with a PB to Gold 🥇| FEI Para Dressage World Championship – Grade III Aachen 2026",
+    "durationSeconds": 503
+  },
+  {
+    "videoId": "lcG_dZQgsrI",
+    "title": "Bringing a World Championship Routine to life for Aachen 2026 | partnership with@PivoEquestrian",
+    "durationSeconds": 810
+  },
+  {
+    "videoId": "LPBAoLo6LZs",
+    "title": "RE-LIVE | Press Conference - FEI Eventing World Championship 2026",
+    "durationSeconds": 2046
+  },
+  {
+    "videoId": "1LwezYbLsoM",
+    "title": "Team GB takes the Crown 🇬🇧👑 |  | FEI Eventing World Championship Aachen 2026",
+    "durationSeconds": 172
+  },
+  {
+    "videoId": "rVFHueNGjps",
+    "title": "WORLD CHAMPIONS 👑🇩🇪 Michi Jung & FischerChipmunk! | FEI Eventing World Championship Aachen 2026",
+    "durationSeconds": 170
+  },
+  {
+    "videoId": "BQ95N_reIg0",
+    "title": "RE-LIVE | Press Conference - FEI Vaulting World Championship 2026 - Pas de Deux, Nations' Cup",
+    "durationSeconds": 843
+  },
+  {
+    "videoId": "CAzFpns4VZM",
+    "title": "Home nation heroics! 🇩🇪🏆 | FEI Vaulting World Championship Aachen 2026 | Official Team Competition",
+    "durationSeconds": 628
+  },
+  {
+    "videoId": "8_dg7gBTl1E",
+    "title": "That’s how you win a world title! 🇫🇷🏆 | FEI Vaulting World Championship | Pas De Deux Freestyle",
+    "durationSeconds": 493
+  },
+  {
+    "videoId": "rrXkgN0Jha8",
+    "title": "Lottie Fry & Glamourdale 🚀: Defending DOUBLE WORLD CHAMPION | FEI Dressage World Championship Aachen",
+    "durationSeconds": 614
+  },
+  {
+    "videoId": "HX5U4XSY7JI",
+    "title": "RE-LIVE | Press Conference - FEI Dressage World Championship 2026 - Grand Prix Freestyle",
+    "durationSeconds": 739
+  },
+  {
+    "videoId": "P3Tk0gLovq4",
+    "title": "Another title for team Germany! | FEI Vaulting World Championship Aachen 2026 - Squad Freestyle",
+    "durationSeconds": 517
+  },
+  {
+    "videoId": "H7CmRg6xwI4",
+    "title": "RE-LIVE | Press Conference - FEI Vaulting World Championship 2026",
+    "durationSeconds": 782
+  },
+  {
+    "videoId": "_9cch5ORhuc",
+    "title": "Team GB into the lead after the Cross-Country | FEI Eventing World Championship 2026",
+    "durationSeconds": 323
+  },
+  {
+    "videoId": "eLiUUd2aOj4",
+    "title": "Michi Jung doing some Cross-Country magic at Aachen 🚀 | FEI Eventing World Championship Aachen 2026",
+    "durationSeconds": 355
+  },
+  {
+    "videoId": "wv8vPtrZF8g",
+    "title": "King Quentin reigns supreme 👑🤩 | male Free Test | FEI Eventing World Championship Aachen 2026",
+    "durationSeconds": 373
+  },
+  {
+    "videoId": "pKat_sefjeg",
+    "title": "🔴 LIVE | 02) Int. jumping competition against the clock (1.50m)",
+    "durationSeconds": 7331
+  },
+  {
+    "videoId": "5nLxXM_w7zU",
+    "title": "Fort Worth, unfiltered 🤯 behind the scenes of the Longines FEI Jumping World Cup Final 2026",
+    "durationSeconds": 1441
+  },
+  {
     "videoId": "7h2ObxDRCps",
-    "durationSeconds": 9421,
-    "title": "🔴 LIVE | GNP Seguros 1.45m with Jump Off | Longines FEI Jumping World Cup Puebla 2026"
+    "title": "🔴 LIVE | GNP Seguros 1.45m with Jump Off | Longines FEI Jumping World Cup Puebla 2026",
+    "durationSeconds": 9421
   },
   {
     "videoId": "z1U2odf3e7A",
-    "durationSeconds": 903,
-    "title": "Press Conference | Longines League of Nations Final 2026 - Barcelona"
+    "title": "Press Conference | Longines League of Nations Final 2026 - Barcelona",
+    "durationSeconds": 903
   },
   {
     "videoId": "p4Cs2L6P9xI",
-    "durationSeconds": 18600,
-    "title": "🔴 LIVE | Jumping - FEI Eventing Nations Cup™ Final 2026 Boekelo"
+    "title": "🔴 LIVE | Jumping - FEI Eventing Nations Cup™ Final 2026 Boekelo",
+    "durationSeconds": 18600
   },
   {
     "videoId": "xcdxwBFA4WI",
-    "durationSeconds": 162,
-    "title": "No jump-off necessary! 🤯🇳🇿 | Longines FEI Jumping World Cup™ Puebla 2026"
+    "title": "No jump-off necessary! 🤯🇳🇿 | Longines FEI Jumping World Cup™ Puebla 2026",
+    "durationSeconds": 162
   },
   {
     "videoId": "rEHj7AqQ-9w",
-    "durationSeconds": 27101,
-    "title": "🔴 LIVE | Dressage Day 2 - FEI Eventing Nations Cup™Final 2026 Boekelo"
+    "title": "🔴 LIVE | Dressage Day 2 - FEI Eventing Nations Cup™Final 2026 Boekelo",
+    "durationSeconds": 27101
   },
   {
     "videoId": "L9Tw_fsrA5s",
-    "durationSeconds": 9721,
-    "title": "🔴 LIVE | Puebla Tourism 1.50m with Jump Off"
+    "title": "🔴 LIVE | Puebla Tourism 1.50m with Jump Off",
+    "durationSeconds": 9721
   },
   {
     "videoId": "_gOFp4exgA0",
-    "durationSeconds": 32161,
-    "title": "🔴 LIVE | Dressage Day 1 - FEI Eventing Nations Cup™ Final 2026 Boekelo"
+    "title": "🔴 LIVE | Dressage Day 1 - FEI Eventing Nations Cup™ Final 2026 Boekelo",
+    "durationSeconds": 32161
   },
   {
     "videoId": "DK8KLITrLfc",
-    "durationSeconds": 1053,
-    "title": "The hills are calling! 🏔️📞 | on the Trail with Anna Freskgård | in partnership with Agria"
+    "title": "The hills are calling! 🏔️📞 | on the Trail with Anna Freskgård | in partnership with Agria",
+    "durationSeconds": 1053
   },
   {
     "videoId": "m5q3LcypsMc",
-    "durationSeconds": 116,
-    "title": "France take the win! 🇫🇷🏆 | FEI Eventing Nations Cup™ Lignières 2026"
+    "title": "France take the win! 🇫🇷🏆 | FEI Eventing Nations Cup™ Lignières 2026",
+    "durationSeconds": 116
   },
   {
     "videoId": "NAM0KZyianU",
-    "durationSeconds": 8685,
-    "title": "RE-LIVE | Jumping - FEI Eventing Nations Cup™ Lignières (FRA)"
+    "title": "RE-LIVE | Jumping - FEI Eventing Nations Cup™ Lignières (FRA)",
+    "durationSeconds": 8685
   },
   {
     "videoId": "qsFeDNvN_SQ",
-    "durationSeconds": 137,
-    "title": "Behind the scenes with para-dressage groom Rafael Hernandez? 👀Say no more! 🤩"
+    "title": "Behind the scenes with para-dressage groom Rafael Hernandez? 👀Say no more! 🤩",
+    "durationSeconds": 137
   },
   {
     "videoId": "A7oV7GhYvks",
-    "durationSeconds": 10200,
-    "title": "RE-LIVE | Dressage Day - FEI Eventing Nations Cup™ Lignières (FRA)"
+    "title": "RE-LIVE | Dressage Day - FEI Eventing Nations Cup™ Lignières (FRA)",
+    "durationSeconds": 10200
   },
   {
     "videoId": "iiNNKLpaTHs",
-    "durationSeconds": 11610,
-    "title": "RE-LIVE | Dressage Day - FEI Eventing Nations Cup™ Lignières (FRA)"
+    "title": "RE-LIVE | Dressage Day - FEI Eventing Nations Cup™ Lignières (FRA)",
+    "durationSeconds": 11610
   },
   {
     "videoId": "u8HDODkzqag",
-    "durationSeconds": 1027,
-    "title": "Great company and happy horses! 🤝🐴 on the Trail with Sandra Auffarth | in partnership with Agria"
+    "title": "Great company and happy horses! 🤝🐴 on the Trail with Sandra Auffarth | in partnership with Agria",
+    "durationSeconds": 1027
   },
   {
     "videoId": "JTj3RUrSwG0",
-    "durationSeconds": 123,
-    "title": "Beat Mändli & Qoachella Uncatchable! 🤩 | Longines FEI Jumping World Cup™  Traverse City 2026"
+    "title": "Beat Mändli & Qoachella Uncatchable! 🤩 | Longines FEI Jumping World Cup™  Traverse City 2026",
+    "durationSeconds": 123
   },
   {
     "videoId": "TLrer2Pb69w",
-    "durationSeconds": 617,
-    "title": "Press Conference | Longines League of Nations St. Tropez 2026"
+    "title": "Press Conference | Longines League of Nations St. Tropez 2026",
+    "durationSeconds": 617
   },
   {
     "videoId": "uqdQrMp2EOE",
-    "durationSeconds": 39886,
-    "title": "$62,500 American Gold Cup CSI5* Winning Round | Longines FEI Jumping World Cup Traverse City"
+    "title": "$62,500 American Gold Cup CSI5* Winning Round | Longines FEI Jumping World Cup Traverse City",
+    "durationSeconds": 39886
   },
   {
     "videoId": "fWScP6q4NIs",
-    "durationSeconds": 12100,
-    "title": "RE-LIVE | Consolation Class | FEI WBFSH Jumping World Breeding Championship for 7 year old horses"
+    "title": "RE-LIVE | Consolation Class | FEI WBFSH Jumping World Breeding Championship for 7 year old horses",
+    "durationSeconds": 12100
   },
   {
     "videoId": "eBblgzWil4I",
-    "durationSeconds": 10828,
-    "title": "RE-LIVE | $116,050 American Gold Cup CSI5* Qualifier | Longines FEI Jumping World Cup Traverse City"
+    "title": "RE-LIVE | $116,050 American Gold Cup CSI5* Qualifier | Longines FEI Jumping World Cup Traverse City",
+    "durationSeconds": 10828
   },
   {
     "videoId": "pFeZHeW7BR4",
-    "durationSeconds": 35311,
-    "title": "RE-LIVE | 2nd Qualifier | FEI WBFSH Jumping World Breeding Championship for horses of 6-years of age"
+    "title": "RE-LIVE | 2nd Qualifier | FEI WBFSH Jumping World Breeding Championship for horses of 6-years of age",
+    "durationSeconds": 35311
   },
   {
     "videoId": "w6dwd_cwtN4",
-    "durationSeconds": 28819,
-    "title": "RE-LIVE | 1st Qualifier | FEI WBFSH Jumping World Breeding Championship for horses of 5-years of age"
+    "title": "RE-LIVE | 1st Qualifier | FEI WBFSH Jumping World Breeding Championship for horses of 5-years of age",
+    "durationSeconds": 28819
   },
   {
     "videoId": "QF5xUUULtAg",
-    "durationSeconds": 5630,
-    "title": "RE-LIVE | 15) Seniors - Individual Final & Grand Prix Competition"
+    "title": "RE-LIVE | 15) Seniors - Individual Final & Grand Prix Competition",
+    "durationSeconds": 5630
   },
   {
     "videoId": "DJL6JCvxvR0",
-    "durationSeconds": 5341,
-    "title": "RE-LIVE | 14) Young Riders Individual Final & Grand Prix Competition"
+    "title": "RE-LIVE | 14) Young Riders Individual Final & Grand Prix Competition",
+    "durationSeconds": 5341
   },
   {
     "videoId": "cCDnHZSEjt4",
-    "durationSeconds": 6016,
-    "title": "RE-LIVE | 13)  Juniors - Individual Final & Grand Prix Competition"
+    "title": "RE-LIVE | 13)  Juniors - Individual Final & Grand Prix Competition",
+    "durationSeconds": 6016
   },
   {
     "videoId": "KxWUci4wpds",
-    "durationSeconds": 508,
-    "title": "500 Years of Marbach: - Horses, History & Heritage 😍| RIDE presented by Longines"
+    "title": "500 Years of Marbach: - Horses, History & Heritage 😍| RIDE presented by Longines",
+    "durationSeconds": 508
   },
   {
     "videoId": "HJMpnE4VAks",
-    "durationSeconds": 8191,
-    "title": "RE-LIVE | Second Qualifying Competition - FEI Jumping Nations Cup™ Final Ponies"
+    "title": "RE-LIVE | Second Qualifying Competition - FEI Jumping Nations Cup™ Final Ponies",
+    "durationSeconds": 8191
   },
   {
     "videoId": "UqP8Gy19Hw0",
-    "durationSeconds": 509,
-    "title": "The Ponies of Newoak Farm in Exeter 🤩  | RIDE presented by Longines"
+    "title": "The Ponies of Newoak Farm in Exeter 🤩  | RIDE presented by Longines",
+    "durationSeconds": 509
   },
   {
     "videoId": "YqewhYqhAIA",
-    "durationSeconds": 6606,
-    "title": "RE-LIVE | First Qualifying Competition - FEI Jumping Nations Cup™ Final Juniors"
+    "title": "RE-LIVE | First Qualifying Competition - FEI Jumping Nations Cup™ Final Juniors",
+    "durationSeconds": 6606
   },
   {
     "videoId": "bjgdPtb0b68",
-    "durationSeconds": 1024,
-    "title": "From Training Ground to Silver Glory in Aachen 😍 | in partnership with @PivoEquestrian"
+    "title": "From Training Ground to Silver Glory in Aachen 😍 | in partnership with @PivoEquestrian",
+    "durationSeconds": 1024
   },
   {
     "videoId": "PR_RbeMMHrA",
-    "durationSeconds": 24481,
-    "title": "RE-LIVE | Cones - FEI Driving World Championship fro Single Horses"
+    "title": "RE-LIVE | Cones - FEI Driving World Championship fro Single Horses",
+    "durationSeconds": 24481
   },
   {
     "videoId": "8aaOI4A82s8",
-    "durationSeconds": 403,
-    "title": "Driven by a dream! ✨  meet Moroccan Dressage athlete Yessin Rahmouni | RIDE presented by Longines"
+    "title": "Driven by a dream! ✨  meet Moroccan Dressage athlete Yessin Rahmouni | RIDE presented by Longines",
+    "durationSeconds": 403
   },
   {
     "videoId": "KT0RESowJuA",
-    "durationSeconds": 29979,
-    "title": "RE-LIVE | Dressage Day 2 - FEI Driving World Championship fro Single Horses"
+    "title": "RE-LIVE | Dressage Day 2 - FEI Driving World Championship fro Single Horses",
+    "durationSeconds": 29979
   },
   {
     "videoId": "AM89LeRP8Cg",
-    "durationSeconds": 29630,
-    "title": "RE-LIVE | Dressage Day 1 - FEI Driving World Championship for Single Horses Munich"
+    "title": "RE-LIVE | Dressage Day 1 - FEI Driving World Championship for Single Horses Munich",
+    "durationSeconds": 29630
   },
   {
     "videoId": "bNUZJn-EUUM",
-    "durationSeconds": 883,
-    "title": "Together on the trail! 🤝 on a hack with Sarah Ennis in Ireland | in partnership with Agria"
+    "title": "Together on the trail! 🤝 on a hack with Sarah Ennis in Ireland | in partnership with Agria",
+    "durationSeconds": 883
   },
   {
     "videoId": "OFfHzaHsoqw",
-    "durationSeconds": 590,
-    "title": "The FINAL Training Before Aachen2026 😱 | in partnership with @PivoEquestrian"
+    "title": "The FINAL Training Before Aachen2026 😱 | in partnership with @PivoEquestrian",
+    "durationSeconds": 590
   },
   {
     "videoId": "EnDUrYbMkBA",
-    "durationSeconds": 10120,
-    "title": "RE-LIVE | Jumping Test YR - FEI Eventing European Championship for Young Riders"
+    "title": "RE-LIVE | Jumping Test YR - FEI Eventing European Championship for Young Riders",
+    "durationSeconds": 10120
   },
   {
     "videoId": "Aw5KSx5uWf4",
-    "durationSeconds": 8701,
-    "title": "RE-LIVE | Cross Country Juniors - FEI Eventing European Championship for Juniors"
+    "title": "RE-LIVE | Cross Country Juniors - FEI Eventing European Championship for Juniors",
+    "durationSeconds": 8701
   },
   {
     "videoId": "mRHLqouCEk0",
-    "durationSeconds": 9665,
-    "title": "RE-LIVE | Dressage Test - 2nd Day Young Riders - FEI Eventing European Championship for Young Riders"
+    "title": "RE-LIVE | Dressage Test - 2nd Day Young Riders - FEI Eventing European Championship for Young Riders",
+    "durationSeconds": 9665
   },
   {
     "videoId": "mXMhp0M9Dp4",
-    "durationSeconds": 17670,
-    "title": "RE-LIVE | Dressage Test - 1st Day Juniors - FEI Eventing European Championship for Juniors"
+    "title": "RE-LIVE | Dressage Test - 1st Day Juniors - FEI Eventing European Championship for Juniors",
+    "durationSeconds": 17670
   },
   {
     "videoId": "msQTFTkMsf4",
-    "durationSeconds": 62,
-    "title": "Life goal: having as much fun as Isabell Werth & Wendy  had at the closing ceremony"
+    "title": "Life goal: having as much fun as Isabell Werth & Wendy  had at the closing ceremony",
+    "durationSeconds": 62
   },
   {
     "videoId": "Eii_ORrcJWQ",
-    "durationSeconds": 718,
-    "title": "The machine that helps vaulters train 🤸‍♀️🐴🤯 | in partnership with @PivoEquestrian"
+    "title": "The machine that helps vaulters train 🤸‍♀️🐴🤯 | in partnership with @PivoEquestrian",
+    "durationSeconds": 718
   },
   {
     "videoId": "-N0KbvCRzXU",
-    "durationSeconds": 1327,
-    "title": "RE-LIVE | Press Conference - FEI Jumping World Championship 2026 - Individual"
+    "title": "RE-LIVE | Press Conference - FEI Jumping World Championship 2026 - Individual",
+    "durationSeconds": 1327
   },
   {
     "videoId": "bzHmOVldRBY",
-    "durationSeconds": 301,
-    "title": "Steve Guerdat & Dynamix de Belheme: WORLD CHAMPIONS! 🌎👑 | FEI Jumping World Championship 2026"
+    "title": "Steve Guerdat & Dynamix de Belheme: WORLD CHAMPIONS! 🌎👑 | FEI Jumping World Championship 2026",
+    "durationSeconds": 301
   },
   {
     "videoId": "WsT94IPoFjU",
-    "durationSeconds": 324,
-    "title": "The Netherlands claiming Gold in Aachen 👑 🚀 | FEI Driving World Championship Aachen 2026"
+    "title": "The Netherlands claiming Gold in Aachen 👑 🚀 | FEI Driving World Championship Aachen 2026",
+    "durationSeconds": 324
   },
   {
     "videoId": "c2kaxieoukU",
-    "durationSeconds": 1241,
-    "title": "RE-LIVE | Press Conference - FEI Driving World Championship 2026"
+    "title": "RE-LIVE | Press Conference - FEI Driving World Championship 2026",
+    "durationSeconds": 1241
   },
   {
     "videoId": "PclbFCGtSsU",
-    "durationSeconds": 391,
-    "title": "BOYD EXELL World Champion again! | FEI Driving World Championship Aachen 2026"
+    "title": "BOYD EXELL World Champion again! | FEI Driving World Championship Aachen 2026",
+    "durationSeconds": 391
   },
   {
     "videoId": "QeBgx8lcwjU",
-    "durationSeconds": 424,
-    "title": "Rixt reigns victorious! 🥇 | FEI Para Dressage World Championship 2026"
+    "title": "Rixt reigns victorious! 🥇 | FEI Para Dressage World Championship 2026",
+    "durationSeconds": 424
   },
   {
     "videoId": "6mRBWodSFQo",
-    "durationSeconds": 587,
-    "title": "Marathon Masterclass from Boyd Exell | FEI Driving World Championship Aachen 2026"
+    "title": "Marathon Masterclass from Boyd Exell | FEI Driving World Championship Aachen 2026",
+    "durationSeconds": 587
   },
   {
     "videoId": "B_0fuPtl2n0",
-    "durationSeconds": 532,
-    "title": "USA are your team WORLD CHAMPIONS! 🇺🇸 | FEI Para Dressage World Championship Aachen 2026"
+    "title": "USA are your team WORLD CHAMPIONS! 🇺🇸 | FEI Para Dressage World Championship Aachen 2026",
+    "durationSeconds": 532
   },
   {
     "videoId": "cECF3g_MbVE",
-    "durationSeconds": 863,
-    "title": "RE-LIVE | Press Conference - FEI Para Dressage World Championship 2026 - Winning Team (Gold Medal)"
+    "title": "RE-LIVE | Press Conference - FEI Para Dressage World Championship 2026 - Winning Team (Gold Medal)",
+    "durationSeconds": 863
   }
 ]

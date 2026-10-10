@@ -43,3 +43,6 @@ __screenshots__/
 
 # Brainstorm visual companion
 .superpowers/
+
+# Resumable YouTube metadata collection (not shipped)
+.content-refresh/

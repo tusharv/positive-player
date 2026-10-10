@@ -1,252 +1,1012 @@
 [
   {
+    "videoId": "oPmKRtWta4E",
+    "title": "J.S. Bach - Toccata and Fugue in D Minor BWV 565 // Amy Turk, Harp",
+    "durationSeconds": 573
+  },
+  {
+    "videoId": "VlgwJ6BRTp0",
+    "title": "Bruno Mars - Marry You // Amy Turk, Harp",
+    "durationSeconds": 239
+  },
+  {
+    "videoId": "nEqgmi4RJ4s",
+    "title": "La Belle Noiseuse by Dominic Sewell // Amy Turk, Harp",
+    "durationSeconds": 588
+  },
+  {
+    "videoId": "vGvSH14TAUE",
+    "title": "Billy Idol - White Wedding - Amy Turk, Harp",
+    "durationSeconds": 151
+  },
+  {
+    "videoId": "LqMGOci44UY",
+    "title": "Harold Arlen - Over The Rainbow - Amy Turk, Harp",
+    "durationSeconds": 249
+  },
+  {
+    "videoId": "Wl6zjzSWqLQ",
+    "title": "J. Bannerman - Mairi's Wedding - Amy Turk, Harp",
+    "durationSeconds": 101
+  },
+  {
+    "videoId": "BrrzmAlGsIg",
+    "title": "J.S Bach - Jesu, Joy of Man's Desiring - Amy Turk, Harp",
+    "durationSeconds": 79
+  },
+  {
+    "videoId": "_ho6I9OIL0I",
+    "title": "Warp songs (from The Legend of Zelda: Ocarina of Time) [Koji Kondo] // Amy Turk, Harp and Ocarina",
+    "durationSeconds": 263
+  },
+  {
+    "videoId": "MuB1a9UXXcs",
+    "title": "O Come, O Come, Emmanuel [arr. Edwin McLean]  //  Amy Turk, Harp",
+    "durationSeconds": 188
+  },
+  {
+    "videoId": "PpAUJa1khiY",
+    "title": "Satie - Gymnopédie No. 1 // Amy Turk, Harp",
+    "durationSeconds": 273
+  },
+  {
+    "videoId": "oVkbLGn-iGc",
+    "title": "I'm making a Zelda OoT Album! (+ thanks for 100k subs!)",
+    "durationSeconds": 212
+  },
+  {
+    "videoId": "06q5VHEcVb8",
+    "title": "Title Theme - The Legend of Zelda: Ocarina of Time [Koji Kondo] // Amy Turk, Harp and Ocarina",
+    "durationSeconds": 200
+  },
+  {
+    "videoId": "9JfBPWgILfY",
+    "title": "Sheik's Theme (from The Legend of Zelda: Ocarina of Time) [Koji Kondo] // Amy Turk, Harp",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "PLmN-Y9Nwbg",
+    "title": "Great Fairy Fountain (from The Legend of Zelda series) [Koji Kondo] // Amy Turk, Harp",
+    "durationSeconds": 114
+  },
+  {
+    "videoId": "Uj4_73a7X6s",
+    "title": "Marcel Grandjany - Rêverie  //  Amy Turk, Harp",
+    "durationSeconds": 159
+  },
+  {
+    "videoId": "d3U1Uh9okO8",
+    "title": "Song of Healing (from The Legend of Zelda: Majora's Mask)  //  Amy Turk, Harp",
+    "durationSeconds": 181
+  },
+  {
+    "videoId": "zOEranIlxgM",
+    "title": "Oh Wonder - Technicolour Beat  //  Amy Turk, harp",
+    "durationSeconds": 202
+  },
+  {
+    "videoId": "loxM_n4UttE",
+    "title": "Andy McKee - Into The Ocean  // Amy Turk, harp",
+    "durationSeconds": 251
+  },
+  {
+    "videoId": "F5UnHy6MT_M",
+    "title": "Let it Snow! Let it Snow! Let it Snow!  //  Amy Turk, Harps",
+    "durationSeconds": 140
+  },
+  {
+    "videoId": "i-2nuHWa2aA",
+    "title": "Coldplay - Paradise  //  Amy Turk, Harp",
+    "durationSeconds": 279
+  },
+  {
+    "videoId": "5Yj3SAxH0uY",
+    "title": "The Merchant (from Dead Cells) // Amy Turk, harps",
+    "durationSeconds": 222
+  },
+  {
+    "videoId": "0QwTSUXKpw0",
+    "title": "Toto - Africa  //  Amy Turk, Harp [Home Studio Session]",
+    "durationSeconds": 279
+  },
+  {
+    "videoId": "GsDvsIkRhN8",
+    "title": "Exploration (from Coraline) // Amy Turk + Julia K",
+    "durationSeconds": 146
+  },
+  {
+    "videoId": "x0KlC5MCVrc",
+    "title": "Riding (Night) from The Legend of Zelda: Breath of the Wild  //  Amy Turk, Harps",
+    "durationSeconds": 145
+  },
+  {
+    "videoId": "ergJoWHToQc",
+    "title": "Riding (Day) from The Legend of Zelda: Breath of the Wild  //  Amy Turk, Harps",
+    "durationSeconds": 141
+  },
+  {
+    "videoId": "apl52VZLHp8",
+    "title": "Build 4 (from The Sims) // Amy Turk, harp",
+    "durationSeconds": 261
+  },
+  {
+    "videoId": "4xV3F4-b5yg",
+    "title": "When You Wish Upon A Star (from Pinocchio)  //  Amy Turk, Harp",
+    "durationSeconds": 204
+  },
+  {
+    "videoId": "ozOQHO__7nM",
+    "title": "Vivaldi - Winter, 2nd Movement (from the Four Seasons) // Amy Turk, harp",
+    "durationSeconds": 164
+  },
+  {
+    "videoId": "dGmIpdBukfI",
+    "title": "In The Bleak Midwinter [Gustav Holst]  //  Amy Turk, Harp",
+    "durationSeconds": 297
+  },
+  {
+    "videoId": "Nz15gbUa-k4",
+    "title": "Claude Debussy - Clair de Lune // Amy Turk, harp",
+    "durationSeconds": 367
+  },
+  {
+    "videoId": "vYnqLOQOlZk",
+    "title": "Sally's Song (from The Nightmare Before Christmas) [Danny Elfman]  //  Amy Turk, Harps",
+    "durationSeconds": 126
+  },
+  {
+    "videoId": "xShtUzlMmaM",
+    "title": "Muse - Falling Away With You  // Amy Turk, Harp (In Memory of Sam Glover)",
+    "durationSeconds": 337
+  },
+  {
+    "videoId": "8WnoEtYNov8",
+    "title": "Ben E. King - Stand By Me  //  Amy Turk, Harp",
+    "durationSeconds": 225
+  },
+  {
+    "videoId": "YijYQPY_ac0",
+    "title": "J.S. Bach - Prelude No. 1 in C Major, BWV 846 // Amy Turk, Harp",
+    "durationSeconds": 140
+  },
+  {
+    "videoId": "Rm_jFr9fk1A",
+    "title": "J.S. Bach - \"Air\" from Orchestral Suite No. 3, BWV 1068 // Amy Turk, Harp",
+    "durationSeconds": 246
+  },
+  {
+    "videoId": "kHs6PDZ87XU",
+    "title": "Rey's Theme (From Star Wars: Episode VII) [John Williams] // Amy Turk, Harps",
+    "durationSeconds": 210
+  },
+  {
+    "videoId": "xy2IDm9LqFw",
+    "title": "Gwyn, Lord of Cinder (from Dark Souls) // Amy Turk, Harps",
+    "durationSeconds": 241
+  },
+  {
+    "videoId": "9emx0jUnJno",
+    "title": "Zora's Domain (from The Legend of Zelda series) [Koji Kondo] // Amy Turk, Harps",
+    "durationSeconds": 208
+  },
+  {
+    "videoId": "8VXjIcrqtVE",
+    "title": "Continue / Prelude (from Final Fantasy VII)  [Nobuo Uematsu]  //  Amy Turk, Harps",
+    "durationSeconds": 192
+  },
+  {
+    "videoId": "N_9tOHJEkKc",
+    "title": "[Foot Cam Special] - Tchaikovsky - Dance of the Sugar Plum Fairy // Amy Turk, Harp",
+    "durationSeconds": 151
+  },
+  {
+    "videoId": "1c4wGOoohMY",
+    "title": "Feed The Birds (from Mary Poppins) // Amy Turk, Harp",
+    "durationSeconds": 324
+  },
+  {
+    "videoId": "m5d_yFdM6hk",
+    "title": "Tchaikovsky - Dance of the Sugar Plum Fairy  // Amy Turk, Harp",
+    "durationSeconds": 145
+  },
+  {
+    "videoId": "l5ocyCOlOFg",
+    "title": "Clutch - Drink to the Dead  //  Amy Turk, Harp (In Memory of Chris Burgess)",
+    "durationSeconds": 396
+  },
+  {
+    "videoId": "MBEdmu_1pL8",
+    "title": "Pallet Town (from Pokémon Red/Blue/Yellow) // Amy Turk, harp",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "GFW57LaeUpE",
+    "title": "Pokémon TV Theme // Amy Turk, Harp",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "GYechj9AgZI",
+    "title": "Phil Collins – Against All Odds // Amy Turk – Harp // Guru Drums Honest Capture Session 2016",
+    "durationSeconds": 258
+  },
+  {
+    "videoId": "Ihw6VMU17r8",
+    "title": "Sacred Grove / Lost Woods (from The Legend of Zelda series) [Koji Kondo] // Amy Turk, Harp/Ocarina",
+    "durationSeconds": 149
+  },
+  {
+    "videoId": "iY652muRsKs",
+    "title": "Muse - Plug In Baby // Amy Turk, harp",
+    "durationSeconds": 223
+  },
+  {
+    "videoId": "cBIkdnNAlO4",
+    "title": "Zelda's Lullaby [Koji Kondo] // Amy Turk, Harp",
+    "durationSeconds": 125
+  },
+  {
+    "videoId": "cS5d2wD8OoI",
+    "title": "Beauty and the Beast [Alan Menken] // Amy Turk, Harp",
+    "durationSeconds": 223
+  },
+  {
+    "videoId": "TW_4IDNLP1I",
+    "title": "Ellie Goulding - Love Me Like You Do // Amy Turk, Harp",
+    "durationSeconds": 272
+  },
+  {
+    "videoId": "IewO4pghXqs",
+    "title": "Anthrax - Safe Home // Amy Turk, Harp",
+    "durationSeconds": 199
+  },
+  {
+    "videoId": "26n6SWY3jUc",
+    "title": "Fairy Fountain (from The Legend of Zelda series) [Koji Kondo] // Amy Turk, Harp",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "yyeuOmieaMM",
+    "title": "Toto - Africa // Amy Turk, Harp",
+    "durationSeconds": 208
+  },
+  {
+    "videoId": "paXn1Q0aelA",
+    "title": "John Thomas - Watching the Wheat // Amy Turk, Harp",
+    "durationSeconds": 301
+  },
+  {
+    "videoId": "sEaQyzVX6_A",
+    "title": "Testing out my electroacoustic harp / Merry Christmas!",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "M8DtW1NHZK8",
+    "title": "\"Bronze\" Preview //  Amy Turk",
+    "durationSeconds": 99
+  },
+  {
+    "videoId": "L_SZ4JCiEQw",
+    "title": "Answering your questions",
+    "durationSeconds": 1008
+  },
+  {
+    "videoId": "Cnoq19YIy1A",
+    "title": "VGM - Instagram Compilation #5   //  Amy Turk",
+    "durationSeconds": 670
+  },
+  {
+    "videoId": "pH0nPyNp0ao",
+    "title": "Chemical Plant Zone (Sonic 2)  // Amy Turk (+ Jake Allen & TJ Rankin)",
+    "durationSeconds": 82
+  },
+  {
+    "videoId": "Fqr87J_Sjyw",
+    "title": "Film & TV - Instagram Compilation #4  //  Amy Turk",
+    "durationSeconds": 1128
+  },
+  {
+    "videoId": "obf5N_sTinE",
+    "title": "Pop and Rock, 70s, 80s & 90s - Instagram Compilation #3  //  Amy Turk",
+    "durationSeconds": 998
+  },
+  {
+    "videoId": "mwYNcJkOUo0",
+    "title": "Pop Covers - Instagram Compilation #2  //  Amy Turk",
+    "durationSeconds": 713
+  },
+  {
+    "videoId": "xz265OoxQuI",
+    "title": "Songs I learned for fun - Instagram Compilation #1   //  Amy Turk",
+    "durationSeconds": 594
+  },
+  {
+    "videoId": "NNLJYtfsvfI",
+    "title": "Ed Sheeran - Perfect  //  Amy Turk | Musicnotes Signature Artist Preview",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "Iua0Yl6Mj2U",
+    "title": "Plini - The Glass Bead Game - Harp Solo  //  Amy Turk",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "n-9TEkyL3hs",
+    "title": "And So, Here We Are  //  Amy Turk  (+ David Stanton)",
+    "durationSeconds": 215
+  },
+  {
+    "videoId": "zaq4VZrkKQU",
+    "title": "Korok Forest (from The Legend of Zelda: Breath of the Wild)  //  Amy Turk",
+    "durationSeconds": 192
+  },
+  {
+    "videoId": "yFaUeGPtews",
+    "title": "Snowy (from Undertale) [Toby Fox] // Amy Turk",
+    "durationSeconds": 245
+  },
+  {
+    "videoId": "6wW2j8tqeQ4",
+    "title": "Harp solo x Oh Wonder - How It Goes // Amy Turk",
+    "durationSeconds": 82
+  },
+  {
+    "videoId": "HTj5y17KUnE",
+    "title": "Credits / Ocarina of Time [Zelda OoT] // Amy Turk",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "u_UC5-RPhnQ",
+    "title": "Ganondorf Battle [Zelda OoT] // Amy Turk",
+    "durationSeconds": 153
+  },
+  {
+    "videoId": "77dewLSfhMM",
+    "title": "Ganondorf [Zelda OoT] // Amy Turk",
+    "durationSeconds": 231
+  },
+  {
+    "videoId": "WOjnAvXFN5s",
+    "title": "Gerudo Valley [Zelda OoT] // Amy Turk",
+    "durationSeconds": 191
+  },
+  {
+    "videoId": "1QgXKklrrLY",
+    "title": "Song of Storms [Zelda OoT] // Amy Turk",
+    "durationSeconds": 108
+  },
+  {
+    "videoId": "MZO1oKdU7rs",
+    "title": "Warp Songs [Zelda OoT] // Amy Turk",
+    "durationSeconds": 242
+  },
+  {
+    "videoId": "ue-JtE2q5jc",
+    "title": "Sheik's Theme [Zelda OoT] // Amy Turk",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "qYFtaggPAzo",
+    "title": "Chamber of the Sages [Zelda OoT] // Amy Turk",
+    "durationSeconds": 207
+  },
+  {
+    "videoId": "Z9YbJDUI-iU",
+    "title": "Temple of Time [Zelda OoT] // Amy Turk",
+    "durationSeconds": 187
+  },
+  {
+    "videoId": "1kFPfoVW6EY",
+    "title": "Battle Themes [Zelda OoT] // Amy Turk",
+    "durationSeconds": 245
+  },
+  {
+    "videoId": "d-psvoX1XgQ",
+    "title": "Zora's Domain [Zelda OoT] // Amy Turk",
+    "durationSeconds": 201
+  },
+  {
+    "videoId": "vLz-xPFixN8",
+    "title": "Lost Woods [Zelda OoT] // Amy Turk",
+    "durationSeconds": 123
+  },
+  {
+    "videoId": "V8vU6INBbR0",
+    "title": "Goron City [Zelda OoT] // Amy Turk",
+    "durationSeconds": 167
+  },
+  {
+    "videoId": "rIIBsh3PK2Q",
+    "title": "Kakariko Village [Zelda OoT] // Amy Turk",
+    "durationSeconds": 199
+  },
+  {
+    "videoId": "W-MQA42dQ5o",
+    "title": "Epona's Song [Zelda OoT] // Amy Turk",
+    "durationSeconds": 140
+  },
+  {
+    "videoId": "-ZRyhMRQZ-w",
+    "title": "Zelda's Theme [Zelda OoT] // Amy Turk",
+    "durationSeconds": 106
+  },
+  {
+    "videoId": "iPLWhfA4dAo",
+    "title": "Castle Town [Zelda OoT] // Amy Turk",
+    "durationSeconds": 104
+  },
+  {
+    "videoId": "3B1KTy5wOW0",
+    "title": "Hyrule Field [Zelda OoT] // Amy Turk",
+    "durationSeconds": 273
+  },
+  {
+    "videoId": "a6vRjfgPP9o",
+    "title": "Kokiri Forest [Zelda OoT] // Amy Turk",
+    "durationSeconds": 122
+  },
+  {
+    "videoId": "9sH2g3-Uohc",
+    "title": "Inside A House [Zelda OoT] // Amy Turk",
+    "durationSeconds": 68
+  },
+  {
+    "videoId": "1r7xVKdz3_w",
+    "title": "Fairy Fountain [Zelda OoT] // Amy Turk",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "BuFLv1WFxOM",
+    "title": "Title Theme [Zelda OoT] // Amy Turk",
+    "durationSeconds": 179
+  },
+  {
+    "videoId": "n-57k36Drm8",
+    "title": "Song of Time - Full Album [Zelda OoT]  //  Amy Turk",
+    "durationSeconds": 3578
+  },
+  {
+    "videoId": "_xKtKUBLST0",
+    "title": "Billie Eilish - Bad Guy  //  Amy Turk, Harp & Electric Harp",
+    "durationSeconds": 171
+  },
+  {
+    "videoId": "PcWcv6EBSZs",
+    "title": "Inside a House (from The Legend of Zelda: Ocarina of Time) [Koji Kondo] // Amy Turk, Harps",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "d-x43mOOC_M",
+    "title": "Plini x Neural DSP solo contest  //  Amy Turk, harp",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "mHpjcCk6N7g",
+    "title": "Temple of Time (from The Legend of Zelda: Ocarina of Time) [Koji Kondo] // Amy Turk, Harp & Ocarina",
+    "durationSeconds": 206
+  },
+  {
+    "videoId": "bv8NrcUK5Cg",
+    "title": "Ganondorf's Theme (from The Legend of Zelda: Ocarina of Time) [Koji Kondo] // Amy Turk, Harps",
+    "durationSeconds": 239
+  },
+  {
+    "videoId": "HkM397KEbsU",
+    "title": "The Making of Power, Part 1 // #harp #power #shorts",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "5XhMXnps8m8",
+    "title": "Syzygy highlights, live in Utah #syzygy #harp #livemusic",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "svk6MsMU1Nk",
+    "title": "The Making of Wisdom  //  #harp #acoustic #grief",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "L73thuHpZCc",
+    "title": "Into the Ocean by Andy McKee, arranged for harp #acoustic #harp #percussion",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "k0QCwY2zDTU",
+    "title": "Courage, live in Manchester #syzygy #harp #livemusic",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "ZaoHencjHz4",
+    "title": "Power, live in London #syzygy #harp #livemusic",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "ILsaS01RLBw",
+    "title": "Harp Alchemy Launch Party with Amy Turk & Lauren Scott",
+    "durationSeconds": 3766
+  },
+  {
+    "videoId": "xzDsIdMvfaw",
+    "title": "Amy Turk - Power",
+    "durationSeconds": 256
+  },
+  {
+    "videoId": "1_NfFuW39-Q",
+    "title": "Amy Turk - Wisdom",
+    "durationSeconds": 392
+  },
+  {
+    "videoId": "xla3n9Uh6XM",
+    "title": "Amy Turk - Courage",
+    "durationSeconds": 284
+  },
+  {
+    "videoId": "UAHM14g-6KM",
+    "title": "\"Spirit\" - percussive harp improvisaton  //  Amy Turk",
+    "durationSeconds": 141
+  },
+  {
+    "videoId": "MZ2Dm3QQ9dA",
+    "title": "Take On Me - a-ha  //  Amy Turk + @laurenscottharp",
+    "durationSeconds": 249
+  },
+  {
+    "videoId": "XxRfHRJlI_4",
+    "title": "Introducing Harp Alchemy with Amy Turk & Lauren Scott",
+    "durationSeconds": 161
+  },
+  {
+    "videoId": "RoX9f_8AQZg",
+    "title": "Song of Healing (Zelda: Majora's Mask) // #zelda #majorasmask #harp",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "SIGe2kJfyQ0",
+    "title": "\"Determination\" - percussive harp improvisation  //  Amy Turk",
+    "durationSeconds": 131
+  },
+  {
+    "videoId": "7yA_oY_l5Qg",
+    "title": "After The Battle (Zelda: Twilight Princess) for solo harp // #zelda #twilightprincess #harp",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "n5GTexroV9s",
+    "title": "Trying to keep up with Baxty!   //  Amy Turk",
+    "durationSeconds": 62
+  },
+  {
+    "videoId": "3mAd4akXQ38",
+    "title": "Level Task (from The Legend of Galahad)   //  #harp #retrogames #segamegadrive",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "30wE5AaUM5Q",
+    "title": "\"In The Dark\"  -  percussive harp improvisation  //  Amy Turk",
+    "durationSeconds": 133
+  },
+  {
+    "videoId": "1AJXBB9deo8",
+    "title": "Dire, Dire Docks (Super Mario 64) for solo harp  //  #mario #vgm #harp",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "3N57aotON4A",
+    "title": "Silent Night (arr. Ola Gjeilo)  // #christmas #carol #harp",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "gL0SoJUw1KY",
+    "title": "The Bar (from Starship Titanic) for harp duet // #harp #vgm #pointandclick",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "3bVZhsOZGec",
+    "title": "Epona's Song (Zelda: Ocarina of Time) for solo harp  //  #zelda #ocarinaoftime #harp",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "W5UND4_Nnk0",
+    "title": "Handpan Jam in C# // Amy Turk + Peter Nielsen",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "9px44JAnHG0",
+    "title": "Korok Forest (Zelda: TOTK) for solo harp  //  #zelda #tearsofthekingdom #harp",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "hpKlzSftMOU",
+    "title": "Title Theme (Zelda: Ocarina of Time) for solo harp",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "vOpPsNwp7VY",
+    "title": "Lavender Town (Pokémon G/S/C)  // #spooky #halloween #vgm #harp",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "a_DgQoMHdls",
+    "title": "What Was I Made For? - Billie Eilish   //   Amy Turk",
+    "durationSeconds": 251
+  },
+  {
+    "videoId": "-ULQ6ORDI14",
+    "title": "\"32\" - a sketch I wrote for my Patrons   //  Amy Turk",
+    "durationSeconds": 136
+  },
+  {
+    "videoId": "zfjF-P7C--c",
+    "title": "Time (solo) - Pink Floyd  //  Amy Turk  (+ David Stanton & Julia K)",
+    "durationSeconds": 130
+  },
+  {
+    "videoId": "h3a6zrCiVxg",
+    "title": "Wholly Moral Ground (American McGee's Alice) - Chris Vrenna  //  Amy Turk (+ Coen Strouken)",
+    "durationSeconds": 265
+  },
+  {
+    "videoId": "ruYg23Cg4bw",
+    "title": "Sultans of Swing (solo) - Dire Straits  //  Amy Turk  (+ David Stanton)",
+    "durationSeconds": 125
+  },
+  {
+    "videoId": "z2snHjpOEBY",
+    "title": "Flourishing Category - Poppyharp Festival 2023 #harp #competition #shorts",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "4DXy9HYhtBw",
+    "title": "How to enter the Fledgling category  //  PoppyHarp Festival 2023 #harp #competition",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "9Khc2CTCUbE",
+    "title": "Everything you need to know to enter the Pop Covers class of the Poppyharp Festival!",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "wffzw1qkk6Q",
+    "title": "I'm adjudicating an online harp festival!  // PoppyHarp Competitive Harp Festival 2023",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "EDDz3rEX3rA",
+    "title": "Sally's Song (The Nightmare Before Christmas) - Harp Solo  //  Amy Turk",
+    "durationSeconds": 125
+  },
+  {
+    "videoId": "jgOwHEU2bhE",
+    "title": "Hydrocity Zone (Sonic 3)  // Amy Turk (+ Jake Allen & TJ Rankin)",
+    "durationSeconds": 257
+  },
+  {
+    "videoId": "Hh8MjR9yhdY",
+    "title": "How to play Fairy Fountain on a real harp!",
+    "durationSeconds": 700
+  },
+  {
+    "videoId": "8api9PvvBC4",
+    "title": "Secret of the Forest (Chrono Trigger)  //  Amy Turk + Jake Allen, TJ Rankin and Lexi Bondar",
+    "durationSeconds": 299
+  },
+  {
+    "videoId": "vnRwd_mRn3g",
+    "title": "Roaming Harp-E for Tap The Mask 🎭",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "7uYTPVrwR3s",
+    "title": "Testing out my new roaming Harp-E setup",
+    "durationSeconds": 211
+  },
+  {
+    "videoId": "qHp2KIrqIVg",
+    "title": "Harp Percussion Workshop in Dunblane, Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "zi6du3UndsI",
+    "title": "Harp Alchemy Concert at RCS 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "tpioF1PYib8",
+    "title": "Exploration (from Coraline) for solo harp  //  Amy Turk",
+    "durationSeconds": 155
+  },
+  {
+    "videoId": "PP0W1Ts31Ko",
+    "title": "✨HARP ALCHEMY CONCERT IN CUMBRIA 🐏✨",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "oGaqlG4LQXc",
+    "title": "✨🌌 HARP ALCHEMY CONCERT IN DUNBLANE 🏴󠁧󠁢󠁳󠁣󠁴󠁿🌌✨",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "A7hTCuQCeRg",
+    "title": "Harp Alchemy - Concerts and workshops UK Autumn 2024 with @laurenscottharp",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "ZJEC5d1qPQg",
+    "title": "Learn to play Courage with me this weekend in Milan 🇮🇹",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "v3QokbVTnNo",
+    "title": "Learn to play Paradise with me this September in Italy 🇮🇹",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "_S91m0gGpQ8",
+    "title": "The Making of Syzygy  //  Amy Turk",
+    "durationSeconds": 392
+  },
+  {
+    "videoId": "bTQf5ClH8XA",
+    "title": "Amy Turk - Syzygy (Full EP)",
+    "durationSeconds": 864
+  },
+  {
+    "videoId": "zQnNfX8aZYs",
+    "title": "The Making of Power, Part 3 // #harp #power #shorts",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "7K0-xYiPidw",
+    "title": "The Making of Power, Part 2  //  #harp #power #shorts",
+    "durationSeconds": 60
+  },
+  {
     "videoId": "rzSEURU9YJU",
-    "durationSeconds": 169,
-    "title": "\"Red Sky\" - Study No. 11 (from Pop Studies Volume 1)"
+    "title": "\"Red Sky\" - Study No. 11 (from Pop Studies Volume 1)",
+    "durationSeconds": 169
   },
   {
     "videoId": "w3ca2kAaw1A",
-    "durationSeconds": 61,
-    "title": "Learn to play \"Spirit\" with me this weekend at the Swiss Harp Day 🇨🇭🪉"
+    "title": "Learn to play \"Spirit\" with me this weekend at the Swiss Harp Day 🇨🇭🪉",
+    "durationSeconds": 61
   },
   {
     "videoId": "mIOKVDAhViE",
-    "durationSeconds": 175,
-    "title": "\"Forever\" - Study No. 10 (from Pop Studies Volume 1)"
+    "title": "\"Forever\" - Study No. 10 (from Pop Studies Volume 1)",
+    "durationSeconds": 175
   },
   {
     "videoId": "XzTJWWQR5RY",
-    "durationSeconds": 139,
-    "title": "\"Fire Dancer\" - Study No. 9 (from Pop Studies Volume 1)"
+    "title": "\"Fire Dancer\" - Study No. 9 (from Pop Studies Volume 1)",
+    "durationSeconds": 139
   },
   {
     "videoId": "m5paLDfKKYY",
-    "durationSeconds": 131,
-    "title": "\"Stormclouds\" - Study No. 8 (from Pop Studies Volume 1)"
+    "title": "\"Stormclouds\" - Study No. 8 (from Pop Studies Volume 1)",
+    "durationSeconds": 131
   },
   {
     "videoId": "yznAoo4WsfQ",
-    "durationSeconds": 173,
-    "title": "\"Sunset\" - Study No. 7 (from Pop Studies Volume 1)"
+    "title": "\"Sunset\" - Study No. 7 (from Pop Studies Volume 1)",
+    "durationSeconds": 173
   },
   {
     "videoId": "bAVsxrUzjnA",
-    "durationSeconds": 162,
-    "title": "\"Fly Away\" - Study No. 6 (from Pop Studies Volume 1)"
+    "title": "\"Fly Away\" - Study No. 6 (from Pop Studies Volume 1)",
+    "durationSeconds": 162
   },
   {
     "videoId": "jWO0BiiOVm0",
-    "durationSeconds": 146,
-    "title": "\"Road Trip\" - Study No. 5 (from Pop Studies Volume 1)"
+    "title": "\"Road Trip\" - Study No. 5 (from Pop Studies Volume 1)",
+    "durationSeconds": 146
   },
   {
     "videoId": "e5l2B803xJg",
-    "durationSeconds": 168,
-    "title": "\"Golden Path\" - Study No. 4 (from Pop Studies Volume 1)"
+    "title": "\"Golden Path\" - Study No. 4 (from Pop Studies Volume 1)",
+    "durationSeconds": 168
   },
   {
     "videoId": "1NR8cRoJw34",
-    "durationSeconds": 126,
-    "title": "\"Sunbeam\" - Study No. 3 (from Pop Studies Volume 1)"
+    "title": "\"Sunbeam\" - Study No. 3 (from Pop Studies Volume 1)",
+    "durationSeconds": 126
   },
   {
     "videoId": "95J7lkE-5XY",
-    "durationSeconds": 172,
-    "title": "\"Going Home\" - Study No. 2 (from Pop Studies Volume 1)"
+    "title": "\"Going Home\" - Study No. 2 (from Pop Studies Volume 1)",
+    "durationSeconds": 172
   },
   {
     "videoId": "yYmGWoPGttQ",
-    "durationSeconds": 198,
-    "title": "\"First Light\" - Study No. 1 (from Pop Studies Volume 1)"
+    "title": "\"First Light\" - Study No. 1 (from Pop Studies Volume 1)",
+    "durationSeconds": 198
   },
   {
     "videoId": "QDM96YwSTWo",
-    "durationSeconds": 376,
-    "title": "Quick update - new book, new music, new album, new shows!"
+    "title": "Quick update - new book, new music, new album, new shows!",
+    "durationSeconds": 376
   },
   {
     "videoId": "KULhuFLF7l8",
-    "durationSeconds": 90,
-    "title": "My new merch store!"
+    "title": "My new merch store!",
+    "durationSeconds": 90
   },
   {
     "videoId": "J39wLSNr5ps",
-    "durationSeconds": 62,
-    "title": "I'm performing at One Harp World this summer 🪉"
+    "title": "I'm performing at One Harp World this summer 🪉",
+    "durationSeconds": 62
   },
   {
     "videoId": "mFSskDks1JA",
-    "durationSeconds": 61,
-    "title": "OoT Title Theme on harp and ocarina #tloz #harp #vgm"
+    "title": "OoT Title Theme on harp and ocarina #tloz #harp #vgm",
+    "durationSeconds": 61
   },
   {
     "videoId": "Jnpm7ilskYU",
-    "durationSeconds": 229,
-    "title": "Elegy of the Deep (from Hollow Knight: Silksong)  //  Harp solo"
+    "title": "Elegy of the Deep (from Hollow Knight: Silksong)  //  Harp solo",
+    "durationSeconds": 229
   },
   {
     "videoId": "ObfpYp6QyzE",
-    "durationSeconds": 69,
-    "title": "Songclave (Silksong) on harp 🪉🐞📜"
+    "title": "Songclave (Silksong) on harp 🪉🐞📜",
+    "durationSeconds": 69
   },
   {
     "videoId": "V-Hn5HTixZc",
-    "durationSeconds": 180,
-    "title": "Songclave (from Hollow Knight: Silksong)   //   Harp Duet"
+    "title": "Songclave (from Hollow Knight: Silksong)   //   Harp Duet",
+    "durationSeconds": 180
   },
   {
     "videoId": "8PQV7qbpMLo",
-    "durationSeconds": 103,
-    "title": "Fleatopia (Silksong) on harp 🐞🪉"
+    "title": "Fleatopia (Silksong) on harp 🐞🪉",
+    "durationSeconds": 103
   },
   {
     "videoId": "ezsD1yAfW0I",
-    "durationSeconds": 237,
-    "title": "Fleatopia (from Hollow Knight: Silksong)     //     Harp Solo"
+    "title": "Fleatopia (from Hollow Knight: Silksong)     //     Harp Solo",
+    "durationSeconds": 237
   },
   {
     "videoId": "0k4j0kEX6dI",
-    "durationSeconds": 240,
-    "title": "Needolin Melody (from Hollow Knight: Silksong)    //   Harp Solo"
+    "title": "Needolin Melody (from Hollow Knight: Silksong)    //   Harp Solo",
+    "durationSeconds": 240
   },
   {
     "videoId": "8kRhf65MNT8",
-    "durationSeconds": 72,
-    "title": "High Halls on a real harp ⛲🐞📜"
+    "title": "High Halls on a real harp ⛲🐞📜",
+    "durationSeconds": 72
   },
   {
     "videoId": "s2Z5ZQtSV9Y",
-    "durationSeconds": 212,
-    "title": "High Halls (from Hollow Knight: Silksong)   //   Harp Solo"
+    "title": "High Halls (from Hollow Knight: Silksong)   //   Harp Solo",
+    "durationSeconds": 212
   },
   {
     "videoId": "N96OvX7tfwY",
-    "durationSeconds": 80,
-    "title": "Repose (from Hollow Knight: Silksong) #harp #vgm #hollowknight #silksong"
+    "title": "Repose (from Hollow Knight: Silksong) #harp #vgm #hollowknight #silksong",
+    "durationSeconds": 80
   },
   {
     "videoId": "9kkpl56Jmng",
-    "durationSeconds": 189,
-    "title": "Repose [Bench Theme] (from Hollow Knight: Silksong)   //   Harp Solo"
+    "title": "Repose [Bench Theme] (from Hollow Knight: Silksong)   //   Harp Solo",
+    "durationSeconds": 189
   },
   {
     "videoId": "QHyZu2VGzm0",
-    "durationSeconds": 162,
-    "title": "Awake (from Celeste) for harp 🩷🏔️🩵  [music by Lena Raine] #harp #celestegame #vgm #cover"
+    "title": "Awake (from Celeste) for harp 🩷🏔️🩵  [music by Lena Raine] #harp #celestegame #vgm #cover",
+    "durationSeconds": 162
   },
   {
     "videoId": "CCKQXEB01ok",
-    "durationSeconds": 323,
-    "title": "Awake (from Celeste) [by Lena Raine]    //   Amy Turk"
+    "title": "Awake (from Celeste) [by Lena Raine]    //   Amy Turk",
+    "durationSeconds": 323
   },
   {
     "videoId": "XunlM9i1g3A",
-    "durationSeconds": 82,
-    "title": "Prelude (Final Fantasy VII) // harp solo #vgm #harp #finalfantasy"
+    "title": "Prelude (Final Fantasy VII) // harp solo #vgm #harp #finalfantasy",
+    "durationSeconds": 82
   },
   {
     "videoId": "ZubOI6Qoj_4",
-    "durationSeconds": 162,
-    "title": "Prelude (Final Fantasy series)  Harp solo    //   Amy Turk"
+    "title": "Prelude (Final Fantasy series)  Harp solo    //   Amy Turk",
+    "durationSeconds": 162
   },
   {
     "videoId": "fw5Oxvjosc8",
-    "durationSeconds": 62,
-    "title": "Birds of a Feather with @PiaSalvia is out now! 🪉🐦 #harp #billieeilish #pop"
+    "title": "Birds of a Feather with @PiaSalvia is out now! 🪉🐦 #harp #billieeilish #pop",
+    "durationSeconds": 62
   },
   {
     "videoId": "0ubPowI2RYk",
-    "durationSeconds": 233,
-    "title": "Birds of a Feather - Billie Eilish   //   Amy Turk + @PiaSalvia"
+    "title": "Birds of a Feather - Billie Eilish   //   Amy Turk + @PiaSalvia",
+    "durationSeconds": 233
   },
   {
     "videoId": "MIArvzi8q1A",
-    "durationSeconds": 70,
-    "title": "High Halls {Psalm Cylinder} #harp #hollowknight #silksong"
+    "title": "High Halls {Psalm Cylinder} #harp #hollowknight #silksong",
+    "durationSeconds": 70
   },
   {
     "videoId": "2yUbfSKs4H0",
-    "durationSeconds": 340,
-    "title": "High Halls {Psalm Cylinder} (from Hollow Knight: Silksong)   //   Harp Solo"
+    "title": "High Halls {Psalm Cylinder} (from Hollow Knight: Silksong)   //   Harp Solo",
+    "durationSeconds": 340
   },
   {
     "videoId": "ipYdA_dk7lw",
-    "durationSeconds": 87,
-    "title": "One Day Like This - Elbow"
+    "title": "One Day Like This - Elbow",
+    "durationSeconds": 87
   },
   {
     "videoId": "Q_5gPZf-gZM",
-    "durationSeconds": 280,
-    "title": "One Day Like This - Elbow   //   Amy Turk"
+    "title": "One Day Like This - Elbow   //   Amy Turk",
+    "durationSeconds": 280
   },
   {
     "videoId": "y2KD9SbwF0U",
-    "durationSeconds": 90,
-    "title": "Choral Chambers (Psalm Cylinder) #harp #hollowknight #silksong"
+    "title": "Choral Chambers (Psalm Cylinder) #harp #hollowknight #silksong",
+    "durationSeconds": 90
   },
   {
     "videoId": "lup4ZgFUesI",
-    "durationSeconds": 319,
-    "title": "Choral Chambers {Psalm Cylinder} (from Hollow Knight: Silksong)   //   Harp Solo"
+    "title": "Choral Chambers {Psalm Cylinder} (from Hollow Knight: Silksong)   //   Harp Solo",
+    "durationSeconds": 319
   },
   {
     "videoId": "odjL4L99eeo",
-    "durationSeconds": 73,
-    "title": "Never Meant for #harp and #acousticguitar - stream now on Spotify!"
+    "title": "Never Meant for #harp and #acousticguitar - stream now on Spotify!",
+    "durationSeconds": 73
   },
   {
     "videoId": "K1WpbvkDwCM",
-    "durationSeconds": 86,
-    "title": "Never Meant #acoustic on #harp and #guitar 🪉🎸"
+    "title": "Never Meant #acoustic on #harp and #guitar 🪉🎸",
+    "durationSeconds": 86
   },
   {
     "videoId": "hrbxILMMUO0",
-    "durationSeconds": 317,
-    "title": "Never Meant - American Football  //  Amy Turk + Jake Allen"
+    "title": "Never Meant - American Football  //  Amy Turk + Jake Allen",
+    "durationSeconds": 317
   },
   {
     "videoId": "OG7w6L0YK_I",
-    "durationSeconds": 88,
-    "title": "Hill Top Zone jam🌲"
+    "title": "Hill Top Zone jam🌲",
+    "durationSeconds": 88
   },
   {
     "videoId": "5P6TsTKI3lk",
-    "durationSeconds": 135,
-    "title": "Hill Top Zone (Sonic 2)  //  Amy Turk + Jake Allen & TJ Rankin"
+    "title": "Hill Top Zone (Sonic 2)  //  Amy Turk + Jake Allen & TJ Rankin",
+    "durationSeconds": 135
   },
   {
     "videoId": "8Xr0a5YOe5o",
-    "durationSeconds": 79,
-    "title": "Happy 1st release anniversary, Power 🪷"
+    "title": "Happy 1st release anniversary, Power 🪷",
+    "durationSeconds": 79
   },
   {
     "videoId": "C1Ch9MWD_GU",
-    "durationSeconds": 266,
-    "title": "Power (live playthrough) // Amy Turk"
+    "title": "Power (live playthrough) // Amy Turk",
+    "durationSeconds": 266
   },
   {
     "videoId": "CAOzAtPV9PM",
-    "durationSeconds": 90,
-    "title": "Happy 1st release anniversary, Wisdom 🌌"
+    "title": "Happy 1st release anniversary, Wisdom 🌌",
+    "durationSeconds": 90
   },
   {
     "videoId": "S9aETTOL0uU",
-    "durationSeconds": 397,
-    "title": "Wisdom (live playthrough) // Amy Turk"
+    "title": "Wisdom (live playthrough) // Amy Turk",
+    "durationSeconds": 397
   },
   {
     "videoId": "lBlE04eVnLc",
-    "durationSeconds": 63,
-    "title": "Happy 1st release anniversary to Courage 🍃 #harp #courage #percussion"
+    "title": "Happy 1st release anniversary to Courage 🍃 #harp #courage #percussion",
+    "durationSeconds": 63
   },
   {
     "videoId": "3WpK1gCWlfY",
-    "durationSeconds": 283,
-    "title": "Courage (live playthrough)   //  Amy Turk"
+    "title": "Courage (live playthrough)   //  Amy Turk",
+    "durationSeconds": 283
   },
   {
     "videoId": "M5G7GKKp524",
-    "durationSeconds": 77,
-    "title": "\"Harp and Tap\" in Milan 🎭"
+    "title": "\"Harp and Tap\" in Milan 🎭",
+    "durationSeconds": 77
   }
 ]

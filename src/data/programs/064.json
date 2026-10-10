@@ -1,57 +1,442 @@
 [
   {
+    "videoId": "-NLHgE_6Ke8",
+    "title": "Toumani Diabaté's Symmetric Orchestra - Boulevard de l'independance",
+    "durationSeconds": 828
+  },
+  {
+    "videoId": "dTNRHE1N2K4",
+    "title": "Toumani Diabaté's Symmetric Orchestra - Toumani",
+    "durationSeconds": 359
+  },
+  {
+    "videoId": "5ZynyK8FlMM",
+    "title": "Ali Farka Touré & Toumani Diabaté - Ali and Toumani",
+    "durationSeconds": 437
+  },
+  {
+    "videoId": "1PKdK_68r0A",
+    "title": "Ali Farka Toure & Toumani Diabate - Kala Djula",
+    "durationSeconds": 224
+  },
+  {
+    "videoId": "T8YkEh2PRlE",
+    "title": "New Ali Farka Toure and Toumani Diabate album - Ali & Toumani",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "0DEKQjj6Ga0",
+    "title": "Toumani Diabaté - Cantelowes live at El Real Alcazar",
+    "durationSeconds": 295
+  },
+  {
+    "videoId": "-hVZ96W61Eo",
+    "title": "Toumani Diabaté - The Mande Variations",
+    "durationSeconds": 535
+  },
+  {
+    "videoId": "esLp4HfcBSE",
+    "title": "Fatoumata Diawara - Wililé - feat. Toumani Diabaté (Official Audio)",
+    "durationSeconds": 293
+  },
+  {
+    "videoId": "z5gOAAkK-n0",
+    "title": "Toumani Diabaté, Sidiki Diabaté - Claudia & Salma",
+    "durationSeconds": 283
+  },
+  {
+    "videoId": "0surGA9LkKs",
+    "title": "Toumani Diabaté, Sidiki Diabaté - Hamadoun Toure",
+    "durationSeconds": 321
+  },
+  {
+    "videoId": "v2OqGArkkE8",
+    "title": "Toumani Diabaté, Sidiki Diabaté - A. C. I. 2000 Diaby",
+    "durationSeconds": 284
+  },
+  {
+    "videoId": "g82CRNOo89Y",
+    "title": "Toumani Diabaté, Sidiki Diabaté - Bansang",
+    "durationSeconds": 171
+  },
+  {
+    "videoId": "wuJD02E_4KE",
+    "title": "Toumani Diabaté, Sidiki Diabaté - Dr. Cheikh Modibo Diarra",
+    "durationSeconds": 179
+  },
+  {
+    "videoId": "TqswP1-pFP0",
+    "title": "Toumani Diabaté, Sidiki Diabaté - Bagadaji Sirifoula",
+    "durationSeconds": 337
+  },
+  {
+    "videoId": "Or4q68Q5rKI",
+    "title": "Toumani Diabaté, Sidiki Diabaté - Tijaniya",
+    "durationSeconds": 294
+  },
+  {
+    "videoId": "TquB1fkl7r8",
+    "title": "Toumani Diabaté, Sidiki Diabaté - Lampedusa",
+    "durationSeconds": 269
+  },
+  {
+    "videoId": "gRo8fCXxNsQ",
+    "title": "Toumani Diabaté, Sidiki Diabaté - Rachid Ouiguini",
+    "durationSeconds": 277
+  },
+  {
+    "videoId": "OAIyWUgDnnA",
+    "title": "Toumani Diabaté, Sidiki Diabaté - Toguna Industries",
+    "durationSeconds": 232
+  },
+  {
+    "videoId": "rbuT8AskNhQ",
+    "title": "Damon Albarn Discussing Toumani Diabaté",
+    "durationSeconds": 206
+  },
+  {
+    "videoId": "oCEeaERMfNo",
+    "title": "Toumani Diabaté & Sidiki Diabaté - NEW ALBUM - 'Toumani & Sidiki'",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "CRO6yv0wumM",
+    "title": "Ali Farka Touré & Toumani Diabaté - Kadi Kadi (Official Audio)",
+    "durationSeconds": 204
+  },
+  {
+    "videoId": "h4CRvPi1A7Y",
+    "title": "Ali Farka Touré & Toumani Diabaté - Gomni (Official Audio)",
+    "durationSeconds": 260
+  },
+  {
+    "videoId": "VVfpx2SaIgI",
+    "title": "Ali Farka Touré & Toumani Diabaté - Hawa Dolo (Official Audio)",
+    "durationSeconds": 304
+  },
+  {
+    "videoId": "fRjdOtq6OiM",
+    "title": "Ali Farka Touré & Toumani Diabaté - Kaira (Official Audio)",
+    "durationSeconds": 388
+  },
+  {
+    "videoId": "TMbok_4uJUA",
+    "title": "Ali Farka Touré & Toumani Diabaté - Naweye Toro (Official Audio)",
+    "durationSeconds": 267
+  },
+  {
+    "videoId": "DeMgDvDELbI",
+    "title": "Ali Farka Touré & Toumani Diabaté - Soumbou Ya Ya (Official Audio)",
+    "durationSeconds": 213
+  },
+  {
+    "videoId": "fJgn0TE0_oU",
+    "title": "Ali Farka Touré & Toumani Diabaté - Kala (Official Audio)",
+    "durationSeconds": 309
+  },
+  {
+    "videoId": "z9EFVqQq_8Y",
+    "title": "Ali Farka Touré & Toumani Diabaté - Simbo (Official Audio)",
+    "durationSeconds": 243
+  },
+  {
+    "videoId": "RZQjqBIzSLc",
+    "title": "Ali Farka Touré & Toumani Diabaté - Ai Ga Bani (Official Audio)",
+    "durationSeconds": 277
+  },
+  {
+    "videoId": "5p7UfWAJCxs",
+    "title": "Ali Farka Touré & Toumani Diabaté - Mamadou Boutiquier (Official Audio)",
+    "durationSeconds": 308
+  },
+  {
+    "videoId": "ugVw8cSGNoE",
+    "title": "Ali Farka Touré & Toumani Diabaté - Debe (Official Audio)",
+    "durationSeconds": 298
+  },
+  {
+    "videoId": "mpnIVa7QK4A",
+    "title": "Ali Farka Touré & Toumani Diabaté - Monsieur Le Maire De Niafunké (Official Audio)",
+    "durationSeconds": 242
+  },
+  {
+    "videoId": "5Y2WjjCLmj8",
+    "title": "Afrocubism - Keme Bourana - Bonus Track - feat. Toumani Diabaté, Eliades Ochoa & Bassekou Kouyaté",
+    "durationSeconds": 317
+  },
+  {
+    "videoId": "AZ0u1NyNytE",
+    "title": "Afrocubism - Que No Te Digan Muneca - feat. Toumani Diabaté, Eliades Ochoa & Bassekou Kouyaté",
+    "durationSeconds": 362
+  },
+  {
+    "videoId": "3pSXHYXSPiU",
+    "title": "Afrocubism - Guantanamera - feat. Toumani Diabaté, Eliades Ochoa & Bassekou Kouyaté",
+    "durationSeconds": 248
+  },
+  {
+    "videoId": "sElWplDd7LU",
+    "title": "Afrocubism - A La Luna Yo Me Voy - feat. Toumani Diabaté, Eliades Ochoa & Bassekou Kouyaté",
+    "durationSeconds": 243
+  },
+  {
+    "videoId": "9_42AtQVy8Y",
+    "title": "Afrocubism - Benséma - feat. Toumani Diabaté, Eliades Ochoa & Bassekou Kouyaté",
+    "durationSeconds": 300
+  },
+  {
+    "videoId": "5UeMON6NOtI",
+    "title": "Afrocubism - Mariama - feat. Toumani Diabaté, Eliades Ochoa & Bassekou Kouyaté",
+    "durationSeconds": 243
+  },
+  {
+    "videoId": "m-rJsJBpYIc",
+    "title": "Afrocubism - Nima Diyala - feat. Toumani Diabaté, Eliades Ochoa & Bassekou Kouyaté",
+    "durationSeconds": 219
+  },
+  {
+    "videoId": "Kjy2I1G31PM",
+    "title": "Afrocubism - Jarabi - feat. Toumani Diabaté, Eliades Ochoa & Bassekou Kouyaté",
+    "durationSeconds": 360
+  },
+  {
+    "videoId": "BasggaJaeAI",
+    "title": "Afrocubism - Dakan - feat. Toumani Diabaté, Eliades Ochoa & Bassekou Kouyaté",
+    "durationSeconds": 137
+  },
+  {
+    "videoId": "Ke4bJzFWKZw",
+    "title": "Afrocubism - Mali-Cuba - feat. Toumani Diabaté, Eliades Ochoa & Bassekou Kouyaté",
+    "durationSeconds": 341
+  },
+  {
+    "videoId": "ePf5zH4rDAE",
+    "title": "Afrocubism - Eliades Tumbao 27 - feat. Toumani Diabaté, Eliades Ochoa & Bassekou Kouyaté",
+    "durationSeconds": 80
+  },
+  {
+    "videoId": "sVQ6sOxgekY",
+    "title": "Afrocubism - Karamo - feat. Toumani Diabaté, Eliades Ochoa & Bassekou Kouyaté",
+    "durationSeconds": 418
+  },
+  {
+    "videoId": "F7gLOA7XNW4",
+    "title": "Afrocubism - Al Viavén De Mi Carreta - feat. Toumani Diabaté, Eliades Ochoa & Bassekou Kouyaté",
+    "durationSeconds": 303
+  },
+  {
+    "videoId": "doQCLZcNm8Q",
+    "title": "Afrocubism - La Culebra - feat. Toumani Diabaté, Eliades Ochoa & Bassekou Kouyaté",
+    "durationSeconds": 217
+  },
+  {
+    "videoId": "3uEXcmC5oRs",
+    "title": "Afrocubism - Djelimady Rumba - feat. Toumani Diabaté, Eliades Ochoa & Bassekou Kouyaté",
+    "durationSeconds": 194
+  },
+  {
+    "videoId": "AWpXCKy83r0",
+    "title": "Ali Farka Toure, Ry Cooder - Soukora",
+    "durationSeconds": 368
+  },
+  {
+    "videoId": "E2S7e405uUg",
+    "title": "Ali Farka Touré, Toumani Diabaté - Machengoidi",
+    "durationSeconds": 309
+  },
+  {
+    "videoId": "mJ-v8ZSy5ec",
+    "title": "Ali Farka Touré, Toumani Diabaté - Kana Kassy",
+    "durationSeconds": 253
+  },
+  {
+    "videoId": "VxXUsa3sExE",
+    "title": "Ali Farka Touré, Toumani Diabaté - Kala Djula",
+    "durationSeconds": 210
+  },
+  {
+    "videoId": "mbqrHFcl8TU",
+    "title": "Ali Farka Touré, Toumani Diabaté - 56",
+    "durationSeconds": 420
+  },
+  {
+    "videoId": "aL-Xb5MUG6M",
+    "title": "Ali Farka Touré, Toumani Diabaté - Warbé",
+    "durationSeconds": 294
+  },
+  {
+    "videoId": "tSKB2eNL6L8",
+    "title": "Ali Farka Touré, Toumani Diabaté - Sina Mory",
+    "durationSeconds": 271
+  },
+  {
+    "videoId": "u-G0som1CuI",
+    "title": "Ali Farka Touré, Toumani Diabaté - Be Mankan",
+    "durationSeconds": 310
+  },
+  {
+    "videoId": "SaJk9GHJPws",
+    "title": "Ali Farka Touré, Toumani Diabaté - Doudou",
+    "durationSeconds": 290
+  },
+  {
+    "videoId": "Xu5KrEfLPgw",
+    "title": "Ali Farka Touré, Toumani Diabaté - Samba Geladio",
+    "durationSeconds": 200
+  },
+  {
+    "videoId": "wm5ep2U3JzI",
+    "title": "Ali Farka Touré, Toumani Diabaté - Fantasy",
+    "durationSeconds": 142
+  },
+  {
+    "videoId": "HTN0kemfUXc",
+    "title": "Ali Farka Touré, Toumani Diabaté - Sabu Yerkoy",
+    "durationSeconds": 252
+  },
+  {
+    "videoId": "n7WtB_-JBqk",
+    "title": "Ali Farka Touré, Toumani Diabaté - Ruby",
+    "durationSeconds": 359
+  },
+  {
+    "videoId": "rL9TVWSdTUk",
+    "title": "Toumani Diabaté - Ismael Drame (Official Audio)",
+    "durationSeconds": 348
+  },
+  {
+    "videoId": "V1fkT-xmaAY",
+    "title": "Toumani Diabaté - Si Naani (Official Audio)",
+    "durationSeconds": 634
+  },
+  {
+    "videoId": "iEZMNyeyjbE",
+    "title": "Toumani Diabaté - Elyne Road (Official Audio)",
+    "durationSeconds": 533
+  },
+  {
+    "videoId": "zTy3MKa6ugA",
+    "title": "Toumani Diabaté - El Nabiyouna (Official Audio)",
+    "durationSeconds": 366
+  },
+  {
+    "videoId": "AJsFXJ30a_c",
+    "title": "Toumani Diabaté - Djourou Kara Nany (Official Audio)",
+    "durationSeconds": 416
+  },
+  {
+    "videoId": "Fdo8NXCUZks",
+    "title": "Toumani Diabaté - Kaouding Cissoko (Official Audio)",
+    "durationSeconds": 390
+  },
+  {
+    "videoId": "4RAjifC9ji0",
+    "title": "Toumani Diabaté - Cantelowes (Official Audio)",
+    "durationSeconds": 421
+  },
+  {
+    "videoId": "C1Kt8svY0S8",
+    "title": "Toumani Diabaté - Ali Farka Touré (Official Audio)",
+    "durationSeconds": 383
+  },
+  {
+    "videoId": "CObYOb3AOUA",
+    "title": "Toumani Diabaté's Symmetric Orchestra - Mali Sadio",
+    "durationSeconds": 478
+  },
+  {
+    "videoId": "AkNTKQAIXEI",
+    "title": "Toumani Diabaté's Symmetric Orchestra - Toumani",
+    "durationSeconds": 357
+  },
+  {
+    "videoId": "uHC1XxBqbQg",
+    "title": "Toumani Diabaté's Symmetric Orchestra - Wasso",
+    "durationSeconds": 333
+  },
+  {
+    "videoId": "pc5B7MSsvE4",
+    "title": "Toumani Diabaté's Symmetric Orchestra - Africa Challenge",
+    "durationSeconds": 349
+  },
+  {
+    "videoId": "vgWc4rpDR5g",
+    "title": "Toumani Diabaté's Symmetric Orchestra - Boulevard De L'independence",
+    "durationSeconds": 240
+  },
+  {
+    "videoId": "c0_EtP5XsFI",
+    "title": "Toumani Diabaté's Symmetric Orchestra - Ya Fama",
+    "durationSeconds": 299
+  },
+  {
+    "videoId": "W8oVHyfkYzc",
+    "title": "Toumani Diabaté's Symmetric Orchestra - Tapha Niang",
+    "durationSeconds": 414
+  },
+  {
+    "videoId": "Dunq3ljhMi0",
+    "title": "Toumani Diabaté's Symmetric Orchestra - Mamadou Diaby",
+    "durationSeconds": 410
+  },
+  {
+    "videoId": "UlefkuBD2Cw",
+    "title": "Toumani Diabaté's Symmetric Orchestra - Single",
+    "durationSeconds": 301
+  },
+  {
     "videoId": "NCI-xUPd3V4",
-    "durationSeconds": 60,
-    "title": "'Cantelowes' by Toumani Diabaté"
+    "title": "'Cantelowes' by Toumani Diabaté",
+    "durationSeconds": 60
   },
   {
     "videoId": "R7bUmJx3gQk",
-    "durationSeconds": 388,
-    "title": "Toumani Diabaté and the London Symphony Orchestra - Moon Kaira (Official Audio)"
+    "title": "Toumani Diabaté and the London Symphony Orchestra - Moon Kaira (Official Audio)",
+    "durationSeconds": 388
   },
   {
     "videoId": "uZFVILZaSoI",
-    "durationSeconds": 590,
-    "title": "Toumani Diabaté and the London Symphony Orchestra - Cantelowes Dream (Official Audio)"
+    "title": "Toumani Diabaté and the London Symphony Orchestra - Cantelowes Dream (Official Audio)",
+    "durationSeconds": 590
   },
   {
     "videoId": "JF7s5-NAXO0",
-    "durationSeconds": 412,
-    "title": "Toumani Diabaté and the London Symphony Orchestra - Mama Souraka (Official Audio)"
+    "title": "Toumani Diabaté and the London Symphony Orchestra - Mama Souraka (Official Audio)",
+    "durationSeconds": 412
   },
   {
     "videoId": "WAqdh0N3JyY",
-    "durationSeconds": 525,
-    "title": "Toumani Diabaté and the London Symphony Orchestra - The Making of 'Kôrôlén'"
+    "title": "Toumani Diabaté and the London Symphony Orchestra - The Making of 'Kôrôlén'",
+    "durationSeconds": 525
   },
   {
     "videoId": "Aoz_1RfjhkM",
-    "durationSeconds": 424,
-    "title": "Toumani Diabaté And The London Symphony Orchestra - Elyne Road (Official Audio)"
+    "title": "Toumani Diabaté And The London Symphony Orchestra - Elyne Road (Official Audio)",
+    "durationSeconds": 424
   },
   {
     "videoId": "dzb75LCcoWc",
-    "durationSeconds": 411,
-    "title": "Toumani Diabaté And The London Symphony Orchestra - Mamadou Kanda Keita (Official Video)"
+    "title": "Toumani Diabaté And The London Symphony Orchestra - Mamadou Kanda Keita (Official Video)",
+    "durationSeconds": 411
   },
   {
     "videoId": "PXKAWgRHerI",
-    "durationSeconds": 409,
-    "title": "Toumani Diabaté And The London Symphony Orchestra - Haïnamady Town (Official Video)"
+    "title": "Toumani Diabaté And The London Symphony Orchestra - Haïnamady Town (Official Video)",
+    "durationSeconds": 409
   },
   {
     "videoId": "qPsvNN2iIrQ",
-    "durationSeconds": 2585,
-    "title": "Toumani & Sidiki Diabate - Toumani & Sidiki (Full Album)"
+    "title": "Toumani & Sidiki Diabate - Toumani & Sidiki (Full Album)",
+    "durationSeconds": 2585
   },
   {
     "videoId": "YvMjDRdGazw",
-    "durationSeconds": 361,
-    "title": "Trio Da Kali & Toumani Diabaté rehearse 'Kanimba'"
+    "title": "Trio Da Kali & Toumani Diabaté rehearse 'Kanimba'",
+    "durationSeconds": 361
   },
   {
     "videoId": "eiEAQ-eUIIs",
-    "durationSeconds": 66,
-    "title": "Hawa Kasse Mady Diabaté of Trio Da Kali"
+    "title": "Hawa Kasse Mady Diabaté of Trio Da Kali",
+    "durationSeconds": 66
   }
 ]

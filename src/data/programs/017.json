@@ -1,252 +1,3712 @@
 [
   {
+    "videoId": "4j5XSPgBwyk",
+    "title": "Titemark vs. Veritas Marking Gauge | Tool Duel #4",
+    "durationSeconds": 341
+  },
+  {
+    "videoId": "6fGqh42lSM0",
+    "title": "How to reduce TEAROUT when using a HAND PLANE",
+    "durationSeconds": 1906
+  },
+  {
+    "videoId": "J0ZV8sSS1Jo",
+    "title": "How to get SILKY SMOOTH SHAVINGS from a PLANE",
+    "durationSeconds": 698
+  },
+  {
+    "videoId": "aMOFiDX_Hpg",
+    "title": "01 vs. A2 vs. PM-V11 | Tool Duel #3",
+    "durationSeconds": 519
+  },
+  {
+    "videoId": "vtCAbP_B4as",
+    "title": "How to get a STUPIDLY SHARP edge on a PLANE blade",
+    "durationSeconds": 939
+  },
+  {
+    "videoId": "xIDC3o2dwCQ",
+    "title": "How to get a DEADLY SHARP edge on a CHISEL",
+    "durationSeconds": 959
+  },
+  {
+    "videoId": "iljvtGUZXzE",
+    "title": "Which SHARPENING Stone Is BEST? | Tool Duel #2",
+    "durationSeconds": 1027
+  },
+  {
+    "videoId": "O_adhVrZFws",
+    "title": "Lie-Nielsen Honing Guide vs. Veritas MK.II Honing Guide | Tool Duel #1",
+    "durationSeconds": 1091
+  },
+  {
+    "videoId": "ty4iLAZm0_Q",
+    "title": "New Workshop! - The Weekly Rycote #9",
+    "durationSeconds": 767
+  },
+  {
+    "videoId": "FXKYwM0f5WU",
+    "title": "Making 'Bertha' | The Roubo Workbench",
+    "durationSeconds": 469
+  },
+  {
+    "videoId": "7T3dISw5sRw",
+    "title": "Building a Roubo Workbench | Part 9",
+    "durationSeconds": 891
+  },
+  {
+    "videoId": "Och1MAexX6U",
+    "title": "Building a Roubo Workbench | Part 8",
+    "durationSeconds": 577
+  },
+  {
+    "videoId": "FD1YB4nRUMw",
+    "title": "Building a Roubo Workbench | Part 7",
+    "durationSeconds": 718
+  },
+  {
+    "videoId": "u-pnggPQNYk",
+    "title": "Building a Roubo Workbench | Part 6",
+    "durationSeconds": 1331
+  },
+  {
+    "videoId": "A0h7ezc4LLY",
+    "title": "Building a Roubo Workbench | Part 5",
+    "durationSeconds": 686
+  },
+  {
+    "videoId": "7R2wIEKu6ZM",
+    "title": "Building a Roubo Workbench | Part 4",
+    "durationSeconds": 1032
+  },
+  {
+    "videoId": "WiCy8JtyL0A",
+    "title": "Rycotewood Show - 2017",
+    "durationSeconds": 616
+  },
+  {
+    "videoId": "s92A0yxf0uA",
+    "title": "Building a Roubo Workbench | Part 3",
+    "durationSeconds": 923
+  },
+  {
+    "videoId": "1WbLIh-ZvjE",
+    "title": "Building a Roubo Workbench | Part 2",
+    "durationSeconds": 522
+  },
+  {
+    "videoId": "JWgNkHBowV0",
+    "title": "Building a Roubo Workbench | Part 1",
+    "durationSeconds": 560
+  },
+  {
+    "videoId": "PMqXa4QEuHc",
+    "title": "Making a Krenov Cabinet",
+    "durationSeconds": 363
+  },
+  {
+    "videoId": "8Xn-u_ajc5I",
+    "title": "Dovetailed Drawers - Making A Krenov Cabinet - Part 5/5",
+    "durationSeconds": 849
+  },
+  {
+    "videoId": "rdpLSPNBqtI",
+    "title": "Making The Doors - Making A Krenov Cabinet - Part 4/5",
+    "durationSeconds": 927
+  },
+  {
+    "videoId": "h4GKcW6bwCQ",
+    "title": "Assembling The Carcass - Making A Krenov Cabinet - Part 3/5",
+    "durationSeconds": 634
+  },
+  {
+    "videoId": "DlaNMuuLWbk",
+    "title": "The Legs - Making A Krenov Cabinet - Part 2/5",
+    "durationSeconds": 558
+  },
+  {
+    "videoId": "qsrL0FhiSOw",
+    "title": "Veneering and Lipping - Making A Krenov Cabinet - Part 1/5",
+    "durationSeconds": 544
+  },
+  {
+    "videoId": "sJD8iaIXYWU",
+    "title": "Making a Natural Edged Walnut Desk",
+    "durationSeconds": 288
+  },
+  {
+    "videoId": "f5vQQLJRXk0",
+    "title": "Making A Natural Edged Walnut Desk - Part 3/3",
+    "durationSeconds": 470
+  },
+  {
+    "videoId": "V0U1O0uyCWQ",
+    "title": "Making A Natural Edged Walnut Desk - Part 2/3",
+    "durationSeconds": 478
+  },
+  {
+    "videoId": "c6x4Ilt8x1A",
+    "title": "Making A Natural Edged Walnut Desk - Part 1/3",
+    "durationSeconds": 514
+  },
+  {
+    "videoId": "W4ZqncIki6M",
+    "title": "Rycotewood Furniture Centre Show - 2016",
+    "durationSeconds": 306
+  },
+  {
+    "videoId": "mw1sMz9QdLA",
+    "title": "Making 'Cognition'",
+    "durationSeconds": 475
+  },
+  {
+    "videoId": "FzUCtWnl-C8",
+    "title": "Hinging Curved Doors - The Curved Cabinet - Week 7",
+    "durationSeconds": 792
+  },
+  {
+    "videoId": "IAhNLOCRcqE",
+    "title": "Complex Glue-Ups - The Curved Cabinet - Week 6",
+    "durationSeconds": 499
+  },
+  {
+    "videoId": "lGiHV9MI6I8",
+    "title": "Metalwork - The Curved Cabinet - Week 5",
+    "durationSeconds": 640
+  },
+  {
+    "videoId": "Y5PbcZTPDqk",
+    "title": "Assembling The Carcass - The Curved Cabinet - Week 4",
+    "durationSeconds": 889
+  },
+  {
+    "videoId": "j9u0Bu5DuPI",
+    "title": "Constructing The Main Carcass - The Curved Cabinet - Week 3",
+    "durationSeconds": 662
+  },
+  {
+    "videoId": "ZFDqsc72D90",
+    "title": "Laminating Walnut Veneer - The Curved Cabinet - Week 2",
+    "durationSeconds": 468
+  },
+  {
+    "videoId": "yJWBkZwdEk0",
+    "title": "Laminate Formers and Lipping - The Curved Cabinet - Week 1",
+    "durationSeconds": 1329
+  },
+  {
+    "videoId": "AhSnNlqBEOQ",
+    "title": "Making a Custom Bass Guitar | Part 6",
+    "durationSeconds": 611
+  },
+  {
+    "videoId": "FsA666BglGY",
+    "title": "Making a Custom Bass Guitar | Part 5",
+    "durationSeconds": 396
+  },
+  {
+    "videoId": "BTjSSPPYIZE",
+    "title": "Making a Custom Bass Guitar | Part 4",
+    "durationSeconds": 675
+  },
+  {
+    "videoId": "hlz3f2E5Rxg",
+    "title": "Making a Custom Bass Guitar | Part 3",
+    "durationSeconds": 1584
+  },
+  {
+    "videoId": "10ZJUs4ghnQ",
+    "title": "Making a Custom Bass Guitar | Part 2",
+    "durationSeconds": 879
+  },
+  {
+    "videoId": "O_zgKCKnMnI",
+    "title": "Making a Custom Bass Guitar | Part 1",
+    "durationSeconds": 1014
+  },
+  {
+    "videoId": "Jaegb0nvJCA",
+    "title": "Benchcrafted Vice Hardware Review - 8 Months Use",
+    "durationSeconds": 1098
+  },
+  {
+    "videoId": "KfCR2TOrdwE",
+    "title": "Cutting up a Log",
+    "durationSeconds": 1263
+  },
+  {
+    "videoId": "9UBYT0Y9Ydg",
+    "title": "Making a Dovetailed Box from Potato.",
+    "durationSeconds": 443
+  },
+  {
+    "videoId": "5w4FsFbpxME",
+    "title": "NEW MACHINES + WORKSHOP TOUR",
+    "durationSeconds": 1867
+  },
+  {
+    "videoId": "a-Bs1o0Tmow",
+    "title": "5 Tips to INSTANTLY Improve your DOVETAILS",
+    "durationSeconds": 911
+  },
+  {
+    "videoId": "UD3MkPNN9zo",
+    "title": "How to cut a THROUGH MORTICE AND TENON by HAND",
+    "durationSeconds": 1792
+  },
+  {
+    "videoId": "27eSv9FkXF0",
+    "title": "How to cut a LAPPED DOVETAIL by HAND",
+    "durationSeconds": 1503
+  },
+  {
+    "videoId": "djUfNkgBVjs",
+    "title": "Attaching the Remaining Components and FINISHING | The Book Stand #4",
+    "durationSeconds": 1098
+  },
+  {
+    "videoId": "XcDNZZ7kF4E",
+    "title": "Assembling the WOODEN HINGE | The Book Stand #3",
+    "durationSeconds": 1179
+  },
+  {
+    "videoId": "UIbVC_2_ILU",
+    "title": "Cutting the DOVETAIL Joints | The Book Stand #2",
+    "durationSeconds": 652
+  },
+  {
+    "videoId": "1TP8oHH8RM8",
+    "title": "Make a BOOK STAND using CHEAP materials | The Book Stand #1",
+    "durationSeconds": 1033
+  },
+  {
+    "videoId": "uWChpuHV7JI",
+    "title": "Gluing and Flattening Panels | The Chopping Board #4",
+    "durationSeconds": 1142
+  },
+  {
+    "videoId": "uHuhHq2o72o",
+    "title": "Thicknessing Wood By Hand | The Chopping Board #3",
+    "durationSeconds": 809
+  },
+  {
+    "videoId": "C4aimRp9V34",
+    "title": "Squaring Timber By Hand | The Chopping Board #2",
+    "durationSeconds": 866
+  },
+  {
+    "videoId": "_RdYlz7mRq8",
+    "title": "Can you plane WOOD with WOOD?! | Two Minute Tuesday",
+    "durationSeconds": 244
+  },
+  {
+    "videoId": "WbmCemrZqPI",
+    "title": "Cutting and Orientating Timber | The Chopping Board #1",
+    "durationSeconds": 785
+  },
+  {
+    "videoId": "9LlAILePy5U",
+    "title": "Making a JOINT PRACTICE frame - Part 4",
+    "durationSeconds": 415
+  },
+  {
+    "videoId": "zRVxryObo9A",
+    "title": "Making a JOINT PRACTICE frame - Part 3",
+    "durationSeconds": 1688
+  },
+  {
+    "videoId": "Frg6zXdXhuo",
+    "title": "Answering YOUR questions! + Workshop Tour",
+    "durationSeconds": 1456
+  },
+  {
+    "videoId": "zymytEinm54",
+    "title": "Making a JOINT PRACTICE frame - Part 2",
+    "durationSeconds": 658
+  },
+  {
+    "videoId": "CUD_Gfb4d4M",
+    "title": "Making a JOINT PRACTICE frame - Part 1",
+    "durationSeconds": 1316
+  },
+  {
+    "videoId": "3dI2cjUShNg",
+    "title": "How to SCREW wood together | 2 Minute Tuesday",
+    "durationSeconds": 223
+  },
+  {
+    "videoId": "4M9jlwAQ4zY",
+    "title": "How to cut a MORTICE AND TENON JOINT by HAND",
+    "durationSeconds": 1938
+  },
+  {
+    "videoId": "Qd6VD1mXvRA",
+    "title": "David Barron vs Katz-Moses Dovetail Guides | Tool Duel #9",
+    "durationSeconds": 651
+  },
+  {
+    "videoId": "2hP-QAAhpxQ",
+    "title": "How to cut a DOVETAIL JOINT by HAND",
+    "durationSeconds": 2379
+  },
+  {
+    "videoId": "A0l1ajRDnIg",
+    "title": "How to cut a BRIDLE JOINT by HAND",
+    "durationSeconds": 1004
+  },
+  {
+    "videoId": "Yue6GKRa3Ak",
+    "title": "What DOVETAIL RATIO is the BEST?",
+    "durationSeconds": 297
+  },
+  {
+    "videoId": "dwoaTBDMpPw",
+    "title": "How to cut a DOVETAIL HOUSING JOINT by HAND",
+    "durationSeconds": 1384
+  },
+  {
+    "videoId": "4uUbyzGos10",
+    "title": "Books that I STRONGLY recommend",
+    "durationSeconds": 941
+  },
+  {
+    "videoId": "I417VVog0Bc",
+    "title": "Honing Guide PROTRUSION STOP | 2 Minute Tuesday",
+    "durationSeconds": 198
+  },
+  {
+    "videoId": "bkFrS7Ah5GY",
+    "title": "How to cut a CROSS HALVING JOINT by HAND",
+    "durationSeconds": 867
+  },
+  {
+    "videoId": "9jgRfef4ZnE",
+    "title": "How to cut a DOVETAIL HALVING JOINT by HAND",
+    "durationSeconds": 828
+  },
+  {
+    "videoId": "dfXmFErs9J0",
+    "title": "How to cut a CORNER HALVING JOINT by HAND.",
+    "durationSeconds": 1645
+  },
+  {
+    "videoId": "Z9S6r104pQk",
+    "title": "Veritas vs. Lie-Nielsen vs. Kirschen vs. Rider Chisels | Tool Duel #8",
+    "durationSeconds": 508
+  },
+  {
+    "videoId": "0iKHaoUj_jM",
+    "title": "How to square END GRAIN | 1 Minute Wednesday",
+    "durationSeconds": 138
+  },
+  {
+    "videoId": "gyijCd2XHxA",
+    "title": "What CHISELS do you NEED?",
+    "durationSeconds": 847
+  },
+  {
+    "videoId": "C5OzZNVGnXQ",
+    "title": "How to saw CORRECTLY",
+    "durationSeconds": 799
+  },
+  {
+    "videoId": "pigcIXjRel8",
+    "title": "What SAWS do you NEED?",
+    "durationSeconds": 852
+  },
+  {
+    "videoId": "xAReqvUXpqY",
+    "title": "Lie-Nielsen vs. Veritas Router Planes | Tool Duel #7",
+    "durationSeconds": 527
+  },
+  {
+    "videoId": "YX-LAS0arJ8",
+    "title": "What to WATCH OUT for when setting up a SHOULDER PLANE",
+    "durationSeconds": 541
+  },
+  {
+    "videoId": "83-_XWftkh4",
+    "title": "Lie-Nielsen vs. Veritas Shoulder Planes | Tool Duel #6",
+    "durationSeconds": 346
+  },
+  {
+    "videoId": "dcW0bqmmPts",
+    "title": "Lie-Nielsen vs. Veritas Bench Planes | Tool Duel #5",
+    "durationSeconds": 769
+  },
+  {
+    "videoId": "v0VItLJTRnU",
+    "title": "What PLANES do you NEED?",
+    "durationSeconds": 739
+  },
+  {
+    "videoId": "cEE90ZQREno",
+    "title": "How to get WISPY SHAVINGS using a CABINET SCRAPER",
+    "durationSeconds": 717
+  },
+  {
+    "videoId": "R3FmgKuMuOQ",
+    "title": "Installing a Dust Extraction NETWORK in my Workshop.",
+    "durationSeconds": 951
+  },
+  {
+    "videoId": "nQsLqsSi2-U",
+    "title": "UJK Router Table Unboxing and Setup",
+    "durationSeconds": 907
+  },
+  {
+    "videoId": "azOeLRR2vyA",
+    "title": "Surrey Timbers | Buying Hardwood Lumber #1",
+    "durationSeconds": 956
+  },
+  {
+    "videoId": "EYbjb3lnr4s",
+    "title": "Unboxing the Bosch GAS M Extractor | How to get the BEST from your Extractor",
+    "durationSeconds": 1402
+  },
+  {
+    "videoId": "rc86GIbHP08",
+    "title": "Making the ULTIMATE Power Tool Workbench | Part 3",
+    "durationSeconds": 1208
+  },
+  {
+    "videoId": "c-gU-rujaEc",
+    "title": "Making the ULTIMATE Power Tool Workbench | Part 2",
+    "durationSeconds": 417
+  },
+  {
+    "videoId": "MVGvRY5lzz4",
+    "title": "How to Plane CORRECTLY",
+    "durationSeconds": 1250
+  },
+  {
+    "videoId": "B61tO6Bk5yk",
+    "title": "Making the ULTIMATE Power Tool Workbench | Part 1",
+    "durationSeconds": 394
+  },
+  {
+    "videoId": "Z0QybYFDBoQ",
+    "title": "How To Use the PARF GUIDE SYSTEM",
+    "durationSeconds": 1201
+  },
+  {
+    "videoId": "ZZ5FDCbSfwE",
+    "title": "Monthly Update | September 2018",
+    "durationSeconds": 876
+  },
+  {
+    "videoId": "LHmZox9WWSE",
+    "title": "How to Apply OSMO PolyX Oil",
+    "durationSeconds": 983
+  },
+  {
+    "videoId": "8sAu_yPm_Vg",
+    "title": "Refinishing a Kitchen Worktop",
+    "durationSeconds": 1115
+  },
+  {
+    "videoId": "nHM0E-bRtYk",
+    "title": "Workshop Move #10",
+    "durationSeconds": 1158
+  },
+  {
+    "videoId": "GrLutav7mdM",
+    "title": "Workshop Move #9",
+    "durationSeconds": 414
+  },
+  {
+    "videoId": "a0Py5kJIQ8g",
+    "title": "Workshop Move #8",
+    "durationSeconds": 578
+  },
+  {
+    "videoId": "1GcUjD_A45s",
+    "title": "Training with Veritas in Canada",
+    "durationSeconds": 1180
+  },
+  {
+    "videoId": "7gIy9O6GsVo",
+    "title": "Workshop Move #7",
+    "durationSeconds": 830
+  },
+  {
+    "videoId": "ePoJFHYK0CU",
+    "title": "Workshop Move #6",
+    "durationSeconds": 522
+  },
+  {
+    "videoId": "W4gF8rEKBQ8",
+    "title": "Workshop  Move #5",
+    "durationSeconds": 401
+  },
+  {
+    "videoId": "DqwUQR7Gxgo",
+    "title": "Workshop Move #4",
+    "durationSeconds": 504
+  },
+  {
+    "videoId": "aBUV8u9DpTI",
+    "title": "Moving Workshop #3",
+    "durationSeconds": 793
+  },
+  {
+    "videoId": "34ooL0dpW20",
+    "title": "Moving Workshop #2",
+    "durationSeconds": 422
+  },
+  {
+    "videoId": "cvdkYmrLpBo",
+    "title": "Moving Workshop #1",
+    "durationSeconds": 433
+  },
+  {
+    "videoId": "FAs33bjnyDU",
+    "title": "Traditional Soap Finish | Experimental Wood Finishes #5",
+    "durationSeconds": 952
+  },
+  {
+    "videoId": "lUCb-J8zP8U",
+    "title": "How to use a Jointer SAFELY and EFFECTIVELY",
+    "durationSeconds": 1171
+  },
+  {
+    "videoId": "BAEiBxzAzbQ",
+    "title": "Finishing WOOD with CRAYONS?! | Experimental Wood Finishes #4",
+    "durationSeconds": 461
+  },
+  {
+    "videoId": "GoHJybOkhfg",
+    "title": "VERDIGRIS WAX?! | Experimental Wood Finishes #3",
+    "durationSeconds": 509
+  },
+  {
+    "videoId": "w-O4HF2Fkpw",
+    "title": "How to SCORCH Timber | Experimental Wood Finishes #2",
+    "durationSeconds": 601
+  },
+  {
+    "videoId": "6Ej6ok4VKvA",
+    "title": "Gilding and Patination | Experimental Wood Finishes #1",
+    "durationSeconds": 1189
+  },
+  {
+    "videoId": "CTPusDkdgIM",
+    "title": "Bosch GCM 12 Axial-Glide Review",
+    "durationSeconds": 1028
+  },
+  {
+    "videoId": "53yKtkP0yFE",
+    "title": "What is the Difference between a JOINTER and a THICKNESSER!?",
+    "durationSeconds": 1062
+  },
+  {
+    "videoId": "Zgfx3splHL8",
+    "title": "My Five BEST Tools for FINE WOODWORKING",
+    "durationSeconds": 643
+  },
+  {
+    "videoId": "Pzx6cLTpAtY",
+    "title": "Which Woodworking Joint SHOULD YOU USE?",
+    "durationSeconds": 1118
+  },
+  {
+    "videoId": "NhBgHB_i9Ds",
+    "title": "How to cut an ANGLED DOVETAIL joint",
+    "durationSeconds": 1106
+  },
+  {
+    "videoId": "wz7dtj-II64",
+    "title": "Making a 6 String Bass Guitar",
+    "durationSeconds": 798
+  },
+  {
+    "videoId": "EvZd2tyHxf8",
+    "title": "Making a Custom Bass Guitar | Part 20",
+    "durationSeconds": 696
+  },
+  {
+    "videoId": "o8RFK_XCVoE",
+    "title": "Making a Custom Bass Guitar | Part 19",
+    "durationSeconds": 691
+  },
+  {
+    "videoId": "CwwEGfm-mN0",
+    "title": "Making a Custom Bass Guitar | Part 18",
+    "durationSeconds": 1493
+  },
+  {
+    "videoId": "NL2poyaL-AI",
+    "title": "Making a Custom Bass Guitar | Part 17",
+    "durationSeconds": 835
+  },
+  {
+    "videoId": "FaUl_rqODo0",
+    "title": "Making a Custom Bass Guitar | Part 16",
+    "durationSeconds": 707
+  },
+  {
+    "videoId": "1_uGaCUImDw",
+    "title": "Making a Custom Bass Guitar | Part 15",
+    "durationSeconds": 1138
+  },
+  {
+    "videoId": "FQMYIgiCOPc",
+    "title": "Making a Custom Bass Guitar | Part 14",
+    "durationSeconds": 918
+  },
+  {
+    "videoId": "Efxgvo36FiY",
+    "title": "How to use a Chisel CORRECTLY",
+    "durationSeconds": 1171
+  },
+  {
+    "videoId": "GPot7_l-idA",
+    "title": "Making a Custom Bass Guitar | Part 13",
+    "durationSeconds": 963
+  },
+  {
+    "videoId": "hgRxg_VENp4",
+    "title": "Making a Custom Bass Guitar | Part 12",
+    "durationSeconds": 615
+  },
+  {
+    "videoId": "Y8v0fNGjCsQ",
+    "title": "Making a Custom Bass Guitar | Part 11",
+    "durationSeconds": 603
+  },
+  {
+    "videoId": "gAIV8bcjZcI",
+    "title": "Making a Custom Bass Guitar | Part 10",
+    "durationSeconds": 1688
+  },
+  {
+    "videoId": "e_M1xWgWUoE",
+    "title": "Making a Custom Bass Guitar | Part 9",
+    "durationSeconds": 855
+  },
+  {
+    "videoId": "CIEzVvsu9QI",
+    "title": "Making a Custom Bass Guitar | Part 8",
+    "durationSeconds": 851
+  },
+  {
+    "videoId": "-vot-Ebv3FE",
+    "title": "Making a Custom Bass Guitar | Part 7",
+    "durationSeconds": 814
+  },
+  {
+    "videoId": "Z3vQp_FODr0",
+    "title": "Making a LOAD of Bubinga Bowls | Turning Tuesday #21",
+    "durationSeconds": 243
+  },
+  {
+    "videoId": "fa1UhqTU0SE",
+    "title": "Making Salt and Pepper Mills using BANKSIA NUTS?! | Turning Tuesday #20",
+    "durationSeconds": 1803
+  },
+  {
+    "videoId": "rRv97JlAlTg",
+    "title": "Blaise in Trees | Buying Hardwood Lumber #2",
+    "durationSeconds": 1580
+  },
+  {
+    "videoId": "NcVK5wLSPOw",
+    "title": "How to Make a RAMPED SHOOTING BOARD for Woodworking",
+    "durationSeconds": 1825
+  },
+  {
+    "videoId": "AL4tFyikRBQ",
+    "title": "Making an OSB Pen! 🤯 | Turning Tuesday #19",
+    "durationSeconds": 755
+  },
+  {
+    "videoId": "Yz5rPUadSBE",
+    "title": "Making Wooden Pulleys | Turning Tuesday #18",
+    "durationSeconds": 277
+  },
+  {
+    "videoId": "ugc85kJmos8",
+    "title": "The DEFINITIVE Guide to Setting up a BANDSAW",
+    "durationSeconds": 1758
+  },
+  {
+    "videoId": "iHDrfkLGtJo",
+    "title": "Engineers, I need your help | Turning Tuesday #17",
+    "durationSeconds": 957
+  },
+  {
+    "videoId": "DdmBSxigHKs",
+    "title": "Answering YOUR Questions!",
+    "durationSeconds": 3019
+  },
+  {
+    "videoId": "s8qyzFxIYQU",
+    "title": "Making a DRILL PRESS TABLE (Part 2)",
+    "durationSeconds": 1421
+  },
+  {
+    "videoId": "zD8Ee_wy5D4",
+    "title": "How to Cut a MITRED DOVETAIL Joint",
+    "durationSeconds": 1807
+  },
+  {
+    "videoId": "OeOf5V_Gers",
+    "title": "Making a DRILL PRESS TABLE (Part 1)",
+    "durationSeconds": 884
+  },
+  {
+    "videoId": "G3x9KQP1t04",
+    "title": "Making a Hexagonal Bowl | Turning Tuesday #16",
+    "durationSeconds": 534
+  },
+  {
+    "videoId": "Vpl4m_MVZmM",
+    "title": "The WORKSHOP Tour - 2019",
+    "durationSeconds": 1579
+  },
+  {
+    "videoId": "iuanfT0uXLc",
+    "title": "Making OSB Coins for the Haters at Makers Central",
+    "durationSeconds": 298
+  },
+  {
+    "videoId": "1FqWQtIvZKk",
+    "title": "Building the ROUTER BIT CABINET",
+    "durationSeconds": 535
+  },
+  {
+    "videoId": "ezqxuY1e5sQ",
+    "title": "Making Door Pulls | Turning Tuesday #15",
+    "durationSeconds": 848
+  },
+  {
+    "videoId": "cfxF-EtfOfA",
+    "title": "Bosch GKT55 GCE Plunge Saw Review",
+    "durationSeconds": 1263
+  },
+  {
+    "videoId": "xod3EiWqAN4",
+    "title": "Making a Router Bit Cabinet - Part 4",
+    "durationSeconds": 1639
+  },
+  {
+    "videoId": "tR1ioI2ZVjk",
+    "title": "Natural Edged Bowl with Bronze Powder | Turning Tuesday #14",
+    "durationSeconds": 687
+  },
+  {
+    "videoId": "-7G1Kmfb51Q",
+    "title": "How to Use a Marking Gauge CORRECTLY",
+    "durationSeconds": 1292
+  },
+  {
+    "videoId": "YAy6Mfzb55c",
+    "title": "Making a Router Bit Cabinet - Part 3",
+    "durationSeconds": 2636
+  },
+  {
+    "videoId": "n659198h3jI",
+    "title": "Making a Router Bit Cabinet - Part 2",
+    "durationSeconds": 2004
+  },
+  {
+    "videoId": "r-YlfeCPN_o",
+    "title": "Game of Thrones Goblet | Turning Tuesday #13",
+    "durationSeconds": 591
+  },
+  {
+    "videoId": "6eQgxrOIpGw",
+    "title": "Prototyping on the METAL LATHE | Turning Tuesday #12",
+    "durationSeconds": 1060
+  },
+  {
+    "videoId": "Cgxp93T6yt4",
+    "title": "Making a Router Bit Cabinet - Part 1",
+    "durationSeconds": 1216
+  },
+  {
+    "videoId": "p5pZd95Jfxg",
+    "title": "Making a Sandpaper Rack - Part #3",
+    "durationSeconds": 352
+  },
+  {
+    "videoId": "u2CkDLA366U",
+    "title": "Making a Pen for my Mum | Turning Tuesday #11",
+    "durationSeconds": 360
+  },
+  {
+    "videoId": "Ozc8THForQM",
+    "title": "Making a Sandpaper Rack - Part #2",
+    "durationSeconds": 845
+  },
+  {
+    "videoId": "fyLjMA50yLo",
+    "title": "I BROKE My First Bowl! | Turning Tuesday #10",
+    "durationSeconds": 607
+  },
+  {
+    "videoId": "Ia-nMPKJPoY",
+    "title": "How to ACCURATELY Install Hinges",
+    "durationSeconds": 1450
+  },
+  {
+    "videoId": "i-xFfPKShcI",
+    "title": "How to PREPARE HINGES for Installation",
+    "durationSeconds": 990
+  },
+  {
+    "videoId": "LHBrhCxhi6c",
+    "title": "Making a Sandpaper Rack - Part 1 | Turning Tuesday #9",
+    "durationSeconds": 649
+  },
+  {
+    "videoId": "PE0UQuzW7Ng",
+    "title": "Tour of the ULTIMATE Power Tool Workbench",
+    "durationSeconds": 1102
+  },
+  {
+    "videoId": "q91kDunVpYw",
+    "title": "Building the ULTIMATE Power Tool Workbench",
+    "durationSeconds": 394
+  },
+  {
+    "videoId": "Mdf9mJ3LP1c",
+    "title": "Finishing a Bowl with CRAYONS?! | Turning Tuesday #8",
+    "durationSeconds": 509
+  },
+  {
+    "videoId": "tPNvStlB_jM",
+    "title": "Building a HUGE Natural Edge PADAUK Desk",
+    "durationSeconds": 2119
+  },
+  {
+    "videoId": "oNucSvpKzn8",
+    "title": "Making a NEW MALLET! | Turning Tuesday #7",
+    "durationSeconds": 1409
+  },
+  {
+    "videoId": "gciT_JpkIUE",
+    "title": "How to make a bench from reclaimed pallets | I Like To Make Stuff",
+    "durationSeconds": 300
+  },
+  {
+    "videoId": "byGfMkUEWz0",
+    "title": "How to make a 4 color screen printing press | I Like To Make Stuff",
+    "durationSeconds": 543
+  },
+  {
+    "videoId": "icp26PHe7_Y",
+    "title": "Maker 101: Saws | I Like To Make Stuff",
+    "durationSeconds": 199
+  },
+  {
+    "videoId": "Jg9VfMmsf6I",
+    "title": "How to make a spiral plywood vase | I Like To Make Stuff",
+    "durationSeconds": 261
+  },
+  {
+    "videoId": "Wo3HIytPWb0",
+    "title": "Time-Lapse: Building a picnic table for two | I Like To Make Stuff",
+    "durationSeconds": 71
+  },
+  {
+    "videoId": "DDg-hTP9V2M",
+    "title": "How to make a remote controlled \"On Air\" light | I Like To Make Stuff",
+    "durationSeconds": 336
+  },
+  {
+    "videoId": "uMbX3bqfzsk",
+    "title": "How to make a simple vacuum former | I Like To Make Stuff",
+    "durationSeconds": 308
+  },
+  {
+    "videoId": "rgNcqae2pGQ",
+    "title": "Tough Mudder 2013 - Department of Redundancy Department | I Like To Make Stuff",
+    "durationSeconds": 265
+  },
+  {
+    "videoId": "MDDE8VvViFo",
+    "title": "Screen Print Your Own T-shirts // How-To | I Like To Make Stuff",
+    "durationSeconds": 325
+  },
+  {
+    "videoId": "iwxpRhn4zuM",
+    "title": "I quit. Thank you. (not quitting YouTube) | I Like To Make Stuff",
+    "durationSeconds": 241
+  },
+  {
+    "videoId": "ONKFwqnusbI",
+    "title": "Four-in-a-Row game (Connect Four™) // How-To | I Like To Make Stuff",
+    "durationSeconds": 422
+  },
+  {
+    "videoId": "kd6ci2dbuRE",
+    "title": "X-Carve Assembly // How-To | I Like To Make Stuff",
+    "durationSeconds": 554
+  },
+  {
+    "videoId": "qriSZqEdiSc",
+    "title": "BrainPick - Live Q&A with Matthias Wandel | I Like To Make Stuff",
+    "durationSeconds": 3906
+  },
+  {
+    "videoId": "mZK5ju-x_Fs",
+    "title": "Maker 101: Understanding circuits | I Like To Make Stuff",
+    "durationSeconds": 236
+  },
+  {
+    "videoId": "jZSMWmevFBo",
+    "title": "Mold and cast an action figure ( or anything ) // How-To | I Like To Make Stuff",
+    "durationSeconds": 295
+  },
+  {
+    "videoId": "tlHbAIv1TOQ",
+    "title": "BrainPick - Live Q&A with Kyle Toth | I Like To Make Stuff",
+    "durationSeconds": 3626
+  },
+  {
+    "videoId": "cBtO8WLE39A",
+    "title": "DeltaPrintr Assembly // How-To | I Like To Make Stuff",
+    "durationSeconds": 567
+  },
+  {
+    "videoId": "RcsKNryPAzw",
+    "title": "Raspberry Pi Retro Arcade using RetroPie (with NO programming) // How-To | I Like To Make Stuff",
+    "durationSeconds": 382
+  },
+  {
+    "videoId": "Vtc3ISUmjuU",
+    "title": "BrainPick - Live Q&A with Matt Cremona | I Like To Make Stuff",
+    "durationSeconds": 3881
+  },
+  {
+    "videoId": "V3NGBo2M1Ps",
+    "title": "How to make a secret door / bookcase | I Like To Make Stuff",
+    "durationSeconds": 660
+  },
+  {
+    "videoId": "SX2fATRbqRc",
+    "title": "BrainPick - Live Q&A with Steve Carmichael | I Like To Make Stuff",
+    "durationSeconds": 3636
+  },
+  {
+    "videoId": "N1ewslBjYPI",
+    "title": "ShapeOko 2 spindle upgrade // How-To | I Like To Make Stuff",
+    "durationSeconds": 507
+  },
+  {
+    "videoId": "t0aVnXLhsOA",
+    "title": "King size bed (with storage) // How-To | I Like To Make Stuff",
+    "durationSeconds": 587
+  },
+  {
+    "videoId": "HMSnPKgvbZM",
+    "title": "BrainPick - Live Q&A with Steve Ramsey | I Like To Make Stuff",
+    "durationSeconds": 3591
+  },
+  {
+    "videoId": "pmx9JOnyw28",
+    "title": "Downdraft table // How-To | I Like To Make Stuff",
+    "durationSeconds": 403
+  },
+  {
+    "videoId": "HH4bQrvtOuk",
+    "title": "BrainPick - A live Q&A with April Wilkerson | I Like To Make Stuff",
+    "durationSeconds": 3659
+  },
+  {
+    "videoId": "Vcg_Ho57MoU",
+    "title": "Making cutting boards // How-To | I Like To Make Stuff",
+    "durationSeconds": 395
+  },
+  {
+    "videoId": "FIftdyXM_Bg",
+    "title": "Welcome to Patreon! | I Like To Make Stuff",
+    "durationSeconds": 82
+  },
+  {
+    "videoId": "bCUHsJ4Ktj0",
+    "title": "How to use Easel (free CNC software) | I Like To Make Stuff",
+    "durationSeconds": 323
+  },
+  {
+    "videoId": "hDE38mjNkJI",
+    "title": "BrainPick - Live Q&A with Frank Howarth | I Like To Make Stuff",
+    "durationSeconds": 3746
+  },
+  {
+    "videoId": "dxkNS3AF_1A",
+    "title": "LED sign with reclaimed wood // How-To | I Like To Make Stuff",
+    "durationSeconds": 479
+  },
+  {
+    "videoId": "iWna7WCP-Us",
+    "title": "Interactive Shop Tour (doesn't work on mobile) | I Like To Make Stuff",
+    "durationSeconds": 367
+  },
+  {
+    "videoId": "AtPOOpJ_bdk",
+    "title": "BrainPick - Live Q&A with Izzy Swan | I Like To Make Stuff",
+    "durationSeconds": 3717
+  },
+  {
+    "videoId": "H6A1VB99eRo",
+    "title": "Pocket notebooks // How-To | I Like To Make Stuff",
+    "durationSeconds": 227
+  },
+  {
+    "videoId": "HAMYaCIXXYU",
+    "title": "How to control your dust collection with an Arduino (it's easy) | I Like To Make Stuff",
+    "durationSeconds": 374
+  },
+  {
+    "videoId": "MPiJOJAGCxk",
+    "title": "BrainPick - Live Q&A with Marc Spagnuolo (The Wood Whisperer) | I Like To Make Stuff",
+    "durationSeconds": 3619
+  },
+  {
+    "videoId": "h8JqU5Df_aw",
+    "title": "Backyard zipline // How-To | I Like To Make Stuff",
+    "durationSeconds": 391
+  },
+  {
+    "videoId": "SbINUkmMdBw",
+    "title": "BrainPick - Live Q&A with Jay Bates | I Like To Make Stuff",
+    "durationSeconds": 3905
+  },
+  {
+    "videoId": "2P-8-zd7sXg",
+    "title": "Wooden digital clock // How-To | I Like To Make Stuff",
+    "durationSeconds": 437
+  },
+  {
+    "videoId": "weQOy1D_8HI",
+    "title": "How to make a dust collector with a wet/dry vac | I Like To Make Stuff",
+    "durationSeconds": 427
+  },
+  {
+    "videoId": "Mp5jzy6fpFc",
+    "title": "BrainPick - Q & A with Jimmy DiResta | I Like To Make Stuff",
+    "durationSeconds": 4411
+  },
+  {
+    "videoId": "EgiCww_JhwY",
+    "title": "Inside Inventables (makers of the ShapeOko 2 CNC milling machine) | I Like To Make Stuff",
+    "durationSeconds": 568
+  },
+  {
+    "videoId": "5iIge3fqiW8",
+    "title": "Tool Overview: ShapeOko 2 - CNC Mill | I Like To Make Stuff",
+    "durationSeconds": 545
+  },
+  {
+    "videoId": "SUb1M_xh6Ds",
+    "title": "How to make a (NOT RUSTIC) bench from reclaimed pallets | I Like To Make Stuff",
+    "durationSeconds": 475
+  },
+  {
+    "videoId": "lNdH_v6fpnQ",
+    "title": "BrainPick - Q & A with David Picciuto (The Drunken Woodworker) | I Like To Make Stuff",
+    "durationSeconds": 3921
+  },
+  {
+    "videoId": "nSCZUDq-5_E",
+    "title": "ILTMS Update - 7/8/14 | I Like To Make Stuff",
+    "durationSeconds": 115
+  },
+  {
+    "videoId": "nlWBYJRcRuY",
+    "title": "How to make an iPad \"cash\" register | I Like To Make Stuff",
+    "durationSeconds": 493
+  },
+  {
+    "videoId": "6jV4vEmIjKQ",
+    "title": "How to make 3 simple types of clamp storage | I Like To Make Stuff",
+    "durationSeconds": 277
+  },
+  {
+    "videoId": "yxEFxgKLq-k",
+    "title": "How to make a clock | I Like To Make Stuff",
+    "durationSeconds": 314
+  },
+  {
+    "videoId": "9RGZpd2BlXg",
+    "title": "How to make a floating shelf | I Like To Make Stuff",
+    "durationSeconds": 233
+  },
+  {
+    "videoId": "09PWmou6f3E",
+    "title": "How to make a headboard | I Like To Make Stuff",
+    "durationSeconds": 435
+  },
+  {
+    "videoId": "l8kucue70UQ",
+    "title": "How to make cornhole boards | I Like To Make Stuff",
+    "durationSeconds": 407
+  },
+  {
+    "videoId": "UNwkDkowKpg",
+    "title": "How to make a longboard | I Like To Make Stuff",
+    "durationSeconds": 406
+  },
+  {
+    "videoId": "MUFKFtFbigg",
+    "title": "Maker 101: Joinery | I Like To Make Stuff",
+    "durationSeconds": 236
+  },
+  {
+    "videoId": "ge2SO9szWrw",
+    "title": "ILTMS Update - 1/29/14 | I Like To Make Stuff",
+    "durationSeconds": 191
+  },
+  {
+    "videoId": "uLcGO5O1E88",
+    "title": "How to make a lumber storage cart | I Like To Make Stuff",
+    "durationSeconds": 359
+  },
+  {
+    "videoId": "DVy6U8SdQnI",
+    "title": "Arcade Cabinet build - Part 3 // How-To | I Like To Make Stuff",
+    "durationSeconds": 606
+  },
+  {
+    "videoId": "t4OjP_5HEzs",
+    "title": "Arcade Cabinet build Part 2 (graphics & trim) // How-To | I Like To Make Stuff",
+    "durationSeconds": 640
+  },
+  {
+    "videoId": "K3QXLQ1UXqs",
+    "title": "Arcade Cabinet build - Part 1 // How-To | I Like To Make Stuff",
+    "durationSeconds": 738
+  },
+  {
+    "videoId": "FJvPaak33I4",
+    "title": "360˚ Shop Tour in 4K | I Like To Make Stuff",
+    "durationSeconds": 1236
+  },
+  {
+    "videoId": "sTywAeOKNnI",
+    "title": "Spinning 3D Printer Workstation // How-To | I Like To Make Stuff",
+    "durationSeconds": 408
+  },
+  {
+    "videoId": "PWI10274u9A",
+    "title": "Bike Rack (scooters and skateboards too) // How-To | I Like To Make Stuff",
+    "durationSeconds": 320
+  },
+  {
+    "videoId": "mDRMCwSD3Ms",
+    "title": "Questions and Answers | I Like To Make Stuff",
+    "durationSeconds": 927
+  },
+  {
+    "videoId": "N55EOiQfAEI",
+    "title": "2016 - What to expect from I Like To Make Stuff | I Like To Make Stuff",
+    "durationSeconds": 244
+  },
+  {
+    "videoId": "mNrZMsJm-e0",
+    "title": "Arduino Programming Part 3 // Maker 101 | I Like To Make Stuff",
+    "durationSeconds": 396
+  },
+  {
+    "videoId": "scySICLlhsk",
+    "title": "Arduino Programming Part 2 // Maker 101 | I Like To Make Stuff",
+    "durationSeconds": 186
+  },
+  {
+    "videoId": "9KAdz3M0uKs",
+    "title": "Arduino Programming Part 1 // Maker 101 | I Like To Make Stuff",
+    "durationSeconds": 364
+  },
+  {
+    "videoId": "ZdABMSLG7ic",
+    "title": "Bedside table with a built in night light // How-To | I Like To Make Stuff",
+    "durationSeconds": 458
+  },
+  {
+    "videoId": "haUdibP1LG4",
+    "title": "Death Star Christmas Decoration // How-To | I Like To Make Stuff",
+    "durationSeconds": 301
+  },
+  {
+    "videoId": "PJDpvSBJ1Zs",
+    "title": "Installing a snorkel on a Land Cruiser (FJ80) // How-To | I Like To Make Stuff",
+    "durationSeconds": 318
+  },
+  {
+    "videoId": "iTZCROqzKzs",
+    "title": "Magnetic Hexagon Coasters // How-To | I Like To Make Stuff",
+    "durationSeconds": 406
+  },
+  {
+    "videoId": "MIymFB2uHXc",
+    "title": "Giant Lightsabers (Star Wars) // How-To | I Like To Make Stuff",
+    "durationSeconds": 218
+  },
+  {
+    "videoId": "_h1m6R9YW8c",
+    "title": "What's an Arduino // Maker101 | I Like To Make Stuff",
+    "durationSeconds": 357
+  },
+  {
+    "videoId": "hubR7vL4KOY",
+    "title": "Serving Tray from Pallets // How-To | I Like To Make Stuff",
+    "durationSeconds": 350
+  },
+  {
+    "videoId": "yFnOjy-wde0",
+    "title": "Sound Reflection Dampener for audio recording // How-To | I Like To Make Stuff",
+    "durationSeconds": 372
+  },
+  {
+    "videoId": "JtIprkZP-tE",
+    "title": "X-Carve Upgrade & Aluminum Milling // Follow Up | I Like To Make Stuff",
+    "durationSeconds": 211
+  },
+  {
+    "videoId": "eNZsthufBJ8",
+    "title": "Custom License Plate // How-To | I Like To Make Stuff",
+    "durationSeconds": 516
+  },
+  {
+    "videoId": "Za_lpkQR7Y8",
+    "title": "Ultimaker 2 Extended (review) // Crash Test | I Like To Make Stuff",
+    "durationSeconds": 404
+  },
+  {
+    "videoId": "lkTKArJDoc4",
+    "title": "Open shelving for your kitchen // How-To | I Like To Make Stuff",
+    "durationSeconds": 459
+  },
+  {
+    "videoId": "zZCw7E9dSzQ",
+    "title": "Company Car // One Day Doc | I Like To Make Stuff",
+    "durationSeconds": 384
+  },
+  {
+    "videoId": "UW6-RQByjMs",
+    "title": "Custom Longboard using a vacuum bag // How-To | I Like To Make Stuff",
+    "durationSeconds": 507
+  },
+  {
+    "videoId": "FjznbLaaf4M",
+    "title": "3D Printing to solve a problem // How-To | I Like To Make Stuff",
+    "durationSeconds": 284
+  },
+  {
+    "videoId": "7tmcz6vvKOA",
+    "title": "Overhead camera rig // How-To | I Like To Make Stuff",
+    "durationSeconds": 312
+  },
+  {
+    "videoId": "e6M0tZYSmCk",
+    "title": "Customize a Nerf blaster // How-To | I Like To Make Stuff",
+    "durationSeconds": 468
+  },
+  {
+    "videoId": "ilTuVXCrWAI",
+    "title": "GoPro ring light // Follow Up | I Like To Make Stuff",
+    "durationSeconds": 201
+  },
+  {
+    "videoId": "k7cs2ul03KU",
+    "title": "GoPro Ring Light // How-To | I Like To Make Stuff",
+    "durationSeconds": 378
+  },
+  {
+    "videoId": "eAIdpYQ7pqA",
+    "title": "Wooden Comic box // How-To | I Like To Make Stuff",
+    "durationSeconds": 389
+  },
+  {
+    "videoId": "T8Z1EXw639k",
+    "title": "Better Kids Closet // How-To | I Like To Make Stuff",
+    "durationSeconds": 352
+  },
+  {
+    "videoId": "eGFc3aYB1vc",
+    "title": "Stuff you might not know about (if you only subscribe on YouTube) | I Like To Make Stuff",
+    "durationSeconds": 109
+  },
+  {
+    "videoId": "ZFsgeBTTcaA",
+    "title": "Steel framed standing desk (electronics station) // How-To | I Like To Make Stuff",
+    "durationSeconds": 532
+  },
+  {
+    "videoId": "A928nx0wKOY",
+    "title": "Gliders (balsa & styrofoam) // How-To | I Like To Make Stuff",
+    "durationSeconds": 323
+  },
+  {
+    "videoId": "FBLgnytHSYo",
+    "title": "Floating Coat Rack (with cubby) // How-To | I Like To Make Stuff",
+    "durationSeconds": 311
+  },
+  {
+    "videoId": "80p939N0wBs",
+    "title": "How to make a SIMPLE, easy & cheap work table from 2x4s | I Like To Make Stuff",
+    "durationSeconds": 296
+  },
+  {
+    "videoId": "j68yT2hALQ8",
+    "title": "Form 1+ SLA 3d printer // Review | I Like To Make Stuff",
+    "durationSeconds": 336
+  },
+  {
+    "videoId": "CrejM97W-yA",
+    "title": "Vacations and marathons // One Day Doc | I Like To Make Stuff",
+    "durationSeconds": 370
+  },
+  {
+    "videoId": "nuQqaEXyehc",
+    "title": "Fold up X-Carve on an existing work table // How-To | I Like To Make Stuff",
+    "durationSeconds": 255
+  },
+  {
+    "videoId": "Z2M2obvfCK8",
+    "title": "Raised Dog Food Bowls // How-To | I Like To Make Stuff",
+    "durationSeconds": 295
+  },
+  {
+    "videoId": "jidGn8sNzLw",
+    "title": "Built in Floating Shelves // How-To | I Like To Make Stuff",
+    "durationSeconds": 279
+  },
+  {
+    "videoId": "weYj5uUr0Lw",
+    "title": "Makerspaces and Q&A // One Day Doc | I Like To Make Stuff",
+    "durationSeconds": 532
+  },
+  {
+    "videoId": "m2zSE4hxtU0",
+    "title": "Monitor Swing Arm (for my shop computer) // How-To | I Like To Make Stuff",
+    "durationSeconds": 307
+  },
+  {
+    "videoId": "lIzBd-gTtyI",
+    "title": "Sandbox/planter combo // How-to | I Like To Make Stuff",
+    "durationSeconds": 297
+  },
+  {
+    "videoId": "kpeoOVcaHbI",
+    "title": "littleBits: Making a Bubble Flute | I Like To Make Stuff",
+    "durationSeconds": 203
+  },
+  {
+    "videoId": "wR6t2M7vXoM",
+    "title": "SmartThings (Review) // Crash Test | I Like To Make Stuff",
+    "durationSeconds": 311
+  },
+  {
+    "videoId": "tKTGvkXX7WU",
+    "title": "A look inside Maker Faire 2015 (Bay Area) | I Like To Make Stuff",
+    "durationSeconds": 244
+  },
+  {
+    "videoId": "r_ui5Btmiq4",
+    "title": "DIY Steadicam™ (Camera counter balance) // How-To | I Like To Make Stuff",
+    "durationSeconds": 365
+  },
+  {
+    "videoId": "UEk4ULSIMcY",
+    "title": "Vinyl Record Frame (easily listen to the record) // How To | I Like To Make Stuff",
+    "durationSeconds": 294
+  },
+  {
+    "videoId": "HIGtGzF7eVQ",
+    "title": "Trike (Green Machine) from junk - Part 2 // How-To | I Like To Make Stuff",
+    "durationSeconds": 304
+  },
+  {
+    "videoId": "8TIM17jw0vA",
+    "title": "Trike (Green Machine) from junk - Part 1 // How-To | I Like To Make Stuff",
+    "durationSeconds": 628
+  },
+  {
+    "videoId": "kCmJen4Fm-Q",
+    "title": "Star Wars Rogue One Shore Trooper Helmet (3d printed)",
+    "durationSeconds": 601
+  },
+  {
+    "videoId": "A3rJ5Um3lS4",
+    "title": "Christmas Advent Calendar (Arduino powered) // How-To | I Like To Make Stuff",
+    "durationSeconds": 349
+  },
+  {
+    "videoId": "X6IX27FILus",
+    "title": "Bar Top Arcade Cabinet with a Raspberry Pi (from a single sheet of plywood)// How-To",
+    "durationSeconds": 597
+  },
+  {
+    "videoId": "RUIaPNfnPrA",
+    "title": "How to make an art supply organizer // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 394
+  },
+  {
+    "videoId": "IPRCNtaRB1k",
+    "title": "How to make a kicker ramp for skateboards and bikes | I Like To Make Stuff",
+    "durationSeconds": 315
+  },
+  {
+    "videoId": "fOWtuYshVb0",
+    "title": "How to make a custom ceiling light fixture | I Like To Make Stuff",
+    "durationSeconds": 310
+  },
+  {
+    "videoId": "JQZQ6--7hkg",
+    "title": "How to make a log bench with HIDDEN storage! | I Like To Make Stuff",
+    "durationSeconds": 666
+  },
+  {
+    "videoId": "muOiPOYXzKA",
+    "title": "Batman Mech Helmet Prop from BvS //How-To | I Like To Make Stuff",
+    "durationSeconds": 690
+  },
+  {
+    "videoId": "EscXQnBpnCc",
+    "title": "How to make an air conditioner cover fence | I Like To Make Stuff",
+    "durationSeconds": 318
+  },
+  {
+    "videoId": "smhMLsP5fsM",
+    "title": "Add Custom Horn Sounds to ANY CAR // How-To | I Like To Make Stuff",
+    "durationSeconds": 424
+  },
+  {
+    "videoId": "lN0YkBIFYIQ",
+    "title": "Drawing Easel for Kids (chalkboard, whiteboard, paper roll) // How-to | I Like To Make Stuff",
+    "durationSeconds": 515
+  },
+  {
+    "videoId": "4oMongjNslg",
+    "title": "How to make a Raspberry Pi Media Center with Kodi | I Like To Make Stuff",
+    "durationSeconds": 541
+  },
+  {
+    "videoId": "zo-lpA_asNY",
+    "title": "3d printer review - Original Prusa i3 MK2 // Crash Test | I Like To Make Stuff",
+    "durationSeconds": 416
+  },
+  {
+    "videoId": "jz4BUlrfhxQ",
+    "title": "How to life cast - Part 2: Pouring the head casting | I Like To Make Stuff",
+    "durationSeconds": 404
+  },
+  {
+    "videoId": "NwKchKnFMVY",
+    "title": "How to make Othello / Reversi (tabletop game) | I Like To Make Stuff",
+    "durationSeconds": 451
+  },
+  {
+    "videoId": "V3rxHJPOWHg",
+    "title": "How to life cast (make a mold of your head) | I Like To Make Stuff",
+    "durationSeconds": 485
+  },
+  {
+    "videoId": "hZOg5RLjaFI",
+    "title": "3d Printing a Transformers Prop (Matrix of Leadership) // How-To | I Like To Make Stuff",
+    "durationSeconds": 491
+  },
+  {
+    "videoId": "DFQ86Sw_OsQ",
+    "title": "How to make a DIY Paint Booth | I Like To Make Stuff",
+    "durationSeconds": 458
+  },
+  {
+    "videoId": "Kif1Hn4CaRI",
+    "title": "Outdoor Kitchen Sink // Woodworking, Metalworking, Sewing How-To | I Like To Make Stuff",
+    "durationSeconds": 659
+  },
+  {
+    "videoId": "mAIIapYDS0Q",
+    "title": "Raspberry Pi 3 Display Sign // Electronics How To | I Like To Make Stuff",
+    "durationSeconds": 475
+  },
+  {
+    "videoId": "Y5_nmp89JKs",
+    "title": "Pudding Gun // How-To | I Like To Make Stuff",
+    "durationSeconds": 309
+  },
+  {
+    "videoId": "-ctiPMDmpoI",
+    "title": "Mini Air Hockey Table // How-To | I Like To Make Stuff",
+    "durationSeconds": 640
+  },
+  {
+    "videoId": "Qper36sKlS8",
+    "title": "How to make a foldable shop stool | I Like To Make Stuff",
+    "durationSeconds": 375
+  },
+  {
+    "videoId": "zNTWzRkK-rs",
+    "title": "A 2nd channel?? WHY?!? | I Like To Make Stuff",
+    "durationSeconds": 64
+  },
+  {
+    "videoId": "uAkwHkUeZCc",
+    "title": "He-Man's Shield from floor mats // How-To | I Like To Make Stuff",
+    "durationSeconds": 507
+  },
+  {
+    "videoId": "4R6QqJKfsCQ",
+    "title": "Ridiculous Snack Machine // How-To | I Like To Make Stuff",
+    "durationSeconds": 460
+  },
+  {
+    "videoId": "tcWLddvn4CU",
+    "title": "Hanging File Box // How-To | I Like To Make Stuff",
+    "durationSeconds": 387
+  },
+  {
+    "videoId": "C2zW4FvR5hQ",
+    "title": "How to make a wooden tape measure | I Like To Make Stuff",
+    "durationSeconds": 284
+  },
+  {
+    "videoId": "fmPY1nTtUXo",
+    "title": "Questions in NOLA // One Day Doc | I Like To Make Stuff",
+    "durationSeconds": 1249
+  },
+  {
+    "videoId": "GOEx37jXIhA",
+    "title": "Quarto Tabletop Game // How-To | I Like To Make Stuff",
+    "durationSeconds": 268
+  },
+  {
+    "videoId": "BAjwmPPaRvU",
+    "title": "Maker Faire in 360˚ - 4K | I Like To Make Stuff",
+    "durationSeconds": 691
+  },
+  {
+    "videoId": "TskKEUNoJLg",
+    "title": "Climbing wall hand holds // How-To | I Like To Make Stuff",
+    "durationSeconds": 353
+  },
+  {
+    "videoId": "-Qq3yrPLWio",
+    "title": "Land Cruiser Toolbox // How-To | I Like To Make Stuff",
+    "durationSeconds": 405
+  },
+  {
+    "videoId": "z5ZXkSgQn4g",
+    "title": "Atari Game Wallet // How-To | I Like To Make Stuff",
+    "durationSeconds": 369
+  },
+  {
+    "videoId": "aR-scGGpxnc",
+    "title": "Remembering my Grandad // One Day Doc | I Like To Make Stuff",
+    "durationSeconds": 462
+  },
+  {
+    "videoId": "-ihz6cLuPOY",
+    "title": "Floating Desk // How-To | I Like To Make Stuff",
+    "durationSeconds": 474
+  },
+  {
+    "videoId": "qf2lPwmT6WU",
+    "title": "Small Pedal Board for Rob Scallon // How-To | I Like To Make Stuff",
+    "durationSeconds": 533
+  },
+  {
+    "videoId": "uuNvxz_ZoME",
+    "title": "Welding Cart Revisited // How-To | I Like To Make Stuff",
+    "durationSeconds": 188
+  },
+  {
+    "videoId": "xqra2rr8Beg",
+    "title": "Water Balloon Cannon // How-To | I Like To Make Stuff",
+    "durationSeconds": 241
+  },
+  {
+    "videoId": "Lq1BRAhHR7M",
+    "title": "[APRIL FOOLS PRANK] Make a custom game console // How-To | I Like To Make Stuff",
+    "durationSeconds": 132
+  },
+  {
+    "videoId": "xznKfiBmVZo",
+    "title": "Quiz Game Buttons // How-To | I Like To Make Stuff",
+    "durationSeconds": 319
+  },
+  {
+    "videoId": "REQrgqNVLlw",
+    "title": "Lego Build Table // How-To | I Like To Make Stuff",
+    "durationSeconds": 583
+  },
+  {
+    "videoId": "cl-ZQyexc3o",
+    "title": "This one is not fun, but it's important to me // One Day Doc | I Like To Make Stuff",
+    "durationSeconds": 787
+  },
+  {
+    "videoId": "UCrDSdlszSU",
+    "title": "Welding Cart & Table // How-To | I Like To Make Stuff",
+    "durationSeconds": 490
+  },
+  {
+    "videoId": "6_S5NNliyXY",
+    "title": "360˚ Office/Studio Tour | I Like To Make Stuff",
+    "durationSeconds": 654
+  },
+  {
+    "videoId": "Bhn34IlsRbs",
+    "title": "Shovel Guitar (one string, fretless) // How-To | I Like To Make Stuff",
+    "durationSeconds": 460
+  },
+  {
+    "videoId": "TVMKDs_nODQ",
+    "title": "Microphone Mute Pedal // How-To | I Like To Make Stuff",
+    "durationSeconds": 407
+  },
+  {
+    "videoId": "BAET0jWxNXA",
+    "title": "How to Make an Escape Room Puzzle",
+    "durationSeconds": 510
+  },
+  {
+    "videoId": "KhCnJjJGJWE",
+    "title": "How to Make a Steel Skateboard Hanger | I Like To Make Stuff",
+    "durationSeconds": 445
+  },
+  {
+    "videoId": "ePqVrxwvm2s",
+    "title": "Folding Guitar Stand // Woodworking How To (RE-UPLOAD) | I Like To Make Stuff",
+    "durationSeconds": 455
+  },
+  {
+    "videoId": "eL5kHPS50n8",
+    "title": "Mid-Century Modern Clock // Woodworking & Metalworking | I Like To Make Stuff",
+    "durationSeconds": 343
+  },
+  {
+    "videoId": "0tN6MCh2oUM",
+    "title": "How to make a cake plate // Woodworking [THE CAKE IS A LIE] | I Like To Make Stuff",
+    "durationSeconds": 344
+  },
+  {
+    "videoId": "BU0FBJ9APl8",
+    "title": "Cyborg Arm (Cosplay/Halloween Costume How To) | I Like To Make Stuff",
+    "durationSeconds": 726
+  },
+  {
+    "videoId": "uKsWGZrVeg0",
+    "title": "Miter Saw Station // Woodworking How To | I Like To Make Stuff",
+    "durationSeconds": 617
+  },
+  {
+    "videoId": "fJ5LZEYyjiU",
+    "title": "How to make a DIY sheet metal brake | I Like To Make Stuff",
+    "durationSeconds": 427
+  },
+  {
+    "videoId": "AgSEaf8guHo",
+    "title": "Mobile Supply Cart/Clamp Rack! // Woodworking How To | I Like To Make Stuff",
+    "durationSeconds": 383
+  },
+  {
+    "videoId": "TOOw-Qnodrk",
+    "title": "How to make a modern studio desk // Woodworking & Metalworking | I Like To Make Stuff",
+    "durationSeconds": 521
+  },
+  {
+    "videoId": "9H9VXVYd3dA",
+    "title": "Storage room to Office/Studio Conversion // Home Renovation | I Like To Make Stuff",
+    "durationSeconds": 704
+  },
+  {
+    "videoId": "yNarfiEO7TU",
+    "title": "How to install hardwood flooring (Nail down) // Home Renovation | I Like To Make Stuff",
+    "durationSeconds": 348
+  },
+  {
+    "videoId": "PcrTKmO6ttA",
+    "title": "Simple Modular Work Tables (WITH MAGNETS!) // Woodworking How To | I Like To Make Stuff",
+    "durationSeconds": 940
+  },
+  {
+    "videoId": "2zKDJ8FmiBw",
+    "title": "Updating Bonus Room // Home Renovation | I Like To Make Stuff",
+    "durationSeconds": 500
+  },
+  {
+    "videoId": "ywZq_CRiu_I",
+    "title": "How to make a step stool tool box // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 360
+  },
+  {
+    "videoId": "b0_kn3ds-J4",
+    "title": "How to make a Guitar Case // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 513
+  },
+  {
+    "videoId": "gL5CO2wlBgE",
+    "title": "World's Largest Super Soaker with Mark Rober | I Like To Make Stuff",
+    "durationSeconds": 255
+  },
+  {
+    "videoId": "u78p7VvU5TM",
+    "title": "Media Console Table // Woodworking How To | I Like To Make Stuff",
+    "durationSeconds": 590
+  },
+  {
+    "videoId": "MP0y7SYTTZ4",
+    "title": "How to make an Auto Mechanic's Creeper // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 442
+  },
+  {
+    "videoId": "ncYwBd09fW0",
+    "title": "How to make Custom Sanding Grips with 3d printing | I Like To Make Stuff",
+    "durationSeconds": 223
+  },
+  {
+    "videoId": "DmNsOzyKOFY",
+    "title": "How to make a Bathroom Vanity Light // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 492
+  },
+  {
+    "videoId": "XpWJSWBRy-0",
+    "title": "How to make a Custom Shop Apron | I Like To Make Stuff",
+    "durationSeconds": 388
+  },
+  {
+    "videoId": "P1Z2KoVliCc",
+    "title": "Glowforge (Prerelease) Laser Engraver Overview | I Like To Make Stuff",
+    "durationSeconds": 769
+  },
+  {
+    "videoId": "_wtCZPE_CI4",
+    "title": "How to Make a Wooden Yo-Yo (with a bearing) // Woodworking",
+    "durationSeconds": 322
+  },
+  {
+    "videoId": "vPUksg4O9v8",
+    "title": "Outdoor Storage Bench // Woodworking How To | I Like To Make Stuff",
+    "durationSeconds": 286
+  },
+  {
+    "videoId": "XRVH9361S70",
+    "title": "Some Big News and Changes // Channel Update | I Like To Make Stuff",
+    "durationSeconds": 154
+  },
+  {
+    "videoId": "PNpIjK52ArM",
+    "title": "USB Charging Robot Lamp // Woodworking How To | I Like To Make Stuff",
+    "durationSeconds": 551
+  },
+  {
+    "videoId": "uKB9z41c2OQ",
+    "title": "Using Fusion 360 to 3D Print a Hose Adapter // Maker 101 | I Like To Make Stuff",
+    "durationSeconds": 337
+  },
+  {
+    "videoId": "Wa4xjwkBODg",
+    "title": "How to make a knife block (that can hold your cookbook) // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 360
+  },
+  {
+    "videoId": "a0d-wT6YS4w",
+    "title": "How to make a Lightsaber ( for Star Wars Day ) | I Like To Make Stuff",
+    "durationSeconds": 818
+  },
+  {
+    "videoId": "TfebQiVfIQk",
+    "title": "Fixing Up A Used Drill Press and Belt Grinder // How To | I Like To Make Stuff",
+    "durationSeconds": 581
+  },
+  {
+    "videoId": "auTxHn5_p9E",
+    "title": "How to make a spinning shop organizer // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 560
+  },
+  {
+    "videoId": "SDz-K9uSWA8",
+    "title": "Sigma R17 (by BCN3D) 3d printer Review // Crash Test | I Like To Make Stuff",
+    "durationSeconds": 596
+  },
+  {
+    "videoId": "xrXaJyTT4To",
+    "title": "How to Make a Ravioli Rolling Pin // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 373
+  },
+  {
+    "videoId": "7B9wem3vCVQ",
+    "title": "Fusion 360: Making a simple object for 3D printing // Maker 101 | I Like To Make Stuff",
+    "durationSeconds": 540
+  },
+  {
+    "videoId": "gNbNKMQhCOQ",
+    "title": "Soldering Fume Extractor / Third hand Combo - How To (Electronics) | I Like To Make Stuff",
+    "durationSeconds": 379
+  },
+  {
+    "videoId": "HjY9ctm8lV8",
+    "title": "Outdoor Storage Cabinet // Woodworking How To | I Like To Make Stuff",
+    "durationSeconds": 498
+  },
+  {
+    "videoId": "w0bPVxGj5cc",
+    "title": "How to make a large Bluetooth scoreboard | I Like To Make Stuff",
+    "durationSeconds": 744
+  },
+  {
+    "videoId": "k4q6Xz4TVzU",
+    "title": "How to make Bödvar's Viking Helm from Brawlhalla | I Like To Make Stuff",
+    "durationSeconds": 718
+  },
+  {
+    "videoId": "sr8VmuITtcg",
+    "title": "Harbor Freight Drone Case // How To | I Like To Make Stuff",
+    "durationSeconds": 453
+  },
+  {
+    "videoId": "PgnvZV5s13c",
+    "title": "Foosball Table with 3d printing // How To | I Like To Make Stuff",
+    "durationSeconds": 692
+  },
+  {
+    "videoId": "ghUohdd-lg0",
+    "title": "How to make wooden sunglasses // Woodworking Project | I Like To Make Stuff",
+    "durationSeconds": 758
+  },
+  {
+    "videoId": "4oFRJqaXWYk",
+    "title": "Motion Activated Bike Lighting Prototype (using Arduino 101) // How To | I Like To Make Stuff",
+    "durationSeconds": 556
+  },
+  {
+    "videoId": "xfqY0DTPlVg",
+    "title": "How to make an Ocean Table // Concrete and Epoxy Resin | I Like To Make Stuff",
+    "durationSeconds": 793
+  },
+  {
+    "videoId": "zpMatU51CPA",
+    "title": "Apple Watch & iPhone Charging Dock // Woodworking How To | I Like To Make Stuff",
+    "durationSeconds": 293
+  },
+  {
+    "videoId": "tVAbVTL6kww",
+    "title": "How to make a simple, sturdy lathe cart // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 483
+  },
+  {
+    "videoId": "R0B1lVLUI0Q",
+    "title": "First Lathe Project: Simple Tool Handle | I Like To Make Stuff",
+    "durationSeconds": 422
+  },
+  {
+    "videoId": "ANg1ouz1tR0",
+    "title": "Rube Goldberg Machine to celebrate 1,000,000 subscribers!! | I Like To Make Stuff",
+    "durationSeconds": 189
+  },
+  {
+    "videoId": "hRZRvulfG_0",
+    "title": "Ultimaker 3 Review // Crash Test | I Like To Make Stuff",
+    "durationSeconds": 423
+  },
+  {
+    "videoId": "hVnblQuZ2v0",
+    "title": "How to make a cake knife from scrap wood // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 346
+  },
+  {
+    "videoId": "1qqh0GkTonc",
+    "title": "Soldering // Bits | I Like To Make Stuff",
+    "durationSeconds": 218
+  },
+  {
+    "videoId": "vG0Sn0grNYc",
+    "title": "How to Make a Rolling Lumber Storage Cart // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 580
+  },
+  {
+    "videoId": "4gvDp23icl8",
+    "title": "Branding Your Work // Bits | I Like To Make Stuff",
+    "durationSeconds": 203
+  },
+  {
+    "videoId": "uXe6TltXuqw",
+    "title": "Turn Unused Space into Built In Storage // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 648
+  },
+  {
+    "videoId": "X_RrKBXV-Ww",
+    "title": "How to Make a Custom Roof Rack | I Like To Make Stuff",
+    "durationSeconds": 878
+  },
+  {
+    "videoId": "zP9yLlCY1c0",
+    "title": "Resins // Bits | I Like To Make Stuff",
+    "durationSeconds": 222
+  },
+  {
+    "videoId": "GTsmM7parCg",
+    "title": "How to make a Simple Fire Pit & Tie Fighter Grill | I Like To Make Stuff",
+    "durationSeconds": 817
+  },
+  {
+    "videoId": "hSTQNWdvPmA",
+    "title": "Brazing // Bits | I Like To Make Stuff",
+    "durationSeconds": 186
+  },
+  {
+    "videoId": "GA1Mrxj0z1A",
+    "title": "Charring Wood // Bits | I Like To Make Stuff",
+    "durationSeconds": 159
+  },
+  {
+    "videoId": "FL7KBsJd6JQ",
+    "title": "How To Make Custom Bifold Closet Doors // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 669
+  },
+  {
+    "videoId": "r2HVspCoH84",
+    "title": "Turning an Attic into a Closet/Playroom | I Like To Make Stuff",
+    "durationSeconds": 1391
+  },
+  {
+    "videoId": "ivvXF3nhymQ",
+    "title": "Varnish // Bits | I Like To Make Stuff",
+    "durationSeconds": 138
+  },
+  {
+    "videoId": "YHJnAAhBl-0",
+    "title": "How to Make a Giant (100ft) Slip N Slide | I Like To Make Stuff",
+    "durationSeconds": 596
+  },
+  {
+    "videoId": "4og5wp4GeDA",
+    "title": "Clamps // Bits | I Like To Make Stuff",
+    "durationSeconds": 140
+  },
+  {
+    "videoId": "xPidTSEUdQM",
+    "title": "Custom Tailgate Storage // Land Cruiser | I Like To Make Stuff",
+    "durationSeconds": 748
+  },
+  {
+    "videoId": "qZ31VIre7c0",
+    "title": "Finding Center // Bits | I Like To Make Stuff",
+    "durationSeconds": 93
+  },
+  {
+    "videoId": "9sM2W9x-FBI",
+    "title": "How to make a Plinko Board // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 972
+  },
+  {
+    "videoId": "En3_byxVxsc",
+    "title": "Adhesives // Bits | I Like To Make Stuff",
+    "durationSeconds": 242
+  },
+  {
+    "videoId": "afPxj0LS0LU",
+    "title": "How to Make An Alexa Controlled Finger | I Like To Make Stuff",
+    "durationSeconds": 767
+  },
+  {
+    "videoId": "FM6O3WK8FrU",
+    "title": "How to Use a Speed Square // Bits | I Like To Make Stuff",
+    "durationSeconds": 131
+  },
+  {
+    "videoId": "EF0nuiz-YYs",
+    "title": "How to Make a Bird Feeder // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 662
+  },
+  {
+    "videoId": "bi7WHmoprcg",
+    "title": "Modern Outdoor Lounge Chair // How To | I Like To Make Stuff",
+    "durationSeconds": 701
+  },
+  {
+    "videoId": "SljLStBz9XE",
+    "title": "How to Make Simple Plywood Dolly // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 598
+  },
+  {
+    "videoId": "9ynFpxokWlM",
+    "title": "How to Make a Larger Vacuum Former | I Like To Make Stuff",
+    "durationSeconds": 1061
+  },
+  {
+    "videoId": "2RXYkjLQTL0",
+    "title": "Making a Hardwood Planter & 3d Printed Pencil Stand // Woodworking How To | I Like To Make Stuff",
+    "durationSeconds": 561
+  },
+  {
+    "videoId": "Lxkk9iGMgxI",
+    "title": "Updating a Room with a Giant Mural // How-to | I Like To Make Stuff",
+    "durationSeconds": 689
+  },
+  {
+    "videoId": "EKh4onHwuGI",
+    "title": "Infinity Gauntlet Salad Tongs (and normal ones too) // Woodworking How To | I Like To Make Stuff",
+    "durationSeconds": 670
+  },
+  {
+    "videoId": "ID2wfU_Ackk",
+    "title": "How to Make a Modern Dresser // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 1007
+  },
+  {
+    "videoId": "rzVJrBOsf0M",
+    "title": "How to Make a Ping Pong Table // Collab with Evan & Katelyn | I Like To Make Stuff",
+    "durationSeconds": 951
+  },
+  {
+    "videoId": "1wy2pCqPCbY",
+    "title": "How to Make Canoe Paddle // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 612
+  },
+  {
+    "videoId": "9tit7IvX4qc",
+    "title": "How to Make an Inexpensive Camera Stabilizer Grip | I Like To Make Stuff",
+    "durationSeconds": 524
+  },
+  {
+    "videoId": "i_I2D09hQc0",
+    "title": "How to Make a Brass and Walnut Coat Rack // Woodworking & Metalworking | I Like To Make Stuff",
+    "durationSeconds": 774
+  },
+  {
+    "videoId": "UFz0WAPDWC4",
+    "title": "Turning a drawing into a toy using 3d printing! | I Like To Make Stuff",
+    "durationSeconds": 442
+  },
+  {
+    "videoId": "LROGLpEe3EA",
+    "title": "How to make a Map Cabinet // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 584
+  },
+  {
+    "videoId": "reuLjPgPAHM",
+    "title": "How to make a solid walnut picture frame // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 658
+  },
+  {
+    "videoId": "Cy9JX0ZfnWE",
+    "title": "How to Make an Indoor Climbing Wall | I Like To Make Stuff",
+    "durationSeconds": 721
+  },
+  {
+    "videoId": "kOnhzuhZGY8",
+    "title": "How to Make an Air-Powered Rocket Launcher | I Like To Make Stuff",
+    "durationSeconds": 452
+  },
+  {
+    "videoId": "AvA0VrdRRUA",
+    "title": "How to make an Optimus Prime Blaster Prop | I Like To Make Stuff",
+    "durationSeconds": 927
+  },
+  {
+    "videoId": "kbT0B1WS95I",
+    "title": "3d Printer Enclosure / Electronics Workstation | I Like To Make Stuff",
+    "durationSeconds": 659
+  },
+  {
+    "videoId": "AcIp9W-D3NA",
+    "title": "How to Make a Simple Bookcase | I Like To Make Stuff",
+    "durationSeconds": 496
+  },
+  {
+    "videoId": "Z8YSEOXOpN4",
+    "title": "Nintendo Switch Game Storage Controller // How-to | I Like To Make Stuff",
+    "durationSeconds": 540
+  },
+  {
+    "videoId": "4UOJOm_EcDE",
+    "title": "Easy Double Bunk Beds // Woodworking How To | I Like To Make Stuff",
+    "durationSeconds": 824
+  },
+  {
+    "videoId": "QCQe2KvB2p8",
+    "title": "Simple Speaker Stands // Woodworking How To | I Like To Make Stuff",
+    "durationSeconds": 588
+  },
+  {
+    "videoId": "XbJrJQhgtqk",
+    "title": "I WROTE A BOOK! (and who is THIS GUY?) | I Like To Make Stuff",
+    "durationSeconds": 211
+  },
+  {
+    "videoId": "Z_tTy1fnVsQ",
+    "title": "Using Your Suggestions to Improve the Miter Saw Station | I Like To Make Stuff",
+    "durationSeconds": 709
+  },
+  {
+    "videoId": "b2BNARa0Cgs",
+    "title": "How to make a DIY Ventilated Paint Booth | I Like To Make Stuff",
+    "durationSeconds": 996
+  },
+  {
+    "videoId": "nGclotQvIe0",
+    "title": "Decorate a Christmas Tree with a Candy Cane Cannon | I Like To Make Stuff",
+    "durationSeconds": 455
+  },
+  {
+    "videoId": "D1JWH425o7c",
+    "title": "Fully Automated Dust Collection powered by Arduino // How To | I Like To Make Stuff",
+    "durationSeconds": 545
+  },
+  {
+    "videoId": "2nshBD9EbxE",
+    "title": "How to make a Wooden Katana from hardwood flooring // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 842
+  },
+  {
+    "videoId": "tG75jMdBS5M",
+    "title": "How to Make a Disc Golf Basket | I Like To Make Stuff",
+    "durationSeconds": 837
+  },
+  {
+    "videoId": "zAPNuWFHJgU",
+    "title": "Injury Prevention // Bits | I Like To Make Stuff",
+    "durationSeconds": 170
+  },
+  {
+    "videoId": "DMm9aro4PlM",
+    "title": "Spoon Carving Using Power Tools | I Like To Make Stuff",
+    "durationSeconds": 490
+  },
+  {
+    "videoId": "UpN-E69jkso",
+    "title": "Saw Blades // Bits | I Like To Make Stuff",
+    "durationSeconds": 272
+  },
+  {
+    "videoId": "CINYNFbRu50",
+    "title": "Making an Arcade Cabinet for Mortal Kombat 11 | I Like To Make Stuff",
+    "durationSeconds": 1800
+  },
+  {
+    "videoId": "ewH591EkS38",
+    "title": "Making Filament Storage with an Etched Glass Door // 3d Printing & Woodworking",
+    "durationSeconds": 1279
+  },
+  {
+    "videoId": "jNvCQVrEpDQ",
+    "title": "Switches // Bits | I Like To Make Stuff",
+    "durationSeconds": 219
+  },
+  {
+    "videoId": "848Zlv0PRHk",
+    "title": "How to Make a Secret Room (Through a Wardrobe) | I Like To Make Stuff",
+    "durationSeconds": 1581
+  },
+  {
+    "videoId": "wOlJja9VKIk",
+    "title": "Vinyl Cutters // Bits | I Like To Make Stuff",
+    "durationSeconds": 283
+  },
+  {
+    "videoId": "7B6B7cqpntw",
+    "title": "Making a Gimbal Handle with a Water Jet | I Like To Make Stuff",
+    "durationSeconds": 910
+  },
+  {
+    "videoId": "mqCJsYnI6Fc",
+    "title": "How to Make a DIY Pottery Wheel | I Like To Make Stuff",
+    "durationSeconds": 1149
+  },
+  {
+    "videoId": "2ecCO9xTzxA",
+    "title": "ILTMS_employeeOrientation_final4_updated_v5.wmv (April Fools 2019) | I Like To Make Stuff",
+    "durationSeconds": 98
+  },
+  {
+    "videoId": "CJPIPOfJqdc",
+    "title": "Making a Table Saw Extension and Cross Cut Sled | I Like To Make Stuff",
+    "durationSeconds": 1565
+  },
+  {
+    "videoId": "ydtrSDbLIps",
+    "title": "How to Make a 3d Printed Soap Dispenser | I Like To Make Stuff",
+    "durationSeconds": 439
+  },
+  {
+    "videoId": "GKyJstixZ1A",
+    "title": "How to Make an Adjustable Silverware Tray | I Like To Make Stuff",
+    "durationSeconds": 949
+  },
+  {
+    "videoId": "YQ0bedHE-XY",
+    "title": "How to Make a Built-In Entertainment Center | I Like To Make Stuff",
+    "durationSeconds": 1426
+  },
+  {
+    "videoId": "trb-yARzxqQ",
+    "title": "How to Make Multi-Colored Custom Crayons | I Like To Make Stuff",
+    "durationSeconds": 929
+  },
+  {
+    "videoId": "WKCIwpsQrME",
+    "title": "Making a LEGO Walkie Talkie Live Stream Controller (Bluetooth) | I Like To Make Stuff",
+    "durationSeconds": 841
+  },
+  {
+    "videoId": "4yMeSlBOstM",
+    "title": "Remodeling a Master Bathroom | Part 2 | I Like To Make Stuff",
+    "durationSeconds": 1635
+  },
+  {
+    "videoId": "rnfIlB8EZH0",
+    "title": "Replacing a Toilet // Bits | I Like To Make Stuff",
+    "durationSeconds": 166
+  },
+  {
+    "videoId": "-xGo6mNWV4o",
+    "title": "Remodeling a Master Bathroom | Part 1 | I Like To Make Stuff",
+    "durationSeconds": 1350
+  },
+  {
+    "videoId": "CLwXiv234AM",
+    "title": "Setting Up A Workshop // Bits | I Like To Make Stuff",
+    "durationSeconds": 272
+  },
+  {
+    "videoId": "c7koRkRu1U4",
+    "title": "How to Refinish A Guitar | I Like To Make Stuff",
+    "durationSeconds": 1522
+  },
+  {
+    "videoId": "-GUihpXsMxE",
+    "title": "Faucets // Bits | I Like To Make Stuff",
+    "durationSeconds": 232
+  },
+  {
+    "videoId": "ReoG1XwT860",
+    "title": "Laying Tile // Bits | I Like To Make Stuff",
+    "durationSeconds": 303
+  },
+  {
+    "videoId": "FSpzlkL-avo",
+    "title": "How to Make a Custom Shadow Box | I Like To Make Stuff",
+    "durationSeconds": 565
+  },
+  {
+    "videoId": "xfXH5Qi-pek",
+    "title": "How to Renovate a Mudroom | I Like To Make Stuff",
+    "durationSeconds": 1521
+  },
+  {
+    "videoId": "JWgp7VSVJR8",
+    "title": "Making R2-D2 Part 1 // Styrene Frame, Aluminum Dome & Skins | I Like To Make Stuff",
+    "durationSeconds": 630
+  },
+  {
+    "videoId": "FXqra5Fe6DU",
+    "title": "How to Make a Wood Slab Bench // Woodworking & Metalworking | I Like To Make Stuff",
+    "durationSeconds": 860
+  },
+  {
+    "videoId": "B98MvPHJPGI",
+    "title": "How to Make a Christmas Tree for Cats | I Like To Make Stuff",
+    "durationSeconds": 284
+  },
+  {
+    "videoId": "1bbD0ak53g8",
+    "title": "How to make Collapsible Display Shelves // Woodworking & Metalworking | I Like To Make Stuff",
+    "durationSeconds": 733
+  },
+  {
+    "videoId": "sL-OtHNLzlo",
+    "title": "How To Install a Herringbone Wood Floor | I Like To Make Stuff",
+    "durationSeconds": 1017
+  },
+  {
+    "videoId": "_bccT1Ll15I",
+    "title": "Multimeters // Bits | I Like To Make Stuff",
+    "durationSeconds": 176
+  },
+  {
+    "videoId": "1HVpEQlqNMY",
+    "title": "How to Make a Posable Mannequin | I Like To Make Stuff",
+    "durationSeconds": 1109
+  },
+  {
+    "videoId": "pbDi2wAaPuA",
+    "title": "How to Make a 3d Printed Epoxy Rolling Pin | I Like To Make Stuff",
+    "durationSeconds": 343
+  },
+  {
+    "videoId": "nCFixYE80jI",
+    "title": "Edge Banding // Bits | I Like To Make Stuff",
+    "durationSeconds": 116
+  },
+  {
+    "videoId": "OeqRyV9vH1c",
+    "title": "How to Make a Modern Writing Desk | I Like To Make Stuff",
+    "durationSeconds": 825
+  },
+  {
+    "videoId": "ELfaQ8juSM8",
+    "title": "Finishing 3D Prints // Bits | I Like To Make Stuff",
+    "durationSeconds": 185
+  },
+  {
+    "videoId": "vHIvDkz1F1g",
+    "title": "How to 3d Print & Cast a \"Neon Sign\" | I Like To Make Stuff",
+    "durationSeconds": 677
+  },
+  {
+    "videoId": "c1R4TH6U9rc",
+    "title": "Arduino vs. Raspberry Pi // Bits | I Like To Make Stuff",
+    "durationSeconds": 316
+  },
+  {
+    "videoId": "SNpfIA9g0K8",
+    "title": "How to Make Daredevil's Billy Club | I Like To Make Stuff",
+    "durationSeconds": 714
+  },
+  {
+    "videoId": "quPMlQ-UYNU",
+    "title": "3d Printing Filaments // Bits | I Like To Make Stuff",
+    "durationSeconds": 208
+  },
+  {
+    "videoId": "vrkbab2dGfI",
+    "title": "Milling Lumber // Bits | I Like To Make Stuff",
+    "durationSeconds": 162
+  },
+  {
+    "videoId": "4FoO4Zuo7CU",
+    "title": "How to Make a Modular Outdoor Table | I Like To Make Stuff",
+    "durationSeconds": 918
+  },
+  {
+    "videoId": "-TzGVRWgS3g",
+    "title": "Buying a 3d Printer // Bits | I Like To Make Stuff",
+    "durationSeconds": 285
+  },
+  {
+    "videoId": "V_mrRWznZXs",
+    "title": "Q&A at World Maker Faire NY 2018 | I Like To Make Stuff",
+    "durationSeconds": 937
+  },
+  {
+    "videoId": "HpIEhi426GQ",
+    "title": "How to make a Transformers Bluetooth BoomBox | I Like To Make Stuff",
+    "durationSeconds": 1281
+  },
+  {
+    "videoId": "myBibYvEQAE",
+    "title": "How to Make a Giant Perfection Game | I Like To Make Stuff",
+    "durationSeconds": 1529
+  },
+  {
+    "videoId": "oWtlE-Gc63c",
+    "title": "Angle Grinders // Bits | I Like To Make Stuff",
+    "durationSeconds": 248
+  },
+  {
+    "videoId": "vNW4YIh49eg",
+    "title": "How to Make a Catapult (2 MILLION SUBSCRIBERS!) | I Like To Make Stuff",
+    "durationSeconds": 771
+  },
+  {
+    "videoId": "ANyr-oP_QuY",
+    "title": "Making Raised Garden Beds from Composite Decking | I Like To Make Stuff",
+    "durationSeconds": 691
+  },
+  {
+    "videoId": "XHuxGKNwXs8",
+    "title": "Making a Leather Guitar Strap // Leatherworking | I Like To Make Stuff",
+    "durationSeconds": 530
+  },
+  {
+    "videoId": "g7Cj6T2ZF5g",
+    "title": "Making a Charging Station from Walnut & Brass | I Like To Make Stuff",
+    "durationSeconds": 679
+  },
+  {
+    "videoId": "MCmZwEmh60Q",
+    "title": "Making a Modern Lamp with Inductive Charging | I Like To Make Stuff",
+    "durationSeconds": 806
+  },
+  {
+    "videoId": "XZ0WRagQ1YM",
+    "title": "How to Make a Multi Guitar Stand | I Like To Make Stuff",
+    "durationSeconds": 899
+  },
+  {
+    "videoId": "m81zhVJ5Gw4",
+    "title": "I Like To Make Stuff Shop Tour 2020! (April Fools) | I Like To Make Stuff",
+    "durationSeconds": 1750
+  },
+  {
+    "videoId": "9YqsJ4dfufU",
+    "title": "Shop Class 03 - Making a Simple Birdhouse | I Like To Make Stuff",
+    "durationSeconds": 503
+  },
+  {
+    "videoId": "3GWZNwqsn5Q",
+    "title": "Shop Class 02 - Drill, Hammer and Speed Square | I Like To Make Stuff",
+    "durationSeconds": 542
+  },
+  {
+    "videoId": "Odc6uKk39rs",
+    "title": "Shop Class 01 - Saws & Clamps | I Like To Make Stuff",
+    "durationSeconds": 621
+  },
+  {
+    "videoId": "R7JlA7u_CoU",
+    "title": "We Went to Chicago (in February) // Between the Builds | I Like To Make Stuff",
+    "durationSeconds": 518
+  },
+  {
+    "videoId": "-G8SlgX50Ok",
+    "title": "Making a Welding Helmet for PUBG Mobile | I Like To Make Stuff",
+    "durationSeconds": 912
+  },
+  {
+    "videoId": "yEvzoRou5uc",
+    "title": "Making a Mid Century Modern Credenza | I Like To Make Stuff",
+    "durationSeconds": 1133
+  },
+  {
+    "videoId": "oZ_RDXX5l4M",
+    "title": "Making Simple Steel Storage while Learning to Weld | I Like To Make Stuff",
+    "durationSeconds": 929
+  },
+  {
+    "videoId": "vWiu05DflR4",
+    "title": "Making A B Bender Guitar for Rob Scallon | I Like To Make Stuff",
+    "durationSeconds": 1283
+  },
+  {
+    "videoId": "dOt36iEnLAE",
+    "title": "We Don't Need A Pallet Jack // Between the Builds | I Like To Make Stuff",
+    "durationSeconds": 708
+  },
+  {
+    "videoId": "WMXluIAw5QY",
+    "title": "Making a Work Table For Our Podcast Setup | I Like To Make Stuff",
+    "durationSeconds": 711
+  },
+  {
+    "videoId": "sX1FHw3oyEo",
+    "title": "How to Make a Custom Leather Sheath // Leatherworking | I Like To Make Stuff",
+    "durationSeconds": 1072
+  },
+  {
+    "videoId": "YwyQ96eDF5k",
+    "title": "Making a Forged Machete // Blacksmithing | I Like To Make Stuff",
+    "durationSeconds": 1111
+  },
+  {
+    "videoId": "Bz5boV7pOzQ",
+    "title": "It Literally Weighs a Ton // Between the Builds | I Like To Make Stuff",
+    "durationSeconds": 482
+  },
+  {
+    "videoId": "SlPldv36QQ0",
+    "title": "How to Make A Tool Organizer | I Like To Make Stuff",
+    "durationSeconds": 927
+  },
+  {
+    "videoId": "ip9vvd8dl6Y",
+    "title": "How to Make a Wall Organizer // DIY Woodworking | I Like To Make Stuff",
+    "durationSeconds": 1005
+  },
+  {
+    "videoId": "sbJw2ZrtnYk",
+    "title": "How to Make A Rolling Tool Cart | I Like To Make Stuff",
+    "durationSeconds": 892
+  },
+  {
+    "videoId": "5wGiDuXApr8",
+    "title": "Making a Giant Christmas Tree that's also a Video Game! | I Like To Make Stuff",
+    "durationSeconds": 893
+  },
+  {
+    "videoId": "JoNi3R97FCk",
+    "title": "How to Make a Resin & Wood Lamp // Woodturning | I Like To Make Stuff",
+    "durationSeconds": 1042
+  },
+  {
+    "videoId": "-WfRC6cs-pE",
+    "title": "How to Make A Concrete Birdbath // Pokemon | I Like To Make Stuff",
+    "durationSeconds": 780
+  },
+  {
+    "videoId": "yGlNQxXZwiM",
+    "title": "Restoring an Old Director's Chair // Leather Working | I Like To Make Stuff",
+    "durationSeconds": 1298
+  },
+  {
+    "videoId": "v-LjcBdbyiA",
+    "title": "Making R2-D2 Part 3 // Dome Lights, Legs, Paint | I Like To Make Stuff",
+    "durationSeconds": 1077
+  },
+  {
+    "videoId": "j8-mg4li7lc",
+    "title": "Making the Amban Blaster from The Mandalorian // Star Wars Props | I Like To Make Stuff",
+    "durationSeconds": 1921
+  },
+  {
+    "videoId": "C7EguktQ_eo",
+    "title": "Quick Farm Tour and Joining Team Trees | I Like To Make Stuff",
+    "durationSeconds": 252
+  },
+  {
+    "videoId": "mRH2oMoi26k",
+    "title": "Making Picnic Tables with Built In Grills // Woodworking & Outdoors | I Like To Make Stuff",
+    "durationSeconds": 725
+  },
+  {
+    "videoId": "LOYmB6q2wnM",
+    "title": "How to Make Fold Away Tool Storage | I Like To Make Stuff",
+    "durationSeconds": 733
+  },
+  {
+    "videoId": "w8CAmYqW9yM",
+    "title": "How to Make a Trick or Treat Cart for Halloween | I Like To Make Stuff",
+    "durationSeconds": 650
+  },
+  {
+    "videoId": "rt2AC9U-fhY",
+    "title": "How to make a Langstroth Beehive // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 946
+  },
+  {
+    "videoId": "jcaqhNlRRB0",
+    "title": "How to Make a Simple Propane Forge for Blacksmithing | I Like To Make Stuff",
+    "durationSeconds": 1071
+  },
+  {
+    "videoId": "sQWPnaiixe0",
+    "title": "How to Make a DIY Greenhouse | I Like To Make Stuff",
+    "durationSeconds": 992
+  },
+  {
+    "videoId": "_HPadCkwqMU",
+    "title": "Custom Car Badges (WITH A SECRET) // How-To | I Like To Make Stuff",
+    "durationSeconds": 742
+  },
+  {
+    "videoId": "0GhGdJGOfu8",
+    "title": "How to Make Barn Doors // Woodworking & Metalworking | I Like To Make Stuff",
+    "durationSeconds": 923
+  },
+  {
+    "videoId": "NnuzSl51y5c",
+    "title": "Cat Proof Toilet Paper Holder // Bent Lamination | I Like To Make Stuff",
+    "durationSeconds": 911
+  },
+  {
+    "videoId": "OLNqaLZT8Mo",
+    "title": "CNC Milling Bits // Bits | I Like To Make Stuff",
+    "durationSeconds": 166
+  },
+  {
+    "videoId": "6eydL5MFV2w",
+    "title": "How to Make a Lighted Marquee Sign for Avengers: Endgame | I Like To Make Stuff",
+    "durationSeconds": 1001
+  },
+  {
+    "videoId": "Qe4lYZptGHY",
+    "title": "1-2-3 Blocks // Bits | I Like To Make Stuff",
+    "durationSeconds": 172
+  },
+  {
+    "videoId": "sdGD55qyURQ",
+    "title": "How to Make a Fold Away Bike Rack // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 955
+  },
+  {
+    "videoId": "udCWFufqVQM",
+    "title": "Making R2-D2 Part 2 // Paint, Panels, Assembly | I Like To Make Stuff",
+    "durationSeconds": 897
+  },
+  {
+    "videoId": "JPoWKJr6jPA",
+    "title": "How to Make 3 Easy Bathroom Projects // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 886
+  },
+  {
+    "videoId": "QrFZKqeuCnA",
+    "title": "How to Make a Darksaber from Star Wars (Mandalorian / Rebels / Clone Wars) | I Like To Make Stuff",
+    "durationSeconds": 1766
+  },
+  {
+    "videoId": "k0I3ak7KfM0",
+    "title": "How to Make an SLA Finishing Station // 3d Printing | I Like To Make Stuff",
+    "durationSeconds": 703
+  },
+  {
+    "videoId": "6hzHXDT-hKU",
+    "title": "How to Make a Treehouse Part 2 | I Like To Make Stuff",
+    "durationSeconds": 1105
+  },
+  {
+    "videoId": "RYBDTDSjK4Y",
+    "title": "How to Make a Treehouse Part 1 | I Like To Make Stuff",
+    "durationSeconds": 1172
+  },
+  {
+    "videoId": "br2Q9gs0p-Y",
+    "title": "How to Make Axe Throwing For Kids | I Like To Make Stuff",
+    "durationSeconds": 540
+  },
+  {
+    "videoId": "lYAqhtvJz2A",
+    "title": "How to Make a Sandpaper Organizer | I Like To Make Stuff",
+    "durationSeconds": 679
+  },
+  {
+    "videoId": "ze-yCTnAJmI",
+    "title": "There's A Hole In The Gas Tank! | I Like To Make Stuff | Karmann Ghia",
+    "durationSeconds": 736
+  },
+  {
+    "videoId": "LC3ZXbCVP0E",
+    "title": "How To Make a Pull Out Pantry | I Like To Make Stuff",
+    "durationSeconds": 940
+  },
+  {
+    "videoId": "jRKX5wd6IK4",
+    "title": "Make Your Own Pendant Lights DIY | I Like To Make Stuff",
+    "durationSeconds": 788
+  },
+  {
+    "videoId": "JcHN-Gu7J28",
+    "title": "Kitchen Renovations Aren't Like TV Shows! | I Like To Make Stuff",
+    "durationSeconds": 816
+  },
+  {
+    "videoId": "BypgwZd0Trg",
+    "title": "Finishing My Full-Size R2-D2 Build | I Like To Make Stuff",
+    "durationSeconds": 1075
+  },
+  {
+    "videoId": "sGwUgGlpnmQ",
+    "title": "How to Restore My Dream Car: Karmann Ghia | I Like To Make Stuff",
+    "durationSeconds": 668
+  },
+  {
+    "videoId": "07AJjJwQybw",
+    "title": "How to Make a Porch Swing | I Like To Make Stuff",
+    "durationSeconds": 767
+  },
+  {
+    "videoId": "U58DpjePYn8",
+    "title": "DIY AirTag Accessories | I Like To Make Stuff",
+    "durationSeconds": 927
+  },
+  {
+    "videoId": "ipJ1JOL_R6Q",
+    "title": "Making a \"Smart\" Practice Seat | I Like To Make Stuff",
+    "durationSeconds": 677
+  },
+  {
+    "videoId": "wt9wsRyJ5S0",
+    "title": "Hiding a Wall Safe with a Puzzle | I Like To Make Stuff",
+    "durationSeconds": 948
+  },
+  {
+    "videoId": "1Qpmw_YJ6Gc",
+    "title": "Kitchen Cabinets: Cheaper to Build or Buy? | I Like To Make Stuff",
+    "durationSeconds": 1374
+  },
+  {
+    "videoId": "iZF0Lg-GitQ",
+    "title": "Should You Remodel a Kitchen By Yourself? | I Like To Make Stuff",
+    "durationSeconds": 1028
+  },
+  {
+    "videoId": "QxIrJ59x900",
+    "title": "How to Organize a Boring Closet | I Like To Make Stuff",
+    "durationSeconds": 1130
+  },
+  {
+    "videoId": "c7Ge4tEzX5M",
+    "title": "How to Build a DIY Guitar: Challenge Part 2 | I Like To Make Stuff",
+    "durationSeconds": 1094
+  },
+  {
+    "videoId": "iBXphiRbSjY",
+    "title": "How to Build a DIY Guitar: Challenge | I Like To Make Stuff",
+    "durationSeconds": 1520
+  },
+  {
+    "videoId": "-DI-Bs6NYY0",
+    "title": "How to Make a Modern Coat Rack From Scraps | I Like To Make Stuff",
+    "durationSeconds": 635
+  },
+  {
+    "videoId": "ecMk4YXUfkU",
+    "title": "How To Make An Adjustable Pottery Stool | I Like To Make Stuff",
+    "durationSeconds": 1512
+  },
+  {
+    "videoId": "enBjzAhNHm8",
+    "title": "Floating Helmet Display Mounts | I Like To Make Stuff",
+    "durationSeconds": 690
+  },
+  {
+    "videoId": "z7rOsba3WbY",
+    "title": "Mandalorian Helmets Using Small 3d Printers | I Like To Make Stuff",
+    "durationSeconds": 1074
+  },
+  {
+    "videoId": "fIAQoNXWepo",
+    "title": "Drill Press Storage Upgrade | I Like To Make Stuff",
+    "durationSeconds": 694
+  },
+  {
+    "videoId": "dEONG6tuCsM",
+    "title": "Making A Gaffi Stick from Star Wars & The Mandalorian | I Like To Make Stuff",
+    "durationSeconds": 765
+  },
+  {
+    "videoId": "D5gJjHdYJCs",
+    "title": "Wall Art From Scrap Wood & Resin | I Like To Make Stuff",
+    "durationSeconds": 558
+  },
+  {
+    "videoId": "5owrnjVD5sA",
+    "title": "Adjustable Work Light Arm | I Like To Make Stuff",
+    "durationSeconds": 989
+  },
+  {
+    "videoId": "pLErkYF4V-M",
+    "title": "How to Make a Minimal Leather Wallet | I Like To Make Stuff",
+    "durationSeconds": 671
+  },
+  {
+    "videoId": "RHy_NBtkobs",
+    "title": "Making Stunt Props for Action Movies | I Like To Make Stuff",
+    "durationSeconds": 1444
+  },
+  {
+    "videoId": "M5K6LT6KpXI",
+    "title": "Choosing Silicones // Bits | I Like To Make Stuff",
+    "durationSeconds": 420
+  },
+  {
+    "videoId": "70V2R6tl4Y0",
+    "title": "How to Upgrade a Bathroom: Quick Makeover | I Like To Make Stuff",
+    "durationSeconds": 1022
+  },
+  {
+    "videoId": "ezVXI0a_5QM",
+    "title": "Single Board Build Off | I Like To Make Stuff",
+    "durationSeconds": 1175
+  },
+  {
+    "videoId": "JdajLpXIFL4",
+    "title": "Making R2-D2 Part 5 // Feet & Motion | I Like To Make Stuff",
+    "durationSeconds": 784
+  },
+  {
+    "videoId": "LpVlfUGinkM",
+    "title": "Making a Walk In Closet | I Like To Make Stuff",
+    "durationSeconds": 1087
+  },
+  {
+    "videoId": "VxoV90loo4A",
+    "title": "Star Wars Inspired Entertainment Center | I Like To Make Stuff",
+    "durationSeconds": 1621
+  },
+  {
+    "videoId": "SgkSqub2SvY",
+    "title": "Choosing Battery Operated Tools // Bits | I Like To Make Stuff",
+    "durationSeconds": 412
+  },
+  {
+    "videoId": "cVRFzsq3_vA",
+    "title": "How to Carry A Canoe By Yourself | I Like To Make Stuff",
+    "durationSeconds": 879
+  },
+  {
+    "videoId": "ZPA_yddC8Lw",
+    "title": "How to Make a Murphy Bed | I Like To Make Stuff",
+    "durationSeconds": 973
+  },
+  {
+    "videoId": "nbueFa9vY4M",
+    "title": "U.S. Navy Mobile Shelter Challenge | Sailor VS",
+    "durationSeconds": 607
+  },
+  {
+    "videoId": "X-FFDnAM3oo",
+    "title": "Upgrading the Paint Booth with More Storage | I Like To Make Stuff",
+    "durationSeconds": 1174
+  },
+  {
+    "videoId": "fCckkcVDKK8",
+    "title": "Making A Custom Display Box | I Like To Make Stuff",
+    "durationSeconds": 1038
+  },
+  {
+    "videoId": "I9mcoTUjKoo",
+    "title": "Adding Storage To Any Bed // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 820
+  },
+  {
+    "videoId": "QMCpLK443fc",
+    "title": "Designing a Model Making Station | I Like To Make Stuff",
+    "durationSeconds": 987
+  },
+  {
+    "videoId": "23AzbrQVKzw",
+    "title": "Making Custom Silicone Mats | I Like To Make Stuff",
+    "durationSeconds": 653
+  },
+  {
+    "videoId": "syEi9m4yJ2Y",
+    "title": "How to Make a DIY Weight Rack // Home Gym | I Like To Make Stuff",
+    "durationSeconds": 772
+  },
+  {
+    "videoId": "2CDtzEnTAJU",
+    "title": "How to Make a Modern Canopy Bed | I Like To Make Stuff",
+    "durationSeconds": 1144
+  },
+  {
+    "videoId": "V2h6PbzVSdc",
+    "title": "How to Make a DIY Weight Bench // Home Gym | I Like To Make Stuff",
+    "durationSeconds": 790
+  },
+  {
+    "videoId": "E7HumfxE2f4",
+    "title": "Making a Simple Potting Bench // Woodworking | I Like To Make Stuff",
+    "durationSeconds": 730
+  },
+  {
+    "videoId": "1LNn-zuF2lw",
+    "title": "Making the Blue Spirit Mask from Avatar: The Last Airbender | I Like To Make Stuff",
+    "durationSeconds": 880
+  },
+  {
+    "videoId": "wkUrI-AN5f8",
+    "title": "Fusion 360 For Makers // Online Course | I Like To Make Stuff",
+    "durationSeconds": 130
+  },
+  {
+    "videoId": "qlDWWugFml8",
+    "title": "Making R2-D2 Part 4 // Electronics & Remote Control | I Like To Make Stuff",
+    "durationSeconds": 996
+  },
+  {
+    "videoId": "IN_PyIFoTYI",
+    "title": "Turning a Plywood Coffee Tamper | I Like To Make Stuff",
+    "durationSeconds": 620
+  },
+  {
+    "videoId": "DjwHqvYhNno",
+    "title": "Tabletop Game Storage (Star Wars X-Wing Miniatures) | I Like To Make Stuff",
+    "durationSeconds": 1202
+  },
+  {
+    "videoId": "wHeXqIQXni8",
+    "title": "Making a Portable Fire Pit Grill | I Like To Make Stuff",
+    "durationSeconds": 373
+  },
+  {
+    "videoId": "KS8dRkuaMUo",
+    "title": "Inside Look at a Star Wars Prop Shop",
+    "durationSeconds": 629
+  },
+  {
+    "videoId": "TLoO5MnKhCE",
+    "title": "Can I Recreate the Original Star Wars Lightsaber?",
+    "durationSeconds": 778
+  },
+  {
+    "videoId": "AEFGtirt-rQ",
+    "title": "What Happens When a Woodworker, a Programmer, and a Blacksmith Build A Table?",
+    "durationSeconds": 1072
+  },
+  {
+    "videoId": "BX7bTIRpPwA",
+    "title": "Trying To Win Mark Rober's $10,000! [Behind The Scenes]",
+    "durationSeconds": 905
+  },
+  {
+    "videoId": "WgCVSdXYR1w",
+    "title": "We Found Mark Rober's Shop!...and Left Him a Present.",
+    "durationSeconds": 1064
+  },
+  {
+    "videoId": "FTn4WpfzuGw",
+    "title": "Why I Don't Need a Recording Setup to Make a Great Podcast.",
+    "durationSeconds": 1087
+  },
+  {
+    "videoId": "r5VvQHERWlI",
+    "title": "But It Looks Like Metal??",
+    "durationSeconds": 904
+  },
+  {
+    "videoId": "k014ldBncXA",
+    "title": "Secret 4-Player Arcade (with build plans!)",
+    "durationSeconds": 1255
+  },
+  {
+    "videoId": "XoZbEf3sGks",
+    "title": "Stop Throwing MONEY in the Trash!",
+    "durationSeconds": 896
+  },
+  {
+    "videoId": "vpAYrIdmuq0",
+    "title": "Organized Lumber Storage (with build plans!)",
+    "durationSeconds": 867
+  },
+  {
+    "videoId": "TCAJfI638hU",
+    "title": "Starting To Look Like A Car Again | Karmann Ghia Restoration",
+    "durationSeconds": 881
+  },
+  {
+    "videoId": "O0e7nRS86VE",
+    "title": "Can Adding Ridge Vents Lower Your Energy Bills?",
+    "durationSeconds": 841
+  },
+  {
+    "videoId": "YqlhEmJ4axc",
+    "title": "Make Your Own Concrete Countertops (From a Kit!)",
+    "durationSeconds": 940
+  },
+  {
+    "videoId": "hClah1grTAQ",
+    "title": "Make a Prop Sword From Cheap Foam Panels | Adventure Time Sword",
+    "durationSeconds": 1279
+  },
+  {
+    "videoId": "hhjA37tHwdg",
+    "title": "Overcoming My Fear of Machining Metal",
+    "durationSeconds": 1578
+  },
+  {
+    "videoId": "xrXjJaTloYo",
+    "title": "Making a Backyard Climbing Wall | DIY Outdoors",
+    "durationSeconds": 1212
+  },
+  {
+    "videoId": "t5ZPzHX6dkk",
+    "title": "How Hard Is It to Replicate Pinterest Projects?",
+    "durationSeconds": 1107
+  },
+  {
+    "videoId": "alNoxXzaSxs",
+    "title": "Sliding Room Divider (Inspired by Star Wars)",
+    "durationSeconds": 824
+  },
+  {
+    "videoId": "q-uZKGlFZ70",
+    "title": "Prototyping a New Product!",
+    "durationSeconds": 1051
+  },
+  {
+    "videoId": "0fzWHRbmwxE",
+    "title": "I Might Have Ruined My Karmann Ghia",
+    "durationSeconds": 834
+  },
+  {
+    "videoId": "2W6MWQ4JRGU",
+    "title": "Make Your Own D&D Dice Towers | Table Top Games",
+    "durationSeconds": 803
+  },
+  {
+    "videoId": "Jq_5d6FAIBU",
+    "title": "Making a Collapsible Painting Stand",
+    "durationSeconds": 704
+  },
+  {
+    "videoId": "QTZWtMbOcVM",
+    "title": "Organizing the Mess In Your Trunk",
+    "durationSeconds": 726
+  },
+  {
+    "videoId": "hGsoc67E9B8",
+    "title": "Accent Wall with an Air Quality Sensor",
+    "durationSeconds": 886
+  },
+  {
+    "videoId": "sV2QuLxIlrc",
+    "title": "Full Shop Air Compressor Setup",
+    "durationSeconds": 948
+  },
+  {
+    "videoId": "Lj4hjtHxTu8",
+    "title": "Hiding a Gaming Table in Plain Sight (with build plans!)",
+    "durationSeconds": 1206
+  },
+  {
+    "videoId": "oHxs9iIDmCI",
+    "title": "Making a Barn Door with a Resin Art Panel",
+    "durationSeconds": 1116
+  },
+  {
+    "videoId": "-YhavsId_aM",
+    "title": "Loser Does the Work \\\\ Between The Builds",
+    "durationSeconds": 935
+  },
+  {
+    "videoId": "bUVFici8lpY",
+    "title": "My Car Flipped Over!! Building a rotisserie for my VW Karmann Ghia",
+    "durationSeconds": 932
+  },
+  {
+    "videoId": "SndYymulUe4",
+    "title": "Can 3d Printing Improve Your Car?",
+    "durationSeconds": 800
+  },
+  {
+    "videoId": "0Bk6WVnhUrk",
+    "title": "Should You Buy a CNC or a Laser?",
+    "durationSeconds": 975
+  },
+  {
+    "videoId": "4ZDXNgkiPck",
+    "title": "Real Life Minecraft Torch (Color Changing Bulb!)",
+    "durationSeconds": 968
+  },
+  {
+    "videoId": "4T9t0PbXrP8",
+    "title": "From Gross to Gorgeous in a Weekend",
+    "durationSeconds": 723
+  },
+  {
+    "videoId": "uWIExSmZfl0",
+    "title": "Making Christmas Nutcrackers | Build-off Challenge",
+    "durationSeconds": 1564
+  },
+  {
+    "videoId": "2_LiO-BDm5E",
+    "title": "A Flexible Way to Showcase Your Cool Stuff | I Like To Make Stuff",
+    "durationSeconds": 1152
+  },
+  {
+    "videoId": "m0zBPiU0P4A",
+    "title": "Making a Massive Backyard Zipline!",
+    "durationSeconds": 1140
+  },
+  {
+    "videoId": "EqKMGA03KYY",
+    "title": "DIY Recording Studio at Home for Cheap",
+    "durationSeconds": 1094
+  },
+  {
+    "videoId": "IQtbc-wTOmA",
+    "title": "Hiding Secrets on a Simple Whiteboard",
+    "durationSeconds": 902
+  },
+  {
+    "videoId": "AuORHkzC7qc",
+    "title": "Making an Essential Tool Kit | Leather Working",
+    "durationSeconds": 960
+  },
+  {
+    "videoId": "N5HUESoRA54",
+    "title": "We're Moving Out! | I Like To Make Stuff",
+    "durationSeconds": 1084
+  },
+  {
+    "videoId": "FUzDlytTUrw",
+    "title": "Storing a Massive Amount of LEGO Bricks | I Like To Make Stuff",
+    "durationSeconds": 961
+  },
+  {
+    "videoId": "i2NQU3jrMXw",
+    "title": "DIY LEGO Brick Sorter | I Like To Make Stuff",
+    "durationSeconds": 948
+  },
+  {
+    "videoId": "UqxkchUx-n0",
+    "title": "Upgrade Any Cabinet with DIY Pull Out Drawers | I Like To Make Stuff",
+    "durationSeconds": 889
+  },
+  {
+    "videoId": "3nVcOGpfJBU",
+    "title": "Ripping Apart My Karmann Ghia | I Like To Make Stuff",
+    "durationSeconds": 845
+  },
+  {
+    "videoId": "ydue7P4gkVQ",
+    "title": "How To Make a Modern Stair Railing | I Like To Make Stuff",
+    "durationSeconds": 1216
+  },
+  {
+    "videoId": "GDeEuzKXCH4",
+    "title": "Would These Fake Windows Fool You? | I Like To Make Stuff",
+    "durationSeconds": 588
+  },
+  {
+    "videoId": "Do9cyVBVgMs",
+    "title": "How to Make a Kitchen Island | I Like To Make Stuff",
+    "durationSeconds": 615
+  },
+  {
+    "videoId": "dJNfgvhfSFU",
+    "title": "Making a Pneumatic Powered He Man Clamp | I Like To Make Stuff",
+    "durationSeconds": 1028
+  },
+  {
+    "videoId": "F5LSUdwkkyw",
+    "title": "First Steps Toward Fine Woodworking | I Like To Make Stuff",
+    "durationSeconds": 1137
+  },
+  {
+    "videoId": "N7GMMYNYI6o",
+    "title": "Getting Creative With My Storage Problems",
+    "durationSeconds": 747
+  },
+  {
+    "videoId": "gCJ5gxkQ4ZQ",
+    "title": "How Do YOU Decide What To Make?",
+    "durationSeconds": 562
+  },
+  {
+    "videoId": "jezedgpzmD0",
+    "title": "My Shop Has A Big Problem!",
+    "durationSeconds": 986
+  },
+  {
+    "videoId": "8rmvCjZsAlE",
+    "title": "This Has Bothered Me For 2 Years.  Finishing The Kitchen Remodel",
+    "durationSeconds": 828
+  },
+  {
+    "videoId": "1tJhMSHrvLw",
+    "title": "How Do You Eat an Elephant?",
+    "durationSeconds": 872
+  },
+  {
+    "videoId": "8QNQbNO_U3M",
+    "title": "Gift Guide 2023: The Ultimate Collection for Makers",
+    "durationSeconds": 895
+  },
+  {
+    "videoId": "kEFNfA9BKe4",
+    "title": "This Is My Kind of Upgrade",
+    "durationSeconds": 1038
+  },
+  {
+    "videoId": "kep7gn7f6Tc",
+    "title": "I Have a LEGO Problem",
+    "durationSeconds": 762
+  },
+  {
+    "videoId": "-hE-5uCwWCs",
+    "title": "Can I Make a Better Flip-Top Tool Cart?",
+    "durationSeconds": 1131
+  },
+  {
+    "videoId": "oR42x-zdLrs",
+    "title": "This May Be the GROSSEST Thing I’ve Ever Made — Hobbit Feet!",
+    "durationSeconds": 933
+  },
+  {
+    "videoId": "jExq-0KPR0o",
+    "title": "Becoming a Bobble-Head",
+    "durationSeconds": 974
+  },
+  {
+    "videoId": "qqESmJVaPhI",
+    "title": "How To Powder Coat Without An Oven!",
+    "durationSeconds": 651
+  },
+  {
+    "videoId": "s3t_hyaDtkI",
+    "title": "Better Than IKEA for $200 Less (with BUILD PLANS!)",
+    "durationSeconds": 962
+  },
+  {
+    "videoId": "8U6Wtb0uwUo",
+    "title": "You'd NEVER Guess How It Opens  (BUILD PLANS AVAILABLE!)",
+    "durationSeconds": 911
+  },
+  {
+    "videoId": "VwYOmH3Cb1k",
+    "title": "Why Do I Keep Doing This to Myself?",
+    "durationSeconds": 644
+  },
+  {
+    "videoId": "JZMfwpTqLFU",
+    "title": "A Place For All Of Our Junk!",
+    "durationSeconds": 1058
+  },
+  {
+    "videoId": "tuIkYhlh-1A",
+    "title": "I Can’t Ignore This Disaster Anymore",
+    "durationSeconds": 1287
+  },
+  {
+    "videoId": "eu70ShQ1eo4",
+    "title": "Vintage Lantern Restoration...with a twist.",
+    "durationSeconds": 910
+  },
+  {
+    "videoId": "RVQdxRI5134",
+    "title": "Making Curved Outdoor Benches Almost Broke Me",
+    "durationSeconds": 905
+  },
+  {
+    "videoId": "Q9r8Vc798xI",
+    "title": "Did I Give Up On My DREAM CAR?!",
+    "durationSeconds": 1042
+  },
+  {
+    "videoId": "pZJfQ5XmEeo",
+    "title": "Quick. Cozy. WAY cheaper than you think.",
+    "durationSeconds": 903
+  },
+  {
+    "videoId": "6PVqjly03-c",
+    "title": "Can this $13,000 tool PAY FOR ITSELF?!",
+    "durationSeconds": 869
+  },
+  {
+    "videoId": "mb-QXVszyOk",
+    "title": "Smart Stairs Now Exist...But Should They?",
+    "durationSeconds": 1117
+  },
+  {
+    "videoId": "JpQ2M4tLs18",
+    "title": "It's a Bed, Closet, Dresser, & Bookshelf all in 1! (With Build Plans)",
+    "durationSeconds": 714
+  },
+  {
+    "videoId": "-izFFWDlXdw",
+    "title": "A 3d Printer Made Me a Better Football Player",
+    "durationSeconds": 751
+  },
+  {
+    "videoId": "vV00tx-dJuU",
+    "title": "Stop Wasting Money on Expensive, CHEAP Furniture",
+    "durationSeconds": 536
+  },
+  {
+    "videoId": "iu3La9Mhs44",
+    "title": "Learn Electronics! — Arduino For Makers, A New Online Course!",
+    "durationSeconds": 125
+  },
+  {
+    "videoId": "eH15bor96cU",
+    "title": "I Made a Fart Detector",
+    "durationSeconds": 643
+  },
+  {
+    "videoId": "oiDrjq6CI2g",
+    "title": "I Fixed My Problem with the PSVR2!",
+    "durationSeconds": 1214
+  },
+  {
+    "videoId": "sSblMCM6Qsk",
+    "title": "Improving This Planer with YOUR Help!",
+    "durationSeconds": 948
+  },
+  {
+    "videoId": "TAUs-KWTTvs",
+    "title": "Grill on the Go for my Classic Land Cruiser (1976 FJ40)",
+    "durationSeconds": 875
+  },
+  {
+    "videoId": "Dkm0K8yzV8g",
+    "title": "Hogwarts Legacy: REAL LIFE MAGICAL PORTKEY!",
+    "durationSeconds": 1127
+  },
+  {
+    "videoId": "7FGAdSk3Nh8",
+    "title": "Here's Everything You Need To Start Screen Printing?",
+    "durationSeconds": 926
+  },
+  {
+    "videoId": "v3C28gADunw",
+    "title": "LIVE Shop Project Build with Bob and ILTMS Team!",
+    "durationSeconds": 7321
+  },
+  {
+    "videoId": "YQrD-jyPLD4",
+    "title": "Can I Add A Picture To Toast?",
+    "durationSeconds": 906
+  },
+  {
+    "videoId": "JIX5zJhE5FY",
+    "title": "How Can Floating Shelves Hold A Person?",
+    "durationSeconds": 761
+  },
+  {
+    "videoId": "QfL4qhbK_Yk",
+    "title": "This KIT GUITAR Shouldn't Rock This Hard",
+    "durationSeconds": 759
+  },
+  {
+    "videoId": "jYdqsa3of2o",
+    "title": "Before You Ruin Your Kitchen, Watch This First.",
+    "durationSeconds": 743
+  },
+  {
+    "videoId": "jGLdnayct6A",
+    "title": "It's Time To Upgrade Your Workbench! (With Build Plans!)",
+    "durationSeconds": 907
+  },
+  {
+    "videoId": "WaFTYdffTnc",
+    "title": "Gallery Display Walls: Easier Than You Think.",
+    "durationSeconds": 698
+  },
+  {
+    "videoId": "gx1tKc3Kfjs",
+    "title": "Solving This Can Save Me So Much Time",
+    "durationSeconds": 1138
+  },
+  {
+    "videoId": "rp_ilj2Ug8I",
+    "title": "Hidden Storage With a Twist",
+    "durationSeconds": 731
+  },
+  {
+    "videoId": "w2pp333tQXg",
+    "title": "It Was Good but I Can Do BETTER",
+    "durationSeconds": 1699
+  },
+  {
+    "videoId": "lPivlUCx-nc",
+    "title": "You’ll Never Guess What This Is For",
+    "durationSeconds": 698
+  },
+  {
+    "videoId": "lgMxp7Slqeg",
+    "title": "How Do I Know When It's DONE?",
+    "durationSeconds": 832
+  },
+  {
+    "videoId": "gs9IzRB8LGM",
+    "title": "It Doesn't Have To Be Boring",
+    "durationSeconds": 677
+  },
+  {
+    "videoId": "AuhpXo0Ert0",
+    "title": "I Made a Tripod KILLER",
+    "durationSeconds": 1325
+  },
+  {
+    "videoId": "d3zFok8pJWk",
+    "title": "3D Scanning My Classic FJ40 to Make Modern Upgrades",
+    "durationSeconds": 1167
+  },
+  {
+    "videoId": "3zg4fQ5tcBc",
+    "title": "Pool floats are so useful",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "D7b3-t79u-c",
+    "title": "Will My DIY Pool Float Survive?",
+    "durationSeconds": 1194
+  },
+  {
+    "videoId": "D2LYXGGOjao",
+    "title": "I Have To Do Something With All of These Crayons!",
+    "durationSeconds": 1474
+  },
+  {
+    "videoId": "ZD-cpsqYFr4",
+    "title": "I Made THIS To Make It Easier To Shoot Ghia Videos!",
+    "durationSeconds": 742
+  },
+  {
+    "videoId": "7Rc0NgA3THA",
+    "title": "Hey window, how's my internet?",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "WWTxgRnQeJ4",
+    "title": "I finally made the TRON room I've ALWAYS wanted",
+    "durationSeconds": 1461
+  },
+  {
+    "videoId": "0b3vFWFb90A",
+    "title": "Why Am I Making My Shop SMALLER?",
+    "durationSeconds": 1153
+  },
+  {
+    "videoId": "SfO6_zzikJE",
+    "title": "My ENTIRE Shop Needs To Change",
+    "durationSeconds": 2081
+  },
+  {
+    "videoId": "p0t78_R-pzg",
+    "title": "Make Dumb Electronics Smart for $3",
+    "durationSeconds": 793
+  },
+  {
+    "videoId": "r1MqFNEKofg",
+    "title": "Creating My ULTIMATE Family Hangout!",
+    "durationSeconds": 1193
+  },
+  {
+    "videoId": "XOMX426aLSY",
+    "title": "Hiding a Ping Pong Table in a Gaming Table",
+    "durationSeconds": 1105
+  },
+  {
+    "videoId": "IxLfXvUdQ9o",
+    "title": "What Have I Done to My Basement?",
+    "durationSeconds": 1060
+  },
+  {
+    "videoId": "2l5W4Vxgr8c",
+    "title": "A Cooler Way To Control Everything in My Smart Home",
+    "durationSeconds": 875
+  },
+  {
+    "videoId": "C75fXwO14Wc",
+    "title": "I Couldn’t Buy It So I Made It",
+    "durationSeconds": 1040
+  },
+  {
     "videoId": "PCjPU7Tld0U",
-    "durationSeconds": 1116,
-    "title": "Is this Engineering?"
+    "title": "Is this Engineering?",
+    "durationSeconds": 1116
   },
   {
     "videoId": "I7-6NoHQFHk",
-    "durationSeconds": 1405,
-    "title": "3D Printing Parts of My New Aquarium Stand"
+    "title": "3D Printing Parts of My New Aquarium Stand",
+    "durationSeconds": 1405
   },
   {
     "videoId": "Ntuy7LY8HGA",
-    "durationSeconds": 1022,
-    "title": "Making My Own Climbing Holds With Hardwood"
+    "title": "Making My Own Climbing Holds With Hardwood",
+    "durationSeconds": 1022
   },
   {
     "videoId": "QcH8FmynwVs",
-    "durationSeconds": 1463,
-    "title": "I Can't Believe It's Finally Done"
+    "title": "I Can't Believe It's Finally Done",
+    "durationSeconds": 1463
   },
   {
     "videoId": "ZKnlwL98ZUk",
-    "durationSeconds": 1232,
-    "title": "Building the Indoor Climbing Wall That I’ve Always Wanted"
+    "title": "Building the Indoor Climbing Wall That I’ve Always Wanted",
+    "durationSeconds": 1232
   },
   {
     "videoId": "sgS953TXAWU",
-    "durationSeconds": 85,
-    "title": "I REALLY like coffee"
+    "title": "I REALLY like coffee",
+    "durationSeconds": 85
   },
   {
     "videoId": "Io-W6sN07WE",
-    "durationSeconds": 1429,
-    "title": "I Gave Myself 4 Days to Finish 2 Years of Procrastination"
+    "title": "I Gave Myself 4 Days to Finish 2 Years of Procrastination",
+    "durationSeconds": 1429
   },
   {
     "videoId": "0L6NpxRJxf8",
-    "durationSeconds": 1206,
-    "title": "My Pool House Needs A LOT of Work"
+    "title": "My Pool House Needs A LOT of Work",
+    "durationSeconds": 1206
   },
   {
     "videoId": "HPX8pzOqCB4",
-    "durationSeconds": 670,
-    "title": "The Easiest Way to Hide Ugly Storage Shelves"
+    "title": "The Easiest Way to Hide Ugly Storage Shelves",
+    "durationSeconds": 670
   },
   {
     "videoId": "q0Q_kSqqJJ8",
-    "durationSeconds": 1447,
-    "title": "If It's Worth Doing, It's Worth OVERDOING"
+    "title": "If It's Worth Doing, It's Worth OVERDOING",
+    "durationSeconds": 1447
   },
   {
     "videoId": "EyQThaAPr10",
-    "durationSeconds": 933,
-    "title": "I Hid the Ugliest Part of My House"
+    "title": "I Hid the Ugliest Part of My House",
+    "durationSeconds": 933
   },
   {
     "videoId": "Pm5e5s8P3j0",
-    "durationSeconds": 68,
-    "title": "Not ties. Not gift cards."
+    "title": "Not ties. Not gift cards.",
+    "durationSeconds": 68
   },
   {
     "videoId": "jht0oLo7VXI",
-    "durationSeconds": 724,
-    "title": "I Should Have Done This Years Ago"
+    "title": "I Should Have Done This Years Ago",
+    "durationSeconds": 724
   },
   {
     "videoId": "r7lb83HNRMA",
-    "durationSeconds": 1450,
-    "title": "Making a Book From Plastic"
+    "title": "Making a Book From Plastic",
+    "durationSeconds": 1450
   },
   {
     "videoId": "CRuJn6mjlKI",
-    "durationSeconds": 1724,
-    "title": "I'm NOT An Electrician. I Did It Anyway (and You Can Too)"
+    "title": "I'm NOT An Electrician. I Did It Anyway (and You Can Too)",
+    "durationSeconds": 1724
   },
   {
     "videoId": "BezZ7JQzLJE",
-    "durationSeconds": 1082,
-    "title": "It Was Supposed To Be a SIMPLE Concrete Bench…"
+    "title": "It Was Supposed To Be a SIMPLE Concrete Bench…",
+    "durationSeconds": 1082
   },
   {
     "videoId": "aBlpd83AbW8",
-    "durationSeconds": 1372,
-    "title": "The Final Pieces of my Biggest Project Ever"
+    "title": "The Final Pieces of my Biggest Project Ever",
+    "durationSeconds": 1372
   },
   {
     "videoId": "_xrtoFh45-w",
-    "durationSeconds": 1220,
-    "title": "Can I Replicate a Vintage Car Part?"
+    "title": "Can I Replicate a Vintage Car Part?",
+    "durationSeconds": 1220
   },
   {
     "videoId": "0-askrM4A18",
-    "durationSeconds": 1312,
-    "title": "My Design Worked GREAT...Until It Didn't"
+    "title": "My Design Worked GREAT...Until It Didn't",
+    "durationSeconds": 1312
   },
   {
     "videoId": "A6Kjwm_qB4M",
-    "durationSeconds": 912,
-    "title": "If You’re Going To Buy It, MAKE It Your Own"
+    "title": "If You’re Going To Buy It, MAKE It Your Own",
+    "durationSeconds": 912
   },
   {
     "videoId": "lzGfK0CBhac",
-    "durationSeconds": 1042,
-    "title": "The Secret to Better-Looking Builds"
+    "title": "The Secret to Better-Looking Builds",
+    "durationSeconds": 1042
   },
   {
     "videoId": "RDE9NIKgciQ",
-    "durationSeconds": 1200,
-    "title": "THIS WAS HARD"
+    "title": "THIS WAS HARD",
+    "durationSeconds": 1200
   },
   {
     "videoId": "DI2BkfCi_Jc",
-    "durationSeconds": 1045,
-    "title": "Why Every Aquarist Needs a 3D Printer"
+    "title": "Why Every Aquarist Needs a 3D Printer",
+    "durationSeconds": 1045
   },
   {
     "videoId": "gdSdCIorTSU",
-    "durationSeconds": 1369,
-    "title": "Failing Until It Ends With Fire"
+    "title": "Failing Until It Ends With Fire",
+    "durationSeconds": 1369
   },
   {
     "videoId": "6ck564P1sGk",
-    "durationSeconds": 1319,
-    "title": "I Made a Really Dumb Mistake"
+    "title": "I Made a Really Dumb Mistake",
+    "durationSeconds": 1319
   },
   {
     "videoId": "wOOF-MD0WIo",
-    "durationSeconds": 728,
-    "title": "NEVER Lose a Tool Again Using Arduino UNO Q!!!"
+    "title": "NEVER Lose a Tool Again Using Arduino UNO Q!!!",
+    "durationSeconds": 728
   },
   {
     "videoId": "fJtTLUj4b5A",
-    "durationSeconds": 1214,
-    "title": "Can I Finish This By Myself?"
+    "title": "Can I Finish This By Myself?",
+    "durationSeconds": 1214
   },
   {
     "videoId": "f_My_-JdR1I",
-    "durationSeconds": 1496,
-    "title": "The BIGGEST Thing I Have Ever Built"
+    "title": "The BIGGEST Thing I Have Ever Built",
+    "durationSeconds": 1496
   },
   {
     "videoId": "m-kolW927kc",
-    "durationSeconds": 1019,
-    "title": "I Made THE WORLD’S LARGEST Noodle Grabber..."
+    "title": "I Made THE WORLD’S LARGEST Noodle Grabber...",
+    "durationSeconds": 1019
   },
   {
     "videoId": "s10Se5UIAsc",
-    "durationSeconds": 151,
-    "title": "I partnered with @autodesk to attend #AU2025 and IT WAS AWESOME!  #AutodeskPartner #MakeAnything"
+    "title": "I partnered with @autodesk to attend #AU2025 and IT WAS AWESOME!  #AutodeskPartner #MakeAnything",
+    "durationSeconds": 151
   },
   {
     "videoId": "KrM-B5VaiVE",
-    "durationSeconds": 653,
-    "title": "This Will Adapt to Anyone’s Workspace"
+    "title": "This Will Adapt to Anyone’s Workspace",
+    "durationSeconds": 653
   },
   {
     "videoId": "bZNcrzgp5r8",
-    "durationSeconds": 870,
-    "title": "Making a Mobile Gear Library from JUNK! "
+    "title": "Making a Mobile Gear Library from JUNK! ",
+    "durationSeconds": 870
   },
   {
     "videoId": "qmUf5-ZlkVU",
-    "durationSeconds": 709,
-    "title": "I Can FINALLY WELD ALUMINUM!!"
+    "title": "I Can FINALLY WELD ALUMINUM!!",
+    "durationSeconds": 709
   },
   {
     "videoId": "1v_-RSiSq7o",
-    "durationSeconds": 919,
-    "title": "What Can I Make With 3D Printing & Pool Noodles?!"
+    "title": "What Can I Make With 3D Printing & Pool Noodles?!",
+    "durationSeconds": 919
   },
   {
     "videoId": "FTxxg7diMBw",
-    "durationSeconds": 811,
-    "title": "Hiding Sliding Doors Behind a Custom Library Wall"
+    "title": "Hiding Sliding Doors Behind a Custom Library Wall",
+    "durationSeconds": 811
   },
   {
     "videoId": "xfxkX1ez0nY",
-    "durationSeconds": 1068,
-    "title": "I Made Doors WAY Easier With 3D Printing"
+    "title": "I Made Doors WAY Easier With 3D Printing",
+    "durationSeconds": 1068
   },
   {
     "videoId": "3TwNlg8qcVg",
-    "durationSeconds": 929,
-    "title": "When You're Stuck... Try THIS"
+    "title": "When You're Stuck... Try THIS",
+    "durationSeconds": 929
   },
   {
     "videoId": "NJxw82qVnc0",
-    "durationSeconds": 62,
-    "title": "SLAT WALL"
+    "title": "SLAT WALL",
+    "durationSeconds": 62
   },
   {
     "videoId": "An8MG4JuatU",
-    "durationSeconds": 1032,
-    "title": "MAKING My Way Out of Lego CHAOS"
+    "title": "MAKING My Way Out of Lego CHAOS",
+    "durationSeconds": 1032
   },
   {
     "videoId": "v568uQRGrhM",
-    "durationSeconds": 857,
-    "title": "What Can I Do With These??"
+    "title": "What Can I Do With These??",
+    "durationSeconds": 857
   },
   {
     "videoId": "qG2bMcWrkFM",
-    "durationSeconds": 1097,
-    "title": "Using a LASER (xTool MetalFab) to work on My Karmann Ghia?!"
+    "title": "Using a LASER (xTool MetalFab) to work on My Karmann Ghia?!",
+    "durationSeconds": 1097
   },
   {
     "videoId": "I2kkKADwC_g",
-    "durationSeconds": 1027,
-    "title": "Can I Automate My Least Favorite Woodworking Task?"
+    "title": "Can I Automate My Least Favorite Woodworking Task?",
+    "durationSeconds": 1027
   },
   {
     "videoId": "TwqikAhuOVE",
-    "durationSeconds": 962,
-    "title": "A Better Bed That Anyone Can Build (With Plans!)"
+    "title": "A Better Bed That Anyone Can Build (With Plans!)",
+    "durationSeconds": 962
   },
   {
     "videoId": "lcI8Kw39ADk",
-    "durationSeconds": 1201,
-    "title": "Cool Idea + Failure = Better Idea"
+    "title": "Cool Idea + Failure = Better Idea",
+    "durationSeconds": 1201
   },
   {
     "videoId": "R3jrYPFmVTk",
-    "durationSeconds": 1043,
-    "title": "What Is a Panna Court? Well, I Made One."
+    "title": "What Is a Panna Court? Well, I Made One.",
+    "durationSeconds": 1043
   },
   {
     "videoId": "4umPeMNrV_M",
-    "durationSeconds": 944,
-    "title": "Did I Just Improve Every Webcam?"
+    "title": "Did I Just Improve Every Webcam?",
+    "durationSeconds": 944
   },
   {
     "videoId": "1H2D9qUOi3Q",
-    "durationSeconds": 1083,
-    "title": "Do DIY Acoustic Wood Panels Work?"
+    "title": "Do DIY Acoustic Wood Panels Work?",
+    "durationSeconds": 1083
   },
   {
     "videoId": "yClzWTna_IQ",
-    "durationSeconds": 1101,
-    "title": "The Next Step in My Desk Evolution"
+    "title": "The Next Step in My Desk Evolution",
+    "durationSeconds": 1101
   },
   {
     "videoId": "wXfMl642gxY",
-    "durationSeconds": 855,
-    "title": "It Took a While To Figure This Out"
+    "title": "It Took a While To Figure This Out",
+    "durationSeconds": 855
   },
   {
     "videoId": "H7fmTrtVb-Q",
-    "durationSeconds": 71,
-    "title": "No springs, no problem"
+    "title": "No springs, no problem",
+    "durationSeconds": 71
   }
 ]

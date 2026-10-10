@@ -1,0 +1,16 @@
+{
+  "archivedAt": "2026-10-10T08:34:58.604Z",
+  "channels": [
+    {
+      "number": 1,
+      "name": "Bollywood",
+      "playlistId": "PL9bw4S5ePsEEgvwzsXt7OT1WjndTTrF7q",
+      "query": "bollywood full video songs video jukebox -audio -lyrical",
+      "videos": 171,
+      "seconds": 406738,
+      "missingSeconds": 198062,
+      "ready": false,
+      "duplicates": 0
+    }
+  ]
+}

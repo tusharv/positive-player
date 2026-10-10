@@ -6,6 +6,7 @@ const router = createRouter({
   routes: [
     { path: '/', name: 'home', component: LandingPage },
     { path: '/watch', name: 'player', component: () => import('../views/PlayerPage.vue') },
+    { path: '/guide', name: 'guide', component: () => import('../views/GuidePage.vue') },
     { path: '/debug', name: 'debug', component: () => import('../views/DebugPage.vue') },
     { path: '/remote', name: 'remote', component: () => import('../views/RemotePage.vue') },
     { path: '/privacy', name: 'privacy', component: () => import('../views/PrivacyPage.vue') },

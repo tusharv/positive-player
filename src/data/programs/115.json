@@ -1,252 +1,967 @@
 [
   {
+    "videoId": "NJT1Na4B4qg",
+    "title": "TeenLIVE Author Talk: Raymond Santana & Keith Henry Brown",
+    "durationSeconds": 3320
+  },
+  {
+    "videoId": "EXuXG7h-H2A",
+    "title": "Irin Carmon with Melissa Murray: Unbearable | LIVE from NYPL",
+    "durationSeconds": 3721
+  },
+  {
+    "videoId": "QxVQz6Vuc2g",
+    "title": "Understanding AI with Data & Society / Reorienting AI for the Public Interest",
+    "durationSeconds": 4135
+  },
+  {
+    "videoId": "rvxmVlEY9q4",
+    "title": "Get Lit October Book Club: S.A. Cosby with musical guest Yaya Bey",
+    "durationSeconds": 4596
+  },
+  {
+    "videoId": "IzJIJMtxsfc",
+    "title": "Ray D. Madoff with Gary Gulman: The Second Estate | LIVE from NYPL",
+    "durationSeconds": 3404
+  },
+  {
+    "videoId": "CyCu4qvPAp4",
+    "title": "Pride and Pleasure: Amanda Vaill with Bill Goldstein | Conversations from the Cullman Center",
+    "durationSeconds": 3716
+  },
+  {
+    "videoId": "Cyu3hHLv88s",
+    "title": "Cristina Rivera Garza y Mónica Ojeda con María Julia Rossi | LIVE from NYPL",
+    "durationSeconds": 3501
+  },
+  {
+    "videoId": "WvQs17lwV0c",
+    "title": "Gish Jen with Weike Wang: Bad Bad Girl | LIVE from NYPL",
+    "durationSeconds": 3655
+  },
+  {
+    "videoId": "Iuy-pnFgNsY",
+    "title": "Mattie Lubchansky: Boys Weekend",
+    "durationSeconds": 2687
+  },
+  {
+    "videoId": "U9jpTLCjnoQ",
+    "title": "Jonathan Mahler: The Gods of New York",
+    "durationSeconds": 3486
+  },
+  {
+    "videoId": "RYNlSLftgyM",
+    "title": "True Nature: Lance Richardson with Sam Anderson | Conversations from the Cullman Center",
+    "durationSeconds": 3491
+  },
+  {
+    "videoId": "U9VgfcAuKig",
+    "title": "Hilary Jacobs Hendel: Parents Have Feelings, Too",
+    "durationSeconds": 3458
+  },
+  {
+    "videoId": "ks1YRnGw9Xs",
+    "title": "Eimear McBride: The City Changes Its Face",
+    "durationSeconds": 3488
+  },
+  {
+    "videoId": "xIwjCK5qZdc",
+    "title": "An Evening With Drawn + Quarterly: Tom Gauld, Lee Lai, and Mimi Pond",
+    "durationSeconds": 3132
+  },
+  {
+    "videoId": "460mfDW9oEk",
+    "title": "The Future of Affirmative Action / Class Matters",
+    "durationSeconds": 3558
+  },
+  {
+    "videoId": "qW2UoGcZyuY",
+    "title": "SNFL Midtown Queer History Walking Tour, June 2025",
+    "durationSeconds": 1694
+  },
+  {
+    "videoId": "PmAaTV-lhXw",
+    "title": "¡Zas! Queer Puerto Rican Comics Celebration",
+    "durationSeconds": 5021
+  },
+  {
+    "videoId": "ka84JD051vE",
+    "title": "Gertrude Stein: Francesca Wade with Brenda Wineapple | Conversations from the Cullman Center",
+    "durationSeconds": 3496
+  },
+  {
+    "videoId": "n1m9hBrrjso",
+    "title": "The New Yorker Editorial Roundtable | LIVE from NYPL",
+    "durationSeconds": 3746
+  },
+  {
+    "videoId": "PZYRH2x-ed0",
+    "title": "Jill Lepore with Jamal Greene: We the People | LIVE from NYPL",
+    "durationSeconds": 3583
+  },
+  {
+    "videoId": "hZ9m3vM0zho",
+    "title": "Get Lit September Book Club: Michael Chabon & Gene Scheer with musical guests The Metropolitan Opera",
+    "durationSeconds": 5847
+  },
+  {
+    "videoId": "W4hQFR8Z7k0",
+    "title": "Understanding AI with Data & Society / The Environmental Costs of AI Are Surging – What Now?",
+    "durationSeconds": 3472
+  },
+  {
+    "videoId": "5Lq3q5dRtE0",
+    "title": "7 Days in September Talkback | LIVE from NYPL",
+    "durationSeconds": 1834
+  },
+  {
+    "videoId": "8NUBtnfS3PI",
+    "title": "World Poetry Salon: Colm Tóibín, Martin Hayes, and Leonard Schwartz",
+    "durationSeconds": 4938
+  },
+  {
+    "videoId": "pYL3TW-OdO4",
+    "title": "Laurie Gwen Shapiro: The Aviator and The Showman",
+    "durationSeconds": 3511
+  },
+  {
+    "videoId": "bbOKr-8UqO0",
+    "title": "The War of Art: A History of Artists' Protest in America",
+    "durationSeconds": 3615
+  },
+  {
+    "videoId": "qhU6Qq-J168",
+    "title": "Understanding AI with Data & Society / What the Public Needs to Know",
+    "durationSeconds": 3592
+  },
+  {
+    "videoId": "tdxX6-ZuTCE",
+    "title": "Miriam Toews with Aidan Flax-Clark: A Truce That Is Not Peace | LIVE from NYPL",
+    "durationSeconds": 3518
+  },
+  {
+    "videoId": "wUxzsZQ1I_4",
+    "title": "Eloghosa Osunde: Necessary Fiction",
+    "durationSeconds": 3575
+  },
+  {
+    "videoId": "0kcV-UfySCA",
+    "title": "Louis Henry Mitchell: Qreative Evolution",
+    "durationSeconds": 3410
+  },
+  {
+    "videoId": "gPstL2m5f4U",
+    "title": "Jeremy Tiang: State of Emergency",
+    "durationSeconds": 3240
+  },
+  {
+    "videoId": "T4hnWahYFT4",
+    "title": "Connecting Dots: A Blind Life",
+    "durationSeconds": 3888
+  },
+  {
+    "videoId": "GVl-fyftpR0",
+    "title": "SNFL Corner Space Live: Unison Steel",
+    "durationSeconds": 3960
+  },
+  {
+    "videoId": "ViqD7QIDd7Y",
+    "title": "Guy Delisle: Muybridge",
+    "durationSeconds": 3527
+  },
+  {
+    "videoId": "vIJZmCh3CRc",
+    "title": "Nathan H. Lents: The Sexual Evolution",
+    "durationSeconds": 3667
+  },
+  {
+    "videoId": "oIdKdh1wkyQ",
+    "title": "From The Bronx To The Bosphorus: Klezmer and Other Displaced Musics of New York",
+    "durationSeconds": 4396
+  },
+  {
+    "videoId": "G2p0UpH6rI4",
+    "title": "Barbara Tucker: Music Industry 101",
+    "durationSeconds": 5267
+  },
+  {
+    "videoId": "9E77KneP8dE",
+    "title": "And Housing for All: The Fight to End Homelessness in America",
+    "durationSeconds": 3435
+  },
+  {
+    "videoId": "yEVWq0EkBBw",
+    "title": "Gina Chung with Jemimah Wei: The Original Daughter",
+    "durationSeconds": 3411
+  },
+  {
+    "videoId": "7ej8I1BklnE",
+    "title": "Kathy Iandoli and Marcus Moore: Putting the \"Rap\" in Biography",
+    "durationSeconds": 3049
+  },
+  {
+    "videoId": "PnmJU2bdazs",
+    "title": "Susannah Cahalan: The Acid Queen",
+    "durationSeconds": 3904
+  },
+  {
+    "videoId": "ta18fk6LerY",
+    "title": "What This Place Makes Me: Contemporary Plays on Immigration",
+    "durationSeconds": 3688
+  },
+  {
+    "videoId": "UufaUJGnAak",
+    "title": "Nathalie Anderson and Joshua Garcia: An Evening of Poetry",
+    "durationSeconds": 4044
+  },
+  {
+    "videoId": "SWQAUPD5_0I",
+    "title": "Hallie Rubenhold: Story of a Murder",
+    "durationSeconds": 3200
+  },
+  {
+    "videoId": "UfZyqVFhXDI",
+    "title": "Brad Snyder:  You Can’t Kill a Man Because of the Books He Reads",
+    "durationSeconds": 3418
+  },
+  {
+    "videoId": "n5ct-LJSzFE",
+    "title": "Brian Stettin: Public Health, Public Responsibility",
+    "durationSeconds": 3786
+  },
+  {
+    "videoId": "bo0ZWNSyrF8",
+    "title": "Alexander Polzin: Requiem",
+    "durationSeconds": 3034
+  },
+  {
+    "videoId": "boe-G-Z-FrA",
+    "title": "Crafting the Truth: The Editor-Author Relationship in Memoir",
+    "durationSeconds": 4127
+  },
+  {
+    "videoId": "fKBySl7na5o",
+    "title": "Barbara Lowin: Outrageous!",
+    "durationSeconds": 3924
+  },
+  {
+    "videoId": "zTDKEzOy7-k",
+    "title": "Anne Berest and Claire Berest: Gabriële",
+    "durationSeconds": 3255
+  },
+  {
+    "videoId": "S6FqPcU8vEQ",
+    "title": "Get Lit February Book Club: Angela Flournoy",
+    "durationSeconds": 4246
+  },
+  {
+    "videoId": "-bdh47qPBCc",
+    "title": "Ellen Carol DuBois & Julie Suk: Elizabeth Cady Stanton's Fight for Women’s Rights | LIVE from NYPL",
+    "durationSeconds": 3487
+  },
+  {
+    "videoId": "cCMPjhdulFY",
+    "title": "The Glowing Hours | Author Leila Siddiqui in Conversation with Shelly Romero",
+    "durationSeconds": 3047
+  },
+  {
+    "videoId": "DO40smmEH5w",
+    "title": "Authors & Writers Out Loud: Herstory is Being Erased with The Bronx is Reading",
+    "durationSeconds": 3787
+  },
+  {
+    "videoId": "6938HBvP8Vg",
+    "title": "Monumental: How a New Generation of Artists Is Shaping the Memorial Landscape",
+    "durationSeconds": 2547
+  },
+  {
+    "videoId": "pSit2fj0Szg",
+    "title": "Georgette Bennett with Sarah Seltzer: Half-Jew, Full Life | LIVE from NYPL",
+    "durationSeconds": 3621
+  },
+  {
+    "videoId": "NEMgOuVYvns",
+    "title": "Nonviolent: The Life of Rev. James Lawson Jr. | LIVE from NYPL",
+    "durationSeconds": 3612
+  },
+  {
+    "videoId": "VNc20opl1o8",
+    "title": "7SU Presents NYU's Classical Voice Collective",
+    "durationSeconds": 2861
+  },
+  {
+    "videoId": "R2kTBE-vBW0",
+    "title": "Jerry Carlson with John Sayles: \"Crucible\"",
+    "durationSeconds": 3548
+  },
+  {
+    "videoId": "Izl81zGe1Og",
+    "title": "SNFL Romance Book Buzz with Penguin Random House",
+    "durationSeconds": 5369
+  },
+  {
+    "videoId": "ivGk57UUSyg",
+    "title": "\"Wuthering Heights\": Emerald Fennell | LIVE from NYPL",
+    "durationSeconds": 3567
+  },
+  {
+    "videoId": "O5k-Aep77Tw",
+    "title": "Engineered Conflict: Structural Violence and the Future of Black Life in Chicago",
+    "durationSeconds": 3879
+  },
+  {
+    "videoId": "Td1kgDMYFMw",
+    "title": "Basquiat: A Quick Killing in Art",
+    "durationSeconds": 3606
+  },
+  {
+    "videoId": "5vwfMJ8b3d0",
+    "title": "Nina Sankovitch with Jennifer Finney Boylan: Not Your Founding Father | LIVE from NYPL",
+    "durationSeconds": 3355
+  },
+  {
+    "videoId": "FgfI_aYfszE",
+    "title": "Born Equal: Remaking America's Constitution, 1840-1920 with Akhil Reed Amar",
+    "durationSeconds": 4035
+  },
+  {
+    "videoId": "6OeQWtGsb5o",
+    "title": "Gursha: Timeless Recipes for Modern Kitchens, from Ethiopia, Israel, Harlem, and Beyond",
+    "durationSeconds": 3168
+  },
+  {
+    "videoId": "rzg88JttGgk",
+    "title": "Street Noise Books: Five Years of Dissident Publishing",
+    "durationSeconds": 3873
+  },
+  {
+    "videoId": "e-iacXSwNC8",
+    "title": "Comic Book Club: Checked Out with Katie Fricas",
+    "durationSeconds": 2911
+  },
+  {
+    "videoId": "sXCQOxmWGM8",
+    "title": "How Violence Works: An Introduction to René Girard's Mimetic Theory",
+    "durationSeconds": 3335
+  },
+  {
+    "videoId": "AnyeJXk_ZY4",
+    "title": "NYU Winter Woodwind Ensemble Concert",
+    "durationSeconds": 2423
+  },
+  {
+    "videoId": "ywEJxLLrDDk",
+    "title": "Banned Book Club with Jason Reynolds and Brendan Kiely: All American Boys",
+    "durationSeconds": 2593
+  },
+  {
+    "videoId": "uSsiIlHhbxU",
+    "title": "SNFL Corner Space Live: NYU Woodwind Concert",
+    "durationSeconds": 2977
+  },
+  {
+    "videoId": "sdiaC-IdX9s",
+    "title": "Get Lit January Book Club: Ocean Vuong with Musical Guest Quinn Christopherson",
+    "durationSeconds": 5244
+  },
+  {
+    "videoId": "jQdyNAg0SxQ",
+    "title": "Look Out: The Delight and Danger of Taking the Long View",
+    "durationSeconds": 3600
+  },
+  {
+    "videoId": "DkxKo_r1xxs",
+    "title": "Train Dreams: Reimagining Denis Johnson, with Clint Bentley | LIVE from NYPL",
+    "durationSeconds": 3678
+  },
+  {
+    "videoId": "ZKQVJIgud7k",
+    "title": "Tips on Researching Caribbean Genealogy",
+    "durationSeconds": 829
+  },
+  {
+    "videoId": "1eULq4uta18",
+    "title": "Tips on Researching African American Genealogy",
+    "durationSeconds": 984
+  },
+  {
+    "videoId": "ZMrJHWNhleg",
+    "title": "Getting Started in Genealogy Research",
+    "durationSeconds": 2983
+  },
+  {
+    "videoId": "O92wfFgxPWc",
+    "title": "Russ & Daughters: 100 Years of Appetizing",
+    "durationSeconds": 3602
+  },
+  {
+    "videoId": "X2feZOL5Smw",
+    "title": "The WM Project: The Bikini Boys of Polish Jazz",
+    "durationSeconds": 3403
+  },
+  {
+    "videoId": "Udyu1IUymhc",
+    "title": "Paula Croxson with Mindy Weisberger: Rise of The Zombie Bugs",
+    "durationSeconds": 3383
+  },
+  {
+    "videoId": "-T8xkLwA2Dg",
+    "title": "Career Talk: Mike Hayes with Neil Blumenthal—Bringing Purpose to Leadership",
+    "durationSeconds": 4241
+  },
+  {
+    "videoId": "57dY47uyfSM",
+    "title": "Lamentations of Nezahualcóyotl: Nahuatl Poems",
+    "durationSeconds": 3834
+  },
+  {
+    "videoId": "XCtvA0g3T0U",
+    "title": "Top Shelf: 2025 Fiction All-Stars",
+    "durationSeconds": 3483
+  },
+  {
+    "videoId": "ezWYS63MbNs",
+    "title": "Siddhartha Mukherjee with Dhruv Khullar: Revisiting The Emperor of All Maladies | LIVE from NYPL",
+    "durationSeconds": 3584
+  },
+  {
+    "videoId": "0sseZ7Fq__4",
+    "title": "Get Lit November Book Club: Susan Choi with Musical Guest Sarah Kinsley",
+    "durationSeconds": 4190
+  },
+  {
+    "videoId": "pptmir81_6A",
+    "title": "Turning to Birds: Lili Taylor with Tod Winston",
+    "durationSeconds": 3946
+  },
+  {
+    "videoId": "CCP6HxHqhZ0",
+    "title": "Cristina Rivera Garza & Mónica Ojeda with María Julia Rossi (English Subtitles) | LIVE from NYPL",
+    "durationSeconds": 3382
+  },
+  {
+    "videoId": "KCV-Uf3cfHA",
+    "title": "Cheryl McKissack Daniel: The Black Family Who Built America",
+    "durationSeconds": 3106
+  },
+  {
+    "videoId": "UZHoD00X290",
+    "title": "Understanding AI with Data & Society / Standing Up for Human Value in the AI Economy",
+    "durationSeconds": 4140
+  },
+  {
+    "videoId": "EH5YK21HpQk",
+    "title": "Dr. Tom Frieden & Chelsea Clinton: Better Health | LIVE from NYPL",
+    "durationSeconds": 3565
+  },
+  {
+    "videoId": "uoTuCWICG6I",
+    "title": "NYU Woodwind Concert Series: Umoja",
+    "durationSeconds": 2271
+  },
+  {
+    "videoId": "6BvsjC7QDeY",
+    "title": "Voices of Occupation: Stories of Cultural Survival with Razom for Ukraine",
+    "durationSeconds": 4269
+  },
+  {
+    "videoId": "lZuInfZDNL0",
+    "title": "Margalit Fox: The Talented Mrs. Mandelbaum",
+    "durationSeconds": 3442
+  },
+  {
+    "videoId": "8BILb32yA9g",
+    "title": "Welcome to the Milky Way: Gaia, the Galaxy, and You!",
+    "durationSeconds": 3272
+  },
+  {
+    "videoId": "W-WE-rhRUMA",
+    "title": "Gabrielle Bendiner-Viani & Prithi Kanakamedala: \"The Cities We Need\" & \"Brooklynites\"",
+    "durationSeconds": 3458
+  },
+  {
+    "videoId": "0_Ox24M9IJY",
+    "title": "World Poetry Salon: Luljeta Lleshanaku, Nava Dunkelman, and Patricio Ferrari",
+    "durationSeconds": 4792
+  },
+  {
+    "videoId": "TRA9MoE_fKs",
+    "title": "Halloween Book Buzz with Penguin Random House",
+    "durationSeconds": 5114
+  },
+  {
+    "videoId": "DOu8-tLOexg",
+    "title": "Service95 Book Club Live with Dua Lipa and David Szalay: Flesh | LIVE from NYPL",
+    "durationSeconds": 2572
+  },
+  {
+    "videoId": "-iGzYGY7yaQ",
+    "title": "Tim Wu with Lina Khan: The Age of Extraction | LIVE from NYPL",
+    "durationSeconds": 3517
+  },
+  {
+    "videoId": "nK_Q2sY_Jn8",
+    "title": "Reflections on August Wilson with Cast from Joe Turner's Come and Gone on Broadway",
+    "durationSeconds": 3575
+  },
+  {
+    "videoId": "2q7sigoM-bs",
+    "title": "This Land Is Your Land: Beverly Gage with Joanne Freeman | LIVE from NYPL",
+    "durationSeconds": 3444
+  },
+  {
+    "videoId": "IQTKJd8p8hI",
+    "title": "Life After Cars: Freeing Ourselves from the Tyranny of the Automobile",
+    "durationSeconds": 3848
+  },
+  {
+    "videoId": "o6NIXBWr6xc",
+    "title": "Ghost Stories: Siri Hustvedt with Rita Charon | LIVE from NYPL",
+    "durationSeconds": 3583
+  },
+  {
+    "videoId": "AWCcHWAgdRA",
+    "title": "Deborah Lutz with Brandon Taylor | Conversations from the Cullman Center",
+    "durationSeconds": 3501
+  },
+  {
+    "videoId": "qmulBSJBzzw",
+    "title": "Lloyd Blankfein with Hortense le Gentil: Streetwise, From Brooklyn to Boardroom | LIVE from NYPL",
+    "durationSeconds": 3671
+  },
+  {
+    "videoId": "FdRnsvy6HEk",
+    "title": "Dora Diamond - Temple (Live at NYPL) | Studio40 Unplugged 🎶",
+    "durationSeconds": 389
+  },
+  {
+    "videoId": "J9K-7bOp0i0",
+    "title": "Sugar, Spice, and Spirit: Finding Community in Baking",
+    "durationSeconds": 4094
+  },
+  {
+    "videoId": "r-0dGQASLi0",
+    "title": "Rikers Public Memory Project: History, Repair, and Public Memory | LIVE from NYPL",
+    "durationSeconds": 3804
+  },
+  {
+    "videoId": "jv7SoFrDlGQ",
+    "title": "Otras Diásporas: Latin American Literature in Translation with Ugly Duckling Presse",
+    "durationSeconds": 4547
+  },
+  {
+    "videoId": "Yje7kv2HAoA",
+    "title": "The Unwritten Word: Voices, Verses, and the Living Archive of Oral History",
+    "durationSeconds": 3991
+  },
+  {
+    "videoId": "ofsbGDTXWhc",
+    "title": "Get Lit April Book Club: Cynthia D'Aprix Sweeney with Ida featuring Storey Littleton",
+    "durationSeconds": 4310
+  },
+  {
+    "videoId": "NJwf5-CmkxU",
+    "title": "The Anatomy of a Disappearance: Thrity Umrigar on Mystery, Suspense, and \"Missing Sam\"",
+    "durationSeconds": 3241
+  },
+  {
+    "videoId": "4gXAgT4tbYE",
+    "title": "Beyond Borders: Highlighting Immigration Stories",
+    "durationSeconds": 3949
+  },
+  {
+    "videoId": "1g5Rbvr1GBM",
+    "title": "World Poetry Salon: Aleš Šteger, Jure Tori, and Patricio Ferrari",
+    "durationSeconds": 4524
+  },
+  {
+    "videoId": "pVSGh5HLlqg",
+    "title": "Strangers in the Land: Exclusion, Belonging, and the Epic Story of the Chinese in America",
+    "durationSeconds": 3972
+  },
+  {
+    "videoId": "9GHTrcUBr8I",
+    "title": "Devouring Time: Jim Harrison, A Writer's Life | Todd Goddard with Colum McCann",
+    "durationSeconds": 3751
+  },
+  {
+    "videoId": "3JYEgUwqay8",
+    "title": "Memorias del Ser en Movimiento: Relatos Migrantes | Memories of a Being In Motion: Migrant Stories",
+    "durationSeconds": 3960
+  },
+  {
+    "videoId": "QiIDWNDbJ_U",
+    "title": "I Who Have Never Known Men: Celebrating Jacqueline Harpman",
+    "durationSeconds": 3925
+  },
+  {
+    "videoId": "RAEIEMlRApI",
+    "title": "The Living Library: An Evening of Indian Classical Music & Dance",
+    "durationSeconds": 5390
+  },
+  {
+    "videoId": "giqozE0ro3I",
+    "title": "On the Rasa Trail | A Pairing of South Indian Poetry and Classical Carnatic Music",
+    "durationSeconds": 3270
+  },
+  {
+    "videoId": "tTEo6wU0BiQ",
+    "title": "Here Where We Live Is Our Country: Molly Crabapple w/ Naomi Klein | LIVE from NYPL x Cullman Center",
+    "durationSeconds": 3613
+  },
+  {
+    "videoId": "ifHJ4YJCDyw",
+    "title": "A Celebration of Arab American Heritage and National Poetry Month",
+    "durationSeconds": 4450
+  },
+  {
+    "videoId": "n1yMlxVvgKs",
+    "title": "A Journey Toward Healing After Gender-Based Violence | Michelle Horton and Gibney Storytellers",
+    "durationSeconds": 3704
+  },
+  {
+    "videoId": "LdxuqyTWBU8",
+    "title": "Attensity! A Manifesto of the Attention Liberation Movement",
+    "durationSeconds": 3726
+  },
+  {
+    "videoId": "H7rFCe_3p8k",
+    "title": "Maile Chapman with Larissa MacFarquhar | Conversations from the Cullman Center",
+    "durationSeconds": 3826
+  },
+  {
+    "videoId": "LFxM0Wtod3o",
+    "title": "Hamlet Reinterpreted: Chela De Ferrari with Ayanna Thompson | LIVE from NYPL",
+    "durationSeconds": 3241
+  },
+  {
+    "videoId": "mKJJO0-AEgU",
+    "title": "The Beheading Game: A Novel",
+    "durationSeconds": 3571
+  },
+  {
+    "videoId": "K6sx7yXWe64",
+    "title": "Sala Film Screening Talkback | LIVE from NYPL",
+    "durationSeconds": 2138
+  },
+  {
+    "videoId": "tBURLfBloOQ",
+    "title": "Fintan O'Toole: The Idiocy of Greatness | LIVE from NYPL",
+    "durationSeconds": 3932
+  },
+  {
+    "videoId": "38nL7WCAtbQ",
+    "title": "Get Lit March Book Club: Megha Majumdar with Musical Guest Purbayan Chatterjee",
+    "durationSeconds": 4546
+  },
+  {
+    "videoId": "nFmwrmOE3SM",
+    "title": "Terao Tetsuya and Kevin Wang with Jeremy Tiang | Spent Bullets",
+    "durationSeconds": 3557
+  },
+  {
+    "videoId": "aHWsirJuU9A",
+    "title": "Lisa Chiodo & Strings | Studio40 Unplugged 🎶",
+    "durationSeconds": 449
+  },
+  {
+    "videoId": "r9o6lZMPoOU",
+    "title": "Exploring the Lives and Legacies of Literary Innovators with Gayle Feldman and Adam Morgan",
+    "durationSeconds": 3477
+  },
+  {
+    "videoId": "9IhwVdbkrBQ",
+    "title": "Bob Crawford with Alexis Coe: America’s Founding Son | LIVE from NYPL",
+    "durationSeconds": 3611
+  },
+  {
+    "videoId": "yYVnx6mZems",
+    "title": "The Complex: Karan Mahajan with Keith Gessen | Conversations from the Cullman Center",
+    "durationSeconds": 2938
+  },
+  {
+    "videoId": "nSyQLd8nPiA",
+    "title": "Daisy Hernández with Jia Lynn Yang: Citizenship | LIVE from NYPL",
+    "durationSeconds": 3518
+  },
+  {
+    "videoId": "erQw0WXTPpk",
+    "title": "The Projects: A New History of Public Housing",
+    "durationSeconds": 3606
+  },
+  {
+    "videoId": "48ONx8wo8Hc",
+    "title": "Alphabet in Motion: How Letters Get Their Shape",
+    "durationSeconds": 3618
+  },
+  {
+    "videoId": "WKKg9ODih1g",
+    "title": "Translating Memory, War, and Italian Identity with Jennifer Anton and Laura Morelli",
+    "durationSeconds": 3976
+  },
+  {
+    "videoId": "U4KEECkIgPM",
+    "title": "The Tamizdat Project | Banned Books from the Cold War to the Present",
+    "durationSeconds": 4060
+  },
+  {
+    "videoId": "wd2lmchhOjM",
+    "title": "Banned Books Week with Bess Kalb",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "ANUJrrR3PLw",
+    "title": "Night at the Haunted Opera: Best New Horror 2026 Launch Event",
+    "durationSeconds": 4673
+  },
+  {
     "videoId": "w_Oy4Ce-DrI",
-    "durationSeconds": 122,
-    "title": "Jefferson Market Library Tour"
+    "title": "Jefferson Market Library Tour",
+    "durationSeconds": 122
   },
   {
     "videoId": "BofNXe3v7-s",
-    "durationSeconds": 72,
-    "title": "Schomburg Center's 2026 Wiki Edit-A-Thon"
+    "title": "Schomburg Center's 2026 Wiki Edit-A-Thon",
+    "durationSeconds": 72
   },
   {
     "videoId": "Co2aiqF4suQ",
-    "durationSeconds": 6785,
-    "title": "Rewriting the Future of Serious Mental Illness"
+    "title": "Rewriting the Future of Serious Mental Illness",
+    "durationSeconds": 6785
   },
   {
     "videoId": "G6va03EZ2M4",
-    "durationSeconds": 120,
-    "title": "The New York Public Library for the Performing Arts Tour"
+    "title": "The New York Public Library for the Performing Arts Tour",
+    "durationSeconds": 120
   },
   {
     "videoId": "haJf-VaNFIU",
-    "durationSeconds": 4869,
-    "title": "Get Lit! September Book Club: George Saunders, Missy Mazzoli, & Royce Vavrek with The Met Opera"
+    "title": "Get Lit! September Book Club: George Saunders, Missy Mazzoli, & Royce Vavrek with The Met Opera",
+    "durationSeconds": 4869
   },
   {
     "videoId": "oABYueYwwbU",
-    "durationSeconds": 62,
-    "title": "A library card is always a good idea"
+    "title": "A library card is always a good idea",
+    "durationSeconds": 62
   },
   {
     "videoId": "bIsXa8EQ2do",
-    "durationSeconds": 3942,
-    "title": "Elizabeth Alexander with Hilton Als: Signals Across Vast Distances | LIVE from NYPL"
+    "title": "Elizabeth Alexander with Hilton Als: Signals Across Vast Distances | LIVE from NYPL",
+    "durationSeconds": 3942
   },
   {
     "videoId": "bNVOr9zzsFU",
-    "durationSeconds": 4136,
-    "title": "Choosing the End: Ethics and Medical Aid in Dying with Jeffrey Kahn and Anna Mastroianni"
+    "title": "Choosing the End: Ethics and Medical Aid in Dying with Jeffrey Kahn and Anna Mastroianni",
+    "durationSeconds": 4136
   },
   {
     "videoId": "UOs5Q-jpwWc",
-    "durationSeconds": 3991,
-    "title": "Who Gets to Decide How AI Enters Our Schools? With Data & Society"
+    "title": "Who Gets to Decide How AI Enters Our Schools? With Data & Society",
+    "durationSeconds": 3991
   },
   {
     "videoId": "rKLdausLRQ8",
-    "durationSeconds": 3624,
-    "title": "Hidden Histories of Jazz Age New York: From the Suppressed to the Strange"
+    "title": "Hidden Histories of Jazz Age New York: From the Suppressed to the Strange",
+    "durationSeconds": 3624
   },
   {
     "videoId": "pH-Sj7T-el4",
-    "durationSeconds": 3542,
-    "title": "Geraldine Brooks, Jill Lepore, Jane Kamensky, Major Jackson: America’s Civic Gospel | LIVE from NYPL"
+    "title": "Geraldine Brooks, Jill Lepore, Jane Kamensky, Major Jackson: America’s Civic Gospel | LIVE from NYPL",
+    "durationSeconds": 3542
   },
   {
     "videoId": "tWu3gdisUuY",
-    "durationSeconds": 3460,
-    "title": "Anti-Zionism, A Jewish History: Benjamin Moser with Rashid Khalidi | Cullman Center"
+    "title": "Anti-Zionism, A Jewish History: Benjamin Moser with Rashid Khalidi | Cullman Center",
+    "durationSeconds": 3460
   },
   {
     "videoId": "MCkul43YwUc",
-    "durationSeconds": 3812,
-    "title": "Asmodeus: A Novel | Rita Indiana with Gerardo Sámano Córdova, Featuring Yasser Tejeda"
+    "title": "Asmodeus: A Novel | Rita Indiana with Gerardo Sámano Córdova, Featuring Yasser Tejeda",
+    "durationSeconds": 3812
   },
   {
     "videoId": "PactLFJNfKU",
-    "durationSeconds": 3300,
-    "title": "Sara McDougall | Conversations from the Cullman Center"
+    "title": "Sara McDougall | Conversations from the Cullman Center",
+    "durationSeconds": 3300
   },
   {
     "videoId": "zQCORjP9td8",
-    "durationSeconds": 18025,
-    "title": "Pathways to Publishing: Expo for Aspiring Authors"
+    "title": "Pathways to Publishing: Expo for Aspiring Authors",
+    "durationSeconds": 18025
   },
   {
     "videoId": "m2U399EvKME",
-    "durationSeconds": 3750,
-    "title": "World Poetry Salon: Forrest Gander, Zelda and Georgia b. Smith, Nola S. Smith and Patricio Ferrari"
+    "title": "World Poetry Salon: Forrest Gander, Zelda and Georgia b. Smith, Nola S. Smith and Patricio Ferrari",
+    "durationSeconds": 3750
   },
   {
     "videoId": "EuPPxq70E2c",
-    "durationSeconds": 3600,
-    "title": "Rozina Ali | Conversations from the Cullman Center"
+    "title": "Rozina Ali | Conversations from the Cullman Center",
+    "durationSeconds": 3600
   },
   {
     "videoId": "9OCnEbYXBqA",
-    "durationSeconds": 3800,
-    "title": "Edwidge Danticat with Nicole Dennis-Benn: Dèy | LIVE from NYPL"
+    "title": "Edwidge Danticat with Nicole Dennis-Benn: Dèy | LIVE from NYPL",
+    "durationSeconds": 3800
   },
   {
     "videoId": "NVM7TOo0hEE",
-    "durationSeconds": 3581,
-    "title": "War Boys: A Father and Son Memoir with Jason Prokowiew and Lynne Rosenberg"
+    "title": "War Boys: A Father and Son Memoir with Jason Prokowiew and Lynne Rosenberg",
+    "durationSeconds": 3581
   },
   {
     "videoId": "JB5K6Mva0to",
-    "durationSeconds": 3573,
-    "title": "Exploring The Met's \"Musical Bodies\""
+    "title": "Exploring The Met's \"Musical Bodies\"",
+    "durationSeconds": 3573
   },
   {
     "videoId": "hVS2ksqldZ4",
-    "durationSeconds": 4614,
-    "title": "Self-Evident Truths: We Freed Ourselves From Slavery with Vienna Carroll & The Folk"
+    "title": "Self-Evident Truths: We Freed Ourselves From Slavery with Vienna Carroll & The Folk",
+    "durationSeconds": 4614
   },
   {
     "videoId": "DrRpskz_1w4",
-    "durationSeconds": 3524,
-    "title": "By the Stars' Light: Exploring Stellar Spectroscopy with Columbia Astronomy"
+    "title": "By the Stars' Light: Exploring Stellar Spectroscopy with Columbia Astronomy",
+    "durationSeconds": 3524
   },
   {
     "videoId": "yER_TC_0O70",
-    "durationSeconds": 5106,
-    "title": "World Poetry Salon: Cecilia Vicuña, Ricardo Gallo, and Patricio Ferrari"
+    "title": "World Poetry Salon: Cecilia Vicuña, Ricardo Gallo, and Patricio Ferrari",
+    "durationSeconds": 5106
   },
   {
     "videoId": "xUjjc3AWiXA",
-    "durationSeconds": 4957,
-    "title": "Libraries as Catalysts: Driving Equitable and Innovative Action"
+    "title": "Libraries as Catalysts: Driving Equitable and Innovative Action",
+    "durationSeconds": 4957
   },
   {
     "videoId": "tFr15kaTvv0",
-    "durationSeconds": 3594,
-    "title": "Dining Out: First Dates, Defiant Nights, and Last Call Disco Fries at America's Gay Restaurants"
+    "title": "Dining Out: First Dates, Defiant Nights, and Last Call Disco Fries at America's Gay Restaurants",
+    "durationSeconds": 3594
   },
   {
     "videoId": "Jpn-INAVFy4",
-    "durationSeconds": 3410,
-    "title": "Burn Down Master's House"
+    "title": "Burn Down Master's House",
+    "durationSeconds": 3410
   },
   {
     "videoId": "ahvYVOnonKM",
-    "durationSeconds": 3397,
-    "title": "\"I Am What I Am\": Walt Whitman, Good Gay Poet"
+    "title": "\"I Am What I Am\": Walt Whitman, Good Gay Poet",
+    "durationSeconds": 3397
   },
   {
     "videoId": "ptZ9YqHJsAM",
-    "durationSeconds": 303,
-    "title": "Eleri Ward: \"Float\" Live at the New York Public Library | Studio40 Unplugged 🎶"
+    "title": "Eleri Ward: \"Float\" Live at the New York Public Library | Studio40 Unplugged 🎶",
+    "durationSeconds": 303
   },
   {
     "videoId": "F_nh-4wcQGU",
-    "durationSeconds": 5795,
-    "title": "Beyond Representation: Storytelling Through the Queer Gaze"
+    "title": "Beyond Representation: Storytelling Through the Queer Gaze",
+    "durationSeconds": 5795
   },
   {
     "videoId": "u-eLW9P7Q1w",
-    "durationSeconds": 3496,
-    "title": "City of Fortune: Mason B. Williams with Heather Ann Thompson | Conversations from the Cullman Center"
+    "title": "City of Fortune: Mason B. Williams with Heather Ann Thompson | Conversations from the Cullman Center",
+    "durationSeconds": 3496
   },
   {
     "videoId": "ukAJiEEkRSc",
-    "durationSeconds": 3439,
-    "title": "Radical Duke: Danielle Allen with Sean Wilentz | LIVE from NYPL"
+    "title": "Radical Duke: Danielle Allen with Sean Wilentz | LIVE from NYPL",
+    "durationSeconds": 3439
   },
   {
     "videoId": "ReFBLFbCvbk",
-    "durationSeconds": 4823,
-    "title": "Book Buzz: Pride Edition"
+    "title": "Book Buzz: Pride Edition",
+    "durationSeconds": 4823
   },
   {
     "videoId": "qLNDCxSC46E",
-    "durationSeconds": 4086,
-    "title": "Immigration to the City of Dreams: An Author Talk with Tyler Anbinder"
+    "title": "Immigration to the City of Dreams: An Author Talk with Tyler Anbinder",
+    "durationSeconds": 4086
   },
   {
     "videoId": "smb526X0E20",
-    "durationSeconds": 3181,
-    "title": "Town & Country: A Novel"
+    "title": "Town & Country: A Novel",
+    "durationSeconds": 3181
   },
   {
     "videoId": "eD3ZNqHJ-XY",
-    "durationSeconds": 3389,
-    "title": "Tillie Walden with Alexis Clements: Charity & Sylvia"
+    "title": "Tillie Walden with Alexis Clements: Charity & Sylvia",
+    "durationSeconds": 3389
   },
   {
     "videoId": "w5ghUD1DzP8",
-    "durationSeconds": 2479,
-    "title": "The Queer 1920s: The Decade That Slayed!"
+    "title": "The Queer 1920s: The Decade That Slayed!",
+    "durationSeconds": 2479
   },
   {
     "videoId": "FNqy_NQt_lQ",
-    "durationSeconds": 2481,
-    "title": "Daniel Squadron with Zohran Mamdani: The Fourth Branch | LIVE from NYPL"
+    "title": "Daniel Squadron with Zohran Mamdani: The Fourth Branch | LIVE from NYPL",
+    "durationSeconds": 2481
   },
   {
     "videoId": "JtaRsv61Yj8",
-    "durationSeconds": 3886,
-    "title": "The Elements of Power: A Story of War, Technology, and the Dirtiest Supply Chain on Earth"
+    "title": "The Elements of Power: A Story of War, Technology, and the Dirtiest Supply Chain on Earth",
+    "durationSeconds": 3886
   },
   {
     "videoId": "Gj9Hk5i7U58",
-    "durationSeconds": 3927,
-    "title": "Illness in Illustration: Graphic Medicine in Japan and North America"
+    "title": "Illness in Illustration: Graphic Medicine in Japan and North America",
+    "durationSeconds": 3927
   },
   {
     "videoId": "dkQlmCBzgWs",
-    "durationSeconds": 780,
-    "title": "Two Strangers (carry a cake across new york) at The New York Public Library | Studio40 Unplugged 🎶"
+    "title": "Two Strangers (carry a cake across new york) at The New York Public Library | Studio40 Unplugged 🎶",
+    "durationSeconds": 780
   },
   {
     "videoId": "-nA2qxEI3UY",
-    "durationSeconds": 3836,
-    "title": "David Oppenheimer with Van Jones: The Diversity Principle | LIVE from NYPL"
+    "title": "David Oppenheimer with Van Jones: The Diversity Principle | LIVE from NYPL",
+    "durationSeconds": 3836
   },
   {
     "videoId": "VPyHnfxY-EA",
-    "durationSeconds": 4304,
-    "title": "Get Lit May Book Club: Tom Perrotta with Musical Guests They Might Be Giants"
+    "title": "Get Lit May Book Club: Tom Perrotta with Musical Guests They Might Be Giants",
+    "durationSeconds": 4304
   },
   {
     "videoId": "nMnW-t19W44",
-    "durationSeconds": 3756,
-    "title": "Annette Gordon-Reed with Brent Staples: Jefferson on Race | LIVE from NYPL"
+    "title": "Annette Gordon-Reed with Brent Staples: Jefferson on Race | LIVE from NYPL",
+    "durationSeconds": 3756
   },
   {
     "videoId": "O8_aB0GufZA",
-    "durationSeconds": 5543,
-    "title": "In Conversation | 江青訪談 (Chiang Ching)"
+    "title": "In Conversation | 江青訪談 (Chiang Ching)",
+    "durationSeconds": 5543
   },
   {
     "videoId": "Zie2fPG9ITM",
-    "durationSeconds": 4306,
-    "title": "Chewing It Over: Writing & Cooking Towards an Asian-American Diaspora"
+    "title": "Chewing It Over: Writing & Cooking Towards an Asian-American Diaspora",
+    "durationSeconds": 4306
   },
   {
     "videoId": "P0nMl1RBZnw",
-    "durationSeconds": 3820,
-    "title": "The Future Is Peace: Aziz Abu Sarah and Maoz Inon | LIVE from NYPL"
+    "title": "The Future Is Peace: Aziz Abu Sarah and Maoz Inon | LIVE from NYPL",
+    "durationSeconds": 3820
   },
   {
     "videoId": "TTKm6oCz2Rg",
-    "durationSeconds": 3363,
-    "title": "Don't Stop: A Novel"
+    "title": "Don't Stop: A Novel",
+    "durationSeconds": 3363
   },
   {
     "videoId": "e1Aanv5k7eA",
-    "durationSeconds": 3573,
-    "title": "Kimberlé Williams Crenshaw & Farah Jasmine Griffin: Backtalker, An American Memoir | LIVE from NYPL"
+    "title": "Kimberlé Williams Crenshaw & Farah Jasmine Griffin: Backtalker, An American Memoir | LIVE from NYPL",
+    "durationSeconds": 3573
   },
   {
     "videoId": "zG0INoZcmOE",
-    "durationSeconds": 3472,
-    "title": "Woodwind Concert with NYU Steinhardt"
+    "title": "Woodwind Concert with NYU Steinhardt",
+    "durationSeconds": 3472
   },
   {
     "videoId": "Astrt9W50Hc",
-    "durationSeconds": 3483,
-    "title": "Civic Solidarity: The Past, Present, and Future of Sustainable Burial in New York City"
+    "title": "Civic Solidarity: The Past, Present, and Future of Sustainable Burial in New York City",
+    "durationSeconds": 3483
   }
 ]

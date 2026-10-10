@@ -1,252 +1,637 @@
 [
   {
+    "videoId": "xwM7-QGa7XY",
+    "title": "Mission Impossible 2 Orchestra Suite: Part 1 (Official Audio) | The World of Hans Zimmer -...",
+    "durationSeconds": 309
+  },
+  {
+    "videoId": "zBra4IbLMH8",
+    "title": "Gladiator Orchestra Suite: Part 1, The Wheat / The Battle (Official Audio) | The World of ...",
+    "durationSeconds": 329
+  },
+  {
+    "videoId": "QUYrRNdL7Xs",
+    "title": "Hannibal: To Every Captive Soul - Orchestra Version (Official Audio) | The World of Hans Z...",
+    "durationSeconds": 423
+  },
+  {
+    "videoId": "rhtkK2U-bLQ",
+    "title": "Mission Impossible 2 Orchestra Suite: Part 2 (Official Audio) | The World of Hans Zimmer -...",
+    "durationSeconds": 291
+  },
+  {
+    "videoId": "eMTdxmoW2tQ",
+    "title": "The Da Vinci Code Orchestra Suite: Part 4 (Official Audio) | The World of Hans Zimmer - A ...",
+    "durationSeconds": 266
+  },
+  {
+    "videoId": "JI96JuO3dhI",
+    "title": "Rush Orchestra Suite (Official Audio) | The World of Hans Zimmer - A Symphonic Celebration...",
+    "durationSeconds": 381
+  },
+  {
+    "videoId": "PlzfnZv0TzI",
+    "title": "The Holiday Orchestra Suite (Official Audio) | The World of Hans Zimmer - A Symphonic Cele...",
+    "durationSeconds": 454
+  },
+  {
+    "videoId": "Hy3pxSC3UWQ",
+    "title": "The Dark Knight Orchestra Suite (Official Audio) | The World of Hans Zimmer - A Symphonic ...",
+    "durationSeconds": 372
+  },
+  {
+    "videoId": "AvUsBpGGGN8",
+    "title": "Pearl Harbor Orchestra Suite (Official Audio) | The World of Hans Zimmer - A Symphonic Cel...",
+    "durationSeconds": 307
+  },
+  {
+    "videoId": "CqeXOUjJjCY",
+    "title": "Kung Fu Panda: Oogway Ascends - Orchestra Version (Official Audio) | The World of Hans Zim...",
+    "durationSeconds": 128
+  },
+  {
+    "videoId": "5rePUx9RseE",
+    "title": "The Da Vinci Code Orchestra Suite: Part 2 (Official Audio) | The World of Hans Zimmer - A ...",
+    "durationSeconds": 316
+  },
+  {
+    "videoId": "6vj5uLboA6Y",
+    "title": "Pirates of The Caribbean Orchestra Suite: Part 2, Drink Up Me Hearties Yo Ho (Official Aud...",
+    "durationSeconds": 172
+  },
+  {
+    "videoId": "Cht3yEMLkSI",
+    "title": "King Arthur Orchestra Suite (Official Audio) | The World of Hans Zimmer - A Symphonic Cele...",
+    "durationSeconds": 231
+  },
+  {
+    "videoId": "42tGVP25l9g",
+    "title": "Gladiator Orchestra Suite: Part 2, Elysium (Official Audio) | The World of Hans Zimmer - A...",
+    "durationSeconds": 340
+  },
+  {
+    "videoId": "5rjgCh4Vuhw",
+    "title": "The Da Vinci Code Orchestra Suite: Part 3 (Official Audio) | The World of Hans Zimmer - A ...",
+    "durationSeconds": 270
+  },
+  {
+    "videoId": "apbSvTYKiM4",
+    "title": "The Da Vinci Code Orchestra Suite: Part 1 (Official Audio) | The World of Hans Zimmer - A ...",
+    "durationSeconds": 391
+  },
+  {
+    "videoId": "-1VypL-2meY",
+    "title": "The Lion King Orchestra Suite (Official Audio) | The World of Hans Zimmer - A Symphonic Ce...",
+    "durationSeconds": 538
+  },
+  {
+    "videoId": "VtojsyCIfkM",
+    "title": "Army of Thieves | Army of Thieves (Soundtrack from the Netflix Film)",
+    "durationSeconds": 130
+  },
+  {
+    "videoId": "jx-kcjc_v00",
+    "title": "The Dragon Warrior | Kung Fu Panda 3 (Music from the Motion Picture)",
+    "durationSeconds": 173
+  },
+  {
+    "videoId": "KJMEk1n-V08",
+    "title": "Portrait of Mom | Kung Fu Panda 3 (Music from the Motion Picture)",
+    "durationSeconds": 111
+  },
+  {
+    "videoId": "K6oSdxF_1lk",
+    "title": "The Arrival of Kai | Kung Fu Panda 3 (Music from the Motion Picture)",
+    "durationSeconds": 123
+  },
+  {
+    "videoId": "xcrDop-bA38",
+    "title": "Oogway's Legacy | Kung Fu Panda 3 (Music from the Motion Picture)",
+    "durationSeconds": 125
+  },
+  {
+    "videoId": "NkPMhWYyDsI",
+    "title": "Hans Zimmer - Restless | Woman in Gold (Original Motion Picture Soundtrack)",
+    "durationSeconds": 135
+  },
+  {
+    "videoId": "EIEqXWHPf88",
+    "title": "The Crown Main Title| The Crown: Season One (Soundtrack from the Netflix Original Series)",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "9Kejd0I9Ckw",
+    "title": "Hans Zimmer Live | Europe 2022 Tour",
+    "durationSeconds": 89
+  },
+  {
+    "videoId": "mPKA_ub9slY",
+    "title": "Hans Zimmer - Final Ascent (Single Edit / From ''No Time To Die'' Soundtrack)",
+    "durationSeconds": 127
+  },
+  {
+    "videoId": "lZ3V3tJvGjM",
+    "title": "Dune | Celestial Sounds Featurette",
+    "durationSeconds": 228
+  },
+  {
+    "videoId": "YM2aaWYpszw",
+    "title": "Wonder Woman 1984 \"Themyscira\" Performance with Gal, Patty & the Wonderband",
+    "durationSeconds": 259
+  },
+  {
+    "videoId": "SswRnJgX1_s",
+    "title": "Hans Zimmer - Inception: Time - Orchestra Version (#EnterTheWorldOfHansZimmer A)",
+    "durationSeconds": 287
+  },
+  {
+    "videoId": "T9r-tRakQGc",
+    "title": "Hans Zimmer - The Da Vinci Code Orchestra Suite - Pt. 4 (#EnterTheWorldOfHansZimmer)",
+    "durationSeconds": 256
+  },
+  {
+    "videoId": "0nfo5jbXY-4",
+    "title": "Hans Zimmer - Gladiator Orchestra Suite - Pt. 3 - Now We Are Free (#EnterTheWorldOfHansZimmer)",
+    "durationSeconds": 255
+  },
+  {
+    "videoId": "rW77x64ELJ4",
+    "title": "Hans Zimmer - The Dark Knight Orchestra Suite (#EnterTheWorldOfHansZimmer)",
+    "durationSeconds": 414
+  },
+  {
+    "videoId": "ir5_fajcohM",
+    "title": "Hans Zimmer - The Lion King Orchestra Suite (#EnterTheWorldOfHansZimmer)",
+    "durationSeconds": 537
+  },
+  {
+    "videoId": "WxNbZLh0PaA",
+    "title": "Hans Zimmer - Inception: Time - Orchestra Version (#EnterTheWorldOfHansZimmer B)",
+    "durationSeconds": 286
+  },
+  {
+    "videoId": "gMLCKEpwaJs",
+    "title": "And The Winners Are ... (Video Premiere Night) #EnterTheWorldOfHansZimmer",
+    "durationSeconds": 894
+  },
+  {
+    "videoId": "X2dmbVWLdU0",
+    "title": "Hans Zimmer, The Disruptive Collective - Gladiator Suite: Part 2 (Live)",
+    "durationSeconds": 231
+  },
+  {
+    "videoId": "QoxKQ9RUdio",
+    "title": "Hans Zimmer, The Disruptive Collective - Absurdities: Part 1 (Live)",
+    "durationSeconds": 303
+  },
+  {
+    "videoId": "jkEukUCuZNw",
+    "title": "Hans Zimmer, The Disruptive Collective, Pedro Eustache - Gladiator Suite: Part 1 (Live)",
+    "durationSeconds": 229
+  },
+  {
+    "videoId": "F6BH_VIjq40",
+    "title": "Hans Zimmer, The Disruptive Collective - The Dark Knight Suite: Part 2 (Live)",
+    "durationSeconds": 245
+  },
+  {
+    "videoId": "G16p6D9gpT4",
+    "title": "Man of Steel Suite: Part 1 \"What Are You Going to Do When You Are Not Saving the World?\" (Live)",
+    "durationSeconds": 285
+  },
+  {
+    "videoId": "SWYfOzeRoVo",
+    "title": "Hans Zimmer, The Disruptive Collective - No Time To Die Suite (Live)",
+    "durationSeconds": 353
+  },
+  {
+    "videoId": "YAMcotX7E0c",
+    "title": "Hans Zimmer, The Disruptive Collective - Gladiator Suite: Part 4 (Live)",
+    "durationSeconds": 115
+  },
+  {
+    "videoId": "HdXqFhpbJnI",
+    "title": "Hans Zimmer, The Disruptive Collective - Man of Steel Suite: Part 2 (Live)",
+    "durationSeconds": 236
+  },
+  {
+    "videoId": "OnqWUkupHZQ",
+    "title": "Hans Zimmer, The Disruptive Collective - Pirates of the Caribbean Suite: Part 3 (Live)",
+    "durationSeconds": 287
+  },
+  {
+    "videoId": "61xZUSoVELM",
+    "title": "Hans Zimmer, The Disruptive Collective - The Dark Knight Suite: Part 1 (Live)",
+    "durationSeconds": 249
+  },
+  {
+    "videoId": "GVPnUYTlArg",
+    "title": "Hans Zimmer, The Disruptive Collective - Dunkirk: Supermarine (Live)",
+    "durationSeconds": 148
+  },
+  {
+    "videoId": "BTOu94PXm8U",
+    "title": "Hans Zimmer, The Disruptive Collective - Pirates of the Caribbean Suite: Part 2 (Live)",
+    "durationSeconds": 301
+  },
+  {
+    "videoId": "2FcZwsbmq3A",
+    "title": "Hans Zimmer, The Disruptive Collective - Dune: House Atreides (Live)",
+    "durationSeconds": 228
+  },
+  {
+    "videoId": "rYTiLur05cg",
+    "title": "Hans Zimmer, The Disruptive Collective - Wonder Woman Suite: Part 1 (Live)",
+    "durationSeconds": 200
+  },
+  {
+    "videoId": "X8c7fdpkNwc",
+    "title": "Hans Zimmer, The Disruptive Collective - Wonder Woman Suite: Part 2 (Live)",
+    "durationSeconds": 143
+  },
+  {
+    "videoId": "XJAaKq0ggk8",
+    "title": "Hans Zimmer, The Disruptive Collective - Wonder Woman Suite: Part 3 (Live)",
+    "durationSeconds": 249
+  },
+  {
+    "videoId": "pcQmqDcbzaU",
+    "title": "Hans Zimmer, The Disruptive Collective - The Lion King Suite: Part 1 \"He Lives in You\" (Live)",
+    "durationSeconds": 241
+  },
+  {
+    "videoId": "gbdzMu1ePjs",
+    "title": "Hans Zimmer, The Disruptive Collective - The Lion King Suite: Part 2 (Live)",
+    "durationSeconds": 327
+  },
+  {
+    "videoId": "5T5DYczvTas",
+    "title": "Hans Zimmer, The Disruptive Collective - The Lion King Suite: Part 3 (Live)",
+    "durationSeconds": 184
+  },
+  {
+    "videoId": "Fu588vMK86c",
+    "title": "Hans Zimmer, The Disruptive Collective - Interstellar Suite: Part 2 (Live)",
+    "durationSeconds": 336
+  },
+  {
+    "videoId": "4tMkF-4Oznk",
+    "title": "Hans Zimmer, The Disruptive Collective - Interstellar Suite: Part 1 (Live)",
+    "durationSeconds": 361
+  },
+  {
+    "videoId": "sSGpLKgrxtw",
+    "title": "The Story Behind Paul's Dream (Dune) | Hans Zimmer Live Album",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "6-bYYMWfrg8",
+    "title": "Hans Zimmer, The Disruptive Collective - Dune: Paul's Dream (Live)",
+    "durationSeconds": 331
+  },
+  {
+    "videoId": "4VqoqriCA9c",
+    "title": "Joshua Bell, Hans Zimmer - 503 | Angels & Demons (Original Motion Picture Soundtrack)",
+    "durationSeconds": 137
+  },
+  {
+    "videoId": "VzZOZ4jc7uw",
+    "title": "Hans Zimmer, Tina Guo, Pedro Eustache, Guthrie Govan - The Last Samurai Suite: Part 2 (Live)",
+    "durationSeconds": 216
+  },
+  {
+    "videoId": "8IKzngMIBck",
+    "title": "Hans Zimmer, Tina Guo, Rusanda Panfili - The Last Samurai Suite: Part 3 (Live)",
+    "durationSeconds": 340
+  },
+  {
+    "videoId": "cEDO5Vakvqg",
+    "title": "Hans Zimmer, Pedro Eustache, Guthrie Govan - The Last Samurai Suite: Part 1 (Live)",
+    "durationSeconds": 179
+  },
+  {
+    "videoId": "yw3aS-ZzAG8",
+    "title": "Alan Walker, Hans Zimmer - Time from \"Inception\" (Alan Walker Remix) - Official Audio",
+    "durationSeconds": 153
+  },
+  {
+    "videoId": "4TQHDdurDds",
+    "title": "Science and Religion | Angels & Demons (Original Motion Picture Soundtrack)",
+    "durationSeconds": 750
+  },
+  {
+    "videoId": "5UCNt9y8pSo",
+    "title": "Joshua Bell, Hans Zimmer - Air | Angels & Demons (Original Motion Picture Soundtrack)",
+    "durationSeconds": 550
+  },
+  {
+    "videoId": "HM8jpy6rbpc",
+    "title": "Joshua Bell, Hans Zimmer - God Particle | Angels & Demons (Original Motion Picture Soundtrack)",
+    "durationSeconds": 323
+  },
+  {
+    "videoId": "2mHLhkSYLJE",
+    "title": "Hans Zimmer - 160 BPM | Angels & Demons (Original Motion Picture Soundtrack)",
+    "durationSeconds": 406
+  },
+  {
+    "videoId": "QghDZp0nRoY",
+    "title": "Hans Zimmer - Burning Secret: Suite | Les inédits",
+    "durationSeconds": 1445
+  },
+  {
+    "videoId": "4xH92yY4IFY",
+    "title": "Rust | Hillbilly Elegy (Music from the Netflix Film)",
+    "durationSeconds": 167
+  },
+  {
+    "videoId": "_k9-yWU7KwM",
+    "title": "Hans Zimmer - Harry Haft | The Survivor (Original Motion Picture Soundtrack)",
+    "durationSeconds": 198
+  },
+  {
+    "videoId": "UnhKZmgcTIs",
+    "title": "Hans Zimmer - Walk to the Ring | The Survivor (Original Motion Picture Soundtrack)",
+    "durationSeconds": 327
+  },
+  {
+    "videoId": "1K6mTUmqV98",
+    "title": "Hans Zimmer - The Job | Widows (Original Motion Picture Soundtrack)",
+    "durationSeconds": 300
+  },
+  {
+    "videoId": "qXQY5ooEGi0",
+    "title": "Madagascar: Best Friends - Orchestra Version (Official Audio) | The World of Hans Zimmer -...",
+    "durationSeconds": 150
+  },
+  {
+    "videoId": "_73jKyqYE3Y",
+    "title": "Spirit Orchestra Suite (Official Audio) | The World of Hans Zimmer - A Symphonic Celebrati...",
+    "durationSeconds": 443
+  },
+  {
+    "videoId": "gb07I8zLuMI",
+    "title": "Inception: Time - Orchestra Version (Official Audio) | The World of Hans Zimmer - A Sympho...",
+    "durationSeconds": 289
+  },
+  {
+    "videoId": "jvt8EHchNW8",
+    "title": "Pirates of The Caribbean Orchestra Suite: Part 1, I Don't Think Now Is The Best Time / At ...",
+    "durationSeconds": 427
+  },
+  {
+    "videoId": "yitqn9vZOXo",
+    "title": "Gladiator Orchestra Suite: Part 3, Now We Are Free (Official Audio) | The World of Hans Zi...",
+    "durationSeconds": 256
+  },
+  {
     "videoId": "ktlSzC3ijek",
-    "durationSeconds": 174,
-    "title": "Hans Zimmer - Voyage to Floreana | Eden (Original Motion Picture Soundtrack)"
+    "title": "Hans Zimmer - Voyage to Floreana | Eden (Original Motion Picture Soundtrack)",
+    "durationSeconds": 174
   },
   {
     "videoId": "NgWf1DSbZ4M",
-    "durationSeconds": 99,
-    "title": "Hans Zimmer - Beachsome | Eden (Original Motion Picture Soundtrack)"
+    "title": "Hans Zimmer - Beachsome | Eden (Original Motion Picture Soundtrack)",
+    "durationSeconds": 99
   },
   {
     "videoId": "FZn2Bl4tlss",
-    "durationSeconds": 127,
-    "title": "Hans Zimmer - Paradise Lost | Eden (Original Motion Picture Soundtrack)"
+    "title": "Hans Zimmer - Paradise Lost | Eden (Original Motion Picture Soundtrack)",
+    "durationSeconds": 127
   },
   {
     "videoId": "CE3oR6kUvvM",
-    "durationSeconds": 176,
-    "title": "Hans Zimmer - Margaret's Testament | Eden (Original Motion Picture Soundtrack)"
+    "title": "Hans Zimmer - Margaret's Testament | Eden (Original Motion Picture Soundtrack)",
+    "durationSeconds": 176
   },
   {
     "videoId": "5eCVlAUGhng",
-    "durationSeconds": 125,
-    "title": "Hans Zimmer - The Baroness | Eden (Original Motion Picture Soundtrack)"
+    "title": "Hans Zimmer - The Baroness | Eden (Original Motion Picture Soundtrack)",
+    "durationSeconds": 125
   },
   {
     "videoId": "BQTK3A_VmNc",
-    "durationSeconds": 96,
-    "title": "Diamond in the Desert Soudtrack"
+    "title": "Diamond in the Desert Soudtrack",
+    "durationSeconds": 96
   },
   {
     "videoId": "aLBogOW3kQs",
-    "durationSeconds": 90,
-    "title": "Hans Zimmer & Friends: Diamond in the Desert – Exclusive Interstellar Performance"
+    "title": "Hans Zimmer & Friends: Diamond in the Desert – Exclusive Interstellar Performance",
+    "durationSeconds": 90
   },
   {
     "videoId": "ZMO2zV14NCI",
-    "durationSeconds": 168,
-    "title": "\"Hans Zimmer & Friends: Diamond in the Desert\" - Official Trailer"
+    "title": "\"Hans Zimmer & Friends: Diamond in the Desert\" - Official Trailer",
+    "durationSeconds": 168
   },
   {
     "videoId": "uSEcfKA18Bg",
-    "durationSeconds": 313,
-    "title": "The Rock Suite (Official Audio) | The World of Hans Zimmer"
+    "title": "The Rock Suite (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 313
   },
   {
     "videoId": "rQE6xaHJujY",
-    "durationSeconds": 233,
-    "title": "Inception Suite: Part 1, Dream is Collapsing (Official Audio) | The World of Hans Zimmer"
+    "title": "Inception Suite: Part 1, Dream is Collapsing (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 233
   },
   {
     "videoId": "rvh0DhNEQ7o",
-    "durationSeconds": 321,
-    "title": "The Lion King Suite: Part 1 (Official Audio) | The World of Hans Zimmer"
+    "title": "The Lion King Suite: Part 1 (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 321
   },
   {
     "videoId": "uTMLTA8IOQU",
-    "durationSeconds": 124,
-    "title": "Kung Fu Panda Suite: Part 1 (Official Audio) | The World of Hans Zimmer"
+    "title": "Kung Fu Panda Suite: Part 1 (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 124
   },
   {
     "videoId": "w_mfrGRRJ8k",
-    "durationSeconds": 300,
-    "title": "Wonder Woman Suite (Official Audio) | The World of Hans Zimmer"
+    "title": "Wonder Woman Suite (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 300
   },
   {
     "videoId": "updRBsz6jZY",
-    "durationSeconds": 411,
-    "title": "Gladiator Suite: Part 2 (Official Audio) | The World of Hans Zimmer"
+    "title": "Gladiator Suite: Part 2 (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 411
   },
   {
     "videoId": "pIczoLyYtoo",
-    "durationSeconds": 124,
-    "title": "Sherlock Holmes Suite: Part 1 (Official Audio) | The World of Hans Zimmer"
+    "title": "Sherlock Holmes Suite: Part 1 (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 124
   },
   {
     "videoId": "mAZdWH45wgY",
-    "durationSeconds": 360,
-    "title": "Sherlock Holmes Suite: Part 2 (Official Audio) | The World of Hans Zimmer"
+    "title": "Sherlock Holmes Suite: Part 2 (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 360
   },
   {
     "videoId": "bD9DSqoeZbU",
-    "durationSeconds": 292,
-    "title": "The Lion King Suite: Part 2 (Official Audio) | The World of Hans Zimmer"
+    "title": "The Lion King Suite: Part 2 (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 292
   },
   {
     "videoId": "boaHqQ8ryqk",
-    "durationSeconds": 240,
-    "title": "Gladiator Suite: Part 3, Now We Are Free (Official Audio) | The World of Hans Zimmer"
+    "title": "Gladiator Suite: Part 3, Now We Are Free (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 240
   },
   {
     "videoId": "Yx9EcnuuFPc",
-    "durationSeconds": 291,
-    "title": "Inception Suite: Part 2, Time (Official Audio) | The World of Hans Zimmer"
+    "title": "Inception Suite: Part 2, Time (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 291
   },
   {
     "videoId": "OC44WUebWSE",
-    "durationSeconds": 244,
-    "title": "Kung Fu Panda Suite: Part 2 (Official Audio) | The World of Hans Zimmer"
+    "title": "Kung Fu Panda Suite: Part 2 (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 244
   },
   {
     "videoId": "dPT-x34LvWI",
-    "durationSeconds": 323,
-    "title": "Power of One: Mother Africa (Official Audio) | The World of Hans Zimmer"
+    "title": "Power of One: Mother Africa (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 323
   },
   {
     "videoId": "GmQnpd-igCc",
-    "durationSeconds": 274,
-    "title": "Man of Steel: What Are You Going to Do When You Are Not Saving The World? (Official Audio)..."
+    "title": "Man of Steel: What Are You Going to Do When You Are Not Saving The World? (Official Audio)...",
+    "durationSeconds": 274
   },
   {
     "videoId": "9F9glvoioTM",
-    "durationSeconds": 163,
-    "title": "Gladiator Suite: Part 1 (Official Audio) | The World of Hans Zimmer"
+    "title": "Gladiator Suite: Part 1 (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 163
   },
   {
     "videoId": "9j2NJuiCg2U",
-    "durationSeconds": 219,
-    "title": "Driving Miss Daisy (Official Audio) | The World of Hans Zimmer"
+    "title": "Driving Miss Daisy (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 219
   },
   {
     "videoId": "9fGJ0Oh2Si8",
-    "durationSeconds": 167,
-    "title": "Pirates of the Caribbean Suite: Part 2 (Official Audio) | The World of Hans Zimmer"
+    "title": "Pirates of the Caribbean Suite: Part 2 (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 167
   },
   {
     "videoId": "5fS_XkPLRzo",
-    "durationSeconds": 186,
-    "title": "Interstellar Suite: Part 1, Day One (Official Audio) | The World of Hans Zimmer"
+    "title": "Interstellar Suite: Part 1, Day One (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 186
   },
   {
     "videoId": "ai4rBRMI6-Q",
-    "durationSeconds": 202,
-    "title": "Pirates of the Caribbean Suite: Part 1 (Official Audio) | The World of Hans Zimmer"
+    "title": "Pirates of the Caribbean Suite: Part 1 (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 202
   },
   {
     "videoId": "0Z041njQ8oc",
-    "durationSeconds": 273,
-    "title": "The Dark Knight: Why Do We Fall? (Official Audio) | The World of Hans Zimmer"
+    "title": "The Dark Knight: Why Do We Fall? (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 273
   },
   {
     "videoId": "3JM1T_MqkOk",
-    "durationSeconds": 249,
-    "title": "Interstellar Suite: Part 2, No Time for Caution (Official Audio) | The World of Hans Zimmer"
+    "title": "Interstellar Suite: Part 2, No Time for Caution (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 249
   },
   {
     "videoId": "-kv7WdSVrfc",
-    "durationSeconds": 390,
-    "title": "Pearl Harbor Suite (Official Audio) | The World of Hans Zimmer"
+    "title": "Pearl Harbor Suite (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 390
   },
   {
     "videoId": "jlCh_WZJXJ0",
-    "durationSeconds": 72,
-    "title": "Dune II Suite: Part 1, Intro (Official Audio) | The World of Hans Zimmer"
+    "title": "Dune II Suite: Part 1, Intro (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 72
   },
   {
     "videoId": "bivgq1CsEXM",
-    "durationSeconds": 269,
-    "title": "Dune II Suite: Part 2, A Time of Quiet Between the Storms (Official Audio) | The World of ..."
+    "title": "Dune II Suite: Part 2, A Time of Quiet Between the Storms (Official Audio) | The World of ...",
+    "durationSeconds": 269
   },
   {
     "videoId": "zbomyNWJKOE",
-    "durationSeconds": 382,
-    "title": "The Prince of Egypt Suite: Part 3 (Official Audio) | The World of Hans Zimmer"
+    "title": "The Prince of Egypt Suite: Part 3 (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 382
   },
   {
     "videoId": "Z9YZYnk3hsA",
-    "durationSeconds": 225,
-    "title": "The Prince of Egypt Suite: Part 2 (Official Audio) | The World of Hans Zimmer"
+    "title": "The Prince of Egypt Suite: Part 2 (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 225
   },
   {
     "videoId": "E-fVcFsq-MQ",
-    "durationSeconds": 108,
-    "title": "The Prince of Egypt Suite: Part 1 (Official Audio) | The World of Hans Zimmer"
+    "title": "The Prince of Egypt Suite: Part 1 (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 108
   },
   {
     "videoId": "vLiCROWJWys",
-    "durationSeconds": 171,
-    "title": "No Time To Die Suite: Part 2, Final Ascent (Official Audio) | The World of Hans Zimmer"
+    "title": "No Time To Die Suite: Part 2, Final Ascent (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 171
   },
   {
     "videoId": "uePCcIezYmo",
-    "durationSeconds": 189,
-    "title": "No Time To Die Suite: Part 1 (Official Audio) | The World of Hans Zimmer"
+    "title": "No Time To Die Suite: Part 1 (Official Audio) | The World of Hans Zimmer",
+    "durationSeconds": 189
   },
   {
     "videoId": "KOAoAO3sB2A",
-    "durationSeconds": 518,
-    "title": "Hans Zimmer - The Lagoon | The Thin Red Line (Original Motion Picture Soundtrack)"
+    "title": "Hans Zimmer - The Lagoon | The Thin Red Line (Original Motion Picture Soundtrack)",
+    "durationSeconds": 518
   },
   {
     "videoId": "PpEIoBnQsKs",
-    "durationSeconds": 564,
-    "title": "Hans Zimmer - Journey to the Line | The Thin Red Line (Original Motion Picture Soundtrack)"
+    "title": "Hans Zimmer - Journey to the Line | The Thin Red Line (Original Motion Picture Soundtrack)",
+    "durationSeconds": 564
   },
   {
     "videoId": "ReWoLyeuZPw",
-    "durationSeconds": 121,
-    "title": "Hans Zimmer - God Yu Tekem Laef Blong Mi | The Thin Red Line (Original Motion Picture Soundtrack)"
+    "title": "Hans Zimmer - God Yu Tekem Laef Blong Mi | The Thin Red Line (Original Motion Picture Soundtrack)",
+    "durationSeconds": 121
   },
   {
     "videoId": "PaUna9f69KY",
-    "durationSeconds": 2107,
-    "title": "THE SCORE - Hans Zimmer, Blessed B, BUNT., Dannero, David Hain, Gnu, Lara Loft, Marti Fischer, Rooz"
+    "title": "THE SCORE - Hans Zimmer, Blessed B, BUNT., Dannero, David Hain, Gnu, Lara Loft, Marti Fischer, Rooz",
+    "durationSeconds": 2107
   },
   {
     "videoId": "2iNrKKJmmk8",
-    "durationSeconds": 345,
-    "title": "Hans Zimmer, The Disruptive Collective - Top Gun: Maverick Main Titles (Live)"
+    "title": "Hans Zimmer, The Disruptive Collective - Top Gun: Maverick Main Titles (Live)",
+    "durationSeconds": 345
   },
   {
     "videoId": "PNtoInEWz88",
-    "durationSeconds": 342,
-    "title": "Hans Zimmer - Dark Phoenix Suite (Live)"
+    "title": "Hans Zimmer - Dark Phoenix Suite (Live)",
+    "durationSeconds": 342
   },
   {
     "videoId": "pJ9uUVgeYWQ",
-    "durationSeconds": 182,
-    "title": "Hans Zimmer, David Fleming - Revelation | The Night Logan Woke Up (Original Series Soundtrack)"
+    "title": "Hans Zimmer, David Fleming - Revelation | The Night Logan Woke Up (Original Series Soundtrack)",
+    "durationSeconds": 182
   },
   {
     "videoId": "zUecXmgSnXU",
-    "durationSeconds": 297,
-    "title": "Hans Zimmer, The Disruptive Collective - Inception: Mombasa (Live)"
+    "title": "Hans Zimmer, The Disruptive Collective - Inception: Mombasa (Live)",
+    "durationSeconds": 297
   },
   {
     "videoId": "qLMRTPr2gSo",
-    "durationSeconds": 279,
-    "title": "Hans Zimmer, The Disruptive Collective - Inception: Time (Live)"
+    "title": "Hans Zimmer, The Disruptive Collective - Inception: Time (Live)",
+    "durationSeconds": 279
   },
   {
     "videoId": "sf3tk8lWzn0",
-    "durationSeconds": 332,
-    "title": "Hans Zimmer, The Disruptive Collective - Gladiator Suite: Part 3 (Live)"
+    "title": "Hans Zimmer, The Disruptive Collective - Gladiator Suite: Part 3 (Live)",
+    "durationSeconds": 332
   },
   {
     "videoId": "fjN9I9uJTBk",
-    "durationSeconds": 269,
-    "title": "Hans Zimmer, The Disruptive Collective - Absurdities: Part 2 (Live)"
+    "title": "Hans Zimmer, The Disruptive Collective - Absurdities: Part 2 (Live)",
+    "durationSeconds": 269
   },
   {
     "videoId": "icmofWRMRm0",
-    "durationSeconds": 253,
-    "title": "Pirates of the Caribbean Suite: Part 1 \"Jack Sparrow\" (Live)"
+    "title": "Pirates of the Caribbean Suite: Part 1 \"Jack Sparrow\" (Live)",
+    "durationSeconds": 253
   },
   {
     "videoId": "laAdFVBdwUo",
-    "durationSeconds": 320,
-    "title": "Hans Zimmer, The Disruptive Collective - Dark Phoenix Suite (Live)"
+    "title": "Hans Zimmer, The Disruptive Collective - Dark Phoenix Suite (Live)",
+    "durationSeconds": 320
   }
 ]

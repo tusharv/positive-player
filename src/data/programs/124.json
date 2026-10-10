@@ -1,252 +1,652 @@
 [
   {
+    "videoId": "oq-TbQZn6gY",
+    "title": "Rolling with the Skateboarding Dog! | Rizzo the Rat, Gonzo, and Rowlf the Dog | The Muppets",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "jXKUb5A1auM",
+    "title": "Habanera | Muppet Music Video | The Muppets",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "eXeIxtI--uc",
+    "title": "Stars & Stripes FOREVER! | Muppet Music Video | The Muppets",
+    "durationSeconds": 124
+  },
+  {
+    "videoId": "AEkVFo-sNZc",
+    "title": "Skateboarding Dog Gets Served! | Rizzo the Rat and Rowlf the Dog | The Muppets",
+    "durationSeconds": 113
+  },
+  {
+    "videoId": "YSQekJ3M2Ss",
+    "title": "Kermit & Jason Segel invite Amy Adams To Star In A Movie | The Muppets (2011) | The Muppets",
+    "durationSeconds": 120
+  },
+  {
+    "videoId": "SVVSdL76EHo",
+    "title": "World Premiere | The Muppets (2011) | The Muppets",
+    "durationSeconds": 150
+  },
+  {
+    "videoId": "KsPz51_M3fI",
+    "title": "The Final Muppets Parody Trailer  | The Muppets (2011) | The Muppets",
+    "durationSeconds": 139
+  },
+  {
+    "videoId": "Mq5LfuvRBVM",
+    "title": "Official Trailer 2  | The Muppets (2011) | The Muppets",
+    "durationSeconds": 152
+  },
+  {
+    "videoId": "cC-8xg2Yj1g",
+    "title": "Kermit The Frog: The Muppets On Facebook | The Muppets Fan-A-Thon | The Muppets",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "k3OQg-fuhZc",
+    "title": "Miss Piggy: The Muppets On Facebook | The Muppets Fan-A-Thon | The Muppets",
+    "durationSeconds": 73
+  },
+  {
+    "videoId": "EcPRMfkkb40",
+    "title": "Miss Piggy Visits On-Air with Ryan Seacrest | The Muppets Fan-A-Thon | The Muppets",
+    "durationSeconds": 137
+  },
+  {
+    "videoId": "QHqLcEtt368",
+    "title": "Pig with the Froggy Tattoo | Parody Trailer | The Muppets (2011) | The Muppets",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "C4YhbpuGdwQ",
+    "title": "Official Trailer  | The Muppets (2011) | The Muppets",
+    "durationSeconds": 140
+  },
+  {
+    "videoId": "DUUcOmgYEhY",
+    "title": "Being Green | Parody Trailer | The Muppets (2011) | The Muppets",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "cn69ZyQU9JI",
+    "title": "Fuzzy Pack Teaser | Parody Trailer | The Muppets (2011) | The Muppets",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "ry-MPAkLRrI",
+    "title": "Green With Envy | Parody Trailer | The Muppets (2011) | The Muppets",
+    "durationSeconds": 92
+  },
+  {
+    "videoId": "5LzqeEvkJgo",
+    "title": "World Premiere of Pirates of the Caribbean: On Stranger Tides | Kermit the Frog | The Muppets",
+    "durationSeconds": 311
+  },
+  {
+    "videoId": "ORYmws5Lz30",
+    "title": "\"I Believe\" | Muppet Music Video | The Muppets",
+    "durationSeconds": 181
+  },
+  {
+    "videoId": "0lhuEbUbyNg",
+    "title": "\"A Muppets Christmas: Letters to Santa\" Blooper Compilation | The Muppets",
+    "durationSeconds": 100
+  },
+  {
+    "videoId": "B7UmUX68KtE",
+    "title": "Pöpcørn | Recipes with The Swedish Chef | The Muppets",
+    "durationSeconds": 219
+  },
+  {
+    "videoId": "pV4F46N21PA",
+    "title": "American Woman | Sam the Eagle | Muppet Music Video | The Muppets",
+    "durationSeconds": 100
+  },
+  {
+    "videoId": "vAomKAMN2Pw",
+    "title": "Bohemian Rhapsody | Commentary with Kermit the Frog & Gonzo | Muppet Music Video | The Muppets",
+    "durationSeconds": 297
+  },
+  {
+    "videoId": "zCRUPWDIgYM",
+    "title": "Stand By Me | Muppet Music Video | The Muppets",
+    "durationSeconds": 104
+  },
+  {
+    "videoId": "EAtBki0PsC0",
+    "title": "The Ballad of Beaker | Muppet Music Video | The Muppets",
+    "durationSeconds": 77
+  },
+  {
+    "videoId": "ysIzPF3BfpQ",
+    "title": "Ringing of the Bells | Muppet Music Video | The Muppets",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "tgbNymZ7vqY",
+    "title": "Bohemian Rhapsody | Muppet Music Video | The Muppets",
+    "durationSeconds": 287
+  },
+  {
+    "videoId": "2Qj8PhxSnhg",
+    "title": "Cårven Der Pümpkîn | Recipes with The Swedish Chef | The Muppets",
+    "durationSeconds": 114
+  },
+  {
+    "videoId": "QcXiUSZPuWA",
+    "title": "Ghost Hunt (#5T832) | Muppet Labs Experiment | Dr. Bunsen Honeydew and Beaker | The Muppets",
+    "durationSeconds": 163
+  },
+  {
+    "videoId": "oc1iIRKZE9w",
+    "title": "Carve-O-Matic (#2Q975)| Muppet Labs Experiment | Dr. Bunsen Honeydew and Beaker | The Muppets",
+    "durationSeconds": 106
+  },
+  {
+    "videoId": "VnT7pT6zCcA",
+    "title": "Ode To Joy | Muppet Music Video | The Muppets",
+    "durationSeconds": 101
+  },
+  {
+    "videoId": "jd8nfEdo59I",
+    "title": "Classical Chicken | Muppet Music Video | The Muppets",
+    "durationSeconds": 98
+  },
+  {
+    "videoId": "g3eh84cCzQk",
+    "title": "Game Day | Extended TV Spot | Muppets Most Wanted | The Muppets",
+    "durationSeconds": 70
+  },
+  {
+    "videoId": "wXfLrt90CHM",
+    "title": "Twitter Outrage | Muppets Most Wanted | The Muppets",
+    "durationSeconds": 62
+  },
+  {
+    "videoId": "1rxRqYfb32Q",
+    "title": "Ringing of the Bells | Muppisode | The Muppets",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "3KtIBPwaRkk",
+    "title": "Food Fight! (Extended Version) | with The Swedish Chef | Muppisode | The Muppets",
+    "durationSeconds": 404
+  },
+  {
+    "videoId": "Jlpjt9QjMYg",
+    "title": "Food Fight! | The Swedish Chef | Muppisode | The Muppets",
+    "durationSeconds": 182
+  },
+  {
+    "videoId": "DQiGyBiNjLI",
+    "title": "Official Trailer | Muppets Most Wanted | The Muppets",
+    "durationSeconds": 151
+  },
+  {
+    "videoId": "9g1YamC49Ik",
+    "title": "Can You Picture That? | Muppet Music Video | The Muppets",
+    "durationSeconds": 159
+  },
+  {
+    "videoId": "Vcw2Aje5KU0",
+    "title": "Official Teaser Trailer | Muppets Most Wanted | The Muppets",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "N31JLdKmHIE",
+    "title": "The Muppet Movie Almost 35th Anniversary Edition Trailer | The Muppets",
+    "durationSeconds": 67
+  },
+  {
+    "videoId": "CHIx6ViBplo",
+    "title": "Joy To The World | Muppet Music Video | The Muppets",
+    "durationSeconds": 85
+  },
+  {
+    "videoId": "-hb_on6iX18",
+    "title": "¡El espectacular Gonzo! | Kermit's Party | The Muppets",
+    "durationSeconds": 83
+  },
+  {
+    "videoId": "pjK9sX9ZI1U",
+    "title": "La catástrofe culinaria del Chef Swedish | Kermit's Party | The Muppets",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "s1Tv1LnY0_E",
+    "title": "La Ciencia Puede Ser un Caos con Bunsen y Beaker | Kermit's Party | The Muppets",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "-YPZiZc14Ts",
+    "title": "Gonzo Stunt Spectacular | Kermit's Party | The Muppets",
+    "durationSeconds": 83
+  },
+  {
+    "videoId": "dtS6Yeso2jQ",
+    "title": "The Swedish Chef's Catering Catastrophe | Kermit's Party | The Muppets",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "oAOpgfvxRHQ",
+    "title": "Science Can Be Messy with Bunsen & Beaker | Kermit's Party | The Muppets",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "vaO8NerEPZQ",
+    "title": "Hollywood Walk of Fame Star Ceremony  | The Muppets (2011) | The Muppets",
+    "durationSeconds": 95
+  },
+  {
+    "videoId": "P8M2qkDhTiA",
+    "title": "\"Feel The Hunger\" Spoof Trailer | The Muppets (2011) | The Muppets",
+    "durationSeconds": 64
+  },
+  {
+    "videoId": "T8EURqoKLY8",
+    "title": "Man or Muppet | The Muppets (2011) | The Muppets",
+    "durationSeconds": 180
+  },
+  {
+    "videoId": "AGnIrN9ewss",
+    "title": "The Muppets on Blu-ray™ & DVD March 20th | The Muppets (2011) | The Muppets",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "-WWWTW1P8rQ",
+    "title": "Man or Muppet | Muppet Music Video | The Muppets",
+    "durationSeconds": 179
+  },
+  {
+    "videoId": "w06b1Pnfty0",
+    "title": "Animal's Holiday Guide | The Muppets (2011) | The Muppets",
+    "durationSeconds": 62
+  },
+  {
+    "videoId": "TKM96I9ob9k",
+    "title": "Google+ Hangout | The Muppets",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "1SQgOkbo99A",
+    "title": "\"It's A Small World\" Dramatic Reading | with Animal and Sgt. Floyd Pepper | The Muppets",
+    "durationSeconds": 107
+  },
+  {
+    "videoId": "h4Bq69HfR0Y",
+    "title": "Jungle Boogie | Muppets Music Video | The Muppets",
+    "durationSeconds": 189
+  },
+  {
+    "videoId": "hfQFslLhynE",
+    "title": "Happy Fourth of July From The Muppets! | The Muppets",
+    "durationSeconds": 146
+  },
+  {
+    "videoId": "OyP1DvP9Qe8",
+    "title": "Pepe The King Prawn Takes Charge at YouTube Space L.A. |  The Muppets",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "Vfz-0djfrRQ",
+    "title": "Kermit and Miss Piggy |  ESPN Tournament Challenge | The Muppets",
+    "durationSeconds": 73
+  },
+  {
+    "videoId": "IxC4cvUsZv8",
+    "title": "Bunsen and Beaker Exaplain \"Bracketology\" |  ESPN Tournament Challenge | The Muppets",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "y8wFEOhSqr0",
+    "title": "Muppet Moments: Behind-The-Scenes | Muppisode | The Muppets",
+    "durationSeconds": 98
+  },
+  {
+    "videoId": "szrzRfxJzLw",
+    "title": "Muppets Audition For Disney Junior | Muppisode | The Muppets",
+    "durationSeconds": 100
+  },
+  {
+    "videoId": "tCJPzKAkpJE",
+    "title": "Inside The Gulag | Muppets Most Wanted | The Muppets",
+    "durationSeconds": 331
+  },
+  {
+    "videoId": "Mmax3yEZX58",
+    "title": "Kermit the Frog Takes the ALS Ice Bucket Challenge | The Muppets",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "U0NpTfwfbCM",
+    "title": "Waldorf & Statler | Bonus Clip | Muppets Most Wanted | The Muppets",
+    "durationSeconds": 74
+  },
+  {
+    "videoId": "ko8xDQlWOnA",
+    "title": "In The Gulag | Movie Clip | Tina Fey & Kermit the Frog | Muppets Most Wanted | The Muppets",
+    "durationSeconds": 82
+  },
+  {
+    "videoId": "dK-UxhBJOao",
+    "title": "Exclusive Extended Clip from Muppets Most Wanted | The Muppets",
+    "durationSeconds": 423
+  },
+  {
+    "videoId": "XlXDhYZwcw0",
+    "title": "Interrogation Song | Movie Clip | Muppets Most Wanted | The Muppets",
+    "durationSeconds": 142
+  },
+  {
+    "videoId": "N6O3s7zry_M",
+    "title": "Kermit's Failed Attempts to Escape | Movie Clip | Muppets Most Wanted | The Muppets",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "HyddjPrkI0A",
+    "title": "The Evil Plan | Movie Clip | Ricky Gervais & Kermit The Frog | Muppets Most Wanted | The Muppets",
+    "durationSeconds": 66
+  },
+  {
+    "videoId": "2xayhoUBMXw",
+    "title": "Keeping Up Appearances | Movie Clip | Miss Piggy | Muppets Most Wanted | The Muppets",
+    "durationSeconds": 64
+  },
+  {
+    "videoId": "qZulG75pf_A",
+    "title": "The Muppets: Episode 12 Recap",
+    "durationSeconds": 117
+  },
+  {
+    "videoId": "wd1hPmqZ-jA",
+    "title": "The Muppets: Episode 11 Recap",
+    "durationSeconds": 101
+  },
+  {
+    "videoId": "OwOcQqVZrgI",
+    "title": "The Muppets sing the classic  theme from The Muppets Show | The Muppets",
+    "durationSeconds": 75
+  },
+  {
+    "videoId": "6_01zRwJOPw",
+    "title": "Kodachrome | Muppets Music Video | The Muppets",
+    "durationSeconds": 262
+  },
+  {
+    "videoId": "H2ip9R_TGDQ",
+    "title": "Merry Muppets Moments from Episode 10 | The Muppets",
+    "durationSeconds": 137
+  },
+  {
+    "videoId": "HLblmpqk2Jc",
+    "title": "Miss Piggy Goes To Washington | The Muppets",
+    "durationSeconds": 192
+  },
+  {
+    "videoId": "OJLxU3_cICg",
+    "title": "Top 5 Funniest Moments from Episode 9 of the Muppets",
+    "durationSeconds": 112
+  },
+  {
+    "videoId": "yz20_5J7WOg",
+    "title": "Top 5 Funniest Moments from Episode 8 of the Muppets",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "8uIlNtonvr8",
+    "title": "Flowers On The Wall | with Bunsen and Beaker | Muppets Music Video | The Muppets",
+    "durationSeconds": 133
+  },
+  {
     "videoId": "qne0IdyZuc4",
-    "durationSeconds": 66,
-    "title": "Merry Christmas from Miss Piggy, Rizzo, and The Muppets"
+    "title": "Merry Christmas from Miss Piggy, Rizzo, and The Muppets",
+    "durationSeconds": 66
   },
   {
     "videoId": "sAUaoqWvVkQ",
-    "durationSeconds": 175,
-    "title": "Gonzo Performs \"I'm Going to Go Back There Someday\""
+    "title": "Gonzo Performs \"I'm Going to Go Back There Someday\"",
+    "durationSeconds": 175
   },
   {
     "videoId": "PJwg8naL9dY",
-    "durationSeconds": 146,
-    "title": "Kermit the Frog Receives a Proclamation from the State of California | The Muppets 70th Anniversary"
+    "title": "Kermit the Frog Receives a Proclamation from the State of California | The Muppets 70th Anniversary",
+    "durationSeconds": 146
   },
   {
     "videoId": "uIHyUqlOlXM",
-    "durationSeconds": 300,
-    "title": "Muppet Labs Field Test: Gravity! Featuring Adam Savage | The Muppets"
+    "title": "Muppet Labs Field Test: Gravity! Featuring Adam Savage | The Muppets",
+    "durationSeconds": 300
   },
   {
     "videoId": "wQTZPRNHXoE",
-    "durationSeconds": 89,
-    "title": "Happy Birthday, Jim Henson! | The Muppets"
+    "title": "Happy Birthday, Jim Henson! | The Muppets",
+    "durationSeconds": 89
   },
   {
     "videoId": "SwhNWQFbeI0",
-    "durationSeconds": 280,
-    "title": "The Electric Mayhem Visit Spotify | The Muppets"
+    "title": "The Electric Mayhem Visit Spotify | The Muppets",
+    "durationSeconds": 280
   },
   {
     "videoId": "B6wDD1cHvG4",
-    "durationSeconds": 89,
-    "title": "Star Wars As Told By Robin the Frog | The Muppets"
+    "title": "Star Wars As Told By Robin the Frog | The Muppets",
+    "durationSeconds": 89
   },
   {
     "videoId": "jWOFEImPnQI",
-    "durationSeconds": 104,
-    "title": "Kermit The Frog | Dear Earth"
+    "title": "Kermit The Frog | Dear Earth",
+    "durationSeconds": 104
   },
   {
     "videoId": "iRNl0iWE490",
-    "durationSeconds": 223,
-    "title": "The Muppets Sing Mr. Blue Sky | Dear Earth"
+    "title": "The Muppets Sing Mr. Blue Sky | Dear Earth",
+    "durationSeconds": 223
   },
   {
     "videoId": "obhgH3S23T4",
-    "durationSeconds": 64,
-    "title": "Announcement | Muppets Haunted Mansion | Disney+"
+    "title": "Announcement | Muppets Haunted Mansion | Disney+",
+    "durationSeconds": 64
   },
   {
     "videoId": "K3Xihw-mAS4",
-    "durationSeconds": 179,
-    "title": "Movin' Right Along to 2021 with Kermit the Frog and Fozzie Bear | The Muppets"
+    "title": "Movin' Right Along to 2021 with Kermit the Frog and Fozzie Bear | The Muppets",
+    "durationSeconds": 179
   },
   {
     "videoId": "qxfADCQ9B8g",
-    "durationSeconds": 78,
-    "title": "Exclusive RuPaul Clip | Muppets Now | Disney+"
+    "title": "Exclusive RuPaul Clip | Muppets Now | Disney+",
+    "durationSeconds": 78
   },
   {
     "videoId": "CggADi00cvY",
-    "durationSeconds": 124,
-    "title": "The Muppets Video Call | Muppets Now | Disney+"
+    "title": "The Muppets Video Call | Muppets Now | Disney+",
+    "durationSeconds": 124
   },
   {
     "videoId": "x6647smCPHQ",
-    "durationSeconds": 61,
-    "title": "Muppets Now | Official Trailer | Disney+"
+    "title": "Muppets Now | Official Trailer | Disney+",
+    "durationSeconds": 61
   },
   {
     "videoId": "jS5fTzMP_mg",
-    "durationSeconds": 226,
-    "title": "A Special Performance of \"Rainbow Connection\" from Kermit the Frog | The Muppets"
+    "title": "A Special Performance of \"Rainbow Connection\" from Kermit the Frog | The Muppets",
+    "durationSeconds": 226
   },
   {
     "videoId": "0_u_FAw-9p8",
-    "durationSeconds": 197,
-    "title": "Can You Picture That? | Dr. Teeth and The Electric Mayhem | Muppet Sing Along"
+    "title": "Can You Picture That? | Dr. Teeth and The Electric Mayhem | Muppet Sing Along",
+    "durationSeconds": 197
   },
   {
     "videoId": "najHNqtRkQc",
-    "durationSeconds": 75,
-    "title": "Walter Does Something Unexpected | Muppet Thought of the Week by The Muppets"
+    "title": "Walter Does Something Unexpected | Muppet Thought of the Week by The Muppets",
+    "durationSeconds": 75
   },
   {
     "videoId": "2HBiwRqB4aM",
-    "durationSeconds": 78,
-    "title": "The Muppets Take The O2 is Coming to London! | The Muppets"
+    "title": "The Muppets Take The O2 is Coming to London! | The Muppets",
+    "durationSeconds": 78
   },
   {
     "videoId": "Q6NQcO9KTBY",
-    "durationSeconds": 203,
-    "title": "Muppet Sing Along | Movin' Right Along | The Muppets"
+    "title": "Muppet Sing Along | Movin' Right Along | The Muppets",
+    "durationSeconds": 203
   },
   {
     "videoId": "cwBsTWteOGE",
-    "durationSeconds": 752,
-    "title": "Watch a Disney Movie With... Brian Henson & Dave Goelz | The Muppets"
+    "title": "Watch a Disney Movie With... Brian Henson & Dave Goelz | The Muppets",
+    "durationSeconds": 752
   },
   {
     "videoId": "gQvEoEeUtRg",
-    "durationSeconds": 80,
-    "title": "Happy Thanksgiving from Scooter & Lew Zealand! | The Muppets"
+    "title": "Happy Thanksgiving from Scooter & Lew Zealand! | The Muppets",
+    "durationSeconds": 80
   },
   {
     "videoId": "e1z8FlHRSeA",
-    "durationSeconds": 110,
-    "title": "Happy Halloween from Janice & Uncle Deadly! | The Muppets"
+    "title": "Happy Halloween from Janice & Uncle Deadly! | The Muppets",
+    "durationSeconds": 110
   },
   {
     "videoId": "S3Lmv0aUphE",
-    "durationSeconds": 71,
-    "title": "Muppet Thought of the Week ft. Miss Piggy | The Muppets"
+    "title": "Muppet Thought of the Week ft. Miss Piggy | The Muppets",
+    "durationSeconds": 71
   },
   {
     "videoId": "t9y1fbP09F0",
-    "durationSeconds": 240,
-    "title": "Muppet Sing Along | Happiness Hotel | The Muppets"
+    "title": "Muppet Sing Along | Happiness Hotel | The Muppets",
+    "durationSeconds": 240
   },
   {
     "videoId": "TIIircJNh7w",
-    "durationSeconds": 66,
-    "title": "Muppet Thought of the Week ft. Kermit the Frog & Fozzie Bear | The Muppets"
+    "title": "Muppet Thought of the Week ft. Kermit the Frog & Fozzie Bear | The Muppets",
+    "durationSeconds": 66
   },
   {
     "videoId": "TVkPCnUcQHk",
-    "durationSeconds": 77,
-    "title": "Muppet Thought of the Week ft. Miss Piggy & Lew Zealand | The Muppets"
+    "title": "Muppet Thought of the Week ft. Miss Piggy & Lew Zealand | The Muppets",
+    "durationSeconds": 77
   },
   {
     "videoId": "onD5_8EK9H4",
-    "durationSeconds": 62,
-    "title": "Muppet Thought of the Week ft. Sgt. Floyd Pepper | The Muppets"
+    "title": "Muppet Thought of the Week ft. Sgt. Floyd Pepper | The Muppets",
+    "durationSeconds": 62
   },
   {
     "videoId": "vABfweMsmMM",
-    "durationSeconds": 71,
-    "title": "Muppet Thought of the Week ft. Walter & Animal | The Muppets"
+    "title": "Muppet Thought of the Week ft. Walter & Animal | The Muppets",
+    "durationSeconds": 71
   },
   {
     "videoId": "9HDF3dxhsys",
-    "durationSeconds": 130,
-    "title": "Happy 4th of July from Sam Eagle | The Muppets"
+    "title": "Happy 4th of July from Sam Eagle | The Muppets",
+    "durationSeconds": 130
   },
   {
     "videoId": "cmQwL6qiByo",
-    "durationSeconds": 146,
-    "title": "Muppet Sing Along | Cabin Fever | The Muppets"
+    "title": "Muppet Sing Along | Cabin Fever | The Muppets",
+    "durationSeconds": 146
   },
   {
     "videoId": "Nq3B8pL7MzI",
-    "durationSeconds": 75,
-    "title": "Muppet Thought of the Week: Fozzie Bear | The Muppets"
+    "title": "Muppet Thought of the Week: Fozzie Bear | The Muppets",
+    "durationSeconds": 75
   },
   {
     "videoId": "K5LkE9v3kyc",
-    "durationSeconds": 112,
-    "title": "100,000 Miss Piggy Karate Chops | The Muppets"
+    "title": "100,000 Miss Piggy Karate Chops | The Muppets",
+    "durationSeconds": 112
   },
   {
     "videoId": "s8-YhXW3lDA",
-    "durationSeconds": 73,
-    "title": "Happy First Day of Summer Vacation from The Muppets | The Muppets"
+    "title": "Happy First Day of Summer Vacation from The Muppets | The Muppets",
+    "durationSeconds": 73
   },
   {
     "videoId": "8XiQm2ATaJI",
-    "durationSeconds": 192,
-    "title": "Constantine Sing Along | I'll Get You What You Want (Cockatoo In Malibu) | The Muppets"
+    "title": "Constantine Sing Along | I'll Get You What You Want (Cockatoo In Malibu) | The Muppets",
+    "durationSeconds": 192
   },
   {
     "videoId": "JdNcDTBa0eA",
-    "durationSeconds": 64,
-    "title": "Muppet Thought of the Week feat. Animal | The Muppets"
+    "title": "Muppet Thought of the Week feat. Animal | The Muppets",
+    "durationSeconds": 64
   },
   {
     "videoId": "Wtbfoej4hrw",
-    "durationSeconds": 60,
-    "title": "Muppet Thought of the Week ft. Walter | The Muppets"
+    "title": "Muppet Thought of the Week ft. Walter | The Muppets",
+    "durationSeconds": 60
   },
   {
     "videoId": "CdnlSiM0Vlc",
-    "durationSeconds": 221,
-    "title": "Walter and Gary Sing Along | Man or Muppet | The Muppets"
+    "title": "Walter and Gary Sing Along | Man or Muppet | The Muppets",
+    "durationSeconds": 221
   },
   {
     "videoId": "cr_duE1xvZs",
-    "durationSeconds": 95,
-    "title": "Happy St. Patrick's Day from The Muppets"
+    "title": "Happy St. Patrick's Day from The Muppets",
+    "durationSeconds": 95
   },
   {
     "videoId": "P396eTHMc6o",
-    "durationSeconds": 116,
-    "title": "A Bunch of Great Big Muppet Explosions!! | Muppets"
+    "title": "A Bunch of Great Big Muppet Explosions!! | Muppets",
+    "durationSeconds": 116
   },
   {
     "videoId": "nNpIleU8Ci8",
-    "durationSeconds": 104,
-    "title": "Top Ten: Muppet News Flash | The Muppets"
+    "title": "Top Ten: Muppet News Flash | The Muppets",
+    "durationSeconds": 104
   },
   {
     "videoId": "RroQM-jZr1k",
-    "durationSeconds": 92,
-    "title": "A Very Muppets Valentine’s Day | The Muppets"
+    "title": "A Very Muppets Valentine’s Day | The Muppets",
+    "durationSeconds": 92
   },
   {
     "videoId": "LzJeshzAlhw",
-    "durationSeconds": 118,
-    "title": "Muppets LIVE at the Hollywood Bowl Information and Dates  | The Muppets"
+    "title": "Muppets LIVE at the Hollywood Bowl Information and Dates  | The Muppets",
+    "durationSeconds": 118
   },
   {
     "videoId": "awhyiBv-oQc",
-    "durationSeconds": 203,
-    "title": "Kermit the Frog Sing Along | Rainbow Connection | The Muppets"
+    "title": "Kermit the Frog Sing Along | Rainbow Connection | The Muppets",
+    "durationSeconds": 203
   },
   {
     "videoId": "SN0wK-wXqY0",
-    "durationSeconds": 297,
-    "title": "The Muppets | Pigs in Space | “The Gravity of the Situation”"
+    "title": "The Muppets | Pigs in Space | “The Gravity of the Situation”",
+    "durationSeconds": 297
   },
   {
     "videoId": "EmI77ZBeJrQ",
-    "durationSeconds": 188,
-    "title": "The Muppets | Pigs in Space | “Alien: Look Who’s Coming to Dinner”"
+    "title": "The Muppets | Pigs in Space | “Alien: Look Who’s Coming to Dinner”",
+    "durationSeconds": 188
   },
   {
     "videoId": "PUNzZUigClk",
-    "durationSeconds": 195,
-    "title": "The Muppets Audition for The Macy’s Thanksgiving Day Parade"
+    "title": "The Muppets Audition for The Macy’s Thanksgiving Day Parade",
+    "durationSeconds": 195
   },
   {
     "videoId": "ksMQb09cKYc",
-    "durationSeconds": 233,
-    "title": "Dr. Teeth and The Electric Mayhem are Going to Outside Lands 2016 | The Muppets"
+    "title": "Dr. Teeth and The Electric Mayhem are Going to Outside Lands 2016 | The Muppets",
+    "durationSeconds": 233
   },
   {
     "videoId": "suxeSPfg758",
-    "durationSeconds": 228,
-    "title": "Episode 15 & 16 Recap: The Muppets | Oh My Disney"
+    "title": "Episode 15 & 16 Recap: The Muppets | Oh My Disney",
+    "durationSeconds": 228
   },
   {
     "videoId": "DmJtnAiSfnI",
-    "durationSeconds": 121,
-    "title": "Episode 14 Recap: The Muppets | Oh My Disney"
+    "title": "Episode 14 Recap: The Muppets | Oh My Disney",
+    "durationSeconds": 121
   },
   {
     "videoId": "d4-cGJUJBAI",
-    "durationSeconds": 161,
-    "title": "Episode 13 Recap: The Muppets | The Muppets"
+    "title": "Episode 13 Recap: The Muppets | The Muppets",
+    "durationSeconds": 161
   }
 ]

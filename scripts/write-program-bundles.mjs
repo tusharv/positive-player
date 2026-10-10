@@ -1,3 +1,4 @@
+import { acceptsProgram } from './program-policy.mjs'
 import { createHash } from 'node:crypto'
 import { mkdirSync, writeFileSync, renameSync } from 'node:fs'
 
@@ -6,6 +7,8 @@ export function writeProgramBundles(channels, catalogs, directory) {
   const rows = channels.map((channel) => {
     const items = catalogs[channel.name]
     if (!items?.length) throw new Error(`Missing bundle: ${channel.name}`)
+    if (items.some((item) => !acceptsProgram(channel.name, item)))
+      throw new Error(`Content policy violation: ${channel.name} requires video songs`)
     const json = JSON.stringify(items, null, 2) + '\n'
     return {
       name: channel.name,

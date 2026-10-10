@@ -1,252 +1,1852 @@
 [
   {
+    "videoId": "mpnZuKH9OOY",
+    "title": "Au Louvre ! La galerie d'Apollon",
+    "durationSeconds": 151
+  },
+  {
+    "videoId": "etQmpV30oio",
+    "title": "Conférence : « La route de Korosko de l’époque pharaonique aux temps modernes » (version française)",
+    "durationSeconds": 3754
+  },
+  {
+    "videoId": "o-NhM8IkZnI",
+    "title": "Conference: \"The Korosko Road from Pharaonic to Modern Times\" (English version)",
+    "durationSeconds": 3754
+  },
+  {
+    "videoId": "QiSXpYoNUOM",
+    "title": "Conférence du Louvre : « Taharqa, découvreur des deux Nils, fondateur de Philæ »",
+    "durationSeconds": 3551
+  },
+  {
+    "videoId": "f2j2FNNg6sQ",
+    "title": "Conférence : « Le souvenir de Méroé… La Nubie antique dans les savoirs géographiques du Moyen Âge »",
+    "durationSeconds": 2868
+  },
+  {
+    "videoId": "wjJd80zVthg",
+    "title": "Présentation d'exposition : « L'âge d'or de la Renaissance portugaise »",
+    "durationSeconds": 3698
+  },
+  {
+    "videoId": "W8iFlPVYOwA",
+    "title": "Conférence du Louvre : «Muhammad 'Ali et le Soudan: expéditions militaires et explorations savantes»",
+    "durationSeconds": 3237
+  },
+  {
+    "videoId": "aYXuWOc0jsI",
+    "title": "Colloque : « Conserver et entretenir les décors historiques de musée » (8/8)",
+    "durationSeconds": 5669
+  },
+  {
+    "videoId": "EAfs6f_UEk0",
+    "title": "Colloque : « Conserver et entretenir les décors historiques de musée » (7/8)",
+    "durationSeconds": 2827
+  },
+  {
+    "videoId": "Wd8OwiDweG8",
+    "title": "Colloque : « Conserver et entretenir les décors historiques de musée » (6/8)",
+    "durationSeconds": 1474
+  },
+  {
+    "videoId": "YB0ilv6k3ps",
+    "title": "Colloque : « Conserver et entretenir les décors historiques de musée » (5/8)",
+    "durationSeconds": 1756
+  },
+  {
+    "videoId": "lSc81GhD1Io",
+    "title": "Colloque : « Conserver et entretenir les décors historiques de musée » (4/8)",
+    "durationSeconds": 4862
+  },
+  {
+    "videoId": "TkEXuvr091w",
+    "title": "Colloque : « Conserver et entretenir les décors historiques de musée » (3/8)",
+    "durationSeconds": 2853
+  },
+  {
+    "videoId": "0vYk-xrA3V8",
+    "title": "Colloque : « Conserver et entretenir les décors historiques de musée » (2/8)",
+    "durationSeconds": 1197
+  },
+  {
+    "videoId": "8noXD3EpvZE",
+    "title": "Colloque : « Conserver et entretenir les décors historiques de musée » (1/8)",
+    "durationSeconds": 1780
+  },
+  {
+    "videoId": "s1cgV3rTEn0",
+    "title": "Au Louvre ! La salle du temple et la salle des sarcophages",
+    "durationSeconds": 149
+  },
+  {
+    "videoId": "hIjE9TV-GTM",
+    "title": "Le prince aux trois destins ✨ Petits contes égyptiens",
+    "durationSeconds": 339
+  },
+  {
+    "videoId": "hHKCoJyLJqg",
+    "title": "Présentation d'exposition : « Pharaon des Deux Terres. L'épopée africaine des rois de Napata »",
+    "durationSeconds": 3920
+  },
+  {
+    "videoId": "9f1pxGTeJHc",
+    "title": "Un frère jaloux ✨ Petits contes égyptiens",
+    "durationSeconds": 321
+  },
+  {
+    "videoId": "H2wBPFD_sn4",
+    "title": "La ruse de la magicienne ✨ Petits contes égyptiens",
+    "durationSeconds": 316
+  },
+  {
+    "videoId": "Pe4uf98cq_4",
+    "title": "[Coup d'œil] Au cœur du Louvre - L'entretien de l'escalier Mollien",
+    "durationSeconds": 114
+  },
+  {
+    "videoId": "hee2-Dy3Pwo",
+    "title": "Colloque : « La recherche de provenance : Enjeux et méthodes » (6/6)",
+    "durationSeconds": 1192
+  },
+  {
+    "videoId": "1k-jZlsI-50",
+    "title": "Colloque : « La recherche de provenance : Enjeux et méthodes » (5/6)",
+    "durationSeconds": 1415
+  },
+  {
+    "videoId": "wGvxvN2hEaM",
+    "title": "Colloque : « La recherche de provenance : Enjeux et méthodes » (4/6)",
+    "durationSeconds": 2411
+  },
+  {
+    "videoId": "_hJP2jqsUtk",
+    "title": "Colloque : « La recherche de provenance : Enjeux et méthodes » (3/6)",
+    "durationSeconds": 1937
+  },
+  {
+    "videoId": "QMv_rbv0vBM",
+    "title": "Colloque : « La recherche de provenance : Enjeux et méthodes » (2/6)",
+    "durationSeconds": 2028
+  },
+  {
+    "videoId": "0EdIVVeJed4",
+    "title": "Colloque : « La recherche de provenance : Enjeux et méthodes » (1/6)",
+    "durationSeconds": 1875
+  },
+  {
+    "videoId": "DHWCHcdSm7E",
+    "title": "Conférence du Louvre : « Le restaurateur, une figure oubliée de l’histoire de l’art »",
+    "durationSeconds": 4270
+  },
+  {
+    "videoId": "LvufPack9gA",
+    "title": "5ème Journée de la recherche au musée du Louvre : Pourquoi un musée fouille-t-il ?",
+    "durationSeconds": 10147
+  },
+  {
+    "videoId": "4LsU7GZ0xD8",
+    "title": "\"Les Femmes d’Alger\" d’Eugène Delacroix. Revoir un chef-d’œuvre grâce à sa restauration",
+    "durationSeconds": 4011
+  },
+  {
+    "videoId": "57kpsWMzMeU",
+    "title": "Présentation d'exposition : « Delacroix et la nature » au musée Eugène Delacroix",
+    "durationSeconds": 4155
+  },
+  {
+    "videoId": "vUU5fXBjl4k",
+    "title": "PODCAST : Le jardin du musée Delacroix",
+    "durationSeconds": 314
+  },
+  {
+    "videoId": "aH0v4c5Z4KM",
+    "title": "Au Louvre ! Les salles des Arts de l'Islam",
+    "durationSeconds": 152
+  },
+  {
+    "videoId": "QIiija9soLE",
+    "title": "Le plus courageux des héros 🇬🇷 Petits contes grecs",
+    "durationSeconds": 330
+  },
+  {
+    "videoId": "pUsJEHQz2E4",
+    "title": "Promenade à la découverte des camées du Louvre",
+    "durationSeconds": 486
+  },
+  {
+    "videoId": "MgNIbMzIK_s",
+    "title": "La pomme de la discorde 🇬🇷 Petits contes grecs",
+    "durationSeconds": 342
+  },
+  {
+    "videoId": "ozQpToMs7VQ",
+    "title": "Conférence du Louvre : « Autour des verres émaillés et dorés vénitiens de la Renaissance »",
+    "durationSeconds": 4406
+  },
+  {
+    "videoId": "MA5rKpcgejI",
+    "title": "Une statue tombée du ciel 🇬🇷 Petits contes grecs",
+    "durationSeconds": 360
+  },
+  {
+    "videoId": "CK35ktGUZKg",
+    "title": "Présentation de l'exposition : « Dans la lumière d'Apollon. Le Louvre à Delphes »",
+    "durationSeconds": 3650
+  },
+  {
+    "videoId": "RniS4FZA50Y",
+    "title": "Au Louvre ! Le Salon carré",
+    "durationSeconds": 153
+  },
+  {
+    "videoId": "dMteoFry3SU",
+    "title": "Présentation d'exposition : « Les Louvre de Pablo Picasso » au Louvre-Lens",
+    "durationSeconds": 4315
+  },
+  {
+    "videoId": "pUahzegeErM",
+    "title": "Conférence du Louvre : « Zito Eleutheria ! Eugène Delacroix un philhellène romantique »",
+    "durationSeconds": 3315
+  },
+  {
+    "videoId": "MGLxiFveAsE",
+    "title": "TEASER - Journées Internationales du Film sur l'Art - JIFA 2022",
+    "durationSeconds": 69
+  },
+  {
+    "videoId": "NKk5bz64IIk",
+    "title": "MOOC « Voyage musical dans la France du 17e siècle » – Episode 2 : Les cathédrales",
+    "durationSeconds": 2440
+  },
+  {
+    "videoId": "736bzyhsrKU",
+    "title": "L'Œuvre en scène : « Le Saint Sébastien de l’atelier des Della Robbia du Louvre »",
+    "durationSeconds": 3718
+  },
+  {
+    "videoId": "hMTl2z0SEEg",
+    "title": "Sur la trace des rustiques Figulines",
+    "durationSeconds": 308
+  },
+  {
+    "videoId": "41AKqGV5uGE",
+    "title": "Concert au Louvre : « Inspirations antiques » par Adrien Perruchon et l'orchestre Lamoureux",
+    "durationSeconds": 4062
+  },
+  {
+    "videoId": "gUcGKPJPLH8",
+    "title": "Conférence du Louvre : « De choses et d'autres » avec Marianne Alphant",
+    "durationSeconds": 3554
+  },
+  {
+    "videoId": "dW4VDlMVksM",
+    "title": "Conférence du Louvre : « Mes Choses » avec Alain Jaubert",
+    "durationSeconds": 2786
+  },
+  {
+    "videoId": "GRorITDHG4I",
+    "title": "Conférence du Louvre : « Ni nature, ni morte. Conversation avec Miquel Barceló »",
+    "durationSeconds": 3380
+  },
+  {
+    "videoId": "EgmMeHXdGww",
+    "title": "Tous Mécènes ! de la tabatière Choiseul",
+    "durationSeconds": 88
+  },
+  {
+    "videoId": "Bphm33XJ9LE",
+    "title": "Conférence du Louvre :  « Histoires de colifichets »",
+    "durationSeconds": 4620
+  },
+  {
+    "videoId": "MEjVbTu315k",
+    "title": "Présentation d'exposition : « Les Choses. Une histoire de la nature morte »",
+    "durationSeconds": 4012
+  },
+  {
+    "videoId": "BHPlK5hJZdc",
+    "title": "La vengeance du dieu Orage - Petits contes du Proche-Orient  [EN/ES subtitles]",
+    "durationSeconds": 283
+  },
+  {
+    "videoId": "6OCyTL1DzJE",
+    "title": "Présentation d’exposition : Dessins bolonais du XVIe siècle dans les collections du Louvre",
+    "durationSeconds": 3707
+  },
+  {
+    "videoId": "b0XYtpBRTAU",
+    "title": "Le pilier des migrants - Barthélémy Toguo au musée du Louvre",
+    "durationSeconds": 70
+  },
+  {
+    "videoId": "coYOYE665FE",
+    "title": "Les princesses et le voleur d'eau - Petits contes du Proche-Orient",
+    "durationSeconds": 334
+  },
+  {
+    "videoId": "xAsQrZ9s-dE",
+    "title": "Au Louvre ! Femmes d'Alger dans leur appartement",
+    "durationSeconds": 154
+  },
+  {
+    "videoId": "ZYLz9_3giS0",
+    "title": "La technique de la lithographie - Musée Delacroix",
+    "durationSeconds": 316
+  },
+  {
+    "videoId": "QoipxxZ6fyY",
+    "title": "Delacroix et la lithographie - Musée Delacroix",
+    "durationSeconds": 147
+  },
+  {
+    "videoId": "qRP9o8gjcMQ",
+    "title": "Le combat du géant de la forêt - Petits contes du Proche-Orient [EN/ES subtitles]",
+    "durationSeconds": 286
+  },
+  {
+    "videoId": "eHS6w8nx4Mw",
+    "title": "L'Œuvre en scène : « Avant Champollion : le cippe de Malte et l'alphabet phénicien »",
+    "durationSeconds": 2865
+  },
+  {
+    "videoId": "n8lY_lm_BmA",
+    "title": "Au Louvre ! La salle des Etats",
+    "durationSeconds": 240
+  },
+  {
+    "videoId": "qvWrpSi7j20",
+    "title": "Un bain de lune 🌴 Petits contes du Pacifique",
+    "durationSeconds": 294
+  },
+  {
+    "videoId": "DVW0RtnGMHQ",
+    "title": "L'épreuve de l'œuf 🌴 Petits contes du Pacifique",
+    "durationSeconds": 280
+  },
+  {
+    "videoId": "fITmxpaRKRg",
+    "title": "(12/15) Colloque : « 100 ans au service du patrimoine culturel afghan »",
+    "durationSeconds": 1118
+  },
+  {
+    "videoId": "gkUcZ1U3H7U",
+    "title": "(6/15) Colloque : « 100 ans au service du patrimoine culturel afghan »",
+    "durationSeconds": 1423
+  },
+  {
+    "videoId": "onzTuw8y3z4",
+    "title": "(5/15) Colloque : « 100 ans au service du patrimoine culturel afghan »",
+    "durationSeconds": 1688
+  },
+  {
+    "videoId": "JNfWtj1gZQ0",
+    "title": "(2/15) Colloque : « 100 ans au service du patrimoine culturel afghan »",
+    "durationSeconds": 1520
+  },
+  {
+    "videoId": "Je9Zykpz3k8",
+    "title": "(11/15) Colloque : « 100 ans au service du patrimoine culturel afghan »",
+    "durationSeconds": 1464
+  },
+  {
+    "videoId": "hAMASf7PlJI",
+    "title": "(13/15) Colloque : « 100 ans au service du patrimoine culturel afghan »",
+    "durationSeconds": 1086
+  },
+  {
+    "videoId": "lBxXlHxkTrg",
+    "title": "(14/15) Colloque : « 100 ans au service du patrimoine culturel afghan »",
+    "durationSeconds": 1037
+  },
+  {
+    "videoId": "v0Gse9JULm0",
+    "title": "(3/15) Colloque : « 100 ans au service du patrimoine culturel afghan »",
+    "durationSeconds": 1771
+  },
+  {
+    "videoId": "UyCAmPDpNFs",
+    "title": "(9/15) Colloque : « 100 ans au service du patrimoine culturel afghan »",
+    "durationSeconds": 1074
+  },
+  {
+    "videoId": "YsGPiK3ugOY",
+    "title": "(4/15) Colloque : « 100 ans au service du patrimoine culturel afghan »",
+    "durationSeconds": 1044
+  },
+  {
+    "videoId": "1J511MG1w9M",
+    "title": "(7/15) Colloque : « 100 ans au service du patrimoine culturel afghan »",
+    "durationSeconds": 1354
+  },
+  {
+    "videoId": "AwDgNFyrInQ",
+    "title": "(15/15) Colloque : « 100 ans au service du patrimoine culturel afghan »",
+    "durationSeconds": 2185
+  },
+  {
+    "videoId": "BaQeOlG_Phs",
+    "title": "(10/15) Colloque : « 100 ans au service du patrimoine culturel afghan »",
+    "durationSeconds": 1014
+  },
+  {
+    "videoId": "Kpdme8TSgoA",
+    "title": "(8/15) Colloque : « 100 ans au service du patrimoine culturel afghan »",
+    "durationSeconds": 1709
+  },
+  {
+    "videoId": "VpQIrpKj7vc",
+    "title": "(1/15) Colloque : « 100 ans au service du patrimoine culturel afghan »",
+    "durationSeconds": 1827
+  },
+  {
+    "videoId": "6T9pnsbPrss",
+    "title": "La boisson des dieux 🌴 Petits contes du Pacifique",
+    "durationSeconds": 321
+  },
+  {
+    "videoId": "Wqt_PXHUrb8",
+    "title": "(12/12) Colloque : « Sur la piste des œuvres disparues en temps de guerre (1870-1945) »",
+    "durationSeconds": 3558
+  },
+  {
+    "videoId": "GirqRpXwt5Q",
+    "title": "(11/12) Colloque : « Sur la piste des œuvres disparues en temps de guerre (1870-1945) »",
+    "durationSeconds": 1545
+  },
+  {
+    "videoId": "eRnK5YXwqNI",
+    "title": "(10/12) Colloque : « Sur la piste des œuvres disparues en temps de guerre (1870-1945) »",
+    "durationSeconds": 2213
+  },
+  {
+    "videoId": "p7hAbVnaK9g",
+    "title": "(9/12) Colloque : « Sur la piste des œuvres disparues en temps de guerre (1870-1945) »",
+    "durationSeconds": 2353
+  },
+  {
+    "videoId": "W4zou7dEFhQ",
+    "title": "(8/12) Colloque : « Sur la piste des œuvres disparues en temps de guerre (1870-1945) »",
+    "durationSeconds": 1341
+  },
+  {
+    "videoId": "00hr2wGYKP8",
+    "title": "(7/12) Colloque : « Sur la piste des œuvres disparues en temps de guerre (1870-1945) »",
+    "durationSeconds": 1179
+  },
+  {
+    "videoId": "a3O7-00AXSo",
+    "title": "(6/12) Colloque : « Sur la piste des œuvres disparues en temps de guerre (1870-1945) »",
+    "durationSeconds": 947
+  },
+  {
+    "videoId": "L75F4sTuxaY",
+    "title": "(5/12) Colloque : « Sur la piste des œuvres disparues en temps de guerre (1870-1945) »",
+    "durationSeconds": 1287
+  },
+  {
+    "videoId": "cBzArwq1k14",
+    "title": "(4/12) Colloque : « Sur la piste des œuvres disparues en temps de guerre (1870-1945) »",
+    "durationSeconds": 1420
+  },
+  {
+    "videoId": "lh8sPjDTlL0",
+    "title": "(3/12) Colloque : « Sur la piste des œuvres disparues en temps de guerre (1870-1945) »",
+    "durationSeconds": 2001
+  },
+  {
+    "videoId": "3Pfwt3rWAEs",
+    "title": "(2/12) Colloque : « Sur la piste des œuvres disparues en temps de guerre (1870-1945) »",
+    "durationSeconds": 1767
+  },
+  {
+    "videoId": "7-ufCR13qU4",
+    "title": "Conférence du Louvre : « De la fabrique d’un chef d’œuvre :  Le lion de Monzon »",
+    "durationSeconds": 3694
+  },
+  {
+    "videoId": "2nGwbybOjVQ",
+    "title": "(1/12) Colloque : « Sur la piste des œuvres disparues en temps de guerre (1870-1945) »",
+    "durationSeconds": 2603
+  },
+  {
+    "videoId": "Fc4V1b7-mQU",
+    "title": "Early Dilmun Burial Mounds in Bahrain (EN) - Colloque « Bahreïn et ses voisins » (4/10)",
+    "durationSeconds": 1712
+  },
+  {
+    "videoId": "RHGqFCc2Ssc",
+    "title": "Qal'at al-Bahreïn : 4 000 ans d'histoire - Colloque « Bahreïn et ses voisins » (3/10)",
+    "durationSeconds": 1887
+  },
+  {
+    "videoId": "YrZSszKMSgs",
+    "title": "Du Pays de Cocagne au pays oublié ? - Colloque « Bahreïn et ses voisins » (2/10)",
+    "durationSeconds": 2012
+  },
+  {
+    "videoId": "VWR7j4GW97k",
+    "title": "La mise en valeur du patrimoine ancien de Bahreïn - Colloque « Bahreïn et ses voisins » (1/10)",
+    "durationSeconds": 2221
+  },
+  {
+    "videoId": "Cp1roHbDedQ",
+    "title": "Regards du Louvre -  Rafik Greiss, Sans Titre",
+    "durationSeconds": 247
+  },
+  {
+    "videoId": "l7Tw4xyAo3M",
+    "title": "\"Les Choses du sida\" par Thibault Boulvain",
+    "durationSeconds": 3050
+  },
+  {
+    "videoId": "-CXpBqpLJrY",
+    "title": "Redécouvrir les stèles puniques de Carthage - musée du Louvre",
+    "durationSeconds": 345
+  },
+  {
+    "videoId": "fISKZzZfWBk",
+    "title": "Regards du Louvre - Ariana Papademetropoulos, Mon Seul Désir",
+    "durationSeconds": 255
+  },
+  {
+    "videoId": "B3EbJQQlNWQ",
+    "title": "Chaire du Louvre 2022 - Des antiquités plurielles : le Louvre et l’archéologie impériale 3/5",
+    "durationSeconds": 4356
+  },
+  {
+    "videoId": "1ZLtbShfYVU",
+    "title": "Chaire du Louvre 2022 - L'Extrême-Orient au Louvre : regards croisés du musée sur l'Asie 5/5",
+    "durationSeconds": 4668
+  },
+  {
+    "videoId": "n5aDMVTHaNU",
+    "title": "Chaire du Louvre 2022 - La \"mission civilisatrice\" de la galerie espagnole 4/5",
+    "durationSeconds": 4572
+  },
+  {
+    "videoId": "7X_gJDxzKEE",
+    "title": "Chaire du Louvre 2022 - Un musée au service de l’expansion ultramarine 2/5",
+    "durationSeconds": 4291
+  },
+  {
+    "videoId": "cgIXeoWIbwk",
+    "title": "Chaire du Louvre 2022 - L’ethnographie au Louvre : histoire à rebours d’un oubli séculaire 1/5",
+    "durationSeconds": 4285
+  },
+  {
+    "videoId": "amswtYvl8mc",
+    "title": "L'Œuvre en scène : « Taharqa et Hémen : les hiéroglyphes en question »",
+    "durationSeconds": 3766
+  },
+  {
+    "videoId": "2to8h8oDSG8",
+    "title": "25/27 - From Uruk to Susa: Deciphering Proto-Elamite par Jacob Dahl , Université d’Oxford (VO)",
+    "durationSeconds": 1845
+  },
+  {
+    "videoId": "0bflrKYkEl0",
+    "title": "Présentation d'exposition : « Splendeurs des oasis d'Ouzbékistan »",
+    "durationSeconds": 3739
+  },
+  {
+    "videoId": "fFTT21tyeyU",
+    "title": "« Les Choses entre elles. Dialogue avec Michel Poivert et Valérie Belin »",
+    "durationSeconds": 3818
+  },
+  {
+    "videoId": "st7XpbsVLEk",
+    "title": "25/27 - From Uruk to Susa: Deciphering Proto-Elamite par Jacob Dahl, Université d’Oxford (FR)",
+    "durationSeconds": 1844
+  },
+  {
+    "videoId": "7pd_lmwDOcM",
+    "title": "24/27 - Quand l’écriture n’est pas encore l’écriture : les premiers hiéroglyphes",
+    "durationSeconds": 1426
+  },
+  {
+    "videoId": "HoBkt0m64tg",
+    "title": "23/27 - Luigi Lanzi, la collection Bucelli et les inscriptions bilingues",
+    "durationSeconds": 1507
+  },
+  {
+    "videoId": "9VJbV784btU",
+    "title": "22/27 - Deciphering the early Aegean scripts: Cretan Hieroglyphs, Linear A, and Cypro-minoan (VO)",
+    "durationSeconds": 1716
+  },
+  {
+    "videoId": "aVq3XllTy3M",
+    "title": "22/27 - Deciphering the early Aegean scripts: Cretan Hieroglyphs, Linear A, and Cypro-minoan (FR)",
+    "durationSeconds": 1716
+  },
+  {
+    "videoId": "9pRPdFynNmo",
+    "title": "21/27 - Les différentes écritures du Royaume d’Urartu",
+    "durationSeconds": 960
+  },
+  {
+    "videoId": "Q_R85ylRFS4",
+    "title": "20/27 - Le hourrite, une langue longtemps restée mal comprise par Véronique Pataï, musée du Louvre",
+    "durationSeconds": 881
+  },
+  {
+    "videoId": "5VncZk1YYWQ",
+    "title": "19/27-Le déchiffrement de palimpsestes et de manuscrits endommagés grâce à l’imagerie multispectrale",
+    "durationSeconds": 1608
+  },
+  {
+    "videoId": "WGPucTL_91U",
+    "title": "18/27 - Les nouvelles technologies au service du déchiffrement du cunéiforme (1852-2022)",
+    "durationSeconds": 1355
+  },
+  {
+    "videoId": "dWIsRBlX7wI",
+    "title": "17/27 - Identifier les hiéroglyphes. Pourquoi et comment les classer ? par Dimitri Meeks (CNRS)",
+    "durationSeconds": 2194
+  },
+  {
+    "videoId": "udzA4uEUKmM",
+    "title": "16/27 - The Decipherment of Maya writing (traduit en français)",
+    "durationSeconds": 1904
+  },
+  {
+    "videoId": "TO9qmzM6hPI",
+    "title": "16/27 - The Decipherment of Maya writing (original language)",
+    "durationSeconds": 1904
+  },
+  {
+    "videoId": "SzgW0C2RK1o",
+    "title": "15/27 - Le déchiffrement des écritures de l’Anatolie hittite par Alice Mouton (CNRS)",
+    "durationSeconds": 1582
+  },
+  {
+    "videoId": "AixwO1pbHJE",
+    "title": "14/27 - Chiffrement, déchiffrement: comment craquer le code cunéiforme",
+    "durationSeconds": 1535
+  },
+  {
+    "videoId": "LyBxCFZPoFM",
+    "title": "13/27 - Le déchiffrement du linéaire B (mycénien), un déchiffrement par l’analyse interne",
+    "durationSeconds": 1784
+  },
+  {
+    "videoId": "1bzYnRwGc2c",
+    "title": "12/27 - Des hiéroglyphes qui fascinent trop : errances renaissantes et baroques",
+    "durationSeconds": 2363
+  },
+  {
+    "videoId": "2yxmUdEMUyc",
+    "title": "11/27 - Quelques fausses pistes dans les déchiffrements des textes cunéiformes",
+    "durationSeconds": 1680
+  },
+  {
+    "videoId": "oKUxaSpN1To",
+    "title": "10/27 - D’Akhénaton à la princesse Karomama, à la recherche d’un hiéroglyphe inconnu",
+    "durationSeconds": 1704
+  },
+  {
+    "videoId": "jFIWctq_ov8",
+    "title": "9/27 - Des herminettes inscrites et le déchiffrement de l’ougaritique",
+    "durationSeconds": 1471
+  },
+  {
+    "videoId": "tY35IqODpIM",
+    "title": "8/27 - De la redécouverte de Khorsabad et du déchiffrement de l’assyrien à François Thureau-Dangin",
+    "durationSeconds": 2013
+  },
+  {
+    "videoId": "nfWQRe8bMrU",
+    "title": "7/27 - Les débuts des études élamites et le père Scheil par Wouter Henkelman (EPHE, PSL)",
+    "durationSeconds": 1844
+  },
+  {
+    "videoId": "TuYUJPwjkX4",
+    "title": "6/27 - L’inscription de Behistun, l’autre trilingue et trigraphe par Philip Huyse (EPHE, PSL)",
+    "durationSeconds": 1600
+  },
+  {
+    "videoId": "D222G8ZjC9Y",
+    "title": "5/27 - Conceptions du signe hiéroglyphique chez Champollion par Stéphane Polis (Université de Liège)",
+    "durationSeconds": 1209
+  },
+  {
+    "videoId": "B45IVoAL300",
+    "title": "4/27 - Le déchiffrement de l’écriture hiératique par Ivan Guermeur (EPHE, PSL)",
+    "durationSeconds": 1439
+  },
+  {
+    "videoId": "_JZWYbLbUaI",
+    "title": "3/27 - L’abbé Barthélémy, les premiers déchiffrements (palmyrénien, phénicien) et le cippe de Malte",
+    "durationSeconds": 1753
+  },
+  {
+    "videoId": "4S0sMefLMwU",
+    "title": "2/27 - Le déchiffrement du démotique",
+    "durationSeconds": 1998
+  },
+  {
+    "videoId": "JhbaSPLu2nk",
+    "title": "1/27 - Le déchiffrement des hiéroglyphes par Pascal Vernus (EPHE, PSL)",
+    "durationSeconds": 1935
+  },
+  {
+    "videoId": "anqgenX0sgI",
+    "title": "Visite parmi Les Choses - Par Laurence Bertrand Dorléac et Jean de Loisy",
+    "durationSeconds": 1293
+  },
+  {
+    "videoId": "2x6n6kFdm7E",
+    "title": "Nature morte à l'échiquier - Lubin Baugin",
+    "durationSeconds": 270
+  },
+  {
+    "videoId": "KqzcGKJRFck",
+    "title": "Regards sur le Pilier des migrants - Barthélémy Toguo au musée du Louvre",
+    "durationSeconds": 301
+  },
+  {
+    "videoId": "PTvsblu7Ai8",
+    "title": "TEASER - Journées Internationales du Film sur l'Art - JIFA 2023",
+    "durationSeconds": 86
+  },
+  {
+    "videoId": "6S41Y8z2nCg",
+    "title": "« Forêt » par Anne Teresa De Keersmaeker et Némo Flouret au musée du Louvre [EN subtitles]",
+    "durationSeconds": 467
+  },
+  {
+    "videoId": "Pc9KUJwEx8s",
+    "title": "Regards du Louvre - Christelle Oyiri, Grotesque",
+    "durationSeconds": 228
+  },
+  {
+    "videoId": "D-r3uaSqufo",
+    "title": "A la découverte de l’exposition « Un duel romantique, Le Giaour de Lord Byron par Delacroix »",
+    "durationSeconds": 148
+  },
+  {
+    "videoId": "Y3hta41DjlM",
+    "title": "« Il était une fois le Giaour », une histoire inspirée du poème de Lord Byron - Musée Delacroix",
+    "durationSeconds": 405
+  },
+  {
+    "videoId": "XDyjkmdlta0",
+    "title": "Regards du Louvre - Edgar Sarin, Louvre Peinture",
+    "durationSeconds": 203
+  },
+  {
+    "videoId": "cusQs_h-iuI",
+    "title": "« Colosse d’Arabie. Voyage au cœur des royaumes antiques d’al-‘Ulâ » (EN)",
+    "durationSeconds": 3388
+  },
+  {
+    "videoId": "X9RxR1wOw2o",
+    "title": "Conférence : « Colosse d’Arabie. Voyage au cœur des royaumes antiques d’al-‘Ulâ » (VF)",
+    "durationSeconds": 3364
+  },
+  {
+    "videoId": "REQqIVBOGMA",
+    "title": "Les grands décors de Delacroix : Le Salon du Roi et la bibliothèque de la Chambre des députés",
+    "durationSeconds": 313
+  },
+  {
+    "videoId": "SFBwxVPjAtI",
+    "title": "Les grands décors de Delacroix : La bibliothèque de la Chambre des Pairs– Palais du Luxembourg",
+    "durationSeconds": 294
+  },
+  {
+    "videoId": "gbOLVtNTigE",
+    "title": "Les grands décors de Delacroix : Le Salon de la Paix - Hôtel de Ville de Paris",
+    "durationSeconds": 142
+  },
+  {
+    "videoId": "lLvNmTt8Ifo",
+    "title": "Le grand décor de l’Hôtel de Ville de Paris - Musée Delacroix",
+    "durationSeconds": 379
+  },
+  {
+    "videoId": "i46dI_R19fM",
+    "title": "« D’après les maîtres » - Hommage à Claude Rutault au musée du Louvre",
+    "durationSeconds": 354
+  },
+  {
+    "videoId": "ni6p-x5laOU",
+    "title": "Regards du Louvre - Mimosa Echard, Wet chemistry",
+    "durationSeconds": 199
+  },
+  {
+    "videoId": "5vEkrePl8dc",
+    "title": "Delacroix chez George Sand à Nohant",
+    "durationSeconds": 214
+  },
+  {
+    "videoId": "66q5CGkRiTU",
+    "title": "Regards du Louvre - David Douard",
+    "durationSeconds": 227
+  },
+  {
+    "videoId": "9bZ9db08wLQ",
+    "title": "La restauration de l'Arc du Carrousel - Épisode 2 [ENG subtitles]",
+    "durationSeconds": 564
+  },
+  {
+    "videoId": "IpQ2LRrg2Ns",
+    "title": "Delacroix, Chopin et les salons parisiens - Musée Delacroix",
+    "durationSeconds": 244
+  },
+  {
+    "videoId": "IS1XM3b6u1k",
+    "title": "Leçons d’artiste : « Une histoire de l’art par Michelangelo Pistoletto »",
+    "durationSeconds": 2531
+  },
+  {
+    "videoId": "p6YLhSQ6Rhw",
+    "title": "Regards du Louvre - Iván Argote, Abriendo Caminos",
+    "durationSeconds": 211
+  },
+  {
+    "videoId": "Gqgpa7EHHdA",
+    "title": "Leçons d’artiste avec Michelangelo Pistoletto : « Le musée-miroir »",
+    "durationSeconds": 2417
+  },
+  {
+    "videoId": "PHn-QbsdAP8",
+    "title": "Regards du Louvre - Marine Serre",
+    "durationSeconds": 112
+  },
+  {
+    "videoId": "yK9jLlGbfTs",
+    "title": "Regards du Louvre - Miles Greenberg",
+    "durationSeconds": 211
+  },
+  {
+    "videoId": "-BQwQTGteX4",
+    "title": "L'Œuvre en scène : « A la redécouverte du retable brodé de l’ordre du Saint-Esprit »",
+    "durationSeconds": 4666
+  },
+  {
+    "videoId": "fv8DzFuq7_I",
+    "title": "Regards du Louvre - Bianca Bondi, Les Tombes Comme Des Dents De Lait",
+    "durationSeconds": 211
+  },
+  {
+    "videoId": "h8RqQkGZItg",
+    "title": "Regards du Louvre - Anton Bialas et Kamilya Kuspanova, Sade 1793",
+    "durationSeconds": 236
+  },
+  {
+    "videoId": "vpS7eejwMnI",
+    "title": "Regards du Louvre - Eliza Douglas",
+    "durationSeconds": 225
+  },
+  {
+    "videoId": "kDnBKSyO-78",
+    "title": "Regards du Louvre - Théo Casciani,  Hysteria",
+    "durationSeconds": 231
+  },
+  {
+    "videoId": "ur2I0Zw7pT0",
+    "title": "Regards du Louvre - Jennifer Douzenel, À deux doigts",
+    "durationSeconds": 222
+  },
+  {
+    "videoId": "sU1LN3YOrOM",
+    "title": "Regards du Louvre - Jacob Bromberg, Timelily",
+    "durationSeconds": 229
+  },
+  {
+    "videoId": "FSYalv3xO_s",
+    "title": "Conférence du Louvre  : « Mais pourquoi sommes-nous tous fascinés par l’Egypte des pharaons ? »",
+    "durationSeconds": 4362
+  },
+  {
+    "videoId": "apU1CNsw57M",
+    "title": "La restauration de l'Arc du Carrousel - Épisode 1  [ENG subtitles]",
+    "durationSeconds": 429
+  },
+  {
+    "videoId": "TLyJ6DEbvI0",
+    "title": "Regards du Louvre - Pan Daijing, Avalanche",
+    "durationSeconds": 218
+  },
+  {
+    "videoId": "RMvni5BkwY4",
+    "title": "L'Œuvre en scène : « Étude d’un célèbre paon des collections du département des Arts de l’Islam »",
+    "durationSeconds": 2984
+  },
+  {
+    "videoId": "NCz3unGIxWA",
+    "title": "Regards du Louvre - Guillaume Bresson",
+    "durationSeconds": 205
+  },
+  {
+    "videoId": "ixtRJHLOcec",
+    "title": "Regards du Louvre - Marie Jacotey,  Une chambre pour soi",
+    "durationSeconds": 220
+  },
+  {
+    "videoId": "cDDNkfLgWYs",
+    "title": "Les savants d'Asie centrale dans la civilisation du monde - Splendeurs des Oasis d'Ouzbékistan 7/8",
+    "durationSeconds": 1771
+  },
+  {
+    "videoId": "ixSp882dgjs",
+    "title": "Les « corans-reliques » de Katta Langar et Tachkent  - Splendeurs des Oasis d'Ouzbékistan 6/8",
+    "durationSeconds": 2044
+  },
+  {
+    "videoId": "OQNXVrYyuB8",
+    "title": "Les céramiques médiévales à glaçure de l’oasis de Tachkent - Splendeurs des Oasis d'Ouzbékistan 8/8",
+    "durationSeconds": 876
+  },
+  {
+    "videoId": "q6WESKvBihQ",
+    "title": "Trésors de Kafirkala - Colloque « Splendeurs des Oasis d'Ouzbékistan » 5/8",
+    "durationSeconds": 2343
+  },
+  {
+    "videoId": "gHVsVMozG9Y",
+    "title": "Les stucs de la Mosquée d’Afrasiab - Colloque « Splendeurs des Oasis d'Ouzbékistan » 4/8",
+    "durationSeconds": 2069
+  },
+  {
+    "videoId": "4e6tBnrPBJU",
+    "title": "Le complexe monastique monumental de Karatepe - Colloque « Splendeurs des Oasis d'Ouzbékistan » 3/8",
+    "durationSeconds": 2196
+  },
+  {
+    "videoId": "cEK5xo6C5XM",
+    "title": "Alexandre au nord de l’Oxus  - Colloque « Splendeurs des Oasis d'Ouzbékistan » 2/8",
+    "durationSeconds": 1831
+  },
+  {
+    "videoId": "fHziR3Ziq78",
+    "title": "Introduction - Colloque « Splendeurs des Oasis d'Ouzbékistan » 1/8",
+    "durationSeconds": 603
+  },
+  {
+    "videoId": "7QyIESABdow",
+    "title": "Regards du Louvre - Mykki Blanco et Dachi-Giorgi Garuchava, Le Témoin",
+    "durationSeconds": 177
+  },
+  {
+    "videoId": "UP2VziFGIzQ",
+    "title": "Arabie orientale - Colloque « Bahreïn et ses voisins » (10/10)",
+    "durationSeconds": 1286
+  },
+  {
+    "videoId": "itKv3HjCdxE",
+    "title": "Face à Bahreïn : Thāj, ville d’Arabie orientale - Colloque « Bahreïn et ses voisins » (9/10)",
+    "durationSeconds": 2031
+  },
+  {
+    "videoId": "17yF4OZwkAc",
+    "title": "La nécropole de Thaj - Colloque « Bahreïn et ses voisins » (8/10)",
+    "durationSeconds": 1954
+  },
+  {
+    "videoId": "cEyztrxRWF0",
+    "title": "Nouvelles données sur l’époque de Tylos à Bahreïn - Colloque « Bahreïn et ses voisins » (7/10)",
+    "durationSeconds": 2635
+  },
+  {
+    "videoId": "k3_L_isWWyQ",
+    "title": "Le phénomène des tombes-tours protohistoriques - Colloque « Bahreïn et ses voisins » (6/10)",
+    "durationSeconds": 1652
+  },
+  {
+    "videoId": "bVGXBnqtaNc",
+    "title": "Early Dilmun Burial Mounds in Bahrain (VF) - Colloque « Bahreïn et ses voisins » (5/10)",
+    "durationSeconds": 1712
+  },
+  {
+    "videoId": "QVEn0l78CvY",
+    "title": "Dialogues d’antiquités orientales. The Met au Louvre",
+    "durationSeconds": 3969
+  },
+  {
+    "videoId": "MEYduoF6NrE",
+    "title": "Présentation d'exposition : « Ingres et Delacroix, Objets d'artistes »",
+    "durationSeconds": 3670
+  },
+  {
+    "videoId": "IkFUsvjR7ws",
+    "title": "L'Œuvre en scène : « La maquette du complexe du Saint-Sépulcre de Jérusalem » (English subtitles)",
+    "durationSeconds": 3489
+  },
+  {
+    "videoId": "r9O3vDLF2ng",
+    "title": "L'Œuvre en scène : « Le reliquaire de la Sainte Couronne d’épines » de Viollet-le-Duc",
+    "durationSeconds": 3436
+  },
+  {
+    "videoId": "fZVqgCwlQOM",
+    "title": "La restauration de La Vierge du chancelier Rolin, chef-d'œuvre de Jan Van Eyck",
+    "durationSeconds": 558
+  },
+  {
+    "videoId": "owYFQ2HxkzA",
+    "title": "Présentation d'exposition : « Revoir Van Eyck. La Vierge du Chancelier Rolin »",
+    "durationSeconds": 3887
+  },
+  {
+    "videoId": "Yhq0ZKQYNbw",
+    "title": "La Lionne prête à s’élancer d’Eugène Delacroix",
+    "durationSeconds": 365
+  },
+  {
+    "videoId": "qRQNPtc97tc",
+    "title": "La restauration de l'Arc du Carrousel - Épisode 5 [ENG subtitles]",
+    "durationSeconds": 570
+  },
+  {
+    "videoId": "S6yvmnRNK4c",
+    "title": "Chardin et le Louvre - Tous Mécènes !",
+    "durationSeconds": 115
+  },
+  {
+    "videoId": "RHPYH1D761w",
+    "title": "L'Œuvre en scène : « La Statue d'Ebih-Il »",
+    "durationSeconds": 3245
+  },
+  {
+    "videoId": "TMCrv8X6xOo",
+    "title": "L'histoire du Panier de Fraises de Chardin - Tous Mécènes !",
+    "durationSeconds": 158
+  },
+  {
+    "videoId": "5M42J7kVvP8",
+    "title": "Présentation d'exposition : « Le trésor de Notre-Dame. Des origines à Viollet-Le-Duc »",
+    "durationSeconds": 3630
+  },
+  {
+    "videoId": "z8oE9aNa_ls",
+    "title": "Conférence :  « Au Louvre » avec Robert Polidori",
+    "durationSeconds": 4368
+  },
+  {
+    "videoId": "td_r8XkXIiI",
+    "title": "Table-ronde :  « La conversation du Louvre »",
+    "durationSeconds": 3375
+  },
+  {
+    "videoId": "88sX2i9SQ84",
+    "title": "Delacroix et Courbet – Le sauvetage des lieux (épisode 5)",
+    "durationSeconds": 116
+  },
+  {
+    "videoId": "WBsq-FInYTw",
+    "title": "Delacroix et Courbet – Nature et jardin (épisode 4)",
+    "durationSeconds": 77
+  },
+  {
+    "videoId": "gDjY57Urpmo",
+    "title": "Delacroix et Courbet – Les Ateliers (épisode 3)",
+    "durationSeconds": 108
+  },
+  {
+    "videoId": "kY1-F8pJyCc",
+    "title": "Delacroix et Courbet – Les lieux de vie (épisode 2)",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "T4Gj34lc3aw",
+    "title": "Delacroix et Courbet – Deux artistes (épisode 1)",
+    "durationSeconds": 131
+  },
+  {
+    "videoId": "OEMG5S3GEnw",
+    "title": "« Protéger le patrimoine ukrainien en danger » - Table-ronde au Louvre [Version ukrainienne]",
+    "durationSeconds": 5845
+  },
+  {
+    "videoId": "Dq-acDpEOEY",
+    "title": "« Protéger le patrimoine ukrainien en danger » - Table-ronde au musée du Louvre [VF]",
+    "durationSeconds": 5829
+  },
+  {
+    "videoId": "M-kj6UflkIM",
+    "title": "La restauration de l'arc du Carrousel -  4 Épisode  [ENG subtitles]",
+    "durationSeconds": 698
+  },
+  {
+    "videoId": "RydF9bAG-CY",
+    "title": "A la découverte des écritures et langues anciennes - Introduction d'Ariane Thomas",
+    "durationSeconds": 171
+  },
+  {
+    "videoId": "s2x4bsalW6E",
+    "title": "Tous mécènes ! du Panier de fraises de Chardin",
+    "durationSeconds": 119
+  },
+  {
+    "videoId": "lfFWxo3k1vk",
+    "title": "L'Assyrien par Ariane Thomas - A la découverte des écritures et langues anciennes",
+    "durationSeconds": 299
+  },
+  {
+    "videoId": "1gUtqrH3WnQ",
+    "title": "Le Phénicien par Hélène Le Meaux - A la découverte des écritures et langues anciennes",
+    "durationSeconds": 157
+  },
+  {
+    "videoId": "FMHClJOpeIA",
+    "title": "Le Hittite par Vincent Blanchard - A la découverte des écritures et langues anciennes",
+    "durationSeconds": 232
+  },
+  {
+    "videoId": "vu6PoDIuNNI",
+    "title": "L'Élamite par Véronique Pataï - A la découverte des écritures et langues anciennes",
+    "durationSeconds": 160
+  },
+  {
+    "videoId": "h3VT9z7HuJY",
+    "title": "L'Ougaritique par Jaroslaw Maniaczyk - A la découverte des écritures et langues anciennes",
+    "durationSeconds": 151
+  },
+  {
+    "videoId": "vC5Jij13tnk",
+    "title": "L'Araméen par Vincent Blanchard - A la découverte des écritures et langues anciennes",
+    "durationSeconds": 168
+  },
+  {
+    "videoId": "_QCwpfE6tVM",
+    "title": "Le Sumérien par Grégoire Nicolet - A la découverte des écritures et langues anciennes",
+    "durationSeconds": 157
+  },
+  {
+    "videoId": "8IY8q3-R2Io",
+    "title": "Le vieux Perse par Julien Cuny - A la découverte des écritures et langues anciennes",
+    "durationSeconds": 222
+  },
+  {
+    "videoId": "XEowy2o6Fn8",
+    "title": "La naissance de l'écriture par Véronique Pataï - A la découverte des écritures et langues anciennes",
+    "durationSeconds": 191
+  },
+  {
+    "videoId": "gRzFSFa_8Mk",
+    "title": "L'Egypte augmentée : un nouveau regard sur les Antiquités égyptiennes [EN subtitles]",
+    "durationSeconds": 173
+  },
+  {
+    "videoId": "nLJKj66oXnE",
+    "title": "« Les Fantômes de Naples »  par Emmanuel Demarcy-Mota au musée du Louvre",
+    "durationSeconds": 465
+  },
+  {
+    "videoId": "nQ8u2I59o1E",
+    "title": "Présentation de la salle de la Chapelle - « Naples à Paris » -  [EN subtitles]",
+    "durationSeconds": 344
+  },
+  {
+    "videoId": "Ww9NC9HoI3M",
+    "title": "Retour en images sur les « Étés du Louvre » !",
+    "durationSeconds": 72
+  },
+  {
+    "videoId": "O7JuQKvN2JU",
+    "title": "La restauration de l'Arc du Carrousel - Épisode 3  [ENG subtitles]",
+    "durationSeconds": 661
+  },
+  {
+    "videoId": "8-BLtGbD3Eg",
+    "title": "Présentation de la salle de l'Horloge - « Naples à Paris » -  [EN subtitles]",
+    "durationSeconds": 313
+  },
+  {
+    "videoId": "KZUYYW0vxT8",
+    "title": "Leçons d’artiste avec Michelangelo Pistoletto : « L’archipel-musée »",
+    "durationSeconds": 2870
+  },
+  {
+    "videoId": "zwoYIi5RXjY",
+    "title": "Regards du Louvre - Hicham Berrada, Samothrace",
+    "durationSeconds": 215
+  },
+  {
+    "videoId": "ZHrCDW0v6Hs",
+    "title": "Présentation d'exposition : « Naples à Paris. Le Louvre invite le musée de Capodimonte »",
+    "durationSeconds": 4501
+  },
+  {
+    "videoId": "UYW2rsApccg",
+    "title": "Présentation de la Grande Galerie - « Naples à Paris » -  [EN subtitles]",
+    "durationSeconds": 381
+  },
+  {
+    "videoId": "I6k3IsZGzxY",
+    "title": "L'Œuvre en scène : « La Dérision du Christ » de Cimabue",
+    "durationSeconds": 3609
+  },
+  {
+    "videoId": "FEnt0to8eWc",
+    "title": "Présentation de l'exposition \"LOUVRE COUTURE. Objets d'art, objets de mode\"",
+    "durationSeconds": 3792
+  },
+  {
+    "videoId": "BQooUTPvlWw",
+    "title": "Nouveau Louvre : first images",
+    "durationSeconds": 101
+  },
+  {
+    "videoId": "BVIQWXixHcQ",
+    "title": "Nouveau Louvre : premières images",
+    "durationSeconds": 96
+  },
+  {
+    "videoId": "eN1hAHPXIL8",
+    "title": "Présentation de l'exposition Revoir Cimabue. Aux origines de la peinture italienne\"",
+    "durationSeconds": 4380
+  },
+  {
+    "videoId": "Yt6SjqSVqzs",
+    "title": "La Dérision du Christ de Cimabue : une découverte inattendue",
+    "durationSeconds": 394
+  },
+  {
+    "videoId": "6Ot8eKXlJt8",
+    "title": "Archéologie du textile : restituer les costumes du pouvoir de la Nubie chrétienne (6e – 14e siècles)",
+    "durationSeconds": 3793
+  },
+  {
+    "videoId": "laDJiVYhwGI",
+    "title": "La restitution de deux tableaux spoliés à la famille Javal pendant la guerre",
+    "durationSeconds": 3701
+  },
+  {
+    "videoId": "AbJatEJbIzQ",
+    "title": "Présentation de l'exposition \"Figures du Fou. Du Moyen Âge aux romantiques\" au Louvre",
+    "durationSeconds": 294
+  },
+  {
+    "videoId": "eAYzrKywAGk",
+    "title": "La Chaire du Louvre 2023 par Barbara Cassin : Être reconnu - Pénélope (5/5)",
+    "durationSeconds": 4016
+  },
+  {
+    "videoId": "nlrYN4kg3Kw",
+    "title": "La Chaire du Louvre 2023 par Barbara Cassin : Parler – Circé Nausicaa (4/5)",
+    "durationSeconds": 3976
+  },
+  {
+    "videoId": "FdNjyG_nPYM",
+    "title": "La Chaire du Louvre 2023 par Barbara Cassin : Être soi-même – Les Sirènes (3/5)",
+    "durationSeconds": 3501
+  },
+  {
+    "videoId": "UdmNFVuVrb4",
+    "title": "La Chaire du Louvre 2023 par Barbara Cassin : Avoir un nom – Le Cyclope (2/5)",
+    "durationSeconds": 3457
+  },
+  {
+    "videoId": "iWsE2bfPURo",
+    "title": "La Chaire du Louvre 2023 par Barbara Cassin : Être mortel - Calypso (1/5)",
+    "durationSeconds": 3331
+  },
+  {
+    "videoId": "qpX7U1ved_s",
+    "title": "\"C'est la première fois que je viens au Louvre\" - Les Mardis du Louvre",
+    "durationSeconds": 174
+  },
+  {
+    "videoId": "yjg_7o3yUow",
+    "title": "Les appartements Napoléon III - Épisode 5  [ENG subtitles]",
+    "durationSeconds": 750
+  },
+  {
+    "videoId": "HXVh8ta-l-k",
+    "title": "Table ronde - Pierrot dans le regard des artistes d'aujourd'hui",
+    "durationSeconds": 4241
+  },
+  {
+    "videoId": "Co38vLo7EpM",
+    "title": "L’Œuvre en scène : La Tabatière Choiseul",
+    "durationSeconds": 3718
+  },
+  {
+    "videoId": "StHnKGPfhjk",
+    "title": "Présentation de l'exposition \"Guillon Lethière, né à la Guadeloupe\"",
+    "durationSeconds": 3626
+  },
+  {
+    "videoId": "YzqE49BvI1Q",
+    "title": "Les langages de la folie : une anthologie",
+    "durationSeconds": 4655
+  },
+  {
+    "videoId": "-y634HFf3h4",
+    "title": "Présentation d'exposition : « EXILS. Regards d’artistes »",
+    "durationSeconds": 4239
+  },
+  {
+    "videoId": "8OfVnd9L8YA",
+    "title": "Présentation d'exposition : « Revoir Watteau. Un comédien sans réplique. \"Pierrot\", dit le Gilles »",
+    "durationSeconds": 5112
+  },
+  {
+    "videoId": "fDL3DvJVNik",
+    "title": "Les babouins de Louxor sont de retour au Louvre",
+    "durationSeconds": 175
+  },
+  {
+    "videoId": "3WK0pvYiiCM",
+    "title": "Les appartements Napoléon III - Épisode 4  [ENG subtitles]",
+    "durationSeconds": 596
+  },
+  {
+    "videoId": "eoi7vIeGFRw",
+    "title": "Une momie du Louvre vieille de 3000 ans passe un scanner",
+    "durationSeconds": 298
+  },
+  {
+    "videoId": "T65C91rTjn0",
+    "title": "Pierrot de Watteau - Une captivante énigme",
+    "durationSeconds": 622
+  },
+  {
+    "videoId": "QGfoSB6RT3Y",
+    "title": "Présentation d'exposition : « Figures du fou. Du Moyen Âge aux Romantiques »",
+    "durationSeconds": 4276
+  },
+  {
+    "videoId": "schMsWFv92U",
+    "title": "Une conservatrice du LOUVRE décrypte la figure du JOKER dans « Joker : Folie à deux »",
+    "durationSeconds": 568
+  },
+  {
+    "videoId": "kWaRCCfbJpE",
+    "title": "Joker Folie à Deux x Louvre | Lady Gaga, Mona Lisa",
+    "durationSeconds": 81
+  },
+  {
+    "videoId": "TP93lH0dULk",
+    "title": "Les appartements Napoléon III - Épisode 3  [ENG subtitles]",
+    "durationSeconds": 601
+  },
+  {
+    "videoId": "KgUUKf8mNX4",
+    "title": "Les appartements Napoléon III - Épisode 2  [ENG subtitles]",
+    "durationSeconds": 646
+  },
+  {
+    "videoId": "RGpyfLZ4d6Q",
+    "title": "Adonis et Fanny Ardant | Le Louvre Espace de l’alphabet à venir",
+    "durationSeconds": 3310
+  },
+  {
+    "videoId": "YBc_Vlcbvew",
+    "title": "La mode au temps de Delacroix",
+    "durationSeconds": 162
+  },
+  {
+    "videoId": "VGvAAyPX23M",
+    "title": "Leçons d’artiste avec Simone Fattal : Troisième leçon",
+    "durationSeconds": 3521
+  },
+  {
+    "videoId": "J-b8CIWJE28",
+    "title": "Leçons d’artiste avec Simone Fattal : Première leçon",
+    "durationSeconds": 3801
+  },
+  {
+    "videoId": "RgHE1TMm7wQ",
+    "title": "Leçons d’artiste avec Simone Fattal : Deuxième leçon",
+    "durationSeconds": 2520
+  },
+  {
+    "videoId": "VVj-2Jdtl4o",
+    "title": "Les Midis de l'archéologie : Au Soudan, le patrimoine archéologique et les musées en danger",
+    "durationSeconds": 2385
+  },
+  {
+    "videoId": "CSttVsHITTY",
+    "title": "La restauration de l'Arc du Carrousel - Épisode 6 [ENG subtitles]",
+    "durationSeconds": 461
+  },
+  {
+    "videoId": "hfraWADcBR8",
+    "title": "Les appartements Napoléon III - Épisode 1  [ENG subtitles]",
+    "durationSeconds": 659
+  },
+  {
+    "videoId": "d7f-xP49y8w",
+    "title": "Présentation d'exposition : « Chefs-d’œuvre de la collection Torlonia »",
+    "durationSeconds": 5210
+  },
+  {
+    "videoId": "oprkUs35Pzc",
+    "title": "Ingres et Delacroix – Objets et postérité",
+    "durationSeconds": 284
+  },
+  {
+    "videoId": "B9sXS9rSpoA",
+    "title": "L'Œuvre en scène : « Marine Terrace » de Victor Hugo",
+    "durationSeconds": 3340
+  },
+  {
+    "videoId": "xLPzTYkfie4",
+    "title": "L'Œuvre en scène : « La Vierge à l'Enfant de Michel Colombe »",
+    "durationSeconds": 4030
+  },
+  {
+    "videoId": "78Qfo9NlPWs",
+    "title": "Présentation d'exposition : « L'Olympisme : une invention moderne, un héritage antique »",
+    "durationSeconds": 3796
+  },
+  {
+    "videoId": "l1dp3AtP3IM",
+    "title": "Les grandes restaurations du département des Peintures : bilan d’une politique depuis 10 ans",
+    "durationSeconds": 4313
+  },
+  {
+    "videoId": "gzGOC5UQf08",
+    "title": "Leçon d'artiste - Kader Attia au Louvre - Le corps/regard à l’ère du numérique",
+    "durationSeconds": 5137
+  },
+  {
+    "videoId": "sGcNV2-1QRQ",
+    "title": "Il a compté le nombre de chiens dans les œuvres du Louvre ! Promenade au musée avec Martin Bethenod",
+    "durationSeconds": 789
+  },
+  {
+    "videoId": "NEKL9PHayzY",
+    "title": "Table ronde : Jacques-Louis David en perspective",
+    "durationSeconds": 3714
+  },
+  {
+    "videoId": "zKEDWFQL01g",
+    "title": "Découverte de la Galerie des cinq continents au musée du Louvre",
+    "durationSeconds": 950
+  },
+  {
+    "videoId": "Q62_8SnacmQ",
+    "title": "Œuvre en Scène : D’un fil à l’autre : démêler les énigmes du Suaire de saint Josse",
+    "durationSeconds": 3512
+  },
+  {
+    "videoId": "xD9w-_ZipC0",
+    "title": "Présentation de l'exposition \"Jacques-Louis David\"",
+    "durationSeconds": 4934
+  },
+  {
+    "videoId": "fqPRfRhMckU",
+    "title": "Présentation de l'exposition \"Dessins des Carrache - La fabrique de la galerie Farnèse \"",
+    "durationSeconds": 4216
+  },
+  {
+    "videoId": "Z01FoDDyYUM",
+    "title": "Exposition Jacques-Louis David au Louvre : \"Peut-être le premier artiste moderne engagé !\"",
+    "durationSeconds": 170
+  },
+  {
+    "videoId": "m6NIx8lOL68",
+    "title": "Le Louvre vu par... Glenn Lowry, directeur émérite du MoMA et titulaire de la Chaire du Louvre",
+    "durationSeconds": 1086
+  },
+  {
+    "videoId": "dn7vQgZG9iM",
+    "title": "Les Carrache au Louvre",
+    "durationSeconds": 840
+  },
+  {
+    "videoId": "yXuH3qrW9Co",
+    "title": "Est-ce un Delacroix ? L’art de la copie",
+    "durationSeconds": 301
+  },
+  {
+    "videoId": "4xTxgJ-O7z4",
+    "title": "Dans les coulisses de l'exposition \"Jacques-Louis David\" au musée du Louvre",
+    "durationSeconds": 444
+  },
+  {
+    "videoId": "aZS0fmvDI1A",
+    "title": "Mohamed Bourouissa en résidence au jardin des Tuileries",
+    "durationSeconds": 569
+  },
+  {
+    "videoId": "E28HkkR6zRA",
+    "title": "Conférence : \"Enfermer et punir\" , par Robert Badinter",
+    "durationSeconds": 5069
+  },
+  {
+    "videoId": "NABDeTcq2qA",
+    "title": "Leçon d’artiste - Kader Attia au Louvre - Caresses et violences dans la société du regard",
+    "durationSeconds": 4464
+  },
+  {
+    "videoId": "as7FtlhGKPg",
+    "title": "Leçon d’artiste - Kader Attia au Louvre - Le corps/regard face à l'art et la matière",
+    "durationSeconds": 4524
+  },
+  {
+    "videoId": "43-M2JegmXg",
+    "title": "Luke Edward Hall crée la collection « From les Tuileries with love » pour le Louvre",
+    "durationSeconds": 118
+  },
+  {
+    "videoId": "AYnAaZh4JTg",
+    "title": "La Tête de hache ornée d’un démon à tête d’oiseau et le Taureau sauvage agenouillé",
+    "durationSeconds": 4163
+  },
+  {
+    "videoId": "RCsiv8dZguQ",
+    "title": "Mr Thiers' China: collecting, thinking, classifying",
+    "durationSeconds": 2910
+  },
+  {
+    "videoId": "dY1-0ka6h_g",
+    "title": "La Chine de Monsieur Thiers : collectionner, penser, classer",
+    "durationSeconds": 2926
+  },
+  {
+    "videoId": "JJhJzpERpVs",
+    "title": "Présentation de l'exposition \"Une passion chinoise. La collection de monsieur Thiers\"",
+    "durationSeconds": 3691
+  },
+  {
+    "videoId": "nF3FTlLC56w",
+    "title": "Des historiennes du Louvre décryptent Age of Empires et les Mamlouks",
+    "durationSeconds": 736
+  },
+  {
+    "videoId": "ESlfAUMZlLY",
+    "title": "Présentation de l'exposition « Mamlouks 1250-1517 »",
+    "durationSeconds": 4492
+  },
+  {
+    "videoId": "zbvmwUGOCEQ",
+    "title": "L'Œuvre en Scène : La sépulture de Thaïs d'Antinoé conservée au musée du Louvre",
+    "durationSeconds": 3387
+  },
+  {
+    "videoId": "GHKyYPcDAYk",
+    "title": "Exposition \"Mamlouks. 1250-1517\" : bande-annonce",
+    "durationSeconds": 87
+  },
+  {
+    "videoId": "yKa6fKCHzbc",
+    "title": "Présentation de l'exposition « L’expérience de la nature. Les arts à la cour de Rodolphe II »",
+    "durationSeconds": 4137
+  },
+  {
+    "videoId": "jLZn1o-blBg",
+    "title": "L'Œuvre en scène : « La Stèle de Néfertiabet »",
+    "durationSeconds": 4541
+  },
+  {
+    "videoId": "8SQevM0x2s8",
+    "title": "L’Orphelin par Luc Tuymans",
+    "durationSeconds": 481
+  },
+  {
+    "videoId": "PPKk4hog7X0",
+    "title": "Watteau ou pas Watteau ? Le défi de l'attribution",
+    "durationSeconds": 4178
+  },
+  {
+    "videoId": "Q1SYLh1ktZ4",
+    "title": "Le pouvoir rend-il fou ? Folies, d’un monde à l’autre",
+    "durationSeconds": 2900
+  },
+  {
+    "videoId": "j9LVU2dD-OE",
+    "title": "La Chaire du Louvre 2024 par Souleymane Bachir Diagne (5/5) : Louvre - Quels universels ?",
+    "durationSeconds": 3273
+  },
+  {
+    "videoId": "NsUvNKrMnB0",
+    "title": "La Chaire du Louvre 2024 par Souleymane Bachir Diagne (4/5) : Louvre - Quels universels ?",
+    "durationSeconds": 3298
+  },
+  {
+    "videoId": "bN4TmzNNacA",
+    "title": "La Chaire du Louvre 2024 par Souleymane Bachir Diagne (3/5) : Louvre - Quels universels ?",
+    "durationSeconds": 3565
+  },
+  {
+    "videoId": "xtyij9D8XwY",
+    "title": "La Chaire du Louvre 2024 par Souleymane Bachir Diagne (2/5) : Louvre - Quels universels ?",
+    "durationSeconds": 3447
+  },
+  {
+    "videoId": "XGV1dk6s_kQ",
+    "title": "La Chaire du Louvre 2024 par Souleymane Bachir Diagne (1/5) : Louvre - Quels universels ?",
+    "durationSeconds": 3819
+  },
+  {
+    "videoId": "Gw5lOymiHgk",
+    "title": "Cimabue : La Maestà révélée",
+    "durationSeconds": 651
+  },
+  {
+    "videoId": "-oNrp7tHen8",
+    "title": "La restauration de la sculpture : une \"Vierge et l'enfant\" de Michel Colombe",
+    "durationSeconds": 790
+  },
+  {
+    "videoId": "BTAgdVT0Sf8",
+    "title": "Conversations autour du « Serment des ancêtres » de Guillaume Guillon Lethière",
+    "durationSeconds": 5982
+  },
+  {
+    "videoId": "uutG-3K8V-8",
+    "title": "Feu! Chatterton en résidence au musée du Louvre",
+    "durationSeconds": 494
+  },
+  {
+    "videoId": "RxyWAkjhIGY",
+    "title": "Présentation de l'exposition \"Sculpter la couleur. Chefs-d’œuvre du Musée national de sculpture\"",
+    "durationSeconds": 4176
+  },
+  {
     "videoId": "ObC8VNwjY0s",
-    "durationSeconds": 215,
-    "title": "Installation des expositions \"Zurbarán\" et \"Sculpter la couleur\" au musée du Louvre"
+    "title": "Installation des expositions \"Zurbarán\" et \"Sculpter la couleur\" au musée du Louvre",
+    "durationSeconds": 215
   },
   {
     "videoId": "2ebLCbU1aI0",
-    "durationSeconds": 213,
-    "title": "Delacroix et Barye : une amitié féline"
+    "title": "Delacroix et Barye : une amitié féline",
+    "durationSeconds": 213
   },
   {
     "videoId": "wztyXFpb7R8",
-    "durationSeconds": 63,
-    "title": "Exposition : \"Zurbaràn. 1598-1664\" - bande-annonce"
+    "title": "Exposition : \"Zurbaràn. 1598-1664\" - bande-annonce",
+    "durationSeconds": 63
   },
   {
     "videoId": "HxcnLsGkOWU",
-    "durationSeconds": 119,
-    "title": "Rossy de Palma au Louvre - I Louvre Mucho"
+    "title": "Rossy de Palma au Louvre - I Louvre Mucho",
+    "durationSeconds": 119
   },
   {
     "videoId": "rAxkzJchls8",
-    "durationSeconds": 3505,
-    "title": "L'Œuvre en scène : Le vase du « Monument à Dante et à Pétrarque » par Henri de Triqueti"
+    "title": "L'Œuvre en scène : Le vase du « Monument à Dante et à Pétrarque » par Henri de Triqueti",
+    "durationSeconds": 3505
   },
   {
     "videoId": "dfd_4_rW3wA",
-    "durationSeconds": 166,
-    "title": "Affinités : Les merveilles des arts de l'Islam aux Objets d'art - au musée du Louvre"
+    "title": "Affinités : Les merveilles des arts de l'Islam aux Objets d'art - au musée du Louvre",
+    "durationSeconds": 166
   },
   {
     "videoId": "2gOdl3CLtWc",
-    "durationSeconds": 396,
-    "title": "La restauration de « La Prise de Constantinople par les croisés » (Delacroix, 1840)"
+    "title": "La restauration de « La Prise de Constantinople par les croisés » (Delacroix, 1840)",
+    "durationSeconds": 396
   },
   {
     "videoId": "_7Q6CM0KsCs",
-    "durationSeconds": 3423,
-    "title": "L'Œuvre en scène : Chypre au carrefour des cultures méditerranéennes. Les coupes d’Idalion"
+    "title": "L'Œuvre en scène : Chypre au carrefour des cultures méditerranéennes. Les coupes d’Idalion",
+    "durationSeconds": 3423
   },
   {
     "videoId": "0SgfH1CSNps",
-    "durationSeconds": 3615,
-    "title": "La Porte du palais Stanga révélée"
+    "title": "La Porte du palais Stanga révélée",
+    "durationSeconds": 3615
   },
   {
     "videoId": "oo0gcvPCufM",
-    "durationSeconds": 3667,
-    "title": "L'Œuvre en scène : Le voyage des « Tanagras » : sur les pas des « Dames en bleu »"
+    "title": "L'Œuvre en scène : Le voyage des « Tanagras » : sur les pas des « Dames en bleu »",
+    "durationSeconds": 3667
   },
   {
     "videoId": "ZU2_WMiWyn0",
-    "durationSeconds": 3508,
-    "title": "Conférence : Corot au fil des pages. Étude et restauration des carnets de Camille Corot"
+    "title": "Conférence : Corot au fil des pages. Étude et restauration des carnets de Camille Corot",
+    "durationSeconds": 3508
   },
   {
     "videoId": "KwzYuRoITNs",
-    "durationSeconds": 3904,
-    "title": "Conférence : Le Jardin des Tuileries et la ville : usages anciens pratiques nouvelles"
+    "title": "Conférence : Le Jardin des Tuileries et la ville : usages anciens pratiques nouvelles",
+    "durationSeconds": 3904
   },
   {
     "videoId": "WEvRMOCxKZk",
-    "durationSeconds": 3981,
-    "title": "Conférence : perspectives croisées sur la Galerie des Cinq Continents et la Rockefeller Wing du MET"
+    "title": "Conférence : perspectives croisées sur la Galerie des Cinq Continents et la Rockefeller Wing du MET",
+    "durationSeconds": 3981
   },
   {
     "videoId": "eKXv1K8n42c",
-    "durationSeconds": 4421,
-    "title": "Conférence : la longue présence des arts extra-occidentaux dans les musées parisiens."
+    "title": "Conférence : la longue présence des arts extra-occidentaux dans les musées parisiens.",
+    "durationSeconds": 4421
   },
   {
     "videoId": "r_hz4XC3lkY",
-    "durationSeconds": 3923,
-    "title": "Conférence - Nouveaux regards sur les collections dans les musées européens"
+    "title": "Conférence - Nouveaux regards sur les collections dans les musées européens",
+    "durationSeconds": 3923
   },
   {
     "videoId": "6T3XLW_xifU",
-    "durationSeconds": 197,
-    "title": "\"L'Eau primordiale\", une exposition sur l'eau dans les antiquités orientales du Louvre."
+    "title": "\"L'Eau primordiale\", une exposition sur l'eau dans les antiquités orientales du Louvre.",
+    "durationSeconds": 197
   },
   {
     "videoId": "sw1SrORadTU",
-    "durationSeconds": 183,
-    "title": "Dessine-moi un chef-d'œuvre : les chansons illustrées. \"Monumental\"."
+    "title": "Dessine-moi un chef-d'œuvre : les chansons illustrées. \"Monumental\".",
+    "durationSeconds": 183
   },
   {
     "videoId": "SAFO1z8RCsA",
-    "durationSeconds": 224,
-    "title": "Dessine-moi un chef-d'œuvre : les chansons illustrées. \"Princesse\"."
+    "title": "Dessine-moi un chef-d'œuvre : les chansons illustrées. \"Princesse\".",
+    "durationSeconds": 224
   },
   {
     "videoId": "lg7hRJI05rM",
-    "durationSeconds": 215,
-    "title": "Dessine-moi un chef-d'œuvre : les chansons illustrées. \"Clair-Obscur\"."
+    "title": "Dessine-moi un chef-d'œuvre : les chansons illustrées. \"Clair-Obscur\".",
+    "durationSeconds": 215
   },
   {
     "videoId": "lgB7jihiQd0",
-    "durationSeconds": 351,
-    "title": "Mona Lisa, la naissance d'une icône pop"
+    "title": "Mona Lisa, la naissance d'une icône pop",
+    "durationSeconds": 351
   },
   {
     "videoId": "siAAsaiqNwA",
-    "durationSeconds": 286,
-    "title": "Le Louvre par David Diop (réalisation Andrea Aversa)"
+    "title": "Le Louvre par David Diop (réalisation Andrea Aversa)",
+    "durationSeconds": 286
   },
   {
     "videoId": "PNnqmDyXxsI",
-    "durationSeconds": 4250,
-    "title": "Conférence : \"L’Album d’Italie d’Anne-Louis Girodet (1767-1824)\""
+    "title": "Conférence : \"L’Album d’Italie d’Anne-Louis Girodet (1767-1824)\"",
+    "durationSeconds": 4250
   },
   {
     "videoId": "UuaJ1lHDtRk",
-    "durationSeconds": 281,
-    "title": "Ce tableau de Delacroix vient d'être restauré : \"L'Entrée des croisés à Constantinople\""
+    "title": "Ce tableau de Delacroix vient d'être restauré : \"L'Entrée des croisés à Constantinople\"",
+    "durationSeconds": 281
   },
   {
     "videoId": "xM_Ff4Jtjhg",
-    "durationSeconds": 3982,
-    "title": "Présentation de l'exposition \"L'Eau primordiale. Leçons de Mésopotamie\""
+    "title": "Présentation de l'exposition \"L'Eau primordiale. Leçons de Mésopotamie\"",
+    "durationSeconds": 3982
   },
   {
     "videoId": "_VwbowJYgCw",
-    "durationSeconds": 4308,
-    "title": "Présentation de l'exposition \"Michel-Ange Rodin. Corps vivants\""
+    "title": "Présentation de l'exposition \"Michel-Ange Rodin. Corps vivants\"",
+    "durationSeconds": 4308
   },
   {
     "videoId": "uxYU90OWWg0",
-    "durationSeconds": 496,
-    "title": "Martin Schongauer : Le bel immortel"
+    "title": "Martin Schongauer : Le bel immortel",
+    "durationSeconds": 496
   },
   {
     "videoId": "qZkIttcrMsQ",
-    "durationSeconds": 225,
-    "title": "Exposition \"Michel-Ange Rodin. Corps vivants\" : présentation par les commissaires"
+    "title": "Exposition \"Michel-Ange Rodin. Corps vivants\" : présentation par les commissaires",
+    "durationSeconds": 225
   },
   {
     "videoId": "N57Il-S_Pg8",
-    "durationSeconds": 4617,
-    "title": "Présentation de l'exposition \"Martin Schongauer, le bel immortel\""
+    "title": "Présentation de l'exposition \"Martin Schongauer, le bel immortel\"",
+    "durationSeconds": 4617
   },
   {
     "videoId": "WPYsGuSYZ3o",
-    "durationSeconds": 615,
-    "title": "Installation de l'exposition \"Michel-Ange Rodin. Corps vivants\" au musée du Louvre"
+    "title": "Installation de l'exposition \"Michel-Ange Rodin. Corps vivants\" au musée du Louvre",
+    "durationSeconds": 615
   },
   {
     "videoId": "teKg7eEsNPI",
-    "durationSeconds": 177,
-    "title": "\"Martin Schongauer. Le bel immortel\", présentation de l'exposition - Musée du Louvre"
+    "title": "\"Martin Schongauer. Le bel immortel\", présentation de l'exposition - Musée du Louvre",
+    "durationSeconds": 177
   },
   {
     "videoId": "bFYZvUHZAvo",
-    "durationSeconds": 60,
-    "title": "Bande-annonce : \"Le corps à l'écran\" : cycle de cinéma au musée du Louvre"
+    "title": "Bande-annonce : \"Le corps à l'écran\" : cycle de cinéma au musée du Louvre",
+    "durationSeconds": 60
   },
   {
     "videoId": "MXQxzO-uXkc",
-    "durationSeconds": 238,
-    "title": "Interview de Léo Warynski : concert \"Voix sculptées\""
+    "title": "Interview de Léo Warynski : concert \"Voix sculptées\"",
+    "durationSeconds": 238
   },
   {
     "videoId": "jZ4fd9fdPzs",
-    "durationSeconds": 60,
-    "title": "Cycle de films \"Le corps à l'écran\" pour l'exposition \"Michel-Ange Rodin\" au musée du Louvre"
+    "title": "Cycle de films \"Le corps à l'écran\" pour l'exposition \"Michel-Ange Rodin\" au musée du Louvre",
+    "durationSeconds": 60
   },
   {
     "videoId": "IAP6GC8HKYY",
-    "durationSeconds": 197,
-    "title": "Une restauration hors norme : \"le cycle de Marie de Médicis\" de Pierre Paul Rubens"
+    "title": "Une restauration hors norme : \"le cycle de Marie de Médicis\" de Pierre Paul Rubens",
+    "durationSeconds": 197
   },
   {
     "videoId": "s7j8F4UfTi4",
-    "durationSeconds": 194,
-    "title": "Réactions des élèves de maternelle en visite au musée du Louvre"
+    "title": "Réactions des élèves de maternelle en visite au musée du Louvre",
+    "durationSeconds": 194
   },
   {
     "videoId": "Iq1qN_iSMVY",
-    "durationSeconds": 3264,
-    "title": "Présentation de l'exposition \"Chypre au Louvre\""
+    "title": "Présentation de l'exposition \"Chypre au Louvre\"",
+    "durationSeconds": 3264
   },
   {
     "videoId": "yYine4MWgAI",
-    "durationSeconds": 3698,
-    "title": "Un chef-d’œuvre restauré de la Renaissance en France : le triptyque de Moulins"
+    "title": "Un chef-d’œuvre restauré de la Renaissance en France : le triptyque de Moulins",
+    "durationSeconds": 3698
   },
   {
     "videoId": "bhwoDpPCuuA",
-    "durationSeconds": 3606,
-    "title": "Les costumes de cérémonie de Napoléon Ier expliqués à partir du patron d'habit de 1806"
+    "title": "Les costumes de cérémonie de Napoléon Ier expliqués à partir du patron d'habit de 1806",
+    "durationSeconds": 3606
   },
   {
     "videoId": "gAI6aozmHLw",
-    "durationSeconds": 128,
-    "title": "Michel et Olivier Gondry : \"Louvre-Moon-Love\" - bande-annonce du Grand Dîner du Louvre 2026"
+    "title": "Michel et Olivier Gondry : \"Louvre-Moon-Love\" - bande-annonce du Grand Dîner du Louvre 2026",
+    "durationSeconds": 128
   },
   {
     "videoId": "bgSjlg9ke6U",
-    "durationSeconds": 162,
-    "title": "Grand Dîner du Louvre 2026"
+    "title": "Grand Dîner du Louvre 2026",
+    "durationSeconds": 162
   },
   {
     "videoId": "c4RZbLl8WSI",
-    "durationSeconds": 146,
-    "title": "Le Ballet de l’Opéra national de Paris au Louvre avec Dorothée Gilbert et Guillaume Diop ! ✨"
+    "title": "Le Ballet de l’Opéra national de Paris au Louvre avec Dorothée Gilbert et Guillaume Diop ! ✨",
+    "durationSeconds": 146
   },
   {
     "videoId": "Bc3F_bqFGAk",
-    "durationSeconds": 3985,
-    "title": "L'Œuvre en Scène : Coupe indienne portant un poème de l’empereur Qianlong"
+    "title": "L'Œuvre en Scène : Coupe indienne portant un poème de l’empereur Qianlong",
+    "durationSeconds": 3985
   },
   {
     "videoId": "ZoQZDtIt9lI",
-    "durationSeconds": 4271,
-    "title": "La Chaire du Louvre 2025 par Glenn Lowry - \"Un artiste et ses musées imaginaires\" (5/5)"
+    "title": "La Chaire du Louvre 2025 par Glenn Lowry - \"Un artiste et ses musées imaginaires\" (5/5)",
+    "durationSeconds": 4271
   },
   {
     "videoId": "J8evvGSzXAI",
-    "durationSeconds": 3475,
-    "title": "La Chaire du Louvre par Glenn Lowry  - \"Contester les imaginaires: les musées sous pression\" (4/5)"
+    "title": "La Chaire du Louvre par Glenn Lowry  - \"Contester les imaginaires: les musées sous pression\" (4/5)",
+    "durationSeconds": 3475
   },
   {
     "videoId": "cw4X6WybsfQ",
-    "durationSeconds": 3873,
-    "title": "La Chaire du Louvre 2025 par Glenn Lowry - \"Le musée idéal et son imaginaire\"  (3/5)"
+    "title": "La Chaire du Louvre 2025 par Glenn Lowry - \"Le musée idéal et son imaginaire\"  (3/5)",
+    "durationSeconds": 3873
   },
   {
     "videoId": "2acdTWHpU6M",
-    "durationSeconds": 3747,
-    "title": "La Chaire du Louvre 2025 par Glenn Lowry - \"Imaginer le moderne : Du Louvre au MoMA\" (2/5)"
+    "title": "La Chaire du Louvre 2025 par Glenn Lowry - \"Imaginer le moderne : Du Louvre au MoMA\" (2/5)",
+    "durationSeconds": 3747
   },
   {
     "videoId": "uekqEkMjGvk",
-    "durationSeconds": 3874,
-    "title": "La Chaire du Louvre 2025 par Glenn Lowry - \"Le musée imaginaire et l'imaginaire du musée\" (1/5)"
+    "title": "La Chaire du Louvre 2025 par Glenn Lowry - \"Le musée imaginaire et l'imaginaire du musée\" (1/5)",
+    "durationSeconds": 3874
   },
   {
     "videoId": "NecHkdnVMgA",
-    "durationSeconds": 298,
-    "title": "Retour sur la première semaine de la Solidarité et de l’Accessibilité au Louvre !"
+    "title": "Retour sur la première semaine de la Solidarité et de l’Accessibilité au Louvre !",
+    "durationSeconds": 298
   },
   {
     "videoId": "-DB-eM1Yok8",
-    "durationSeconds": 184,
-    "title": "Delacroix - Paris rive gauche, histoire de jeunesse"
+    "title": "Delacroix - Paris rive gauche, histoire de jeunesse",
+    "durationSeconds": 184
   },
   {
     "videoId": "0ckLzyNiHww",
-    "durationSeconds": 4903,
-    "title": "Conférence : Sculpteurs du Roi (1657-1791)."
+    "title": "Conférence : Sculpteurs du Roi (1657-1791).",
+    "durationSeconds": 4903
   }
 ]

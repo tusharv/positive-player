@@ -1,252 +1,1942 @@
 [
   {
+    "videoId": "pk213XSSktQ",
+    "title": "What Was the Ancestor of Everything? (feat. PBS Space Time and It’s Okay To Be Smart)",
+    "durationSeconds": 704
+  },
+  {
+    "videoId": "agGAnNewzHY",
+    "title": "Inside the Dinosaur Library",
+    "durationSeconds": 492
+  },
+  {
+    "videoId": "cQ2YFsqaVTE",
+    "title": "The Most Useful Fossils in the World",
+    "durationSeconds": 420
+  },
+  {
+    "videoId": "4rvgiDXc12k",
+    "title": "What a Dinosaur Looks Like Under a Microscope",
+    "durationSeconds": 532
+  },
+  {
+    "videoId": "fLjXIFvafSE",
+    "title": "How the Turtle Got Its Shell",
+    "durationSeconds": 552
+  },
+  {
+    "videoId": "Jpi2VJj5PhY",
+    "title": "The Other Explosion You Should Know About",
+    "durationSeconds": 414
+  },
+  {
+    "videoId": "qsn4z7bNb14",
+    "title": "How Sex Became a Thing",
+    "durationSeconds": 382
+  },
+  {
+    "videoId": "RDQa0okkpf0",
+    "title": "From the Cambrian Explosion to the Great Dying",
+    "durationSeconds": 718
+  },
+  {
+    "videoId": "KfYn9KVya-Q",
+    "title": "The Whole Saga of the Supercontinents",
+    "durationSeconds": 558
+  },
+  {
+    "videoId": "gIvrGtgVtr8",
+    "title": "The Great Snake Debate",
+    "durationSeconds": 441
+  },
+  {
+    "videoId": "tdfFoSC8_7k",
+    "title": "Untangling the Devil's Corkscrew",
+    "durationSeconds": 401
+  },
+  {
+    "videoId": "Ds0aDc6sBtg",
+    "title": "The Time Terror Birds Invaded",
+    "durationSeconds": 355
+  },
+  {
+    "videoId": "lhF5G2k45vY",
+    "title": "How Two Microbes Changed History",
+    "durationSeconds": 477
+  },
+  {
+    "videoId": "9Dcg4sQq5cY",
+    "title": "Eons Livestream Q&A",
+    "durationSeconds": 3621
+  },
+  {
+    "videoId": "-G64DagHuOg",
+    "title": "When Giant Fungi Ruled",
+    "durationSeconds": 398
+  },
+  {
+    "videoId": "1qW256pUdYg",
+    "title": "What Happened to the World's Greatest Ape?",
+    "durationSeconds": 445
+  },
+  {
+    "videoId": "ldLBoErAhz4",
+    "title": "The Last Time the Globe Warmed",
+    "durationSeconds": 654
+  },
+  {
+    "videoId": "aOeFRg_1_Yg",
+    "title": "The Facts About Dinosaurs & Feathers",
+    "durationSeconds": 601
+  },
+  {
+    "videoId": "uCVnRIP3pIk",
+    "title": "The Search for the Earliest Life",
+    "durationSeconds": 337
+  },
+  {
+    "videoId": "rWp5ZpJAIAE",
+    "title": "A Brief History of Geologic Time",
+    "durationSeconds": 728
+  },
+  {
+    "videoId": "JDnQmBFxIfE",
+    "title": "An Illustrated History of Dinosaurs",
+    "durationSeconds": 740
+  },
+  {
+    "videoId": "_OSRKtT_9vw",
+    "title": "When Whales Walked",
+    "durationSeconds": 377
+  },
+  {
+    "videoId": "mPvZj2KcjAY",
+    "title": "'Living Fossils' Aren't Really a Thing",
+    "durationSeconds": 306
+  },
+  {
+    "videoId": "IIA-k_bBcL0",
+    "title": "When The Earth Was Purple",
+    "durationSeconds": 337
+  },
+  {
+    "videoId": "ENK245mtPTo",
+    "title": "How Did Dinosaurs Get So Huge?",
+    "durationSeconds": 371
+  },
+  {
+    "videoId": "9pLQwa6SyZc",
+    "title": "History's Most Powerful Plants",
+    "durationSeconds": 348
+  },
+  {
+    "videoId": "-wQLKMUWANg",
+    "title": "The Age of Giant Insects",
+    "durationSeconds": 414
+  },
+  {
+    "videoId": "S5GHg27wYLI",
+    "title": "The Strange Case of the Buzzsaw Jaws",
+    "durationSeconds": 256
+  },
+  {
+    "videoId": "LhyQ5z5f-m8",
+    "title": "The Extinction That Never Happened",
+    "durationSeconds": 511
+  },
+  {
+    "videoId": "SR3OOP9mImI",
+    "title": "Dimetrodon: Our Most Unlikely Ancestor",
+    "durationSeconds": 409
+  },
+  {
+    "videoId": "scAp-fncp64",
+    "title": "The Biggest Thing That Ever Flew",
+    "durationSeconds": 315
+  },
+  {
+    "videoId": "qERdL8uHSgI",
+    "title": "That Time Oxygen Almost Killed Everything",
+    "durationSeconds": 344
+  },
+  {
+    "videoId": "hbjIhPHRZgc",
+    "title": "The Story of Saberteeth",
+    "durationSeconds": 352
+  },
+  {
+    "videoId": "vtpi7yUHNyg",
+    "title": "What Colors Were Dinosaurs?",
+    "durationSeconds": 361
+  },
+  {
+    "videoId": "Nsf5xCbZ7us",
+    "title": "Stegosaurs: Tiny Brains & Thagomizers",
+    "durationSeconds": 290
+  },
+  {
+    "videoId": "frnio8eSFyk",
+    "title": "The Tully Monster & Other Problematic Creatures",
+    "durationSeconds": 303
+  },
+  {
+    "videoId": "13aUo5fEjNY",
+    "title": "When Did the First Flower Bloom?",
+    "durationSeconds": 318
+  },
+  {
+    "videoId": "Aji2VnQFUCs",
+    "title": "The Trouble With Trilobites",
+    "durationSeconds": 415
+  },
+  {
+    "videoId": "trJpxwMGoCw",
+    "title": "The Hellacious Lives of the \"Hell Pigs\"",
+    "durationSeconds": 477
+  },
+  {
+    "videoId": "gUdtcx-6OBE",
+    "title": "The History of Climate Cycles (and the Woolly Rhino) Explained",
+    "durationSeconds": 876
+  },
+  {
+    "videoId": "oPJnqWke5n8",
+    "title": "The Ghostly Origins of the Big Cats",
+    "durationSeconds": 512
+  },
+  {
+    "videoId": "xmboVmtqNJc",
+    "title": "When We Took Over the World",
+    "durationSeconds": 763
+  },
+  {
+    "videoId": "QmdcewIjXi0",
+    "title": "The Croc That Ran on Hooves",
+    "durationSeconds": 548
+  },
+  {
+    "videoId": "KtsOhmBb92E",
+    "title": "The Mystery Behind the Biggest Bears of All Time",
+    "durationSeconds": 676
+  },
+  {
+    "videoId": "lGH4MK9O2J0",
+    "title": "When We Tamed Fire",
+    "durationSeconds": 777
+  },
+  {
+    "videoId": "1sQXTXbuLYo",
+    "title": "When Giant Scorpions Swarmed the Seas",
+    "durationSeconds": 701
+  },
+  {
+    "videoId": "FFI50iSPWeI",
+    "title": "When We First Made Tools",
+    "durationSeconds": 610
+  },
+  {
+    "videoId": "gWP_tFJmC40",
+    "title": "The Giant Bird That Got Lost in Time",
+    "durationSeconds": 535
+  },
+  {
+    "videoId": "34BhCFmE12c",
+    "title": "The Island of Huge Hamsters and Giant Owls",
+    "durationSeconds": 765
+  },
+  {
+    "videoId": "YWZgfPGtQEs",
+    "title": "How 7,000 Years of Epic Floods Changed the World (w/ SciShow!)",
+    "durationSeconds": 626
+  },
+  {
+    "videoId": "om0xmuFbAF4",
+    "title": "The Evolution of the Heart (A Love Story)",
+    "durationSeconds": 588
+  },
+  {
+    "videoId": "dXwoKEDtdlM",
+    "title": "The Island of Shrinking Mammoths",
+    "durationSeconds": 735
+  },
+  {
+    "videoId": "_ANNQKKwWGk",
+    "title": "The Humans That Lived Before Us",
+    "durationSeconds": 742
+  },
+  {
+    "videoId": "DdjN4ddnl2E",
+    "title": "How Blood Evolved (Many Times)",
+    "durationSeconds": 628
+  },
+  {
+    "videoId": "G_hl804lSfc",
+    "title": "When Humans Were Prey",
+    "durationSeconds": 592
+  },
+  {
+    "videoId": "BTPcq2HczVY",
+    "title": "Why Megalodon (Definitely) Went Extinct",
+    "durationSeconds": 673
+  },
+  {
+    "videoId": "qzRzUmrHL7c",
+    "title": "When Apes Conquered Europe",
+    "durationSeconds": 535
+  },
+  {
+    "videoId": "xvAvN5xn5oY",
+    "title": "When Sharks Swam the Great Plains",
+    "durationSeconds": 761
+  },
+  {
+    "videoId": "pt9tBtQoAHo",
+    "title": "How Sloths Went From the Seas to the Trees",
+    "durationSeconds": 741
+  },
+  {
+    "videoId": "lJNoAE0UHzY",
+    "title": "When Camels Roamed North America",
+    "durationSeconds": 612
+  },
+  {
+    "videoId": "M3h05ajJw0o",
+    "title": "When Birds Stopped Flying",
+    "durationSeconds": 452
+  },
+  {
+    "videoId": "bXueqJfYV9c",
+    "title": "When Rodents Rafted Across the Ocean",
+    "durationSeconds": 620
+  },
+  {
+    "videoId": "YNQPQkV3nhw",
+    "title": "The Two People We're All Related To",
+    "durationSeconds": 572
+  },
+  {
+    "videoId": "dUKV02uYEu0",
+    "title": "Your Place in the Primate Family Tree",
+    "durationSeconds": 746
+  },
+  {
+    "videoId": "rGthtRZl8B0",
+    "title": "When Giant Amphibians Reigned",
+    "durationSeconds": 653
+  },
+  {
+    "videoId": "_nJdWqtMljs",
+    "title": "Can We Get DNA From Fossils?",
+    "durationSeconds": 708
+  },
+  {
+    "videoId": "LZiHLKAymdM",
+    "title": "Did Raptorex Really Exist?",
+    "durationSeconds": 812
+  },
+  {
+    "videoId": "3bFtotU0of4",
+    "title": "When We First Walked",
+    "durationSeconds": 736
+  },
+  {
+    "videoId": "GneDL2Avf4A",
+    "title": "Life, Sex & Death Among the Dire Wolves",
+    "durationSeconds": 582
+  },
+  {
+    "videoId": "sZhxCUay5ks",
+    "title": "The Rise and Fall of the Bone-Crushing Dogs",
+    "durationSeconds": 577
+  },
+  {
+    "videoId": "2ofNufZVcMU",
+    "title": "How a Supervolcano Made the Cenozoic’s Coolest Fossils",
+    "durationSeconds": 579
+  },
+  {
+    "videoId": "kZoTvXvV02A",
+    "title": "How Horses Took Over North America (Twice)",
+    "durationSeconds": 601
+  },
+  {
+    "videoId": "QGR5yOrChMA",
+    "title": "When Birds Had Teeth",
+    "durationSeconds": 742
+  },
+  {
+    "videoId": "5pVTZH1LyTw",
+    "title": "When Fish Wore Armor",
+    "durationSeconds": 619
+  },
+  {
+    "videoId": "KNvRLVBKn-I",
+    "title": "The Mystery of the Eocene’s Lethal Lake",
+    "durationSeconds": 514
+  },
+  {
+    "videoId": "7QMcXEj7IT0",
+    "title": "When Insects First Flew",
+    "durationSeconds": 551
+  },
+  {
+    "videoId": "1yisFbVok4I",
+    "title": "FAQs From Our First Year",
+    "durationSeconds": 602
+  },
+  {
+    "videoId": "mUW7t73F-lY",
+    "title": "Eons 1-Year Birthday Livestream!!!!",
+    "durationSeconds": 3567
+  },
+  {
+    "videoId": "772GiBXnWoQ",
+    "title": "How the T-Rex Lost Its Arms",
+    "durationSeconds": 461
+  },
+  {
+    "videoId": "E1h4kgt2520",
+    "title": "When Fish First Breathed Air",
+    "durationSeconds": 548
+  },
+  {
+    "videoId": "X31g5TB-MRo",
+    "title": "Where Did Viruses Come From?",
+    "durationSeconds": 494
+  },
+  {
+    "videoId": "moxu_uTemNg",
+    "title": "Why Triassic Animals Were Just the Weirdest",
+    "durationSeconds": 610
+  },
+  {
+    "videoId": "_1LdMWlNYS4",
+    "title": "That Time It Rained for Two Million Years",
+    "durationSeconds": 484
+  },
+  {
+    "videoId": "yR8cR75iKGU",
+    "title": "From the Fall of Dinos to the Rise of Humans",
+    "durationSeconds": 781
+  },
+  {
+    "videoId": "STn0CxdMIKk",
+    "title": "The Weird, Watery Tale of Spinosaurus",
+    "durationSeconds": 498
+  },
+  {
+    "videoId": "ZoHO3fAj_78",
+    "title": "The Age of Reptiles in Three Acts",
+    "durationSeconds": 667
+  },
+  {
+    "videoId": "SmeCaAwEtUI",
+    "title": "How the Chalicothere Split In Two",
+    "durationSeconds": 478
+  },
+  {
+    "videoId": "S4vxoP-IF2M",
+    "title": "How the Squid Lost Its Shell",
+    "durationSeconds": 512
+  },
+  {
+    "videoId": "1MCZrZiq9BE",
+    "title": "The Sea Monster from the Andes",
+    "durationSeconds": 427
+  },
+  {
+    "videoId": "Zdm-6P6AdcA",
+    "title": "How Ancient Art Captured Australian Megafauna",
+    "durationSeconds": 639
+  },
+  {
+    "videoId": "T2kURaqzCdA",
+    "title": "The Oddest Couple in the Fossil Record",
+    "durationSeconds": 572
+  },
+  {
+    "videoId": "-ntbeRiQ0cg",
+    "title": "How We Figured Out Fermentation",
+    "durationSeconds": 593
+  },
+  {
+    "videoId": "a-UZXBF63z4",
+    "title": "The Dinosaur Who Was Buried at Sea",
+    "durationSeconds": 765
+  },
+  {
+    "videoId": "5nCPbPPrQxQ",
+    "title": "The Biggest Frog that Ever Lived",
+    "durationSeconds": 445
+  },
+  {
+    "videoId": "OuVfYTdVuLE",
+    "title": "The Story of the Dino Stampede",
+    "durationSeconds": 684
+  },
+  {
+    "videoId": "BKDGYGV2LK8",
+    "title": "How the Walrus Got Its Tusks",
+    "durationSeconds": 497
+  },
+  {
+    "videoId": "5Ier8c9WFzE",
+    "title": "When Dinosaurs Chilled in the Arctic",
+    "durationSeconds": 598
+  },
+  {
+    "videoId": "DI6SemRT2iY",
+    "title": "The World Before Plate Tectonics",
+    "durationSeconds": 630
+  },
+  {
+    "videoId": "QsmV34Co32c",
+    "title": "When Dinosaur Look-Alikes Ruled the Earth",
+    "durationSeconds": 490
+  },
+  {
+    "videoId": "PGBf4Q2XWZo",
+    "title": "How We Identified One of Earth’s Earliest Animals",
+    "durationSeconds": 679
+  },
+  {
+    "videoId": "NHTniCvTLDY",
+    "title": "The Two Viruses That We’ve Had For Millions of Years",
+    "durationSeconds": 571
+  },
+  {
+    "videoId": "mAkjETPM1s4",
+    "title": "How Plants Caused the First Mass Extinction",
+    "durationSeconds": 630
+  },
+  {
+    "videoId": "iNk6r5WljGc",
+    "title": "How the Andes Mountains Might Have Killed a Bunch of Whales",
+    "durationSeconds": 536
+  },
+  {
+    "videoId": "QL5VCs7scbU",
+    "title": "The Risky Paleo Diets of Our Ancestors",
+    "durationSeconds": 505
+  },
+  {
+    "videoId": "6R_NAV8Ieuo",
+    "title": "When a Billion Years Disappeared",
+    "durationSeconds": 691
+  },
+  {
+    "videoId": "nDt0HKSdRRw",
+    "title": "How Dogs (Eventually) Became Our Best Friends",
+    "durationSeconds": 595
+  },
+  {
+    "videoId": "c_CCmae8Wrc",
+    "title": "How the Egg Came First",
+    "durationSeconds": 554
+  },
+  {
+    "videoId": "HMArjGQwLvY",
+    "title": "When Penguins Went From The Sky To The Sea",
+    "durationSeconds": 699
+  },
+  {
+    "videoId": "ZQP-7BPvvq0",
+    "title": "When the Sahara Was Green",
+    "durationSeconds": 515
+  },
+  {
+    "videoId": "T-hDNbM-WLk",
+    "title": "How a Hot Planet Created the World's Biggest Snake",
+    "durationSeconds": 485
+  },
+  {
+    "videoId": "sFHTA8dKceI",
+    "title": "When the Rainforests Collapsed",
+    "durationSeconds": 513
+  },
+  {
+    "videoId": "zOqy_jGFSx0",
+    "title": "A Short Tale About Diplodocus' Long Neck",
+    "durationSeconds": 606
+  },
+  {
+    "videoId": "l5doyrUWFbE",
+    "title": "How South America Made the Marsupials",
+    "durationSeconds": 611
+  },
+  {
+    "videoId": "2y_wA6GTp2Q",
+    "title": "The Giant Dinosaur That Was Missing a Body",
+    "durationSeconds": 754
+  },
+  {
+    "videoId": "h777yfE39O8",
+    "title": "The Neandertals That Taught Us About Humanity",
+    "durationSeconds": 585
+  },
+  {
+    "videoId": "HooZ84rpovQ",
+    "title": "That Time the Mediterranean Sea Disappeared",
+    "durationSeconds": 716
+  },
+  {
+    "videoId": "G2DbShys9ww",
+    "title": "The Fuzzy Origins of the Giant Panda",
+    "durationSeconds": 564
+  },
+  {
+    "videoId": "xbmLqrnxH2w",
+    "title": "The Forgotten Story of the Beardogs",
+    "durationSeconds": 598
+  },
+  {
+    "videoId": "fr0Ifw8TJVw",
+    "title": "Why Male Mammoths Lost the Game (w/ TierZoo!)",
+    "durationSeconds": 734
+  },
+  {
+    "videoId": "rK2nvNxAuk4",
+    "title": "When Giant Hypercarnivores Prowled Africa",
+    "durationSeconds": 624
+  },
+  {
+    "videoId": "CYPJzQppANo",
+    "title": "How We Domesticated Cats (Twice)",
+    "durationSeconds": 492
+  },
+  {
+    "videoId": "Do-ihwWeS3Y",
+    "title": "Were These Monsters Inspired by Fossils? (w/ Monstrum!)",
+    "durationSeconds": 791
+  },
+  {
+    "videoId": "hp123flyH8I",
+    "title": "When Hobbits Were Real",
+    "durationSeconds": 628
+  },
+  {
+    "videoId": "27Ss4CdGkDk",
+    "title": "The (Ovi)Raptor That Paleontologists Got Wrong",
+    "durationSeconds": 494
+  },
+  {
+    "videoId": "cC4WiBCoVeo",
+    "title": "When Antarctica Was Green",
+    "durationSeconds": 734
+  },
+  {
+    "videoId": "1hTJh8W0khU",
+    "title": "When Giant Lemurs Ruled Madagascar",
+    "durationSeconds": 640
+  },
+  {
+    "videoId": "r8GBXhi9A2A",
+    "title": "How Pterosaurs Got Their Wings",
+    "durationSeconds": 545
+  },
+  {
+    "videoId": "zWeYCULC0UQ",
+    "title": "When Bats Took Flight",
+    "durationSeconds": 697
+  },
+  {
+    "videoId": "d_gyJUdk-6g",
+    "title": "The Raptor That Made Us Rethink Dinosaurs",
+    "durationSeconds": 542
+  },
+  {
+    "videoId": "pwW40Dj5Sro",
+    "title": "The Missing Link That Wasn’t",
+    "durationSeconds": 617
+  },
+  {
+    "videoId": "kjBbcT533r4",
+    "title": "Was This Dinosaur a Cannibal?",
+    "durationSeconds": 671
+  },
+  {
+    "videoId": "8ZEYcbhcLsw",
+    "title": "When Giant Deer Roamed Eurasia",
+    "durationSeconds": 426
+  },
+  {
+    "videoId": "gMdv3JlPizw",
+    "title": "How Earth's First, Unkillable Animals Saved the World",
+    "durationSeconds": 639
+  },
+  {
+    "videoId": "4ONwQV26L-k",
+    "title": "How Volcanoes Froze the Earth (Twice)",
+    "durationSeconds": 659
+  },
+  {
+    "videoId": "jdYwMLSNHnU",
+    "title": "When We Met Other Human Species",
+    "durationSeconds": 809
+  },
+  {
+    "videoId": "V342aXQs9XY",
+    "title": "When Ichthyosaurs Led a Revolution in the Seas",
+    "durationSeconds": 597
+  },
+  {
+    "videoId": "w6YX8AWXrCA",
+    "title": "When the Synapsids Struck Back",
+    "durationSeconds": 655
+  },
+  {
+    "videoId": "dyiZaHIRM6w",
+    "title": "How Evolution Works (And How We Figured It Out)",
+    "durationSeconds": 730
+  },
+  {
+    "videoId": "M6_7Q7uUhmU",
+    "title": "Why We Only Have Ten Toes (It's a Long Story)",
+    "durationSeconds": 609
+  },
+  {
+    "videoId": "px9Ljv0bits",
+    "title": "How Horses Went From Food To Friends",
+    "durationSeconds": 429
+  },
+  {
+    "videoId": "IHMHPjPZIUI",
+    "title": "How Vertebrates Got Teeth... And Lost Them Again",
+    "durationSeconds": 581
+  },
+  {
+    "videoId": "MkAIZjSLey4",
+    "title": "Did Eating Insects Shrink These Dinos?",
+    "durationSeconds": 622
+  },
+  {
+    "videoId": "FbCoKIW0LGE",
+    "title": "Primates vs Snakes (An Evolutionary Arms Race)",
+    "durationSeconds": 551
+  },
+  {
+    "videoId": "4ejoVBcLP4U",
+    "title": "How Our Deadliest Parasite Turned To The Dark Side",
+    "durationSeconds": 544
+  },
+  {
+    "videoId": "esjGK-NsUJM",
+    "title": "When Pterosaurs Walked",
+    "durationSeconds": 651
+  },
+  {
+    "videoId": "T5yHHZMn8ko",
+    "title": "The 40 Million-Year-Old Ecosystem In Your Mouth",
+    "durationSeconds": 541
+  },
+  {
+    "videoId": "a6d3uHSFxkM",
+    "title": "Why The Paleo Diet Couldn't Save The Neanderthals",
+    "durationSeconds": 616
+  },
+  {
+    "videoId": "y_c1mFMdLH4",
+    "title": "When It Was Too Hot for Leaves",
+    "durationSeconds": 664
+  },
+  {
+    "videoId": "hGuquXtCMWI",
+    "title": "How Dinosaurs Coupled Up",
+    "durationSeconds": 507
+  },
+  {
+    "videoId": "1vb00-gcdtA",
+    "title": "How Ancient Whales May Have Changed the Deep Ocean",
+    "durationSeconds": 669
+  },
+  {
+    "videoId": "5v5m8A1DbNU",
+    "title": "Fossil Feud: Eons vs SciShow!",
+    "durationSeconds": 4018
+  },
+  {
+    "videoId": "JqZONKXWPfw",
+    "title": "When Mammals Only Went Out At Night",
+    "durationSeconds": 714
+  },
+  {
+    "videoId": "Stv-a96foIE",
+    "title": "How a Mass Extinction Event Created the Amazon",
+    "durationSeconds": 524
+  },
+  {
+    "videoId": "AWUTlVxOsIw",
+    "title": "How a Supervolcano Ignited an Evolutionary Debate",
+    "durationSeconds": 645
+  },
+  {
+    "videoId": "KIG5ucZJtYU",
+    "title": "How Pollination Got Going Twice",
+    "durationSeconds": 616
+  },
+  {
+    "videoId": "XKtynjNTfa4",
+    "title": "The Creature That Stumped Darwin",
+    "durationSeconds": 481
+  },
+  {
+    "videoId": "5GdkQJN1XZs",
+    "title": "How the Starfish Got Its Arms",
+    "durationSeconds": 736
+  },
+  {
+    "videoId": "YXe9IHVX17U",
+    "title": "Where Are All the Medium-Sized Dinosaurs?",
+    "durationSeconds": 700
+  },
+  {
+    "videoId": "vCad77_c-LU",
+    "title": "The Island of the Last Surviving Mammoths",
+    "durationSeconds": 526
+  },
+  {
+    "videoId": "R7IaRQPJHf4",
+    "title": "The Traits That Spawned the Age of Mammals",
+    "durationSeconds": 508
+  },
+  {
+    "videoId": "au4klKI9rG4",
+    "title": "Did These Giant Sloths Poop Themselves to Death?",
+    "durationSeconds": 661
+  },
+  {
+    "videoId": "pL-K7yuhSxA",
+    "title": "Where Are All The Squid Fossils?",
+    "durationSeconds": 502
+  },
+  {
+    "videoId": "n8xL5OoKhcA",
+    "title": "How Weasels Got Skinny",
+    "durationSeconds": 594
+  },
+  {
+    "videoId": "UrwMUQbUR30",
+    "title": "When Trees Took Over the World",
+    "durationSeconds": 492
+  },
+  {
+    "videoId": "vgqs_9BBX10",
+    "title": "When Crocs Thrived in the Seas",
+    "durationSeconds": 607
+  },
+  {
+    "videoId": "P-YLTbm2GNQ",
+    "title": "How To Survive the Little Ice Age",
+    "durationSeconds": 682
+  },
+  {
+    "videoId": "MGob6ceaL_k",
+    "title": "How Chilis Got Spicy (and Why We Love the Burn)",
+    "durationSeconds": 615
+  },
+  {
+    "videoId": "vb11oOHYNXM",
+    "title": "How Humans Became (Mostly) Right-Handed",
+    "durationSeconds": 600
+  },
+  {
+    "videoId": "getaQoYBD28",
+    "title": "How Worm Holes Ended Wormworld",
+    "durationSeconds": 624
+  },
+  {
+    "videoId": "iQ35RkR5Pak",
+    "title": "Our Bizarre, Possibly Venomous, Relative",
+    "durationSeconds": 539
+  },
+  {
+    "videoId": "6Vc2bM2aQsw",
+    "title": "The Genes We Lost Along the Way",
+    "durationSeconds": 768
+  },
+  {
+    "videoId": "Tmb8XCwb3FI",
+    "title": "The Return of Giant Skin-Shell Sea Turtles",
+    "durationSeconds": 467
+  },
+  {
+    "videoId": "eCW0zyDGuXc",
+    "title": "When We First Talked",
+    "durationSeconds": 720
+  },
+  {
+    "videoId": "-M3L_Kykl6w",
+    "title": "The Pandemic That Lasted 15 Million Years",
+    "durationSeconds": 607
+  },
+  {
+    "videoId": "eQPAH9KuxhY",
+    "title": "The Reign of the Hell Ants",
+    "durationSeconds": 663
+  },
+  {
+    "videoId": "9OsdtkxZWPk",
+    "title": "The Bear-Sized Beaver That Couldn’t Build A Dam",
+    "durationSeconds": 520
+  },
+  {
+    "videoId": "-8W26SiCylI",
+    "title": "The Triassic Reptile With \"Two Faces\"",
+    "durationSeconds": 663
+  },
+  {
+    "videoId": "95u2sk_lRoQ",
+    "title": "When the Earth Suddenly Stopped Warming",
+    "durationSeconds": 661
+  },
+  {
+    "videoId": "peeX3PKOE_w",
+    "title": "When Lizards Took Over the World",
+    "durationSeconds": 575
+  },
+  {
+    "videoId": "E76vqlhmBlc",
+    "title": "How Humans Lost Their Fur",
+    "durationSeconds": 741
+  },
+  {
+    "videoId": "SDk1Ft50bsI",
+    "title": "The Rise and Fall of the Tallest Mammal to Walk the Earth",
+    "durationSeconds": 516
+  },
+  {
+    "videoId": "G0oKBPZODhM",
+    "title": "How Plankton Created A Bizarre Giant of the Seas",
+    "durationSeconds": 606
+  },
+  {
+    "videoId": "wvfR3XLXPvw",
+    "title": "Why Do Things Keep Evolving Into Crabs?",
+    "durationSeconds": 448
+  },
+  {
+    "videoId": "hW6XW1YgAlU",
+    "title": "National Fossil Day Livestream!",
+    "durationSeconds": 3563
+  },
+  {
+    "videoId": "lRt-4SdzWrk",
+    "title": "How Ankylosaurs Got Their Clubs",
+    "durationSeconds": 571
+  },
+  {
+    "videoId": "aGJ7tg0ifmo",
+    "title": "How Plants Became Carnivores",
+    "durationSeconds": 673
+  },
+  {
+    "videoId": "WNL9Jp9oeYA",
+    "title": "What Happened To Primates In North America?",
+    "durationSeconds": 596
+  },
+  {
+    "videoId": "zwJwAstYV2w",
+    "title": "Why Did These Ancient Gophers Have Horns?",
+    "durationSeconds": 552
+  },
+  {
+    "videoId": "mXlyKwpLbSw",
+    "title": "Cordyceps Turned These Ants Into Zombies",
+    "durationSeconds": 562
+  },
+  {
+    "videoId": "ITEMAKa4-lc",
+    "title": "How Whale Evolution Kind Of Sucked",
+    "durationSeconds": 656
+  },
+  {
+    "videoId": "KT44K_MRyQc",
+    "title": "Did An Ancient Pathogen Reshape Our Cells?",
+    "durationSeconds": 525
+  },
+  {
+    "videoId": "PzshAqowsyI",
+    "title": "Why Does Caffeine Exist?",
+    "durationSeconds": 642
+  },
+  {
+    "videoId": "xZ4twDqSNaY",
+    "title": "How Plate Tectonics Transformed Los Angeles",
+    "durationSeconds": 854
+  },
+  {
+    "videoId": "tI6F57s78cI",
+    "title": "When Giant Millipedes Reigned",
+    "durationSeconds": 472
+  },
+  {
+    "videoId": "TOoOox0v4Q0",
+    "title": "This new giant bacterium is visible to the naked eye #shorts",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "EJvxOO2WVzg",
+    "title": "Giant Viruses Blur The Line Between Alive and Not",
+    "durationSeconds": 601
+  },
+  {
+    "videoId": "Pz1fccY3S84",
+    "title": "Something Has Been Making This Mark For 500 Million Years",
+    "durationSeconds": 649
+  },
+  {
+    "videoId": "W1GAQLKXZj8",
+    "title": "We Can “Bring Back” The Woolly Mammoth. Should We?",
+    "durationSeconds": 487
+  },
+  {
+    "videoId": "TA-tikaW7ko",
+    "title": "What came first, the sabertooth or the cat? #shorts",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "i2hWidDglOw",
+    "title": "What is the most successful human species? #shorts",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "pFtKOJj34SM",
+    "title": "Is This The Oldest Dad In The Fossil Record?",
+    "durationSeconds": 461
+  },
+  {
+    "videoId": "Jfgvm4iU1cU",
+    "title": "The Curious Case of the Cave Lion",
+    "durationSeconds": 524
+  },
+  {
+    "videoId": "-XuPtW8lBCM",
+    "title": "When Ants Domesticated Fungi",
+    "durationSeconds": 586
+  },
+  {
+    "videoId": "0x8W8IW2K9w",
+    "title": "Why don’t rabbits get really, really big? #shorts",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "Y20pXB20Mog",
+    "title": "The Ancient Human Species With A Missing Body",
+    "durationSeconds": 588
+  },
+  {
+    "videoId": "XXgd_cNZSvk",
+    "title": "Why Sour May Be The Oldest Taste",
+    "durationSeconds": 480
+  },
+  {
+    "videoId": "GKh8g44UnAc",
+    "title": "How the Smallest Animal Got So Simple",
+    "durationSeconds": 491
+  },
+  {
+    "videoId": "EQWAOOijhcg",
+    "title": "An ancient insect trapped in amber has a parasitic mushroom erupting out of it? #shorts",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "_w7zF5T109c",
+    "title": "After this bird went extinct the first time, evolution just hit replay #shorts",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "AZ0zjeHJCqE",
+    "title": "The Tasmanian tiger is definitely extinct. So why do people keep report sightings of them? #shorts",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "RhvHvPSNG1c",
+    "title": "The Sudden Rise of the First Colossal Animal",
+    "durationSeconds": 579
+  },
+  {
+    "videoId": "neaIrn2xYSM",
+    "title": "When a Giant Pterosaur Ruled the European Islands",
+    "durationSeconds": 599
+  },
+  {
+    "videoId": "v-z8HW0pU4E",
+    "title": "We decoded Steller's sea cow's genome #shorts",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "aTOqop7yO08",
+    "title": "This is the oldest known case of cannibalism in the fossil record #shorts",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "plYuvU2VZkE",
+    "title": "These Creatures Were Darwin's Greatest Enemy",
+    "durationSeconds": 690
+  },
+  {
+    "videoId": "ykg4MOo8c1A",
+    "title": "Cane toads have evolved to be their own predators #shorts",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "6B4XEmFZ3M4",
+    "title": "The Extinct Human Species Found In Remote Cave Chambers",
+    "durationSeconds": 1278
+  },
+  {
+    "videoId": "vkubJiGVRfs",
+    "title": "Did this saber-toothed cat hunt mammoths? #shorts",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "vqTlMsWV-QM",
+    "title": "How Did Our Most Famous Ancestor Really Die?",
+    "durationSeconds": 515
+  },
+  {
+    "videoId": "8EhIaV_i5vg",
+    "title": "When The \"Combat Wombat\" Became An Apex Predator",
+    "durationSeconds": 692
+  },
+  {
+    "videoId": "VdfKh5NSk6Y",
+    "title": "The Unsolved Case of a Fake Human Fossil",
+    "durationSeconds": 1135
+  },
+  {
+    "videoId": "J2FatwFjc-8",
+    "title": "There’s Something Weird About Neandertal DNA And It Might Be Our Fault",
+    "durationSeconds": 507
+  },
+  {
+    "videoId": "ayNPaPkyFJc",
+    "title": "Scientists watched 70,000 generations of bacteria growth and saw evolution in action #shorts",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "XqYel-A29dc",
+    "title": "How Plate Tectonics Gave Us Seahorses",
+    "durationSeconds": 511
+  },
+  {
+    "videoId": "iUmAHytN1so",
+    "title": "Would you eat mummified bison that died 36,000 years ago? #shorts",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "7LdmcFoYQtU",
+    "title": "Are We All Actually Archaea?",
+    "durationSeconds": 591
+  },
+  {
+    "videoId": "HdAb8J2pjtw",
+    "title": "A fossil rhino preserved in lava #shorts",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "xCG0e4r_Tj4",
+    "title": "Darwin Missed An Example of Evolution Right Under His Nose",
+    "durationSeconds": 630
+  },
+  {
+    "videoId": "x9BC1UxcFLU",
+    "title": "Eons Live: An Epoch Livestream",
+    "durationSeconds": 14402
+  },
+  {
+    "videoId": "Ke0BjyO41Qg",
+    "title": "Our Ancient Relative That Said 'No Thanks' To Land",
+    "durationSeconds": 596
+  },
+  {
+    "videoId": "AUAEBjlROWQ",
+    "title": "Where Did Water Come From?",
+    "durationSeconds": 729
+  },
+  {
+    "videoId": "MrWyOcnFJCs",
+    "title": "Our extinct relative was an ancient leopard’s lunch #shorts",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "PMKptjhffrM",
+    "title": "The Only Human Found in the La Brea Tar Pits",
+    "durationSeconds": 958
+  },
+  {
+    "videoId": "M-DtaPHH40U",
+    "title": "Did this animal poop cubes? Giant cubes? #shorts",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "-yMIbNADgL4",
+    "title": "Octopuses are revealing secrets about the ancient Antarctic climate #science #antarctica",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "70Qi4Nk3aJc",
+    "title": "A Natural History of Mars",
+    "durationSeconds": 747
+  },
+  {
+    "videoId": "QTK_bC00ilg",
+    "title": "The Invisible Barrier Keeping Two Worlds Apart",
+    "durationSeconds": 565
+  },
+  {
+    "videoId": "HxA38gH8Gj4",
+    "title": "It's Becoming Very Clear That Birds Are Not Normal",
+    "durationSeconds": 655
+  },
+  {
+    "videoId": "o4LDnY-AxHo",
+    "title": "Could you outrun a T. rex??? #science #dinosaur",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "4XmFUWdgKWk",
+    "title": "How (Some) Plants Survived The K-Pg Extinction",
+    "durationSeconds": 594
+  },
+  {
+    "videoId": "w18eRnwqg_8",
+    "title": "Some state fossils are just better than others #science #fossils #states",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "Juci-kAqjes",
+    "title": "The Real Story Of The Dodo Bird's (Current) Extinction",
+    "durationSeconds": 532
+  },
+  {
+    "videoId": "3vQ55ToQeWI",
+    "title": "Nautiloids Thrived For 500 Million Years Until These Guys Showed Up",
+    "durationSeconds": 663
+  },
+  {
+    "videoId": "lk9rb-rvn_k",
+    "title": "How would you hunt a giant armadillo built like a tank?",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "yxCvues05iA",
+    "title": "Why doesn't Australia have an apex predator? #science #australia #evolution #pbseons",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "dVcneOQirfA",
+    "title": "Our “Junk DNA” Is More Important Than We Once Thought",
+    "durationSeconds": 685
+  },
+  {
+    "videoId": "p1OwZxXH49Q",
+    "title": "That Time the American West Blew Up",
+    "durationSeconds": 675
+  },
+  {
+    "videoId": "0TgKW-dj-wo",
+    "title": "Scientists watched a single-celled organism become multicellular #pbseons #science #evolution",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "zM340uHnOrU",
+    "title": "How a Mass Extinction Changed Our Brains",
+    "durationSeconds": 777
+  },
+  {
+    "videoId": "_iJTzwS3Ktk",
+    "title": "We’re missing the original Neandertal Y chromosome #pbseons #science #evolution",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "RsqcKgyctYU",
+    "title": "The Mystery Of The Mashed-Up Dinosaurs",
+    "durationSeconds": 524
+  },
+  {
+    "videoId": "CMm_gKW8yzc",
+    "title": "A dangerous \"paleo diet\" may have caused a terrible death #shorts #science #humanevolution",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "ipkBmbi6k5c",
+    "title": "These Fossils Were Supposed To Be Impossible",
+    "durationSeconds": 637
+  },
+  {
+    "videoId": "PE2Q4pvOveU",
+    "title": "The Neandertal Burial That Taught Us About Humanity",
+    "durationSeconds": 617
+  },
+  {
+    "videoId": "JfX06NINZpk",
+    "title": "When Ancient People Changed Their Own DNA",
+    "durationSeconds": 669
+  },
+  {
+    "videoId": "07fd4fmgwQA",
+    "title": "Why Is It So Hard to Tell the Sex of a Dinosaur?",
+    "durationSeconds": 837
+  },
+  {
+    "videoId": "uMItdDUYAeA",
+    "title": "Animals Might Be Much Older Than We Thought",
+    "durationSeconds": 853
+  },
+  {
+    "videoId": "HE2MmAGUgnw",
+    "title": "Our Most Mysterious Extinct Cousins",
+    "durationSeconds": 741
+  },
+  {
+    "videoId": "NOwbjOJjvjE",
+    "title": "How Ancient Microbes Rode Bug Bits Out to Sea",
+    "durationSeconds": 648
+  },
+  {
+    "videoId": "_GLb0s-FfZU",
+    "title": "Why Only Earth Has Fire",
+    "durationSeconds": 792
+  },
+  {
+    "videoId": "viTE77xIji0",
+    "title": "Beans And Bees Gave Us Butterflies",
+    "durationSeconds": 526
+  },
+  {
+    "videoId": "CleBC18qoyA",
+    "title": "The Huge Extinctions We Are Just Now Discovering",
+    "durationSeconds": 643
+  },
+  {
+    "videoId": "opg6RO9cYnk",
+    "title": "When Did We Stop Being Naked?",
+    "durationSeconds": 647
+  },
+  {
+    "videoId": "bv9tUYcHz-0",
+    "title": "Snake Detection Hypothesis",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "uM51_Vui9tA",
+    "title": "Do Thunderbeasts Prove Giant Animals Are Inevitable?",
+    "durationSeconds": 595
+  },
+  {
+    "videoId": "bG3Kqzj-mSw",
+    "title": "National Fossil Day: The Wheel of Deep Time",
+    "durationSeconds": 3745
+  },
+  {
+    "videoId": "Wp8ux8Xlj48",
+    "title": "You're Living On An Ant Planet",
+    "durationSeconds": 677
+  },
+  {
+    "videoId": "PNGs-CLgBfk",
+    "title": "That Time The Ocean Lost (Almost) All Its Oxygen",
+    "durationSeconds": 694
+  },
+  {
+    "videoId": "EkSXhuoX8RE",
+    "title": "How did humans become (mostly) right-handed?",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "H5XVxKNzhjQ",
+    "title": "Did a Tsunami Swallow Part of Europe?",
+    "durationSeconds": 592
+  },
+  {
+    "videoId": "DZWeuAW-oC0",
+    "title": "Barnacles were Charles Darwin’s nemesis.",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "aYH-KYdgXag",
+    "title": "We Helped Make Mosquitoes A Problem",
+    "durationSeconds": 588
+  },
+  {
+    "videoId": "huEbyMuqBkg",
+    "title": "Who wins in the fight between giant elephants and Neandertals?",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "ng1hVUozyuQ",
+    "title": "Why The Giraffe Got Its Neck",
+    "durationSeconds": 639
+  },
+  {
+    "videoId": "JWXWlAZfltc",
+    "title": "Trilobites used their tridents to fight for love #science",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "1U_xJ1-NTEc",
+    "title": "Sponge World",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "y4ouRg_RbVY",
+    "title": "Did Asteroids Spark Life?",
+    "durationSeconds": 728
+  },
+  {
+    "videoId": "b-i2_RbpRF8",
+    "title": "Could You Survive On Hateg Island?",
+    "durationSeconds": 3259
+  },
+  {
+    "videoId": "VdAnC73MH_g",
+    "title": "When Neandertals Became Apex Predators",
+    "durationSeconds": 827
+  },
+  {
+    "videoId": "ILiHyDh2qBw",
+    "title": "Could You Survive The End-Triassic?",
+    "durationSeconds": 3304
+  },
+  {
+    "videoId": "ul8UhpNzFcM",
+    "title": "When the Amazon Flowed Backwards",
+    "durationSeconds": 742
+  },
+  {
+    "videoId": "ovLCVK9zgNU",
+    "title": "Could You Survive The Great Dying?",
+    "durationSeconds": 3342
+  },
+  {
+    "videoId": "re1RKgaVhdw",
+    "title": "How Animals Got Butts",
+    "durationSeconds": 859
+  },
+  {
+    "videoId": "8x0eUMCBbxk",
+    "title": "Could You Survive The Carboniferous Period?",
+    "durationSeconds": 3264
+  },
+  {
+    "videoId": "sWGYZDiHoXY",
+    "title": "What Happened To The Other Mesozoic Mammals?",
+    "durationSeconds": 841
+  },
+  {
+    "videoId": "NbsdDga5gtw",
+    "title": "Could You Survive The Ordovician Period?",
+    "durationSeconds": 3046
+  },
+  {
+    "videoId": "0NcEmUbxnDk",
+    "title": "The Dinosaurs That Evolution Forgot",
+    "durationSeconds": 661
+  },
+  {
+    "videoId": "EdTbWBybnmo",
+    "title": "Could You Survive The Cambrian Explosion?",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "ZiqpnhwJsaw",
+    "title": "Could You Survive The Cambrian Explosion?",
+    "durationSeconds": 2631
+  },
+  {
+    "videoId": "Mto0ih2pvC8",
+    "title": "How the Himalayas Changed the World",
+    "durationSeconds": 691
+  },
+  {
+    "videoId": "JPbS2qnmev0",
+    "title": "Could You Survive The Devonian Period? (with Hank Green!)",
+    "durationSeconds": 3311
+  },
+  {
+    "videoId": "U9q1qglCV-E",
+    "title": "Introducing “Eons: Surviving Deep Time\"",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "XMjLwmgipsA",
+    "title": "When Earth \"Ate\" A Planet",
+    "durationSeconds": 774
+  },
+  {
+    "videoId": "RBE5OC35eHo",
+    "title": "Did ancient people in South America keep foxes as pets?",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "B9B7kPJ1i0M",
+    "title": "How The Elephant Got Its Trunk",
+    "durationSeconds": 807
+  },
+  {
+    "videoId": "lusWU9zCRj0",
+    "title": "What Was The First Beverage?",
+    "durationSeconds": 805
+  },
+  {
+    "videoId": "5T8n20hD5W0",
+    "title": "The Mystery of South America's False Horses",
+    "durationSeconds": 703
+  },
+  {
+    "videoId": "A7sLvqywfJE",
+    "title": "Why do these dinosaurs look like ‘terrible lizards’?",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "vMehbbPpIL4",
+    "title": "When India Was An Island",
+    "durationSeconds": 758
+  },
+  {
+    "videoId": "NzOPAoRWOLg",
+    "title": "When The Atlantic Ripped Open A Supercontinent",
+    "durationSeconds": 733
+  },
+  {
+    "videoId": "geU1xBaxFGw",
+    "title": "The Second Time Sponges Took Over The World",
+    "durationSeconds": 624
+  },
+  {
+    "videoId": "WqcoMOxGWfs",
+    "title": "There's No Single Cradle of Humankind",
+    "durationSeconds": 747
+  },
+  {
+    "videoId": "ZJqmyLCfA-I",
+    "title": "The Hazy Evolution of Cannabis",
+    "durationSeconds": 737
+  },
+  {
+    "videoId": "1WngoLbf0po",
+    "title": "What Will Earth Be Like 300 Million Years From Now?",
+    "durationSeconds": 716
+  },
+  {
+    "videoId": "kauDsIeIMxs",
+    "title": "How Long Have We Been Caring For Each Other?",
+    "durationSeconds": 579
+  },
+  {
+    "videoId": "_zGy_tr_tY4",
+    "title": "How Snake Venom Sparked An Evolutionary Arms Race",
+    "durationSeconds": 694
+  },
+  {
+    "videoId": "OpTA-kEhbJM",
+    "title": "We’ve been wrong this whole time about where to look for the earliest dinosaurs",
+    "durationSeconds": 64
+  },
+  {
+    "videoId": "ATxQnJc_VIs",
+    "title": "The Dinosaurs Too Big To Be Dinosaurs",
+    "durationSeconds": 850
+  },
+  {
+    "videoId": "XmgilWef0Sc",
+    "title": "Is this extinct goat the GOAT?",
+    "durationSeconds": 70
+  },
+  {
+    "videoId": "hEkbSV8aYrs",
+    "title": "Darwin's Unexpected Final Obsession",
+    "durationSeconds": 815
+  },
+  {
+    "videoId": "zzbH-rlmP-I",
+    "title": "Neandertals: the ultimate ancient introverts?",
+    "durationSeconds": 73
+  },
+  {
+    "videoId": "BMJJoAtvHiY",
+    "title": "There's An Invisible Ocean Between These Fossils",
+    "durationSeconds": 832
+  },
+  {
+    "videoId": "krBreJC8E4M",
+    "title": "We found the head of the biggest bug ever",
+    "durationSeconds": 70
+  },
+  {
+    "videoId": "NNF6zoWwtgc",
+    "title": "Could This Sperm Whale Eat The Meg?",
+    "durationSeconds": 611
+  },
+  {
+    "videoId": "wMkvP0i4lbI",
+    "title": "Did these ancient humans just miss each other?",
+    "durationSeconds": 64
+  },
+  {
+    "videoId": "knh8skpSQLs",
+    "title": "How a Sinkhole Revealed a Lost World",
+    "durationSeconds": 651
+  },
+  {
+    "videoId": "RL8GK_D4Bgo",
+    "title": "Where did the dinosaur-killing asteroid come from?",
+    "durationSeconds": 63
+  },
+  {
+    "videoId": "V731Q2_4kwQ",
+    "title": "Eons Patreon Appreciation Livestream with Michelle, Blake, Kallie, and Gabriel!",
+    "durationSeconds": 3711
+  },
+  {
+    "videoId": "x4B2Sqrd5yg",
+    "title": "Ancient birds may have been smart, but clumsy",
+    "durationSeconds": 76
+  },
+  {
+    "videoId": "1ei9ZJ15Bj4",
+    "title": "The Arms Race That Made Insects Take Flight",
+    "durationSeconds": 630
+  },
+  {
+    "videoId": "OyBa6rguH5M",
+    "title": "What makes the Anthropocene so special?",
+    "durationSeconds": 65
+  },
+  {
+    "videoId": "pUYfZaSNdMQ",
+    "title": "A reason for optimism in the Anthropocene? (with John Green)",
+    "durationSeconds": 93
+  },
+  {
+    "videoId": "74VvCEtMPcc",
+    "title": "Will We Survive The Future? (with John Green)",
+    "durationSeconds": 4351
+  },
+  {
+    "videoId": "dhXQIS83aQ8",
+    "title": "When Earth Had a Ring",
+    "durationSeconds": 61
+  },
+  {
+    "videoId": "din1J2mZmc4",
+    "title": "The Graveyard at the Center of the Earth",
+    "durationSeconds": 911
+  },
+  {
+    "videoId": "re0EZfNVtV0",
+    "title": "What Would the Carboniferous Smell Like?",
+    "durationSeconds": 94
+  },
+  {
+    "videoId": "5JbPtVh5Uhk",
+    "title": "What Niche Do Humans Occupy? (Mailbag Episode!)",
+    "durationSeconds": 3177
+  },
+  {
+    "videoId": "EPXbSx17030",
+    "title": "Why Wasn't There A Second Age of Reptiles?",
+    "durationSeconds": 665
+  },
+  {
+    "videoId": "BgvtbqvkXMc",
+    "title": "How Would You Make Friends with Homo erectus?",
+    "durationSeconds": 90
+  },
+  {
+    "videoId": "c4E6chPj-IQ",
+    "title": "Could You Survive Living With Other Hominin Species?",
+    "durationSeconds": 4319
+  },
+  {
+    "videoId": "cGe4GxuAtqE",
+    "title": "If a frozen Ice Age puppy is a pupsicle, is a frozen kitten a cubsicle?",
+    "durationSeconds": 67
+  },
+  {
+    "videoId": "C6koLzdSves",
+    "title": "How Mountains Make Evolution Weird",
+    "durationSeconds": 661
+  },
+  {
+    "videoId": "zw1ZPjdNAtc",
+    "title": "Surviving the K-Pg Extinction with...dinosaur meat?",
+    "durationSeconds": 91
+  },
+  {
+    "videoId": "lo2Wi3zQ9Yw",
+    "title": "The Great Gerbil Herd",
+    "durationSeconds": 100
+  },
+  {
+    "videoId": "CDB0m0hO8qk",
+    "title": "Could You Survive The Messinian Salinity Crisis?",
+    "durationSeconds": 3829
+  },
+  {
+    "videoId": "vSchvm7lLOw",
+    "title": "Were Neandertals morning people?",
+    "durationSeconds": 60
+  },
+  {
+    "videoId": "HDNFIfeM1uU",
+    "title": "The Mystery of the Cretaceous Pompeii",
+    "durationSeconds": 708
+  },
+  {
+    "videoId": "wiYzLexX8co",
+    "title": "Could You Survive The K-Pg Extinction?",
+    "durationSeconds": 3544
+  },
+  {
     "videoId": "nenGFeocPvU",
-    "durationSeconds": 81,
-    "title": "Why the Permian Matters"
+    "title": "Why the Permian Matters",
+    "durationSeconds": 81
   },
   {
     "videoId": "GhUuOxrCato",
-    "durationSeconds": 81,
-    "title": "I Was A Museum Kid"
+    "title": "I Was A Museum Kid",
+    "durationSeconds": 81
   },
   {
     "videoId": "sIupXhjet0s",
-    "durationSeconds": 763,
-    "title": "Did the Ozone Collapse 252 Million Years Ago?"
+    "title": "Did the Ozone Collapse 252 Million Years Ago?",
+    "durationSeconds": 763
   },
   {
     "videoId": "Jyl-ibCyG8U",
-    "durationSeconds": 63,
-    "title": "We found survivors of the world's greatest extinction off the side of a road."
+    "title": "We found survivors of the world's greatest extinction off the side of a road.",
+    "durationSeconds": 63
   },
   {
     "videoId": "LTmu2q9Azp0",
-    "durationSeconds": 81,
-    "title": "This Mountain Is A Reef"
+    "title": "This Mountain Is A Reef",
+    "durationSeconds": 81
   },
   {
     "videoId": "IXU43nvmDkE",
-    "durationSeconds": 571,
-    "title": "Why Were Sails So Popular 300 Million Years Ago"
+    "title": "Why Were Sails So Popular 300 Million Years Ago",
+    "durationSeconds": 571
   },
   {
     "videoId": "Cmqn-LPxWGM",
-    "durationSeconds": 81,
-    "title": "It was a giant predatory amphibian"
+    "title": "It was a giant predatory amphibian",
+    "durationSeconds": 81
   },
   {
     "videoId": "yN4Ck8CSdWU",
-    "durationSeconds": 731,
-    "title": "What Drove Life Into The Trees?"
+    "title": "What Drove Life Into The Trees?",
+    "durationSeconds": 731
   },
   {
     "videoId": "fXMiQ-Sxt_8",
-    "durationSeconds": 69,
-    "title": "They were the first vertebrates to go airborne"
+    "title": "They were the first vertebrates to go airborne",
+    "durationSeconds": 69
   },
   {
     "videoId": "uwkeAS3UzB0",
-    "durationSeconds": 663,
-    "title": "When Earth Was a Toxic Wasteland"
+    "title": "When Earth Was a Toxic Wasteland",
+    "durationSeconds": 663
   },
   {
     "videoId": "Zgji8L3Nt-A",
-    "durationSeconds": 68,
-    "title": "This weird little guy was the Permian’s version of a monkey"
+    "title": "This weird little guy was the Permian’s version of a monkey",
+    "durationSeconds": 68
   },
   {
     "videoId": "Kcmfe7vIXMU",
-    "durationSeconds": 3965,
-    "title": "Watch Party and Q&A: Life and Death on Pangea Episode 2"
+    "title": "Watch Party and Q&A: Life and Death on Pangea Episode 2",
+    "durationSeconds": 3965
   },
   {
     "videoId": "RY8mipBWjyw",
-    "durationSeconds": 1597,
-    "title": "When Mammals and Reptiles Split"
+    "title": "When Mammals and Reptiles Split",
+    "durationSeconds": 1597
   },
   {
     "videoId": "vWriRbTp4bA",
-    "durationSeconds": 229,
-    "title": "We Made a TV Show About The Permian Period"
+    "title": "We Made a TV Show About The Permian Period",
+    "durationSeconds": 229
   },
   {
     "videoId": "YTSTwqbDrRc",
-    "durationSeconds": 64,
-    "title": "How Did Life Survive Snowball Earth?"
+    "title": "How Did Life Survive Snowball Earth?",
+    "durationSeconds": 64
   },
   {
     "videoId": "Zfv8b4R9GuI",
-    "durationSeconds": 614,
-    "title": "How the Tibetan Plateau Created the Ultimate Cat"
+    "title": "How the Tibetan Plateau Created the Ultimate Cat",
+    "durationSeconds": 614
   },
   {
     "videoId": "V8gb2QZIEMU",
-    "durationSeconds": 62,
-    "title": "The potato’s origin was a mystery…until now"
+    "title": "The potato’s origin was a mystery…until now",
+    "durationSeconds": 62
   },
   {
     "videoId": "3v0YvYIAkUc",
-    "durationSeconds": 689,
-    "title": "The Terrifying Reason Flightless Dinosaurs Grew Feathers"
+    "title": "The Terrifying Reason Flightless Dinosaurs Grew Feathers",
+    "durationSeconds": 689
   },
   {
     "videoId": "Cjrt7qlGhl8",
-    "durationSeconds": 768,
-    "title": "Humanity Has Amnesia About Giant Sloths"
+    "title": "Humanity Has Amnesia About Giant Sloths",
+    "durationSeconds": 768
   },
   {
     "videoId": "ccPYvXx6NMw",
-    "durationSeconds": 583,
-    "title": "The Second-to-Last Mammoths Ever"
+    "title": "The Second-to-Last Mammoths Ever",
+    "durationSeconds": 583
   },
   {
     "videoId": "7URrwAIHkLY",
-    "durationSeconds": 67,
-    "title": "This giant ancient sea monster may have been a stealth predator"
+    "title": "This giant ancient sea monster may have been a stealth predator",
+    "durationSeconds": 67
   },
   {
     "videoId": "-ellvM_GPWI",
-    "durationSeconds": 652,
-    "title": "The Mystery of the Missing Deep-Sea Fish"
+    "title": "The Mystery of the Missing Deep-Sea Fish",
+    "durationSeconds": 652
   },
   {
     "videoId": "JWOErbTL9N4",
-    "durationSeconds": 571,
-    "title": "How Dinosaurs May Have Cursed Us With Aging"
+    "title": "How Dinosaurs May Have Cursed Us With Aging",
+    "durationSeconds": 571
   },
   {
     "videoId": "PUDvZYXxMuQ",
-    "durationSeconds": 651,
-    "title": "When the Earth Had Supermountains"
+    "title": "When the Earth Had Supermountains",
+    "durationSeconds": 651
   },
   {
     "videoId": "SFC-XW4j1ek",
-    "durationSeconds": 828,
-    "title": "Does T. rex Have The Wrong Name?"
+    "title": "Does T. rex Have The Wrong Name?",
+    "durationSeconds": 828
   },
   {
     "videoId": "0ZY4-T1ix3g",
-    "durationSeconds": 68,
-    "title": "High Mammals Smell Worse"
+    "title": "High Mammals Smell Worse",
+    "durationSeconds": 68
   },
   {
     "videoId": "wiBgx05-JJs",
-    "durationSeconds": 724,
-    "title": "The Lagoon That Puzzled Paleontologists for 250 Years"
+    "title": "The Lagoon That Puzzled Paleontologists for 250 Years",
+    "durationSeconds": 724
   },
   {
     "videoId": "miPIUijJHdo",
-    "durationSeconds": 727,
-    "title": "Your Teeth Went From the Outside In"
+    "title": "Your Teeth Went From the Outside In",
+    "durationSeconds": 727
   },
   {
     "videoId": "mtctulFL1wo",
-    "durationSeconds": 733,
-    "title": "130 Million Years Ago, the World Caught Fire"
+    "title": "130 Million Years Ago, the World Caught Fire",
+    "durationSeconds": 733
   },
   {
     "videoId": "HxpkOym11pw",
-    "durationSeconds": 807,
-    "title": "When Ancient Weeds Fooled Us"
+    "title": "When Ancient Weeds Fooled Us",
+    "durationSeconds": 807
   },
   {
     "videoId": "a9MQbo5CvwM",
-    "durationSeconds": 62,
-    "title": "Ancient human found!"
+    "title": "Ancient human found!",
+    "durationSeconds": 62
   },
   {
     "videoId": "mbG8-ejz-WE",
-    "durationSeconds": 799,
-    "title": "How Brawn Led to Brains"
+    "title": "How Brawn Led to Brains",
+    "durationSeconds": 799
   },
   {
     "videoId": "s7Kp9Mw7w_w",
-    "durationSeconds": 760,
-    "title": "When a Tiny Land Bridge Triggered an Ice Age"
+    "title": "When a Tiny Land Bridge Triggered an Ice Age",
+    "durationSeconds": 760
   },
   {
     "videoId": "H2MsPY-Dibc",
-    "durationSeconds": 60,
-    "title": "We Found T-Rex's Lost Ancestor!"
+    "title": "We Found T-Rex's Lost Ancestor!",
+    "durationSeconds": 60
   },
   {
     "videoId": "mfVPfMpC_60",
-    "durationSeconds": 667,
-    "title": "What Was Greenland Like When it Was Green"
+    "title": "What Was Greenland Like When it Was Green",
+    "durationSeconds": 667
   },
   {
     "videoId": "MoPEyQrChdg",
-    "durationSeconds": 686,
-    "title": "How Chewing May Have Beat Extinction"
+    "title": "How Chewing May Have Beat Extinction",
+    "durationSeconds": 686
   },
   {
     "videoId": "dQD9Rw288_E",
-    "durationSeconds": 66,
-    "title": "Mesozoic Mammals Were Drab"
+    "title": "Mesozoic Mammals Were Drab",
+    "durationSeconds": 66
   },
   {
     "videoId": "TJY5vWXZHgI",
-    "durationSeconds": 760,
-    "title": "How We Figured Out an Asteroid Killed the Dinosaurs"
+    "title": "How We Figured Out an Asteroid Killed the Dinosaurs",
+    "durationSeconds": 760
   },
   {
     "videoId": "IvM0ZMODYAQ",
-    "durationSeconds": 61,
-    "title": "We got echidna evolution backwards"
+    "title": "We got echidna evolution backwards",
+    "durationSeconds": 61
   },
   {
     "videoId": "0VpPY0qGbdA",
-    "durationSeconds": 598,
-    "title": "Crawling Out Of The Water Was An Evolutionary Accident"
+    "title": "Crawling Out Of The Water Was An Evolutionary Accident",
+    "durationSeconds": 598
   },
   {
     "videoId": "Whp8wgDS6wQ",
-    "durationSeconds": 60,
-    "title": "Bed bugs, our first pest"
+    "title": "Bed bugs, our first pest",
+    "durationSeconds": 60
   },
   {
     "videoId": "VkYITGZccMs",
-    "durationSeconds": 827,
-    "title": "We're The Only Ones With Chins - And We Don't Know Why"
+    "title": "We're The Only Ones With Chins - And We Don't Know Why",
+    "durationSeconds": 827
   },
   {
     "videoId": "4ihYiTOIBT0",
-    "durationSeconds": 876,
-    "title": "How Sharks Lost Their Buzzsaws, Anvils, and Spikes"
+    "title": "How Sharks Lost Their Buzzsaws, Anvils, and Spikes",
+    "durationSeconds": 876
   },
   {
     "videoId": "LX80_OVeJk4",
-    "durationSeconds": 60,
-    "title": "Humans Heal Slow"
+    "title": "Humans Heal Slow",
+    "durationSeconds": 60
   },
   {
     "videoId": "TBYGsvr0Acc",
-    "durationSeconds": 704,
-    "title": "That Time the Earth Was Sticky"
+    "title": "That Time the Earth Was Sticky",
+    "durationSeconds": 704
   },
   {
     "videoId": "eNR5vjxUEdk",
-    "durationSeconds": 642,
-    "title": "When Dinosaurs Threw Up A Mystery"
+    "title": "When Dinosaurs Threw Up A Mystery",
+    "durationSeconds": 642
   },
   {
     "videoId": "71umdejIWRI",
-    "durationSeconds": 765,
-    "title": "How Dinosaur Extinction Gave Us Fruit"
+    "title": "How Dinosaur Extinction Gave Us Fruit",
+    "durationSeconds": 765
   },
   {
     "videoId": "cO6BSygTgpw",
-    "durationSeconds": 62,
-    "title": "These are the newest oldest birds of prey"
+    "title": "These are the newest oldest birds of prey",
+    "durationSeconds": 62
   },
   {
     "videoId": "iUcP-gkdIPQ",
-    "durationSeconds": 66,
-    "title": "These researchers just found dinosaur collagen"
+    "title": "These researchers just found dinosaur collagen",
+    "durationSeconds": 66
   },
   {
     "videoId": "CrRr9sMBJjw",
-    "durationSeconds": 603,
-    "title": "Why Paleontologists Can’t Stop Fighting About Spinosaurus"
+    "title": "Why Paleontologists Can’t Stop Fighting About Spinosaurus",
+    "durationSeconds": 603
   }
 ]

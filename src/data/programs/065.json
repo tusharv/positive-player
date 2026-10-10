@@ -1,252 +1,462 @@
 [
   {
+    "videoId": "PCmApudydaY",
+    "title": "Mariza - \"É Ou Não É\" Vídeo Oficial",
+    "durationSeconds": 136
+  },
+  {
+    "videoId": "gzwGhcnIU_M",
+    "title": "Mariza - As Meninas dos Meus Olhos",
+    "durationSeconds": 151
+  },
+  {
+    "videoId": "p5_81GMggjA",
+    "title": "Mariza - Quando Me Sinto Só",
+    "durationSeconds": 195
+  },
+  {
+    "videoId": "B6hvPK2ze58",
+    "title": "Mariza - Rosa Branca Video Clip",
+    "durationSeconds": 181
+  },
+  {
+    "videoId": "Hll6CWoT4ro",
+    "title": "Mariza - Promete Jura Video Clip",
+    "durationSeconds": 226
+  },
+  {
+    "videoId": "6tqfsh25wsE",
+    "title": "Mariza & Rubalcaba - El Hombre Que Yo Amé",
+    "durationSeconds": 254
+  },
+  {
+    "videoId": "Up_EG7mvGoQ",
+    "title": "Mariza - Há Palavras Que Nos Beijam",
+    "durationSeconds": 210
+  },
+  {
+    "videoId": "DeUaANkuhuA",
+    "title": "Mariza - É ou Não É (audio)",
+    "durationSeconds": 133
+  },
+  {
+    "videoId": "XFzidT7Ek8E",
+    "title": "Mariza & Iván \"Melón\" Lewis - Insensatez",
+    "durationSeconds": 334
+  },
+  {
+    "videoId": "8tDbngxQ1Wg",
+    "title": "Mariza - É ou não é (Factor X)",
+    "durationSeconds": 134
+  },
+  {
+    "videoId": "pVELdiMUpXs",
+    "title": "Mariza - Primavera ao vivo em Lisboa",
+    "durationSeconds": 324
+  },
+  {
+    "videoId": "QrZSCtYmoMk",
+    "title": "Report lançamento fado tradicional",
+    "durationSeconds": 109
+  },
+  {
+    "videoId": "vJ_nS5nUF1c",
+    "title": "Mariza - Smile",
+    "durationSeconds": 200
+  },
+  {
+    "videoId": "uO79nPbcIwY",
+    "title": "Rosa Branca ao vivo - Idolos 03/01/2011",
+    "durationSeconds": 444
+  },
+  {
+    "videoId": "gmeyDe9fzxY",
+    "title": "Mariza with Jools Holland \"Fly Me To The Moon\"",
+    "durationSeconds": 78
+  },
+  {
+    "videoId": "gFQiy-fe298",
+    "title": "Rui Veloso e Mariza - Não Queiras Saber de Mim",
+    "durationSeconds": 249
+  },
+  {
+    "videoId": "HQCAFVmK5mk",
+    "title": "Programa do Jô   Fadista Mariza lança novo CD | globo tv",
+    "durationSeconds": 941
+  },
+  {
+    "videoId": "GZ0QA4w_mcA",
+    "title": "Rosa Branca   Sic",
+    "durationSeconds": 256
+  },
+  {
+    "videoId": "cjbTZam4Kxs",
+    "title": "Reportagem aniv coliseu 30 11 10",
+    "durationSeconds": 155
+  },
+  {
+    "videoId": "iWrNxlutrTU",
+    "title": "Miguel Poveda, Mariza y la ONE  Meu fado meu    Auditorio Nacional de Madrid   12 06 2010360p VP8 Vo",
+    "durationSeconds": 420
+  },
+  {
+    "videoId": "cy8li6j6SNQ",
+    "title": "Mariza e Kiri Te Kanauwa 27 06 08",
+    "durationSeconds": 249
+  },
+  {
+    "videoId": "tkfB4PJwhVs",
+    "title": "Mariza em entrevista no lançamento do DVD \"Terra\"",
+    "durationSeconds": 155
+  },
+  {
+    "videoId": "zig5rH7np10",
+    "title": "Mariza vence Globo de Ouro em 2006",
+    "durationSeconds": 161
+  },
+  {
+    "videoId": "nsE5Dix7EyQ",
+    "title": "Mariza no Alta Definição",
+    "durationSeconds": 2371
+  },
+  {
+    "videoId": "0-D9VyLerDY",
+    "title": "Mariza RiR 21 05 10",
+    "durationSeconds": 215
+  },
+  {
+    "videoId": "-nsxbrO5t60",
+    "title": "Mariza Promete, Jura Later with Jools Holland Live 2011",
+    "durationSeconds": 251
+  },
+  {
+    "videoId": "aLe9nw5OjTE",
+    "title": "Mariza reportagem sic coliseu lisboa",
+    "durationSeconds": 213
+  },
+  {
+    "videoId": "TJ-NNWPYoNw",
+    "title": "Mariza vence Globos de Ouro 2009",
+    "durationSeconds": 435
+  },
+  {
+    "videoId": "PYI0wo1CcyU",
+    "title": "Mariza Morada Aberta Rock in Rio 21 05 10",
+    "durationSeconds": 229
+  },
+  {
+    "videoId": "_TsTWQ45ohE",
+    "title": "Mariza Embaixadora da candidatura do fado a patrimonio",
+    "durationSeconds": 191
+  },
+  {
+    "videoId": "JIOwJPA_a-c",
+    "title": "Mariza - Fado Tradicional Making of Fado Traditional",
+    "durationSeconds": 1192
+  },
+  {
+    "videoId": "NLjPI0It68Q",
+    "title": "Mariza - David Letterman's Show",
+    "durationSeconds": 261
+  },
+  {
+    "videoId": "TYlvz1aPhoI",
+    "title": "Mariza e José Mercê - Entrevista SIC 13.12.2005",
+    "durationSeconds": 179
+  },
+  {
+    "videoId": "B9IVvxyrPMs",
+    "title": "Mariza - Transparente - from the movie FADOS",
+    "durationSeconds": 171
+  },
+  {
+    "videoId": "XNbwrgPgwcY",
+    "title": "Mariza - Rosa Branca Video Clip",
+    "durationSeconds": 169
+  },
+  {
+    "videoId": "PIzwTH0s8BI",
+    "title": "Mariza - Loucura",
+    "durationSeconds": 283
+  },
+  {
+    "videoId": "IiEjgX8BHuI",
+    "title": "Mariza entrevistada por Balsemão - SIC Notícias",
+    "durationSeconds": 1816
+  },
+  {
+    "videoId": "gVqPuWyiG3Y",
+    "title": "Mariza - Lançamento álbum Terra no Fama Show Mariza lança Terra 23 06 08",
+    "durationSeconds": 133
+  },
+  {
+    "videoId": "7Ttaxt7-1mQ",
+    "title": "Mariza fala sobre Festival de Fado do Brasil",
+    "durationSeconds": 916
+  },
+  {
+    "videoId": "1qAgfcur_mw",
+    "title": "Mariza - Meu Fado Meu (Live) Dutch TV",
+    "durationSeconds": 246
+  },
+  {
+    "videoId": "99XDQYXP4z0",
+    "title": "Mariza - Lisboa Menina e Moça Live at La Fiesta des Suds Marseille",
+    "durationSeconds": 601
+  },
+  {
+    "videoId": "S2Ip-uUhaoI",
+    "title": "Mariza - Gente Da Minha Terra ao vivo em Lisboa",
+    "durationSeconds": 439
+  },
+  {
     "videoId": "LYEtHvOm8t4",
-    "durationSeconds": 173,
-    "title": "MARIZA - Beijos [Official Visualizer]"
+    "title": "MARIZA - Beijos [Official Visualizer]",
+    "durationSeconds": 173
   },
   {
     "videoId": "p0E4JUineGs",
-    "durationSeconds": 238,
-    "title": "MARIZA - Casa [Official Music Video]"
+    "title": "MARIZA - Casa [Official Music Video]",
+    "durationSeconds": 238
   },
   {
     "videoId": "ezl3c0RNHCo",
-    "durationSeconds": 243,
-    "title": "MARIZA - Desamor feat. GSON [Official Music Video]"
+    "title": "MARIZA - Desamor feat. GSON [Official Music Video]",
+    "durationSeconds": 243
   },
   {
     "videoId": "pxuTf33XrvU",
-    "durationSeconds": 237,
-    "title": "MARIZA - Melhor de Mim (Diego Miranda Remix)"
+    "title": "MARIZA - Melhor de Mim (Diego Miranda Remix)",
+    "durationSeconds": 237
   },
   {
     "videoId": "r8Lfc25cLGA",
-    "durationSeconds": 221,
-    "title": "MARIZA - Mãe [Official Music Video]"
+    "title": "MARIZA - Mãe [Official Music Video]",
+    "durationSeconds": 221
   },
   {
     "videoId": "__k5xmEIVpE",
-    "durationSeconds": 283,
-    "title": "MARIZA - Barco Negro [ Official Audio Video ]"
+    "title": "MARIZA - Barco Negro [ Official Audio Video ]",
+    "durationSeconds": 283
   },
   {
     "videoId": "ps6rx1cpfDk",
-    "durationSeconds": 254,
-    "title": "MARIZA - Com Que Voz [ Official Audio Video ]"
+    "title": "MARIZA - Com Que Voz [ Official Audio Video ]",
+    "durationSeconds": 254
   },
   {
     "videoId": "zX0kO38Vycc",
-    "durationSeconds": 208,
-    "title": "MARIZA - Gaivota [ Official Audio Video ]"
+    "title": "MARIZA - Gaivota [ Official Audio Video ]",
+    "durationSeconds": 208
   },
   {
     "videoId": "iQAkjwKAzVM",
-    "durationSeconds": 198,
-    "title": "MARIZA - Formiga Bossa Nova [ Official Audio Video ]"
+    "title": "MARIZA - Formiga Bossa Nova [ Official Audio Video ]",
+    "durationSeconds": 198
   },
   {
     "videoId": "u8kDzvh2jgQ",
-    "durationSeconds": 287,
-    "title": "MARIZA - Fado Português [ Official Audio Video ]"
+    "title": "MARIZA - Fado Português [ Official Audio Video ]",
+    "durationSeconds": 287
   },
   {
     "videoId": "Q49sHB3pYjg",
-    "durationSeconds": 194,
-    "title": "MARIZA - Estranha Forma de Vida [ Official Audio Video ]"
+    "title": "MARIZA - Estranha Forma de Vida [ Official Audio Video ]",
+    "durationSeconds": 194
   },
   {
     "videoId": "QH6xyNWKBM4",
-    "durationSeconds": 156,
-    "title": "MARIZA - Cravos de Papel [ Official Audio Video ]"
+    "title": "MARIZA - Cravos de Papel [ Official Audio Video ]",
+    "durationSeconds": 156
   },
   {
     "videoId": "NH7ZN363_xY",
-    "durationSeconds": 218,
-    "title": "MARIZA - Foi Deus [ Official Audio Video ]"
+    "title": "MARIZA - Foi Deus [ Official Audio Video ]",
+    "durationSeconds": 218
   },
   {
     "videoId": "6K7X76ue92I",
-    "durationSeconds": 282,
-    "title": "MARIZA - Povo Que Lavas No Rio [ Official Audio Video ]"
+    "title": "MARIZA - Povo Que Lavas No Rio [ Official Audio Video ]",
+    "durationSeconds": 282
   },
   {
     "videoId": "NiEkEC-EdTo",
-    "durationSeconds": 217,
-    "title": "MARIZA - Lágrima [Official Music Video]"
+    "title": "MARIZA - Lágrima [Official Music Video]",
+    "durationSeconds": 217
   },
   {
     "videoId": "jzTx4te3UAo",
-    "durationSeconds": 178,
-    "title": "MARIZA  - A Nossa Voz [ Official Music Video ]"
+    "title": "MARIZA  - A Nossa Voz [ Official Music Video ]",
+    "durationSeconds": 178
   },
   {
     "videoId": "Y90lr965Ea0",
-    "durationSeconds": 190,
-    "title": "MARIZA - Oração [ Official Music Video ]"
+    "title": "MARIZA - Oração [ Official Music Video ]",
+    "durationSeconds": 190
   },
   {
     "videoId": "wQ-2BrKoKiw",
-    "durationSeconds": 350,
-    "title": "MARIZA - Barco Negro [Official Live Video ]"
+    "title": "MARIZA - Barco Negro [Official Live Video ]",
+    "durationSeconds": 350
   },
   {
     "videoId": "vJfiip3gyeg",
-    "durationSeconds": 160,
-    "title": "MARIZA - Trigueirinha [Official Music Video]"
+    "title": "MARIZA - Trigueirinha [Official Music Video]",
+    "durationSeconds": 160
   },
   {
     "videoId": "-sze5rpbklM",
-    "durationSeconds": 256,
-    "title": "MARIZA - Quem Me Dera [Official Music Video]"
+    "title": "MARIZA - Quem Me Dera [Official Music Video]",
+    "durationSeconds": 256
   },
   {
     "videoId": "AIuPVrpnyoE",
-    "durationSeconds": 213,
-    "title": "Mariza - Saudade Solta"
+    "title": "Mariza - Saudade Solta",
+    "durationSeconds": 213
   },
   {
     "videoId": "WVJrwTwr1_4",
-    "durationSeconds": 191,
-    "title": "Mariza - Rio de Mágoa"
+    "title": "Mariza - Rio de Mágoa",
+    "durationSeconds": 191
   },
   {
     "videoId": "0Lkz9iwmIgw",
-    "durationSeconds": 285,
-    "title": "Mariza - Maldição"
+    "title": "Mariza - Maldição",
+    "durationSeconds": 285
   },
   {
     "videoId": "t3FximteIXI",
-    "durationSeconds": 191,
-    "title": "Mariza com Sergio Dalma - Alma (Vídeo Oficial)"
+    "title": "Mariza com Sergio Dalma - Alma (Vídeo Oficial)",
+    "durationSeconds": 191
   },
   {
     "videoId": "OOenpOEVTgw",
-    "durationSeconds": 266,
-    "title": "Mariza - Melhor de Mim (Vídeo Oficial)"
+    "title": "Mariza - Melhor de Mim (Vídeo Oficial)",
+    "durationSeconds": 266
   },
   {
     "videoId": "2UDZH_Htpq8",
-    "durationSeconds": 246,
-    "title": "Mariza - Melhor de Mim"
+    "title": "Mariza - Melhor de Mim",
+    "durationSeconds": 246
   },
   {
     "videoId": "Eb3mQ5IV_28",
-    "durationSeconds": 191,
-    "title": "Mariza - Alma (Video Oficial)"
+    "title": "Mariza - Alma (Video Oficial)",
+    "durationSeconds": 191
   },
   {
     "videoId": "DYfDRWo5ZBM",
-    "durationSeconds": 180,
-    "title": "Mariza - Alma"
+    "title": "Mariza - Alma",
+    "durationSeconds": 180
   },
   {
     "videoId": "AiVd67KHKqQ",
-    "durationSeconds": 179,
-    "title": "Mariza - Paixão"
+    "title": "Mariza - Paixão",
+    "durationSeconds": 179
   },
   {
     "videoId": "C4Gy0s2ooRE",
-    "durationSeconds": 158,
-    "title": "Mariza - Ai Esta Pena de Mim"
+    "title": "Mariza - Ai Esta Pena de Mim",
+    "durationSeconds": 158
   },
   {
     "videoId": "bL6hwO1zHdA",
-    "durationSeconds": 277,
-    "title": "Mariza - Bridge Over Troubled Water (Simon & Garfunkel)"
+    "title": "Mariza - Bridge Over Troubled Water (Simon & Garfunkel)",
+    "durationSeconds": 277
   },
   {
     "videoId": "S0Iu5o1utYM",
-    "durationSeconds": 183,
-    "title": "Mariza - Close to You (The Carpenters)"
+    "title": "Mariza - Close to You (The Carpenters)",
+    "durationSeconds": 183
   },
   {
     "videoId": "LyAASOd9ZEE",
-    "durationSeconds": 256,
-    "title": "Mariza - Promete, Jura @NTR TV"
+    "title": "Mariza - Promete, Jura @NTR TV",
+    "durationSeconds": 256
   },
   {
     "videoId": "cabgPrqbYe0",
-    "durationSeconds": 166,
-    "title": "Mariza - Feliz Natal 2014"
+    "title": "Mariza - Feliz Natal 2014",
+    "durationSeconds": 166
   },
   {
     "videoId": "1-R67fQdwn0",
-    "durationSeconds": 324,
-    "title": "Mariza canta \"Oh Gente da Minha Terra\" para a PRVA TV (Sérvia)"
+    "title": "Mariza canta \"Oh Gente da Minha Terra\" para a PRVA TV (Sérvia)",
+    "durationSeconds": 324
   },
   {
     "videoId": "z5qzl2TsED4",
-    "durationSeconds": 228,
-    "title": "Mariza & Patrice Rushen - Cry Me a River"
+    "title": "Mariza & Patrice Rushen - Cry Me a River",
+    "durationSeconds": 228
   },
   {
     "videoId": "4nvnz2E6Mho",
-    "durationSeconds": 61,
-    "title": "O Tempo Não Pára ao Vivo em Gaia"
+    "title": "O Tempo Não Pára ao Vivo em Gaia",
+    "durationSeconds": 61
   },
   {
     "videoId": "chtJt2g2CG4",
-    "durationSeconds": 674,
-    "title": "Mariza - O Tempo Não Pára (Rising Star TVI)"
+    "title": "Mariza - O Tempo Não Pára (Rising Star TVI)",
+    "durationSeconds": 674
   },
   {
     "videoId": "Lqky4B5hRPs",
-    "durationSeconds": 672,
-    "title": "Mariza de visita à Sérvia e Bósnia"
+    "title": "Mariza de visita à Sérvia e Bósnia",
+    "durationSeconds": 672
   },
   {
     "videoId": "tC88Oyz8Khs",
-    "durationSeconds": 302,
-    "title": "Mariza - Chuva (Concerto em Lisboa)"
+    "title": "Mariza - Chuva (Concerto em Lisboa)",
+    "durationSeconds": 302
   },
   {
     "videoId": "I9rqRzu4dR8",
-    "durationSeconds": 277,
-    "title": "Mariza - O Tempo Não Pára (Making Of)"
+    "title": "Mariza - O Tempo Não Pára (Making Of)",
+    "durationSeconds": 277
   },
   {
     "videoId": "zLU_sLX9QJU",
-    "durationSeconds": 177,
-    "title": "Mariza - Oiça Lá ó Senhor Vinho"
+    "title": "Mariza - Oiça Lá ó Senhor Vinho",
+    "durationSeconds": 177
   },
   {
     "videoId": "9IrKz8wLJU8",
-    "durationSeconds": 194,
-    "title": "Mariza em visita guiada à Mouraria (SIC)"
+    "title": "Mariza em visita guiada à Mouraria (SIC)",
+    "durationSeconds": 194
   },
   {
     "videoId": "B7gZlxaAQ6k",
-    "durationSeconds": 351,
-    "title": "Mariza em entrevista no Telejornal da RTP - 14/04/2014"
+    "title": "Mariza em entrevista no Telejornal da RTP - 14/04/2014",
+    "durationSeconds": 351
   },
   {
     "videoId": "9kmwY1Z3YNY",
-    "durationSeconds": 235,
-    "title": "Mariza - O Tempo Nao Para"
+    "title": "Mariza - O Tempo Nao Para",
+    "durationSeconds": 235
   },
   {
     "videoId": "Lg7T6cID5nc",
-    "durationSeconds": 273,
-    "title": "Mariza - É ou Não É - Making Of"
+    "title": "Mariza - É ou Não É - Making Of",
+    "durationSeconds": 273
   },
   {
     "videoId": "GkAC9bnF9Ls",
-    "durationSeconds": 1292,
-    "title": "Mariza - Entrevista TVI 31.03.2014"
+    "title": "Mariza - Entrevista TVI 31.03.2014",
+    "durationSeconds": 1292
   },
   {
     "videoId": "00ebLdg5hfc",
-    "durationSeconds": 251,
-    "title": "Mariza - O Tempo Não Pára (Jornal das 8 TVI)"
+    "title": "Mariza - O Tempo Não Pára (Jornal das 8 TVI)",
+    "durationSeconds": 251
   },
   {
     "videoId": "A8aRcqrHLqk",
-    "durationSeconds": 201,
-    "title": "Mariza - Maria Lisboa"
+    "title": "Mariza - Maria Lisboa",
+    "durationSeconds": 201
   },
   {
     "videoId": "PU0SKP52U5E",
-    "durationSeconds": 265,
-    "title": "Mariza e Miguel Poveda - Meu Fado Meu"
+    "title": "Mariza e Miguel Poveda - Meu Fado Meu",
+    "durationSeconds": 265
   }
 ]
