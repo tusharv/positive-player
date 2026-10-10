@@ -54,7 +54,7 @@ it('keeps the address and the tab title on the tuned channel without reloading',
   await flushPromises()
   expect(router.currentRoute.value.fullPath).toBe('/watch?channel=12')
   expect(document.title).toBe(channelTitle(12))
-  expect(wrapper.get('[aria-label="Next channel"]').exists()).toBe(true)
+  expect(wrapper.find('[aria-label="Next channel"]').exists()).toBe(true)
 
   await router.push('/watch?channel=6')
   await flushPromises()
