@@ -22,6 +22,7 @@ const featured = featuredNames.flatMap((name) => {
       <nav aria-label="Main navigation">
         <a href="#story">The story</a>
         <a href="#channels">What's on</a>
+        <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/watch" class="nav-watch"
           >Watch TV <span aria-hidden="true">↗</span></RouterLink
         >
@@ -228,6 +229,7 @@ const featured = featuredNames.flatMap((name) => {
         <p>A CRT you stay with. 1988 is the year on the glass.</p>
       </div>
       <nav aria-label="Footer navigation">
+        <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/guide">Channel guide</RouterLink
         ><RouterLink to="/privacy">Privacy</RouterLink><RouterLink to="/terms">Terms</RouterLink
         ><RouterLink to="/remote">Phone remote</RouterLink>

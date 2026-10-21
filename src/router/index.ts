@@ -7,6 +7,12 @@ const router = createRouter({
     { path: '/', name: 'home', component: LandingPage },
     { path: '/watch', name: 'player', component: () => import('../views/PlayerPage.vue') },
     { path: '/guide', name: 'guide', component: () => import('../views/GuidePage.vue') },
+    {
+      path: '/about',
+      alias: '/contact',
+      name: 'about',
+      component: () => import('../views/AboutPage.vue'),
+    },
     { path: '/debug', name: 'debug', component: () => import('../views/DebugPage.vue') },
     { path: '/remote', name: 'remote', component: () => import('../views/RemotePage.vue') },
     { path: '/privacy', name: 'privacy', component: () => import('../views/PrivacyPage.vue') },
