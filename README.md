@@ -4,6 +4,13 @@ A CRT television for anyone done with reels. It plays YouTube in the browser, al
 
 Live at [https://1988-in.vercel.app/](https://1988-in.vercel.app/).
 
+### Search indexing
+
+The sitemap is served at `https://www.1988.in/sitemap.xml` and advertised in
+`robots.txt`. After deployment, submit that URL in Google Search Console's
+Sitemaps report. Keep `public/sitemap.xml` updated when public routes change;
+omit debug pages, pairing parameters, and channel query variants.
+
 The TV remembers the last selected channel and sound settings in this browser across reloads and restarts, including channel changes made from a paired phone. Turn it on to return to that channel's current broadcast. Clearing browser storage resets these preferences; an unavailable saved channel falls back to the first channel.
 
 ## Channel guide
