@@ -23,8 +23,8 @@ test('each of the first ten channels has one distinct social image in raw HTML',
   assert.equal(images.size, 10)
 })
 
-test('later channels keep their own title and URL but share the fallback image', () => {
-  for (const channel of CHANNELS.slice(10)) {
+test('unfeatured channels keep their own title and URL but share the fallback image', () => {
+  for (const channel of CHANNELS.slice(10).filter((channel) => channel.number !== 13)) {
     const html = renderChannelPage(template, channel)
     assert.ok(html.includes('https://www.1988.in/share-cards/fallback.png'))
     assert.ok(html.includes(`${channel.name} - 1988.in</title>`))
@@ -43,4 +43,11 @@ test('generic watch page uses the fallback and metadata is escaped', () => {
   })
   assert.ok(escaped.includes('&lt;Hello &amp; &quot;world&quot;&gt;'))
   assert.ok(!escaped.includes('<Hello'))
+})
+
+test('channel 13 uses its Taarak Mehta card in social metadata', () => {
+  const html = renderChannelPage(template, CHANNELS.find((channel) => channel.number === 13))
+  assert.ok(html.includes('property="og:image" content="https://www.1988.in/share-cards/taarak-mehta.png"'))
+  assert.ok(html.includes('name="twitter:image" content="https://www.1988.in/share-cards/taarak-mehta.png"'))
+  assert.ok(!html.includes('/share-cards/fallback.png'))
 })

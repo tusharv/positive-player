@@ -80,25 +80,19 @@ test('regenerating DD Classics preserves its full curated month instead of resto
   }
 })
 
-test('regenerating Channel 013 preserves the vintage selection and all four categories', async () => {
+test('regenerating Channel 013 preserves the full Taarak Mehta episodes', async () => {
   const { HAND_PICKED_PROGRAMS } = await import('../src/data/handPickedPrograms.ts')
-  const root = mkdtempSync(join(tmpdir(), 'vintage-india-bundle-'))
+  const root = mkdtempSync(join(tmpdir(), 'tmkoc-bundle-'))
   try {
     writeProgramBundles(
-      [{ number: 13, name: 'Vintage India' }],
+      [{ number: 13, name: 'Taarak Mehta Ka Ooltah Chashmah' }],
       HAND_PICKED_PROGRAMS,
       pathToFileURL(`${root}/`),
     )
     const items = JSON.parse(readFileSync(join(root, 'programs/013.json'), 'utf8'))
-    assert.ok(items.length > 100)
-    for (const category of [
-      'Public service & broadcast',
-      'Transport, clothing & electronics',
-      'Food & drink',
-      'Household, personal care & health',
-    ]) {
-      assert.ok(items.some((item) => item.title.startsWith(`${category} —`)))
-    }
+    assert.equal(items.length, 100)
+    assert.ok(items.every((item) => /Taarak Mehta Ka Ooltah Chashmah.*Full Episode/i.test(item.title)))
+    assert.ok(items.every((item) => item.durationSeconds >= 900))
   } finally {
     rmSync(root, { recursive: true, force: true })
   }

@@ -1,7 +1,7 @@
 # Channel sharing cards
 
-Eleven photorealistic broadcast posters, exported as 1200 × 630 PNGs:
-one each for the first ten channels (Bollywood through Space), and `fallback.png`
+Twelve photorealistic broadcast posters, exported as 1200 × 630 PNGs:
+one each for the first ten channels (Bollywood through Space), channel 13 (Taarak Mehta Ka Ooltah Chashmah), and `fallback.png`
 for all other channels. The rooms are AI-generated imagined period scenes, not
 archival photographs or broadcaster endorsements. The Jungle Book screen uses
 a user-provided cartoon screenshot; other screen scenes are generated imagery.
@@ -17,7 +17,7 @@ The fallback screen shows analogue colour bars. The checked-in PNGs mean normal
 builds and deployments do not depend on an image-generation service.
 
 The station tagline is “Come back to a simpler time.”, also used by the landing
-page and social metadata. All eleven cards carry this line at the bottom left.
+page and social metadata. All twelve cards carry this line at the bottom left.
 
 `src/lib/channelShareCard.ts` selects the image used by both the share dialog
 and the preview metadata. Selection uses channel names so reordering the lineup
@@ -27,9 +27,11 @@ cannot silently attach another channel's artwork.
 Vercel's `/watch` rewrite and the standalone Node server serve these pages for
 `/watch?channel=N`. Each page retains the player app and built asset links, but
 has its own title, description, canonical URL, Open Graph and Twitter tags.
-Channels outside the featured ten retain their own metadata and use the generic
+Channels outside the featured selection retain their own metadata and use the generic
 image. Invalid or missing channel parameters use the generic watch page.
 
 Local development and `vite preview` display the card in the sharing dialog;
 use `npm run build && npm start` to verify the server-returned social metadata.
 Other static hosts need an equivalent `/watch` handler for query-based previews.
+
+The channel 013 card matches the existing room style, with an AI-generated scene of Jethalal and Daya in Gokuldham Society on the television. It is imagined promotional artwork, not an episode still or broadcaster endorsement.

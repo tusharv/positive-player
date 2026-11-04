@@ -1,7 +1,7 @@
 import type { CatalogItem } from '../lib/broadcastClock'
 import bollywoodPrograms from './programs/001.json' with { type: 'json' }
 import ddClassicsPrograms from './programs/005.json' with { type: 'json' }
-import vintageIndiaPrograms from './programs/013.json' with { type: 'json' }
+import taarakMehtaPrograms from './programs/013.json' with { type: 'json' }
 
 // Hand-picked evergreen programmes, checked against YouTube on 2026-10-05.
 // Keep IDs and durations here so these stations can start without the Data API.
@@ -251,7 +251,7 @@ export const HAND_PICKED_PROGRAMS: Partial<Record<string, CatalogItem[]>> = {
   // DD Classics is curated directly in its month-long bundle; preserve it on refresh.
   'DD Classics': ddClassicsPrograms,
   // Preserve the four-category vintage selection when refreshing other stations.
-  'Vintage India': vintageIndiaPrograms,
+  'Taarak Mehta Ka Ooltah Chashmah': taarakMehtaPrograms,
   Ramayan: [
     {
       videoId: 'vIh99bkSc_w',

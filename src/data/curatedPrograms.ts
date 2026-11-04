@@ -53,8 +53,8 @@ export const CURATED_PROGRAMS: Partial<Record<string, {
     version: '868f4d32d88410f3',
     load: () => import('./programs/012.json').then(m => m.default),
   },
-  "Vintage India": {
-    version: '44f196d03e657592',
+  "Taarak Mehta Ka Ooltah Chashmah": {
+    version: 'e3c4708e4043015e',
     load: () => import('./programs/013.json').then(m => m.default),
   },
   "Dogs": {

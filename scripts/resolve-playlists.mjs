@@ -169,7 +169,7 @@ const results = {
   Ramayan: { playlistId: 'PLFPJRCFRDARSfz9y9YPMG_tCTSeYeGNA3' },
   Mahabharat: { playlistId: 'UUHKGDg0GJKBsA9mFraDOLHA', titleTerms: ['mahabharat', 'महाभारत'] },
   'DD Classics': { kind: 'curated', catalog: 'src/data/programs/005.json' },
-  'Vintage India': { kind: 'curated', catalog: 'src/data/programs/013.json' },
+  'Taarak Mehta Ka Ooltah Chashmah': { kind: 'curated', catalog: 'src/data/programs/013.json' },
   'Jungle Book': { playlistId: 'PL65eurRkEvghrieaRGNpneAZmZoUeM5Kc' },
   Shaktimaan: { playlistId: 'PLJHHPzufWhurTWga4uBzL-M3F79A71p2Z' },
 }

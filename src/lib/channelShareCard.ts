@@ -11,6 +11,7 @@ export const FEATURED_SHARE_CARDS: Readonly<Record<string, string>> = {
   Animals: 'animals',
   'Street Food': 'street-food',
   Space: 'space',
+  'Taarak Mehta Ka Ooltah Chashmah': 'taarak-mehta',
 }
 
 export function channelShareCard(channel?: { name: string }) {

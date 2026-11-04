@@ -69,9 +69,8 @@ it('tags every channel and keeps the DD lineup discoverable', () => {
     'DD Classics',
     'Ramayan',
     'Mahabharat',
-    'Vintage India',
   ])
-  expect(classics.map((channel) => channel.number)).toEqual([3, 4, 5, 6, 7, 13])
+  expect(classics.map((channel) => channel.number)).toEqual([3, 4, 5, 6, 7])
 })
 
 it('gives DD Classics a month of distinct programming across the requested shows', async () => {
@@ -104,25 +103,16 @@ it('gives DD Classics a month of distinct programming across the requested shows
   }
 })
 
-it('replaces Channel 013 with a curated mix of vintage ads and public-service interludes', async () => {
+it('gives Channel 013 only full Taarak Mehta episodes', async () => {
   const channel = channelByNumber(13)!
-  expect(channel.name).toBe('Vintage India')
+  expect(channel.name).toBe('Taarak Mehta Ka Ooltah Chashmah')
   expect(channel.kind).toBe('curated')
-  expect(channel.playlistId).toBeUndefined()
+  expect(channel.tags).not.toContain('DD Era')
   const items = await channel.loadCuratedCatalog!()
-  expect(items.length).toBeGreaterThan(100)
+  expect(items.length).toBe(100)
   expect(new Set(items.map((item) => item.videoId)).size).toBe(items.length)
-  for (const category of [
-    'Public service & broadcast',
-    'Transport, clothing & electronics',
-    'Food & drink',
-    'Household, personal care & health',
-  ]) {
-    expect(
-      items.some((item) => item.title?.startsWith(`${category} —`)),
-      category,
-    ).toBe(true)
+  for (const item of items) {
+    expect(item.title).toMatch(/Taarak Mehta Ka Ooltah Chashmah.*Full Episode/i)
+    expect(item.durationSeconds).toBeGreaterThanOrEqual(900)
   }
-  expect(items.some((item) => item.durationSeconds < 60)).toBe(true)
-  expect(items.some((item) => /SoulPancake|Rainn Wilson/.test(item.title ?? ''))).toBe(false)
 })
