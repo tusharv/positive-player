@@ -5,6 +5,7 @@ import { isIP } from 'node:net'
 import sirv from 'sirv'
 import { WebSocketServer } from 'ws'
 import { createSessionHub } from './sessionHub.mjs'
+import { serveWatchPage } from './watchPage.mjs'
 
 export function createRemoteServer(options = {}) {
   const hub = createSessionHub(options)
@@ -12,6 +13,11 @@ export function createRemoteServer(options = {}) {
   const server = createServer((req, res) => {
     res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin')
     res.setHeader('X-Content-Type-Options', 'nosniff')
+    const pathname = req.url?.split('?')[0]
+    if (pathname === '/watch' || pathname === '/watch/') {
+      void serveWatchPage(req, res)
+      return
+    }
     serve(req, res, () => {
       res.statusCode = 404
       res.end('Build the app first with npm run build.')
@@ -51,18 +57,30 @@ export function createRemoteServer(options = {}) {
     }
     wss.handleUpgrade(req, socket, head, (ws) => {
       ws.alive = true
+      ws._ppConnectedAt = Date.now()
       ws.on('pong', () => {
         ws.alive = true
       })
       hub.attach(ws, address)
     })
   })
+  // #region agent log
+  server.on('connection', (sock) => {
+    sock.on('timeout', () => {
+      fetch('http://127.0.0.1:7694/ingest/232deeba-4d0f-4353-bc18-995dd3d1afd0',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'357331'},body:JSON.stringify({sessionId:'357331',hypothesisId:'E',location:'server/index.mjs:connection',message:'http socket timeout',data:{timeout:server.timeout,requestTimeout:server.requestTimeout,headersTimeout:server.headersTimeout},timestamp:Date.now()})}).catch(()=>{});
+    })
+  })
+  fetch('http://127.0.0.1:7694/ingest/232deeba-4d0f-4353-bc18-995dd3d1afd0',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'357331'},body:JSON.stringify({sessionId:'357331',hypothesisId:'E',location:'server/index.mjs:timeouts',message:'http server timeouts',data:{timeout:server.timeout,requestTimeout:server.requestTimeout,headersTimeout:server.headersTimeout,keepAliveTimeout:server.keepAliveTimeout},timestamp:Date.now()})}).catch(()=>{});
+  // #endregion
   const timer = setInterval(() => {
     hub.sweep()
     for (const [address, limit] of upgrades)
       if (Date.now() - limit.start >= 60000) upgrades.delete(address)
     for (const ws of wss.clients) {
       if (!ws.alive) {
+        // #region agent log
+        fetch('http://127.0.0.1:7694/ingest/232deeba-4d0f-4353-bc18-995dd3d1afd0',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'357331'},body:JSON.stringify({sessionId:'357331',hypothesisId:'A',location:'server/index.mjs:heartbeat',message:'heartbeat terminate',data:{ageMs:Date.now()-(ws._ppConnectedAt||0),readyState:ws.readyState,clients:wss.clients.size},timestamp:Date.now()})}).catch(()=>{});
+        // #endregion
         ws.terminate()
         continue
       }

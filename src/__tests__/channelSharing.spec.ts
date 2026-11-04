@@ -42,7 +42,7 @@ it('keeps the address and the tab title on the tuned channel without reloading',
     ],
   })
   await router.push('/watch')
-  document.title = '1988.in — Feel 1988. No skip.'
+  document.title = '1988.in — Come back to a simpler time.'
   const wrapper = mount(PlayerPage, { global: { plugins: [pinia, router] } })
   const tv = useTvStore(pinia)
   await flushPromises()
@@ -63,7 +63,7 @@ it('keeps the address and the tab title on the tuned channel without reloading',
   expect(document.title).toBe(channelTitle(6))
 
   wrapper.unmount()
-  expect(document.title).toBe('1988.in — Feel 1988. No skip.')
+  expect(document.title).toBe('1988.in — Come back to a simpler time.')
 })
 
 function channelTitle(number: number) {

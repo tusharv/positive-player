@@ -25,6 +25,9 @@ export class RemoteConnection {
   private credentials: Credentials | null = null
   private join: JoinMessage | undefined
   private offline = () => {
+    // #region agent log
+    fetch('http://127.0.0.1:7694/ingest/232deeba-4d0f-4353-bc18-995dd3d1afd0',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'357331'},body:JSON.stringify({sessionId:'357331',hypothesisId:'E',location:'src/lib/remoteConnection.ts:offline',message:'browser offline',data:{role:this.role,active:this.active,authenticated:this.authenticated},timestamp:Date.now()})}).catch(()=>{});
+    // #endregion
     if (!this.active) return
     window.clearTimeout(this.retry)
     window.clearTimeout(this.handshakeTimer)
@@ -135,6 +138,9 @@ export class RemoteConnection {
             'not-paired',
           ].includes(String(message.code)))
       ) {
+        // #region agent log
+        fetch('http://127.0.0.1:7694/ingest/232deeba-4d0f-4353-bc18-995dd3d1afd0',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'357331'},body:JSON.stringify({sessionId:'357331',hypothesisId:'B',location:'src/lib/remoteConnection.ts:message',message:'fatal server message',data:{role:this.role,type:message.type,code:message.code??null},timestamp:Date.now()})}).catch(()=>{});
+        // #endregion
         this.forget()
         this.destroy()
       }
@@ -144,6 +150,9 @@ export class RemoteConnection {
       /* The close event schedules reconnection. */
     }
     socket.onclose = (event) => {
+      // #region agent log
+      fetch('http://127.0.0.1:7694/ingest/232deeba-4d0f-4353-bc18-995dd3d1afd0',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'357331'},body:JSON.stringify({sessionId:'357331',hypothesisId:'A',location:'src/lib/remoteConnection.ts:onclose',message:'client socket closed',data:{role:this.role,code:event.code,reason:event.reason,wasClean:event.wasClean,current:this.socket===socket,authenticated:this.authenticated,active:this.active,onLine:navigator.onLine,visibility:document.visibilityState},timestamp:Date.now()})}).catch(()=>{});
+      // #endregion
       if (this.socket !== socket) return
       window.clearTimeout(this.handshakeTimer)
       const hadSession = this.authenticated

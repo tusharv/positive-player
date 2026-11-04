@@ -12,7 +12,7 @@ const featured = featuredNames.flatMap((name) => {
   <div class="landing">
     <a class="skip-link" href="#main">Skip to content</a>
     <div class="web-titlebar" aria-hidden="true">
-      <span>1988.in — Feel 1988. No skip.</span>
+      <span>1988.in — Come back to a simpler time.</span>
       <span class="window-marks">― &nbsp; □ &nbsp; ×</span>
     </div>
     <header class="header">
@@ -38,7 +38,7 @@ const featured = featuredNames.flatMap((name) => {
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
           <p class="eyebrow">Instead of reels</p>
-          <h1 id="hero-title">Feel 1988.<br />No skip.</h1>
+          <h1 id="hero-title">Come back to<br />a simpler time.</h1>
           <p class="intro">
             A CRT in the browser. The programme is already on, and the glass has no skip button.
             Change the channel, or stay with it.
@@ -149,7 +149,7 @@ const featured = featuredNames.flatMap((name) => {
             rel="noopener noreferrer"
           >
             <img
-              alt="1988.in — Feel 1988. No skip. - Experience the 1988 era of Doordarshan. | Product Hunt"
+              alt="1988.in — Come back to a simpler time. - Experience the 1988 era of Doordarshan. | Product Hunt"
               width="250"
               height="54"
               src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1272302&theme=light&t=1791354371718"
@@ -163,7 +163,7 @@ const featured = featuredNames.flatMap((name) => {
           >
             <img
               src="https://peerlist.io/api/v1/projects/embed/PRJH6A7QME7NEPMLR3G8PK6NNPQGL8?showUpvote=true&theme=dark"
-              alt="Feel 1988. No skip."
+              alt="Come back to a simpler time."
             />
           </a>
           <a
@@ -336,7 +336,7 @@ const featured = featuredNames.flatMap((name) => {
   text-transform: uppercase;
 }
 h1 {
-  font-size: clamp(48px, 5.5vw, 84px);
+  font-size: clamp(40px, 4.8vw, 72px);
   letter-spacing: -0.065em;
   line-height: 1.02;
   margin: 0;
@@ -772,7 +772,7 @@ h2 {
     margin-bottom: 22px;
   }
   h1 {
-    font-size: clamp(51px, 11vw, 76px);
+    font-size: clamp(40px, 9.5vw, 64px);
   }
   .intro {
     font-size: 16px;

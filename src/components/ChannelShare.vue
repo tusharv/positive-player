@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, ref, useId, watch } from 'vue'
 import { channelByNumber, formatChannelLabel } from '../data/channels'
+import { channelShareCard } from '../lib/channelShareCard'
 import WatchIcon from './WatchIcon.vue'
 
 defineOptions({ inheritAttrs: false })
@@ -15,6 +16,8 @@ const message = ref('')
 const isOpen = ref(false)
 const nativeSharing = typeof navigator.share === 'function'
 const channel = computed(() => channelByNumber(props.channelNumber))
+const card = computed(() => channelShareCard(channel.value))
+const cardUrl = computed(() => `${import.meta.env.BASE_URL}${card.value.path}`)
 const label = computed(() => (channel.value ? formatChannelLabel(channel.value) : 'Channel'))
 const url = computed(() => {
   // Build from the player route, never from a remote pairing URL or invitation.
@@ -114,6 +117,14 @@ async function shareNative() {
       <p class="eyebrow">Pass on something good</p>
       <h2 :id="titleId">Share this channel</h2>
       <p class="channel-name">{{ label }}</p>
+      <img
+        v-if="isOpen"
+        class="share-card"
+        :src="cardUrl"
+        :alt="card.alt"
+        width="1200"
+        height="630"
+      />
       <div class="share-options">
         <a
           v-for="service in services"
@@ -213,6 +224,13 @@ h2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.6rem;
   margin: 1.25rem 0;
+}
+.share-card {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  background: #183b9b;
 }
 .share-options a,
 .share-options button {

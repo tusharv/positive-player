@@ -2,6 +2,22 @@ import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { WebSocket } from 'ws'
 import { createRemoteServer } from './index.mjs'
+import { request } from 'node:http'
+
+test('unusual raw request targets do not terminate the server', async (t) => {
+  const app = await fixture(t)
+  const status = await new Promise((resolve, reject) => {
+    const req = request(`${app.origin}/`, { path: '//' }, (res) => {
+      res.resume()
+      res.on('end', () => resolve(res.statusCode))
+    })
+    req.on('error', reject)
+    req.end()
+  })
+  assert.ok(status >= 200 && status < 500)
+  const client = await app.client()
+  assert.equal(client.ws.readyState, WebSocket.OPEN)
+})
 
 async function fixture(t, options = {}) {
   const app = createRemoteServer(options)

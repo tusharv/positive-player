@@ -16,6 +16,20 @@ function mountShare() {
 }
 afterEach(() => vi.restoreAllMocks())
 
+it('previews custom cards for the first ten channels and a fallback for the rest', async () => {
+  const wrapper = mountShare()
+  await wrapper.get('button').trigger('click')
+  expect(wrapper.find('img.share-card').attributes('src')).toBe('/share-cards/fallback.png')
+  await wrapper.setProps({ channelNumber: 1 })
+  expect(wrapper.get('img.share-card').attributes('src')).toBe('/share-cards/bollywood.png')
+  expect(wrapper.get('img.share-card').attributes('alt')).toContain('Bollywood')
+  await wrapper.setProps({ channelNumber: 10 })
+  expect(wrapper.get('img.share-card').attributes('src')).toBe('/share-cards/space.png')
+  await wrapper.setProps({ channelNumber: 11 })
+  expect(wrapper.get('img.share-card').attributes('src')).toBe('/share-cards/fallback.png')
+  wrapper.unmount()
+})
+
 it('shares a clean player link and updates when the channel changes', async () => {
   const wrapper = mountShare()
   await wrapper.get('button').trigger('click')

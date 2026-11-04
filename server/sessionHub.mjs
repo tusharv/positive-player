@@ -38,7 +38,10 @@ export function createSessionHub({ now = Date.now, maxSessions = 1000 } = {}) {
         : {}),
     }
   }
-  function end(session) {
+  function end(session, cause = 'unspecified') {
+    // #region agent log
+    fetch('http://127.0.0.1:7694/ingest/232deeba-4d0f-4353-bc18-995dd3d1afd0',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'357331'},body:JSON.stringify({sessionId:'357331',hypothesisId:'B',location:'server/sessionHub.mjs:end',message:'session ended',data:{cause,ageMs:now()-session.createdAt,hostGoneMs:session.hostGoneAt===null?null:now()-session.hostGoneAt,hostOnline:Boolean(session.host),remoteOnline:Boolean(session.remote)},timestamp:Date.now()})}).catch(()=>{});
+    // #endregion
     sessions.delete(session.id)
     for (const socket of [session.host, session.remote]) {
       if (socket) {
@@ -49,11 +52,10 @@ export function createSessionHub({ now = Date.now, maxSessions = 1000 } = {}) {
   }
   function sweep() {
     for (const session of sessions.values()) {
-      if (
-        now() - session.createdAt >= 12 * 60 * 60 * 1000 ||
-        (session.hostGoneAt !== null && now() - session.hostGoneAt >= 120000)
-      )
-        end(session)
+      const ageMs = now() - session.createdAt
+      const hostGoneMs = session.hostGoneAt === null ? null : now() - session.hostGoneAt
+      if (ageMs >= 12 * 60 * 60 * 1000 || (hostGoneMs !== null && hostGoneMs >= 120000))
+        end(session, ageMs >= 12 * 60 * 60 * 1000 ? 'max-age' : 'host-gone')
     }
     for (const [address, limit] of attempts)
       if (now() - limit.start >= 60000) attempts.delete(address)
@@ -80,6 +82,9 @@ export function createSessionHub({ now = Date.now, maxSessions = 1000 } = {}) {
         since = now()
       }
       if (++count > 30) {
+        // #region agent log
+        fetch('http://127.0.0.1:7694/ingest/232deeba-4d0f-4353-bc18-995dd3d1afd0',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'357331'},body:JSON.stringify({sessionId:'357331',hypothesisId:'C',location:'server/sessionHub.mjs:rate',message:'message rate limit',data:{count,type:typeof raw==='string'?raw.slice(0,40):'binary'},timestamp:Date.now()})}).catch(()=>{});
+        // #endregion
         socket.close(1008, 'Too many messages')
         return
       }
@@ -168,6 +173,9 @@ export function createSessionHub({ now = Date.now, maxSessions = 1000 } = {}) {
         // Only one live socket per role. A resumed credential replaces its old transport.
         const previous = session[role]
         if (previous) {
+          // #region agent log
+          fetch('http://127.0.0.1:7694/ingest/232deeba-4d0f-4353-bc18-995dd3d1afd0',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'357331'},body:JSON.stringify({sessionId:'357331',hypothesisId:'D',location:'server/sessionHub.mjs:resume',message:'connection replaced',data:{role,previousReadyState:previous.readyState},timestamp:Date.now()})}).catch(()=>{});
+          // #endregion
           bindings.delete(previous)
           previous.close(4001, 'Connection replaced')
         }
@@ -189,7 +197,7 @@ export function createSessionHub({ now = Date.now, maxSessions = 1000 } = {}) {
       }
       const { session, role } = binding
       if (msg.type === 'end') {
-        end(session)
+        end(session, `client-end:${role}`)
         return
       }
       if (msg.type === 'state' && role === 'host' && isSnapshot(msg.state)) {
@@ -218,9 +226,12 @@ export function createSessionHub({ now = Date.now, maxSessions = 1000 } = {}) {
       }
       error(socket, 'invalid-message')
     })
-    socket.on('close', () => {
+    socket.on('close', (code, reason) => {
       clearTimeout(authenticationTimer)
       const binding = bindings.get(socket)
+      // #region agent log
+      fetch('http://127.0.0.1:7694/ingest/232deeba-4d0f-4353-bc18-995dd3d1afd0',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'357331'},body:JSON.stringify({sessionId:'357331',hypothesisId:'A',location:'server/sessionHub.mjs:close',message:'socket closed',data:{code,reason:Buffer.isBuffer(reason)?reason.toString():String(reason||''),role:binding?.role??null,bound:Boolean(binding),ageMs:socket._ppConnectedAt?now()-socket._ppConnectedAt:null},timestamp:Date.now()})}).catch(()=>{});
+      // #endregion
       if (!binding) return
       bindings.delete(socket)
       const { session, role } = binding

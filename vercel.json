@@ -1,12 +1,23 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
+    "api/watch.mjs": {
+      "includeFiles": "dist/share-pages/**"
+    },
     "api/remote-ws.mjs": {
       "maxDuration": 300,
       "includeFiles": "{server/**,src/lib/remoteProtocol.ts,src/data/**}"
     }
   },
   "rewrites": [
+    {
+      "source": "/watch",
+      "destination": "/api/watch"
+    },
+    {
+      "source": "/watch/",
+      "destination": "/api/watch"
+    },
     {
       "source": "/remote-ws",
       "destination": "/api/remote-ws"
