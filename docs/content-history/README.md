@@ -14,3 +14,9 @@ A week's coverage means at least 604,800 seconds of distinct video IDs per chann
 ## 21 October 2026 refresh
 
 The complete pre-refresh state is in `2026-10-21-before-refresh/`. Consult `2026-10-21-all-additions.json` for all newly introduced IDs and source links, and `2026-10-21-additions.json` for the history-checked discovery batch. The user requires dedicated-show channels to stay exclusive to their named show. Do not broaden them to fill runtime gaps. See [the audit](../content-audit-2026-10-21.md) for unresolved shortfalls.
+
+## 23 November 2026 archive and refresh attempt
+
+The complete lists for all 125 channels are backed up in `2026-11-23-before-refresh/`, ahead of the week of 30 November–6 December 2026. The archive was verified against every current channel list.
+
+The refresh could not fetch YouTube metadata because DNS resolution for `www.googleapis.com` failed (`ENOTFOUND`). No channel lists changed. `refresh-attempt.json` records the failed attempt; the previous published audit remains unchanged. Retry `npm run refresh:weekly` when network access is available, using its default timestamp to preserve this archive.

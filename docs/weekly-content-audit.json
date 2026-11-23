@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-21T17:15:38.583Z",
+  "checkedAt": "2026-11-23T14:14:35.640Z",
   "targetHours": 168,
-  "archive": "2026-10-21-before-refresh",
-  "ready": 63,
-  "uniqueness": "Distinct video IDs only; overlapping footage and repeated performances are not certified.",
+  "archive": "2026-11-23T14-09-54-990Z",
+  "requests": 2358,
+  "ready": 65,
   "channels": [
     {
       "number": 1,
@@ -13,7 +13,10 @@
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PL9bw4S5ePsEEgvwzsXt7OT1WjndTTrF7q",
+      "pages": 1
     },
     {
       "number": 2,
@@ -23,7 +26,10 @@
       "missingSeconds": 374578,
       "ready": false,
       "duplicates": 0,
-      "added": 21
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PLEpeKf7U6gmZf6x8KdOaZ4nfEBJw_xlWz",
+      "pages": 1
     },
     {
       "number": 3,
@@ -33,7 +39,10 @@
       "missingSeconds": 543727,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PL65eurRkEvghrieaRGNpneAZmZoUeM5Kc",
+      "pages": 2
     },
     {
       "number": 4,
@@ -43,17 +52,22 @@
       "missingSeconds": 18594,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PLJHHPzufWhurTWga4uBzL-M3F79A71p2Z",
+      "pages": 6
     },
     {
       "number": 5,
       "name": "DD Classics",
       "videos": 2133,
-      "seconds": 2968201,
+      "seconds": 2968202,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "pages": 0
     },
     {
       "number": 6,
@@ -63,17 +77,23 @@
       "missingSeconds": 438189,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PLFPJRCFRDARSfz9y9YPMG_tCTSeYeGNA3",
+      "pages": 2
     },
     {
       "number": 7,
       "name": "Mahabharat",
-      "videos": 1253,
-      "seconds": 628331,
+      "videos": 1294,
+      "seconds": 647065,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 41,
+      "newSeconds": 18734,
+      "playlistId": "UUHKGDg0GJKBsA9mFraDOLHA",
+      "pages": 1
     },
     {
       "number": 8,
@@ -83,77 +103,100 @@
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UURZPkuHwaoKwTP3CYPdVldg",
+      "pages": 1
     },
     {
       "number": 9,
       "name": "Street Food",
-      "videos": 449,
-      "seconds": 627338,
+      "videos": 453,
+      "seconds": 633707,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 4,
+      "newSeconds": 6369,
+      "playlistId": "UUcAd5Np7fO8SeejB1FVKcYw",
+      "pages": 1
     },
     {
       "number": 10,
       "name": "Space",
-      "videos": 141,
-      "seconds": 710223,
+      "videos": 153,
+      "seconds": 798189,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 12,
+      "newSeconds": 87966,
+      "playlistId": "UULA_DiR1FfKNvjuUpBHmylQ",
+      "pages": 1
     },
     {
       "number": 11,
       "name": "Football",
-      "videos": 75,
-      "seconds": 379753,
-      "missingSeconds": 225047,
+      "videos": 73,
+      "seconds": 375985,
+      "missingSeconds": 228815,
       "ready": false,
       "duplicates": 0,
-      "added": 2
+      "newVideos": 0,
+      "newSeconds": 0,
+      "pages": 0
     },
     {
       "number": 12,
       "name": "Tokyo",
-      "videos": 149,
-      "seconds": 668148,
+      "videos": 151,
+      "seconds": 674912,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 2,
+      "newSeconds": 6764,
+      "playlistId": "UUAcsAE1tpLuP3y7UhxUoWpQ",
+      "pages": 1
     },
     {
       "number": 13,
-      "name": "Vintage India",
-      "videos": 198,
-      "seconds": 10220,
-      "missingSeconds": 594580,
-      "ready": false,
+      "name": "Taarak Mehta Ka Ooltah Chashmah",
+      "videos": 500,
+      "seconds": 666079,
+      "missingSeconds": 0,
+      "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 400,
+      "newSeconds": 537745,
+      "playlistId": "PLPbh-P_C0BzSKo8X_EiY0WewaBlNt49g3",
+      "pages": 10
     },
     {
       "number": 14,
       "name": "Dogs",
-      "videos": 1478,
-      "seconds": 326196,
-      "missingSeconds": 278604,
+      "videos": 1549,
+      "seconds": 337787,
+      "missingSeconds": 267013,
       "ready": false,
       "duplicates": 0,
-      "added": 6
+      "newVideos": 71,
+      "newSeconds": 11591,
+      "playlistId": "UUINb0wqPz-A0dV9nARjJlOQ",
+      "pages": 100
     },
     {
       "number": 15,
       "name": "Kitchen",
-      "videos": 722,
-      "seconds": 629209,
+      "videos": 725,
+      "seconds": 635060,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 3,
+      "newSeconds": 5851,
+      "playlistId": "UUJHA_jMfCvEnv-3kRjTCQXw",
+      "pages": 1
     },
     {
       "number": 16,
@@ -163,37 +206,49 @@
       "missingSeconds": 576985,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUB_qr75-ydFVKSF9Dmo6izg",
+      "pages": 0
     },
     {
       "number": 17,
       "name": "Craft",
-      "videos": 743,
-      "seconds": 606685,
+      "videos": 745,
+      "seconds": 609193,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 2,
+      "newSeconds": 2508,
+      "playlistId": "UU6x7GwJxuoABSosgVXDYtTw",
+      "pages": 1
     },
     {
       "number": 18,
       "name": "Good News",
-      "videos": 413,
-      "seconds": 230399,
-      "missingSeconds": 374401,
+      "videos": 417,
+      "seconds": 231563,
+      "missingSeconds": 373237,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 4,
+      "newSeconds": 1164,
+      "playlistId": "PLJzm9BhU_wL8u0sJS0XZm1NkloJW5-us4",
+      "pages": 9
     },
     {
       "number": 19,
       "name": "Safari",
-      "videos": 838,
-      "seconds": 917589,
+      "videos": 843,
+      "seconds": 874939,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 8,
+      "newSeconds": 1003,
+      "playlistId": "UUyfZleh4w7buTzi0WfY8WqA",
+      "pages": 1
     },
     {
       "number": 20,
@@ -203,97 +258,127 @@
       "missingSeconds": 14183,
       "ready": false,
       "duplicates": 0,
-      "added": 26
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUtnboZiB_Nqif-YNtp4aB7A",
+      "pages": 46
     },
     {
       "number": 21,
       "name": "Olympics",
-      "videos": 592,
-      "seconds": 619123,
+      "videos": 607,
+      "seconds": 627715,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 15,
+      "newSeconds": 8592,
+      "playlistId": "UUTl3QQTvqHFjurroKxexy2Q",
+      "pages": 1
     },
     {
       "number": 22,
       "name": "Talks",
-      "videos": 952,
-      "seconds": 638840,
+      "videos": 990,
+      "seconds": 661220,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 38,
+      "newSeconds": 22380,
+      "playlistId": "UUAuUUnT6oDeKwE6v1NGQxug",
+      "pages": 1
     },
     {
       "number": 23,
       "name": "Cats",
-      "videos": 676,
-      "seconds": 183932,
-      "missingSeconds": 420868,
+      "videos": 689,
+      "seconds": 185656,
+      "missingSeconds": 419144,
       "ready": false,
       "duplicates": 0,
-      "added": 3
+      "newVideos": 13,
+      "newSeconds": 1724,
+      "playlistId": "PLLoPYaJqlcK5SzvX5rykYnsfLTxtXqLdf",
+      "pages": 21
     },
     {
       "number": 24,
       "name": "Circus",
-      "videos": 659,
-      "seconds": 626420,
+      "videos": 676,
+      "seconds": 640978,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 17,
+      "newSeconds": 14558,
+      "playlistId": "UUPiWIjwDZQo3UobMqvi4ggg",
+      "pages": 1
     },
     {
       "number": 25,
       "name": "Nature",
-      "videos": 426,
-      "seconds": 666436,
+      "videos": 448,
+      "seconds": 685799,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 24,
+      "newSeconds": 40989,
+      "playlistId": "UUwmZiChSryoWQCZMIQezgTg",
+      "pages": 1
     },
     {
       "number": 26,
       "name": "Ocean",
-      "videos": 326,
-      "seconds": 572135,
-      "missingSeconds": 32665,
+      "videos": 329,
+      "seconds": 572681,
+      "missingSeconds": 32119,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 3,
+      "newSeconds": 546,
+      "playlistId": "UUFXww6CrLAHhyZQCDnJ2g2A",
+      "pages": 13
     },
     {
       "number": 27,
       "name": "Lofi",
-      "videos": 82,
-      "seconds": 648147,
+      "videos": 84,
+      "seconds": 677020,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 2,
+      "newSeconds": 28873,
+      "playlistId": "UUSJ4gkVC6NrvII8umztf0Ow",
+      "pages": 1
     },
     {
       "number": 28,
       "name": "Classic Music",
-      "videos": 1445,
-      "seconds": 604748,
-      "missingSeconds": 52,
-      "ready": false,
+      "videos": 1447,
+      "seconds": 605162,
+      "missingSeconds": 0,
+      "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 2,
+      "newSeconds": 414,
+      "playlistId": "UUWgEWXnFFFeoXMJ766CfDLw",
+      "pages": 1
     },
     {
       "number": 29,
       "name": "Rain",
-      "videos": 52,
-      "seconds": 1872267,
+      "videos": 57,
+      "seconds": 2059425,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 6,
+      "newSeconds": 223200,
+      "playlistId": "UUbunYN0o9Yaid7zHaor_UHA",
+      "pages": 1
     },
     {
       "number": 30,
@@ -303,7 +388,10 @@
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PL4UrVoa7kdmLyRisW0n561OwhnImAx4z4",
+      "pages": 1
     },
     {
       "number": 31,
@@ -313,7 +401,10 @@
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUqRTj-Nu_8to3jIBlXptOtA",
+      "pages": 1
     },
     {
       "number": 32,
@@ -323,47 +414,62 @@
       "missingSeconds": 499617,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UU95bEkaIgwhxSjSsdMFXYGg",
+      "pages": 5
     },
     {
       "number": 33,
       "name": "Desert",
-      "videos": 4,
-      "seconds": 14578,
-      "missingSeconds": 590222,
+      "videos": 5,
+      "seconds": 18237,
+      "missingSeconds": 586563,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 1,
+      "newSeconds": 3659,
+      "playlistId": "UU95bEkaIgwhxSjSsdMFXYGg",
+      "pages": 5
     },
     {
       "number": 34,
       "name": "River",
-      "videos": 50,
-      "seconds": 612106,
+      "videos": 53,
+      "seconds": 622307,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 3,
+      "newSeconds": 10201,
+      "playlistId": "UU4lp9Emg1ci8eo2eDkB-Tag",
+      "pages": 1
     },
     {
       "number": 35,
       "name": "Falls",
-      "videos": 88,
-      "seconds": 1454291,
+      "videos": 89,
+      "seconds": 1457689,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 1,
+      "newSeconds": 3398,
+      "playlistId": "PLbWPytS1GWJKzzmiIzt7tf6xvx4t_IrQ5",
+      "pages": 1
     },
     {
       "number": 36,
       "name": "Snow",
-      "videos": 50,
-      "seconds": 1957839,
+      "videos": 64,
+      "seconds": 2559124,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 14,
+      "newSeconds": 601285,
+      "playlistId": "UU4SnPoPC5g4LKsRsLVNIhmw",
+      "pages": 1
     },
     {
       "number": 37,
@@ -373,37 +479,49 @@
       "missingSeconds": 487621,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PLjZRlIGUTsuaMjEU_3-yLTEn5AYUEoFTn",
+      "pages": 1
     },
     {
       "number": 38,
       "name": "Clouds",
-      "videos": 100,
-      "seconds": 23131,
-      "missingSeconds": 581669,
+      "videos": 101,
+      "seconds": 23508,
+      "missingSeconds": 581292,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 1,
+      "newSeconds": 377,
+      "playlistId": "UUqOecsBLULnuUtls0tISTCw",
+      "pages": 3
     },
     {
       "number": 39,
       "name": "Stars",
-      "videos": 2143,
-      "seconds": 558482,
-      "missingSeconds": 46318,
+      "videos": 2152,
+      "seconds": 560449,
+      "missingSeconds": 44351,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 9,
+      "newSeconds": 1967,
+      "playlistId": "UUAY-SMFNfynqz1bdoaV8BeQ",
+      "pages": 50
     },
     {
       "number": 40,
       "name": "Aquarium",
-      "videos": 231,
-      "seconds": 1202881,
+      "videos": 234,
+      "seconds": 1210814,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 3,
+      "newSeconds": 7933,
+      "playlistId": "UUnM5iMGiKsZg-iOlIO2ZkdQ",
+      "pages": 1
     },
     {
       "number": 41,
@@ -413,7 +531,10 @@
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PLgSpqOFj1Ta6oK7v-UJSGDlsYp1eJwTxu",
+      "pages": 1
     },
     {
       "number": 42,
@@ -423,17 +544,23 @@
       "missingSeconds": 549949,
       "ready": false,
       "duplicates": 0,
-      "added": 9
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUG5_BraUMNcluZPZ__oOeKg",
+      "pages": 4
     },
     {
       "number": 43,
       "name": "Horses",
-      "videos": 134,
-      "seconds": 768976,
+      "videos": 166,
+      "seconds": 849132,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 34,
+      "newSeconds": 144286,
+      "playlistId": "UUb3uedNKWKG7gGDYQJ1VsWg",
+      "pages": 1
     },
     {
       "number": 44,
@@ -443,17 +570,23 @@
       "missingSeconds": 513003,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PLYaDfKVvDcj01iIJn_F9NHRhNIAsEzW5Y",
+      "pages": 1
     },
     {
       "number": 45,
       "name": "Bees",
-      "videos": 30,
-      "seconds": 68778,
-      "missingSeconds": 536022,
+      "videos": 31,
+      "seconds": 75324,
+      "missingSeconds": 529476,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 1,
+      "newSeconds": 6546,
+      "playlistId": "PLbqt4HPEAdEN1YlgS-QS_JB8KYzcZI7xj",
+      "pages": 1
     },
     {
       "number": 46,
@@ -463,17 +596,23 @@
       "missingSeconds": 517788,
       "ready": false,
       "duplicates": 0,
-      "added": 22
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PL5EGD6MqjI6JeDJyJ6th8K9zI-mtYnYs9",
+      "pages": 1
     },
     {
       "number": 47,
       "name": "Reef",
-      "videos": 23,
-      "seconds": 662702,
+      "videos": 24,
+      "seconds": 705713,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 1,
+      "newSeconds": 43011,
+      "playlistId": "PL2F2nldKr5s2K4eTktOO4wj17j599YhMt",
+      "pages": 1
     },
     {
       "number": 48,
@@ -483,17 +622,23 @@
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUTpTyEljhUp2WJ2m7Me932Q",
+      "pages": 1
     },
     {
       "number": 49,
       "name": "Guitar",
-      "videos": 1110,
-      "seconds": 606305,
+      "videos": 1114,
+      "seconds": 613102,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 4,
+      "newSeconds": 6797,
+      "playlistId": "UUjWRi2qaGtKjQyoQLc4OGkw",
+      "pages": 1
     },
     {
       "number": 50,
@@ -503,27 +648,36 @@
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUAzKFALPuF_EPe-AEI0WFFw",
+      "pages": 1
     },
     {
       "number": 51,
       "name": "Choir",
-      "videos": 499,
-      "seconds": 249320,
-      "missingSeconds": 355480,
+      "videos": 502,
+      "seconds": 250135,
+      "missingSeconds": 354665,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 3,
+      "newSeconds": 815,
+      "playlistId": "UU3UpGPbOIOG6IaUijyRpp6Q",
+      "pages": 11
     },
     {
       "number": 52,
       "name": "Ambient",
-      "videos": 111,
-      "seconds": 1093068,
+      "videos": 113,
+      "seconds": 1104177,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 2,
+      "newSeconds": 11109,
+      "playlistId": "UUjzHeG1KWoonmf9d5KBvSiw",
+      "pages": 1
     },
     {
       "number": 53,
@@ -533,17 +687,23 @@
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUMntlo_DQc_r4ZJuiYYEYdQ",
+      "pages": 1
     },
     {
       "number": 54,
       "name": "Blues",
-      "videos": 31,
-      "seconds": 130585,
-      "missingSeconds": 474215,
+      "videos": 33,
+      "seconds": 130705,
+      "missingSeconds": 474095,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 2,
+      "newSeconds": 120,
+      "playlistId": "UULN-YTnK_48R0ZikVjQs5jQ",
+      "pages": 1
     },
     {
       "number": 55,
@@ -553,7 +713,10 @@
       "missingSeconds": 436211,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUAlTDckOOQ2jREOvuCShGbw",
+      "pages": 13
     },
     {
       "number": 56,
@@ -563,7 +726,10 @@
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUL4bnkoDiRjfgP9Or95kEbw",
+      "pages": 1
     },
     {
       "number": 57,
@@ -573,7 +739,11 @@
       "missingSeconds": 569311,
       "ready": false,
       "duplicates": 0,
-      "added": 8
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PLOmtfLQC0_e0D6G3yIs-elWDnVWP-hm5G",
+      "pages": 0,
+      "error": "YouTube 404: playlistNotFound"
     },
     {
       "number": 58,
@@ -583,27 +753,36 @@
       "missingSeconds": 590492,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PLFojSGDcNCvTHYHY4NajTgMLYkvyozRdd",
+      "pages": 2
     },
     {
       "number": 59,
       "name": "Disco",
-      "videos": 50,
-      "seconds": 15010,
-      "missingSeconds": 589790,
+      "videos": 51,
+      "seconds": 15202,
+      "missingSeconds": 589598,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 1,
+      "newSeconds": 192,
+      "playlistId": "UUl8SEpoDrxkD_Ld1teSat6A",
+      "pages": 2
     },
     {
       "number": 60,
       "name": "Funk",
-      "videos": 207,
-      "seconds": 74097,
-      "missingSeconds": 530703,
+      "videos": 211,
+      "seconds": 75192,
+      "missingSeconds": 529608,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 4,
+      "newSeconds": 1095,
+      "playlistId": "UUOCZxe0gNRA7c3PGWPGoiGg",
+      "pages": 12
     },
     {
       "number": 61,
@@ -613,7 +792,10 @@
       "missingSeconds": 567968,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUJeBQabyLa_FvMxb6G67lkw",
+      "pages": 3
     },
     {
       "number": 62,
@@ -623,17 +805,23 @@
       "missingSeconds": 596093,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUv_5qR7iLZwlImg_8qc6Iog",
+      "pages": 2
     },
     {
       "number": 63,
       "name": "Sitar",
-      "videos": 78,
-      "seconds": 71847,
-      "missingSeconds": 532953,
+      "videos": 77,
+      "seconds": 67388,
+      "missingSeconds": 537412,
       "ready": false,
       "duplicates": 0,
-      "added": 10
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PLUF0f6tPgIwik6BS7uX4Lvkebbr9h1350",
+      "pages": 2
     },
     {
       "number": 64,
@@ -643,7 +831,10 @@
       "missingSeconds": 564546,
       "ready": false,
       "duplicates": 0,
-      "added": 3
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUXC3VvleQnzW0FCYE5wRPyQ",
+      "pages": 20
     },
     {
       "number": 65,
@@ -653,7 +844,10 @@
       "missingSeconds": 575492,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUkcmp_h85HYZVV23SB0oMkA",
+      "pages": 2
     },
     {
       "number": 66,
@@ -663,17 +857,23 @@
       "missingSeconds": 598406,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PLd0zuSurhpKR49UajTetpTY1qI2eDZPJi",
+      "pages": 1
     },
     {
       "number": 67,
       "name": "Mariachi",
-      "videos": 25,
-      "seconds": 18487,
-      "missingSeconds": 586313,
+      "videos": 28,
+      "seconds": 20012,
+      "missingSeconds": 584788,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 3,
+      "newSeconds": 1525,
+      "playlistId": "PLzdgxwGVpduwxJrmPmkEcNu_Zzm5k8N9F",
+      "pages": 1
     },
     {
       "number": 68,
@@ -683,7 +883,10 @@
       "missingSeconds": 155059,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUv39nhczfWLxiKFtIX7Km8A",
+      "pages": 33
     },
     {
       "number": 69,
@@ -693,27 +896,36 @@
       "missingSeconds": 331921,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PL0Rx5rU93KFZUG2LgWfZZjUlC5G-KDpfM",
+      "pages": 12
     },
     {
       "number": 70,
       "name": "Opera",
-      "videos": 901,
-      "seconds": 616223,
+      "videos": 905,
+      "seconds": 617269,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 4,
+      "newSeconds": 1046,
+      "playlistId": "UUZXldHqCGM5nmD4id4iX7WA",
+      "pages": 1
     },
     {
       "number": 71,
       "name": "Harp",
-      "videos": 204,
-      "seconds": 47395,
-      "missingSeconds": 557405,
+      "videos": 207,
+      "seconds": 52036,
+      "missingSeconds": 552764,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 3,
+      "newSeconds": 4640,
+      "playlistId": "UUTyEKPXJjmtpYentN9gen7Q",
+      "pages": 6
     },
     {
       "number": 72,
@@ -723,87 +935,114 @@
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PLiCkeo30HQ6u4aairochOjkrE_mCN5_HY",
+      "pages": 1
     },
     {
       "number": 73,
       "name": "Organ",
-      "videos": 45,
-      "seconds": 19686,
-      "missingSeconds": 585114,
+      "videos": 46,
+      "seconds": 20090,
+      "missingSeconds": 584710,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 1,
+      "newSeconds": 404,
+      "playlistId": "PLaVWZ47o6fDfelo9Yec5N3aTblHLrD6fR",
+      "pages": 1
     },
     {
       "number": 74,
       "name": "Baking",
-      "videos": 804,
-      "seconds": 639438,
+      "videos": 806,
+      "seconds": 643001,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 30
+      "newVideos": 2,
+      "newSeconds": 3563,
+      "playlistId": "UUhBEbMKI1eCcejTtmI32UEw",
+      "pages": 1
     },
     {
       "number": 75,
       "name": "Coffee",
-      "videos": 632,
-      "seconds": 648642,
+      "videos": 635,
+      "seconds": 651848,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 3,
+      "newSeconds": 3206,
+      "playlistId": "UUMb0O2CdPBNi-QqPk5T3gsQ",
+      "pages": 1
     },
     {
       "number": 76,
       "name": "Tea",
-      "videos": 436,
-      "seconds": 622618,
+      "videos": 452,
+      "seconds": 648428,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 16,
+      "newSeconds": 25810,
+      "playlistId": "UUaHBABJFMRAtnKhQp2Cu5BQ",
+      "pages": 1
     },
     {
       "number": 77,
       "name": "Pasta",
-      "videos": 859,
-      "seconds": 627173,
+      "videos": 876,
+      "seconds": 635050,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 17,
+      "newSeconds": 7877,
+      "playlistId": "UUcsSowAamCLJv-xeF9geXoA",
+      "pages": 1
     },
     {
       "number": 78,
       "name": "Clay",
-      "videos": 860,
-      "seconds": 717653,
+      "videos": 878,
+      "seconds": 730494,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 18,
+      "newSeconds": 12841,
+      "playlistId": "UUqZL_f4Jp8yHnv2KNvcsWeg",
+      "pages": 1
     },
     {
       "number": 79,
       "name": "Wood",
-      "videos": 709,
-      "seconds": 676625,
+      "videos": 712,
+      "seconds": 677052,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 3,
+      "newSeconds": 427,
+      "playlistId": "UUxWzA3ZlYEOLr1JkKH0ZMyg",
+      "pages": 1
     },
     {
       "number": 80,
       "name": "Glass",
-      "videos": 351,
-      "seconds": 658403,
+      "videos": 355,
+      "seconds": 673617,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 4,
+      "newSeconds": 15213,
+      "playlistId": "UUAmsTmQTOPbSfXs6QIDgGXg",
+      "pages": 1
     },
     {
       "number": 81,
@@ -813,7 +1052,10 @@
       "missingSeconds": 512601,
       "ready": false,
       "duplicates": 0,
-      "added": 27
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PLNk1tG--Kr2w6FDj75hlFn8AQ6nbkTkm2",
+      "pages": 1
     },
     {
       "number": 82,
@@ -823,17 +1065,23 @@
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PLAEQD0ULngi67rwmhrkNjMZKvyCReqDV4",
+      "pages": 1
     },
     {
       "number": 83,
       "name": "Yarn",
-      "videos": 948,
-      "seconds": 717426,
+      "videos": 950,
+      "seconds": 717598,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 2,
+      "newSeconds": 172,
+      "playlistId": "UUrRT4LwemxYrZxj-HeCkK9Q",
+      "pages": 1
     },
     {
       "number": 84,
@@ -843,7 +1091,10 @@
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UU3ICcukYYeSn26KlCRnhOhA",
+      "pages": 1
     },
     {
       "number": 85,
@@ -853,17 +1104,23 @@
       "missingSeconds": 330057,
       "ready": false,
       "duplicates": 0,
-      "added": 61
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUNzul4dnciIlDg8BAcn5-cQ",
+      "pages": 12
     },
     {
       "number": 86,
       "name": "Venice",
-      "videos": 96,
-      "seconds": 455458,
-      "missingSeconds": 149342,
+      "videos": 95,
+      "seconds": 453969,
+      "missingSeconds": 150831,
       "ready": false,
       "duplicates": 0,
-      "added": 65
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PLSOO4vYXpMCcbP8icPmSgGPZisqtQlBKJ",
+      "pages": 1
     },
     {
       "number": 87,
@@ -873,37 +1130,49 @@
       "missingSeconds": 350782,
       "ready": false,
       "duplicates": 0,
-      "added": 69
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PLSOO4vYXpMCc69vi-SFMODDGKQf_7D-IK",
+      "pages": 1
     },
     {
       "number": 88,
       "name": "Marrakech",
       "videos": 73,
-      "seconds": 175873,
-      "missingSeconds": 428927,
+      "seconds": 175855,
+      "missingSeconds": 428945,
       "ready": false,
       "duplicates": 0,
-      "added": 52
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PLRkuD7Rf6F-rwC_S3rB9eFKh1-0T4l3LQ",
+      "pages": 1
     },
     {
       "number": 89,
       "name": "Havana",
-      "videos": 86,
-      "seconds": 169616,
-      "missingSeconds": 435184,
+      "videos": 84,
+      "seconds": 163232,
+      "missingSeconds": 441568,
       "ready": false,
       "duplicates": 0,
-      "added": 49
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PLNpYAPrYRwSo1F3hZHkBaI6GTkmJYjsVT",
+      "pages": 1
     },
     {
       "number": 90,
       "name": "Seoul",
-      "videos": 283,
-      "seconds": 419322,
-      "missingSeconds": 185478,
+      "videos": 281,
+      "seconds": 415739,
+      "missingSeconds": 189061,
       "ready": false,
       "duplicates": 0,
-      "added": 62
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUuQoPphv4rYLbJwR8GZXwuQ",
+      "pages": 5
     },
     {
       "number": 91,
@@ -913,7 +1182,10 @@
       "missingSeconds": 359782,
       "ready": false,
       "duplicates": 0,
-      "added": 50
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PLGc7GQUGUD5tQwe8bBkyi7oGCf23AgmrV",
+      "pages": 1
     },
     {
       "number": 92,
@@ -923,7 +1195,10 @@
       "missingSeconds": 449420,
       "ready": false,
       "duplicates": 0,
-      "added": 42
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUw1rm0G84eMEeMZ5dvxPnEw",
+      "pages": 4
     },
     {
       "number": 93,
@@ -933,47 +1208,62 @@
       "missingSeconds": 484778,
       "ready": false,
       "duplicates": 0,
-      "added": 40
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UU95bEkaIgwhxSjSsdMFXYGg",
+      "pages": 5
     },
     {
       "number": 94,
       "name": "Kerala",
-      "videos": 2160,
-      "seconds": 605294,
+      "videos": 2161,
+      "seconds": 605675,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 9,
+      "newSeconds": 1365,
+      "playlistId": "UUmiF2GcrQwFeiTdnKJ_023A",
+      "pages": 1
     },
     {
       "number": 95,
       "name": "Lisbon",
-      "videos": 437,
-      "seconds": 364054,
-      "missingSeconds": 240746,
+      "videos": 438,
+      "seconds": 364116,
+      "missingSeconds": 240684,
       "ready": false,
       "duplicates": 0,
-      "added": 75
+      "newVideos": 1,
+      "newSeconds": 78,
+      "playlistId": "UU5D1TiKg5e0Q2FDzlBk2mdA",
+      "pages": 13
     },
     {
       "number": 96,
       "name": "Yoga",
-      "videos": 493,
-      "seconds": 663493,
+      "videos": 495,
+      "seconds": 664731,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 2,
+      "newSeconds": 1238,
+      "playlistId": "UUFKE7WVJfvaHW5q283SxchA",
+      "pages": 1
     },
     {
       "number": 97,
       "name": "Still",
-      "videos": 199,
-      "seconds": 630180,
+      "videos": 201,
+      "seconds": 635361,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 2,
+      "newSeconds": 5181,
+      "playlistId": "UU4jWo5kiyOCt4PnvF4jbaLg",
+      "pages": 1
     },
     {
       "number": 98,
@@ -983,77 +1273,101 @@
       "missingSeconds": 596758,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PLMypbNPFKGgRcuiKMpj79cE-VHP4I2zhB",
+      "pages": 1
     },
     {
       "number": 99,
       "name": "Museum",
-      "videos": 372,
-      "seconds": 715226,
+      "videos": 378,
+      "seconds": 720566,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 6,
+      "newSeconds": 5340,
+      "playlistId": "UUafm6w_rPndqAtokQy04Jdw",
+      "pages": 1
     },
     {
       "number": 100,
       "name": "Buildings",
-      "videos": 626,
-      "seconds": 642759,
+      "videos": 634,
+      "seconds": 643707,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 8,
+      "newSeconds": 959,
+      "playlistId": "UUsWG9ANbrmgR0z-eFk_A3YQ",
+      "pages": 1
     },
     {
       "number": 101,
       "name": "History",
-      "videos": 164,
-      "seconds": 646769,
+      "videos": 170,
+      "seconds": 688221,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 6,
+      "newSeconds": 41452,
+      "playlistId": "UU88lvyJe7aHZmcvzvubDFRg",
+      "pages": 1
     },
     {
       "number": 102,
       "name": "Rocks",
-      "videos": 411,
-      "seconds": 370137,
-      "missingSeconds": 234663,
+      "videos": 415,
+      "seconds": 375678,
+      "missingSeconds": 229122,
       "ready": false,
       "duplicates": 0,
-      "added": 20
+      "newVideos": 4,
+      "newSeconds": 5541,
+      "playlistId": "UUzR-rom72PHN9Zg7RML9EbA",
+      "pages": 11
     },
     {
       "number": 103,
       "name": "Words",
       "videos": 2002,
-      "seconds": 609611,
+      "seconds": 609612,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUqcBu0YyEJH4vfKR--97cng",
+      "pages": 1
     },
     {
       "number": 104,
       "name": "Chess",
-      "videos": 63,
-      "seconds": 635572,
+      "videos": 81,
+      "seconds": 760368,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 18,
+      "newSeconds": 125150,
+      "playlistId": "UU5kS0l76kC0xOzMPtOmSFGw",
+      "pages": 1
     },
     {
       "number": 105,
       "name": "Gardens",
-      "videos": 355,
-      "seconds": 678538,
+      "videos": 378,
+      "seconds": 721663,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 23,
+      "newSeconds": 43125,
+      "playlistId": "UU_kg1A_YPAa66hZWq7VPg7Q",
+      "pages": 1
     },
     {
       "number": 106,
@@ -1063,77 +1377,101 @@
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUj-Xm8j6WBgKY8OG7s9r2vQ",
+      "pages": 1
     },
     {
       "number": 107,
       "name": "Sailing",
-      "videos": 533,
-      "seconds": 609434,
+      "videos": 539,
+      "seconds": 614624,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 6,
+      "newSeconds": 5190,
+      "playlistId": "UUZdQjaSoLjIzFnWsDQOv4ww",
+      "pages": 1
     },
     {
       "number": 108,
       "name": "Tennis",
-      "videos": 883,
-      "seconds": 697003,
+      "videos": 910,
+      "seconds": 874604,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 27,
+      "newSeconds": 177601,
+      "playlistId": "UUY_5h5zaSwN7Or4kIJDYNXA",
+      "pages": 1
     },
     {
       "number": 109,
       "name": "Hoops",
-      "videos": 499,
-      "seconds": 632439,
+      "videos": 530,
+      "seconds": 678218,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 31,
+      "newSeconds": 45779,
+      "playlistId": "UUWJ2lWNubArHWmf3FIHbfcQ",
+      "pages": 1
     },
     {
       "number": 110,
       "name": "Peloton",
-      "videos": 1190,
-      "seconds": 539531,
-      "missingSeconds": 65269,
+      "videos": 1198,
+      "seconds": 548606,
+      "missingSeconds": 56194,
       "ready": false,
       "duplicates": 0,
-      "added": 37
+      "newVideos": 8,
+      "newSeconds": 9075,
+      "playlistId": "UUSpycUnuU0IVF7gGIhGojhg",
+      "pages": 100
     },
     {
       "number": 111,
       "name": "Ice",
-      "videos": 494,
-      "seconds": 615090,
+      "videos": 542,
+      "seconds": 810171,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 48,
+      "newSeconds": 195081,
+      "playlistId": "UU_rE3bivyW-5h3O_bynaGxA",
+      "pages": 1
     },
     {
       "number": 112,
       "name": "Surf",
-      "videos": 684,
-      "seconds": 2030707,
+      "videos": 688,
+      "seconds": 2031139,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 4,
+      "newSeconds": 432,
+      "playlistId": "UU--3c8RqSfAqYBdDjIG3UNA",
+      "pages": 1
     },
     {
       "number": 113,
       "name": "Trail",
-      "videos": 53,
-      "seconds": 623099,
+      "videos": 55,
+      "seconds": 648615,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 2,
+      "newSeconds": 25516,
+      "playlistId": "UUg72Hd6UZAgPBAUZplnmPMQ",
+      "pages": 1
     },
     {
       "number": 114,
@@ -1143,17 +1481,23 @@
       "missingSeconds": 3328,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUfpCQ89W9wjkHc8J_6eTbBg",
+      "pages": 10
     },
     {
       "number": 115,
       "name": "Library",
-      "videos": 201,
-      "seconds": 714408,
+      "videos": 211,
+      "seconds": 736424,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 11,
+      "newSeconds": 28406,
+      "playlistId": "UUxH6RUpdRmQhzgUQ_BlRQmA",
+      "pages": 1
     },
     {
       "number": 116,
@@ -1163,17 +1507,23 @@
       "missingSeconds": 602734,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUcZK1UEPwVR5HQNOIZoW8lg",
+      "pages": 1
     },
     {
       "number": 117,
       "name": "Vinyl",
-      "videos": 54,
-      "seconds": 284392,
-      "missingSeconds": 320408,
+      "videos": 56,
+      "seconds": 294892,
+      "missingSeconds": 309908,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 2,
+      "newSeconds": 10500,
+      "playlistId": "PLFLTS7JK6gEQ5VIPqTundm0VmhtzVXm-d",
+      "pages": 2
     },
     {
       "number": 118,
@@ -1183,7 +1533,10 @@
       "missingSeconds": 541683,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PLbWPytS1GWJKsyK323LH2jrus-Rd-4fvW",
+      "pages": 1
     },
     {
       "number": 119,
@@ -1193,7 +1546,10 @@
       "missingSeconds": 447711,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PLbWPytS1GWJKsyK323LH2jrus-Rd-4fvW",
+      "pages": 1
     },
     {
       "number": 120,
@@ -1203,7 +1559,10 @@
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUAQpSHsgUcNt6uCOjpgD8kw",
+      "pages": 1
     },
     {
       "number": 121,
@@ -1213,37 +1572,49 @@
       "missingSeconds": 521929,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUCkmgsl8W18oR6c_W7UZ1lQ",
+      "pages": 3
     },
     {
       "number": 122,
       "name": "Market",
-      "videos": 292,
-      "seconds": 681264,
+      "videos": 301,
+      "seconds": 701217,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 9,
+      "newSeconds": 19953,
+      "playlistId": "UUyEd6QBSgat5kkC6svyjudA",
+      "pages": 1
     },
     {
       "number": 123,
       "name": "Festival",
-      "videos": 247,
-      "seconds": 644950,
+      "videos": 272,
+      "seconds": 723088,
       "missingSeconds": 0,
       "ready": true,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 26,
+      "newSeconds": 78306,
+      "playlistId": "UUpVm7bg6pXKo1Pr6k5kxG9A",
+      "pages": 1
     },
     {
       "number": 124,
       "name": "Puppets",
-      "videos": 178,
-      "seconds": 139261,
-      "missingSeconds": 465539,
+      "videos": 177,
+      "seconds": 135995,
+      "missingSeconds": 468805,
       "ready": false,
       "duplicates": 0,
-      "added": 48
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "UUB0ABGbdSggBXLF0UdN4d5A",
+      "pages": 7
     },
     {
       "number": 125,
@@ -1253,7 +1624,10 @@
       "missingSeconds": 296931,
       "ready": false,
       "duplicates": 0,
-      "added": 0
+      "newVideos": 0,
+      "newSeconds": 0,
+      "playlistId": "PLbWPytS1GWJJJU4qwoOKi7x7sWfkWzY6U",
+      "pages": 3
     }
   ]
 }
