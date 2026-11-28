@@ -4,7 +4,7 @@ import LegalDocument from '../components/LegalDocument.vue'
 
 <template>
   <main>
-    <LegalDocument title="Privacy Policy" updated="5 October 2026">
+    <LegalDocument title="Privacy Policy" updated="28 November 2026">
       <p>
         1988.in is an always-on CRT-style television that plays publicly available YouTube
         videos. This Privacy Policy explains what information we access, collect, store, use, and
@@ -51,8 +51,25 @@ import LegalDocument from '../components/LegalDocument.vue'
         browser.
       </p>
       <p>
-        We do not collect your name, email address, payment details, or precise location. We do not
-        ask you to create an account with us.
+        Watching does not ask for your name, email address, payment details, or precise location,
+        and it does not ask you to create an account.
+      </p>
+
+      <h2>Letters to the station</h2>
+      <p>
+        The about page has a form for access feedback and for channel or programme requests.
+        Sending a note is optional. If you send one, we receive what you type: what got in the way,
+        a channel or programme name, a language, a link, the place you are watching from, your
+        name, and an email address if you want a reply. The form also sends the language and time
+        zone reported by your browser, and the page you sent it from. The server may see your IP
+        address only to limit repeated notes. The IP address is not stored with the note.
+      </p>
+      <p>
+        Notes are filed as issues in the GitHub repository configured for the station. If that
+        repository is public, the note is public, including an email address if you included one.
+        Do not send passwords, payment details, or anything you need to keep private. We use these
+        notes to fix access problems and to consider programmes people ask for. We do not sell them
+        or use them for advertising.
       </p>
 
       <h2>Channel analytics</h2>
@@ -168,8 +185,9 @@ import LegalDocument from '../components/LegalDocument.vue'
 
       <h2>Contact</h2>
       <p>
-        Questions or complaints about these privacy practices can be sent through the project’s
-        GitHub repository at
+        Questions or complaints about these privacy practices can be sent through the form on the
+        <RouterLink to="/contact#contact">about page</RouterLink>, or through the project’s GitHub
+        repository at
         <a
           href="https://github.com/tusharv/positive-player"
           rel="noopener noreferrer"

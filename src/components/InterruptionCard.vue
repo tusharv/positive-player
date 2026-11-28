@@ -17,6 +17,9 @@ const label = computed(() => {
     <div class="rule" aria-hidden="true" />
     <p class="hi">रुकावट के लिए खेद है</p>
     <p class="en">Sorry for the interruption</p>
+    <a class="report" :href="`/contact?kind=access&channel=${channelNumber}#contact`"
+      >Tell the station</a
+    >
     <p class="ch">{{ label }}</p>
   </div>
 </template>
@@ -55,6 +58,15 @@ const label = computed(() => {
   letter-spacing: 0.22em;
   text-transform: uppercase;
   opacity: 0.72;
+}
+
+.report {
+  margin-top: 1.25rem;
+  color: var(--crt-phosphor, #d7f5c8);
+  font-size: 0.68rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  text-underline-offset: 0.35em;
 }
 
 .ch {

@@ -230,6 +230,7 @@ const featured = featuredNames.flatMap((name) => {
       </div>
       <nav aria-label="Footer navigation">
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/contact#contact">Write in</RouterLink>
         <RouterLink to="/guide">Channel guide</RouterLink
         ><RouterLink to="/privacy">Privacy</RouterLink><RouterLink to="/terms">Terms</RouterLink
         ><RouterLink to="/remote">Phone remote</RouterLink>

@@ -172,7 +172,8 @@ function select(event: Event) {
       </ol>
       <p class="footnote">
         Times are shown in your local timezone. Programmes may change if a video becomes
-        unavailable.
+        unavailable. Missing a favourite, or it will not play where you are?
+        <RouterLink to="/contact?kind=channel#contact">Write to the station</RouterLink>.
       </p>
     </section>
   </main>

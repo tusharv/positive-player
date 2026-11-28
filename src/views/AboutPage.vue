@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import StationMail from '../components/StationMail.vue'
 
 const signal = ref(false)
 </script>
@@ -106,27 +107,19 @@ const signal = ref(false)
       </section>
 
       <section id="contact" class="contact" aria-labelledby="contact-title">
-        <div>
+        <div class="contact-copy">
           <p class="eyebrow">The lines are open</p>
           <h2 id="contact-title">Send a signal.</h2>
           <p>
-            Found a wonky channel? Have a programme in mind? Just want to say “arre, I remember
-            this”?
+            People watch this set all over the world. If the picture will not come in where you
+            are, say what happened. If there is a programme you want on the dial, name it.
           </p>
-          <p>Find Tushar through his website, or leave a note on GitHub about the project.</p>
-          <div class="contact-actions">
-            <a class="button" href="https://tusharv.in" target="_blank" rel="noopener noreferrer"
-              >Find Tushar ↗</a
-            >
-            <a
-              class="text-link"
-              href="https://github.com/tusharv/positive-player/issues"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Report a bug or share an idea ↗</a
-            >
-          </div>
+          <p>
+            A name and email are optional. Leave them blank if you only want the station to read
+            the note.
+          </p>
         </div>
+        <StationMail />
         <div class="postcard">
           <span class="stamp" aria-hidden="true">
             <span class="stamp-print">
@@ -481,23 +474,26 @@ h3 {
 .contact {
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
-  gap: 70px;
-  align-items: center;
+  gap: 36px 70px;
+  align-items: start;
   border-top: 3px double #a6adc0;
   scroll-margin-top: 24px;
 }
+.contact-copy {
+  grid-column: 1;
+  grid-row: 1;
+}
+.station-mail {
+  grid-column: 1;
+  grid-row: 2;
+  min-width: 0;
+}
+.contact .postcard {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
 .contact .eyebrow {
   color: var(--blue);
-}
-.contact-actions {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 24px;
-  margin-top: 28px;
-}
-.contact-actions .text-link {
-  font-size: 13px;
 }
 .postcard {
   min-height: 255px;
@@ -703,8 +699,14 @@ footer p {
   .contact {
     gap: 36px;
   }
+  .contact-copy,
+  .station-mail,
+  .contact .postcard {
+    grid-column: 1;
+    grid-row: auto;
+  }
   .postcard {
-    margin: 0 10px;
+    margin: 28px 10px 0;
   }
   footer {
     flex-direction: column;

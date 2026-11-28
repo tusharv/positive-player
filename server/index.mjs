@@ -6,14 +6,20 @@ import sirv from 'sirv'
 import { WebSocketServer } from 'ws'
 import { createSessionHub } from './sessionHub.mjs'
 import { serveWatchPage } from './watchPage.mjs'
+import { createFeedbackHandler, loadFeedbackEnv } from './feedback.mjs'
 
 export function createRemoteServer(options = {}) {
   const hub = createSessionHub(options)
+  const handleFeedback = createFeedbackHandler({ trustProxy: Boolean(options.trustProxy) })
   const serve = sirv(fileURLToPath(new URL('../dist', import.meta.url)), { single: true })
   const server = createServer((req, res) => {
     res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin')
     res.setHeader('X-Content-Type-Options', 'nosniff')
     const pathname = req.url?.split('?')[0]
+    if (pathname === '/api/feedback') {
+      void handleFeedback(req, res)
+      return
+    }
     if (pathname === '/watch' || pathname === '/watch/') {
       void serveWatchPage(req, res)
       return
@@ -102,6 +108,7 @@ export function createRemoteServer(options = {}) {
 }
 
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  loadFeedbackEnv()
   const app = createRemoteServer({
     publicOrigin: process.env.PUBLIC_ORIGIN,
     trustProxy: process.env.TRUST_PROXY === '1',

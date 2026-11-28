@@ -4,6 +4,9 @@
     "api/watch.mjs": {
       "includeFiles": "dist/share-pages/**"
     },
+    "api/feedback.mjs": {
+      "includeFiles": "src/lib/feedback.ts"
+    },
     "api/remote-ws.mjs": {
       "maxDuration": 300,
       "includeFiles": "{server/**,src/lib/remoteProtocol.ts,src/data/**}"

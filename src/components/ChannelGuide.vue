@@ -52,6 +52,11 @@ async function closeGuide() {
   launch.value?.focus({ preventScroll: true })
 }
 const search = ref('')
+const requestHref = computed(() => {
+  const programme = search.value.trim().slice(0, 120)
+  const query = programme ? `&programme=${encodeURIComponent(programme)}` : ''
+  return `/contact?kind=channel${query}#contact`
+})
 const tag = ref('')
 const tags = [...new Set(CHANNELS.flatMap((channel) => channel.tags))].sort()
 const matches = computed(() => {
@@ -143,6 +148,7 @@ function tune(number: number) {
       </button>
       <p v-if="!matches.length" class="empty">
         No channels found. Try another search or choose All tags.
+        <a :href="requestHref">Request this channel</a>
       </p>
     </div>
   </section>
@@ -292,6 +298,9 @@ small {
 .empty {
   line-height: 1.6;
   padding: 2rem 0;
+}
+.empty a {
+  color: var(--crt-phosphor);
 }
 :focus-visible {
   outline: 2px solid var(--crt-phosphor);

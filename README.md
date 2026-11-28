@@ -1,8 +1,14 @@
-# positive-player
+# 1988.in
 
 A CRT television for anyone done with reels. It plays YouTube in the browser, already in the middle of a programme, with the player controls hidden so there is nothing to skip. Change the channel, or stay with the picture. Volume lives on the glass.
 
-Live at [https://1988-in.vercel.app/](https://1988-in.vercel.app/).
+Live at [https://www.1988.in/](https://www.1988.in/).
+
+## Listener mail
+
+`/about` and `/contact` take two kinds of notes: the picture will not come in where someone is watching, or they want a channel or programme on the dial. The same form is linked from the home footer (**Write in**), the public guide (**Write to the station**), an empty channel search (**Request this channel**), and a playback interruption (**Tell the station**). A channel request needs a programme name. Every note needs a sentence. Empty required fields are highlighted in red, and a field clears its own highlight once it is filled in. An email or a link is checked only when someone enters one.
+
+`POST /api/feedback` files each accepted note as a GitHub issue. After it is sent, the form says thank you, shows what was submitted, and links to that issue. **Send another** starts a fresh note. Set `GITHUB_FEEDBACK_TOKEN` in `.env.local` to a fine-grained token with Issues read and write, and set `GITHUB_FEEDBACK_REPO` to `owner/name`. The station server reads that file when it starts. Use a private repository if notes should stay private. A public repository makes the note public, including an email address if the viewer left one. With no token, the form says the mailbox is closed and still links to GitHub. `npm start` serves the route, and `npm run dev` proxies it to the remote server on port 8787.
 
 ### Search indexing
 
@@ -41,8 +47,8 @@ Channel selections, confirmed playback starts, and deduplicated failures are ava
 
 Google’s YouTube API review needs public, no-login URLs. After you deploy, paste these into the API project:
 
-- Privacy Policy: `https://1988-in.vercel.app/privacy`
-- Terms of Service: `https://1988-in.vercel.app/terms`
+- Privacy Policy: `https://www.1988.in/privacy`
+- Terms of Service: `https://www.1988.in/terms`
 
 The power-on screen requires agreement to both, plus a link to the [YouTube Terms of Service](https://www.youtube.com/t/terms), before the Data API or IFrame Player run.
 
